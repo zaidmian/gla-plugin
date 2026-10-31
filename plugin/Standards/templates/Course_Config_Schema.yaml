@@ -1,0 +1,57 @@
+# course.yaml schema
+#
+# Every GLA course repo carries a course.yaml at its root. The shared skills in
+# Teaching/Skills (author-week, author-assessment, semester)
+# read it instead of carrying per-course copies, so there is nothing to keep in
+# sync. bootstrap-gla-course writes it from the interview and the Curriculum
+# repo's course file. Paths are relative to TEACHING_ROOT unless noted.
+#
+# Required keys are marked [required]. Everything else may be omitted.
+
+code: ICS3U                                   # [required] Ontario course code
+title: Introduction to Computer Science       # [required] ministry course title
+grade: 11                                     # [required] 9, 10, 11, or 12
+type: University Preparation                  # [required] Academic, Applied, De-streamed, Open,
+                                              #   University Preparation, College Preparation,
+                                              #   University/College Preparation, Workplace Preparation
+department: Computer Studies                  # [required] GLA department name
+curriculum_document: "The Ontario Curriculum, Grades 10 to 12: Computer Studies, 2008"  # [required]
+curriculum_file: Curriculum/docs/knowledge-graph/courses/ICS3U.md   # [required] the course's curriculum page
+prerequisite: None                            # ministry prerequisite wording, or None
+credit: 1.0
+hours: 110
+
+# Programming courses only. conventions_file names a file under Standards/style/.
+language: Java                                # null for a non-programming course
+conventions_file: Java_Conventions.md         # null for a non-programming course
+
+# Folder under master/ that holds Rehydration_Guide.md, Compression_Table.md,
+# and (optionally) the course's own Semester_Config_Template.yaml.
+rehydration_dir: 05_Rehydration               # [required]
+
+# Manifest for the semester skill's Google Docs step, relative to the course repo root.
+gdocs_manifest: gdocs_manifest.yaml           # default shown
+
+# Slide-deck palette, read by author-week when it builds decks from
+# Standards/decks/Slide_Deck_Template.html. glass is marine and coral (the
+# default when the key is absent). gla is the GLA print palette: maroon
+# #872634, gold #dabe81, grays from #272727. A gla deck sets
+# data-deck-theme="gla" on its <html> element.
+deck_theme: glass                             # glass or gla; default shown
+
+# The 2026 Growing Success final-mark model. Must agree with the matrix in
+# Standards/assessment/growing-success-summary.md and Grading_Conventions.md.
+# classroom + final_evaluation + attendance = 100; exam + culminating = final_evaluation.
+# Every course has a written exam unless its code falls in the summary's
+# exemption list; the skills check that list, there is no per-course switch.
+assessment:                                   # [required]
+  classroom: 65
+  final_evaluation: 25
+  attendance: 10
+  exam: 10
+  culminating: 15
+
+teacher: Br. Zaid                             # how the teacher is named in student-facing material
+teacher_formal: Zaid Mian                     # the formal name on official documents (unit plans,
+                                              #   course outlines, short and long term plans);
+                                              #   gla-plan-formatter reads it and confirms it

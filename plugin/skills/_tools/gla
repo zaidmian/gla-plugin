@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""gla: one entry point for the GLA course tools. Run from a course repo root.
+
+    gla <command> [args...]      (each command passes its args to the script below)
+    gla help                     this list
+
+The skills run it by path, `python3 <skill folder>/../_tools/gla <command>`,
+so nothing depends on gla being on PATH (_tools/link_skills.sh also links it
+into ~/.local/bin for the maintainer). It runs every script in Python's UTF-8
+mode, so files read the same on Windows as on a Mac.
+"""
+import os
+import subprocess
+import sys
+
+SKILLS = os.path.realpath(os.path.join(os.path.dirname(os.path.realpath(__file__)), ".."))
+
+COMMANDS = {
+    # course and instance checks
+    "check": ("_tools/check_course.py", "check a course repo (course.yaml, master, coverage, rubrics, tests)"),
+    "instance": ("_tools/check_instance.py", "check a semester instance against the rehydration rules"),
+    "paths": ("_tools/check_paths.py", "find stale path references under Teaching/"),
+    "features": ("_tools/features.py", "extract | render | check: feature availability YAML and the Style Guide table"),
+    # a new course
+    "course": ("bootstrap-gla-course/scripts/scaffold_course.py", "init CODE | check ANSWERS | build ANSWERS --dest DIR: scaffold a new course"),
+    # semester
+    "semester": ("semester/scripts/build_semester.py", "new CONFIG | refresh SEMESTER: the whole instance pipeline"),
+    "rehydrate": ("semester/scripts/rehydrate.py", "generate an instance's calendar and documents from a config"),
+    "gdocs": ("semester/scripts/convert_instance.py", "convert handouts to Google-Docs-ready .docx (verified)"),
+    "calendar": ("semester/scripts/build_calendar.py", "build the teacher calendar page for an instance"),
+    "audit": ("semester/scripts/audit_log.py", "audit the teaching log; print a config patch"),
+    # authoring
+    "week": ("author-week/scripts/scaffold_week.py", "scaffold a week's plan and file stubs"),
+    "deck": ("author-week/scripts/build_deck.py", "assemble, rebuild, extract or check a slide deck"),
+    "samples": ("author-week/scripts/run_samples.py", "compile and run code samples; check shown output"),
+    "assessment": ("author-assessment/scripts/scaffold_assessment.py", "scaffold a unit assignment or test"),
+    "test": ("author-assessment/scripts/check_test.py", "check a unit test folder"),
+    "rubric": ("gc-rubric/scripts/build_rubric.py", "build or check a Google Classroom rubric"),
+    "plan": ("gla-plan-formatter/scripts/build_plan.py", "render a GLA-branded planning document"),
+    # development
+    "md2docx": ("semester/scripts/md2docx.py", "convert one Markdown file to a Google-Docs-ready .docx"),
+    "backlog": ("_tools/backlog.py", "teaching-log notes that ask for a master change; --resolve one"),
+    # setup
+    "where": ("_tools/doctor.py", "print the folders this install reads (GLA_ROOT, Standards, Curriculum, Calendars)"),
+    "doctor": ("_tools/doctor.py", "check Python, its packages, and the tools the skills call"),
+    "setup": ("_tools/doctor.py", "doctor, then install the missing Python packages (--yes to skip the question)"),
+    # development
+    "evals": ("_tools/run_trigger_evals.py", "run the skills' trigger evals through Claude Code (needs a login)"),
+}
+
+
+def usage():
+    print(__doc__.strip().split("\n\n")[0] + "\n")
+    w = max(len(k) for k in COMMANDS)
+    for k, (path, what) in COMMANDS.items():
+        print("  %-*s  %s" % (w, k, what))
+    print("\n  %-*s  %s" % (w, "selftest", "run the Skills self-tests"))
+
+
+def main(argv):
+    if not sys.flags.utf8_mode:
+        # Windows reads files as cp1252 by default; every GLA file is UTF-8.
+        return subprocess.run([sys.executable, "-X", "utf8", os.path.realpath(__file__)] + argv).returncode
+    os.environ["PYTHONUTF8"] = "1"
+    if not argv or argv[0] in ("help", "-h", "--help"):
+        usage()
+        return 0
+    cmd, rest = argv[0], argv[1:]
+    if cmd == "selftest":
+        return subprocess.run([sys.executable, "-m", "unittest", "discover", "-s", os.path.join(SKILLS, "_tools", "tests")] + rest,
+                              cwd=SKILLS).returncode
+    if cmd not in COMMANDS:
+        print("gla: unknown command %r\n" % cmd)
+        usage()
+        return 2
+    if cmd in ("where", "doctor", "setup"):
+        rest = [cmd] + rest
+    return subprocess.run([sys.executable, os.path.join(SKILLS, COMMANDS[cmd][0])] + rest).returncode
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

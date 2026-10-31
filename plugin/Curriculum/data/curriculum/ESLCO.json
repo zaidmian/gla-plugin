@@ -1,0 +1,676 @@
+{
+  "code": "ESLCO",
+  "name": "English as a Second Language ESL Level 3",
+  "grades": [],
+  "levels": [
+    "3"
+  ],
+  "course_type": "Open",
+  "category": "",
+  "panel": "Secondary",
+  "subject": "English As a Second Language and English Literacy Development",
+  "subject_group": "English As a Second Language and English Literacy Development",
+  "description": "This course further extends students’ skills in listening, speaking, reading, and writing in English for a variety of everyday and academic purposes. Students will make short classroom oral presentations; read a variety of adapted and original texts in English; and write using a variety of text forms. As well, students will expand their academic vocabulary and their study skills to facilitate their transition to the mainstream school program. This course also introduces students to the rights and responsibilities inherent in Canadian citizenship, and to a variety of current Canadian issues.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/sec-esl-eld/courses/eslco",
+  "source_codename": "eslco__pdf___copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Listening and Speaking",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Developing Listening Comprehension",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the ability to understand, interpret, and evaluate spoken English for a variety of purposes",
+          "text_html": "<p>demonstrate the ability to understand, interpret, and evaluate spoken English for a variety of purposes</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "demonstrate comprehension of specific information in more detailed directions, instructions, and classroom presentations, with reduced contextual and visual support (e.g., construct or draw a model of an item based on a partner’s oral instructions; identify main ideas from news broadcasts; extract key concepts from audio webcasts and library dial-a-story services; take point-form notes on main ideas from classroom oral presentations using an outline or graphic organizer)",
+              "text_html": "<p>demonstrate <a data-item-id=\"66486e52-6ed9-4fd1-bb80-b090361880be\" href=\"\">comprehension</a> of specific information in more detailed directions, instructions, and classroom presentations, with reduced contextual and visual support <em>(e.g., construct or draw a model of an item based on a partner’s oral instructions; identify main ideas from news broadcasts; extract key concepts from audio webcasts and library dial-a-story services; take point-form notes on main ideas from classroom oral presentations using an outline or graphic organizer)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How did the use of a graphic organizer help you to listen for and understand information from the presentation?",
+                  "text_html": "<ul>\n  <li>How did the use of a <a data-item-id=\"4071470e-093f-4738-a8ab-cc105e4ac191\" href=\"\">graphic organizer</a> help you to listen for and understand information from the presentation?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "demonstrate understanding of spoken English on familiar and content-area topics in a variety of interactive situations (e.g., conduct a survey of classmates about reading preferences in English and in their first language; participate in a small-group place-mat activity to reach agreement about the accomplishments of Alexander Graham Bell; show understanding during discussions in a literature circle by contributing relevant questions)",
+              "text_html": "<p>demonstrate understanding of spoken English on familiar and content-area topics in a variety of interactive situations <em>(e.g., conduct a survey of classmates about reading preferences in English and in their first language; participate in a small-group place-mat activity to reach agreement about the accomplishments of Alexander Graham Bell; show understanding during discussions in a literature circle by contributing relevant questions)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Developing Fluency in Speaking",
+          "describer": "By the end of this course, students will:",
+          "text": "use speaking skills and strategies to communicate in English for a variety of classroom and social purposes",
+          "text_html": "<p>use speaking skills and strategies to communicate in English for a variety of classroom and social purposes</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "engage in spoken interactions on personal and content-area topics (e.g., contribute information in a jigsaw group discussion on current events; share ideas in a literature circle; give feedback to a classmate in a peer-assessment activity)",
+              "text_html": "<p>engage in spoken interactions on personal and content-area topics <em>(e.g., contribute information in a </em><a data-item-id=\"bdafc7a3-0f4b-4b2e-ab4e-8a0b91b495bc\" href=\"\"><em>jigsaw</em></a><em> group discussion on current events; share ideas in a </em><a data-item-id=\"ff50b046-94c8-418b-9dab-59943f27c493\" href=\"\"><em>literature circle</em></a><em>; give feedback to a classmate in a peer-assessment activity)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When you are going to participate in a discussion, what kind of preparation do you find most helpful?",
+                  "text_html": "<ul>\n  <li>When you are going to participate in a discussion, what kind of preparation do you find most helpful?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "use a number of conversational expressions to negotiate spoken interactions (e.g., take turns speaking by using expressions such as “What do you think about that?”, “What’s your opinion?”, “It’s  _________’s turn now”, “I’d like to add…”; indicate understanding and sympathy with expressions such as “Oh no!”, “That’s too bad”, “I’m sorry to hear that”; ask for clarification with expressions such as “I’m not sure I understand”, “Would you please repeat that?”, “Pardon?”)",
+              "text_html": "<p>use a number of conversational expressions to negotiate spoken interactions <em>(e.g., take turns speaking by using expressions such as “What do you think about that?”, “What’s your opinion?”, “It’s&nbsp;&nbsp;_________’s turn now”, “I’d like to add…”; indicate understanding and sympathy with expressions such as “Oh no!”, “That’s too bad”, “I’m sorry to hear that”; ask for clarification with expressions such as “I’m not sure I understand”, “Would you please repeat that?”, “Pardon?”)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "present ideas and information orally for academic purposes in supported situations (e.g., make short oral presentations on familiar topics using appropriate elements of a classroom presentation format such as an introduction, question-and-answer exchange, and conclusion; explain the points of view of different characters in a novel using a graphic organizer as a guide)",
+              "text_html": "<p>present ideas and information orally for academic purposes in supported situations <em>(e.g., make short oral presentations on familiar topics using appropriate elements of a classroom presentation format such as an introduction, question-and-answer exchange, and conclusion; explain the points of view of different characters in a novel using a graphic organizer as a guide)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Developing Accuracy in Speaking",
+          "describer": "By the end of this course, students will:",
+          "text": "use correctly the language structures appropriate for this level to communicate orally in English",
+          "text_html": "<p>use correctly the language structures appropriate for this level to communicate orally in English</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "use correctly the grammatical structures of spoken English appropriate for this level (see the Language Reference Chart for ESL Level 3)",
+              "text_html": "<p>use correctly the grammatical structures of spoken English appropriate for this level <em>(see the </em><a href=\"/en/curriculum/sec-esl-eld/grades/eslco/language-reference-chart-eslco\"><em>Language Reference Chart for ESL Level 3</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Use big to compare a car and a skateboard. Use useful to compare two objects in the classroom. Why are the comparative forms different for the two adjectives?",
+                  "text_html": "<ul>\n  <li>Use <strong>big </strong>to compare a car and a skateboard. Use <strong>useful </strong>to compare two objects in the classroom. Why are the comparative forms different for the two adjectives?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "use appropriately a number of pronunciation, stress, rhythm, and intonation patterns of spoken English to communicate meaning accurately (e.g., change intonation patterns in tag questions to indicate a question or confirmation; move syllable stress and reduce vowels in different words in a word family [photograph, photography, photographic])",
+              "text_html": "<p>use appropriately a number of pronunciation, stress, rhythm, and intonation patterns of spoken English to communicate meaning accurately <em>(e.g., change intonation patterns in tag questions to indicate a question or confirmation; move syllable </em><a data-item-id=\"96a32ac1-fcd6-4732-97ee-59942871015d\" href=\"\"><em>stress</em></a><em> and reduce vowels in different words in a word family [photograph, photography, photographic])</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "use a number of circumlocution, clarification, and repair strategies to bridge gaps in spoken communication (e.g., use a simple word meaning something close to the intended concept and invite feedback; define the features of something concrete for which they do not know or remember the word)",
+              "text_html": "<p>use a number of <a data-item-id=\"84e7f502-f43e-4650-93b3-b93bd0b9bcc8\" href=\"\">circumlocution</a>, clarification, and repair strategies to bridge gaps in spoken communication <em>(e.g., use a simple word meaning something close to the intended concept and invite feedback; define the features of something concrete for which they do not know or remember the word)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies do you use (or what do you do) when you don’t know the English word for an object or concept?",
+                  "text_html": "<ul>\n  <li>What strategies do you use (or what do you do) when you don’t know the English word for an object or concept?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reading",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Reading for Meaning",
+          "describer": "By the end of this course, students will:",
+          "text": "read and demonstrate understanding of a variety of texts for different purposes",
+          "text_html": "<p>read and demonstrate understanding of a variety of texts for different purposes</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "read a variety of adapted and authentic fictional, informational, and graphic texts (e.g., myths and legends from diverse cultures, readers for a specific level, short stories, short novels, poetry, newspaper articles, brochures, textbook excerpts, informational web pages)",
+              "text_html": "<p>read a variety of adapted and authentic fictional,<a data-item-id=\"4c8077ad-2337-4694-a637-6e1edb2b3005\" href=\"\"> informational</a>, and graphic texts <em>(e.g., myths and legends from diverse </em><a data-item-id=\"4b373335-f535-4a9a-bc70-da93cc709668\" href=\"\"><em>cultures</em></a><em>, readers for a specific level, short stories, short novels, poetry, newspaper articles, brochures, textbook excerpts, informational web pages)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "demonstrate an understanding of adapted and authentic texts in a variety of ways (e.g., complete an outline of an article through a jigsaw reading group process; complete a graphic organizer showing the causes and effects of an event described in a literary or informational text; maintain a learning log while reading a text)",
+              "text_html": "<p>demonstrate an understanding of adapted and <a data-item-id=\"14aaec94-2359-48e9-a22d-401ad573cb3b\" href=\"\">authentic texts</a> in a variety of ways <em>(e.g., complete an outline of an article through a jigsaw reading group process; complete a graphic organizer showing the causes and effects of an event described in a </em><a data-item-id=\"0b787a3d-7ef0-4f0f-abde-33775b216ff7\" href=\"\"><em>literary</em></a><em> or informational text; maintain a </em><a data-item-id=\"dcff4dfc-3204-4c09-9b9c-4f65ac375ba3\" href=\"\"><em>learning log</em></a><em> while reading a text)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies did you use (or what did you do) during the jigsaw reading activity to make sure that everyone in your home group understood the entire article?",
+                  "text_html": "<ul>\n  <li>What strategies did you use (or what did you do) during the jigsaw reading activity to make sure that everyone in your home group understood the entire article?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "respond to adapted and authentic texts in a variety of ways (e.g., identify and discuss story elements in a literature study circle; write short book reports; discuss personal connections with specific passages or events in a story or book)",
+              "text_html": "<p>respond to adapted and authentic texts in a variety of ways <em>(e.g., identify and discuss story elements in a literature study circle; write short book reports; discuss personal connections with specific passages or events in a story or book)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why do you think the main character in the story made that decision?",
+                  "text_html": "<ul>\n  <li>Why do you think the main character in the story made that decision?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "identify the characteristics of a variety of text forms (e.g., salutations and closings in personal and business letters; short forms in e-mail communications; plot and character development in short stories and novels)",
+              "text_html": "<p>identify the characteristics of a variety of text forms <em>(e.g., salutations and closings in personal and business letters; short forms in e-mail communications; plot and character development in short stories and novels)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Give some examples of short forms or graphics you would use in an e-mail. Write an e-mail to a partner using some of these examples.",
+                  "text_html": "<ul>\n  <li>Give some examples of short forms or graphics you would use in an e-mail. Write an e-mail to a partner using some of these examples.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.5",
+              "text": "identify a variety of literary or stylistic devices in short stories, poems, and novels, and describe their function (e.g., simile, metaphor, personification, foreshadowing)",
+              "text_html": "<p>identify a variety of <a data-item-id=\"1d516098-4922-4b50-9e35-6297ea9c5cac\" href=\"\">literary</a> or stylistic devices in short stories, poems, and novels, and describe their function <em>(e.g., simile, metaphor, personification, foreshadowing)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Using Reading Comprehension Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "use a variety of reading strategies throughout the reading process to extract meaning from texts",
+          "text_html": "<p>use a variety of reading strategies throughout the reading process to extract meaning from texts</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "use a variety of reading comprehension strategies before, during, and after reading to understand texts (e.g., activate prior knowledge with a K-W-L chart or anticipation guide; scan text for specific information; make predictions based on knowledge of similar texts; identify important ideas to remember)",
+              "text_html": "<p>use a variety of reading comprehension strategies before, during, and after reading to understand texts <em>(e.g., activate prior knowledge with a </em><a data-item-id=\"86557d42-2dd3-4aa7-b795-6ec6e0c1448e\" href=\"\"><em>K-W-L</em></a><em> chart or anticipation guide; scan text for specific information; make predictions based on knowledge of similar texts; identify important ideas to remember)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What else can you do if reading on or rereading does not clarify the meaning?",
+                  "text_html": "<ul>\n  <li>What else can you do if reading on or rereading does not clarify the meaning?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "identify specific features and/or sections of content-area texts and use them to locate information and aid comprehension (e.g., headings and subheadings, margin notes, sidebars, chapter summaries, illustrated figures, tables and charts, tables of contents, indexes, glossaries, appendices, menus, task/toolbars, hyperlinks)",
+              "text_html": "<p>identify specific features and/or sections of content-area texts and use them to locate information and aid comprehension <em>(e.g., headings and subheadings, margin notes, sidebars, chapter summaries, illustrated figures, tables and charts, tables of contents, indexes, glossaries, appendices, menus, task/toolbars, hyperlinks)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What features in this textbook help you to locate information?",
+                  "text_html": "<ul>\n  <li>What features in this textbook help you to locate information?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "identify a number of connecting devices and transition words and phrases that are used to show relationships among ideas in texts (e.g., sequence, comparison, cause and effect)",
+              "text_html": "<p>identify a number of connecting devices and transition words and phrases that are used to show relationships among ideas in texts <em>(e.g., sequence, comparison, cause and effect)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "demonstrate an understanding of the grammatical structures of English used in texts appropriate for this level (see the Language Reference Chart for ESL Level 3)",
+              "text_html": "<p>demonstrate an understanding of the grammatical structures of English used in texts appropriate for this level <em>(see the </em><a href=\"/en/curriculum/sec-esl-eld/grades/eslco/language-reference-chart-eslco\"><em>Language Reference Chart for ESL Level 3</em></a><em>)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Developing Vocabulary",
+          "describer": "By the end of this course, students will:",
+          "text": "use a variety of strategies to build vocabulary",
+          "text_html": "<p>use a variety of strategies to build vocabulary</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "use a variety of vocabulary acquisition strategies to build vocabulary (e.g., maintain a word study journal; use memory and visualization strategies to learn new words; construct a semantic web; as a class, compile a multilingual glossary of content-area terms; use knowledge of cognates to deduce the meaning of unfamiliar words)",
+              "text_html": "<p>use a variety of vocabulary acquisition strategies to build vocabulary <em>(e.g., maintain a word study journal; use memory and visualization strategies to learn new words; construct a semantic web; as a class, compile a multilingual glossary of content-area terms; use knowledge of </em><a data-item-id=\"2a9439f5-8709-4338-a761-8881ec828ea1\" href=\"\"><em>cognates</em></a><em> to deduce the meaning of unfamiliar words)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "use knowledge of patterns of word structure and derivation to determine the meaning of unfamiliar words (e.g., recognize how suffixes differentiate parts of speech [origin/original/originate]; infer meaning from word order in a sentence)",
+              "text_html": "<p>use knowledge of patterns of word structure and derivation to determine the meaning of unfamiliar words <em>(e.g., recognize how suffixes differentiate parts of speech [origin/original/originate]; infer meaning from word order in a sentence)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What information does the suffix on this word give you? How can you use this information to predict the meaning of the word?",
+                  "text_html": "<ul>\n  <li>What information does the suffix on this word give you? How can you use this information to predict the meaning of the word?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "use a variety of resources to determine and/or confirm the meaning of unfamiliar words (e.g., refer to an electronic or online bilingual dictionary; consult a dictionary for English language learners; use a classroom word wall to study how prefixes and suffixes extend word families; collaborate with a group to learn unfamiliar vocabulary)",
+              "text_html": "<p>use a variety of resources to determine and/or confirm the meaning of unfamiliar words <em>(e.g., refer to an electronic or online </em><a data-item-id=\"69b0c07a-186e-4625-94e4-846cb8303507\" href=\"\"><em>bilingual dictionary</em></a><em>; consult a dictionary for English language learners; use a classroom </em><a data-item-id=\"801ad8c0-ea7a-44e8-b572-0cec871645fc\" href=\"\"><em>word wall</em></a><em> to study how prefixes and suffixes extend word families; collaborate with a group to learn unfamiliar vocabulary)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B4",
+          "title": "Developing Research Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "locate and extract relevant information from written and graphic texts for a variety of purposes",
+          "text_html": "<p>locate and extract relevant information from written and graphic texts for a variety of purposes</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B4.1",
+              "text": "locate information on classroom topics from appropriate research materials selected in consultation with the teacher-librarian, and acknowledge their sources (e.g., use encyclopaedias and other informational texts to research contributions of Aboriginal and immigrant groups to Canadian society; use online databases to gather information about postsecondary career pathways)",
+              "text_html": "<p>locate information on classroom topics from appropriate research materials selected in consultation with the teacher-librarian, and acknowledge their sources <em>(e.g., use encyclopaedias and other informational texts to research contributions of </em><a data-item-id=\"a0b6a29e-c615-4b82-8d49-2233a2d203d8\" href=\"\"><em>Aboriginal</em></a><em> and immigrant groups to Canadian society; use online databases to gather information about postsecondary career pathways)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B4.2",
+              "text": "extract information from a variety of sources and organize it using appropriate outlines and graphic organizers (e.g., read a short text and complete a pie graph showing the contributions of various industries to Canada’s GNP; complete a Venn diagram showing the similarities and differences between two folk tales from different cultures)",
+              "text_html": "<p>extract information from a variety of sources and organize it using appropriate outlines and graphic organizers <em>(e.g., read a short text and complete a pie graph showing the contributions of various industries to Canada’s GNP; complete a </em><a data-item-id=\"9e0d54c8-74bd-40d7-809f-5482b4f6c2c3\" href=\"\"><em>Venn diagram</em></a><em> showing the similarities and differences between two folk tales from different cultures)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B4.3",
+              "text": "identify sources of information used and evaluate them for reliability and point of view (e.g., online newspapers, community organization publications, personal Internet blogs, free local tabloids, school- and public-library websites)",
+              "text_html": "<p>identify sources of information used and evaluate them for reliability and point of view <em>(e.g., online newspapers, community organization publications, personal Internet </em><a data-item-id=\"578c8e59-5f11-4f55-a86d-1c6e2898dd95\" href=\"\"><em>blogs</em></a><em>, free local tabloids, school- and public-library websites)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Writing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Writing for Different Purposes",
+          "describer": "By the end of this course, students will:",
+          "text": "write in a variety of forms for different purposes and audiences",
+          "text_html": "<p>write in a variety of forms for different purposes and audiences</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "write more complex texts to convey information and ideas for academic purposes using a variety of forms (e.g., compose an information paragraph about the contribution of Chinese immigrants to the building of Canada’s transcontinental railroad; summarize a chapter in a novel; write a bilingual, illustrated folk tale in their first language and English; write a short piece of poetry or prose to contribute to a student literary anthology)",
+              "text_html": "<p>write more complex texts to convey information and ideas for academic purposes using a variety of forms <em>(e.g., compose an information paragraph about the contribution of Chinese immigrants to the building of Canada’s transcontinental railroad; summarize a chapter in a novel; write a </em><a data-item-id=\"808e88b4-9746-42b4-9c5e-d126306f1b31\" href=\"\"><em>bilingual</em></a><em>, illustrated folk tale in their first language and English; write a short piece of poetry or prose to contribute to a student literary anthology)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "write more complex texts to express ideas and feelings on personal topics using a variety of forms (e.g., compose a narrative about a personal journey; write a poem following a model; depict an imaginary conversation between two characters in a novel; set down the words to a favourite song in their first language and provide a translation with words and pictures; write a letter to a friend describing school life in Ontario)",
+              "text_html": "<p>write more complex texts to express ideas and feelings on personal topics using a variety of forms <em>(e.g., compose a narrative about a personal journey; write a poem following a model; depict an imaginary conversation between two characters in a novel; set down the words to a favourite song in their first language and provide a translation with words and pictures; write a letter to a friend describing school life in Ontario)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "write more complex texts to communicate information for official or personal purposes using a variety of forms (e.g., write a covering letter for a job application using an appropriate salutation and closing; write a letter of complaint to a business; compile a set of instructions for completing a “do-it-yourself” project)",
+              "text_html": "<p>write more complex texts to communicate information for official or personal purposes using a variety of forms <em>(e.g., write a covering letter for a job application using an appropriate salutation and closing; write a letter of complaint to a business; compile a set of instructions for completing a “do-it-yourself” project)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Organizing Ideas in Writing",
+          "describer": "By the end of this course, students will:",
+          "text": "organize ideas coherently in writing",
+          "text_html": "<p>organize ideas <a data-item-id=\"4b6947b8-76aa-480b-b6d5-3cab74f4bae3\" href=\"\">coherently</a> in writing</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "organize information relating to a central idea in a series of several linked paragraphs (e.g., a character sketch based on a character in a novel, a brief opinion piece based on a model, a short informational report)",
+              "text_html": "<p>organize information relating to a central idea in a series of several linked paragraphs <em>(e.g., a character sketch based on a character in a novel, a brief opinion piece based on a model, a short informational report)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "use connecting devices and transition words and phrases to show relationships between ideas and information in linked sentences and paragraphs (e.g., use “for example”, “another” to add details and information; use “therefore”, “as a result of” to identify cause and effect; use “on the other hand”, “similarly”, “both … and” to indicate comparison and contrast)",
+              "text_html": "<p>use connecting devices and transition words and phrases to show relationships between ideas and information in linked sentences and paragraphs <em>(e.g., use “for example”, “another” to add details and information; use “therefore”, “as a result of” to identify cause and effect; use “on the other hand”, “similarly”, “both … and” to indicate comparison and contrast)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What other transition words or phrases could you use to show comparison and contrast?",
+                  "text_html": "<ul>\n  <li>What other transition words or phrases could you use to show comparison and contrast?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Developing Accuracy in Writing",
+          "describer": "By the end of this course, students will:",
+          "text": "use correctly the conventions of written English appropriate for this level, including grammar, usage, spelling, and punctuation",
+          "text_html": "<p>use correctly the conventions of written English appropriate for this level, including grammar, usage, spelling, and punctuation</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "use correctly the grammatical structures and conventions of written English appropriate for this level (see the Language Reference Chart for ESL Level 3)",
+              "text_html": "<p>use correctly the grammatical structures and conventions of written English appropriate for this level <em>(see the </em><a href=\"/en/curriculum/sec-esl-eld/grades/eslco/language-reference-chart-eslco\"><em>Language Reference Chart for ESL Level 3</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why did you use the present perfect tense in this sentence?",
+                  "text_html": "<ul>\n  <li>Why did you use the present perfect tense in this sentence?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "use a variety of spelling strategies to spell words accurately (e.g., divide words into syllables; use familiar logographic symbols [@, &, $, ¢, ™]; apply knowledge of rules for forming plurals, contractions, and possessives; confirm spellings in learner dictionaries)",
+              "text_html": "<p>use a variety of spelling strategies to spell words accurately <em>(e.g., divide words into syllables; use familiar logographic symbols [@, &amp;, $, ¢, ™]; apply knowledge of rules for forming plurals, contractions, and possessives; confirm spellings in learner dictionaries)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C4",
+          "title": "Using the Writing Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the stages of the writing process",
+          "text_html": "<p>use the stages of the writing process</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C4.1",
+              "text": "use a variety of pre-writing strategies to generate vocabulary and develop and organize ideas for writing (e.g., use guiding questions to identify the purpose and audience for a piece of writing; engage in timed writing activities; organize information from reading or research using a Venn diagram or flow chart; use English or their first language to develop ideas)",
+              "text_html": "<p>use a variety of pre-writing strategies to generate vocabulary and develop and organize ideas for writing <em>(e.g., use guiding questions to identify the purpose and </em><a data-item-id=\"976cd8f3-816e-4d1d-8bf3-c70005133370\" href=\"\"><em>audience</em></a><em> for a piece of writing; engage in timed writing activities; organize information from reading or research using a Venn diagram or </em><a data-item-id=\"757090e7-8c34-4c91-8d8d-5ac5c43f45b5\" href=\"\"><em>flow chart</em></a><em>; use English or their first language to develop ideas)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C4.2",
+              "text": "produce draft pieces of writing using a number of strategies and models (e.g., a teacher-modelled think-aloud process; templates or exemplars; information organizers such as webs, charts, and tables)",
+              "text_html": "<p>produce draft pieces of writing using a number of strategies and models <em>(e.g., a teacher-modelled </em><a data-item-id=\"dcd8cc9f-c401-451b-90b2-7d64ef10c962\" href=\"\"><em>think-aloud</em></a><em> process; templates or exemplars; information organizers such as webs, charts, and tables)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C4.3",
+              "text": "revise, edit, and proofread drafts using a variety of teacher-directed and independent strategies (e.g., use a posted list of guiding questions for revision; read work in an author’s circle to receive constructive comments; use word lists and other sources to extend and enrich word choice)",
+              "text_html": "<p>revise, edit, and proofread drafts using a variety of teacher-directed and independent strategies <em>(e.g., use a posted list of guiding questions for revision; read work in an author’s circle to receive constructive comments; use word lists and other sources to extend and enrich word choice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What similar words or phrases could you use to bring more variety to your writing?",
+                  "text_html": "<ul>\n  <li>What similar words or phrases could you use to bring more variety to your writing?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C4.4",
+              "text": "use a variety of elements of effective presentation to publish a final product (e.g., point-form layout to summarize key ideas; bolding, italics, or underlining for emphasis; different text layouts to suit different forms of writing)",
+              "text_html": "<p>use a variety of elements of effective presentation to publish a final product <em>(e.g., point-form layout to summarize key ideas; bolding, italics, or underlining for emphasis; different text layouts to suit different forms of writing)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C4.5",
+              "text": "identify and use a variety of writing strategies before, during, and after writing, and reflect after writing on those they found most helpful (e.g., choose appropriate graphic organizers from a list to order ideas for specific writing purposes)",
+              "text_html": "<p>identify and use a variety of writing strategies before, during, and after writing, and reflect after writing on those they found most helpful <em>(e.g., choose appropriate graphic organizers from a list to order ideas for specific writing purposes)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which graphic organizers are most helpful in organizing ideas for this particular piece of writing?",
+                  "text_html": "<ul>\n  <li>Which graphic organizers are most helpful in organizing ideas for this particular piece of writing?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Socio-Cultural Competence and Media Literacy",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Using English in Socially and Culturally Appropriate Ways",
+          "describer": "By the end of this course, students will:",
+          "text": "use English and non-verbal communication strategies appropriately in a variety of social contexts",
+          "text_html": "<p>use English and non-verbal communication strategies appropriately in a variety of social contexts</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "determine and use the appropriate language register in a variety of social and classroom contexts (e.g., use appropriate styles of greeting and apology to peers or teachers in classroom role-plays; choose appropriate phrasing in a simulated telephone conversation making an appointment with a friend or school counsellor or accepting or declining an invitation from a close friend or a new acquaintance)",
+              "text_html": "<p>determine and use the appropriate language register in a variety of social and classroom contexts <em>(e.g., use appropriate styles of greeting and apology to peers or teachers in classroom role-plays; choose appropriate phrasing in a simulated telephone conversation making an appointment with a friend or school counsellor or accepting or declining an invitation from a close friend or a new acquaintance)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the differences between making a request to a good friend and making a request to your supervisor at work?",
+                  "text_html": "<ul>\n  <li>What are the differences between making a request to a good friend and making a request to your supervisor at work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "identify non-verbal communication cues that are suited to specific social, academic, and workplace contexts (e.g., greeting a friend with a “high-five” versus shaking hands with an interviewer; maintaining more personal space in a workplace than at a social gathering)",
+              "text_html": "<p>identify <a data-item-id=\"47dca5a3-6df5-4848-8555-004266968993\" href=\"\">non-verbal communication cues</a> that are suited to specific social, academic, and workplace contexts <em>(e.g., greeting a friend with a “high-five” versus shaking hands with an interviewer; maintaining more personal space in a workplace than at a social gathering)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Developing Awareness of Canada, Citizenship, and Diversity",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the rights and responsibilities of Canadian citizenship, and of the contributions of diverse groups to Canadian society",
+          "text_html": "<p>demonstrate an understanding of the rights and responsibilities of Canadian citizenship, and of the contributions of diverse groups to Canadian society</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "explain the relationship between some important aspects of geography and history and current Canadian issues (e.g., the effect of rivers on transportation routes and settlement patterns; the quest for self-government of Aboriginal peoples)",
+              "text_html": "<p>explain the relationship between some important aspects of geography and history and current Canadian issues <em>(e.g., the effect of rivers on transportation routes and settlement patterns; the quest for self-government of Aboriginal peoples)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "demonstrate knowledge of a variety of key facts about Canadian citizenship, levels of government in Canada, and current Canadian issues (e.g., identify the steps in the application process for Canadian citizenship; identify some rights and responsibilities of Canadian citizenship such as free speech, equal protection under the law, voting, and participation on a jury; research issues such as the sustainable use of natural resources, provincial elections, or the legalization of same-sex unions, and participate in small- and large-group discussions about them)",
+              "text_html": "<p>demonstrate knowledge of a variety of key facts about Canadian citizenship, levels of government in Canada, and current Canadian issues <em>(e.g., identify the steps in the application process for Canadian citizenship; identify some rights and responsibilities of Canadian citizenship such as free speech, equal protection under the law, voting, and participation on a jury; research issues such as the sustainable use of natural resources, provincial elections, or the legalization of same-sex unions, and participate in small- and large-group discussions about them)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What differences do you see between the system of government in Canada and that of your home country?",
+                  "text_html": "<ul>\n  <li>What differences do you see between the system of government in Canada and that of your home country?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "compare and contrast the traditions and behavioural norms of a number of cultural communities in Canada, including Aboriginal communities (e.g., gender roles, family structures, and days of significance in different cultural groups)",
+              "text_html": "<p>compare and contrast the traditions and behavioural norms of a number of cultural communities in Canada, including Aboriginal communities <em>(e.g., gender roles, family structures, and days of significance in different cultural groups)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does having knowledge about different groups help us as a society?",
+                  "text_html": "<ul>\n  <li>How does having knowledge about different groups help us as a society?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Adapting to School Life in Ontario",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge of and adaptation to the Ontario education system",
+          "text_html": "<p>demonstrate knowledge of and adaptation to the Ontario education system</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "compare a variety of aspects of the Ontario secondary school system to aspects of the school system in other countries (e.g., discipline expectations and consequences; the role of teachers; parental involvement in school life and changes after students turn eighteen; the focus on process as well as product in classroom tasks)",
+              "text_html": "<p>compare a variety of aspects of the Ontario secondary school system to aspects of the school system in other countries <em>(e.g., discipline expectations and consequences; the role of teachers; parental involvement in school life and changes after students turn eighteen; the focus on process as well as product in classroom tasks)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are some of the learning activities in Ontario classrooms similar to and/or different from those in your home country?",
+                  "text_html": "<ul>\n  <li>How are some of the learning activities in Ontario classrooms similar to and/or different from those in your home country?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "identify and use the most appropriate study strategies for specific learning tasks (e.g., use graphic organizers to categorize information; highlight key information for a summary; create a personal mnemonic device to remember steps in a procedure)",
+              "text_html": "<p>identify and use the most appropriate study strategies for specific learning tasks <em>(e.g., use graphic organizers to categorize information; highlight key information for a summary; create a personal </em><a data-item-id=\"1bc64ef2-dc8d-4d92-ba0e-a80883b60abb\" href=\"\"><em>mnemonic device</em></a><em> to remember steps in a procedure)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "respond appropriately and respectfully to views that differ from their own in pair work, small groups, and whole-class discussions (e.g., disagree politely in group discussions; avoid making generalizations and/or negative comments about the behaviour or characteristics of groups or individuals)",
+              "text_html": "<p>respond appropriately and respectfully to views that differ from their own in pair work, small groups, and whole-class discussions <em>(e.g., disagree politely in group discussions; avoid making generalizations and/or negative comments about the behaviour or characteristics of groups or individuals)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.4",
+              "text": "identify school and community resources relevant to their learning needs and explain how to make use of them (e.g., summer school, night school, and virtual school classes; international language classes; the Independent Learning Centre; career counselling centres; community centres; school clubs and sports teams)",
+              "text_html": "<p>identify school and community resources relevant to their learning needs and explain how to make use of them <em>(e.g., summer school, night school, and virtual school classes; international language classes; the Independent Learning Centre; career counselling centres; community centres; school clubs and sports teams)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What resources are available in the school and community that would help you to continue to develop your first language?",
+                  "text_html": "<ul>\n  <li>What resources are available in the school and community that would help you to continue to develop your first language?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D4",
+          "title": "Developing Media Knowledge and Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of, interpret, and create a variety of media texts",
+          "text_html": "<p>demonstrate an understanding of, interpret, and create a variety of media texts</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D4.1",
+              "text": "view, read, and listen to media texts to compare the information available on a subject or issue in different sources (e.g., compare television, newspaper, and Internet accounts of the same event; compare advertising from different companies or stores; view the Aboriginal Peoples Television Network [APTN] and compare Aboriginal perspectives with perspectives in other sources)",
+              "text_html": "<p>view, read, and listen to media texts to compare the information available on a subject or issue in different sources <em>(e.g., compare television, newspaper, and Internet accounts of the same event; compare advertising from different companies or stores; view the Aboriginal Peoples Television Network [APTN] and compare Aboriginal perspectives with perspectives in other sources)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D4.2",
+              "text": "analyse a variety of advertisements to identify language and other features that are designed to appeal to specific audiences (e.g., use of repetition, synonyms, non-standard spellings, descriptive words, youth-oriented slang and idioms; use of particular types of music or visuals)",
+              "text_html": "<p>analyse a variety of advertisements to identify language and other features that are designed to appeal to specific audiences <em>(e.g., use of repetition, synonyms, non-standard spellings, descriptive words, youth-oriented slang and </em><a data-item-id=\"35a05cea-690c-4fd0-97c0-a0076c2adbb6\" href=\"\"><em>idioms</em></a><em>; use of particular types of music or visuals)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which consumer group is targeted in this advertisement? How do you know?",
+                  "text_html": "<ul>\n  <li>Which consumer group is targeted in this advertisement? How do you know?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D4.3",
+              "text": "create media texts using language and features appropriate for the intended audience (e.g., an advertising campaign for Student Council elections, a video promoting healthy lifestyle choices, a website for students about strategies for finding summer employment)",
+              "text_html": "<p>create media texts using language and features appropriate for the intended audience <em>(e.g., an advertising campaign for Student Council elections, a video promoting healthy lifestyle choices, a website for students about strategies for finding summer employment)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

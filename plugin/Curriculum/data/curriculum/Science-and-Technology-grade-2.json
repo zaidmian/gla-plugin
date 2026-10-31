@@ -1,0 +1,467 @@
+{
+  "code": "",
+  "name": "Science and Technology",
+  "grades": [
+    "2"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Science and Technology",
+  "subject_group": "Science and Technology",
+  "description": "Here you will find the expectations and learning for the five areas of study for Grade 2.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology/courses/grade-2",
+  "source_codename": "sci___tech___grade_2",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "STEM Skills and Connections",
+      "describer": "Throughout Grade 2, in connection with the learning in the Life Systems, Matter and Energy, Structures and Mechanisms, and Earth and Space Systems strands, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "STEM Investigation and Communication Skills",
+          "describer": "Throughout Grade 2, in connection with the learning in the other strands, students will:",
+          "text": "use a scientific research process, a scientific experimentation process, and an engineering design process to conduct investigations, following appropriate health and safety procedures",
+          "text_html": "<p>use a <a href=\"/en/curriculum/science-technology/context/processes#scientific-processes\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">scientific research process, a scientific experimentation process,</a> and an <a href=\"/en/curriculum/science-technology/context/processes#engineering-design-process\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">engineering design process</a> to conduct investigations, following appropriate health and safety procedures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a scientific research process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific research process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "use a scientific experimentation process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific experimentation process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems",
+              "text_html": "<p>use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials",
+              "text_html": "<p>follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.5",
+              "text": "communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes",
+              "text_html": "<p>communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Coding and Emerging Technologies",
+          "describer": "Throughout Grade 2, in connection with the learning in the other strands, students will:",
+          "text": "use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life",
+          "text_html": "<p>use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life&nbsp;</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "write and execute code in investigations and when modelling concepts, with a focus on decomposing problems into smaller steps",
+              "text_html": "<p>write and execute code in investigations and when modelling concepts, with a focus on decomposing problems into smaller steps</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "identify and describe impacts of coding and of emerging technologies on everyday life",
+              "text_html": "<p>identify and describe impacts of coding and of emerging technologies on everyday life</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Applications, Connections, and Contributions",
+          "describer": "Throughout Grade 2, in connection with the learning in the other strands, students will:",
+          "text": "demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences",
+          "text_html": "<p>demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "describe practical applications of science and technology concepts in their home and community, and how these applications address real-world problems",
+              "text_html": "<p>describe practical applications of science and technology concepts in their home and community, and how these applications address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "investigate how science and technology can be used with other subject areas to address real-world problems",
+              "text_html": "<p>investigate how science and technology can be used with other subject areas to address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse contributions to science and technology from various communities",
+              "text_html": "<p>analyse contributions to science and technology from various communities</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Life Systems",
+      "describer": "By the end of Grade 2, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "assess ways in which animals have an impact on society and the environment, and ways in which human activities have an impact on animals and the places where they live",
+          "text_html": "<p>assess ways in which animals have an impact on society and the environment, and ways in which human activities have an impact on animals and the places where they live</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "examine impacts that animals can have on society and the environment, and describe some ways in which any negative impacts can be minimized",
+              "text_html": "<p>examine impacts that animals can have on society and the environment, and describe some ways in which any negative impacts can be minimized</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "assess impacts of various human activities on animals and the places where they live, and describe practices that can minimize negative impacts",
+              "text_html": "<p>assess impacts of various human activities on animals and the places where they live, and describe practices that can minimize negative impacts</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate an understanding that animals grow and change and have distinct characteristics",
+          "text_html": "<p>demonstrate an understanding that animals grow and change and have distinct characteristics</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "compare physical characteristics of various animals, including characteristics that are constant and those that change",
+              "text_html": "<p>compare physical characteristics of various animals, including characteristics that are constant and those that change</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "describe the locomotion of various animals",
+              "text_html": "<p>describe the locomotion of various animals</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "describe the life cycle of a variety of animals, including insects, amphibians, birds, and mammals",
+              "text_html": "<p>describe the life cycle of a variety of animals, including insects, amphibians, birds, and mammals</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "compare changes in the appearance and behaviour of various animals as they go through a complete life cycle",
+              "text_html": "<p>compare changes in the appearance and behaviour of various animals as they go through a complete life cycle</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.5",
+              "text": "describe adaptations, including physical and/or behavioural characteristics, that allow various animals to survive in their natural environment",
+              "text_html": "<p>describe adaptations, including physical and/or behavioural characteristics, that allow various animals to survive in their natural environment</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Matter and Energy",
+      "describer": "By the end of Grade 2, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "assess ways in which liquids and solids and their uses can have an impact on society and the environment",
+          "text_html": "<p>assess ways in which liquids and solids and their uses can have an impact on society and the environment</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "assess practices related to the use, storage, and disposal of liquids and solids in the home in terms of the effects on personal health and safety and on the environment, and suggest ways to improve these practices",
+              "text_html": "<p>assess practices related to the use, storage, and disposal of liquids and solids in the home in terms of the effects on personal health and safety and on the environment, and suggest ways to improve these practices</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "assess the impacts of changes of state of liquids and solids on humans and on environments",
+              "text_html": "<p>assess the impacts of changes of state of liquids and solids on humans and on environments</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate an understanding of the properties and physical changes of liquids and solids",
+          "text_html": "<p>demonstrate an understanding of the properties and physical changes of liquids and solids</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify various types of matter in natural and built environments as liquids or solids",
+              "text_html": "<p>identify various types of matter in natural and built environments as liquids or solids</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "describe the properties of liquids and solids",
+              "text_html": "<p>describe the properties of liquids and solids</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "describe properties of liquid water and solid water, and identify the conditions that cause changes from one state to the other",
+              "text_html": "<p>describe properties of liquid water and solid water, and identify the conditions that cause changes from one state to the other</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "identify conditions in which the states of liquids and solids remain constant and conditions that can cause their states to change",
+              "text_html": "<p>identify conditions in which the states of liquids and solids remain constant and conditions that can cause their states to change</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "describe some ways in which liquids and solids can be combined to make useful mixtures",
+              "text_html": "<p>describe some ways in which liquids and solids can be combined to make useful mixtures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.6",
+              "text": "classify solid objects and materials in terms of their buoyancy and in terms of their ability to absorb or repel water",
+              "text_html": "<p>classify solid objects and materials in terms of their buoyancy and in terms of their ability to absorb or repel water</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.7",
+              "text": "explain the meaning of international symbols that give us information on the safety of substances",
+              "text_html": "<p>explain the meaning of international symbols that give us information on the safety of substances</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Structures and Mechanisms",
+      "describer": "By the end of Grade 2, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "assess the impact of simple machines on society and on the environment",
+          "text_html": "<p>assess the impact of simple machines on society and on the environment</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "assess the impact of simple machines on the daily lives of people in various communities",
+              "text_html": "<p>assess the impact of simple machines on the daily lives of people in various communities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "assess the impact on the environment of technologies that use simple machines to facilitate movement",
+              "text_html": "<p>assess the impact on the environment of technologies that use simple machines to facilitate movement</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate an understanding of movement and ways in which simple machines help to move objects",
+          "text_html": "<p>demonstrate an understanding of movement and ways in which simple machines help to move objects</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "describe different ways an object can move",
+              "text_html": "<p>describe different ways an object can move</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "identify ways in which the position of an object can be changed",
+              "text_html": "<p>identify ways in which the position of an object can be changed </p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "identify the six basic types of simple machines: lever, inclined plane, wedge, pulley, wheel and axle, and screw",
+              "text_html": "<p>identify the six basic types of simple machines: lever, inclined plane, wedge, pulley, wheel and axle, and screw</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "describe ways in which each type of simple machine is used in daily life to make tasks easier",
+              "text_html": "<p>describe ways in which each type of simple machine is used in daily life to make tasks easier</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.5",
+              "text": "compare, qualitatively or quantitatively, the force required to move an object using various simple machines to the force required to move the object without using a simple machine",
+              "text_html": "<p>compare, qualitatively or quantitatively, the force required to move an object using various simple machines to the force required to move the object without using a simple machine</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Earth and Space Systems",
+      "describer": "By the end of Grade 2, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "assess ways in which the actions of humans have an impact on the quality of air and water, and create plans to protect these resources",
+          "text_html": "<p>assess ways in which the actions of humans have an impact on the quality of air and water, and create plans to protect these resources</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "assess the impact of human activities on air and water, taking various perspectives into consideration, including those of First Nations, Métis, and Inuit, and plan a course of action to protect the quality of the air and/or water in the local community",
+              "text_html": "<p>assess the impact of human activities on air and water, taking various perspectives into consideration, including those of First Nations, Métis, and Inuit, and plan a course of action to protect the quality of the air and/or water in the local community</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.2",
+              "text": "assess their personal and household uses of water, and create a plan to use water responsibly",
+              "text_html": "<p>assess their personal and household uses of water, and create a plan to use water responsibly</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.3",
+              "text": "examine the availability of fresh water and drinking water around the world, and describe the impact on communities",
+              "text_html": "<p>examine the availability of fresh water and drinking water around the world, and describe the impact on communities &nbsp;&nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate an understanding of the properties of air and water, including water in various states, and of ways in which living things depend on air and water for their survival",
+          "text_html": "<p>demonstrate an understanding of the properties of air and water, including water in various states, and of ways in which living things depend on air and water for their survival &nbsp;</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "demonstrate an understanding of the key properties of air and water",
+              "text_html": "<p>demonstrate an understanding of the key properties of air and water &nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.2",
+              "text": "identify sources of water in the natural and built environments",
+              "text_html": "<p>identify sources of water in the natural and built environments</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.3",
+              "text": "describe the stages of the water cycle, including evaporation, condensation, precipitation, and collection",
+              "text_html": "<p>describe the stages of the water cycle, including evaporation, condensation, precipitation, and collection</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.4",
+              "text": "identify the three states of water in the environment, and describe how temperature changes affect the state of water within the water cycle",
+              "text_html": "<p>identify the three states of water in the environment, and describe how temperature changes affect the state of water within the water cycle &nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.5",
+              "text": "describe ways in which living things, including humans, depend on air and water",
+              "text_html": "<p>describe ways in which living things, including humans, depend on air and water</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

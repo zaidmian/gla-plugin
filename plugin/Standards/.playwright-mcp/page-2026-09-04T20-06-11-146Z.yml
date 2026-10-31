@@ -1,0 +1,119 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - complementary "Main navigation" [ref=e5]:
+      - link "Glass Glass" [ref=e6] [cursor=pointer]:
+        - /url: /dashboard
+        - generic [aria-hidden] [ref=e7]: G
+        - generic [ref=e8]:
+          - generic [ref=e9]: Glass
+          - generic [ref=e10]: Glass
+      - navigation [ref=e11]:
+        - list [ref=e13]:
+          - listitem [ref=e14]:
+            - link "Dashboard" [ref=e15] [cursor=pointer]:
+              - /url: /dashboard
+        - generic [ref=e17]:
+          - paragraph [ref=e18]: Absences
+          - list [ref=e19]:
+            - listitem [ref=e20]:
+              - link "Approve absences" [ref=e21] [cursor=pointer]:
+                - /url: /office/absence/pending
+            - listitem [ref=e23]:
+              - link "Absence register" [ref=e24] [cursor=pointer]:
+                - /url: /office/absence
+            - listitem [ref=e27]:
+              - link "Substitute calling" [ref=e28] [cursor=pointer]:
+                - /url: /office/calling
+            - listitem [ref=e30]:
+              - link "Substitutes" [ref=e31] [cursor=pointer]:
+                - /url: /office/substitutes
+        - generic [ref=e33]:
+          - paragraph [ref=e34]: Records
+          - list [ref=e35]:
+            - listitem [ref=e36]:
+              - link "People" [ref=e37] [cursor=pointer]:
+                - /url: /office/people
+            - listitem [ref=e39]:
+              - link "Sections" [ref=e40] [cursor=pointer]:
+                - /url: /office/sections
+            - listitem [ref=e42]:
+              - link "Sync" [ref=e43] [cursor=pointer]:
+                - /url: /office/sync
+              - list [ref=e45]:
+                - listitem [ref=e46]:
+                  - link "Contact cleanup" [ref=e47] [cursor=pointer]:
+                    - /url: /office/sync/contacts
+        - generic [ref=e49]:
+          - paragraph [ref=e50]: My work
+          - list [ref=e51]:
+            - listitem [ref=e52]:
+              - link "Report an absence" [ref=e53] [cursor=pointer]:
+                - /url: /teacher/absence
+            - listitem [ref=e55]:
+              - link "My sections" [ref=e56] [cursor=pointer]:
+                - /url: /teacher/sections
+            - listitem [ref=e58]:
+              - link "My assignments" [ref=e59] [cursor=pointer]:
+                - /url: /substitute/assignments
+        - generic [ref=e61]:
+          - paragraph [ref=e62]: Finance
+          - list [ref=e63]:
+            - listitem [ref=e64]:
+              - link "QuickBooks EFT upload" [ref=e65] [cursor=pointer]:
+                - /url: /finance/eft
+        - generic [ref=e67]:
+          - paragraph [ref=e68]: Operations
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - link "Run history" [ref=e71] [cursor=pointer]:
+                - /url: /operations
+        - generic [ref=e73]:
+          - paragraph [ref=e74]: Admin
+          - list [ref=e75]:
+            - listitem [ref=e76]:
+              - link "Settings" [ref=e77] [cursor=pointer]:
+                - /url: /admin/settings
+            - listitem [ref=e79]:
+              - link "Audit log" [ref=e80] [cursor=pointer]:
+                - /url: /admin/audit
+            - listitem [ref=e82]:
+              - link "Login approvals" [ref=e83] [cursor=pointer]:
+                - /url: /admin/logins
+    - generic [ref=e85]:
+      - banner [ref=e86]:
+        - searchbox "Search" [disabled] [ref=e88]
+        - button "Account menu" [ref=e90] [cursor=pointer]:
+          - button [ref=e91]
+      - generic [ref=e94]:
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - paragraph [ref=e99]: Office
+                - heading "Absence register" [level=1] [ref=e100]
+                - paragraph [ref=e101]: View a record of all staff leave requests.
+              - button "Record absence" [ref=e103]
+            - paragraph [ref=e108]: No absence history to show.
+          - dialog "Record an absence" [active] [ref=e110]:
+            - generic [ref=e111]:
+              - generic [ref=e112]:
+                - heading "Record an absence" [level=2] [ref=e113]
+                - paragraph [ref=e114]: File an absence for a staff member, including staff who do not use Glass.
+              - button "Close" [ref=e115]
+            - generic [ref=e118]:
+              - text: Absent staff member
+              - searchbox "Absent staff member" [ref=e119]
+              - status
+        - contentinfo [ref=e120]:
+          - generic [ref=e121]: © 2026 MSR · Glass v0.5.0
+          - navigation [ref=e122]:
+            - link "About" [ref=e123] [cursor=pointer]:
+              - /url: /about
+            - link "Privacy policy" [ref=e124] [cursor=pointer]:
+              - /url: /privacy
+            - link "Contact" [ref=e125] [cursor=pointer]:
+              - /url: /contact
+  - status [ref=e126]:
+    - generic [ref=e129]: "Could not load absences: Unauthorized"
+    - button "Remove toast" [ref=e130]:
+      - generic [ref=e131]: Close

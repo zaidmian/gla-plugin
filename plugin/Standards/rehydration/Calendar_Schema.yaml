@@ -1,0 +1,53 @@
+# ============================================================
+# GLA Semester Calendar — machine-readable instance calendar (schema 1)
+# ============================================================
+# Written by every course's semester run as
+#   instances/<name>/calendar.yaml
+# alongside Course_Calendar.md. It is the input to the shared calendar
+# builder (`gla calendar`, the semester skill's build_calendar.py)
+# and to the semester-end audit (audit_log.py). Course-agnostic by construction: every
+# field below is either in the semester config, in a week plan, or known to
+# the generator while it assigns dates. Paths are relative to the course
+# repo root. Dates are YYYY-MM-DD.
+# ============================================================
+
+schema: 1
+generated:
+  on: ""                     # human date, e.g. "September 1, 2026"
+  master_commit: ""          # short hash the instance was generated from
+course:
+  code: ""                   # e.g. ICS3U (from week plan metadata)
+  name: ""                   # e.g. Introduction to Computer Science
+  teacher: ""                # e.g. Br. Zaid
+semester:
+  name: ""                   # e.g. "2026-27 S1"
+  first_day: ""
+  last_day: ""
+  exam_start: ""
+  exam_end: ""
+
+# One entry per weekday from first_day to last_day, plus the exam-window
+# weekdays. Ordered by date. `kind` decides which fields are present.
+days:
+  - date: ""
+    kind: slot               # slot | buffer | closure | exam
+    # --- kind: slot ---
+    slot: ""                 # e.g. U1.W1.D1, AI.S.D2, CP.W3.D4, INTRO.D1
+    week_key: ""             # e.g. U1.W1 (INTRO days: INTRO)
+    week_plan: ""            # instance-relative, e.g. week_plans/U1_W1.yaml (INTRO days: null)
+    master_dir: ""           # repo-relative folder holding the day's materials
+    title: ""                # copied from the week plan (or the intro lesson)
+    day_type: ""             # teach | lab | exercise | studio | flex | assess
+    sub_ready: false
+    handouts: []             # instance-truth annotations, e.g. "Assignment 1 (Computer Buying Guide)".
+                             # Placed on the evaluation's handed_out slot from the week plan, never relocated (see Rehydration_Framework.md §5).
+    dues: []                 # e.g. "Assignment 1 (Computer Buying Guide)", "MILESTONE 1: design locked". Placed on the evaluation's due slot.
+    note: ""                 # optional, e.g. "Interschool Cross Country — expect disruption"
+    # --- kind: buffer ---   label: "Terry Fox Run"          (the reason the buffer sits here)
+    # --- kind: closure ---  label: "Labour Day"             (holiday or PA-day name)
+    # --- kind: exam ---     label: "written examination"    (one entry per exam-window weekday)
+
+# Slots removed by compression (so the page and the audit know they never
+# existed in this instance).
+cuts:
+  - { slot: "", priority: 0 }

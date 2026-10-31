@@ -1,0 +1,806 @@
+{
+  "code": "HHG4M",
+  "name": "Human Development throughout the Lifespan",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "University-College Preparation",
+  "category": "Family Studies, General Family Studies",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course offers a multidisciplinary approach to the study of human development throughout the lifespan. Students will learn about a range of theoretical perspectives on human development. They will examine threats to healthy development as well as protective factors that promote resilience. Students will learn about physical, cognitive, and social-emotional development from the prenatal period through old age and will develop their research and inquiry skills by investigating issues related to human development.",
+  "prerequisites": "Any university, college, or university/college preparation course in social sciences and humanities, English, or Canadian and world studies",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hhg4m",
+  "source_codename": "hhs4c__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to human development, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to human development, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to human development (e.g., brain development, effects of play on development, language development) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to human development <em>(e.g., brain development, effects of play on development, language development)</em> to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers)</em> related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research inquiry",
+              "text_html": "<p>formulate effective questions to guide their research inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were studying the benefits to child development of participating in an early learning program, what might be the advantage of comparing experiences in early learning in different parts of the world or within diverse communities in the same area? Which aspects of these experiences would you compare? How would you ensure that your comparison was fair and valid?",
+                  "text_html": "<ul>\n  <li>If you were studying the benefits to child development of participating in an early learning program, what might be the advantage of comparing experiences in early learning in different parts of the world or within diverse communities in the same area? Which aspects of these experiences would you compare? How would you ensure that your comparison was fair and valid?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research inquiry methods</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investigate their selected topics (e.g., outline purpose and method; identify sources of information; develop research tools such as surveys or questionnaires), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investigate their selected topics <em>(e.g., outline purpose and method; identify sources of information; develop research tools such as surveys or questionnaires)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways to locate reliable sources of information?\n  For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?\n  What methods would you use to ensure that you are following ethical guidelines when you develop surveys or interviews?",
+                  "text_html": "<ul>\n  <li>What are some ways to locate reliable sources of information?</li>\n  <li>For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?</li>\n  <li>What methods would you use to ensure that you are following ethical guidelines when you develop surveys or interviews?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews; observations; surveys and questionnaires; journal articles reporting on original research; original documents in print or other media such as film, photographs) and secondary sources (e.g., textbooks literature reviews, bibliographies, encyclopedias)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews; observations; surveys and questionnaires; journal articles reporting on original research; original documents in print or other media such as film, photographs)</em> and secondary sources <em>(e.g., textbooks literature reviews, bibliographies, encyclopedias)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the difference between primary and secondary sources in social sciences?\n  Why is it important to base your research on a variety of secondary sources rather than just one or two?",
+                  "text_html": "<ul>\n  <li>What is the difference between primary and secondary sources in social sciences?</li>\n  <li>Why is it important to base your research on a variety of secondary sources rather than just one or two?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research and inquiry",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research and inquiry</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gathered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gathered from primary and secondary sources<em> (e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies can you use to determine the relevance of the information you have gathered?\n  If two information sources contradict each other, how might you determine which is more reliable?\n  What values are bedded in these sources?\n  Whose voices are represented and whose are absent?\n  Whose interests are advanced if you believe the main message of this source?",
+                  "text_html": "<ul>\n  <li>What strategies can you use to determine the relevance of the information you have gathered?</li>\n  <li>If two information sources contradict each other, how might you determine which is more reliable?</li>\n  <li>What values are bedded in these sources?</li>\n  <li>Whose voices are represented and whose are absent?</li>\n  <li>Whose interests are advanced if you believe the main message of this source?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, summaries, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats <em>(e.g., notes, graphic organizers, summaries, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare information gathered from primary and secondary sources; determine whether similar information is found in different sources)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare information gathered from primary and secondary sources; determine whether similar information is found in different sources)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by documenting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by documenting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclusions (e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research questions; assess the extent to which their results may be affected by \"confounding variables\" – i.e., variables not controlled for in their research design)",
+              "text_html": "<p>synthesize findings and formulate conclusions <em>(e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research questions; assess the extent to which their results may be affected by \"confounding variables\" – i.e., variables not controlled for in their research design)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presentation, written research report, poster, multimedia presentation, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format<em> (e.g., oral presentation, written research report, poster, multimedia presentation, web page)</em> to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "use terms relating to human development correctly (e.g., risk resilience, protective factor, attachment, plasticity, identity, temperament)",
+              "text_html": "<p>use terms relating to human development correctly <em>(e.g., risk </em><a data-item-id=\"93f3df50-6bcc-4d45-9339-bdab7670ec25\" href=\"\"><em>resilience</em></a><em>, </em><a data-item-id=\"5b730984-b966-46c2-b611-c3b4476e5c8f\" href=\"\"><em>protective facto</em></a><em>r, </em><a data-item-id=\"1ddf55bd-6de0-4bc4-b32c-b9ea81c96a85\" href=\"\"><em>attachment</em></a><em>, </em><a data-item-id=\"b6e5acd6-2919-45d4-ae6e-103bff92f8a1\" href=\"\"><em>plasticity</em></a><em>, </em><a data-item-id=\"9d7caaf6-f96e-42b5-902c-1aa9c210a121\" href=\"\"><em>identity</em></a><em>, </em><a data-item-id=\"d505cc66-fd50-4211-8741-a3e626522332\" href=\"\"><em>temperament</em></a><em>)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style, use in-text author-date citations)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style, use in-text author-date citations)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might the research methods you used have affected the results you obtained?\n  What steps might you take to enhance your research/inquiry skills?",
+                  "text_html": "<ul>\n  <li>How might the research methods you used have affected the results you obtained?</li>\n  <li>What steps might you take to enhance your research/inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Developmental Theories, and Risk and Resilience",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Theoretical Perspectives",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of a variety of theoretical perspectives on human development",
+          "text_html": "<p>demonstrate an understanding of a variety of theoretical perspectives on human development</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "explain human development throughout the lifespan according to structuralist theoretical perspectives (e.g., the stage theories of Sigmund Freud, Erik Erikson, Jean Piaget)",
+              "text_html": "<p>explain human development throughout the lifespan according to structuralist theoretical perspectives <em>(e.g., the stage theories of Sigmund Freud, Erik Erikson, Jean Piaget)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to structuralist theories, does development occur primarily in response to internal or external factors?",
+                  "text_html": "<ul>\n  <li>According to structuralist theories, does development occur primarily in response to internal or external factors?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "explain human development throughout the lifespan according to information-processing and learning theoretical perspectives (e.g., the theories of Ivan Pavlov, B. F. Skinner, John B. Watson, Albert Bandura)",
+              "text_html": "<p>explain human development throughout the lifespan according to information-processing and learning theoretical perspectives <em>(e.g., the theories of Ivan Pavlov, B. F. Skinner, John B. Watson, Albert Bandura)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to learning theorists, what is the main driver of development?",
+                  "text_html": "<ul>\n  <li>According to learning theorists, what is the main driver of development?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "explain human development throughout the lifespan according to systemic and humanistic or systemic theoretical perspectives (e.g., the theories of Urie Bronfenbrenner, Abraham Maslow, Carl Rogers, Bonnie Burstow, Barbara Rogoff)",
+              "text_html": "<p>explain human development throughout the lifespan according to systemic and humanistic or systemic theoretical perspectives<em> (e.g., the theories of Urie Bronfenbrenner, Abraham Maslow, Carl Rogers, Bonnie Burstow, Barbara Rogoff)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why would humanistic or systemic theorists think that it is important to consider the ways in which government policies support or inhibit child development?",
+                  "text_html": "<ul>\n  <li>Why would humanistic or systemic theorists think that it is important to consider the ways in which government policies support or inhibit child development?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Risk and Resilience",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of threats to healthy development throughout the lifespan and of a variety of protective factors that can increase an individual's resilience and reduce the impact of these threats",
+          "text_html": "<p>demonstrate an understanding of threats to healthy development throughout the lifespan and of a variety of <a data-item-id=\"5b730984-b966-46c2-b611-c3b4476e5c8f\" href=\"\">protective factors</a> that can increase an individual's resilience and reduce the impact of these threats</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "describe threats to healthy development and their impact at various stages of life (e.g., poverty, discrimination, political unrest, environmental degradation, physical and mental illness, substance abuse, physical/sexual abuse)",
+              "text_html": "<p>describe threats to healthy development and their impact at various stages of life <em>(e.g., poverty, </em><a data-item-id=\"95172453-fc82-4742-b74d-229aed3de574\" href=\"\"><em>discrimination</em></a><em>, political unrest, environmental degradation, physical and mental illness, substance abuse, physical/sexual abuse)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might early childhood development be affected by political unrest and war?\n  How and why might the impact of poverty on the development of young children be different from its impact on the development of elderly people?",
+                  "text_html": "<ul>\n  <li>How might early childhood development be affected by political unrest and war?</li>\n  <li>How and why might the impact of poverty on the development of young children be different from its impact on the development of elderly people?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "explain how perspective factors at the individual, familial, and community levels (e.g., intelligence; strong relationships with one or more adults; exposure to enriched learning environments; community supports such as Meals on Wheels, senior centres, literacy centres) can promote resilience in individuals",
+              "text_html": "<p>explain how perspective factors at the individual, familial, and community levels<em> (e.g., intelligence; strong relationships with one or more adults; exposure to enriched learning environments; community supports such as Meals on Wheels, senior centres, literacy centres)</em> can promote resilience in individuals</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "describe ways in which government policies and initiatives by non-governmental organizations (NGOs) at the local and global levels can function as protective factors that reduce the impact of threats to human development at different stages of the lifespan (e.g., government policies supporting full-day Kindergarten, parental leave, and preventive health care; establishing green space; combating global climate change; NGO initiatives such as the Stephen Lewis Foundation’s support for grandmothers raising grandchildren orphaned by AIDS or Planned Parenthood’s maternal health programs)",
+              "text_html": "<p>describe ways in which government policies and initiatives by non-governmental organizations (NGOs) at the local and global levels can function as protective factors that reduce the impact of threats to human development at different stages of the lifespan<em> (e.g., government policies supporting full-day Kindergarten, parental leave, and preventive health care; establishing green space; combating global climate change; NGO initiatives such as the Stephen Lewis Foundation’s support for grandmothers raising grandchildren orphaned by AIDS or Planned Parenthood’s maternal health programs)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "describe opportunities for involvement in local community initiatives that address challenges to human development (e.g., school-wide fundraising for organizations providing support to children and families; food drives; volunteer opportunities with literacy initiatives, in Big Brothers/Big Sisters, at retirement homes)",
+              "text_html": "<p>describe opportunities for involvement in local community initiatives that address challenges to human development <em>(e.g., school-wide fundraising for organizations providing support to children and families; food drives; volunteer opportunities with literacy initiatives, in Big Brothers/Big Sisters, at retirement homes)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Understanding Physical Development",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Physical Development and Brain Physiology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of physical development, including brain physiology and development, throughout the lifespan",
+          "text_html": "<p>demonstrate an understanding of physical development, including brain physiology and development, throughout the lifespan</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "explain theories of human physical development (e.g., the theories of Arnold Gesell, Esther Thelen)",
+              "text_html": "<p>explain theories of human physical development<em> (e.g., the theories of Arnold Gesell, Esther Thelen)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to Gesell, why do children develop the ability to reach before they develop the ability to print?",
+                  "text_html": "<ul>\n  <li>According to Gesell, why do children develop the ability to reach before they develop the ability to print?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "describe the major changes in the body throughout the lifespan (e.g., cephalocaudal and proximodistal patterns of growth in infancy and childhood; changes associated with puberty; changes related to sex drive, sexual attraction, and reproduction; changes associated with menopause; physical changes in elderly people)",
+              "text_html": "<p>describe the major changes in the body throughout the lifespan <em>(e.g., cephalocaudal and proximodistal patterns of growth in infancy and childhood; changes associated with puberty; changes related to sex drive, sexual attraction, and reproduction; changes associated with menopause; physical changes in elderly people)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "describe human brain physiology, including key structures and their functions (e.g., the brainstem is responsible for basic vital life functions such as breathing; the cerebellum is responsible for movement, posture, and balance)",
+              "text_html": "<p>describe human brain physiology, including key structures and their functions <em>(e.g., the brainstem is responsible for basic vital life functions such as breathing; the cerebellum is responsible for movement, posture, and balance)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "describe the development of the brain from the prenatal period through the elder years, with particular emphasis on significant changes that occur throughout the lifespan (e.g., neuron formation, neural tube development, neurogenesis, neuronal migration, myelination, synaptogenesis, development of the prefrontal cortex, peak periods of growth for each brain lobe, synaptic pruning, brain shrinkage, slowing of brain function)",
+              "text_html": "<p>describe the development of the brain from the prenatal period through the elder years, with particular emphasis on significant changes that occur throughout the lifespan <em>(e.g., neuron formation, neural tube development, neurogenesis, neuronal migration, myelination, synaptogenesis, development of the prefrontal cortex, peak periods of growth for each brain lobe, synaptic pruning, brain shrinkage, slowing of brain function)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Sensory and Motor Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of sensory and motor development at different stages of the lifespan",
+          "text_html": "<p>demonstrate an understanding of sensory and motor development at different stages of the lifespan</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "analyse the major milestones in motor skills development in the early years of life (e.g., milestones related to reflexes, gross motor skills, fine motor skills)",
+              "text_html": "<p>analyse the major milestones in <a data-item-id=\"3026dc56-48eb-4627-8a58-19a06a632246\" href=\"\">motor skills</a> development in the early years of life <em>(e.g., milestones related to </em><a data-item-id=\"bfc01a7f-a3fd-46c2-9ecc-7a6e596f6f84\" href=\"\"><em>reflexes</em></a><em>, </em><a data-item-id=\"210f9a4e-aa8a-4e7e-b4f4-41f9d4a5e764\" href=\"\"><em>gross motor skills</em></a><em>, </em><a data-item-id=\"60e48701-6550-4760-b3a4-1369e365206e\" href=\"\"><em>fine motor skills</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do the rooting reflex, sucking reflex, and moro reflex of early infancy help to ensure survival?\n  Most children develop the pincer grasp at approximately seven months of age. To what extent does this development depend on their experience manipulating objects?\n  At what age do most children learn to crawl, walk, and run?",
+                  "text_html": "<ul>\n  <li>How do the rooting reflex, sucking reflex, and moro reflex of early infancy help to ensure survival?</li>\n  <li>Most children develop the pincer grasp at approximately seven months of age. To what extent does this development depend on their experience manipulating objects?</li>\n  <li>At what age do most children learn to crawl, walk, and run?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "describe changes to sensory faculties and motor skills in later life (e.g., presbyopia, presbycusis, decline in taste buds, reduced muscle strength and bone density, slower reflexes), and explain strategies that can be used to slow, prevent, or otherwise address their decline (e.g., doing regular cardiovascular and weight-bearing exercise, practising good nutrition, wearing ear protection when working around loud noises, having cataract surgery, wearing a hearing aid)",
+              "text_html": "<p>describe changes to sensory faculties and motor skills in later life <em>(e.g., presbyopia, </em><a data-item-id=\"d7505717-f462-431c-bce3-f2fd31136f50\" href=\"\"><em>presbycusis</em></a><em>, decline in taste buds, reduced muscle strength and bone density, slower reflexes)</em>, and explain strategies that can be used to slow, prevent, or otherwise address their decline<em> (e.g., doing regular cardiovascular and weight-bearing exercise, practising good nutrition, wearing ear protection when working around loud noises, having cataract surgery, wearing a hearing aid)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Factors Affecting Physical Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of contextual factors that can affect physical development, particularly brain development, throughout the lifespan and of the effects of these factors",
+          "text_html": "<p>demonstrate an understanding of contextual factors that can affect physical development, particularly brain development, throughout the lifespan and of the effects of these factors</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "explain how various factors affect physical development throughout the lifespan (e.g., illness, injury, genetic factors, nutrition, exercise)",
+              "text_html": "<p>explain how various factors affect physical development throughout the lifespan <em>(e.g., illness, injury, genetic factors, nutrition, exercise)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "analyse the long-term effects of early environmental stimulation and deprivation on brain development (e.g., stimulation produces a heavier brain with thicker layers, more neural connections, and greater neurochemical activity; deprivation hinders brain activity)",
+              "text_html": "<p>analyse the long-term effects of early environmental stimulation and deprivation on brain development<em> (e.g., stimulation produces a heavier brain with thicker layers, more neural connections, and greater neurochemical activity; deprivation hinders brain activity)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does early stimulation affect brain functioning?\n  How does nutrition affect brain development and functioning?\n  How does childhood play stimulate the brain? Why is such stimulation important? How does play in childhood protect the brain from degeneration in later adulthood?",
+                  "text_html": "<ul>\n  <li>How does early stimulation affect brain functioning?</li>\n  <li>How does nutrition affect brain development and functioning?</li>\n  <li>How does childhood play stimulate the brain? Why is such stimulation important? How does play in childhood protect the brain from degeneration in later adulthood?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "identify factors that can affect brain development during the prenatal period (e.g., maternal and paternal illness; maternal stress, substance abuse, or nutritional deficiencies; advanced maternal or paternal age; teratogens; some prescription drugs; environmental pollutants; infectious diseases), and analyse their impact",
+              "text_html": "<p>identify factors that can affect brain development during the prenatal period <em>(e.g., maternal and paternal illness; maternal stress, substance abuse, or nutritional deficiencies; advanced maternal or paternal age; </em><a data-item-id=\"942cee60-4cf8-4b62-b673-96e2591f9c46\" href=\"\"><em>teratogens</em></a><em>; some prescription drugs; environmental pollutants; infectious diseases)</em>, and analyse their impact</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were a family physician, what advice would you give to your patients who were preparing to conceive? What advice would you give if one of your patients was worried about having smoked before she knew she was pregnant?",
+                  "text_html": "<ul>\n  <li>If you were a family physician, what advice would you give to your patients who were preparing to conceive? What advice would you give if one of your patients was worried about having smoked before she knew she was pregnant?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.4",
+              "text": "describe brain plasticity with reference to the brain’s response to injury, illness, and environmental factors (e.g., physical injuries, strokes, aphasia, stress, substance abuse, infectious diseases, environmental toxins, nutritional deficiencies)",
+              "text_html": "<p>describe brain plasticity with reference to the brain’s response to injury, illness, and environmental factors<em> (e.g., physical injuries, strokes, aphasia, stress, substance abuse, infectious diseases, environmental toxins, nutritional deficiencies)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "After a stroke, how does the plasticity of the brain allow recovery of some functioning that had initially been lost?",
+                  "text_html": "<ul>\n  <li>After a stroke, how does the plasticity of the brain allow recovery of some functioning that had initially been lost?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Cognitive Development, Language Development, and Intelligence",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Cognitive Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of theories of cognitive development and of changes in aspects of cognitive development throughout the lifespan",
+          "text_html": "<p>demonstrate an understanding of theories of cognitive development and of changes in aspects of cognitive development throughout the lifespan</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "explain theories of human cognitive development (e.g., the theories of Jean Piaget, Lev Vygotsky, Noam Chomsky, Maria Montessori, Robert J. Sternberg)",
+              "text_html": "<p>explain theories of human cognitive development <em>(e.g., the theories of Jean Piaget, Lev Vygotsky, Noam Chomsky, Maria Montessori, Robert J. Sternberg)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to Vygotsky, what is the best way to promote cognitive development of young children?",
+                  "text_html": "<ul>\n  <li>According to Vygotsky, what is the best way to promote cognitive development of young children?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "explain theories of moral development (e.g., the theories of Lawrence Kohlberg, Carol Gilligan, Moshe Blatt, James Rest)",
+              "text_html": "<p>explain theories of moral development<em> (e.g., the theories of Lawrence Kohlberg, Carol Gilligan, Moshe Blatt, James Rest)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to Kohlberg, what are the connections between cognitive and moral development?",
+                  "text_html": "<ul>\n  <li>According to Kohlberg, what are the connections between cognitive and moral development?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.3",
+              "text": "describe cognitive development throughout the lifespan (e.g., the development theory of mind in preschoolers, dualistic thinking of adolescents, reflective thinking of adults, wisdom in later adulthood)",
+              "text_html": "<p>describe cognitive development throughout the lifespan<em> (e.g., the development </em><a data-item-id=\"61bef336-93b7-45d4-9e40-678e5f52fb61\" href=\"\"><em>theory of mind</em></a><em> in preschoolers, </em><a data-item-id=\"a543eedd-d413-460f-8791-fbae1f8d6039\" href=\"\"><em>dualistic thinking</em></a><em> of adolescents, reflective thinking of adults, wisdom in later adulthood)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is wisdom? What types of life experiences and cognitive capacity would be required to develop wisdom? Is it possible for a young adult to show wisdom? Why or why not?",
+                  "text_html": "<ul>\n  <li>What is wisdom? What types of life experiences and cognitive capacity would be required to develop wisdom? Is it possible for a young adult to show wisdom? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.4",
+              "text": "explain how information processing changes throughout the lifespan (e.g., with reference to short- and long-term memory, critical thinking, problem solving, decision making), with emphasis on changes in attention, memory, thinking, and metacognition",
+              "text_html": "<p>explain how information processing changes throughout the lifespan<em> (e.g., with reference to short- and long-term memory, critical thinking, problem solving, decision making)</em>, with emphasis on changes in attention, memory, thinking, and metacognition</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the impact of attention on storage and retrieval of information?\n  In what ways do children and adults differ in the problem-solving strategies they use?",
+                  "text_html": "<ul>\n  <li>What is the impact of attention on storage and retrieval of information?</li>\n  <li>In what ways do children and adults differ in the problem-solving strategies they use?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Language Acquisition and Development",
+          "describer": "By the end of this course, students will:",
+          "text": "explain the processes and physiological foundations of language acquisition and development throughout the lifespan",
+          "text_html": "<p>explain the processes and physiological foundations of language acquisition and development throughout the lifespan</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "explain the physiological foundations of language development (e.g., the areas of the brain related to language processing)",
+              "text_html": "<p>explain the physiological foundations of language development <em>(e.g., the areas of the brain related to language processing)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What role do Broca’s area and Wernicke’s area play in language development?",
+                  "text_html": "<ul>\n  <li>What role do Broca’s area and Wernicke’s area play in language development?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "explain the processes of language acquisition and development throughout the lifespan",
+              "text_html": "<p>explain the processes of language acquisition and development throughout the lifespan</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does verbal and nonverbal stimulation enhance or impede language development?\n  Why is it easier for people to learn a new language when they are young rather than middle-aged?\n  What have researchers found about the connection between knowing multiple languages and the onset of dementia in old age?",
+                  "text_html": "<ul>\n  <li>How does verbal and nonverbal stimulation enhance or impede language development?</li>\n  <li>Why is it easier for people to learn a new language when they are young rather than middle-aged?</li>\n  <li>What have researchers found about the connection between knowing multiple languages and the onset of dementia in old age?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Intelligence",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of issues related to defining, measuring, and developing intelligence",
+          "text_html": "<p>demonstrate an understanding of issues related to defining, measuring, and developing intelligence</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "analyse various aspects of intelligence (e.g., infant intelligence, multiple intelligences, social intelligence, emotional intelligence, fluid and crystallized intelligence)",
+              "text_html": "<p>analyse various aspects of intelligence <em>(e.g., infant intelligence, multiple intelligences, social intelligence, emotional intelligence, </em><a data-item-id=\"de10ff7b-e80a-4bc6-824e-5b96594a7ef9\" href=\"\"><em>fluid</em></a><em> and </em><a data-item-id=\"29c138f1-93c2-44b9-bdb6-c374eab1acc6\" href=\"\"><em>crystallized intelligence</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways do cultures differ in their valuing of different aspects of intelligence (e.g., spatial skills in societies that engage in hunting and trapping; linguistic and mathematical skills in Western societies)?",
+                  "text_html": "<ul>\n  <li>In what ways do cultures differ in their valuing of different aspects of intelligence (e.g., spatial skills in societies that engage in hunting and trapping; linguistic and mathematical skills in Western societies)?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "explain the limitations of standardized tests of intelligence (e.g., lack of “culture-fair” tests; reliance on language as the basis for testing; stereotype threat)",
+              "text_html": "<p>explain the limitations of standardized tests of intelligence<em> (e.g., lack of “culture-fair” tests; reliance on language as the basis for testing; stereotype threat)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "analyse current research on the impact of environment on intelligence (e.g., the Fraser Mustard report, the Charles Pascal report)",
+              "text_html": "<p>analyse current research on the impact of environment on intelligence<em> (e.g., the Fraser Mustard report, the Charles Pascal report)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What does research reveal about the impact of environmental stimulation on intelligence?\n  Intelligence research is generally based on correlational rather than experimental data. What are the challenges in interpreting correlational data?",
+                  "text_html": "<ul>\n  <li>What does research reveal about the impact of environmental stimulation on intelligence?</li>\n  <li>Intelligence research is generally based on correlational rather than experimental data. What are the challenges in interpreting correlational data?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D4",
+          "title": "Factors Affecting Cognitive Development and Language Use",
+          "describer": "By the end of this course, students will:",
+          "text": "analyse the effects of contextual factors on cognitive development and language use throughout the lifespan",
+          "text_html": "<p>analyse the effects of contextual factors on cognitive development and language use throughout the lifespan</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D4.1",
+              "text": "explain the effects of individual differences (e.g., differences related to giftedness, developmental delays, attention deficit disorder, autism, school anxiety, aphasia, depression, schizophrenia, dementia, Alzheimer’s, birth order, gender) on cognitive development throughout the lifespan",
+              "text_html": "<p>explain the effects of individual differences <em>(e.g., differences related to giftedness, developmental delays, attention deficit disorder, autism, school anxiety, aphasia, depression, schizophrenia, dementia, Alzheimer’s, birth order, gender) </em>on cognitive development throughout the lifespan</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What have researchers found about the differences in cognitive development of first-borns in comparison to later-born children?",
+                  "text_html": "<ul>\n  <li>What have researchers found about the differences in cognitive development of first-borns in comparison to later-born children?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D4.2",
+              "text": "evaluate the effects of rapidly changing technology on cognitive development and language use throughout the lifespan (e.g., the effects of increased use of texting language, the effects on cognitive processing speed)",
+              "text_html": "<p>evaluate the effects of rapidly changing technology on cognitive development and language use throughout the lifespan <em>(e.g., the effects of increased use of texting language, the effects on cognitive processing speed)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What cognitive advantages and disadvantages would today’s youth, who rely heavily on communications technology, have when compared to people who were young thirty years ago?",
+                  "text_html": "<ul>\n  <li>What cognitive advantages and disadvantages would today’s youth, who rely heavily on communications technology, have when compared to people who were young thirty years ago?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Social-Emotional Development and Personality",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Social Emotional Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of social-emotional development throughout the lifespan and of ways of influencing such development",
+          "text_html": "<p>demonstrate an understanding of social-emotional development throughout the lifespan and of ways of influencing such development</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "explain attachment theory as it relates to human development (e.g., with reference to the theories of John Bowlby, Mary Ainsworth, Kim Batholomew)",
+              "text_html": "<p>explain attachment theory as it relates to human development <em>(e.g., with reference to the theories of John Bowlby, Mary Ainsworth, Kim Batholomew)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to attachment theorists, why is infant attachment important?",
+                  "text_html": "<ul>\n  <li>According to attachment theorists, why is infant attachment important?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E1.2",
+              "text": "describe the development of emotion throughout the lifespan (e.g., early emotions, stranger anxiety, emotional fluctuations, socioemotional selectivity)",
+              "text_html": "<p>describe the development of emotion throughout the lifespan <em>(e.g., early emotions, </em><a data-item-id=\"031e63b3-f1d8-49ff-85db-45f7cb272c17\" href=\"\"><em>stranger anxiety</em></a><em>, emotional fluctuations, socioemotional selectivity)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the first emotions that infants show?\n  What differences might there be in the ways in which a teenage girl and an elderly woman express anger? What would account for these differences?",
+                  "text_html": "<ul>\n  <li>What are the first emotions that infants show?</li>\n  <li>What differences might there be in the ways in which a teenage girl and an elderly woman express anger? What would account for these differences?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E1.3",
+              "text": "describe ways in which parents and caregivers can promote secure attachment in infants and children (e.g., nurturing, responsive care, breastfeeding)",
+              "text_html": "<p>describe ways in which parents and caregivers can promote secure attachment in infants and children<em> (e.g., nurturing, responsive care, breastfeeding)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.4",
+              "text": "explain the effects that secure and insecure attachment in the early years can have on social-emotional development in adolescence and adulthood",
+              "text_html": "<p>explain the effects that secure and insecure attachment in the early years can have on social-emotional development in adolescence and adulthood</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does secure attachment in early life affect relationship building in later life?\n  What types of behaviour and attitudes are characteristic of adults who have an anxious attachment style?",
+                  "text_html": "<ul>\n  <li>How does secure attachment in early life affect relationship building in later life?</li>\n  <li>What types of behaviour and attitudes are characteristic of adults who have an anxious attachment style?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Personality and Identity",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of various influences on personality development and identity formation throughout the lifespan",
+          "text_html": "<p>demonstrate an understanding of various influences on <a data-item-id=\"250b1548-ad4c-4ce2-99ec-8fc51e3ccead\" href=\"\">personality</a> development and identity formation throughout the lifespan</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "explain the process of identity formation throughout the lifespan (e.g., with reference to gender identity, ethnic identity, identity statuses)",
+              "text_html": "<p>explain the process of identity formation throughout the lifespan <em>(e.g., with reference to gender identity, ethnic identity, identity statuses)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can families encourage the development of bicultural identity among its members?\n  What circumstances can prompt role confusion in adolescence?\n  What causes adults to go through identity reformulation?",
+                  "text_html": "<ul>\n  <li>How can families encourage the development of bicultural identity among its members?</li>\n  <li>What circumstances can prompt role confusion in adolescence?</li>\n  <li>What causes adults to go through identity reformulation?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E2.2",
+              "text": "explain how birth order and temperament can affect the development of an individual’s personality",
+              "text_html": "<p>explain how birth order and temperament can affect the development of an individual’s personality</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways can sibling rivalry affect self-concept and the development of personality?\n  What are the common personality traits of children who had an easy temperament in infancy? Of those who had a difficult temperament?",
+                  "text_html": "<ul>\n  <li>In what ways can sibling rivalry affect <a data-item-id=\"ca58363e-159e-4a95-b59a-46fce42c9b50\" href=\"\">self-concept</a> and the development of personality?</li>\n  <li>What are the common personality traits of children who had an easy temperament in infancy? Of those who had a difficult temperament?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E2.3",
+              "text": "analyse the relationship between personality and social interactions (e.g., the differences that introverted and extraverted people might experience in their social interactions; the impact on one’s personality of nurturing, supportive, empathetic interactions and critical, controlling ones)",
+              "text_html": "<p>analyse the relationship between personality and social interactions <em>(e.g., the differences that introverted and extraverted people might experience in their social interactions; the impact on one’s personality of nurturing, supportive, empathetic interactions and critical, controlling ones)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might being in an abusive relationship affect an individual’s personality?\n  In what ways might being a high achiever affect an individual’s interactions with colleagues or friends?",
+                  "text_html": "<ul>\n  <li>How might being in an abusive relationship affect an individual’s personality?</li>\n  <li>In what ways might being a high achiever affect an individual’s interactions with colleagues or friends?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "E3",
+          "title": "Factors Affecting Social-Emotional Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how factors affect social-emotional development, with an emphasis on the process of socialization",
+          "text_html": "<p>demonstrate an understanding of how factors affect social-emotional development, with an emphasis on the process of <a data-item-id=\"c26a9a14-db89-46f9-b7ae-e1023c15cbda\" href=\"\">socialization</a></p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E3.1",
+              "text": "analyse the role that family plays in socializing its members (e.g., with reference to the development of language, communication skills, confidence, competence, and self-esteem, and to the transmission of gender roles, culture, religion, and values such as respect for elders and for the environment)",
+              "text_html": "<p>analyse the role that family plays in socializing its members <em>(e.g., with reference to the development of language, communication skills, confidence, competence, and </em><a data-item-id=\"88205ee1-9c72-4f07-8540-a5270b4f1b85\" href=\"\"><em>self-esteem</em></a><em>, and to the transmission of </em><a data-item-id=\"f78eaa80-281b-4210-bd8c-a47d44dfccd8\" href=\"\"><em>gender roles</em></a><em>, culture, religion, and values such as respect for elders and for the environment)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E3.2",
+              "text": "analyse the effects of socialization on the social-emotional functioning of individuals throughout the lifespan (e.g., with respect to individuals’ values, behaviour, and sense of social responsibility; their ability to adjust to change, balance work and leisure, engage and communicate with other people and maintain relationships; their response to peer pressure, discrimination; the relationship between poor socialization and defiance, delinquency, and disengagement)",
+              "text_html": "<p>analyse the effects of socialization on the social-emotional functioning of individuals throughout the lifespan <em>(e.g., with respect to individuals’ values, behaviour, and sense of social responsibility; their ability to adjust to change, balance work and leisure, engage and communicate with other people and maintain relationships; their response to peer pressure, discrimination; the relationship between poor socialization and defiance, delinquency, and disengagement)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What have been some of the long-term effects of residential schools on the social-emotional functioning of First Nation children?\n  What are some of the effects of isolation on the elderly?\n  What trends have researchers found in the social-emotional functioning of adult men and women who grew up in homes where they witnessed their father batter their mother?",
+                  "text_html": "<ul>\n  <li>What have been some of the long-term effects of residential schools on the social-emotional functioning of First Nation children?</li>\n  <li>What are some of the effects of isolation on the elderly?</li>\n  <li>What trends have researchers found in the social-emotional functioning of adult men and women who grew up in homes where they witnessed their father batter their mother?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E3.3",
+              "text": "assess the impact of marginalization (e.g., marginalization related to factors such as age, poverty, disability, gender, sexual orientation, ethnicity, religion, low literacy levels) on social-emotional development",
+              "text_html": "<p>assess the impact of marginalization <em>(e.g., marginalization related to factors such as age, poverty, disability, gender, sexual orientation, ethnicity, religion, low literacy levels)</em> on social-emotional development</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does the marginalization of people with disabilities leave them at higher risk for exploitation or victimization?\n  Why do some societies disregard the skills, knowledge, and experiences of the elderly? What impact can this have on older people?\n  What are the social-emotional benefits of a companion animal or animal-assisted therapy for elderly or disabled people?",
+                  "text_html": "<ul>\n  <li>How does the marginalization of people with disabilities leave them at higher risk for exploitation or victimization?</li>\n  <li>Why do some societies disregard the skills, knowledge, and experiences of the elderly? What impact can this have on older people?</li>\n  <li>What are the social-emotional benefits of a companion animal or animal-assisted therapy for elderly or disabled people?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

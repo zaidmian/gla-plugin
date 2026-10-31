@@ -1,0 +1,81 @@
+# ============================================================
+# GLA Semester Configuration: Shared Template
+# ============================================================
+# Fill this in at the start of each semester, then run the course's
+# `semester` skill. This file is the ONLY input that should
+# change between semesters; never edit the master.
+# The skill copies it to: instances/<name>/semester_config.yaml.
+# A course may extend the `modules:` block with its own options; the
+# course's Rehydration_Guide.md documents them.
+# ============================================================
+
+# The school year's shared dates: "YYYY-YY Sn" names Teaching/Calendars/<year>.yaml
+# and its term. With it, leave the semester dates below empty and list only
+# this course's own holidays, PA days and events; a school event named in
+# `events` with no dates takes the school's dates and this course's buffers.
+school_calendar: ""
+
+semester:
+  name: ""                    # e.g. "2026-27 S2", also names the instance folder
+  first_day: ""               # first instructional day, YYYY-MM-DD
+  last_day: ""                # last instructional day before exams, YYYY-MM-DD
+  exam_start: ""              # YYYY-MM-DD (final demos/interviews land before this)
+  exam_end: ""                # YYYY-MM-DD
+
+schedule:
+  class_days: [Mon, Tue, Wed, Thu, Fri]
+  period_minutes: 60          # ~50 usable; lesson flows already assume this
+
+# Every non-instructional day or range. Islamic holidays (Ramadan break, Eid)
+# shift yearly, so they must come from here, never from course content.
+holidays:
+  - { name: "", start: "", end: "" }   # single days: start == end
+pa_days: []                   # "YYYY-MM-DD", or { date: "YYYY-MM-DD", label: "PD Day / Parent-Teacher Interviews" }
+
+# Known events that disrupt class (school-wide days, tests, trips). The
+# generator puts `buffers` buffer days on the event's first class days and
+# adds `note` to the event's other class days. Any remaining buffer days go
+# on the class day before each unit test (latest first), then at the end.
+events: []                    # - { name: "Terry Fox Run", start: "YYYY-MM-DD", end: "YYYY-MM-DD", buffers: 1, note: "" }
+
+
+capacity:
+  usable_fraction: 0.85       # share of scheduled days that are really usable
+                              # (assemblies, trips, fire drills...). Tune after
+                              # each semester. Compression uses this to decide
+                              # how many flex/exercise slots to pre-cut.
+
+# Course-defined optional modules (see the course's Rehydration_Guide.md).
+# Delete this block if the course has none.
+modules: {}
+
+options:
+  compression: auto           # auto = apply the course Compression_Table until
+                              #        the plan fits
+                              # manual = report overflow and stop for teacher input
+
+# Free-text notes for the person running rehydration; anything with a
+# structured key above (events, PA-day labels, modules) goes there instead.
+# Examples:
+#   - "Class is a grade 11/12 split this year; add extension notes to U4"
+#   - "No computer lab until week 3"
+overrides: []
+
+# Decisions made with the teacher while setting this up, and flags for the
+# teacher beyond the generator's own. GENERATION_REPORT.md lists them on every
+# run, so record them here and never edit the report by hand.
+decisions: []
+flags: []
+
+# Mid-semester re-run only: keep every day before this date as the existing
+# calendar.yaml has it and re-plan the rest. Leave empty for a new semester.
+resume_from: ""
+resume_postponed: []        # postponed before resume_from: re-planned after it
+resume_skipped: []          # skipped: not taught this semester, never re-planned
+resume_noclass: []          # the class did not meet: the day becomes a closure, the slot is re-planned
+resume_moved: {}            # SLOT: DATE. A past date: the slot is kept on the day it ran. A later date: it is pinned there.
+resume_partial: {}          # SLOT: note. Counted as taught and flagged in the report.
+# build_semester.py recalendar fills all five from the teaching log.
+
+output:
+  instance_folder: ""         # defaults to semester.name with spaces → underscores

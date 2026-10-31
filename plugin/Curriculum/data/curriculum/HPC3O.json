@@ -1,0 +1,836 @@
+{
+  "code": "HPC3O",
+  "name": "Raising Healthy Children",
+  "grades": [
+    "11"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "Family Studies, Raising and Caring for Children",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course focuses on the skills and knowledge parents, guardians, and caregivers need, with particular emphasis on maternal health, pregnancy, birth, and the early years of human development (birth to six years old). Through study and practical experience, students will learn how to meet the developmental needs of young children, communicate with them, and effectively guide their early behaviour. Students will develop their research skills through investigations related to caregiving and child rearing.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hpc3o",
+  "source_codename": "hpw3c__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to child development and child rearing, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to child development and child rearing, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to child development and child rearing (e.g., infant and toddler nutrition, diverse child-rearing practices, community supports for parents and children) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to child development and child rearing<em> (e.g., infant and toddler nutrition, diverse child-rearing practices, community supports for parents and children)</em> to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers)</em> related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were researching attitudes about child rearing, why might it be important to interview different generations of parents?",
+                  "text_html": "<ul>\n  <li>If you were researching attitudes about child rearing, why might it be important to interview different generations of parents?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chose topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chose topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investigate their selected topics (e.g., outline purpose and method; identify sources of information; develop research tools such as surveys or questionnaires), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investigate their selected topics <em>(e.g., outline purpose and method; identify sources of information; develop research tools such as surveys or questionnaires)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways to locate reliable sources of information?\n  For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?\n  What methods would you use to ensure that you are following ethical guidelines when you develop surveys or interviews?",
+                  "text_html": "<ul>\n  <li>What are some ways to locate reliable sources of information?</li>\n  <li>For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?</li>\n  <li>What methods would you use to ensure that you are following ethical guidelines when you develop surveys or interviews?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews, observations, surveys, questionnaires, data sets from Statistics Canada) and/or secondary sources (e.g., book reviews, textbooks, websites, advertisements, brochures, newspaper and magazine articles)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources<em> (e.g., interviews, observations, surveys, questionnaires, data sets from Statistics Canada)</em> and/or secondary sources <em>(e.g., book reviews, textbooks, websites, advertisements, brochures, newspaper and magazine articles)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the difference between primary and secondary sources in social sciences?\n  Why is it important to base your research on a variety of sources rather than just one or two?",
+                  "text_html": "<ul>\n  <li>What is the difference between primary and secondary sources in social sciences?</li>\n  <li>Why is it important to base your research on a variety of sources rather than just one or two?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "By the end of this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gathered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gathered from primary and secondary sources<em> (e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies can you use to determine the relevance of the information you have gathered?\n  If two information sources contradict each other, how might you determine which is more reliable?\n  What values are embedded in these sources?\n  Whose voices are represented and whose are absent?\n  What is your own personal connection to the research, and how does this affect your interpretation of the information gathered?",
+                  "text_html": "<ul>\n  <li>What strategies can you use to determine the relevance of the information you have gathered?</li>\n  <li>If two information sources contradict each other, how might you determine which is more reliable?</li>\n  <li>What values are embedded in these sources?</li>\n  <li>Whose voices are represented and whose are absent?</li>\n  <li>What is your own personal connection to the research, and how does this affect your interpretation of the information gathered?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, summaries, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats <em>(e.g., notes, graphic organizers, summaries, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare information gathered from surveys and interviews; determine whether similar information is found in different sources)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare information gathered from surveys and interviews; determine whether similar information is found in different sources)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by documenting the sources of all information gathered through research",
+              "text_html": "<p>demonstrate academic honesty by documenting the sources of all information gathered through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclusions (e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research questions)",
+              "text_html": "<p>synthesize findings and formulate conclusions <em>(e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research questions)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "By the end of this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presentation, brochure, poster, report, multimedia presentation, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format<em> (e.g., oral presentation, brochure, poster, report, multimedia presentation, web page) </em>to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "use terms relating to the study of child development and child rearing correctly (e.g., cognitive development, physical development, logical and natural consequences, authoritative, authoritarian, permissive)",
+              "text_html": "<p>use terms relating to the study of child development and child rearing correctly <em>(e.g., </em><a data-item-id=\"ad18c3ee-c82a-4cbd-8ba2-776cb957420d\" href=\"\"><em>cognitive development</em></a><em>, </em><a data-item-id=\"cee60589-45d9-4a6b-b140-9ebc5b5be0c6\" href=\"\"><em>physical developmen</em></a><em>t, logical and natural consequences, </em><a data-item-id=\"6b8d0aac-6eac-47b3-ac83-03d50e4b6751\" href=\"\"><em>authoritative</em></a><em>, </em><a data-item-id=\"6133ac52-406f-4399-aac0-b73b83502405\" href=\"\"><em>authoritarian</em></a><em>, </em><a data-item-id=\"f9a91beb-5156-4826-8604-ee5af0133b44\" href=\"\"><em>permissive</em></a><em>)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might the research methods you used have affected the results you obtained?\n  What steps might you take to enhance your research/inquiry skills?",
+                  "text_html": "<ul>\n  <li>How might the research methods you used have affected the results you obtained?</li>\n  <li>What steps might you take to enhance your research/inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Child Growth and Development",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Pregnancy, Birth and Postnatal Care",
+          "describer": "By the end of this course, students will:",
+          "text": "describe factors that contribute to the healthy development of children before and during birth, and in the first few months after birth",
+          "text_html": "<p>describe factors that contribute to the healthy development of children before and during birth, and in the first few months after birth</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "outline the stages in the biological process of conception, pregnancy, and birth",
+              "text_html": "<p>outline the stages in the biological process of conception, pregnancy, and birth</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "identify appropriate prenatal and postnatal care and support programs and facilities that are available for parents in their community (e.g., prenatal classes, breastfeeding clinics, Native friendship centres, Ontario early years centres, Canadian Down Syndrome Society)",
+              "text_html": "<p>identify appropriate prenatal and postnatal care and support programs and facilities that are available for parents in their community <em>(e.g., prenatal classes, breastfeeding clinics, Native friendship centres, Ontario early years centres, Canadian Down Syndrome Society)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "identify various hereditary and genetic factors that influence fetal development (e.g., sex-linked diseases, the Rh factor, chromosomal abnormalities, sex)",
+              "text_html": "<p>identify various hereditary and genetic factors that influence fetal development<em> (e.g., sex-linked diseases, the Rh factor, chromosomal abnormalities, sex)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.4",
+              "text": "identify and explain the importance of strategies for maintaining maternal and paternal health prior to and during pregnancy, birth, and the postnatal period (e.g., avoiding first-hand and second-hand smoke, having a healthy diet and getting adequate exercise, updating vaccinations, limiting stress, visiting their health care provider regularly, watching for signs of postpartum depression)",
+              "text_html": "<p>identify and explain the importance of strategies for maintaining maternal and paternal health prior to and during pregnancy, birth, and the postnatal period <em>(e.g., avoiding first-hand and second-hand smoke, having a healthy diet and getting adequate exercise, updating vaccinations, limiting stress, visiting their health care provider regularly, watching for signs of </em><a data-item-id=\"15313ebb-7a5c-46b1-b43e-989f30c6aa66\" href=\"\"><em>postpartum depression</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can you distinguish between regular “baby blues” and more serious postpartum depression or psychosis?\n  How can a father’s age affect prenatal development?",
+                  "text_html": "<ul>\n  <li>How can you distinguish between regular “baby blues” and more serious postpartum depression or psychosis?</li>\n  <li>How can a father’s age affect prenatal development?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.5",
+              "text": "describe the effects of teratogens and environmental hazards on prenatal and long-term development (e.g., fetal alcohol spectrum disorder, low birth weight, brain damage, premature birth), and identify strategies for avoiding exposure to teratogens and environmental hazards (e.g., avoiding cat feces; checking with a physician before taking any medications; avoiding recreational drugs and alcohol; avoiding exposure to toxic cleaning products, household and garden chemicals, paints and solvents, and insecticides on fruits and vegetables)",
+              "text_html": "<p>describe the effects of teratogens and environmental hazards on prenatal and long-term development <em>(e.g., </em><a data-item-id=\"0e775586-63dd-4971-aec6-6451501f6c6b\" href=\"\"><em>fetal alcohol spectrum disorder</em></a><em>, low birth weight, brain damage, premature birth)</em>, and identify strategies for avoiding exposure to <a data-item-id=\"942cee60-4cf8-4b62-b673-96e2591f9c46\" href=\"\">teratogens</a> and environmental hazards <em>(e.g., avoiding cat feces; checking with a physician before taking any medications; avoiding recreational drugs and alcohol; avoiding exposure to toxic cleaning products, household and garden chemicals, paints and solvents, and insecticides on fruits and vegetables)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What resources are available to inform people about toxic chemicals in everyday products?",
+                  "text_html": "<ul>\n  <li>What resources are available to inform people about toxic chemicals in everyday products?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.6",
+              "text": "describe ways in which partners and/or support persons can contribute to a healthy pregnancy (e.g., attending prenatal classes, helping to prepare healthy food for the pregnant woman)",
+              "text_html": "<p>describe ways in which partners and/or support persons can contribute to a healthy pregnancy <em>(e.g., attending prenatal classes, helping to prepare healthy food for the pregnant woman)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Growth and Development: Stages and Influences",
+          "describer": "By the end of this course, students will:",
+          "text": "describe patterns in the healthy, social, emotional, cognitive, linguistic, and physical development of young children",
+          "text_html": "<p>describe patterns in the healthy, social, emotional, cognitive, linguistic, and physical development of young children</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "identify major milestones in the social, emotional, cognitive, linguistic, and physical development of children from birth to six years of age",
+              "text_html": "<p>identify major milestones in the social, emotional, cognitive, linguistic, and physical development of children from birth to six years of age</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "describe strategies used by parents to enhance the social, emotional, cognitive, linguistic, and physical development of children from birth to six years of age",
+              "text_html": "<p>describe strategies used by parents to enhance the social, emotional, cognitive, linguistic, and physical development of children from birth to six years of age</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "describe a variety of measures parents can take to ensure the physical safety of children from birth to six years of age (e.g., using car seats, supervising bath time, teaching children how to swim, using sunscreen, washing fruits and vegetables well)",
+              "text_html": "<p>describe a variety of measures parents can take to ensure the physical safety of children from birth to six years of age<em> (e.g., using car seats, supervising bath time, teaching children how to swim, using sunscreen, washing fruits and vegetables well)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "explain ways in which development from conception to six years of age significantly affects development later in life (e.g., explain the importance of early secure attachment for emotional health in adulthood; explain the connection between self-regulation in early childhood and later emotional and physical health)",
+              "text_html": "<p>explain ways in which development from conception to six years of age significantly affects development later in life <em>(e.g., explain the importance of early secure </em><a data-item-id=\"1ddf55bd-6de0-4bc4-b32c-b9ea81c96a85\" href=\"\"><em>attachment</em></a><em> for emotional health in adulthood; explain the connection between self-regulation in early childhood and later emotional and physical health)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.5",
+              "text": "explain the importance of play for healthy child development",
+              "text_html": "<p>explain the importance of play for healthy child development</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does playing peek-a-boo stimulate intellectual development in infants?\n  What additional benefits do children get from playing outdoors?",
+                  "text_html": "<ul>\n  <li>How does playing peek-a-boo stimulate intellectual development in infants?</li>\n  <li>What additional benefits do children get from playing outdoors?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.6",
+              "text": "outline strategies parents can use to communicate with young children about their bodies (e.g., using proper names for all body parts, providing accurate information when answering questions about reproduction)",
+              "text_html": "<p>outline strategies parents can use to communicate with young children about their bodies <em>(e.g., using proper names for all body parts, providing accurate information when answering questions about reproduction)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Infant and Child Nutrition",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the importance of nutrition for healthy development",
+          "text_html": "<p>demonstrate an understanding of the importance of nutrition for healthy development</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "explain the unique importance of breastfeeding for the health of the baby, the birth mother, and the family (e.g., its role in meeting infant nutritional needs, preventing obesity, reducing the risk of breast cancer, promoting mother-infant bonding)",
+              "text_html": "<p>explain the unique importance of breastfeeding for the health of the baby, the birth mother, and the family<em> (e.g., its role in meeting infant nutritional needs, preventing obesity, reducing the risk of breast cancer, promoting mother-infant bonding)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "identify ways in which partners and/or support persons can participate in infant care and support breastfeeding mothers (e.g., bathing the infant, changing diapers, bottle feeding the infant with pumped breast milk when the mother is unavailable)",
+              "text_html": "<p>identify ways in which partners and/or support persons can participate in infant care and support breastfeeding mothers <em>(e.g., bathing the infant, changing diapers, bottle feeding the infant with pumped breast milk when the mother is unavailable)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "plan nutritious meals and snacks for children of different ages based on Canadian food guidelines and regulations",
+              "text_html": "<p>plan nutritious meals and snacks for children of different ages based on Canadian food guidelines and regulations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.4",
+              "text": "describe the beneficial effects of healthy eating patterns on the growth and development of children from birth to six years of age (e.g., increased ability to concentrate, fewer common childhood illnesses, improved overall health)",
+              "text_html": "<p>describe the beneficial effects of healthy eating patterns on the growth and development of children from birth to six years of age <em>(e.g., increased ability to concentrate, fewer common childhood illnesses, improved overall health)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Personal and Social Responsibilities of Parents",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Preparing for Parenting",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how to prepare for the responsibilities of being a parent",
+          "text_html": "<p>demonstrate an understanding of how to prepare for the responsibilities of being a parent</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify the factors involved in deciding to become a parent (e.g., social pressures, cultural influences, physical and emotional maturity, values, economic stability, fertility)",
+              "text_html": "<p>identify the factors involved in deciding to become a parent <em>(e.g., social pressures, cultural influences, physical and emotional maturity, values, economic stability, fertility)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "identify personal and cultural reasons for becoming parents (e.g., to build a family, to save a relationship, to “be like” one’s friends, to provide a loving home to a child whose birth parents are not able to provide care, to pass on one’s family name)",
+              "text_html": "<p>identify personal and cultural reasons for becoming parents <em>(e.g., to build a family, to save a relationship, to “be like” one’s friends, to provide a loving home to a child whose birth parents are not able to provide care, to pass on one’s family name)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do you think is the most important reason for having a baby?",
+                  "text_html": "<ul>\n  <li>What do you think is the most important reason for having a baby?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "explain why child rearing is a lifelong commitment in our society",
+              "text_html": "<p>explain why child rearing is a lifelong commitment in our society</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "explain the importance of having healthy, supportive relationships with other adults when providing care to young children (e.g., as a source of information, for physical and emotional support)",
+              "text_html": "<p>explain the importance of having healthy, supportive relationships with other adults when providing care to young children<em> (e.g., as a source of information, for physical and emotional support)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.5",
+              "text": "evaluate the effectiveness of various methods for contraception and the prevention of sexually transmitted infections (STIs) (e.g., abstinence; barrier methods – male and female condoms, diaphragm, sponge; hormonal methods – oral contraceptives, injectable contraceptives, transdermal patch, vaginal ring; intrauterine device)",
+              "text_html": "<p>evaluate the effectiveness of various methods for <a data-item-id=\"112c79c6-7671-4a06-a76c-6b79830e5bca\" href=\"\">contraception</a> and the prevention of sexually transmitted infections (STIs) <em>(e.g., abstinence; barrier methods – male and female condoms, diaphragm, sponge; hormonal methods – oral contraceptives, injectable contraceptives, transdermal patch, vaginal ring; intrauterine device)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What criteria should a couple use to determine the best method of contraception for them?",
+                  "text_html": "<ul>\n  <li>What criteria should a couple use to determine the best method of contraception for them?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.6",
+              "text": "identify the personal qualities, skills, and attitudes that are necessary for parenting (e.g., patience, sense of humour, responsiveness, boundary-setting skills, consistency)",
+              "text_html": "<p>identify the personal qualities, skills, and attitudes that are necessary for parenting <em>(e.g., patience, sense of humour, responsiveness, boundary-setting skills, consistency)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.7",
+              "text": "demonstrate the ability to plan their finances to provide for the care of an infant and/or young child (e.g., budget for the financial impact of a period of parental leave, the costs of a crib and layette)",
+              "text_html": "<p>demonstrate the ability to plan their finances to provide for the care of an infant and/or young child<em> (e.g., budget for the financial impact of a period of parental leave, the costs of a crib and layette)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.8",
+              "text": "describe ways in which parents can reduce the environmental impact of raising children (e.g., using cloth diapers, breastfeeding, using homemade baby food, using public transit, choosing a fuel-efficient vehicle)",
+              "text_html": "<p>describe ways in which parents can reduce the environmental impact of raising children<em> (e.g., using cloth diapers, breastfeeding, using homemade baby food, using public transit, choosing a fuel-efficient vehicle)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Communicating With Young Children",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of strategies parents can use to ensure effective communication in their families",
+          "text_html": "<p>demonstrate an understanding of strategies parents can use to ensure effective communication in their families</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of age-appropriate verbal and non-verbal communication techniques (e.g., reading infant and toddler cues, using infant-directed talk, modelling appropriate language for older children)",
+              "text_html": "<p>demonstrate an understanding of age-appropriate verbal and non-verbal communication techniques<em> (e.g., reading infant and toddler cues, using infant-directed talk, modelling appropriate language for older children)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "demonstrate the use of supportive and considerate communication and conflict-resolution skills (e.g., use of eye contact, active listening, \"I\" messages, encouragement)",
+              "text_html": "<p>demonstrate the use of supportive and considerate communication and conflict-resolution skills <em>(e.g., use of eye contact, </em><a data-item-id=\"54dea463-f8c1-4083-b5bb-5084b2ac6166\" href=\"\"><em>active listening</em></a><em>, \"I\" messages, encouragement)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "As a parent, how might you handle a child who is pulling the cat’s fur?",
+                  "text_html": "<ul>\n  <li>As a parent, how might you handle a child who is pulling the cat’s fur?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "demonstrate the ability to use age-appropriate reading materials effectively to promote the development of literacy skills in children",
+              "text_html": "<p>demonstrate the ability to use age-appropriate reading materials effectively to promote the development of literacy skills in children</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Applying Child-Rearing Knowledge and Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "apply and assess their child-rearing knowledge and skills through practical experiences with children",
+          "text_html": "<p>apply and assess their child-rearing knowledge and skills through practical experiences with children</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "describe the capabilities and behaviours of young children of different ages in real-life settings (e.g., at preschool, at home with their family, when with a babysitter)",
+              "text_html": "<p>describe the capabilities and behaviours of young children of different ages in real-life settings<em> (e.g., at preschool, at home with their family, when with a babysitter)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "explain differences they observe in the capabilities and behaviours of children of different ages in classroom and/or community settings",
+              "text_html": "<p>explain differences they observe in the capabilities and behaviours of children of different ages in classroom and/or community settings</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "demonstrate the ability to plan, organize, and carry out age-appropriate activities for children from birth to six years of age",
+              "text_html": "<p>demonstrate the ability to plan, organize, and carry out age-appropriate activities for children from birth to six years of age</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.4",
+              "text": "demonstrate an understanding of an infant’s needs and schedules by participating in a baby-simulation experience",
+              "text_html": "<p>demonstrate an understanding of an infant’s needs and schedules by participating in a baby-simulation experience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.5",
+              "text": "assess their own experience with infants and children and reflect on personal strengths and areas for improvement",
+              "text_html": "<p>assess their own experience with infants and children and reflect on personal strengths and areas for improvement</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Child Rearing Around The World",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Family Variations",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of social and cultural variations in family forms and child-rearing approaches",
+          "text_html": "<p>demonstrate an understanding of social and cultural variations in family forms and child-rearing approaches</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "analyse their own personal understanding of the terms family and parent, and assess the possible biases that may be inherent in this understanding",
+              "text_html": "<p>analyse their own personal understanding of the terms family and parent, and assess the possible <a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\">biases</a> that may be inherent in this understanding</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were raised by your grandmother and aunt, how might your sense of “family” be different from that of somebody who was raised by his or her biological mother and father?\n  How do the mainstream media affect our personal understanding of the terms family and parent?",
+                  "text_html": "<ul>\n  <li>If you were raised by your grandmother and aunt, how might your sense of “family” be different from that of somebody who was raised by his or her biological mother and father?</li>\n  <li>How do the mainstream media affect our personal understanding of the terms <em>family </em>and <em>parent</em>?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "identify the functions of the family and explain how these functions may be carried out through a variety of family forms (e.g., same-sex couples with children, lone-parent families)",
+              "text_html": "<p>identify the functions of the family and explain how these functions may be carried out through a variety of family forms<em> (e.g., same-sex couples with children, lone-parent families)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.3",
+              "text": "describe ways in which families transmit their cultural and religious heritage to children (e.g., through storytelling, visual arts, festivals, religious and other rituals) as well as the ways in which families may be constrained in their ability to transmit their culture and religion",
+              "text_html": "<p>describe ways in which families transmit their cultural and religious heritage to children <em>(e.g., through storytelling, visual arts, festivals, religious and other rituals)</em> as well as the ways in which families may be constrained in their ability to transmit their culture and religion</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why do some families choose to send their children to heritage language classes?\n  How did the residential school system constrain Aboriginal parents in their ability to pass on their language, culture, and religion to their children?",
+                  "text_html": "<ul>\n  <li>Why do some families choose to send their children to heritage language classes?</li>\n  <li>How did the residential school system constrain Aboriginal parents in their ability to pass on their language, culture, and religion to their children?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.4",
+              "text": "describe ways in which culture and family tradition influence child-rearing practices (e.g., practices related to name selection, touch and physical contact, fostering cultural pride and a positive sense of self)",
+              "text_html": "<p>describe ways in which culture and family tradition influence child-rearing practices <em>(e.g., practices related to name selection, touch and physical contact, fostering cultural pride and a positive sense of self)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Parenting Styles and Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of a variety of child-rearing practices and their effects on children",
+          "text_html": "<p>demonstrate an understanding of a variety of child-rearing practices and their effects on children</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "describe different parenting styles (e.g., permissive, authoritarian, authoritative, indulgent) and assess how they affect young children",
+              "text_html": "<p>describe different parenting styles <em>(e.g., permissive, authoritarian, authoritative, indulgent)</em> and assess how they affect young children</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "demonstrate an understanding of the importance of positive parenting strategies for the development of a child’s self-esteem and self-discipline",
+              "text_html": "<p>demonstrate an understanding of the importance of positive parenting strategies for the development of a child’s self-esteem and self-discipline</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "demonstrate an understanding of strategies for encouraging positive behaviour in children (e.g., offering choices, discussing logical and natural consequences of behaviour)",
+              "text_html": "<p>demonstrate an understanding of strategies for encouraging positive behaviour in children<em> (e.g., offering choices, discussing logical and natural consequences of behaviour)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "describe ways in which a parent can act as a positive role model for children (e.g., by modelling environmental responsibility, showing respect and care for others, having a positive body image)",
+              "text_html": "<p>describe ways in which a parent can act as a positive role model for children <em>(e.g., by modelling environmental responsibility, showing respect and care for others, having a positive </em><a data-item-id=\"a8285ebd-33c6-41c9-8a22-9fa293f38cfb\" href=\"\"><em>body image</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When a parent refuses excess packaging at a grocery store, what messages does that communicate to a child?",
+                  "text_html": "<ul>\n  <li>When a parent refuses excess packaging at a grocery store, what messages does that communicate to a child?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.5",
+              "text": "describe ways in which parents and family members teach children socially acceptable behaviour (e.g., by encouraging good table manners at family meal time, by encouraging sharing with playmates)",
+              "text_html": "<p>describe ways in which parents and family members teach children socially acceptable behaviour <em>(e.g., by encouraging good table manners at family meal time, by encouraging sharing with playmates)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Common and Diverse Experiences of Childhood",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of common and diverse experiences of young children in a variety of cultures and historical periods",
+          "text_html": "<p>demonstrate an understanding of common and diverse experiences of young children in a variety of cultures and historical periods</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "identify forms of children’s play that are found in all societies/cultures (e.g., traditional games involving balls and sticks, games modelled on “tag”, variations of “playing house”)",
+              "text_html": "<p>identify forms of children’s play that are found in all societies/cultures<em> (e.g., traditional games involving balls and sticks, games modelled on “tag”, variations of “playing house”)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.2",
+              "text": "describe how childhood experiences vary/have varied in different cultures and historical periods (e.g., variations in levels of freedom and/or adult supervision for children in different times and places; variations in the age at which children start school and/or work in different times, places, or cultures)",
+              "text_html": "<p>describe how childhood experiences vary/have varied in different cultures and historical periods<em> (e.g., variations in levels of freedom and/or adult supervision for children in different times and places; variations in the age at which children start school and/or work in different times, places, or cultures)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "compare expectations for male and female children in their own and other cultures",
+              "text_html": "<p>compare expectations for male and female children in their own and other cultures</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Are there differences in how boys and girls are treated or expected to behave in your family/culture? If so, what are some of them (e.g., toy selection, clothing choices)? What are some expectations that are the same for boys and girls?",
+                  "text_html": "<ul>\n  <li>Are there differences in how boys and girls are treated or expected to behave in your family/culture? If so, what are some of them (e.g., toy selection, clothing choices)? What are some expectations that are the same for boys and girls?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Addressing Social Challenges",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Caregiving Challenges in the Early Years",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the challenges facing parents throughout the early childhood years",
+          "text_html": "<p>demonstrate an understanding of the challenges facing parents throughout the early childhood years</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "summarize the lifestyle and relationship changes that parents experience when raising young children (e.g., decreasing independence, fatigue, shifting priorities, varying rewards of care-giving, changing responsibilities as the child ages)",
+              "text_html": "<p>summarize the lifestyle and relationship changes that parents experience when raising young children <em>(e.g., decreasing independence, fatigue, shifting priorities, varying rewards of care-giving, changing responsibilities as the child ages)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.2",
+              "text": "demonstrate an understanding of the challenges faced by parents of young children in today’s rapidly changing society (e.g., balancing work and family responsibilities, finding quality childcare, dealing with discrimination)",
+              "text_html": "<p>demonstrate an understanding of the challenges faced by parents of young children in today’s rapidly changing society <em>(e.g., balancing work and family responsibilities, finding quality childcare, dealing with </em><a data-item-id=\"95172453-fc82-4742-b74d-229aed3de574\" href=\"\"><em>discrimination</em></a><em>)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.3",
+              "text": "identify strategies used by families to manage different types of early-childhood trauma",
+              "text_html": "<p>identify strategies used by families to manage different types of early-childhood trauma</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might a family help their child cope with losing a grandparent? What additional supports are required in situations where the grandparent was the primary caregiver of a child?",
+                  "text_html": "<ul>\n  <li>How might a family help their child cope with losing a grandparent? What additional supports are required in situations where the grandparent was the primary caregiver of a child?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E1.4",
+              "text": "identify the unique challenges faced by families when parents or children have disabilities or special needs (e.g., a parent in a wheelchair, a child with autism)",
+              "text_html": "<p>identify the unique challenges faced by families when parents or children have disabilities or special needs<em> (e.g., a parent in a wheelchair, a child with autism)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.5",
+              "text": "identify indicators of possible mental illness or mental health problems in young children (e.g., social withdrawal, unexplained fears)",
+              "text_html": "<p>identify indicators of possible mental illness or mental health problems in young children<em> (e.g., social withdrawal, unexplained fears)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.6",
+              "text": "identify and describe challenges associated with teenage parenthood and lone parenting (e.g., poverty, discrimination, lack of gender-role modelling, stress)",
+              "text_html": "<p>identify and describe challenges associated with teenage parenthood and lone parenting <em>(e.g., poverty, discrimination, lack of gender-role modelling, stress)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Neglect and Abuse",
+          "describer": "By the end of this course, students will:",
+          "text": "describe strategies for building healthy family relationships in order to prevent neglect and/or physical, sexual, or emotional abuse of children",
+          "text_html": "<p>describe strategies for building healthy family relationships in order to prevent neglect and/or physical, sexual, or emotional abuse of children</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "describe indicators of possible neglect or physical, sexual, or emotional abuse (e.g., malnutrition, lack of trust, unexplained bruises)",
+              "text_html": "<p>describe indicators of possible neglect or physical, sexual, or emotional abuse <em>(e.g., malnutrition, lack of trust, unexplained bruises)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.2",
+              "text": "describe strategies that can be used to secure a safe and peaceful family, community, and social environment for children (e.g., teaching children that \"touch\" should never be kept secret; teaching safe Internet practices; providing “streetproofing” training to children)",
+              "text_html": "<p>describe strategies that can be used to secure a safe and peaceful family, community, and social environment for children <em>(e.g., teaching children that \"touch\" should never be kept secret; teaching safe Internet practices; providing “streetproofing” training to children)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.3",
+              "text": "demonstrate an understanding of the laws relating to child abuse and children’s rights (e.g., the community’s responsibility for children’s welfare, the duty to report suspected child abuse)",
+              "text_html": "<p>demonstrate an understanding of the laws relating to child abuse and children’s rights <em>(e.g., the community’s responsibility for children’s welfare, the duty to report suspected child abuse)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.4",
+              "text": "identify various barriers parents face in gaining access to community supports (e.g., language, culture, level of literacy or education)",
+              "text_html": "<p>identify various barriers parents face in gaining access to community supports <em>(e.g., language, culture, level of literacy or education)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E3",
+          "title": "Society's Role in the Lives of Children and Families",
+          "describer": "By the end of this course, students will:",
+          "text": "describe the roles and responsibilities of society in protecting and supporting children and families, and the responsibilities of caregivers towards children",
+          "text_html": "<p>describe the roles and responsibilities of society in protecting and supporting children and families, and the responsibilities of caregivers towards children</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E3.1",
+              "text": "describe the positive and negative roles of societal agents in the lives of young children (e.g., the role of schools in teaching children to “get along” with others, the role of religious institutions in instilling values, the role of media in shaping children’s attitudes to violence)",
+              "text_html": "<p>describe the positive and negative roles of societal agents in the lives of young children <em>(e.g., the role of schools in teaching children to “get along” with others, the role of religious institutions in instilling values, the role of media in shaping children’s attitudes to violence)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What effects does viewing television violence have on children?",
+                  "text_html": "<ul>\n  <li>What effects does viewing television violence have on children?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E3.2",
+              "text": "demonstrate an understanding of the laws that regulate the behaviour of children and parents in society (e.g., provisions of the Child and Family Services Act of Ontario; laws regarding school attendance, child labour, and parental leave from work)",
+              "text_html": "<p>demonstrate an understanding of the laws that regulate the behaviour of children and parents in society <em>(e.g., provisions of the Child and Family Services Act of Ontario; laws regarding school attendance, child labour, and parental leave from work)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E3.3",
+              "text": "identify community social programs and agencies that provide support to children and families (e.g., YMCA/YWCA, Big Brothers/Big Sisters, family shelters, Aboriginal Head Start programs, Kids Help Phone, Parenting and Family Literacy Centres)",
+              "text_html": "<p>identify community social programs and agencies that provide support to children and families <em>(e.g., YMCA/YWCA, Big Brothers/Big Sisters, family shelters, Aboriginal Head Start programs, Kids Help Phone, Parenting and Family Literacy Centres)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E3.4",
+              "text": "describe the legal, social, and moral responsibilities of parents as outlined in the United Nations Convention on the Rights of the Child (e.g., providing adequate food, shelter, care, education)",
+              "text_html": "<p>describe the legal, social, and moral responsibilities of parents as outlined in the United Nations Convention on the Rights of the Child <em>(e.g., providing adequate food, shelter, care, education)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "code": "ADA4E",
+  "name": "Drama",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "Workplace",
+  "category": "Drama",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course requires students to create, present, and analyse a variety of dramatic works relevant to the workplace. Students will build trust and collaborative skills and develop self-confidence through hands-on experience and project-based learning in drama activities. Students will also explore skills related to the study of drama that can be applied in the workplace.",
+  "prerequisites": "Grade 11 Drama, Open",
+  "prerequisite_codes": [
+    "ADA3O"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/ada4e",
+  "source_codename": "arts___sec___ada4e",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Presenting",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the creative process and a variety of sources and forms, both individually and collaboratively, to design and develop drama works",
+          "text_html": "<p>use the creative process and a variety of sources and forms, both individually and collaboratively, to design and develop drama works</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a variety of sources as a basis for creating scenes about workplace issues (e.g., use ideas from books about “how to complain” or “dealing with difficult people” to dramatize the handling of a client grievance; use a newspaper story about an equity or human rights issue as the basis for a courtroom drama)",
+              "text_html": "<p>use a variety of sources as a basis for creating scenes about workplace issues <em>(e.g., use ideas from books about “how to complain” or “dealing with difficult people” to dramatize the handling of a client grievance; use a newspaper story about an equity or human rights issue as the basis for a courtroom drama)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What different characters could you include in a skit about a human rights enquiry?",
+                  "text_html": "<ul>\n  <li>What different characters could you include in a skit about a human rights enquiry?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "choose appropriate drama forms to explore a variety of perspectives on the world of work and business (e.g., use a sitcom format to explore a particular working environment such as a restaurant kitchen or a law office; use monologue or dialogue formats to dramatize the perspectives of employees and/or employers on a workplace issue)",
+              "text_html": "<p>choose appropriate drama forms to explore a variety of perspectives on the world of work and business <em>(e.g., use a sitcom format to explore a particular working environment such as a restaurant kitchen or a law office; use monologue or dialogue formats to dramatize the perspectives of employees and/or employers on a workplace issue)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could you dramatize the different reactions of an employee and an employer to an attempt to unionize the work force?",
+                  "text_html": "<ul>\n  <li>How could you dramatize the different reactions of an employee and an employer to an attempt to unionize the work force?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "create a scene or sequence of scenes featuring a character who demonstrates employability skills (e.g., scenes illustrating the job application and interview process, including the depiction of a range of emotional states experienced by the applicant, such as excitement, anxiety, confidence; scenes modelling appropriate behaviours for a variety of workplace roles)",
+              "text_html": "<p>create a scene or sequence of scenes featuring a character who demonstrates employability skills <em>(e.g., scenes illustrating the job application and interview process, including the depiction&nbsp;of a range of emotional states experienced by the applicant, such as excitement, anxiety, confidence; scenes modelling appropriate behaviours for a variety of workplace roles)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some of the qualities you might look for when interviewing someone for a job in the arts?",
+                  "text_html": "<ul>\n  <li>What are some of the qualities you might look for when interviewing someone for a job in the arts?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Elements and Conventions",
+          "describer": "By the end of this course, students will:",
+          "text": "use the elements and conventions of drama effectively in creating individual and ensemble works, including works based on a variety of sources",
+          "text_html": "<p>use the elements and <a data-item-id=\"f09fa39a-208a-4d2b-a46c-5f969e703137\" href=\"\">conventions of drama</a> effectively in creating individual and ensemble works, including works based on a variety of sources</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "combine and arrange the elements of drama to create scenes that explore common workplace roles and situations (e.g., use a focus on equity in a drama about interviewing applicants for a position; use a shop-floor setting in a drama about safe work habits)",
+              "text_html": "<p>combine and arrange the <a data-item-id=\"a43d2502-a169-43c7-b2b9-c7e475ae08a8\" href=\"\">elements of drama</a> to create scenes that explore common workplace roles and situations <em>(e.g., use a focus on equity in a drama about interviewing applicants&nbsp;for a position; use a shop-floor setting in a drama about safe&nbsp;work habits)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What kinds of equity issues should job applicants and job recruiters be aware of? How could you develop a drama that shows the issues from both points of view?",
+                  "text_html": "<ul>\n  <li>What kinds of equity issues should job applicants and job recruiters be aware of? How could you develop a drama&nbsp;that shows the issues from both points of view?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "use a variety of drama conventions to interpret roles and issues in the workplace (e.g., use voices in the head and role on the wall to explore the multi-faceted responsibilities of an employee in a retail or service setting; use flashbacks to an earlier job to explain the behaviour of a supervisor or manager)",
+              "text_html": "<p>use a variety of drama conventions to interpret roles and issues in the workplace <em>(e.g., use voices in the head and </em><a data-item-id=\"9ae47edd-ef13-4184-af1d-b5e86f42455e\" href=\"\"><em>role on the wall</em></a><em> to explore the multi-faceted responsibilities of an employee in a retail or service setting; use </em><a data-item-id=\"eda811bb-d044-477b-a32c-d6402d2b4037\" href=\"\"><em>flashbacks</em></a><em> to an earlier job to explain the behaviour of a supervisor or manager)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might the supervisor’s previous experience in entry-level jobs influence her attitude to the workers who report to her?",
+                  "text_html": "<ul>\n  <li>How might the supervisor’s previous experience in entry-level jobs influence her attitude to the workers who report&nbsp;to her?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Presentation Techniques and Technologies",
+          "describer": "By the end of this course, students will:",
+          "text": "use a variety of presentation techniques and technological tools to enhance the impact of drama works and communicate for specific audiences and purposes",
+          "text_html": "<p>use a variety of presentation techniques and technological tools to enhance the impact of drama works and communicate for specific audiences and purposes</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "use a variety of techniques to engage specific workplace audiences for various purposes (e.g., use questioning to engage an audience of trainees in a presentation about workplace safety; use a demonstration such as a make-up application as part of a sales pitch for a product)",
+              "text_html": "<p>use a variety of techniques to engage specific workplace audiences for various purposes <em>(e.g., use questioning to engage an audience of trainees in a presentation about workplace safety; use a demonstration such as a make-up application as part of a sales pitch for a product)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might audio of accident noises strengthen your presentation on safe work habits?",
+                  "text_html": "<ul>\n  <li>How might audio of accident noises strengthen your presentation on safe work habits?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "use various drama techniques to enhance workplace presentations (e.g., use blocking to visualize and plan the layout and audience traffic patterns for a product display; plan and rehearse phrasing, pauses, vocal inflection and emphasis, gestures, and eye contact to enhance delivery of a seminar or sales presentation)",
+              "text_html": "<p>use various drama techniques to enhance workplace presentations <em>(e.g., use blocking to visualize and plan the layout and audience traffic patterns for a product display; plan and&nbsp;rehearse phrasing, pauses, vocal inflection and emphasis, gestures, and eye contact to enhance delivery of a seminar or sales presentation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which memorization techniques will you use to prepare for your seminar?\n  How might relaxation exercises help you prepare for an interview or audition?",
+                  "text_html": "<ul>\n  <li>Which memorization techniques will you use to prepare for your seminar?</li>\n  <li>How might relaxation exercises help you prepare for an interview or audition?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "select and use a variety of technological tools, including forms of new media, to enhance workplace presentations (e.g., use an overhead projector, visuals, and audio recordings to support a promotion of a new product; use a webcam to create a training video for trainees to access through the Internet)",
+              "text_html": "<p>select and use a variety of technological tools, including forms of new media, to enhance workplace presentations <em>(e.g., use an overhead projector, visuals, and audio recordings to support a promotion of a new product; use a webcam to create a training video for trainees to access through the Internet)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What visual aids can you use to illustrate the steps in your presentation?",
+                  "text_html": "<ul>\n  <li>What visual aids can you use to illustrate the steps in your presentation?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the critical analysis process to reflect on and evaluate their own and others’ drama works",
+          "text_html": "<p>use the critical analysis process to reflect on and evaluate their own and others’ drama works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "use the critical analysis process to determine the responsibilities attached to different roles within the group and to guide and monitor progress (e.g., use self- and peer-assessment strategies to identify personal strengths and areas for improvement; complete teacher-guided reflections to monitor and fine-tune roles during the rehearsal process)",
+              "text_html": "<p>use the critical analysis process to determine the responsibilities attached to different roles within the group and to guide and monitor progress <em>(e.g., use self- and peer-assessment strategies to identify personal strengths and areas for improvement; complete teacher-guided reflections to monitor and fine-tune roles during the rehearsal&nbsp;process)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What role(s) will you take on in this collaborative assignment? Why did you choose this role? What responsibilities will each group member have?",
+                  "text_html": "<ul>\n  <li>What role(s) will you take on in this collaborative assignment? Why did you choose this role? What responsibilities will each group member have?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "analyse presentations about workplace topics to determine how accurately they depict workplace realities (e.g., analyse the depiction of workplace conditions and issues in a film, a television show, or a stage work by their classmates and compare it to information acquired from real-world work experiences, community service, or career research)",
+              "text_html": "<p>analyse presentations about workplace topics to determine how accurately they depict workplace realities <em>(e.g., analyse the depiction of workplace conditions and issues in a film, a television show, or a stage work by their classmates and compare it to information acquired&nbsp;from real-world work experiences, community service, or career research)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What real-world workplace settings are you familiar with? What workplace issues are you aware of from your own experience? From films and TV shows? Do you think films and TV shows are useful sources of information about workplace issues and behaviour?\n  Why is it important to explore difficult issues and represent them through drama? What can be gained by both actors and audience from this experience?",
+                  "text_html": "<ul>\n  <li>What real-world workplace settings are you familiar with? What workplace issues are you aware of from your own experience? From films and TV shows? Do you think films and TV shows are useful sources of information about workplace issues and behaviour?</li>\n  <li>Why is it important to explore difficult issues and represent them through drama? What can be gained by both actors and audience from this experience?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "explain ways in which drama activities develop their ability to determine the accuracy and effectiveness of media representations (e.g., creating and viewing drama can enhance awareness of the purposes and creative choices that shape media works)",
+              "text_html": "<p>explain ways in which drama activities develop their ability to determine the accuracy and effectiveness of media representations <em>(e.g., creating and viewing drama can enhance awareness of the purposes and creative choices that shape&nbsp;media works)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Was the difficulty of the job exaggerated in this presentation? Or was it oversimplified? Why do you think it was treated in this way? What message did this treatment send to the viewer?",
+                  "text_html": "<ul>\n  <li>Was the difficulty of the job exaggerated in this presentation? Or was it oversimplified? Why do you think it was treated in this way? What message did this treatment send to the viewer?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Drama and Society",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how societies present and past use or have used drama, and of how creating and viewing drama can benefit individuals, groups, and communities",
+          "text_html": "<p>demonstrate an understanding of how societies present and past use or have used drama, and of how creating and viewing drama can benefit individuals, groups, and communities</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "demonstrate an understanding of how knowledge and skills developed through drama can be used in social and workplace contexts (e.g., visualization skills developed through role playing can help in preparing for new social situations or in training exercises; creative and performance skills can enhance the design and delivery of marketing and product information presentations)",
+              "text_html": "<p>demonstrate an understanding of how knowledge and skills developed through drama can be used in social and workplace contexts <em>(e.g., visualization skills developed through role playing can help in preparing for new social situations or in training exercises; creative and performance skills can enhance the design and delivery of marketing and product information&nbsp;presentations)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might your ability to choose appropriate costumes for a drama help you in a social or workplace context?\n  What are some similarities between performing a role on stage and ‘performing the role’ of a job?",
+                  "text_html": "<ul>\n  <li>How might your ability to choose appropriate costumes for a drama help you in a social or workplace context?</li>\n  <li>What are some similarities between performing a role on stage and ‘performing the role’ of a job?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "identify ways in which drama activities strengthen their social and employability skills (e.g., by emphasizing skills and attitudes such as punctuality, acceptance of responsibility, ability to take direction, respect for others)",
+              "text_html": "<p>identify ways in which drama activities strengthen their social and employability skills <em>(e.g., by emphasizing skills and attitudes such as punctuality, acceptance of responsibility, ability to take direction, respect for others)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the characteristics of a ‘professional attitude’? What can you learn or have you learned about professional behaviour from your drama activities? Are these skills and attitudes relevant only in employment contexts?",
+                  "text_html": "<ul>\n  <li>What are the characteristics of a ‘professional attitude’? What can you learn or have you learned about professional behaviour from your drama activities? Are these skills and attitudes relevant only in employment contexts?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "explain how drama activities provide insight into different types of roles, social or occupational hierarchies, and issues they may encounter in the workplace (e.g., viewing drama works provides a range of perspectives on social interaction, power relationships, and ethical issues in social and occupational contexts; ensemble drama work provides experience of roles and responsibilities in product development and project management processes)",
+              "text_html": "<p>explain how drama activities provide insight into different types of roles, social or occupational hierarchies, and issues they may encounter in the workplace (<em>e.g., viewing drama works provides a range of perspectives on social interaction, power relationships, and ethical issues in social and occupational contexts; ensemble drama work provides experience of roles and responsibilities in product development and project management processes)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would you describe the employer–employee–client relationships depicted in this scene? Are they believable? Or are they too stereotypical or idealized? Give reasons to support your opinion.\n  What is the importance of having a leader on a project? What are the difficulties of having no leader, or more than one?",
+                  "text_html": "<ul>\n  <li>How would you describe the employer–employee–client relationships depicted in this scene? Are they believable?&nbsp;Or are they too stereotypical or idealized? Give reasons to support your opinion.</li>\n  <li>What is the importance of having a leader on a project? What are the difficulties of having no leader, or more than one?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.4",
+              "text": "describe ways in which dramas or other works that use elements of drama can reflect the culture and experience of work (e.g., the musical A Chorus Line reveals and critiques the reality of the lives of stage performers; Dan Needles’s Wingfield Trilogy explores farm life in Canada using humour; Michael Moore’s documentaries Roger and Me and Sicko explore and critique the tensions between economics and ethics in the automotive and health care industries)",
+              "text_html": "<p>describe ways in which dramas or other works that use elements of drama can reflect the culture and experience of work <em>(e.g., the musical </em>A Chorus Line <em>reveals and critiques the reality of the lives of stage performers; Dan Needles’s </em>Wingfield Trilogy <em>explores farm life in Canada using humour; Michael Moore’s documentaries </em>Roger and Me <em>and </em>Sicko <em>explore and </em><a data-item-id=\"9d2534ef-5840-4bc7-9e87-ebb4035c8725\" href=\"\"><em>critique</em></a><em> the tensions between economics and ethics in the automotive and health care industries)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could we use drama to challenge the dominance of cliques in the school and strengthen awareness of our common interests?",
+                  "text_html": "<ul>\n  <li>How could we use drama to challenge the dominance of cliques in the school and strengthen awareness of our common interests?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "identify knowledge and skills they have acquired through drama activities, and demonstrate an understanding of ways in which they can apply this learning in personal, social, and career contexts",
+          "text_html": "<p>identify knowledge and skills they have acquired through drama activities, and demonstrate an understanding of ways in which they can apply this learning in personal, social, and career contexts</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "explain how the strategies for conflict resolution and team building used in drama can be applied in the workplace (e.g., collaborative processes such as forum theatre, voices in the head, or corridor of voices can be used to assist in group problem solving and/or conflict resolution)",
+              "text_html": "<p>explain how the strategies for conflict resolution and team building used in drama can be applied in the workplace (<em>e.g., collaborative processes such as </em><a data-item-id=\"fec6262d-d4cc-4345-a131-81cfc5bf9b1e\" href=\"\"><em>forum theatre</em></a><em>, </em><a data-item-id=\"005bc5db-4b9c-490e-9ad7-c8445ff023ba\" href=\"\"><em>voices in&nbsp;the head</em></a><em>, or </em><a data-item-id=\"5dc7ddd7-69a6-4d01-9b86-8511a8e369e8\" href=\"\"><em>corridor of voices</em></a><em> can be used to assist in group problem solving and/or conflict resolution)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What common types of conflicts arise in the workplace? How could you use the skills you have learned in drama to help solve such conflicts?\n  How can our new understandings about group theatre and shared leadership be applied in a workplace setting?",
+                  "text_html": "<ul>\n  <li>What common types of conflicts arise in the workplace? How could you use the skills you have learned in drama to help solve such conflicts?</li>\n  <li>How can our new understandings about group theatre and shared leadership be applied in a workplace setting?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "identify personal strategies and skills they have developed through drama activities and explain how they can contribute to success in workplace contexts (e.g., the ability to interpret verbal and non-verbal cues such as tone of voice and body language can help them understand others and communicate effectively in a wide range of situations)",
+              "text_html": "<p>identify personal strategies and skills they have developed through drama activities and explain how they can contribute to success in workplace contexts <em>(e.g., the ability to interpret verbal and non-verbal cues such as tone of voice and body language can help them understand others and communicate effectively in a wide range of situations)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could you use verbal cues and body language to suggest changes in a persuasive, non-threatening manner?",
+                  "text_html": "<ul>\n  <li>How could you use verbal cues and body language to suggest changes in a persuasive, non-threatening manner?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "identify and describe employment opportunities and careers in the theatre industry, and describe the competencies they require (e.g., outline the responsibilities of different types of theatre workers, such as actor, backstage technician, front-of-house staff, custodial staff, arts administrator)",
+              "text_html": "<p>identify and describe employment opportunities and careers in the theatre industry, and describe the competencies they require <em>(e.g., outline the responsibilities of different types of theatre workers, such as actor, backstage technician, front-of-house staff, custodial staff, arts administrator)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What skills and preparation would you need for these workplace roles? How have your classroom drama activities equipped you for some or all of these roles?",
+                  "text_html": "<ul>\n  <li>What skills and preparation would you need for these workplace roles? How have your classroom drama activities equipped you for some or all of these roles?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Concepts and Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the nature and functions of drama forms, elements, conventions, and techniques, including the correct terminology for the various components",
+          "text_html": "<p>demonstrate an understanding of the nature and functions of drama forms, elements, conventions, and techniques, including the correct terminology for the various components</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify a variety of forms, elements, conventions, and techniques of drama and describe some of their functions (e.g., how situation comedy can be used to critique foolish or pretentious behaviour; how character can be used to illustrate a theme; how physical place and historical time period can be used to clarify motivation; how gesture and voice can be used to reveal a character’s attitudes and emotions; how blocking can be used to help create tension)",
+              "text_html": "<p>identify a variety of forms, elements, conventions, and techniques of drama and describe some of their functions <em>(e.g., how situation comedy can be used to critique foolish or pretentious behaviour; how character can be used to illustrate a theme; how physical place and historical time period can be used to clarify motivation; how gesture and voice can be used to reveal a character’s attitudes and emotions; how </em><a data-item-id=\"9d85a40e-1a17-4769-9a16-0c04bbe355cf\" href=\"\"><em>blocking </em></a><em>can be used to help create </em><a data-item-id=\"c187d57c-5f03-4678-9d7e-5a800acd84e5\" href=\"\"><em>tension</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How is mime used to dramatize the impact of mass production methods on workers in Charlie Chaplin’s Modern Times? Why is it so effective?",
+                  "text_html": "<ul>\n  <li>How is <a data-item-id=\"5a0e7bd9-5a42-4a4d-baf9-d6add68c78f1\" href=\"\">mime</a> used to dramatize the impact of mass production methods on workers in Charlie Chaplin’s <em>Modern Times</em>? Why is it so effective?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "use correct terminology for the styles, components, processes, and techniques of drama in creating and responding to drama works (e.g., voices in the head, thought tracking, accepting offers, advancing a scene, improvisation)",
+              "text_html": "<p>use correct terminology for the styles, components, processes, and techniques of drama in creating and responding to drama works <em>(e.g., </em><a data-item-id=\"005bc5db-4b9c-490e-9ad7-c8445ff023ba\" href=\"\"><em>voices in the head</em></a><em>, </em><a data-item-id=\"8bfd39e3-4572-4cc3-916f-467acc231df3\" href=\"\"><em>thought tracking</em></a><em>, accepting offers, advancing a scene, improvisation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways of ‘advancing a scene’ when improvising with a partner (e.g., adding a new detail, continuing the game, raising the stakes, connecting unrelated details, beginning to carry out an anticipated action, disrupting a routine)?",
+                  "text_html": "<ul>\n  <li>What are some ways of ‘advancing a scene’ when improvising with a partner (e.g., adding a new detail, continuing the game, raising the stakes, connecting unrelated details, beginning to carry out an anticipated action, disrupting a routine)?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "demonstrate an understanding of the nature and purpose of informational and support materials for drama productions (e.g., rehearsal schedules, prompt scripts, blocking diagrams, cue sheets for lighting and special effects, brochures, programs, promotion schedules, press releases, commercials)",
+              "text_html": "<p>demonstrate an understanding of the nature and purpose of informational and support materials for drama productions <em>(e.g., rehearsal schedules, prompt scripts, blocking&nbsp;diagrams, cue sheets for lighting and special effects, brochures, programs, promotion schedules, press releases, commercials)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What information should be included on an advertising poster for the performance of a play?",
+                  "text_html": "<ul>\n  <li>What information should be included on an advertising poster for the performance of a <a data-item-id=\"3f003692-30f2-4f7e-b11e-311fd1d6cc02\" href=\"\">play</a>?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Contexts and Influences",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the origins and development of drama and theatre arts and their influence on past and present societies",
+          "text_html": "<p>demonstrate an understanding of the origins and development of drama and theatre arts and their influence on past and present societies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "describe how social and cultural patterns influence the forms and subject matter of drama (e.g., connect character types from commedia dell’arte to social conditions in sixteenth-century Italy; compare depictions of women’s roles in Restoration and nineteenth-century dramas and  give reasons for the differences; explain how themes and characters in the drama of Western societies changed to reflect the growth of industrialization and urbanization; explain the social background to themes of migration in the drama of diverse cultures)",
+              "text_html": "<p>describe how social and cultural patterns influence the forms and subject matter of drama <em>(e.g., connect character types from </em><a data-item-id=\"d4954491-c891-4c02-9ebd-319e49c427d6\" href=\"\"><em>commedia dell’arte</em></a><em> to social conditions in sixteenth-century Italy; compare depictions of women’s roles in Restoration and nineteenth-century dramas and&nbsp; give reasons for the differences; explain how themes and characters in the drama of Western societies changed to reflect the growth of industrialization and urbanization; explain the social background to themes of migration in the drama of diverse cultures)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some common themes in Canadian drama? What social or cultural realities do they reflect?",
+                  "text_html": "<ul>\n  <li>What are some common themes in Canadian drama? What social or cultural realities do they reflect?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "suggest ways in which current media forms and technologies influence the content and presentation of drama works (e.g., the role of electronic technologies in daily life is a theme in contemporary drama – including the “dramas” depicted in advertisements; webcams, webcasts, and video technology provide access to global audiences for both amateur and professional drama creators; video and audio technology are used to add special effects to film and stage productions)",
+              "text_html": "<p>suggest ways in which current media forms and technologies influence the content and presentation of drama works <em>(e.g., the role of electronic technologies in daily life is a theme in contemporary drama – including the “dramas” depicted in advertisements; webcams, webcasts, and video technology provide access to global audiences for both amateur and&nbsp;professional drama creators; video and audio technology are used to add special effects to film and stage productions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are video games similar to or different from action-adventure films? How have developments in video games been adapted for some types of film and television dramas?",
+                  "text_html": "<ul>\n  <li>How are video games similar to or different from action-adventure films? How have developments in video games been adapted for some types of film and television dramas?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of safe, ethical, and responsible personal and interpersonal practices in drama activities",
+          "text_html": "<p>demonstrate an understanding of safe, ethical, and responsible personal and interpersonal practices in drama activities</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify and follow safe and ethical practices in drama activities and explain their relevance to workplace settings (e.g., explain the relevance of Workplace Hazardous Materials Information System [WHMIS] labelling to theatre and other workplace settings; identify safety training and certifications that are relevant to occupations in the theatre and other fields; identify and follow procedures for the environmentally responsible use of materials and energy; explain the importance of developing and implementing workplace antiharassment and antidiscrimination policies and guidelines)",
+              "text_html": "<p>identify and follow safe and ethical practices in drama activities and explain their relevance to workplace settings <em>(e.g., explain the relevance of Workplace Hazardous Materials Information System [WHMIS] labelling to theatre and other workplace settings; identify safety training and certifications that are relevant to occupations in the theatre and other fields; identify and follow procedures for the environmentally responsible use of materials and energy; explain the importance of developing and implementing workplace antiharassment and antidiscrimination policies and guidelines)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What safety concerns have you become aware of through your work in drama? How does safety training prepare  you for other types of jobs?\n  What steps can people take to prevent or combat harassment in their workplace?",
+                  "text_html": "<ul>\n  <li>What safety concerns have you become aware of through your work in drama? How does safety training prepare&nbsp; you for other types of jobs?</li>\n  <li>What steps can people take to prevent or combat harassment in their workplace?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "demonstrate an understanding of tasks and responsibilities in producing drama works that have counterparts in other workplace settings (e.g., preparing progress reports for colleagues; participating in team meetings; being punctual and keeping to timelines; complying with codes of conduct; clarifying and fulfilling job expectations)",
+              "text_html": "<p>demonstrate an understanding of tasks and responsibilities in producing drama works that have counterparts in other workplace settings <em>(e.g., preparing progress reports for colleagues; participating in team meetings; being punctual and keeping to timelines; complying with codes of conduct; clarifying and fulfilling job&nbsp;expectations)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do we ensure that all team members fulfil their responsibilities to the project?",
+                  "text_html": "<ul>\n  <li>How do we ensure that all team members fulfil their responsibilities to the project?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "demonstrate an understanding of correct theatre worker and audience etiquette and its relevance to other workplace contexts (e.g., use appropriate professional language; observe dress codes; demonstrate appropriate conduct in meetings)",
+              "text_html": "<p>demonstrate an understanding of correct theatre worker and audience etiquette and its relevance to other workplace contexts <em>(e.g., use appropriate professional language; observe dress codes; demonstrate appropriate conduct in&nbsp;meetings)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the appropriate style of dress for this particular role?\n  How might you have to change your everyday behaviour to suit a particular workplace role or environment?",
+                  "text_html": "<ul>\n  <li>What is the appropriate style of dress for this particular role?</li>\n  <li>How might you have to change your everyday behaviour to suit a particular workplace role or environment?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

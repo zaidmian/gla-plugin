@@ -1,0 +1,350 @@
+{
+  "code": "TAS1O",
+  "name": "Technology and the Skilled Trades",
+  "grades": [
+    "9"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "",
+  "panel": "Secondary",
+  "subject": "Technological Education",
+  "subject_group": "Technological Education",
+  "description": "This hands-on course enables students to further explore the engineering design process and develop other technological knowledge and skills introduced in earlier grades. Students will design and safely create prototypes, products, and/or services, working with tools and technologies from various industries. As students develop their projects to address real-life problems, they will apply technological concepts such as precision measurement, as well as health and safety standards. Students will begin to explore job skills programs and education and training pathways, including skilled trades, that can lead to a variety of careers.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/technological-education/courses/tas1o",
+  "source_codename": "tas1o__2024_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Design Processes and Related Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Initiating and Planning",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of fundamental technological concepts and related skills by initiating and planning projects",
+          "text_html": "<p>demonstrate an understanding of fundamental technological concepts and related skills by initiating and planning projects&nbsp;</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "investigate and describe fundamental technological concepts, and explain how they are relevant to developing products and/or services in a variety of broad-based technology areas",
+              "text_html": "<p>investigate and describe <a href=\"/en/curriculum/technological-education/courses/tas1o/g9-10-intro#fundamental-concepts\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">fundamental technological concepts,</a> and explain how they are relevant to developing products and/or services in a variety of <a href=\"/en/curriculum/technological-education/courses/tas1o/g9-10-program#overview\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">broad-based technology areas</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "apply an understanding of fundamental technological concepts, design considerations, and science, technology, engineering, and mathematics (STEM) concepts as appropriate in developing projects involving the creation of products and/or services",
+              "text_html": "<p>apply an understanding of fundamental technological concepts, design considerations, and science, technology, engineering, and mathematics (STEM) concepts as appropriate in developing projects&nbsp;involving the creation of products and/or services&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "investigate and describe design considerations, including accessibility requirements, that are relevant to developing projects involving products and/or services for a specific user or community",
+              "text_html": "<p>investigate and describe design considerations, including accessibility requirements, that are relevant to developing projects involving products and/or services for a specific user or community</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "communicate design ideas for various purposes and audiences, using appropriate industry terminology",
+              "text_html": "<p>communicate design ideas for various purposes and audiences, using appropriate industry terminology</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.5",
+              "text": "establish evaluation criteria for products and/or services being developed, including qualitative and/or quantitative measures, making connections to relevant fundamental technological concepts",
+              "text_html": "<p>establish evaluation criteria for products and/or services being developed, including qualitative and/or quantitative measures, making connections to relevant fundamental technological concepts&nbsp;&nbsp;&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.6",
+              "text": "investigate and describe project management skills and approaches that are relevant to developing products and/or services, and identify skills they will use in their own projects",
+              "text_html": "<p>investigate and describe project management skills and approaches that are relevant to developing products and/or services, and identify skills they will use in their own projects</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.7",
+              "text": "collect and synthesize information from a variety of sources, including people with diverse perspectives and from various communities, such as First Nations, Métis, and Inuit, to inform their projects",
+              "text_html": "<p>collect and synthesize information from a variety of sources, including people with diverse perspectives and from various communities, such as First Nations, Métis, and Inuit, to inform their projects</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Designing and Performing",
+          "describer": "By the end of this course, students will:",
+          "text": "develop projects that involve creating products and/or services, using a variety of resources and techniques, and record the development of their projects",
+          "text_html": "<p>develop projects that involve creating products and/or services, using a variety of resources and techniques, and record the development of their projects</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "use project management skills to develop a process to create a product and/or service",
+              "text_html": "<p>use project management skills to develop a process to create a product and/or service</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "identify factors that could impact the development of their projects and apply appropriate strategies to increase the probability of a positive outcome",
+              "text_html": "<p>identify factors that could impact the development of their projects and apply appropriate strategies to increase the probability of a positive outcome</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "describe properties and characteristics, including sustainability, of materials, and justify the selection of the materials and other resources they are using in the creation of products and/or services",
+              "text_html": "<p>describe properties and characteristics, including sustainability, of materials, and justify the selection of the materials and other resources they are using in the creation of products and/or services</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.4",
+              "text": "select, use, and maintain tools and equipment appropriately as part of creating products and/or delivering services",
+              "text_html": "<p>select, use, and maintain tools and equipment appropriately as part of creating products and/or delivering services</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.5",
+              "text": "use a variety of industry-related documents to guide the creation of products and/or the delivery of services as part of their projects",
+              "text_html": "<p>use a variety of industry-related documents to guide the creation of products and/or the delivery of services as part of their projects&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.6",
+              "text": "create products and/or deliver services, documenting their development process using appropriate industry terminology",
+              "text_html": "<p>create products and/or deliver services, documenting their development process using appropriate industry terminology</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.7",
+              "text": "select appropriate units of measure and tools to make accurate measurements using relevant measurement systems, such as the metric and imperial systems",
+              "text_html": "<p>select appropriate units of measure and tools to make accurate measurements using relevant measurement systems, such as the metric and imperial systems</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Analyzing and Refining",
+          "describer": "By the end of this course, students will:",
+          "text": "evaluate and refine processes, products, and/or services",
+          "text_html": "<p>evaluate and refine processes, products, and/or services</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "identify challenges they encounter in the process of developing their projects and apply critical thinking skills to address these challenges",
+              "text_html": "<p>identify challenges they encounter&nbsp;in the process of developing their projects and apply critical thinking skills to address these challenges</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "analyze the performance of products and/or service delivery using appropriate criteria",
+              "text_html": "<p>analyze the performance of products and/or service delivery using appropriate criteria</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "identify potential refinements to the design of products and/or services based on an analysis of data collected throughout the development process",
+              "text_html": "<p>identify potential refinements to the design of products and/or services based on an analysis of data collected throughout the development process&nbsp;&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "communicate project-related challenges, performance analyses, and proposals for refinements for a specific audience, using appropriate formats and terminology",
+              "text_html": "<p>communicate project-related challenges, performance analyses, and proposals for refinements for a specific audience, using appropriate formats and terminology</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Following Health and Safety Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "apply an understanding of health and safety practices and procedures when using materials, tools, and equipment",
+          "text_html": "<p>apply an understanding of <a href=\"/en/curriculum/technological-education/courses/tas1o/program-planning#health-safety\">health and safety</a> practices and procedures when using materials, tools, and equipment&nbsp;&nbsp;</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "describe relevant health and safety regulations for the classroom and workplace, including mandated roles and responsibilities",
+              "text_html": "<p>describe relevant health and safety regulations for the classroom and workplace, including mandated roles and responsibilities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "identify hazards in their environment, and apply strategies to minimize risks",
+              "text_html": "<p>identify hazards in their environment, and apply strategies to minimize risks</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "use tools and equipment safely, including using personal protective equipment and safety devices as appropriate",
+              "text_html": "<p>use tools and equipment safely, including using personal protective equipment and safety devices as appropriate</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "follow practices that support physical and mental health and well-being",
+              "text_html": "<p>follow practices that support physical and mental health and well-being</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.5",
+              "text": "follow proper procedures for the safe handling, storage, and disposal of materials and waste products",
+              "text_html": "<p>follow proper procedures for the safe handling, storage, and disposal of materials and waste products</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.6",
+              "text": "demonstrate a safety mindset by making safety a priority at all times and by engaging in industry-specific safety procedures",
+              "text_html": "<p>demonstrate a <a href=\"/en/curriculum/technological-education/courses/tas1o/program-planning#health-safety\">safety mindset</a>&nbsp;by making safety a priority at all times and by engaging in industry-specific safety procedures</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Technological Development, Impacts, and Careers",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Fundamentals of Technological Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how various needs and underlying social, economic, and environmental factors drive the evolution of technology",
+          "text_html": "<p>demonstrate an understanding of how various needs and underlying social, economic, and environmental factors drive the evolution of technology&nbsp;</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "investigate and describe interrelationships between user needs and the development of various technological solutions",
+              "text_html": "<p>investigate and describe interrelationships between user needs and the development of various technological solutions</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "analyze how the development and application of technologies are impacted by legal, ethical, social, economic, and environmental considerations",
+              "text_html": "<p>analyze how the development and application of technologies are impacted by legal, ethical, social, economic, and environmental considerations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "investigate and identify contributions to technological innovations made by Canadians, including women, and members of diverse groups and communities in Canada, including First Nations, Métis, and Inuit",
+              "text_html": "<p>investigate and identify contributions to technological innovations made by Canadians, including women, and members of diverse groups and communities in Canada, including First Nations, Métis, and Inuit</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.4",
+              "text": "describe ways in which diverse communities, including First Nations, Métis, and Inuit, have applied their understandings, practices, beliefs, and experiences in their approach to technological problem solving",
+              "text_html": "<p>describe ways in which diverse communities, including First Nations, Métis, and Inuit, have applied their understandings, practices, beliefs, and experiences in their approach to technological problem solving</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Impacts of Technology",
+          "describer": "By the end of this course, students will:",
+          "text": "analyze impacts of various technologies on individuals, society, the economy, and the environment",
+          "text_html": "<p>analyze impacts of various technologies on individuals, society, the economy, and the environment</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Digital Literacy",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "identify short-term and long-term impacts of various technological innovations on individuals and societies, including the impact on everyday life",
+              "text_html": "<p>identify short-term and long-term impacts of various technological innovations on individuals and societies, including the impact on everyday life&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "explain local and global impacts of various technological innovations on the environment and the economy, including the labour market",
+              "text_html": "<p>explain local and global impacts of various technological innovations on the environment and the economy, including the labour market</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "evaluate how positive and negative impacts of various technologies can influence technological evolution, including emerging technologies",
+              "text_html": "<p>evaluate how positive and negative impacts of various technologies can influence technological evolution, including emerging technologies</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Careers and Pathways in Technology and the Skilled Trades",
+          "describer": "By the end of this course, students will:",
+          "text": "explore and describe careers in technological fields and the skilled trades, and pathways for entering them",
+          "text_html": "<p>explore and describe careers in technological fields and the skilled trades, and pathways for entering them</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "explore a variety of roles, responsibilities, and opportunities related to current and emerging careers in technological fields, including a variety of broad-based technology areas, and the skilled trades",
+              "text_html": "<p>explore a variety of roles, responsibilities, and opportunities related to current and emerging careers in technological fields, including a variety of broad-based technology areas, and the skilled trades</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "research and identify programs, including in-school job skills programs and community-based programs, related to pathways and careers in technological fields and the skilled trades",
+              "text_html": "<p>research and identify programs, including in-school job skills programs and community-based programs, related to pathways and careers in technological fields and the skilled trades</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "investigate and describe a variety of pathways leading to careers in technological fields and the skilled trades, including their structure and the educational and financial requirements for them",
+              "text_html": "<p>investigate and describe a variety of pathways leading to careers in technological fields and the skilled trades, including their structure and the educational and financial requirements for them</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.4",
+              "text": "evaluate the transferable skills they are developing and analyze how these skills relate to current and emerging careers in technological fields and the skilled trades",
+              "text_html": "<p>evaluate the transferable skills they are developing and analyze how these skills relate to current and emerging careers in technological fields and the skilled trades</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

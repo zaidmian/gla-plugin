@@ -1,0 +1,525 @@
+{
+  "code": "IDC4O/IDP4O",
+  "name": "Interdisciplinary Studies",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "",
+  "panel": "Secondary",
+  "subject": "Interdisciplinary Studies",
+  "subject_group": "Interdisciplinary Studies",
+  "description": "This course emphasizes the development of practical skills and knowledge to solve problems, make decisions, create personal meaning, and present findings beyond the scope of a single subject or discipline. Through individual and collaborative inquiry and research into contemporary issues, real-life situations, and careers, students will apply the principles and skills derived from the complementary subjects and disciplines studied, evaluate the reliability of information, and examine how information technology can be used safely, effectively, and legally. They will also learn how to select strategies to define problems, research alternative solutions, assess their thinking in reaching decisions, and adapt to change as they acquire new knowledge.",
+  "prerequisites": "for IDC4O, none; \n  for IDP4O, the prerequisite for each of the courses in the package",
+  "prerequisite_codes": [
+    "IDC4O",
+    "IDP4O"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/interdisciplinary-studies/courses/idc4o-idp4o",
+  "source_codename": "idc4o_idp4o__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Theory and Foundation",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Ideas and Issues",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the key ideas and issues related to each of the subjects or disciplines studied",
+          "text_html": "<p>demonstrate an understanding of the key ideas and issues related to each of the subjects or disciplines studied</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "critically analyse the major concepts and ideas held by pre-eminent theorists and researchers in each of the subjects or disciplines studied and describe their contemporary application (e.g., for an interdisciplinary studies course on education and society: Plato’s use of the Socratic method, Jean-Jacques Rousseau’s notion of progressive education, John Dewey’s concept of learning by doing, and the educational role of elders within Aboriginal communities)",
+              "text_html": "<p>critically analyse the major concepts and ideas held by pre-eminent theorists and researchers in each of the subjects or disciplines studied and describe their contemporary application (<em>e.g., for an interdisciplinary studies course on education and society: Plato’s use of the Socratic method, Jean-Jacques Rousseau’s notion of progressive education, John Dewey’s concept of learning by doing, and the educational role of elders within Aboriginal communities</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "describe and critically analyse the ways in which each of the related subjects or disciplines studied contributes to the finding of practical solutions to key contemporary issues and themes in the interdisciplinary course (e.g., a course on arts administration might include a cost analysis of a dramatic production, the implementation of inventory control of drama company assets, and the presentation of suggested marketing strategies for a new production; a course in studies in education might investigate the emphasis on particular learning styles in a variety of education systems in different cultures)",
+              "text_html": "<p>describe and critically analyse the ways in which each of the related subjects or disciplines studied contributes to the finding of practical solutions to key contemporary issues and themes in the interdisciplinary course (<em>e.g., a course on arts administration might include a cost analysis of a dramatic production, the implementation of inventory control of drama company assets, and the presentation of suggested marketing strategies for a new production; a course in studies in education might investigate the emphasis on particular learning styles in a variety of education systems in different cultures</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "analyse significant changes from the past in the role of information and communication in contemporary society and describe ways in which practitioners in each of the subjects or disciplines studied meet information challenges (e.g., creating new disciplines or fields of study, developing new networks for learning and sharing information, harnessing new technologies to solve problems)",
+              "text_html": "<p>analyse significant changes from the past in the role of information and communication in contemporary society and describe ways in which practitioners in each of the subjects or disciplines studied meet information challenges (<em>e.g., creating new disciplines or fields of study, developing new networks for learning and sharing information, harnessing new technologies to solve problems</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "identify the principles, practices, and systems regarding the safe, ethical, and legal use of information technologies (e.g., in terms of ergonomics, personal privacy, and computer security) and describe the consequences of their appropriate and inappropriate use for each of the subjects or disciplines studied.",
+              "text_html": "<p>identify the principles, practices, and systems regarding the safe, ethical, and legal use of information technologies (<em>e.g., in terms of ergonomics, personal privacy, and computer security</em>) and describe the consequences of their appropriate and inappropriate use for each of the subjects or disciplines studied.</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Structures and Organization",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the different structures and organization of each of the subjects or disciplines studied",
+          "text_html": "<p>demonstrate an understanding of the different structures and organization of each of the subjects or disciplines studied</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "analyse and describe the strengths and limitations of the ways in which knowledge is classified within each of the subjects or disciplines studied (e.g., “In what ways does the classification of knowledge vary in different cultures and at different time periods?”, “How do classification systems affect the knowledge we obtain, expect, or accept?”, “How does interdisciplinary endeavour clarify or question classifications of knowledge?”)",
+              "text_html": "<p>analyse and describe the strengths and limitations of the ways in which knowledge is classified within each of the subjects or disciplines studied (<em>e.g., “In what ways does the classification of knowledge vary in different cultures and at different time periods?”, “How do classification systems affect the knowledge we obtain, expect, or accept?”, “How does interdisciplinary endeavour clarify or question classifications of knowledge?”</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "identify and describe key theories – from diverse psychological, religious, and philosophical traditions – about how people structure experience and organize information to learn, think, and remember",
+              "text_html": "<p>identify and describe key theories – from diverse psychological, religious, and philosophical traditions&nbsp;– about how people structure experience and organize information to learn, think, and remember</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "identify and describe the ways in which information is classified, organized, stored, and retrieved in a wide variety of print and electronic forms used in each of the subjects or disciplines studied (e.g., periodical indexes, documentary and feature films, business reports and trade publications, commercial web pages) and describe possible future developments",
+              "text_html": "<p>identify and describe the ways in which information is classified, organized, stored, and retrieved in a wide variety of print and electronic forms used in each of the subjects or disciplines studied (<em>e.g., periodical indexes, documentary and feature films, business reports and trade publications, commercial web pages</em>) and describe possible future developments</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.4",
+              "text": "identify and describe the features of a variety of information systems (e.g., document delivery systems, distributed learning networks, web-based commercial networks) and analyse their potential for providing practical solutions to problems in each of the subjects or disciplines studied",
+              "text_html": "<p>identify and describe the features of a variety of information systems (<em>e.g., document delivery systems, distributed learning networks, web-based commercial networks</em>) and analyse their potential for providing practical solutions to problems in each of the subjects or disciplines studied</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Perspectives and Approaches",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the different perspectives and approaches used in each of the subjects or disciplines studied",
+          "text_html": "<p>demonstrate an understanding of the different perspectives and approaches used in each of the subjects or disciplines studied</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "analyse and describe how the nature of evidence is considered in each of the subjects or disciplines studied (e.g.,“What constitutes good or acceptable evidence?”, “How do the following differ and how valuable is each: data, information, interpretation, belief, knowledge, and wisdom?”, “What are the limits of perception in providing evidence or certainty?”)",
+              "text_html": "<p>analyse and describe how the nature of evidence is considered in each of the subjects or disciplines studied (<em>e.g.,“What constitutes good or acceptable evidence?”, “How do the following differ and how valuable is each: data, information, interpretation, belief, knowledge, and wisdom?”, “What are the limits of perception in providing evidence or certainty?”</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "analyse and describe the different perspectives of various disciplines on the same topic as exemplified in key interdisciplinary texts, and explain how these texts have influenced human endeavour (e.g., the influence on urban development of The Life and Death of Great American Cities by Jane Jacobs, the influence on health care of On Death and Dying by Elizabeth Kübler-Ross)",
+              "text_html": "<p>analyse and describe the different perspectives of various disciplines on the same topic as exemplified in key interdisciplinary texts, and explain how these texts have influenced human endeavour (<em>e.g., the influence on urban development of </em>The Life and Death of Great American Cities<em> by Jane Jacobs, the influence on health care of </em>On Death and Dying <em>by Elizabeth Kübler-Ross</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "compare the approaches used to investigate key issues, problems, and themes in interdisciplinary work (e.g., in sociology, the use of ethnomethodology to study everyday life; in literary studies, the use of biographical criticism to examine an author’s life and the historical context) and critically analyse examples of effective and ineffective interdisciplinary research",
+              "text_html": "<p>compare the approaches used to investigate key issues, problems, and themes in interdisciplinary work (<em>e.g., in sociology, the use of ethnomethodology to study everyday life; in literary studies, the use of biographical criticism to examine an author’s life and the historical context</em>) and critically analyse examples of effective and ineffective interdisciplinary research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "identify the features of the systems approach to solving problems and describe examples of how it has been successfully applied to model situations and to solve problems in interdisciplinary endeavours (e.g., the classification of the skills and perspectives of participants in an endeavour, the use of simulations to identify potential problems)",
+              "text_html": "<p>identify the features of the systems approach to solving problems and describe examples of how it has been successfully applied to model situations and to solve problems in interdisciplinary endeavours (<em>e.g., the classification of the skills and perspectives of participants in an endeavour, the use of simulations to identify potential problems</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Skills and Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the skills and strategies used to develop interdisciplinary products and activities",
+          "text_html": "<p>demonstrate the skills and strategies used to develop interdisciplinary products and activities</p>",
+          "transferable_skills": [
+            "Collaboration",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "demonstrate an understanding of the collaborative attitudes and skills that contribute to the research and creation of interdisciplinary products and activities (e.g., the ability to manage conflict and delegate tasks in planning a public exhibition of school art, to test and extend ideas by role-playing diverse perspectives on environmental issues in biotechnology developments, or to identify decision points in designing a municipal facility)",
+              "text_html": "<p>demonstrate an understanding of the collaborative attitudes and skills that contribute to the research and creation of interdisciplinary products and activities (<em>e.g., the ability to manage conflict and delegate tasks in planning a public exhibition of school art, to test and extend ideas by role-playing diverse perspectives on environmental issues in biotechnology developments, or to identify decision points in designing a municipal facility</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "explain the role that linguistic devices (e.g., paradoxes and conundrums) and mathematical representations or techniques (e.g., Venn diagrams and Boolean operators) can play in revealing relationships among the subjects or disciplines studied",
+              "text_html": "<p>explain the role that linguistic devices (<em>e.g., paradoxes and conundrums</em>) and mathematical representations or techniques (<em>e.g., Venn diagrams and Boolean operators</em>) can play in revealing relationships among the subjects or disciplines studied</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "critically analyse and demonstrate the ability to apply a variety of critical- and creative-thinking strategies and models (e.g., concept maps, the design process, the 4MAT system model) to help develop original interdisciplinary products or activities",
+              "text_html": "<p>critically analyse and demonstrate the ability to apply a variety of critical- and creative-thinking strategies and models (<em>e.g., concept maps, the design process, the 4MAT system model</em>) to help develop original interdisciplinary products or activities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of how to use a variety of information technologies to support interdisciplinary work (e.g., online websites to store and share data, contact software applications to manage work and human resources, e-mail to consult experts)",
+              "text_html": "<p>demonstrate an understanding of how to use a variety of information technologies to support interdisciplinary work (<em>e.g., online websites to store and share data, contact software applications to manage work and human resources, e-mail to consult experts</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.5",
+              "text": "identify and describe the strategies that community organizations use to address interdisciplinary issues, problems, and decisions (e.g., a municipality responding to changing environmental concerns, an arts organization funding diverse cultural activities)",
+              "text_html": "<p>identify and describe the strategies that community organizations use to address interdisciplinary issues, problems, and decisions (<em>e.g., a municipality responding to changing environmental concerns, an arts organization funding diverse cultural activities</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Processes and Methods of Research",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Processes and Methods of Research",
+          "describer": "By the end of this course, students will:",
+          "text": "be able to plan for research, using a variety of strategies and technologies",
+          "text_html": "<p>be able to plan for research, using a variety of strategies and technologies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "demonstrate an understanding of the purposes and types of research used in each of the subjects or disciplines studied (e.g., by explaining the practical consequences of specific research projects, by analysing reasons why specific research has not produced expected results, by comparing the stages of the technical design process with those of the scientific method) and describe traditional and new methods of research",
+              "text_html": "<p>demonstrate an understanding of the purposes and types of research used in each of the subjects or disciplines studied (<em>e.g., by explaining the practical consequences of specific research projects, by analysing reasons why specific research has not produced expected results, by comparing the stages of the technical design process with those of the scientific method</em>) and describe traditional and new methods of research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "demonstrate an understanding of the skills and attitudes required for research in each of the subjects or disciplines studied (e.g., by identifying the types of questions that guide research, such as factual, comparative, causal, and speculative questions; by valuing diverse perspectives and personal insight) and describe specific research projects that demonstrate these skills and attitudes",
+              "text_html": "<p>demonstrate an understanding of the skills and attitudes required for research in each of the subjects or disciplines studied (<em>e.g., by identifying the types of questions that guide research, such as factual, comparative, causal, and speculative questions; by valuing diverse perspectives and personal insight</em>) and describe specific research projects that demonstrate these skills and attitudes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "identify and describe the critical- and creative-thinking strategies that are effective at each stage of research in each of the subjects or disciplines studied (e.g., relating prior knowledge to the information task, collecting a portfolio of exemplary projects, using divergent thinking about common assumptions, viewing information from one discipline from the perspective of another) and describe specific research projects that demonstrate these strategies",
+              "text_html": "<p>identify and describe the critical- and creative-thinking strategies that are effective at each stage of research in each of the subjects or disciplines studied (<em>e.g., relating prior knowledge to the information task, collecting a portfolio of exemplary projects, using divergent thinking about common assumptions, viewing information from one discipline from the perspective of another</em>) and describe specific research projects that demonstrate these strategies</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.4",
+              "text": "formulate questions for a variety of purposes in interdisciplinary research (e.g., to clarify attitudes and biases regarding specific research activity, to determine focus or perspective on a topic, to explore potential products and activities, to foster multiple perspectives) and evaluate the relevance, significance, and effectiveness of the questions posed",
+              "text_html": "<p>formulate questions for a variety of purposes in interdisciplinary research (<em>e.g., to clarify attitudes and biases regarding specific research activity, to determine focus or perspective on a topic, to explore potential products and activities, to foster multiple perspectives</em>) and evaluate the relevance, significance, and effectiveness of the questions posed</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Accessing Resources",
+          "describer": "By the end of this course, students will:",
+          "text": "be able to access appropriate resources, using a variety of research strategies and technologies",
+          "text_html": "<p>be able to access appropriate resources, using a variety of research strategies and technologies</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "identify and compare significant differences in purpose, conventions, and organization between the Dewey Decimal and Library of Congress classification systems and apply their findings to locate relevant resources using both systems",
+              "text_html": "<p>identify and compare significant differences in purpose, conventions, and organization between the Dewey Decimal and Library of Congress classification systems and apply their findings to locate relevant resources using both systems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "demonstrate the ability to use a combination of strategies to locate relevant resources for interdisciplinary research (e.g., using catalogues for subject access supplemented by shelf browsing or scanning, moving from citations in periodical and bibliographic indexes to full-text resources, using web-based directories to assess and prioritize results of key-word searches in a variety of search engines)",
+              "text_html": "<p>demonstrate the ability to use a combination of strategies to locate relevant resources for interdisciplinary research (<em>e.g., using catalogues for subject access supplemented by shelf browsing or scanning, moving from citations in periodical and bibliographic indexes to full-text resources, using web-based directories to assess and prioritize results of key-word searches in a variety of search engines</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "locate relevant resources for interdisciplinary research, using a variety of print or electronic (online) reference materials, indexes, and databases (e.g., specialized handbooks, bibliographic indexes, trade publications, business reports)",
+              "text_html": "<p>locate relevant resources for interdisciplinary research, using a variety of print or electronic (online) reference materials, indexes, and databases (<em>e.g., specialized handbooks, bibliographic indexes, trade publications, business reports</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "select relevant resources and information within resources for interdisciplinary research, using a variety of reading and critical-thinking strategies (e.g., identifying illustrations, tables, and charts that summarize ideas or findings; skimming chapters, sections, or paragraphs; interpreting and analysing diagrams and graphs)",
+              "text_html": "<p>select relevant resources and information within resources for interdisciplinary research, using a variety of reading and critical-thinking strategies (<em>e.g., identifying illustrations, tables, and charts that summarize ideas or findings; skimming chapters, sections, or paragraphs; interpreting and analysing diagrams and graphs</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Processing Information",
+          "describer": "By the end of this course, students will:",
+          "text": "be able to process information, using a variety of research strategies and technologies",
+          "text_html": "<p>be able to process information, using a variety of research strategies and technologies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "analyse and evaluate information from a variety of print, electronic, and mass media resources according to specific criteria, including the validity of, authority for, and significance of the information (e.g., “In the film documentary, how valid is the argument against students’ right to read?”, “Who are the authors of the website that discusses the impact of technology on indigenous peoples, and what are their credentials?”, “How significant are the conclusions of the study on the protection of provincial wetlands for the local community?”)",
+              "text_html": "<p>analyse and evaluate information from a variety of print, electronic, and mass media resources according to specific criteria, including the validity of, authority for, and significance of the information (<em>e.g., “In the film documentary, how valid is the argument against students’ right to read?”, “Who are the authors of the website that discusses the impact of technology on indigenous peoples, and what are their credentials?”, “How significant are the conclusions of the study on the protection of provincial wetlands for the local community?”</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "identify and critically analyse ideas, arguments, bias, and stereotyping found in resources, using a variety of strategies (e.g., investigating the relevance of examples and case studies in a work, producing an outline of the structure of an author’s argument, conducting an Internet search to determine the consequences of alternative conclusions or solutions)",
+              "text_html": "<p>identify and critically analyse ideas, arguments, bias, and stereotyping found in resources, using a variety of strategies (<em>e.g., investigating the relevance of examples and case studies in a work, producing an outline of the structure of an author’s argument, conducting an Internet search to determine the consequences of alternative conclusions or solutions</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "record, sort, and organize information found in resources related to each of the subjects or disciplines studied, using a variety of forms and technologies (e.g., diagrams, spreadsheets, outlining applications) and focusing on providing accurate data on the source of all information",
+              "text_html": "<p>record, sort, and organize information found in resources related to each of the subjects or disciplines studied, using a variety of forms and technologies (<em>e.g., diagrams, spreadsheets, outlining applications</em>) and focusing on providing accurate data on the source of all information</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.4",
+              "text": "record, sort, and organize sources of information in relevant footnotes, citations, endnotes, or bibliographies, using an accepted form of documentation (e.g., from a recognized stylebook such as that produced by the Modern Language Association or the American Psychological Association)",
+              "text_html": "<p>record, sort, and organize sources of information in relevant footnotes, citations, endnotes, or bibliographies, using an accepted form of documentation (<em>e.g., from a recognized stylebook such as that produced by the Modern Language Association or the American Psychological Association</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.5",
+              "text": "synthesize findings from their interdisciplinary research, using a variety of strategies and technologies (e.g., collaborating with members of their research team to compare the conclusions reached about a common issue treated in different resources, creating a web page linking relevant research sites around the world, adapting the findings from an interdisciplinary text on urban design for a multimedia submission to a town council)",
+              "text_html": "<p>synthesize findings from their interdisciplinary research, using a variety of strategies and technologies (<em>e.g., collaborating with members of their research team to compare the conclusions reached about a common issue treated in different resources, creating a web page linking relevant research sites around the world, adapting the findings from an interdisciplinary text on urban design for a multimedia submission to a town council</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B4",
+          "title": "Assessing and Extending Research",
+          "describer": "By the end of this course, students will:",
+          "text": "be able to assess and extend their research skills to present their findings and solve problems",
+          "text_html": "<p>be able to assess and extend their research skills to present their findings and solve problems</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B4.1",
+              "text": "re-examine the comprehensiveness of their interdisciplinary research to date and modify their interdisciplinary products (e.g., statistical graphs and diagrams, working models, annotated bibliographies) in light of new findings and feedback",
+              "text_html": "<p>re-examine the comprehensiveness of their interdisciplinary research to date and modify their interdisciplinary products (<em>e.g., statistical graphs and diagrams, working models, annotated bibliographies</em>) in light of new findings and feedback</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B4.2",
+              "text": "assess their effectiveness in finding practical approaches or solutions through their research to problems in the subjects or disciplines studied (e.g., “What lessons for community leadership can be learned from the project?”, “How can my school respond to the needs of our Native students?”)",
+              "text_html": "<p>assess their effectiveness in finding practical approaches or solutions through their research to problems in the subjects or disciplines studied (<em>e.g., “What lessons for community leadership can be learned from the project?”, “How can my school respond to the needs of our Native students?”</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B4.3",
+              "text": "develop and apply effective criteria for assessing the quality of their interdisciplinary research (e.g., by identifying how well they made innovative and original explorations or arrived at innovative and original solutions)",
+              "text_html": "<p>develop and apply effective criteria for assessing the quality of their interdisciplinary research (<em>e.g., by identifying how well they made innovative and original explorations or arrived at innovative and original solutions</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B4.4",
+              "text": "identify possible topics and real-life applications for subsequent personal interdisciplinary research activities and describe methods and approaches required for success.",
+              "text_html": "<p>identify possible topics and real-life applications for subsequent personal interdisciplinary research activities and describe methods and approaches required for success.</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Implementation, Evaluation, Impacts, and Consequences",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Implementation and Communication",
+          "describer": "By the end of this course, students will:",
+          "text": "implement and communicate information about interdisciplinary endeavours, using a variety of methods and strategies",
+          "text_html": "<p>implement and communicate information about interdisciplinary endeavours, using a variety of methods and strategies</p>",
+          "transferable_skills": [
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "create practical interdisciplinary products based on their own plans or designs, independently or as members of a team (e.g., sketches, technical drawings, and prototypes of a robotic device used in manufacturing a consumer product; a set of dramatic scenes that illustrate techniques used by leaders to motivate individuals and teams in a variety of work contexts)",
+              "text_html": "<p>create practical interdisciplinary products based on their own plans or designs, independently or as members of a team (<em>e.g., sketches, technical drawings, and prototypes of a robotic device used in manufacturing a consumer product; a set of dramatic scenes that illustrate techniques used by leaders to motivate individuals and teams in a variety of work contexts</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "demonstrate the ability to communicate and present information effectively, using a variety of methods and forms (e.g., video documentaries, musical compositions, mathematical models and prototypes, scientific demonstrations)",
+              "text_html": "<p>demonstrate the ability to communicate and present information effectively, using a variety of methods and forms (<em>e.g., video documentaries, musical compositions, mathematical models and prototypes, scientific demonstrations</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "demonstrate an understanding of the ways in which the graphic display of quantitative information can be used to communicate ideas with clarity, precision, and efficiency in interdisciplinary presentations (e.g., by having a well-chosen and attractive format and design, by presenting data at several levels of detail, by integrating statistical and verbal descriptions of a data set)",
+              "text_html": "<p>demonstrate an understanding of the ways in which the graphic display of quantitative information can be used to communicate ideas with clarity, precision, and efficiency in interdisciplinary presentations (<em>e.g., by having a well-chosen and attractive format and design, by presenting data at several levels of detail, by integrating statistical and verbal descriptions of a data set</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "use a variety of technological strategies and applications effectively to create interdisciplinary products or activities (e.g., use online experts, discussion groups, and interactive websites to test ideas and plans)",
+              "text_html": "<p>use a variety of technological strategies and applications effectively to create interdisciplinary products or activities (<em>e.g., use online experts, discussion groups, and interactive websites to test ideas and plans</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.5",
+              "text": "analyse case studies in which specific methods and technologies were used in each of the subjects or disciplines studied to communicate and receive information safely, legally, and ethically (e.g., respecting the security of computer systems and their files, identifying information sources and their copyright owner, applying health and safety procedures) and assess the effectiveness of the methods and technologies used.",
+              "text_html": "<p>analyse case studies in which specific methods and technologies were used in each of the subjects or disciplines studied to communicate and receive information safely, legally, and ethically (e.g., respecting the security of computer systems and their files, identifying information sources and their copyright owner, applying health and safety procedures) and assess the effectiveness of the methods and technologies used.</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Evaluation",
+          "describer": "By the end of this course, students will:",
+          "text": "evaluate the quality of interdisciplinary endeavours, using a variety of strategies",
+          "text_html": "<p>evaluate the quality of interdisciplinary endeavours, using a variety of strategies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "monitor the effectiveness of the plans for their interdisciplinary research, products, or activities, employing the strategies and technologies used in real-life situations (e.g., by recording evidence of the challenges faced and insights found, monitoring progress according to a time-management application, and holding regular conferences to check the delivery of project targets)",
+              "text_html": "<p>monitor the effectiveness of the plans for their interdisciplinary research, products, or activities, employing the strategies and technologies used in real-life situations (<em>e.g., by recording evidence of the challenges faced and insights found, monitoring progress according to a time-management application, and holding regular conferences to check the delivery of project targets</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "evaluate the effectiveness of their presentations according to specific criteria (e.g., “Is technology used appropriately and innovatively?”, “Do graphic displays of information present information clearly and precisely?”, “Does the presentation deepen the audience’s understanding of issues?”)",
+              "text_html": "<p>evaluate the effectiveness of their presentations according to specific criteria (<em>e.g., “Is technology used appropriately and innovatively?”, “Do graphic displays of information present information clearly and precisely?”, “Does the presentation deepen the audience’s understanding of issues?”</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "evaluate the effectiveness of the collaborative strategies they used in planning and implementing interdisciplinary products and activities (e.g., by identifying how well they sought inclusive solutions, shared goals and conflicts, structured discussions and decision-making, and tested and extended individual ideas)",
+              "text_html": "<p>evaluate the effectiveness of the collaborative strategies they used in planning and implementing interdisciplinary products and activities (<em>e.g., by identifying how well they sought inclusive solutions, shared goals and conflicts, structured discussions and decision-making, and tested and extended individual ideas</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Impacts",
+          "describer": "By the end of this course, students will:",
+          "text": "analyse and describe the impact on society of interdisciplinary approaches and solutions to real-life situations",
+          "text_html": "<p>analyse and describe the impact on society of interdisciplinary approaches and solutions to real-life situations</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "describe and critically analyse contemporary examples of interdisciplinary products and activities that apply innovative approaches and solutions to a variety of real-life situations around the world (e.g., the use of robotics in industry and commerce, the development of e-learning opportunities for remote locations)",
+              "text_html": "<p>describe and critically analyse contemporary examples of interdisciplinary products and activities that apply innovative approaches and solutions to a variety of real-life situations around the world (<em>e.g., the use of robotics in industry and commerce, the development of e-learning opportunities for remote locations</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "describe and critically analyse the potential cultural, economic, political, environmental, and technological impacts on present and future societies of interdisciplinary endeavours related to the subjects or disciplines studied (e.g., the impact of the Bauhaus movement on modern architecture, design, and the arts; of cybernetics on effective organizations; of alternative medicine on health-care systems)",
+              "text_html": "<p>describe and critically analyse the potential cultural, economic, political, environmental, and technological impacts on present and future societies of interdisciplinary endeavours related to the subjects or disciplines studied (e.g., the impact of the Bauhaus movement on modern architecture, design, and the arts; of cybernetics on effective organizations; of alternative medicine on health-care systems)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "research, analyse, and describe, with particular reference to each of the subjects or disciplines studied, the personal and social impacts of significant information-related inventions and developments (e.g., moveable type, radio, television, communications satellites, the Internet)",
+              "text_html": "<p>research, analyse, and describe, with particular reference to each of the subjects or disciplines studied, the personal and social impacts of significant information-related inventions and developments (<em>e.g., moveable type, radio, television, communications satellites, the Internet</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.4",
+              "text": "plan, conduct, and present independent interdisciplinary research, with particular reference to each of the subjects or disciplines studied, on the potential social, political, and economic impacts of emerging information technologies (e.g., the effect of technology on student learning and schooling, the impact of automation in the workplace, the limits of innovation in information technologies)",
+              "text_html": "<p>plan, conduct, and present independent interdisciplinary research, with particular reference to each of the subjects or disciplines studied, on the potential social, political, and economic impacts of emerging information technologies (<em>e.g., the effect of technology on student learning and schooling, the impact of automation in the workplace, the limits of innovation in information technologies</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C4",
+          "title": "Personal and Career Development",
+          "describer": "By the end of this course, students will:",
+          "text": "analyse and describe how interdisciplinary skills relate to personal development and careers",
+          "text_html": "<p>analyse and describe how interdisciplinary skills relate to personal development and careers</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C4.1",
+              "text": "demonstrate an understanding of selected interdisciplinary texts related to each of the subjects or disciplines studied and present an analysis of their reading preferences and needs, using a variety of strategies (e.g., collaborative inquiry, classification of types of texts, identification of significant authors and titles in specific genres)",
+              "text_html": "<p>demonstrate an understanding of selected interdisciplinary texts related to each of the subjects or disciplines studied and present an analysis of their reading preferences and needs, using a variety of strategies (<em>e.g., collaborative inquiry, classification of types of texts, identification of significant authors and titles in specific genres</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C4.2",
+              "text": "analyse their personal information skills (e.g., their ability to cope with information overload, to follow appropriate safety and privacy procedures, to synthesize findings from a variety of sources) and identify those skills that require development if they are to achieve success in interdisciplinary studies",
+              "text_html": "<p>analyse their personal information skills (<em>e.g., their ability to cope with information overload, to follow appropriate safety and privacy procedures, to synthesize findings from a variety of sources</em>) and identify those skills that require development if they are to achieve success in interdisciplinary studies</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C4.3",
+              "text": "research the importance of effective collaborative and communication skills (e.g., team building in new entrepreneurial ventures; joint presentations to government for new arts facilities by architects, urban planners, and social agencies) in interdisciplinary careers related to the subjects and disciplines under study",
+              "text_html": "<p>research the importance of effective collaborative and communication skills (<em>e.g., team building in new entrepreneurial ventures; joint presentations to government for new arts facilities by architects, urban planners, and social agencies</em>) in interdisciplinary careers related to the subjects and disciplines under study</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C4.4",
+              "text": "identify postsecondary training requirements for and potential employment opportunities in interdisciplinary fields related to the subjects or disciplines under study, using various methods (e.g., using job-search strategies on the Internet, analysing descriptions of projects in periodical sources, identifying the background and qualifications of leading practitioners) and create a personal inventory of required interdisciplinary skills for each",
+              "text_html": "<p>identify postsecondary training requirements for and potential employment opportunities in interdisciplinary fields related to the subjects or disciplines under study, using various methods (<em>e.g., using job-search strategies on the Internet, analysing descriptions of projects in periodical sources, identifying the background and qualifications of leading practitioners</em>) and create a personal inventory of required interdisciplinary skills for each</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

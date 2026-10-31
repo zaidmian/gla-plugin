@@ -1,0 +1,482 @@
+{
+  "code": "AMU4E",
+  "name": "Music",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "Workplace",
+  "category": "Music",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course provides students with the fundamental knowledge and skills needed to succeed in the music workplace. Students will, at a level consistent with previous experience, perform appropriate musical works. Independently and collaboratively, students will use current technology and the creative and critical analysis processes to plan, produce, and market music presentations that reflect a broad spectrum of workplace contexts. In addition, students will explore ethical and safe practices related to music.",
+  "prerequisites": "Grade 11 Music, Open",
+  "prerequisite_codes": [
+    "AMU3O"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/amu4e",
+  "source_codename": "arts___sec___amu4e",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Performing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the stages of the creative process when performing music, composing and/or arranging music, and engaging in musical productions",
+          "text_html": "<p>apply the stages of the creative process when performing music, composing and/or arranging music, and engaging in musical productions</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "apply the creative process when performing music and composing and/or arranging music (e.g., develop a practice plan for their guitar group, including exercises that focus on skills related to the selection to be performed; experiment with various approaches to improvising a selected melody, and evaluate the results; present their a cappella selection to a group of their peers, and reflect on their feedback to refine their performance; arrange rhythm patterns for a variety of instruments in a percussion ensemble)",
+              "text_html": "<p>apply the creative process when performing music and composing and/or arranging music <em>(e.g., develop a practice plan for their guitar group, including exercises that focus on skills related to the selection to be performed; experiment with various approaches to improvising a selected&nbsp;</em><a data-item-id=\"1b0ad9db-c56b-4830-a4a8-1756a254500b\" href=\"\"><em>melody</em></a><em>, and evaluate the results; present their a cappella selection to a group of their peers, and reflect on their feedback to refine their performance; arrange </em><a data-item-id=\"98672331-bdaa-4f10-934b-2d171ace9ae3\" href=\"\"><em>rhythm</em></a><em> patterns for a variety of instruments in a percussion ensemble)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What skills or elements do you need to address in your practice plan? Should all members of the group follow the same plan? Why or why not?\n  What inspired your approach to your Native drum performance?",
+                  "text_html": "<ul>\n  <li>What skills or elements do you need to address in your practice plan? Should all members of the group follow the same plan? Why or why not?</li>\n  <li>What inspired your approach to your Native drum performance?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "use applicable stages of the creative process when developing aspects of a variety of music-related productions (e.g., explore possible acts and venues for a community fund-raising concert; working independently, plan, refine, and present a marketing strategy for a CD; working in groups, develop a creative plan for a coffee house, variety night, or nightclub activity for your school or community)",
+              "text_html": "<p>use applicable stages of the creative process when developing aspects of a variety of music-related productions <em>(e.g., explore possible acts and venues for a community fund-raising concert; working independently, plan, refine, and present a marketing strategy for a CD; working in groups, develop a creative plan for a coffee house, variety night, or nightclub activity for your school or community)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What aspects of the creative process go into producing a successful concert or musical event? Which aspects do you think are the most important? Why?\n  What have you learned from reflecting on and evaluating your approach to the creative process in this production?",
+                  "text_html": "<ul>\n  <li>What aspects of the creative process go into producing a successful concert or musical event? Which aspects do you think are the most important? Why?</li>\n  <li>What have you learned from reflecting on and evaluating your approach to the creative process in this production?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "The Elements of Music",
+          "describer": "By the end of this course, students will:",
+          "text": "apply elements of music when performing music and/or creating a musical production, and when composing and/or arranging music",
+          "text_html": "<p>apply elements of music when performing music and/or creating a musical production, and when composing and/or arranging music</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "demonstrate the ability to effectively apply and/or address the elements of music and related concepts when performing music and/or creating a musical production (e.g., accurately play or sing selected rhythms and melodies similar to those in the music they are studying; list the key elements of a selection in a graphic organizer, and use this list to guide their practice; record an ensemble performance, with attention to dynamics and pitch, especially maintaining appropriate balance and blend)",
+              "text_html": "<p>demonstrate the ability to effectively apply and/or address the elements of music and related concepts when performing music and/or creating a musical production <em>(e.g., accurately play or sing selected rhythms and melodies similar to those in the music they are studying; list the key elements of a selection in a graphic organizer, and use this list to guide their practice; record an ensemble performance, with attention to dynamics and pitch, especially maintaining appropriate balance and blend)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What particular elements will you focus on most closely when rehearsing this musical selection? How will this practice enhance your performance?",
+                  "text_html": "<ul>\n  <li>What particular elements will you focus on most closely when rehearsing this musical selection? How will this practice enhance your performance?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "apply the elements of music and related concepts appropriately when composing and/or arranging music (e.g., explore a range of forms for their composition, using a loop-based mixing program; manipulate the elements of music in an electronic or acoustic composition in a way appropriate to their chosen form)",
+              "text_html": "<p>apply the elements of music and related concepts appropriately when composing and/or&nbsp;arranging music <em>(e.g., explore a range of forms for their composition, using a loop-based mixing program; manipulate the elements of music in an electronic or acoustic composition in a way appropriate to their chosen form)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In writing the background music for this public service announcement, what factors did you have to consider when planning your approach to the elements of music? In what ways have the subject and potential audience influenced your approach to form and duration?",
+                  "text_html": "<ul>\n  <li>In writing the background music for this public service announcement, what factors did you have to consider when planning your approach to the elements of music? In what ways have the subject and potential audience influenced your approach to form and duration?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Techniques and Technologies",
+          "describer": "By the end of this course, students will:",
+          "text": "use a range of techniques and technological tools in a variety of applications related to music",
+          "text_html": "<p>use a range of techniques and technological tools in a variety of applications related to music</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "demonstrate technical skill in a variety of music performance and/or production situations (e.g., use correct breath control, bow control, stick technique, as appropriate; demonstrate the technical skills necessary to operate a sound board, to use a sequencing program when producing music, or to use a notation program when preparing individual parts of a selection for an ensemble performance)",
+              "text_html": "<p>demonstrate technical skill in a variety of music performance and/or production situations (<em>e.g., use correct breath control, bow control, stick technique, as appropriate; demonstrate the technical skills necessary to operate a sound board, to use a sequencing program when producing music, or to use a notation program when preparing individual parts of a selection for an ensemble performance)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does posture and breathing affect your performance?\n  What could you do to develop your skill in the use of this sequencing program? How would enhancing these skills affect your ability to produce music?",
+                  "text_html": "<ul>\n  <li>In what ways does posture and breathing affect your performance?</li>\n  <li>What could you do to develop your skill in the use of this sequencing program? How would enhancing these skills affect your ability to produce music?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "use current technology in a variety of applications related to music, including the preparation of a portfolio (e.g., design, set up, and run a concert sound system; plan an optimal music system for their home or vehicle; use digital technology to record their rehearsal for the purpose of review; use accompaniment or notation software when composing; create a blog documenting their creative journey as they prepare for an a cappella performance; create a digital portfolio of their computer-based composition at various stages of its development)",
+              "text_html": "<p>use current technology in a variety of applications related to music, including the preparation of a portfolio <em>(e.g., design, set up, and run a concert sound system; plan an optimal music system for their home or vehicle; use digital technology to record their rehearsal for the purpose of review; use accompaniment or notation software when composing; create a blog documenting their creative journey as they prepare for an a cappella performance; create a digital portfolio of their computer-based composition at various stages of its development)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What qualities does a good sound system have?\n  What are the advantages of reviewing your recorded practice?\n  What technical considerations do you need to keep  in mind when developing a creative portfolio?\n  What are the advantages of having a loop feature on your music sequencing or accompaniment software program? How can it assist you in your musical production?",
+                  "text_html": "<ul>\n  <li>What qualities does a good sound system have?</li>\n  <li>What are the advantages of reviewing your recorded practice?</li>\n  <li>What technical considerations do you need to keep&nbsp; in mind when developing a creative portfolio?</li>\n  <li>What are the advantages of having a loop feature on your music sequencing or accompaniment software program? How can it assist you in your musical production?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the critical analysis process when responding to, analysing, reflecting on, and interpreting music",
+          "text_html": "<p>use the critical analysis process when responding to, analysing, reflecting on, and interpreting music</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "identify and analyse the elements of music selections used in commercial and corporate applications through listening to and/or examining notated scores of these selections (e.g., list the elements of music used in advertisements or in television or radio show themes; analyse the use of music on websites or in video games with reference to melody, rhythm, harmonic structure, timbre, and/or texture)",
+              "text_html": "<p>identify and analyse the elements of music selections used in commercial and corporate applications through listening to and/or examining notated scores of these selections <em>(e.g., list the elements of music used in advertisements or in television or radio show themes; analyse the use of music on websites or in video games with reference to melody, rhythm, harmonic structure, timbre, and/or texture)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does the score for this action movie use the elements of music to enhance the emotional effect on the audience?\n  What type of music is used in this advertisement? Why would the use of elements in this music appeal to the target audience?",
+                  "text_html": "<ul>\n  <li>How does the score for this action movie use the elements of music to enhance the emotional effect on the audience?</li>\n  <li>What type of music is used in this advertisement? Why would the use of elements in this music appeal to the target audience?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "listen in a purposeful way to music used in a variety of commercial and/or corporate applications, and describe and reflect on their responses to and interpretation of the music (e.g., describe their initial responses to a variety of advertising jingles; use a graphic organizer to record their evolving interpretation of a film score through each stage of the critical analysis process; create a playlist for a specific purpose or event, and explain their choices with reference to their personal interpretation of the music and its appropriateness for the intended audience)",
+              "text_html": "<p>listen in a purposeful way to music used in a variety of commercial and/or corporate applications, and describe and reflect on their responses to and interpretation of the music <em>(e.g., describe their initial responses to a variety&nbsp;of advertising jingles; use a graphic organizer&nbsp;to record their evolving interpretation of a film score through each stage of the critical analysis process; create a playlist for a specific purpose or event, and explain their choices with reference to their personal interpretation of the music and its appropriateness for the intended audience)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is your response to  the music in this advertisement? Do you think your response is consistent with the advertiser’s intention?\n  In what ways did your interpretation of this film score change when you listened to it while watching the film on DVD after initially listening to the score on CD without the images/action?",
+                  "text_html": "<ul>\n  <li>What is your response to&nbsp; the music in this advertisement? Do you think your response is consistent with the advertiser’s intention?</li>\n  <li>In what ways did your interpretation of this film score change when you listened to it while watching the film on DVD after initially listening to the score on CD without the images/action?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "analyse and evaluate the effectiveness of music used in a variety of commercial or corporate applications (e.g., assess the effectiveness of various advertising jingles; analyse the intended emotional impact of the score for a television drama, and explain whether or not it is successful; provide constructive feedback on the music a peer has chosen or composed for a website he or she is developing)",
+              "text_html": "<p>analyse and evaluate the effectiveness of music used in a variety of commercial or corporate applications <em>(e.g., assess the effectiveness of various advertising jingles; analyse the intended emotional impact of the score for a television drama, and explain whether or not it is successful; provide constructive feedback on the music a peer has chosen or composed for a website he or she is developing)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What role does the soundtrack play in communicating the message of this movie? Do you think it is successful? Why or why not?\n  Why is the theme music for your favourite TV show so effective in conveying the theme or tone of the show?",
+                  "text_html": "<ul>\n  <li>What role does the soundtrack play in communicating the message of this movie? Do you think it is successful? Why or why not?</li>\n  <li>Why is the theme music for your favourite TV show so effective in conveying the theme or tone of the show?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "analyse research data related to music marketing, criticism, and audience response, with particular emphasis on music used for commercial purposes (e.g., analyse data on music distribution and marketing related to changing forms of music presentation [CDs versus MP3s]; use survey data to devise a marketing plan for a music product)",
+              "text_html": "<p>analyse research data related to music marketing, criticism, and audience response, with particular emphasis on music used for commercial purposes <em>(e.g., analyse data on music distribution and marketing related to changing forms of music presentation [CDs versus MP3s]; use survey data to devise a marketing plan for a music product)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What kind of information might a recording company want to collect when planning the release of new music? How might they obtain the data? How might they use the data?",
+                  "text_html": "<ul>\n  <li>What kind of information might a recording company want to collect when planning the release of new music? How might they obtain the data? How might they use the data?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Music and Society",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the function of and social/cultural influences on music",
+          "text_html": "<p>demonstrate an understanding of the function of and social/cultural influences on music</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "analyse the functions of music, with particular emphasis on music used in workplace applications (e.g., to sell products; to entertain; to raise awareness about social issues; to complement films, television shows, websites, video  games)",
+              "text_html": "<p>analyse the functions of music, with particular emphasis on music used in workplace applications <em>(e.g., to sell products; to entertain; to raise awareness about social issues; to complement films, television&nbsp;shows, websites, video&nbsp; games)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why do advertisers often use popular songs in their ads?\n  What types of social issues are addressed in commercial music in Canada? What, if any, differences are there between these issues and those addressed in commercial music in a developing country?",
+                  "text_html": "<ul>\n  <li>Why do advertisers often use popular songs in their ads?</li>\n  <li>What types of social issues are addressed in <a data-item-id=\"582b7288-e506-4f3a-ae89-9ee7868c344b\" href=\"\">commercial music</a> in Canada? What, if any, differences are there between these issues and those addressed in commercial music in a developing country?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "analyse factors, including social and cultural factors, that influence the creation and consumption of music (e.g., the impact of technological developments; the influence of prominent or innovative composers or stylists; the forces of multiculturalism and globalization; the desire of songwriters to respond to social  issues)",
+              "text_html": "<p>analyse factors, including social and cultural factors, that influence the creation and consumption of music <em>(e.g., the impact of technological developments; the influence of prominent or innovative composers or stylists; the forces of multiculturalism and globalization; the&nbsp;desire of songwriters to respond to social&nbsp; issues)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Who or what are the musical influences of your favourite performers? What aspects of their music illustrates this influence?\n  What effect has mass media and new technology had on the music industry?\n  How has multiculturalism affected current commercial music in Canada?",
+                  "text_html": "<ul>\n  <li>Who or what are the musical influences of your favourite performers? What aspects of their music illustrates this influence?</li>\n  <li>What effect has mass media and new technology had on the music industry?</li>\n  <li>How has multiculturalism affected current commercial music in Canada?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Skills and Personal Growth",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how performing, creating, and critically analysing music has affected their skills and personal development",
+          "text_html": "<p>demonstrate an understanding of how performing, creating, and critically analysing music has affected their skills and personal development</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "assess how the study of music has affected their personal growth and values, their expressive capabilities, and their understanding of others, particularly within the context of the workplace and their daily life (e.g., the difference that music has made in their personal life; their ability to analyse and communicate, and its impact on their job performance; their understanding of other cultures and communities developed through the study of music, and its impact on their values and  behaviour)",
+              "text_html": "<p>assess how the study of music has affected their personal growth and values, their expressive capabilities, and their understanding of others, particularly within the context of the workplace and their daily life <em>(e.g., the difference that music has made in their personal life; their ability to analyse and communicate, and its impact on their job performance; their understanding of other cultures and communities developed through the study of music, and its impact on their values and &nbsp;behaviour)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What role does music play in your life? Has that role changed as your knowledge of music has increased? \n  Identify some musicians and songs that have influenced your point of view on a social or environmental issue. How have they affected your day-to-day behaviour?",
+                  "text_html": "<ul>\n  <li>What role does music play in your life? Has that role changed as your knowledge of music has increased?&nbsp;</li>\n  <li>Identify some musicians and songs that have influenced your point of view on a social or environmental issue. How have they affected your day-to-day behaviour?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "assess their musical performance and production skills and knowledge, and describe the steps they will take to ensure continued improvement in these areas (e.g., assess the effectiveness of a collaborative musical production, and determine how they could enhance their contribution to it; review recordings of their performances to assess their strengths and weaknesses and identify areas for improvement; describe the skills and knowledge they would need to develop to plan and produce a musical presentation in a theatrical setting)",
+              "text_html": "<p>assess their musical performance and production skills and knowledge, and describe the steps they will take to ensure continued improvement in these areas <em>(e.g., assess the effectiveness of a collaborative musical production, and determine how they could enhance their contribution to it; review recordings of their performances to assess their strengths and weaknesses and identify areas for improvement; describe the skills and knowledge they would need to develop to plan and produce a musical presentation in a theatrical setting)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How effectively did you perform this selection? What aspects of your performance could be improved? What strategy could you use to develop your skill in these areas?\n  When you reflect on this concert, what would you change about your contribution that would enhance the overall effectiveness of the event?",
+                  "text_html": "<ul>\n  <li>How effectively did you perform this selection? What aspects of your performance could be improved? What strategy could you use to develop your skill in these areas?</li>\n  <li>When you reflect on this concert, what would you change about your contribution that would enhance the overall effectiveness of the event?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "demonstrate the ability to lead and work as part of collaborative musical production teams (e.g., develop procedures for collaborative planning and production meetings; assemble a creative team to produce a music video; model appropriate behaviour when working with an ensemble)",
+              "text_html": "<p>demonstrate the ability to lead and work as part of collaborative musical production teams <em>(e.g., develop procedures for collaborative planning and production meetings; assemble a creative team to produce a music video; model appropriate behaviour when working with an ensemble)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways do your responsibilities change when you take on a leadership role within your performing ensemble or production team?\n  How can you apply the teamwork and leadership you have developed in your performing group to other situations?",
+                  "text_html": "<ul>\n  <li>In what ways do your responsibilities change when you take on a leadership role within your performing ensemble or production team?</li>\n  <li>How can you apply the teamwork and leadership you have developed in your performing group to other situations?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B4",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and describe opportunities and requirements for continued engagement in music",
+          "text_html": "<p>identify and describe opportunities and requirements for continued engagement in music</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B4.1",
+              "text": "identify, and assess the requirement for, jobs or careers that utilize skills and knowledge acquired through the study of music (e.g., prepare for and conduct a mock job interview, focusing on the skills developed through the study of music; invite a master who supervises an apprenticeship program in a trade related to music to visit the class and discuss the skills and training necessary for the trade; job-shadow a worker in a career in the music industry that can be accessed through a workplace pathway)",
+              "text_html": "<p>identify, and assess the requirement for, jobs or careers that utilize skills and knowledge acquired through the study of music <em>(e.g., prepare for and conduct a mock job interview, focusing on the skills developed through the study of music; invite a master who supervises an apprenticeship program in a trade related to music to visit the class and discuss the skills and training necessary for the trade; job-shadow a worker in a career in the music industry that can be accessed through a workplace pathway)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What music-related jobs and careers can be accessed directly out of high school?\n  How might you use the skills you have developed through the study of music in jobs outside the music industry?",
+                  "text_html": "<ul>\n  <li>What music-related jobs and careers can be accessed directly out of high school?</li>\n  <li>How might you use the skills you have developed through the study of music in jobs outside the music industry?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B4.2",
+              "text": "investigate and describe musical learning opportunities and experiences, both formal and informal, that they could pursue after high school (e.g., develop a business/career plan for their band/ensemble/group; create a slide show focusing on musical opportunities in their community; explore ways in which the Internet could play a role in their musical future; discover venues for study in the field of music therapy; create a website for a virtual school of music, illustrating a range of possible careers)",
+              "text_html": "<p>investigate and describe musical learning opportunities and experiences, both formal and informal, that they could pursue after high school <em>(e.g., develop a business/career plan for their band/ensemble/group; create a slide show focusing on musical opportunities in their community; explore ways in which the Internet could play a role in their musical future; discover venues for study in the field of music therapy; create a website for a virtual school of music, illustrating a range of possible careers)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What kinds of informal musical experiences can be educational? What are the advantages and disadvantages of pursuing a formal music education compare to pursuing informal learning opportunities or being a self-taught musician?",
+                  "text_html": "<ul>\n  <li>What kinds of informal musical experiences can be educational? What are the advantages and disadvantages of pursuing a formal music education compare to pursuing informal learning opportunities or being a self-taught musician?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B4.3",
+              "text": "describe opportunities for, and assess the benefits of, personal involvement in arts-related activities, including opportunities related to private and/or public arts organizations (e.g., funding requirements of various arts organizations; arts advocacy opportunities and their possible impact; student subscription series in music, theatre, or dance in their community)",
+              "text_html": "<p>describe opportunities for, and assess the benefits of, personal involvement in arts-related activities, including opportunities related to private and/or public arts organizations <em>(e.g., funding requirements of various arts organizations; arts advocacy opportunities and their possible impact; student subscription series in music, theatre, or dance in their community)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What could you do to increase the range or quality of musical opportunities in your community?\n  What are some organizations that support artists in your local community? What are some ways you could work with or receive support from them?",
+                  "text_html": "<ul>\n  <li>What could you do to increase the range or quality of musical opportunities in your community?</li>\n  <li>What are some organizations that support artists in your local community? What are some ways you could work with or receive support from them?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Theory and Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of music theory with respect to elements and notation, and use appropriate terminology relating to them",
+          "text_html": "<p>demonstrate an understanding of music theory with respect to elements and notation, and use appropriate terminology relating to them</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "demonstrate an understanding of the elements of music, through practical application in musical performance, composition, and production, and use appropriate terminology related to these elements (e.g., explain orally, using appropriate terminology, the decisions they made with respect to dynamics and phrasing in preparation for performing a piece of music; describe how they approached decisions about duration in their composition)",
+              "text_html": "<p>demonstrate an understanding of the elements of music, through practical application in musical performance, composition, and production, and use appropriate terminology related to these elements <em>(e.g., explain orally, using appropriate terminology, the decisions they made with respect to </em><a data-item-id=\"91081f20-98ef-449b-9f6e-2c8f0a86bf4d\" href=\"\"><em>dynamics</em></a><em> and phrasing in preparation for performing a piece of music; describe how they approached decisions about duration in their&nbsp;composition)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "demonstrate an understanding of, and use correct terminology related to, the concepts of notation in a variety of performance and/or composition activities (e.g., demonstrate the ability to read guitar tablature, and describe its relationship to grand staff notation; demonstrate an understanding of duration and pitch notation by accurately transcribing melodies from contemporary music; create an original notation system for a short melodic line, and teach their notation system to one of their peers)",
+              "text_html": "<p>demonstrate an understanding of, and use correct terminology related to, the concepts of notation in a variety of performance and/or composition activities <em>(e.g., demonstrate the ability to read guitar </em><a data-item-id=\"df6b094f-189c-4b44-b3b3-5fb2f0d0bdb5\" href=\"\"><em>tablature</em></a><em>, and describe its relationship to </em><a data-item-id=\"d9cababd-ecc6-4db4-8cf0-86464ebd3b58\" href=\"\"><em>grand staff</em></a><em> notation; demonstrate an understanding of duration and pitch notation by accurately transcribing melodies from contemporary music; create an original notation system for a short melodic line, and teach their notation system to one of their peers)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Characteristics and Development of Musical Forms",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the development and characteristics of various forms of music",
+          "text_html": "<p>demonstrate an understanding of the development and characteristics of various forms of music</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "categorize musical works by genre, period, function, and/or theme, and describe the reasons for their categorization, with particular emphasis on the elements of music (e.g., identify the elements of music associated with chamber music, jazz, hip hop, Bollywood soundtracks; use concept attainment strategies relating to the elements of music to categorize various musical selections by genre)",
+              "text_html": "<p>categorize musical works by genre, period, function, and/or theme, and describe the reasons for their categorization, with particular emphasis on the elements of music <em>(e.g., identify the elements of music associated with chamber music, jazz, hip&nbsp;hop, Bollywood&nbsp;soundtracks;&nbsp;use concept attainment strategies relating to the elements of music to&nbsp;categorize&nbsp;various&nbsp;musical&nbsp;selections by genre)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Can you tell by listening whether this musical selection would be classified as traditional or art music? Which elements of the selection help you classify it?\n  What elements of traditional music are evident in  this popular song?",
+                  "text_html": "<ul>\n  <li>Can you tell by listening whether this musical selection would be classified as traditional or <a data-item-id=\"5cb39d66-4c8a-423a-b151-c21c24deb486\" href=\"\">art music</a>? Which elements of the selection help you classify it?</li>\n  <li>What elements of traditional music are evident in&nbsp; this popular song?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "explain, in a research-based report or presentation, the characteristics of and ideas addressed in traditional and contemporary music, including Aboriginal music from Canada and around the world (e.g., compare  the ideas expressed in popular music from South Asia and North America; illustrate, using a Venn diagram, and explain the shared characteristics of traditional and contemporary music from Quebec; compare the characteristics of traditional music they are familiar with from their own childhood with traditional songs from other cultures)",
+              "text_html": "<p>explain, in a research-based report or presentation, the characteristics of and ideas addressed in traditional and contemporary music, including <a data-item-id=\"d00a2d62-487b-4f63-acce-2a555f6074ba\" href=\"\">Aboriginal</a> music from Canada and around the world <em>(e.g., compare&nbsp; the ideas expressed in popular music from South Asia and North America; illustrate, using a Venn diagram, and explain the shared characteristics of traditional and contemporary music from Quebec; compare the characteristics of traditional music they are familiar with from their own childhood with traditional songs from other cultures)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What themes are expressed in contemporary Aboriginal music in Canada?\n  How and why do the soundtracks from Chinese and Hollywood action/martial arts films differ from each other?",
+                  "text_html": "<ul>\n  <li>What themes are expressed in contemporary Aboriginal music in Canada?</li>\n  <li>How and why do the soundtracks from Chinese and Hollywood action/martial arts films differ from each other?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Conventions and Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of conventions and responsible practices relating to music",
+          "text_html": "<p>demonstrate an understanding of conventions and responsible practices relating to music</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "demonstrate an understanding of safe and healthy practices related to the field of music, with an emphasis on maintaining a healthy lifestyle and preventing performance-related injuries (e.g., create a radio ad outlining the importance of hearing protection for musicians and audiences; create an online or video public service announcement on the issue of drug and alcohol abuse in the music industry and its impact on careers and families)",
+              "text_html": "<p>demonstrate an understanding of safe and healthy practices related to the field of music, with an emphasis on maintaining a healthy lifestyle and preventing performance-related injuries <em>(e.g., create a radio ad outlining the importance of hearing protection for musicians and audiences; create an online or video public service announcement on the issue of drug and alcohol abuse in the music industry and its impact on careers and families)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would you describe the sound levels at a rock concert? What phenomena produce similar levels of sound? In which occupations are workers exposed to similar levels? What precautions do these workers take?",
+                  "text_html": "<ul>\n  <li>How would you describe the sound levels at a rock concert? What phenomena produce similar levels of sound? In which occupations are workers exposed to similar levels? What precautions do these workers take?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "describe and demonstrate conventions associated with various types of musical performances and productions, both as a performer and audience member (e.g., role-play accepted audience behaviour at a hip hop show, a jazz concert, a symphonic performance, a Native drum ceremony; demonstrate appropriate stage etiquette such as bowing before and after a performance)",
+              "text_html": "<p>describe and demonstrate conventions associated with various types of musical performances and productions, both as a performer and audience member <em>(e.g., role-play accepted audience behaviour at a hip hop show, a jazz concert, a symphonic performance, a Native drum ceremony; demonstrate appropriate stage etiquette such as bowing before and after a performance)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "At what types of performance is one likely to find a mosh pit?\n  Why are floor-level seats popular at a rock concert?",
+                  "text_html": "<ul>\n  <li>At what types of performance is one likely to find a mosh pit?</li>\n  <li>Why are floor-level seats popular at a rock concert?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "demonstrate an understanding of legal and ethical issues related to music, with respect to consumers and producers (e.g., copyright their own original music products and explain the importance of doing so)",
+              "text_html": "<p>demonstrate an understanding of legal and ethical issues related to music, with respect to consumers and producers <em>(e.g., copyright their own original music products and explain the importance of doing so)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are your legal rights as a consumer of music? As a producer?\n  Why is it important to abide by copyright laws and download music only from authorized sources? Are there ethical as well as legal reasons for doing so?",
+                  "text_html": "<ul>\n  <li>What are your legal rights as a consumer of music? As a producer?</li>\n  <li>Why is it important to abide by copyright laws and download music only from authorized sources? Are there ethical as well as legal reasons for doing so?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{
+  "code": "HNL2O",
+  "name": "Clothing",
+  "grades": [
+    "10"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "Family Studies, Fashion and Housing",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course introduces students to the world of clothing. Students will gain knowledge about clothing and demonstrate basic skills associated with various techniques and technologies used to create garments and accessories. Students will learn about the functions of clothing and accessories and what clothing communicates about the wearer. They will learn how to enhance their personal wardrobe by assessing garment quality, developing shopping strategies, and developing an understanding of the advantages and disadvantages of various retail formats. Students will develop research skills as they investigate topics related to clothing.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hnl2o",
+  "source_codename": "hif2o__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to clothing, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to clothing, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to clothing (e.g., fabrics, fibres, dress codes, wardrobe planning, evaluating clothing, consumer awareness) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to clothing <em>(e.g., fabrics, </em><a data-item-id=\"02abce5a-fc26-4e11-858d-335d1b980430\" href=\"\"><em>fibres</em></a><em>, dress codes, wardrobe planning, evaluating clothing, consumer awareness) </em>to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers) </em>related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were researching dress codes in schools, how would you decide which schools to include in your research? Why might it be useful to consider school dress codes from previous eras?",
+                  "text_html": "<ul>\n  <li>If you were researching dress codes in schools, how would you decide which schools to include in your research? Why might it be useful to consider school dress codes from previous eras?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Communication",
+            "Digital Literacy",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investi­gate their chosen topic (e.g., outline purpose and method; identify sources of information), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investi­gate their chosen topic <em>(e.g., outline purpose and method; identify sources of information)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews, observations, surveys, questionnaires, fashion spreads in magazines) and/or secondary sources (e.g., textbooks, newspaper articles)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews, observations, surveys, questionnaires, fashion spreads in magazines) </em>and/or secondary sources <em>(e.g., textbooks, newspaper articles)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a research question and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a research question and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gath­ered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gath­ered from primary and secondary sources <em>(e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats <em>(e.g., notes, graphic organizers, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare observations with images obtained from magazines; determine whether common images arise in media products from different eras)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare observations with images obtained from magazines; determine whether common images arise in media products from different eras)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by docu­menting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by docu­menting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclu­sions (e.g., weigh and connect information to determine the answer to their research question)",
+              "text_html": "<p>synthesize findings and formulate conclu­sions <em>(e.g., weigh and connect information to determine the answer to their research question)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presenta­tion, brochure, poster, report, multimedia presentation, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format <em>(e.g., oral presenta­tion, brochure, poster, report, multimedia presentation, web page) </em>to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "use terms related to clothing correctly (e.g., fibres, fabrics, natural, synthetic, knit, crochet, weave, seam, hem, raw edge, wardrobe planning)",
+              "text_html": "<p>use terms related to clothing correctly <em>(e.g., fibres, fabrics, natural, synthetic, knit, crochet, weave, </em><a data-item-id=\"43b2fe76-4104-4b9e-95a8-1ae656d0b556\" href=\"\"><em>seam</em></a><em>, hem, </em><a data-item-id=\"92b61cd3-1cf7-40ca-a782-5e1d3f5857da\" href=\"\"><em>raw edge</em></a><em>, wardrobe planning)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What steps might you take to enhance your research/inquiry skills?",
+                  "text_html": "<ul>\n  <li>What steps might you take to enhance your research/inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Influences on Clothing Choices",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Functions and Social Impact of Clothing",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the functions clothing serves, the kinds of messages it conveys, and the impact it can have on social interactions",
+          "text_html": "<p>demonstrate an understanding of the functions clothing serves, the kinds of messages it conveys, and the impact it can have on social interactions</p>",
+          "transferable_skills": [
+            "Communication",
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "describe the functions of clothing and accessories and the messages they convey (e.g., to protect against the weather; to convey status, power, or occupation; to adorn; to satisfy social conventions with respect to modesty or gender roles; to signal membership in a group)",
+              "text_html": "<p>describe the functions of clothing and accessories and the messages they convey <em>(e.g., to protect against the weather; to convey status, power, or occupation; to adorn; to satisfy social conventions with respect to modesty or gender roles; to signal membership in a group)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Think about the outfit you are wearing today. What personal needs does it meet? Which social conventions does it satisfy? Does it challenge any social conventions? How? \n  What messages are conveyed when a woman wears a sari or a man wears a turban?",
+                  "text_html": "<ul>\n  <li>Think about the outfit you are wearing today. What personal needs does it meet? Which social conventions does it satisfy? Does it challenge any social conventions? How?&nbsp;</li>\n  <li>What messages are conveyed when a woman wears a sari or a man wears a turban?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "explain the impact that clothing can have on social interactions (e.g., how clothing’s ability to contribute to unity or signal authority can affect interactions; what people’s clothing can say about their values or personality, and how this might affect their interactions with others; how the ways we judge ourselves and others based on clothing can affect our interactions)",
+              "text_html": "<p>explain the impact that clothing can have on social interactions <em>(e.g., how clothing’s ability to contribute to unity or signal authority can affect interactions; what people’s clothing can say about their values or personality, and how this might affect their interactions with others; how the ways we judge ourselves and others based on clothing can affect our interactions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might clothing affect your perception of someone you are meeting for the first time? \n  How and why do uniforms affect team unity?",
+                  "text_html": "<ul>\n  <li>How might clothing affect your perception of someone you are meeting for the first time?&nbsp;</li>\n  <li>How and why do uniforms affect team unity?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Wardrobe Planning and Clothing Selection",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of various factors affecting personal wardrobe planning and clothes selection",
+          "text_html": "<p>demonstrate an understanding of various factors affecting personal wardrobe planning and clothes selection</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "explain ways in which individuals’ personal clothing decisions can be affected by change (e.g., fads and trends; changes in styles; development of new materials; changes in one’s age, status, or social role)",
+              "text_html": "<p>explain ways in which individuals’ personal clothing decisions can be affected by change <em>(e.g., fads and trends; changes in styles; development of new materials; changes in one’s age, status, or social role)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "describe various criteria used in wardrobe planning (e.g., price, style, storage space, availability, what peers are wearing, family rules or traditions, cultural traditions, physical needs), and explain how these criteria affect their personal clothing and accessory selections",
+              "text_html": "<p>describe various criteria used in wardrobe planning <em>(e.g., price, style, storage space, availability, what peers are wearing, family rules or traditions, cultural traditions, physical needs)</em>, and explain how these criteria affect their personal clothing and accessory selections</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When you go shopping for clothing, what is the most important factor determining what you buy? \n  Who do you take shopping with you when you are looking for clothing? Does your choice of co-shopper vary depending on the items you are shopping for? Why or why not? \n  What are the advan­tages of planning a wardrobe rather than buying garments on impulse?\n  To what extent do you take environmental factors into consideration when buying clothing and accessories?",
+                  "text_html": "<ul>\n  <li>When you go shopping for clothing, what is the most important factor determining what you buy?&nbsp;</li>\n  <li>Who do you take shopping with you when you are looking for clothing? Does your choice of co-shopper vary depending on the items you are shopping for? Why or why not?&nbsp;</li>\n  <li>What are the advan­tages of planning a wardrobe rather than buying garments on impulse?</li>\n  <li>To what extent do you take environmental factors into consideration when buying clothing and accessories?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "describe the steps and processes involved in personal wardrobe planning (e.g., using a decision-making model, evaluating current wardrobe, identifying needs and wants, determining personal resources such as money for clothing and skills to alter or repair clothing, planning for special occasions)",
+              "text_html": "<p>describe the steps and processes involved in personal wardrobe planning <em>(e.g., using a decision-making model, evaluating current wardrobe, identifying needs and wants, determining personal resources such as money for clothing and skills to alter or repair clothing, planning for special occasions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why is it important to eval­uate your current wardrobe as part of the plan­ning process? \n  If you don’t have much money to spend on clothing, what can you do to enhance your wardrobe?",
+                  "text_html": "<ul>\n  <li>Why is it important to eval­uate your current wardrobe as part of the plan­ning process?&nbsp;</li>\n  <li>If you don’t have much money to spend on clothing, what can you do to enhance your wardrobe?&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.4",
+              "text": "describe dress codes for a variety of situations and groups (e.g., with reference to situations at school, special occasions, a school dance, a funeral, various workplaces, a wedding, family functions; with reference to groups such as athletic teams, police officers, members of the military) and the effects such codes can have on personal wardrobe planning",
+              "text_html": "<p>describe dress codes for a variety of situations and groups <em>(e.g., with reference to situations at school, special occasions, a school dance, a funeral, various workplaces, a wedding, family functions; with reference to groups such as athletic teams, police officers, members of the military) </em>and the effects such codes can have on personal wardrobe planning</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why do certain groups and organizations have specific dress codes? \n  What places and/or occasions require a partic­ular style of dress? Why? \n  What influences your decision to reject or conform to certain dress codes? What are the effects of not adhering to a dress code? Why might the effects differ for different groups?",
+                  "text_html": "<ul>\n  <li>Why do certain groups and organizations have specific dress codes?&nbsp;</li>\n  <li>What places and/or occasions require a partic­ular style of dress? Why?&nbsp;</li>\n  <li>What influences your decision to reject or conform to certain dress codes? What are the effects of not adhering to a dress code? Why might the effects differ for different groups?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Making Knowledgeable Decisions",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Evaluating Clothing",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how to evaluate the quality, value, and suitability of clothing and accessories",
+          "text_html": "<p>demonstrate an understanding of how to evaluate the quality, value, and suitability of clothing and accessories</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "explain the criteria for evaluating the quality, value, and suitability of clothing and accessories (e.g., straight and secure stitching on seams, which allows garments to hang, wear, and wash well; durable fabrics for garments and accessories that will be worn and/or washed frequently)",
+              "text_html": "<p>explain the criteria for evaluating the quality, value, and suitability of clothing and accessories <em>(e.g., straight and secure stitching on seams, which allows garments to hang, wear, and wash well; durable fabrics for garments and accessories that will be worn and/or washed frequently)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the characteristics of a good seam, hem, or button application? \n  Why are leather shoes likely to cost more than those made of a synthetic material? Does the price difference mean that the less expensive shoes are a better buy? Why or why not?",
+                  "text_html": "<ul>\n  <li>What are the characteristics of a good seam, hem, or button application?&nbsp;</li>\n  <li>Why are leather shoes likely to cost more than those made of a synthetic material? Does the price difference mean that the less expensive shoes are a better buy? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "assess the quality of selected garments and accessories (e.g., work clothes, outerwear, sports garments, shoes, garments for special occasions)",
+              "text_html": "<p>assess the quality of selected garments and accessories <em>(e.g., work clothes, outerwear, sports garments, shoes, garments for special occasions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are the seams of this garment constructed? \n  What is the quality of the fabric? Will it wear well? Will it pill, fray, fade, or lose its shape? \n  What are the tactile characteristics of the fabric? Is the fabric light or heavy? Is it draped or rigid? Are the tactile characteristics of the fabric consistent with the garment’s purpose? \n  What type of detailing does the garment have?",
+                  "text_html": "<ul>\n  <li>How are the seams of this garment constructed?&nbsp;</li>\n  <li>What is the quality of the <a data-item-id=\"d0b7599c-aa0d-42fb-b9ee-03afbc4314a7\" href=\"\">fabric</a>? Will it wear well? Will it pill, fray, fade, or lose its shape?&nbsp;</li>\n  <li>What are the tactile characteristics of the fabric? Is the fabric light or heavy? Is it draped or rigid? Are the tactile characteristics of the fabric consistent with the garment’s purpose?&nbsp;</li>\n  <li>What type of detailing does the garment have?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Retail Approaches",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the effects that retail formats and promotions can have on individuals’ decisions about clothing purchases",
+          "text_html": "<p>demonstrate an understanding of the effects that retail formats and promotions can have on individuals’ decisions about clothing purchases</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify and describe various retail formats for clothing and accessories (e.g., department stores, chain stores, boutiques, specialty shops, second-hand stores, online shopping sites, outlet stores, shopping channels on television)",
+              "text_html": "<p>identify and describe various retail formats for clothing and accessories <em>(e.g., department stores, chain stores, boutiques, specialty shops, second-hand stores, online shopping sites, outlet stores, shopping channels on television)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "explain how various retail formats can affect the ways individuals shop for and purchase clothing and accessories (e.g., with reference to shopping with peers, accessing unique products, comparison shopping, impulse buying)",
+              "text_html": "<p>explain how various retail formats can affect the ways individuals shop for and purchase clothing and accessories <em>(e.g., with reference to shopping with peers, accessing unique products, comparison shopping, impulse buying)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Where would you shop to get a one-of-a-kind outfit? \n  How might shopping online or on television contribute to impulse buying? \n  What are the advantages and disad­vantages of purchasing at a local store?",
+                  "text_html": "<ul>\n  <li>Where would you shop to get a one-of-a-kind outfit?&nbsp;</li>\n  <li>How might shopping online or on television contribute to impulse buying?&nbsp;</li>\n  <li>What are the advantages and disad­vantages of purchasing at a local store?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "describe different types of retail promotions (e.g., in-store displays, billboards, magazine adver­tising, clearance sales, online surveys), and explain the effect of these promotions on their decisions about clothing purchases",
+              "text_html": "<p>describe different types of retail promotions <em>(e.g., in-store displays, billboards, magazine adver­tising, clearance sales, online surveys)</em>, and explain the effect of these promotions on their decisions about clothing purchases</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What types of sales or promo­tions would make you go to a particular store?\n  What words, images, or slogans associated with a retailer or used in its ads make you want to shop at its store?",
+                  "text_html": "<ul>\n  <li>What types of sales or promo­tions would make you go to a particular store?</li>\n  <li>What words, images, or slogans associated with a retailer or used in its ads make you want to shop at its store?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Fibres and Fabric Care",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of natural and synthetic fibres and fabrics, and of how their characteristics affect clothing choices and care",
+          "text_html": "<p>demonstrate an understanding of natural and synthetic fibres and <a data-item-id=\"d0b7599c-aa0d-42fb-b9ee-03afbc4314a7\" href=\"\">fabrics</a>, and of how their characteristics affect clothing choices and care</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify common natural and synthetic fibres (e.g., cotton, silk, linen, wool, hemp, rayon, polyester, nylon, spandex) and describe their characteristics",
+              "text_html": "<p>identify common natural and synthetic fibres <em>(e.g., cotton, silk, linen, wool, hemp, rayon, polyester, nylon, spandex) </em>and describe their characteristics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "explain how knowledge of natural and synthetic fibres and fabrics, including how they are produced, can affect clothing choices (e.g., the selection of breathable lightweight cottons and rayons for summer clothes; wool or polar fleece for winter outerwear; silk or cashmere for softness next to the skin; organic cotton or hemp to limit environmental damage arising from the production of traditionally farmed cotton or petroleum-based polyester; down or synthetic fibre for insulation in outerwear)",
+              "text_html": "<p>explain how knowledge of natural and <a data-item-id=\"df64715b-cc1f-469d-868b-67fde8926230\" href=\"\">synthetic fibres</a> and fabrics, including how they are produced, can affect clothing choices <em>(e.g., the selection of breathable lightweight cottons and rayons for summer clothes; wool or polar fleece for winter outerwear; silk or cashmere for softness next to the skin; organic cotton or hemp to limit environmental damage arising from the production of traditionally farmed cotton or petroleum-based polyester; down or synthetic fibre for insulation in outerwear)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What fabric would you choose for exercise clothing? For summer clothing? For winter clothing? Give reasons for your choices. \n  How do the production, use, and disposal of silk, wool, and polyester affect the environment?",
+                  "text_html": "<ul>\n  <li>What fabric would you choose for exercise clothing? For summer clothing? For winter clothing? Give reasons for your choices.&nbsp;</li>\n  <li>How do the production, use, and disposal of silk, wool, and polyester affect the environment?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "describe ways, including environmentally responsible ways, to care for garments to maintain their appearance and extend their life (e.g., with respect to following clothing care labels; laundering, ironing, removing stains from, and storing garments made from different kinds of fabrics; using environmentally responsible detergents and stain-removal practices)",
+              "text_html": "<p>describe ways, including environmentally responsible ways, to care for garments to maintain their appearance and extend their life <em>(e.g., with respect to following clothing care labels; laundering, ironing, removing stains from, and storing garments made from different kinds of fabrics; using environmentally responsible detergents and stain-removal practices)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What clothing care proce­dures or products have the least impact on the environment?",
+                  "text_html": "<ul>\n  <li>What clothing care proce­dures or products have the least impact on the environment?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Design and Clothing Construction Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Elements of Design",
+          "describer": "By the end of this course, students will:",
+          "text": "describe the elements of design related to clothing and accessories, and explain how an awareness of these elements can affect personal clothing choices",
+          "text_html": "<p>describe the <a data-item-id=\"37840bcc-437a-4aec-b4b4-7a864c024f72\" href=\"\">elements of design</a> related to clothing and accessories, and explain how an awareness of these elements can affect personal clothing choices</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "identify and describe the elements of design (e.g., line, shape, colour, texture) as they apply to clothing and accessories",
+              "text_html": "<p>identify and describe the elements of design <em>(e.g., line, shape, colour, texture) </em>as they apply to clothing and accessories</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which dimension of colour – intensity, value, or hue – has the greatest impact on your choice of clothing? What is the most common shape used in wedding dresses – straight, bustle-shaped, or bell-shaped? What is the most important dimension of texture to you – how the garment looks or how it feels?",
+                  "text_html": "<ul>\n  <li>Which dimension of colour – intensity, value, or hue – has the greatest impact on your choice of clothing? What is the most common shape used in wedding dresses – straight, bustle-shaped, or bell-shaped? What is the most important dimension of texture to you – how the garment looks or how it feels?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "explain how the elements of design can enhance or detract from a person’s appearance and comfort (e.g., vertical lines make the wearer appear taller, soft fabrics enhance comfort), and consequently which elements should be con­sidered when selecting clothing and accessories",
+              "text_html": "<p>explain how the elements of design can enhance or detract from a person’s appearance and comfort <em>(e.g., vertical lines make the wearer appear taller, soft fabrics enhance comfort)</em>, and consequently which elements should be con­sidered when selecting clothing and accessories</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can the line of a gar­ment affect one’s perception of the size of the wearer? What colours complement your skin tone? In what ways can the texture of a garment affect the wearer?",
+                  "text_html": "<ul>\n  <li>How can the line of a gar­ment affect one’s perception of the size of the wearer? What colours complement your skin tone? In what ways can the texture of a garment affect the wearer?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Tools and Technologies",
+          "describer": "By the end of this course, students will:",
+          "text": "identify a variety of tools and technologies associated with the creation of clothing and accessories, and use tools and technologies safely and correctly when creating and/or repairing clothing and accessories",
+          "text_html": "<p>identify a variety of tools and technologies associated with the creation of clothing and accessories, and use tools and technologies safely and correctly when creating and/or repairing clothing and accessories</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "identify various tools and technologies used when creating and/or repairing clothing and accessories (e.g., measuring tape, seam ripper, scissors, iron, pressing ham, sewing machine, serger, loom, knitting needles, crochet hook)",
+              "text_html": "<p>identify various tools and technologies used when creating and/or repairing clothing and accessories <em>(e.g., measuring tape, </em><a data-item-id=\"7642a2b3-ac9f-4011-a2db-3edc28b783e7\" href=\"\"><em>seam ripper</em></a><em>, scissors, iron, </em><a data-item-id=\"af97a355-e535-4f96-a789-585a6ae78d75\" href=\"\"><em>pressing ham</em></a><em>, sewing machine, </em><a data-item-id=\"068ef4a9-a319-4dfb-bdd1-722d4329140d\" href=\"\"><em>serger</em></a><em>, loom, knitting needles, crochet hook)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways are craft scissors different from sewing scissors?",
+                  "text_html": "<ul>\n  <li>In what ways are craft scissors different from sewing scissors?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "demonstrate the safe use of tools and technologies when creating and/or repairing clothing and accessories (e.g., safe practices when using sharp objects such as pins, needles, or scissors, or chemicals such as dye or glue)",
+              "text_html": "<p>demonstrate the safe use of tools and technologies when creating and/or repairing clothing and accessories <em>(e.g., safe practices when using sharp objects such as pins, needles, or scissors, or chemicals such as dye or glue)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do you properly use a pair of sewing shears? \n  How do you safely replace a sewing machine needle? \n  How do you safely operate a sewing machine?",
+                  "text_html": "<ul>\n  <li>How do you properly use a pair of sewing shears?&nbsp;</li>\n  <li>How do you safely replace a sewing machine needle?&nbsp;</li>\n  <li>How do you safely operate a sewing machine?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "use tools and technologies correctly when creating personal clothing or accessories (e.g., tools/technologies associated with cutting, pressing, pinning, sewing, knitting, crocheting)",
+              "text_html": "<p>use tools and technologies correctly when creating personal clothing or accessories <em>(e.g., tools/technologies associated with cutting, pressing, pinning, sewing, knitting, crocheting)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Procedures, Skills, and Techniques",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the ability to use appropriate procedures, skills, and techniques to create and repair clothing or accessories",
+          "text_html": "<p>demonstrate the ability to use appropriate procedures, skills, and techniques to create and repair clothing or accessories</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "demonstrate the ability to follow precon­struction procedures (e.g., measuring, interpreting pattern envelopes and patterns, laying out patterns, preparing fabric and other materials, understanding knitting or crocheting instructions) when creating clothing or accessories",
+              "text_html": "<p>demonstrate the ability to follow precon­struction procedures <em>(e.g., measuring, interpreting pattern envelopes and patterns, laying out patterns, preparing fabric and other materials, understanding knitting or crocheting instructions) </em>when creating clothing or accessories</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.2",
+              "text": "demonstrate the ability to repair and/or alter personal clothing or accessories using basic sewing skills (e.g., repair a seam, seam finish a raw edge, alter a hem, apply an appliqué, replace a button, create an elastic casing)",
+              "text_html": "<p>demonstrate the ability to repair and/or alter personal clothing or accessories using basic sewing skills <em>(e.g., repair a seam, seam finish a raw edge, alter a hem, apply an appliqué, replace a button, create an elastic casing)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "demonstrate the ability to create clothing or accessories using basic construction techniques (e.g., machine and/or hand sewing, knitting, crocheting, beading)",
+              "text_html": "<p>demonstrate the ability to create clothing or accessories using basic construction techniques <em>(e.g., machine and/or hand sewing, knitting, crocheting, beading)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some garments or accessories you could create using basic construction techniques?",
+                  "text_html": "<ul>\n  <li>What are some garments or accessories you could create using basic construction techniques?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.4",
+              "text": "demonstrate the ability to create new clothing or accessories from recycled materials or gar­ments (e.g., turn drink boxes into a bag; candy wrappers into a necklace; neckties into a skirt; a necktie into a handle for a bag; jeans into a skirt or a bag; tea towels into a dress; fabric samples into a tote, cosmetic bag, laptop case, or music player pouch)",
+              "text_html": "<p>demonstrate the ability to create new clothing or accessories from recycled materials or gar­ments <em>(e.g., turn drink boxes into a bag; candy wrappers into a necklace; neckties into a skirt; a necktie into a handle for a bag; jeans into a skirt or a bag; tea towels into a dress; fabric samples into a tote, cosmetic bag, laptop case, or music player pouch)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways you can repurpose an old wool sweater? \n  How can old saris be repurposed into yarn? What could you make with this yarn?\n  What are some current examples of “upcycled” products that are being sold in your community or online?",
+                  "text_html": "<ul>\n  <li>What are some ways you can repurpose an old wool sweater?&nbsp;</li>\n  <li>How can old saris be repurposed into yarn? What could you make with this yarn?</li>\n  <li>What are some current examples of “upcycled” products that are being sold in your community or online?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "code": "HSP3C",
+  "name": "Introduction to Anthropology, Psychology, and Sociology",
+  "grades": [
+    "11"
+  ],
+  "levels": [],
+  "course_type": "College Preparation",
+  "category": "General Social Sciences",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course introduces students to theories, questions, and issues related to anthropology, psychology, and sociology. Students learn about approaches and research methods used by social scientists. Students will be given opportunities to apply theories from a variety of perspectives, to conduct social science research, and to become familiar with current issues within the three disciplines.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hsp3c",
+  "source_codename": "hsp3u__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to anthropology, psychology, and sociology, and formulate questions appropriate for each discipline to guide their research",
+          "text_html": "<p>explore topics related to anthropology, <a data-item-id=\"e9fb1656-61aa-46b4-bb0b-bd96754fa150\" href=\"\">psychology</a>, and sociology, and formulate questions appropriate for each discipline to guide their research</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to anthro­pology, psychology, and sociology (e.g., addictions, gender socialization, rites of passage) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to anthro­pology, <a data-item-id=\"e9fb1656-61aa-46b4-bb0b-bd96754fa150\" href=\"\">psychology</a>, and <a data-item-id=\"7eb3e1a0-6a95-48fa-be9b-0d2248bf5907\" href=\"\">sociology</a> <em>(e.g., addictions, gender socialization, </em><a data-item-id=\"cfce383e-bc2f-4424-8e91-f342d7cfabf8\" href=\"\"><em>rites of passage</em></a><em>) </em>to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers) </em>related to their selected topics</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "A team of social scientists is studying the causes and effects of homelessness. In this research, which key concepts would be most important to the anthropologist, the psychologist, and the sociologist?",
+                  "text_html": "<ul>\n  <li>A team of social scientists is studying the causes and effects of homelessness. In this research, which key concepts would be most important to the anthropologist, the psychologist, and the sociologist?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could you use a survey or participant observation study to assess the extent of racism, sexism, or classism in your school?",
+                  "text_html": "<ul>\n  <li>How could you use a survey or <a data-item-id=\"5050da2f-db37-4bc3-9a55-0f8405cf1089\" href=\"\">participant observation</a> study to assess the extent of racism, sexism, or classism in your school?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investi­gate their selected topics (e.g., if conducting pri­mary research, outline purpose and method; identify sources of information), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investi­gate their selected topics <em>(e.g., if conducting pri­mary research, outline purpose and method; identify sources of information)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What steps can you take to ensure that you are not asking leading questions in your survey?\n  For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?\n  What is informed consent, and why is it important in social science research?",
+                  "text_html": "<ul>\n  <li>What steps can you take to ensure that you are not asking leading questions in your survey?</li>\n  <li>For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?</li>\n  <li>What is informed consent, and why is it important in social science research?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews, observations, surveys, questionnaires, original documents in print or other media – film, photographs) and/or secondary sources (e.g., textbooks, research reports, newspaper and magazine articles)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews, observations, surveys, questionnaires, original documents in print or other media – film, photographs) </em>and/or secondary sources <em>(e.g., textbooks, research reports, newspaper and magazine articles)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the difference between primary and secondary sources in social science? How can you determine whether a source is a primary or secondary source?\n  What criteria would you use to choose the best secondary sources related to your research question?",
+                  "text_html": "<ul>\n  <li>What is the difference between primary and secondary sources in social science? How can you determine whether a source is a primary or secondary source?</li>\n  <li>What criteria would you use to choose the best secondary sources related to your research question?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research and inquiry",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research and inquiry</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gath­ered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gath­ered from primary and secondary sources <em>(e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What criteria can you use to determine potential biases of an author?\n  How can you assess sources for reliability?",
+                  "text_html": "<ul>\n  <li>What criteria can you use to determine potential <a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\">biases</a> of an author?</li>\n  <li>How can you assess sources for reliability?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, summaries, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats <em>(e.g., notes, graphic organizers, summaries, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare information gathered from primary and secondary sources; determine whether similar information is found in different sources)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare information gathered from primary and secondary sources; determine whether similar information is found in different sources)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by docu­menting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by docu­menting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclusions (e.g., weigh and connect information to determine the answers to their research questions)",
+              "text_html": "<p>synthesize findings and formulate conclusions <em>(e.g., weigh and connect information to determine the answers to their research questions)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Digital Literacy",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presenta­tion, brochure, flyer, poster, multimedia presentation, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format <em>(e.g., oral presenta­tion, brochure, flyer, poster, multimedia presentation, web page) </em>to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "use terms relating to anthropology, psychol­ogy, and sociology correctly (e.g., functionalism, structuralism, feminism, culture, socialization, ethnography, survey, archaeology, temperament, behaviour)",
+              "text_html": "<p>use terms relating to anthropology, psychol­ogy, and sociology correctly <em>(e.g., </em><a data-item-id=\"c0795f9b-23d8-499a-be30-facf1f3541da\" href=\"\"><em>functionalism</em></a><em>, </em><a data-item-id=\"b3e47e7e-73de-4a84-a368-d5fc4035da21\" href=\"\"><em>structuralism</em></a><em>, feminism, </em><a data-item-id=\"9ec6e0d9-4e3b-48ba-95df-6fc44cefefb4\" href=\"\"><em>culture</em></a><em>, socialization, </em><a data-item-id=\"860d1795-246c-4745-8fc0-b98a9f5eacbb\" href=\"\"><em>ethnography</em></a><em>, survey, archaeology, temperament, behaviour)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How did the primary and/or secondary sources you used confirm what you already knew and understood about the topic? How did your sources contradict what you thought was true?\n  Some people say that social science is based on common sense. In what ways did your research and/or inquiry show the value of research in social science?\n  What steps might you take to enhance your research/inquiry skills?",
+                  "text_html": "<ul>\n  <li>How did the primary and/or secondary sources you used confirm what you already knew and understood about the topic? How did your sources contradict what you thought was true?</li>\n  <li>Some people say that social science is based on common sense. In what ways did your research and/or inquiry show the value of research in social science?</li>\n  <li>What steps might you take to enhance your research/inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Anthropology",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Theories, Perspectives, and Methodologies",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of major theories, perspectives, and research methods in anthropology",
+          "text_html": "<p>demonstrate an understanding of major theories, perspectives, and research methods in anthropology</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "identify significant contributions of influential anthropologists (e.g., Noam Chomsky, Charles Darwin, Jane Goodall, the Leakeys, Margaret Mead, Edward Sapir, Marvin Harris, Richard Lee, Biruté Galdikas, Sherry Ortner)",
+              "text_html": "<p>identify significant contributions of influential anthropologists <em>(e.g., Noam Chomsky, Charles Darwin, Jane Goodall, the Leakeys, Margaret Mead, Edward Sapir, Marvin Harris, Richard Lee, Biruté Galdikas, Sherry Ortner)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "outline the key ideas of major anthropologi­cal schools of thought (e.g., functionalism, struc­turalism, cultural materialism, feminist anthropology), and explain how they can be used to under­ stand features of cultural systems",
+              "text_html": "<p>outline the key ideas of major anthropologi­cal schools of thought <em>(e.g., functionalism, struc­turalism, </em><a data-item-id=\"d41fb616-8623-4c01-86cb-86d157c3315c\" href=\"\"><em>cultural materialism</em></a><em>, feminist anthropology)</em>, and explain how they can be used to under­ stand features of cultural systems</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some important differences between a functionalist and a struc­turalist approach to studying culture?\n  How would a cultural materialist explain differences between urban, suburban, and rural youth?",
+                  "text_html": "<ul>\n  <li>What are some important differences between a functionalist and a struc­turalist approach to studying culture?</li>\n  <li>How would a cultural materialist explain differences between urban, suburban, and rural youth?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "describe significant issues in different areas of anthropology (e.g., linguistic, physical, cultural, and forensic anthropology; primatology)",
+              "text_html": "<p>describe significant issues in different areas of <a data-item-id=\"220098c8-ddd1-4d73-bae4-6fefb63a8a84\" href=\"\">anthropology</a> <em>(e.g., linguistic, physical, cultural, and forensic anthropology; primatology)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the big questions in primatology?\n  What are the big questions in ethnology?\n  Are there any cultural universals or universal taboos?\n  How can observers from one culture avoid bias in studying another cul­ture?\n  How do social media affect culture?",
+                  "text_html": "<ul>\n  <li>What are the big questions in primatology?</li>\n  <li>What are the big questions in ethnology?</li>\n  <li>Are there any cultural universals or universal taboos?</li>\n  <li>How can observers from one culture avoid bias in studying another cul­ture?</li>\n  <li>How do social media affect culture?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "describe the main research methods used for conducting anthropological research (e.g., par­ticipant observation, oral history, semi-structured interview, ethnography, genealogy, archaeological excavation, decolonizing research methods), and explain critiques of the various methods",
+              "text_html": "<p>describe the main research methods used for conducting anthropological research <em>(e.g., par­ticipant observation, oral history, semi-structured interview, ethnography, genealogy, archaeological excavation, </em><a data-item-id=\"77f4b0a2-5cd6-40d8-997d-1c082a8412f2\" href=\"\"><em>decolonizing research methods</em></a><em>)</em>, and explain critiques of the various methods</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the skills and attitudes required for participant observation?\n  What is an artefact, and why are artefacts so important in anthropological research?\n  What key concerns do critics of anthropological research express? According to critics, in what ways may anthropological research methods have contributed to racist beliefs about non-Western cultures?",
+                  "text_html": "<ul>\n  <li>What are the skills and attitudes required for participant observation?</li>\n  <li>What is an artefact, and why are artefacts so important in anthropological research?</li>\n  <li>What key concerns do critics of anthropological research express? According to critics, in what ways may anthropological research methods have contributed to racist beliefs about non-Western cultures?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Explaining Human Behaviour and Culture",
+          "describer": "By the end of this course, students will:",
+          "text": "use an anthropological perspective to explain how diverse factors influence and shape human behaviour and culture",
+          "text_html": "<p>use an anthropological perspective to explain how diverse factors influence and shape human behaviour and culture</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "describe, from an anthropological perspective, how various factors (e.g., physical environment, globalization, pandemics) influence and shape human behaviour and culture (e.g., technology, language, social structures, law, politics, religion and ritual, art)",
+              "text_html": "<p>describe, from an anthropological perspective, how various factors <em>(e.g., physical environment, globalization, pandemics) </em>influence and shape human behaviour and culture <em>(e.g., technology, language, social structures, law, politics, religion and ritual, art)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does the threat of a pandemic influence human behaviour?\n  How has environmental con­sciousness changed behaviour and culture?",
+                  "text_html": "<ul>\n  <li>In what ways does the threat of a pandemic influence human behaviour?</li>\n  <li>How has environmental con­sciousness changed behaviour and culture?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "identify the effects that diffusion, assimilation, and multiculturalism have on culture",
+              "text_html": "<p>identify the effects that diffusion, <a data-item-id=\"2f27d2b3-850f-4f0f-aed2-da6b1ed3d097\" href=\"\">assimilation</a>, and <a data-item-id=\"e33f33b0-51d8-49d2-9163-daf4532f8fa9\" href=\"\">multiculturalism</a> have on culture</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do you know about how the residential school system affected First Nation, Inuit, and Métis cultures and languages?",
+                  "text_html": "<p>What do you know about how the residential school system affected First Nation, Inuit, and Métis cultures and languages?</p>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "explain how studying cultural systems of different times and places helps anthropologists understand human behaviour and culture in the present",
+              "text_html": "<p>explain how studying cultural systems of different times and places helps anthropologists understand human behaviour and culture in the present</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does the study of mar­riage customs in the past help us understand male and female roles in modern societies?",
+                  "text_html": "<ul>\n  <li>How does the study of mar­riage customs in the past help us understand male and female roles in modern societies?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Socialization",
+          "describer": "By the end of this course, students will:",
+          "text": "use a cultural anthropology perspective to explain patterns of human socialization",
+          "text_html": "<p>use a cultural anthropology perspective to explain patterns of human socialization</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "explain how culture produces diverse forms of human behaviour (e.g., explain variations in rites of passage, language, family roles, the develop­ment of subcultures, or political practices from one culture to another)",
+              "text_html": "<p>explain how culture produces diverse forms of human behaviour <em>(e.g., explain variations in rites of passage, language, family roles, the develop­ment of subcultures, or political practices from one culture to another)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are the rites of passage for adolescents and young adults the same and different in three different cultures? What characteristics of these cultures might explain the different practices?\n  What subcultures exist in your school and community? How do these different subcultures affect people’s behaviour?",
+                  "text_html": "<ul>\n  <li>How are the rites of passage for adolescents and young adults the same and different in three different cultures? What characteristics of these cultures might explain the different practices?</li>\n  <li>What subcultures exist in your school and community? How do these different subcultures affect people’s behaviour?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "describe ways in which culture is an agent of socialization (e.g., in communicating and upholding such things as kinship rights and obligations, social customs, religious practices)",
+              "text_html": "<p>describe ways in which culture is an agent of socialization <em>(e.g., in communicating and upholding such things as kinship rights and obligations, social customs, religious practices)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do children learn about the religious practices, customs, and beliefs of their communities? In what ways can this process be called “socialization”?\n  How are cultural norms passed along from generation to generation?",
+                  "text_html": "<ul>\n  <li>How do children learn about the religious practices, customs, and beliefs of their communities? In what ways can this process be called “socialization”?</li>\n  <li>How are cultural <a data-item-id=\"37bbca4d-b49a-40da-a8af-115fe821ec6f\" href=\"\">norms</a> passed along from generation to generation?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Psychology",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Theories, Perspectives, and Methodologies",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of major theories, perspectives, and research methods in psychology",
+          "text_html": "<p>demonstrate an understanding of major theories, perspectives, and research methods in psychology</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify significant contributions of influential psychologists (e.g., Erik Erikson, Sigmund Freud, Carl Jung, Abraham Maslow, Ivan Pavlov, Carl Rogers, B. F. Skinner, Thomas Bouchard, Mary Ainsworth, Carol Gilligan)",
+              "text_html": "<p>identify significant contributions of influential psychologists <em>(e.g., Erik Erikson, Sigmund Freud, Carl Jung, Abraham Maslow, Ivan Pavlov, Carl Rogers, B. F. Skinner, Thomas Bouchard, Mary Ainsworth, Carol Gilligan)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "outline the key ideas of major psychological theories (e.g., psychodynamic theory, behaviourism, cognitive theory, humanistic theory), and explain how they can be used to understand human behaviour",
+              "text_html": "<p>outline the key ideas of major psychological theories <em>(e.g., </em><a data-item-id=\"95d05c5a-37ff-49d4-a7da-491ccc4fa951\" href=\"\"><em>psychodynamic theory</em></a><em>, </em><a data-item-id=\"887b5743-3962-4ced-bc24-b6022f47cb14\" href=\"\"><em>behaviourism</em></a><em>, </em><a data-item-id=\"f3968044-a6e0-4208-b0de-b5a15cb07c00\" href=\"\"><em>cognitive theory</em></a><em>, humanistic theory)</em>, and explain how they can be used to understand human behaviour</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some important differences between the behaviourist and the psychodynamic theories of human behaviour?\n  From a humanist perspective, how does self-esteem affect school performance?\n  If you were a school principal, how might Skinner’s theory of operant conditioning help you devise a strategy to decrease the number of students skipping class?",
+                  "text_html": "<ul>\n  <li>What are some important differences between the behaviourist and the psychodynamic theories of human behaviour?</li>\n  <li>From a humanist perspective, how does self-esteem affect school performance?</li>\n  <li>If you were a school principal, how might Skinner’s theory of operant conditioning help you devise a strategy to decrease the number of students skipping class?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "compare significant psychological approaches to the study of human behaviour (e.g., clinical, experimental, personality, abnormal, and develop­mental psychology)",
+              "text_html": "<p>compare significant psychological approaches to the study of human behaviour <em>(e.g., clinical, experimental, </em><a data-item-id=\"250b1548-ad4c-4ce2-99ec-8fc51e3ccead\" href=\"\"><em>personality</em></a><em>, abnormal, and develop­mental psychology)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the main differ­ences between clinical and experimental psy­chology? How does each influence the other?",
+                  "text_html": "<ul>\n  <li>What are the main differ­ences between clinical and experimental psy­chology? How does each influence the other?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.4",
+              "text": "describe the main research methods used for conducting psychological research (e.g., experi­ments, surveys, observations), and explain critiques of the various methods",
+              "text_html": "<p>describe the main research methods used for conducting psychological research <em>(e.g., experi­ments, surveys, observations)</em>, and explain critiques of the various methods</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is an experiment, and how is it different from a survey or a question­naire?\n  The possibility and the desirability of objectivity in psychological research have been questioned. For what reasons?",
+                  "text_html": "<ul>\n  <li>What is an experiment, and how is it different from a survey or a question­naire?</li>\n  <li>The possibility and the desirability of objectivity in psychological research have been questioned. For what reasons?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Human Mental Processes and Behaviour",
+          "describer": "By the end of this course, students will:",
+          "text": "use a psychological perspective to describe how diverse factors influence and shape human mental processes and behaviour",
+          "text_html": "<p>use a psychological perspective to describe how diverse factors influence and shape human mental processes and behaviour</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "describe, from a psychological perspective, how various factors (e.g., heredity, environment, personality, identity, developmental stage, level of attachment) influence and shape an individual’s psychological development",
+              "text_html": "<p>describe, from a psychological perspective, how various factors <em>(e.g., heredity, environment, personality, identity, developmental stage, level of attachment) </em>influence and shape an individual’s psychological development</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do relationships with peers affect an individual’s sense of self? To what extent does the impact depend on the indi­vidual’s developmental stage?",
+                  "text_html": "<ul>\n  <li>How do relationships with peers affect an individual’s sense of self? To what extent does the impact depend on the indi­vidual’s developmental stage?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "describe, from a psychological perspective, ways in which context and the influence of other individuals can affect people’s emotional and behavioural responses (e.g., at work, within a family, in sports groups/clubs, in crowds, in urban versus rural areas, among bystanders)",
+              "text_html": "<p>describe, from a psychological perspective, ways in which context and the influence of other individuals can affect people’s emotional and behavioural responses <em>(e.g., at work, within a family, in sports groups/clubs, in crowds, in urban versus rural areas, among bystanders)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some psychological explanations for mob behaviour? In what ways does psychology fail to provide an adequate explanation?",
+                  "text_html": "<ul>\n  <li>What are some psychological explanations for mob behaviour? In what ways does psychology fail to provide an adequate explanation?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "describe how diverse psychological factors (e.g., motivation, perception, attitudes, mental health, temperament) influence individual behaviour",
+              "text_html": "<p>describe how diverse psychological factors <em>(e.g., motivation, perception, attitudes, mental health, temperament) </em>influence individual behaviour</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do different temperaments influence people’s response to aggression?",
+                  "text_html": "<ul>\n  <li>How do different temperaments influence people’s response to aggression?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Socialization",
+          "describer": "By the end of this course, students will:",
+          "text": "use a psychological perspective to explain patterns of socialization",
+          "text_html": "<p>use a psychological perspective to explain patterns of socialization</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify the role of socialization in the psychological development of the individual (e.g., effects of direct teaching of social skills, effects of social isolation)",
+              "text_html": "<p>identify the role of socialization in the psychological development of the individual <em>(e.g., effects of direct teaching of social skills, effects of social isolation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does social acceptance affect an individual’s psychological develop­ment?\n  How does social isolation affect emotional, social, intellectual, and linguistic development?",
+                  "text_html": "<ul>\n  <li>How does social acceptance affect an individual’s psychological develop­ment?</li>\n  <li>How does social isolation affect emotional, social, intellectual, and linguistic development?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "describe how diverse personality traits (e.g., introversion, openness to experience, perfectionism) shape human behaviour and interaction in a variety of environments",
+              "text_html": "<p>describe how diverse personality traits <em>(e.g., introversion, openness to experience, perfectionism) </em>shape human behaviour and interaction in a variety of environments</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might an extrovert and an introvert differ in the way they deal with stress?",
+                  "text_html": "<ul>\n  <li>How might an extrovert and an introvert differ in the way they deal with stress?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "describe the procedures of and ethical prob­lems associated with major psychological experi­ments in socialization (e.g., Zimbardo’s Stanford prison experiment, Asch’s conformity experiment, Milgram’s obedience-to-authority experiment, Elliot’s “Blue-Eyed/Brown-Eyed” experiment)",
+              "text_html": "<p>describe the procedures of and ethical prob­lems associated with major psychological experi­ments in socialization <em>(e.g., Zimbardo’s Stanford prison experiment, Asch’s conformity experiment, Milgram’s obedience-to-authority experiment, Elliot’s “Blue-Eyed/Brown-Eyed” experiment)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the components of an ethical experiment?\n  In what ways were Zimbardo’s, Asch’s, Milgram’s, and Elliot’s experiments unethical? How could these experiments be modified to be more ethical?",
+                  "text_html": "<ul>\n  <li>What are the components of an ethical experiment?</li>\n  <li>In what ways were Zimbardo’s, Asch’s, Milgram’s, and Elliot’s experiments unethical? How could these experiments be modified to be more ethical?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Sociology",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Theories, Perspectives, and Methodologies",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of major theories, perspectives, and research methods in sociology",
+          "text_html": "<p>demonstrate an understanding of major theories, perspectives, and research methods in sociology</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "identify the significant contributions of influential sociologists (e.g., Emile Durkheim, Karl Marx, Edward Said, Max Weber, Dorothy Smith, Charles Wright-Mills, Gordon Allport, Reginald Bibby, George Dei, Ibn Khaldun)",
+              "text_html": "<p>identify the significant contributions of influential sociologists <em>(e.g., Emile Durkheim, Karl Marx, Edward Said, Max Weber, Dorothy Smith, Charles Wright-Mills, Gordon Allport, Reginald Bibby, George Dei, Ibn Khaldun)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "outline the key ideas of the major sociological schools of thought (e.g., structural functionalism, symbolic interactionism, conflict theory, feminist perspective), and explain how they can be used to understand social behaviour",
+              "text_html": "<p>outline the key ideas of the major sociological schools of thought <em>(e.g., </em><a data-item-id=\"c0795f9b-23d8-499a-be30-facf1f3541da\" href=\"\"><em>structural functionalism</em></a><em>, </em><a data-item-id=\"382b0708-95dc-4124-addc-8dd1391365b0\" href=\"\"><em>symbolic interactionism</em></a><em>, conflict theory, feminist perspective)</em>, and explain how they can be used to understand social behaviour</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "From a feminist perspective, why is there inequality in the workplace?\n  Why is it important to consider social as well as individual factors when trying to understand issues such as poverty or unemployment?",
+                  "text_html": "<ul>\n  <li>From a feminist perspective, why is there inequality in the workplace?</li>\n  <li>Why is it important to consider social as well as individual factors when trying to understand issues such as poverty or unemployment?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.3",
+              "text": "identify and describe the main research methods that are used for conducting sociological research (e.g., surveys, case studies, observations, secondary analysis of statistical results, content analysis, focus groups), and describe critiques of the various methods",
+              "text_html": "<p>identify and describe the main research methods that are used for conducting sociological research <em>(e.g., surveys, case studies, observations, secondary analysis of statistical results, content analysis, focus groups)</em>, and describe critiques of the various methods</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What method or methods would you use to determine the relationship between the academic performance of Grade 11 students and the amount of time spent in employment or playing sports? What would be the limitations of sociological research methods for addressing this research question?",
+                  "text_html": "<ul>\n  <li>What method or methods would you use to determine the relationship between the academic performance of Grade 11 students and the amount of time spent in employment or playing sports? What would be the limitations of sociological research methods for addressing this research question?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Explaining Social Behaviour",
+          "describer": "By the end of this course, students will:",
+          "text": "use a sociological perspective to explain how diverse factors influence and shape social behaviour",
+          "text_html": "<p>use a sociological perspective to explain how diverse factors influence and shape social behaviour</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "describe, from a sociological perspective, how diverse factors (e.g., social norms and expectations, social structures, social sanctions, social distinctions, socio-economic status, geographic location, physical environment, media coverage) influence and shape individual and group behaviour (e.g., conformity, obedience, discrimination, “groupthink”, choice of occupation)",
+              "text_html": "<p>describe, from a sociological perspective, how diverse factors <em>(e.g., social </em><a data-item-id=\"37bbca4d-b49a-40da-a8af-115fe821ec6f\" href=\"\"><em>norms</em></a><em> and expectations, social structures, social sanctions, social distinctions, socio-economic status, geographic location, physical environment, media coverage) </em>influence and shape individual and group behaviour <em>(e.g., conformity, obedience, discrimination, “groupthink”, choice of occupation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does socio-economic status affect people’s career choices?\n  How are social norms and expectations, such as standing for the national anthem, communicated? What sanctions take place when a person does not stand for the playing of the national anthem?",
+                  "text_html": "<ul>\n  <li>In what ways does socio-economic status affect people’s career choices?</li>\n  <li>How are social norms and expectations, such as standing for the national anthem, communicated? What sanctions take place when a person does not stand for the playing of the national anthem?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "explain the relationship between prejudice and individual and systemic discrimination (e.g., on the basis of gender, race, socio-economic status, sexual orientation, ability, religion, age, appearance), and describe their impacts on individuals and society",
+              "text_html": "<p>explain the relationship between <a data-item-id=\"0906a6b2-9570-401c-ab38-83f4ec768a62\" href=\"\">prejudice</a> and individual and systemic <a data-item-id=\"95172453-fc82-4742-b74d-229aed3de574\" href=\"\">discrimination</a> <em>(e.g., on the basis of gender, race, socio-economic status, sexual orientation, ability, religion, age, appearance)</em>, and describe their impacts on individuals and society</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the impact of het­erosexism on individuals and society?\n  How are stereotypes conveyed in the media, and how do these stereotypes affect individual behaviour?",
+                  "text_html": "<ul>\n  <li>What is the impact of het­erosexism on individuals and society?</li>\n  <li>How are stereotypes conveyed in the media, and how do these stereotypes affect individual behaviour?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "describe, from a sociological perspective, ways in which diverse influences (e.g., culture, religion, economics, technology) shape social behaviour (e.g., dating and courtship, social networking, bullying, following trends and fads)",
+              "text_html": "<p>describe, from a sociological perspective, ways in which diverse influences <em>(e.g., culture, religion, economics, technology) </em>shape social behaviour <em>(e.g., dating and courtship, social networking, bullying, following trends and fads)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might culture influence dating and courtship practices?\n  How do fads affect your behaviour?",
+                  "text_html": "<ul>\n  <li>How might culture influence dating and courtship practices?</li>\n  <li>How do fads affect your behaviour?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Socialization",
+          "describer": "By the end of this course, students will:",
+          "text": "use a sociological perspective to explain patterns of socialization",
+          "text_html": "<p>use a sociological perspective to explain patterns of socialization</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "describe how structural changes take place in social institutions (e.g., family; religious insti­tutions; legal, political, educational, and health sys­tems; the military) in response to diverse influ­ences (e.g., demographic or economic change, the growth of environmentalism, the introduction of the Canadian Charter of Rights and Freedoms, social movements)",
+              "text_html": "<p>describe how structural changes take place in social <a data-item-id=\"8832e1eb-4d2d-44e0-b981-afcd249deac5\" href=\"\">institutions</a> <em>(e.g., family; religious insti­tutions; legal, political, educational, and health sys­tems; the military) </em>in response to diverse influ­ences <em>(e.g., demographic or economic change, the growth of environmentalism, the introduction of the Canadian Charter of Rights and Freedoms, social movements)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How have environmental initiatives affected your school and local insti­tutions?\n  How has awareness of restorative justice practices influenced the Canadian justice system?\n  To what extent have the events of September 11, 2001, changed our social institu­tions?\n  How has immigration changed social institutions in Canada?",
+                  "text_html": "<ul>\n  <li>How have environmental initiatives affected your school and local insti­tutions?</li>\n  <li>How has awareness of restorative justice practices influenced the Canadian justice system?</li>\n  <li>To what extent have the events of September 11, 2001, changed our social institu­tions?</li>\n  <li>How has immigration changed social institutions in Canada?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "describe ways in which social structures (e.g., economy, family, class, gender, race) affect individual and group behaviour",
+              "text_html": "<p>describe ways in which social structures <em>(e.g., economy, family, class, gender, race) </em>affect individual and group behaviour</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might an economic downturn affect some people’s decisions to go to college or university?\n  How does socio­-economic status affect the job possibilities that people perceive for themselves?\n  What is racial profiling, and what is the impact of racial profiling on individuals and groups?\n  How can social structures work to convince individuals to behave in a more environmentally responsible manner?",
+                  "text_html": "<ul>\n  <li>How might an economic downturn affect some people’s decisions to go to college or university?</li>\n  <li>How does socio­-economic status affect the job possibilities that people perceive for themselves?</li>\n  <li>What is racial profiling, and what is the impact of racial profiling on individuals and groups?</li>\n  <li>How can social structures work to convince individuals to behave in a more environmentally responsible manner?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.3",
+              "text": "compare the relative influence of primary agents of socialization (e.g., family, peers) and secondary agents of socialization (e.g., media, religion) on the socialization of the individual",
+              "text_html": "<p>compare the relative influence of primary <a data-item-id=\"0039e050-7909-4b6e-9a6e-eb6b83b04222\" href=\"\">agents of socialization</a> <em>(e.g., family, peers) </em>and secondary agents of socialization <em>(e.g., media, </em><em>religion</em><em>) </em>on the <a data-item-id=\"c26a9a14-db89-46f9-b7ae-e1023c15cbda\" href=\"\">socialization</a> of the individual</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways in which diverse agents of socialization affect people’s life decisions? Which have the most influence on you and your peers? On your family? On public figures?",
+                  "text_html": "<ul>\n  <li>What are some ways in which diverse agents of socialization affect people’s life decisions? Which have the most influence on you and your peers? On your family? On public figures?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,419 @@
+{
+  "code": "AVI4E",
+  "name": "Visual Arts",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "Workplace",
+  "category": "Visual Arts",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course focuses on a practical approach to a variety of art and design projects related to the workplace. Students will use the creative process to produce a traditional and/or digital portfolio of their work in a variety of media. Students may focus on various aspects of visual arts, including advertising, ceramics, fashion design, graphic arts, jewellery design, and/or web design.",
+  "prerequisites": "Grade 11 Visual Arts, Open",
+  "prerequisite_codes": [
+    "AVI3O"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/avi4e",
+  "source_codename": "arts___sec___avi4e",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Presenting",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the creative process to create a variety of art works, individually and/or collaboratively",
+          "text_html": "<p>apply the creative process to create a variety of art works, individually and/or collaboratively</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a variety of strategies, individually and/or collaboratively, to generate, explore, and reflect on ideas and to develop and revise plans for the creation of art works, including applied and commercial art works (e.g., extend their skills in brainstorming and research to generate and explore a range of creative ideas; reflect on ideas and choose one that is suitable for the creative challenge; use strategies such as thumbnail sketches, diagrams, notes, and/or outlines to help them develop detailed plans; reflect on and revise their plans)",
+              "text_html": "<p>use a variety of strategies, individually and/or collaboratively, to generate, explore, and reflect on ideas and to develop and revise plans for the creation of art works, including applied and commercial art works <em>(e.g., extend their skills in brainstorming and research to generate and explore a range of creative ideas; reflect on ideas and choose one that is suitable for the creative challenge; use strategies such as </em><a data-item-id=\"eb6b0339-aeed-4deb-9500-41a7e79d941f\" href=\"\"><em>thumbnail sketches</em></a><em>, diagrams, notes, and/or outlines to help them develop detailed plans; reflect on and revise&nbsp;their plans)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the advantages and challenges associated with generating creative ideas as a group? How did the collaborative process affect the development of your initial ideas and plans?",
+                  "text_html": "<ul>\n  <li>What are the advantages and challenges associated with generating creative ideas as a group? How did the collaborative process affect the development of your initial ideas and plans?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "apply the appropriate stages of the creative process to create a variety of art works, including applied and commercial art works, in areas of personal interest (e.g., produce art works in one or more of the following areas: digital art, furniture design, fashion design, graphic arts, jewellery design, painting, sculpture; use charts or checklists to ensure they complete the stages of the creative process that are most appropriate for the creative challenge)",
+              "text_html": "<p>apply the appropriate stages of the creative process to create a variety of art works, including applied and commercial art works, in areas of personal interest <em>(e.g., produce art works in&nbsp;one or more of the following areas: digital art, furniture design, fashion design, graphic arts, jewellery design, painting, sculpture; use charts or checklists to ensure they complete the stages of the creative process that are most appropriate for the creative challenge)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Do you approach the stages of the creative process differently when you are creating an art work for a work-related purpose as opposed to a work of personal expression?\n  Describe the stages of the creative process you would need to use in your work-related project.",
+                  "text_html": "<ul>\n  <li>Do you approach the stages of the creative process differently when you are creating an art work for a work-related purpose as opposed to a work of personal expression?</li>\n  <li>Describe the stages of the creative process you would need to use in your work-related project.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "document their use of each stage of the creative process in a portfolio (e.g., ensure that their portfolio contains evidence of the following: the development of ideas and plans; experimentation with various materials, techniques, and design principles and elements; and reflection on and revision and/or refinement of their work), and review and reflect on the contents of the portfolio to determine how effectively they have used the creative process",
+              "text_html": "<p>document their use of each stage of the creative process in a portfolio <em>(e.g., ensure that their portfolio contains evidence of the following: the development of ideas and plans; experimentation with various materials, techniques, and design principles and elements; and reflection on and revision and/or refinement of their work)</em>, and review and reflect on the contents of the portfolio to determine how effectively they have used the creative process</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Does your portfolio contain evidence of how you executed each step in your work plan when creating your art work?\n  From the samples in your portfolio, can one identify how the design of your work evolved throughout the reflection and revision stages?",
+                  "text_html": "<ul>\n  <li>Does your portfolio contain evidence of how you executed each step in your work plan when creating your art work?</li>\n  <li>From the samples in your portfolio, can one identify how the design of your work evolved throughout the reflection and revision stages?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "The Elements and Principles of Design",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the elements and principles of design to create art works for the purpose of self-expression and to communicate ideas, information, and/or messages",
+          "text_html": "<p>apply the elements and principles of design to create art works for the purpose of self-expression and to communicate ideas, information, and/or messages</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "apply the elements and principles of design with increasing skill to create art works, including applied and commercial art works, that reflect their personal interests or personal experience and/or that convey emotion (e.g., extend their skills in the use of texture, value, line, shape, form, unity, and/or variety to create a narrative work based on a workplace experience; use colour, space, emphasis, and proportion to create an advertisement that conveys a feeling of excitement)",
+              "text_html": "<p>apply the elements and principles of design with increasing skill to create art works, including applied and commercial art works, that reflect their personal interests or personal experience and/or that convey emotion <em>(e.g., extend their skills in the use of texture, value,&nbsp;</em><a data-item-id=\"7d02983a-ec82-4054-8163-f12ee4768968\" href=\"\"><em>line</em></a><em>, shape, form, </em><a data-item-id=\"3adf2707-713f-4466-9bb9-bebddc5cc5e7\" href=\"\"><em>unity</em></a><em>, and/or variety to create a narrative work based on a workplace experience; use colour, space, emphasis, and </em><a data-item-id=\"19b1e82c-3dbb-439b-9318-e70088d9d0d4\" href=\"\"><em>proportion</em></a><em> to create an advertisement that conveys a feeling of excitement)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which elements and principles might you use to convey a positive workplace experience in your art work? How might your choices change if you wanted to convey a negative experience?\n   How could you manipulate the chosen elements and principles to best communicate your feelings to the audience?",
+                  "text_html": "<ul>\n  <li>Which elements and principles might you use to convey a positive workplace experience in your art work? How might your choices change if you wanted to convey a negative experience?</li>\n  <li>&nbsp;How could you manipulate the chosen elements and principles to best communicate your feelings to the audience?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "apply the elements and principles of design as well as art-making conventions with increasing skill to create a variety of art works that explore and/or present a point of view on contemporary social issues and/or themes (e.g., use dramatic symbols, shapes, colours, and values to create a poster on a current issue for an advocacy group)",
+              "text_html": "<p>apply the elements and principles of design as well as art-making conventions with increasing skill to create a variety of art works that explore and/or present a point of view on contemporary social issues&nbsp;and/or&nbsp;themes <em>(e.g., use dramatic symbols, shapes, colours, and values to create a poster on a current issue for an advocacy group)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might you use space, proportion, and emphasis in a public service advertisement encouraging people to limit their use of plastic water bottles? What sorts of images might you juxtapose to make your point?",
+                  "text_html": "<ul>\n  <li>How might you use space, proportion, and emphasis in a public service advertisement encouraging people to limit their use of plastic water bottles? What sorts of images might you juxtapose to make your point?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Production and Presentation",
+          "describer": "By the end of this course, students will:",
+          "text": "produce art works, using a variety of media/materials and traditional and emerging technologies, tools, and techniques, and demonstrate an understanding of a variety of ways of presenting their works and the works of others",
+          "text_html": "<p>produce art works, using a variety of media/materials and traditional and emerging technologies, tools, and techniques, and demonstrate an understanding of a variety of ways of presenting their works and the works of others</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "extend their exploration of media/materials, techniques, tools, and traditional and emerging technologies, and apply them to create a variety of art works, including applied and commercial art works, for a range of purposes (e.g., use appropriate software to design and produce a logo and stationery products, including letterhead and business cards, for a business enterprise; create a promotional item such as a poster or T-shirt for a fund-raising event for an environmental advocacy group)",
+              "text_html": "<p>extend their exploration of media/materials, techniques, tools, and traditional and <a data-item-id=\"8d5e5b08-58d0-49a0-8ce9-2173deaeb77c\" href=\"\">emerging technologies</a>, and apply them to create a variety of art works, including applied and commercial art works, for a range of purposes <em>(e.g., use appropriate software to design and produce a </em><a data-item-id=\"a59b5e92-9c49-426a-902c-d49a9a462edb\" href=\"\"><em>logo</em></a><em> and stationery products, including letterhead and business cards, for a business enterprise; create a promotional item such as a poster or T-shirt for a fund-raising event for an environmental advocacy group)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What products or services does this business offer? How could they be reflected in a company logo?\n  Why is it important to understand your client’s requirements when creating products for them?",
+                  "text_html": "<ul>\n  <li>What products or services does this business offer? How could they be reflected in a company logo?</li>\n  <li>Why is it important to understand your client’s requirements when creating products for them?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "explain standards and conventions for the presentation of art works for a variety of purposes, and apply appropriate standards and conventions when preparing works for presentation (e.g., ensure that works for public display are signed, dated, labelled, mounted, matted, and/or framed, as appropriate; write an artist’s statement for inclusion in a portfolio; ensure, when presenting works digitally to a client, that the image is clear and that the colours are accurately represented)",
+              "text_html": "<p>explain standards and conventions for the presentation of art works for a variety of purposes, and apply appropriate standards and conventions when preparing works for presentation <em>(e.g., ensure that works for public display are signed, dated, labelled, mounted, matted, and/or&nbsp;framed, as&nbsp;appropriate; write an </em><a data-item-id=\"3a000b0a-99af-4abd-be2e-a2abad6c3947\" href=\"\"><em>artist’s statement </em></a><em>for inclusion in a portfolio; ensure, when presenting works digitally to a client, that the image is clear and that the colours are accurately represented)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In the digital image of the advertisement you have designed, are the colours sharp and clear? Is all the type legible? Will the client be able to see the detail in the work?",
+                  "text_html": "<ul>\n  <li>In the digital image of the advertisement you have designed, are the colours sharp and clear? Is all the type legible? Will the client be able to see the detail in the work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "demonstrate an understanding of the variety of ways in which art works, including applied and commercial art works, can be presented to reach a variety of audiences (e.g., peers in their school, members of the community at a local venue, a particular demographic group that might be interested in a product/service, a broad audience on the Internet) and for different purposes (e.g., to promote events, to sell products or services, to inform)",
+              "text_html": "<p>demonstrate an understanding of the variety of ways in which art works, including applied and commercial art works, can be presented to reach a variety of audiences <em>(e.g., peers in their school, members of the community at a local venue,&nbsp;a particular demographic group that might be interested&nbsp;in&nbsp;a product/service, a&nbsp;broad&nbsp;audience on the Internet) </em>and for different purposes <em>(e.g., to promote events, to sell products or services, to inform)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What considerations should you take into account when choosing a venue for your annual pottery show and sale?",
+                  "text_html": "<ul>\n  <li>What considerations should you take into account when choosing a venue for your annual pottery show and sale?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the critical analysis process by examining, interpreting, evaluating, and reflecting on various art works",
+          "text_html": "<p>demonstrate an understanding of the critical analysis process by examining, interpreting, evaluating, and reflecting on various art works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "describe their initial reaction to a variety of art works, including applied and commercial art works (e.g., a promotional or informational poster, an advertisement in a magazine, a CD cover, a piece of public art in their community, a Renaissance painting, a work by Edvard Munch or Andy Warhol, a photograph by Yousuf Karsh), and explain in detail the reasons for their reaction",
+              "text_html": "<p>describe their initial reaction to a variety of art works, including applied and commercial art works <em>(e.g., a promotional or informational poster, an advertisement in a magazine, a CD cover, a piece of public art in their community, a Renaissance painting, a work by Edvard Munch&nbsp;or Andy Warhol, a photograph by Yousuf Karsh)</em>, and explain in detail the reasons for their reaction</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why do you think this art work was created? What materials or processes did the artist use? How did the use of these particular materials and processes affect the way you reacted to the work?",
+                  "text_html": "<ul>\n  <li>Why do you think this art work was created? What materials or processes did the artist use? How did the use of these particular materials and processes affect the way you reacted to the work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "identify the elements and principles of design used in art works, including applied and commercial art works, analyse their purpose, and evaluate their effectiveness (e.g., the use of colour, line, and proportion to increase the appeal of a product in a print advertisement; the use of texture, balance, and form to create a dramatic effect in the design of a piece of clothing or fashion accessory)",
+              "text_html": "<p>identify the elements and principles of design used in art works, including applied and commercial art works, analyse their purpose, and evaluate their effectiveness <em>(e.g., the use of colour, line, and proportion to increase the appeal of a product in a print advertisement; the&nbsp;use of texture, balance, and form to create a dramatic effect in the design of a piece of clothing or fashion accessory)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Do these two websites use any elements or principles of design in similar ways? Which elements and principles are used differently? Why do you think the designer used the elements and principles in these ways? Which website is more effective at attracting and keeping your attention and conveying the intended message?",
+                  "text_html": "<ul>\n  <li>Do these two websites use any elements or principles of design in similar ways? Which elements and principles are used differently? Why do you think the designer used the elements and principles in these ways? Which website is more effective at attracting and keeping your attention and conveying the intended message?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "interpret the meanings of art works, including applied and commercial art works, from different historical periods (e.g., advertisements or other commercial art works from the 1960s; propaganda art from World War II; Haida totem poles)",
+              "text_html": "<p>interpret the meanings of art works, including applied and commercial art works, from different historical periods <em>(e.g., advertisements or other commercial art works from the 1960s; propaganda art from World War II; Haida totem poles)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why are these historical pieces effective (or ineffective) in communicating their message?\n  What sorts of images or approaches from historical art works do we continue to see in modern advertising? Why do you think they are still used?",
+                  "text_html": "<ul>\n  <li>Why are these historical pieces effective (or ineffective) in communicating their message?</li>\n  <li>What sorts of images or approaches from historical art works do we continue to see in modern advertising? Why do you think they are still used?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Art, Society, and Values",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how art works reflect the society in which they were created, and of how they can affect both social and personal values",
+          "text_html": "<p>demonstrate an understanding of how art works reflect the society in which they were created, and of how they can affect both social and personal values</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "explain how applied and commercial art works can influence individual and community values (e.g., how the design of sustainable products such as reusable bags or bottles can encourage people to reduce and reuse packaging; how posters and brochures can educate people about the dangers of smoking)",
+              "text_html": "<p>explain how applied and commercial art works can influence individual and community values <em>(e.g., how the design of sustainable products such as reusable bags or bottles can encourage people to reduce and reuse packaging; how posters and brochures can educate people about the dangers of smoking)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some examples of products that artists have designed or modified to encourage people to respect or protect the environment? How have these products affected practices in your family, school, or community?",
+                  "text_html": "<ul>\n  <li>What are some examples of products that artists have designed or modified to encourage people to respect or protect the environment? How have these products affected practices in your family, school, or community?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "explain ways in which art works, particularly applied or commercial art works (e.g., advertising, architecture, clothing, product packaging, public art, website design), reflect the values of the society in which they were created",
+              "text_html": "<p>explain ways in which art works, particularly applied or commercial art works <em>(e.g., advertising, architecture, clothing, product packaging, public art, website design)</em>, reflect the values of the society in which they were created</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways do advertisements for cosmetics and clothing reinforce cultural ideas about personal appearance?",
+                  "text_html": "<ul>\n  <li>In what ways do advertisements for cosmetics and clothing reinforce cultural ideas about personal appearance?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of various job opportunities both within and outside the area of visual arts and how skills related to visual arts can be applied in the workplace",
+          "text_html": "<p>demonstrate an understanding of various job opportunities both within and outside the area of visual arts and how skills related to visual arts can be applied in the workplace</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "describe, on the basis of research, a variety of work opportunities related to the field of visual arts (e.g., apprenticeships or internships in fashion design, graphic arts, or stage or set construction; jobs in interior design, jewellery design, website design; jobs in the sale and promotion of pottery or woodwork), describe the skills they require, and compare these skills to their own skill set",
+              "text_html": "<p>describe, on the basis of research, a variety of work opportunities related to the field of visual arts <em>(e.g., apprenticeships or internships&nbsp;in fashion design, graphic arts, or stage or set construction; jobs in interior design, jewellery design, website design; jobs in the sale and promotion of pottery or woodwork)</em>, describe the skills they require, and compare these skills to their own skill set</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What arts-related opportunities in the world of work exist for someone with visual arts skills and knowledge?\n  What particular skills do you possess that are well suited to a job that interests you in the visual arts field?",
+                  "text_html": "<ul>\n  <li>What arts-related opportunities in the world of work exist for someone with visual arts skills and knowledge?</li>\n  <li>What particular skills do you possess that are well suited to a job that interests you in the visual arts field?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "explain how skills associated with the creation and analysis of visual art works, including applied and commercial art works, can be transferred to jobs outside the visual arts field (e.g., visual communication skills, technical skills related to the use of design software, analytical skills developed in interpreting art works, attention to deadlines, the ability to understand and carry out instructions, the ability to develop and follow a plan; skills that are included in the Ontario Skills Passport or in the Human Resources and Skills Development Canada [HRSDC] list of essential skills)",
+              "text_html": "<p>explain how skills associated with the creation and analysis of visual art works, including applied and commercial art works, can be transferred to jobs outside the visual arts field <em>(e.g., visual communication skills, technical skills related to the use of design software, analytical skills developed in interpreting art works, attention to deadlines, the ability to understand and carry&nbsp;out instructions, the ability to develop and follow a plan; skills that are included in the Ontario Skills Passport or in the Human Resources and Skills Development Canada [HRSDC] list of essential&nbsp;skills)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what types of jobs could you apply the technical and communication skills you have acquired in studying visual arts?\n  What are some of the key interpersonal skills you have learned and practised as a result of studying visual art/visual culture? What types of jobs outside the arts require these types of skills?",
+                  "text_html": "<ul>\n  <li>In what types of jobs could you apply the technical and communication skills you have acquired in studying visual arts?</li>\n  <li>What are some of the key interpersonal skills you have learned and practised as a result of studying visual art/visual culture? What types of jobs outside the arts require these types of skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of, and use correct terminology when referring to, elements, principles, and other concepts related to visual arts",
+          "text_html": "<p>demonstrate an understanding of, and use correct terminology when referring to, elements, principles, and other concepts related to visual arts</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "demonstrate an understanding of the elements and principles of design, particularly those used in applied and commercial art works, and use terminology related to these elements and principles when creating and analysing art works (e.g., when describing their illustrations for a children’s book or design for the cover of a CD; when explaining the effectiveness of an  advertisement; when explaining the choice of typeface for a poster)",
+              "text_html": "<p>demonstrate an understanding of the elements and principles of design, particularly those used in applied and commercial art works, and use terminology related to these elements and principles when creating and analysing art works <em>(e.g., when describing their illustrations for a children’s book or design for the cover of a CD; when explaining the effectiveness&nbsp;of an&nbsp; advertisement;&nbsp;when&nbsp;explaining&nbsp;the choice of typeface for a poster)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "explain in detail terminology related to techniques, materials, and tools used to create applied art works (e.g., create a glossary of terms used in one or more of the following applied art forms: fashion design, interior design, jewellery design, set/stage construction, wood carving)",
+              "text_html": "<p>explain in detail terminology related to techniques, materials, and tools used to create applied art works <em>(e.g., create a glossary of terms used in one or more of the following applied art forms: fashion design, interior design, jewellery design, set/stage construction, wood carving)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Conventions and Techniques",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of conventions and techniques that artists use in the creation of visual art works",
+          "text_html": "<p>demonstrate an understanding of conventions and techniques that artists use in the creation of visual art works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of a variety of techniques that artists use to achieve certain effects, with particular reference to applied and commercial art works (e.g., to create audience interest through the layout of a promotional brochure; to present a positive corporate image in an advertisement; to convey a sense of texture in a piece of pottery)",
+              "text_html": "<p>demonstrate an understanding of a variety of techniques that artists use to achieve certain effects, with particular reference to applied and commercial art works <em>(e.g., to create audience interest through the layout of a promotional brochure; to present a positive corporate&nbsp;image in an advertisement; to convey a sense of texture in a piece of pottery)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What techniques did you use when designing this CD cover that will appeal to a specific youth market?",
+                  "text_html": "<ul>\n  <li>What techniques did you use when designing this CD cover that will appeal to a specific youth market?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "demonstrate an understanding of various visual arts conventions (e.g., exaggeration, juxtaposition, metaphor, symbols, synectics; conventions associated with narrative or naturalistic art or works of social commentary) as they relate to the production of applied and commercial art work",
+              "text_html": "<p>demonstrate an understanding of various visual arts conventions <em>(e.g., </em><a data-item-id=\"748d1cb7-e851-4ed1-ae2c-88eb4fada309\" href=\"\"><em>exaggeration</em></a><em>, </em><a data-item-id=\"8a3534fb-47ad-4d55-8ec1-8d601ededbed\" href=\"\"><em>juxtaposition</em></a><em>, metaphor, symbols, synectics; conventions associated with narrative or naturalistic art or works of social commentary) </em>as they relate to the production of applied and commercial art work</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could you apply conventions used in satirical art, such as the works of Fernando Botero, to a piece of commercial art intended to promote changes in young people’s diet and exercise?",
+                  "text_html": "<ul>\n  <li>How could you apply conventions used in satirical art, such as the works of Fernando Botero, to a piece of commercial art intended to promote changes in young people’s diet and exercise?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of responsible practices related to visual arts",
+          "text_html": "<p>demonstrate an understanding of responsible practices related to visual arts</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Collaboration",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "demonstrate an understanding of legal and ethical issues associated with intellectual, virtual, and physical property (e.g., issues related to ownership, plagiarism, appropriation), and apply ethical practices when appropriating the property of others and using cultural images in their art works (e.g., show sensitivity when using images associated with other cultures, including First Nation, Inuit, and Métis cultures)",
+              "text_html": "<p>demonstrate an understanding of legal and ethical issues associated with intellectual, virtual, and physical property <em>(e.g., issues related to ownership, plagiarism, </em><a data-item-id=\"1da25fe3-3e67-4799-ba5a-44f2d1b3b164\" href=\"\"><em>appropriation</em></a><em>)</em>, and apply ethical practices when appropriating the property of others and using cultural images in&nbsp;their art works <em>(e.g., show sensitivity when using images associated with other cultures, including First Nation, Inuit, and Métis cultures)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "demonstrate an understanding of health and safety procedures when creating or presenting art works, including applied and commercial art works (e.g., demonstrate safe practices when creating installations, assemblages, constructions, paintings, prints, posters, jewellery, textiles, and/or multimedia projects; explain the importance of proper ventilation; use gloves or skin-barrier products when working with chemicals; demonstrate the safe storage of hazardous materials; use protective equipment for ears and eyes when working with noisy tools or materials that can chip or splash)",
+              "text_html": "<p>demonstrate an understanding of health and safety procedures when creating or presenting art works, including applied and commercial art works <em>(e.g., demonstrate safe practices when creating installations, assemblages, constructions, paintings, prints, posters, jewellery, textiles, and/or multimedia projects; explain the importance of proper ventilation; use gloves or skin-barrier products when working with chemicals; demonstrate the safe storage of hazardous materials; use protective equipment for ears and eyes when working with noisy tools or materials that can chip or splash)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "identify responsible environmental practices that should be used in applied arts workplaces (e.g., safe disposal of paints, solvents, and photographic chemicals; reuse and recycling of materials; substitution of a less harmful substance for a toxic one), and apply these practices when creating visual art works",
+              "text_html": "<p>identify responsible environmental practices that should be used in applied arts workplaces <em>(e.g., safe disposal of paints, solvents, and photographic chemicals; reuse and recycling of materials; substitution of a less harmful substance for a toxic one)</em>, and apply these practices when creating visual art works</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why is it important to source materials that have been produced with the least harm to the environment?\n  What items in a graphic arts workplace can be recycled?\n  What fabrics cause the least environmental damage? Why?",
+                  "text_html": "<ul>\n  <li>Why is it important to source materials that have been produced with the least harm to the environment?</li>\n  <li>What items in a graphic arts workplace can be recycled?</li>\n  <li>What fabrics cause the least environmental damage? Why?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

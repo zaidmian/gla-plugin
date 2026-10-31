@@ -1,0 +1,514 @@
+{
+  "code": "AMU4M",
+  "name": "Music",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "University-College Preparation",
+  "category": "Music",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course enables students to enhance their musical literacy through the creation, appreciation, analysis, and performance of music. Students will perform traditional, commercial, and art music, and will respond with insight to live and recorded performances. Students will enhance their understanding of the function of music in society and the impact of music on themselves and various communities and cultures. Students will analyse how to apply skills developed in music to their life and careers.",
+  "prerequisites": "Grade 11 Music, University/College",
+  "prerequisite_codes": [
+    "AMU3M"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/amu4m",
+  "source_codename": "arts___sec___amu4m",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Presenting",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the stages of the creative process when performing notated and/or improvised music and composing and/or arranging music",
+          "text_html": "<p>apply the stages of the creative process when performing notated and/or improvised music and composing and/or arranging music</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "apply the creative process when performing increasingly complex and difficult notated and/or improvised music (e.g., study the score in order to plan their approach to the performance of a selection; consider various sources of inspiration for their improvisation; experiment with variations in articulation, balance, blend, tempo, and/or texture; use rehearsal time to revise aspects of their performance based on self-assessment and reflection on critiques by their peers and/or teacher; perform a polished version of the selection for their peers)",
+              "text_html": "<p>apply the creative process when performing increasingly complex and difficult notated and/or improvised music <em>(e.g., study the score in order to plan their approach to the performance of a selection; consider various sources of inspiration for their improvisation; experiment with variations in </em><a data-item-id=\"8498f008-f614-4d66-a912-0e5cc666537a\" href=\"\"><em>articulation</em></a><em>, balance, blend, </em><a data-item-id=\"5bb649fd-8417-418b-81a9-da8834a5f2ed\" href=\"\"><em>tempo</em></a><em>, and/or </em><a data-item-id=\"99ec4f29-4ad3-4dec-971d-ba6dc646a04a\" href=\"\"><em>texture</em></a><em>; use rehearsal time to revise aspects of their performance based on self-assessment and reflection on critiques by their peers and/or teacher; perform a polished version of the selection for their peers)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How and why does your approach to the creative process change when you are improvising as opposed to performing notated music?\n  How has reflection and experimentation affected your performance of this selection?",
+                  "text_html": "<ul>\n  <li>How and why does your approach to the creative process change when you are improvising as opposed to performing notated music?</li>\n  <li>How has reflection and experimentation affected your performance of this selection?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "apply the creative process when composing and/or arranging increasingly complex musical works (e.g., follow the applicable stages of the creative process when composing or arranging for small ensemble a sixteen-bar melody; explore the creative challenge, conducting research to develop their understanding or for inspiration; develop a plan that details the form and structure of their composition; experiment with various metres, tempi, and approaches to articulation; explore the tessitura of various instruments to determine which are most appropriate for their planned arrangement; revise their composition on the basis of self-assessment and reflection on critiques from their peers and/or teacher; present the final work to an audience)",
+              "text_html": "<p>apply the creative process when composing and/or arranging increasingly complex musical works <em>(e.g., follow the applicable stages of the creative process when composing or arranging for small ensemble a sixteen-bar melody; explore the creative challenge, conducting research to develop their understanding or for inspiration; develop a plan that details the form and structure of their composition; experiment with various metres, tempi, and approaches to articulation; explore the tessitura of various instruments to determine which are most appropriate for their planned arrangement; revise their composition on the basis of self-assessment and reflection on critiques from their peers and/or teacher; present the final work to an audience)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do your instrumentation choices affect the tone colour, blend, and balance in your arrangement? Do they achieve the effect you were intending? What aspects might you refine to achieve a more effective arrangement?\n  Have you explored the impact on your arrangement of the tessitura of all the instruments in your ensemble? What, if any, changes might you make to use all the available instruments to their best advantage?",
+                  "text_html": "<ul>\n  <li>How do your instrumentation choices affect the tone colour, blend, and balance in your arrangement? Do they achieve the effect you were intending? What aspects might you refine to achieve a more effective arrangement?</li>\n  <li>Have you explored the impact on your arrangement of the tessitura of all the instruments in your ensemble? What, if any, changes might you make to use all the available instruments to their best advantage?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "The Elements of Music",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the elements of music when performing notated and improvised music and composing and/or arranging music",
+          "text_html": "<p>apply the elements of music when performing notated and improvised music and composing and/or arranging music</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "apply the elements of music and related concepts appropriately and effectively when interpreting and performing increasingly complex and difficult notated music (e.g., accurately play or sing increasingly complex rhythms; accurately play or sing increasingly difficult music with correct articulation, clear melodic shape, and relative balance; play or sing with accurate intonation, effective tonal blend, and harmonic balance)",
+              "text_html": "<p>apply the elements of music and related concepts appropriately and effectively when interpreting and performing increasingly complex and difficult notated music <em>(e.g., accurately play or sing increasingly complex </em><a data-item-id=\"98672331-bdaa-4f10-934b-2d171ace9ae3\" href=\"\"><em>rhythms</em></a><em>; accurately play or sing increasingly difficult music with correct articulation, clear melodic shape, and relative balance; play or sing with accurate intonation, effective tonal blend, and&nbsp;harmonic balance)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might a change in articulation alter the overall effect of this selection?\n  In what ways does your approach to the elements of music change when you are playing the melody line as opposed to accompaniment?",
+                  "text_html": "<ul>\n  <li>How might a change in articulation alter the overall effect of this selection?</li>\n  <li>In what ways does your approach to the elements of music change when you are playing the melody line as opposed to accompaniment?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "manipulate the elements of music and related concepts effectively and with increasing skill and creativity when improvising melodies in a wide variety of musical forms (e.g., when improvising melodies over an appropriate chord progression; when improvising using modes, scales, and/or patterns from Western and non-Western music; when improvising a sixteen-bar diatonic or modal melody over appropriate accompaniment; when using strophic or ternary form or a combination of forms)",
+              "text_html": "<p>&nbsp;manipulate the elements of music and related concepts effectively and with increasing skill and creativity when improvising melodies in a wide variety of musical forms <em>(e.g., when improvising melodies over an appropriate </em><a data-item-id=\"e8a36018-6845-4a61-83b2-2b871f37bc69\" href=\"\"><em>chord progression</em></a><em>; when improvising using modes, scales, and/or patterns from Western and non-Western music; when improvising a sixteen-bar </em><a data-item-id=\"06ecd8f4-6843-4c98-9669-ad2ec89536ec\" href=\"\"><em>diatonic</em></a><em> or modal melody over appropriate accompaniment; when using strophic or </em><a data-item-id=\"0f27dd50-27eb-4a6f-bbce-ed0375aa2810\" href=\"\"><em>ternary form</em></a><em> or a combination of forms)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the role of each note in this chord with respect to tension and dissonance? Is this chord resolved or not? Will you need to make the melody fit with your revised harmonic progression?",
+                  "text_html": "<ul>\n  <li>What is the role of each note in this chord with respect to tension and <a data-item-id=\"10ea99b4-7649-4518-a1d0-17b14cf49aea\" href=\"\">dissonance</a>? Is this chord resolved or not? Will you need to make the <a data-item-id=\"1b0ad9db-c56b-4830-a4a8-1756a254500b\" href=\"\">melody</a> fit with your revised harmonic progression?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "apply the elements of music and related concepts effectively and with increasing skill and creativity when composing and/or arranging music in a variety of forms (e.g., when writing tonal melodies; when writing atonal melodies using a tone row; when writing atonal melodies using pitch integers, ordered pitch intervals, and/or pitch classes; when arranging melodic and rhythmic compositions in binary and ternary form)",
+              "text_html": "<p>apply the elements of music and related concepts effectively and with increasing skill and creativity when composing and/or arranging music in a variety of forms <em>(e.g., when writing tonal melodies; when writing atonal melodies using a tone row; when writing atonal melodies using pitch integers, ordered pitch </em><a data-item-id=\"a15f11c0-5d97-4cbf-b56a-4edf576efb1a\" href=\"\"><em>intervals</em></a><em>, and/or pitch classes; when arranging melodic and rhythmic compositions in binary and ternary form)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are aspects of pitch, especially melody and harmony, used when creating atonal music?",
+                  "text_html": "<ul>\n  <li>How are aspects of pitch, especially melody and harmony, used when creating atonal music?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Techniques and Technologies",
+          "describer": "By the end of this course, students will:",
+          "text": "use a range of techniques and technological tools in a variety of applications related to music",
+          "text_html": "<p>use a range of techniques and technological tools in a variety of applications related to music</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Digital Literacy",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "extend their technical skills when performing increasingly complex and difficult notated and/or improvised music (e.g., perform repertoire with accuracy and artistic sensitivity; sight-read increasingly complex music with accuracy and fluency; perform with highly appropriate expression selections from a range of genres; sing or play their instrument with a timbre appropriate for the selection)",
+              "text_html": "<p>extend their technical skills when performing increasingly complex and difficult notated and/or improvised music <em>(e.g., perform </em><a data-item-id=\"b367327c-7500-4362-a187-87d0308d35ef\" href=\"\"><em>repertoire</em></a><em> with accuracy and artistic sensitivity; sight-read increasingly complex music with accuracy and fluency; perform with highly appropriate expression selections from a range of genres; sing or play their instrument with a timbre appropriate for the selection)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the relationship between technical skill and artistic ability?\n  How can this technical exercise enhance your ability to perform with artistic sensitivity?",
+                  "text_html": "<ul>\n  <li>What is the relationship between technical skill and artistic ability?</li>\n  <li>How can this technical exercise enhance your ability to perform with artistic sensitivity?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "apply compositional techniques with increasing skill and creativity when composing and/or arranging music (e.g., compose and/or arrange contrapuntal compositions, using technology where appropriate; compose a piece using twentieth-century techniques such as tone rows, indeterminacy, or free improvisation; arrange a pentatonic melody such as the Japanese Sakura, incorporating contemporary rhythmic patterns and applying the timbres of modern string, wind, and percussion instruments; write a rhythm rondo using African drums and embedding improvisational passages and structured notated patterns)",
+              "text_html": "<p>apply compositional techniques with increasing skill and creativity when composing and/or arranging music <em>(e.g., compose and/or arrange contrapuntal compositions, using technology where appropriate; compose a piece using twentieth-century techniques such as tone rows, indeterminacy, or free improvisation; arrange a </em><a data-item-id=\"db568eea-685e-4bf6-8dec-94d06f33a814\" href=\"\"><em>pentatonic</em></a><em> melody such as the Japanese Sakura, incorporating contemporary&nbsp;rhythmic&nbsp;patterns and applying the timbres of modern string, wind, and percussion instruments; write a rhythm rondo using African drums and embedding improvisational passages and structured notated patterns)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the positive aspects of your chosen form? What are its limitations?\n  Would you borrow aspects of another complementary or contrasting style to include in your work? Why or why not?",
+                  "text_html": "<ul>\n  <li>What are the positive aspects of your chosen form? What are its limitations?</li>\n  <li>Would you borrow aspects of another complementary or contrasting style to include in your work? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "use a variety of current technologies with increasing skill when practising, performing, composing, arranging, or recording music (e.g., record a multi-track sequence using the functions of audio-editing software; record their performance  of a range of selections for a performance portfolio; use notation and sequencing software when producing a work in a twentieth-century style [expressionist, minimalist, blues, musique concrète]; arrange an original composition for the class using various scoring tools in a notation program)",
+              "text_html": "<p>use a variety of current technologies with increasing skill when practising, performing, composing, arranging, or recording music <em>(e.g., record a multi-track sequence using the functions&nbsp;of audio-editing software; record their performance&nbsp; of a range of selections for a performance portfolio; use notation and sequencing software when producing a work in a twentieth-century style [expressionist, minimalist, </em><a data-item-id=\"c012b72f-4579-42a0-a748-d78cf46dd7b9\" href=\"\"><em>blues</em></a><em>, musique concrète]; arrange an original composition for the class using various scoring tools in a notation&nbsp;program)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some of the ways in which digital technology has changed the music industry?\n  How could you use software to notate music from an oral tradition?\n  What features of music notation, editing, and sequencing software do you find most useful as a composer?",
+                  "text_html": "<ul>\n  <li>What are some of the ways in which digital technology has changed the music industry?</li>\n  <li>How could you use software to notate music from an oral tradition?</li>\n  <li>What features of music notation, editing, and sequencing software do you find most useful as a <a data-item-id=\"a51f8cb7-1148-4b61-b988-3b390e2be264\" href=\"\">composer</a>?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the critical analysis process when responding to, analysing, reflecting on, and interpreting music",
+          "text_html": "<p>use the critical analysis process when responding to, analysing, reflecting on, and interpreting music</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "deconstruct with increasing skill and insight the elements and other components of music through score study of and purposeful listening to increasingly complex musical works (e.g., describe and evaluate how melody, rhythm, harmony, texture, and/or timbre function and interact in serial music from the twentieth century; analyse a significant form of Western music such as a symphony, a concerto, an opera, or an art song; review a peer’s public performance with reference to her or his manipulation of musical elements; analyse a lead sheet for a jazz standard, and then critique the performance of the selection in terms of the aesthetic and technical impact of the performers’ manipulation of the elements of music)",
+              "text_html": "<p>deconstruct with increasing skill and insight the elements and other components of music through score study of and purposeful listening to increasingly complex musical works <em>(e.g., describe and evaluate how melody, rhythm, harmony, texture, and/or timbre function and interact in serial music from the twentieth century; analyse a significant form of Western music such as a symphony, a concerto, an opera, or an art song; review a peer’s public performance with reference to her or his manipulation of musical elements; analyse a lead sheet for a jazz standard, and then critique the performance of the selection in terms of the aesthetic and technical impact of the performers’ manipulation of the elements of music)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What can you determine about the cultural context for a selection from analysing its approach to the elements of music?\n  How do these two recordings of this aria differ in their approach to the elements of music? What effects do these differences produce?",
+                  "text_html": "<ul>\n  <li>What can you determine about the cultural <a data-item-id=\"311a1efa-4039-4020-ad3b-63706029b550\" href=\"\">context</a> for a selection from analysing its approach to the elements of music?</li>\n  <li>How do these two recordings of this aria differ in their approach to the elements of music? What effects do these differences produce?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "listen to and reflect on selections from a wide range of musical styles and genres, including their own performance repertoire, and analyse and reflect with increasing insight on their responses to and interpretation of them (e.g., explain their initial reaction to a selection whose genre or form they are not familiar with; explain their interpretation of a Canadian avant-garde selection; reflect and report on how their response to a selection of music has changed from initial reaction, to increased understanding as a result of background research, and to critical analysis as a result of repeated and focused listening)",
+              "text_html": "<p>listen to and reflect on selections from a wide range of musical styles and genres, including their own performance repertoire, and analyse and reflect with increasing insight on their responses to and interpretation of them <em>(e.g., explain their initial reaction to a selection whose genre or form they are not familiar with; explain their interpretation of a Canadian avant-garde selection; reflect and report on how their response to a selection of music has changed from initial reaction, to increased understanding as a result of background research, and to critical analysis as a result of repeated and focused listening)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does your initial reaction to a piece of music from an unfamiliar genre or culture differ from your reaction to a selection by one of your favourite composers or musicians?\n  Can you understand or appreciate a piece of music without liking it? Why or why not?",
+                  "text_html": "<ul>\n  <li>In what ways does your initial reaction to a piece of music from an unfamiliar genre or culture differ from your reaction to a selection by one of your favourite composers or musicians?</li>\n  <li>Can you understand or appreciate a piece of music without liking it? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "analyse with increasing insight and assess the effectiveness of music from a wide range of styles and genres and in various performance modes, and reflect on how such analyses can enhance their own creation or performance of music (e.g., assess the effectiveness of a selection that represents a significant form of Western music, such as a symphony, a concerto, an opera, or an art song, in communicating to its audiences, and analyse how the work achieves its purpose; analyse the aesthetic and technical features of various forms of jazz, and evaluate the effect of the music on the performer and listener; assess the impact and effectiveness of a taiko ensemble)",
+              "text_html": "<p>analyse with increasing insight and assess the effectiveness of music from a wide range of styles and genres and in various performance modes, and reflect on how such analyses can enhance their own creation or performance of music <em>(e.g., assess the effectiveness of a selection that represents a significant form of Western music, such as a symphony, a concerto, an opera, or an art song, in communicating to its audiences, and analyse how the work achieves its purpose; analyse the aesthetic and technical features of various&nbsp;forms of jazz, and evaluate the effect of the music on the performer and listener; assess the impact&nbsp;and effectiveness of a taiko&nbsp;ensemble)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why does ritual music of this culture have such a powerful effect on the participants?\n  How can you apply what you have learned from your analysis of Gustav Holst’s work to your own performance of English band repertoire?",
+                  "text_html": "<ul>\n  <li>Why does ritual music of this culture have such a powerful effect on the participants?</li>\n  <li>How can you apply what you have learned from your analysis of Gustav Holst’s work to your own performance of English band repertoire?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "gather information from a range of reliable sources on music history, composers and musicians, technical and/or aesthetic criticism, and audience responses, and analyse, critique, and reflect on the information with increasing insight to enhance their critical judgement and ongoing interpretation of music (e.g., gather and analyse data on audience responses to one of their performances, either individual or as part of an ensemble; investigate the cultural context and critical opinion of the work of a non-Western musician, evaluate the information, and compare it to their own opinion; investigate the purpose, cultural context, technical complexities, and elements of a selection of contemporary Aboriginal music; analyse the work of a professional media critic or musicologist, and use it as a model for their own criticism of music)",
+              "text_html": "<p>gather information from a range of reliable sources on music history, composers and musicians, technical and/or aesthetic criticism, and audience responses, and analyse, critique, and reflect on the information with increasing insight to enhance their critical judgement and ongoing interpretation of music <em>(e.g., gather and analyse data on audience responses to one of their performances, either individual or as part of an ensemble; investigate the cultural context and critical opinion of the work of a non-Western musician, evaluate the information, and compare it to their own opinion; investigate the purpose, cultural context, technical complexities, and elements of a selection of contemporary Aboriginal music; analyse the work of a professional media critic or musicologist, and use it as a model for their own criticism of music)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What influence have the reviews of this musician’s work had on your opinion and assessment of that work?\n  Does an understanding of the cultural or historical context of a composition influence your opinion of the work? Why or why not?",
+                  "text_html": "<ul>\n  <li>What influence have the reviews of this musician’s work had on your opinion and assessment of that work?</li>\n  <li>Does an understanding of the cultural or historical context of a composition influence your opinion of the work? Why or why not?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Music and Society",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of social and cultural influences on and effects and functions of traditional, commercial, and art music",
+          "text_html": "<p>demonstrate an understanding of social and cultural influences on and effects and functions of traditional, commercial, and art music</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "analyse, on the basis of in-depth research, ways in which traditional, commercial, and art music are a response to and a reflection of the community or culture in which they were created (e.g., the social and/or historical context of nineteenth-century Irish folk music, klezmer music, Chinese revolutionary opera; the interrelationship between music and social issues in South Africa; the historical context of Tchaikovsky’s 1812 Overture; the sources of hybridization in contemporary music)",
+              "text_html": "<p>analyse, on the basis of in-depth research, ways in which traditional, commercial, and art music are a response to and a reflection of the community or culture in which they were created <em>(e.g., the social and/or historical context of nineteenth-century Irish folk music, klezmer music, Chinese revolutionary opera; the interrelationship between music and social issues in South Africa; the historical context of Tchaikovsky’s </em>1812 Overture<em>; the sources of hybridization in contemporary music)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What social, cultural, and/or economic factors influenced the development of ragtime?\n  Why do the works of many Renaissance composers reflect a multicultural influence?\n  What is the social context for Joe Sealy’s Africville Suite?",
+                  "text_html": "<ul>\n  <li>What social, cultural, and/or economic factors influenced the development of ragtime?</li>\n  <li>Why do the works of many Renaissance composers reflect a multicultural influence?</li>\n  <li>What is the social context for Joe Sealy’s <em>Africville Suite</em>?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "analyse the impact of significant individuals or groups from a variety of cultures or communities on various genres of traditional, commercial, and/or art music (e.g., the impact  of composers and/or musicians such as Hildegard von Bingen, Robert Johnson, Glenn Gould, the Beatles, Ali Farka Touré, Evelyn Glennie, or Yo-Yo Ma on various genres; the influence of composers such as Anil Biswas, Tan Dun, Ennio Morricone, or John Williams on film scoring)",
+              "text_html": "<p>analyse the impact of significant individuals or groups from a variety of cultures or communities on various genres of traditional, commercial, and/or&nbsp;art music <em>(e.g., the impact&nbsp; of composers and/or musicians such as Hildegard von Bingen, Robert Johnson, Glenn Gould, the Beatles, Ali Farka Touré, Evelyn Glennie, or Yo-Yo Ma on various genres; the influence of composers such as Anil Biswas, Tan Dun, Ennio Morricone,&nbsp;or John Williams on film scoring)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What impact has Woody Guthrie had on popular music in North America?\n  Name some influential Canadian Aboriginal artists, and describe how they have contributed to contemporary Aboriginal musical genres.",
+                  "text_html": "<ul>\n  <li>What impact has Woody Guthrie had on popular music in North America?</li>\n  <li>Name some influential Canadian Aboriginal artists, and describe how they have contributed to contemporary Aboriginal musical genres.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "analyse the various functions of music in society (e.g., to pass on traditions in oral cultures, to protest social injustice, to commemorate, to educate and raise awareness, as therapy to enhance health and well-being, to entertain, to accompany dance, for religious worship)",
+              "text_html": "<p>analyse the various functions of music in society <em>(e.g., to pass on traditions in oral cultures, to protest social injustice, to commemorate, to educate and raise awareness, as therapy to enhance health and well-being, to entertain, to accompany dance, for religious worship)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What was the function of music under the patronage system of eighteenth-century Europe?\n  Why are songs that are passed down by oral cultures so important to the history and traditions of these cultures?\n  What are some of the uses of music therapy?",
+                  "text_html": "<ul>\n  <li>What was the function of music under the patronage system of eighteenth-century Europe?</li>\n  <li>Why are songs that are passed down by oral cultures so important to the history and traditions of these cultures?</li>\n  <li>What are some of the uses of music therapy?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Skills and Personal Growth",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how performing, creating, and critically analysing music has affected their skills and personal development",
+          "text_html": "<p>demonstrate an understanding of how performing, creating, and critically analysing music has affected their skills and personal development</p>",
+          "transferable_skills": [],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "analyse and assess the impact of the study of music on their self-awareness, their expressive capabilities, their awareness of social issues, and their understanding of others (e.g., their awareness of, and their ability to express, personal responses to a wide range of music from a variety of cultures; the ability to support their own opinions while demonstrating respect for the opinions of others; the ability to express their ideas, concerns, and emotions creatively; their knowledge of and respect for other cultures; their awareness of current and historical social issues as expressed through song)",
+              "text_html": "<p>analyse and assess the impact of the study of music on their self-awareness, their expressive capabilities, their awareness of social issues, and their understanding of others <em>(e.g., their awareness of, and their ability to express, personal responses to a wide range of music from a variety of cultures; the ability to support their own opinions while demonstrating respect for the opinions of others; the ability to express their ideas, concerns, and emotions creatively; their knowledge of and respect for other cultures; their awareness of current and historical social issues as expressed through song)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What role has the study of music played in making you the person you are?\n  In what ways has studying the music of other cultures and communities expanded your knowledge and understanding?",
+                  "text_html": "<ul>\n  <li>What role has the study of music played in making you the person you are?</li>\n  <li>In what ways has studying the music of other cultures and communities expanded your knowledge and understanding?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "assess, with increasing insight, their musical skills and knowledge, and develop and implement a detailed plan to enhance them and evaluate their progress (e.g., select and organize items for a portfolio of performance or creative work to demonstrate continuing improvement; conduct and report on the results of self-directed study on a musical topic; plan ways to extend their skills in working with music-related software)",
+              "text_html": "<p>assess, with increasing insight, their musical skills and knowledge, and develop and implement a detailed plan to enhance them and evaluate their progress <em>(e.g., select and organize items for a portfolio of performance or creative work to demonstrate continuing improvement; conduct and report on the results of self-directed study on a musical topic; plan ways to extend their skills in working with music-related software)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might you develop a plan to assess your skills as an independent musician and a member of this ensemble? Do these two roles require different skills? Why or why not?\n  What skills do you need to develop to enhance your ability to use this piece of music software?",
+                  "text_html": "<ul>\n  <li>How might you develop a plan to assess your skills as an independent musician and a member of this ensemble? Do these two roles require different skills? Why or why not?</li>\n  <li>What skills do you need to develop to enhance your ability to use this piece of music software?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "demonstrate the interpersonal skills, work habits, attitudes, and qualities that are essential to the effective performance of music in a variety of contexts (e.g., conduct or lead a small or large ensemble; participate in a music council or other leadership group; demonstrate preparedness, cooperation, optimism, and perseverance when rehearsing and performing as part of an ensemble)",
+              "text_html": "<p>demonstrate the interpersonal skills, work habits, attitudes, and qualities that are essential to the effective performance of music in a variety of contexts <em>(e.g., conduct or lead a small or large ensemble; participate in a music council or other leadership group; demonstrate preparedness, cooperation, optimism, and perseverance when rehearsing and performing as part of an ensemble)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways to develop individual accountability in a musical ensemble?\n  What challenges did you encounter in this collaborative composition process? How did you resolve these challenges?",
+                  "text_html": "<ul>\n  <li>What are some ways to develop individual accountability in a musical ensemble?</li>\n  <li>What challenges did you encounter in this collaborative composition process? How did you resolve these challenges?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B4",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "assess opportunities and requirements for continued engagement in music",
+          "text_html": "<p>assess opportunities and requirements for continued engagement in music</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B4.1",
+              "text": "assess their interests, skills, and knowledge in relation to a variety of careers in the arts and culture industry (e.g., interview a Canadian composer to determine the skills necessary to succeed in this profession and to discover how this individual makes a living; identify and assess the requirements of careers related to the promotion and marketing of artists, including musicians; identify and evaluate the requirements of careers related to music education; identify opportunities at arts advocacy organizations, and describe the background required for these jobs)",
+              "text_html": "<p>assess their interests, skills, and knowledge in relation to a variety of careers in the arts and culture industry <em>(e.g., interview a Canadian composer to determine the skills necessary to succeed in this profession and to discover how this individual makes a living; identify and assess the requirements of careers related to the promotion and marketing of artists, including musicians; identify and evaluate the requirements of careers related to music education; identify opportunities at arts advocacy organizations, and describe the background required for these jobs)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What kinds of careers in music would allow you to combine your interest in the arts with social or political activism?\n  What type of experiential learning might you pursue to help determine whether a career in the arts and culture sector suits you?",
+                  "text_html": "<ul>\n  <li>What kinds of careers in music would allow you to combine your interest in the arts with social or political activism?</li>\n  <li>What type of experiential learning might you pursue to help determine whether a career in the arts and culture sector suits you?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B4.2",
+              "text": "evaluate and demonstrate their musical skills and knowledge in relation to entrance requirements for postsecondary study of music (e.g., plan and prepare audition material; assemble a portfolio of performance and/or creative work for application to postsecondary institutions; identify additional training or practice opportunities to build skill and knowledge levels)",
+              "text_html": "<p>evaluate and demonstrate their musical skills and knowledge in relation to entrance requirements for postsecondary study of music <em>(e.g., plan and prepare audition material; assemble a portfolio of performance and/or creative work&nbsp;for application to postsecondary institutions; identify additional training or practice opportunities to build skill and knowledge levels)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What portfolio or audition choices would best portray your strengths as a performer or composer? \n  What would you need to do to create a ‘mock audition’ that would prepare you to face an actual audition?",
+                  "text_html": "<ul>\n  <li>What portfolio or audition choices would best portray your strengths as a performer or composer?&nbsp;</li>\n  <li>What would you need to do to create a ‘mock audition’ that would prepare you to face an actual audition?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B4.3",
+              "text": "demonstrate an understanding of the benefits of their continuing involvement in a variety of aspects of the arts community (e.g., as a performer, composer, advocate, audience member, promoter, and/or producer; the benefits to the community of the promotion of artistic endeavours; the value of political or social activism in support of the arts)",
+              "text_html": "<p>demonstrate an understanding of the benefits of their continuing involvement in a variety of aspects of the arts community <em>(e.g., as a performer, composer, advocate, audience member, promoter, and/or producer; the benefits to the community of the promotion of artistic endeavours; the value of political or social activism in support of the arts)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What can you do to become an advocate for arts programs in the school and community?\n  What types of arts programs  do you think would provide the greatest benefit to your community? To you as an individual? Why?",
+                  "text_html": "<ul>\n  <li>What can you do to become an advocate for arts programs in the school and community?</li>\n  <li>What types of arts programs&nbsp; do you think would provide the greatest benefit to your community? To you as an individual? Why?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Theory and Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of music theory with respect to concepts of notation and the elements and other components of music, and use appropriate terminology relating to them",
+          "text_html": "<p>demonstrate an understanding of music theory with respect to concepts of notation and the elements and other components of music, and use appropriate terminology relating to them</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "extend and deepen their understanding of the elements and other components of music, particularly through practical application and aural recognition, and use appropriate terminology related to them (e.g., identify major, minor, diminished, and augmented triads in root position and inversions; describe perfect, imperfect, and deceptive cadences; demonstrate an understanding of a variety of chord progressions; demonstrate an understanding of the relationship between the elements of music and performance practices such as phrasing and breathing; identify various forms and aspects of form, such as fantasia, rhapsody, serialism, tone poem, tone  row)",
+              "text_html": "<p>extend and deepen their understanding of the elements and other components of music, particularly through practical application and <a data-item-id=\"66e68f28-5232-4973-81bb-018e9e3747de\" href=\"\">aural</a> recognition, and use appropriate terminology related to them <em>(e.g., identify major, minor, diminished, and augmented triads in root position and inversions; describe perfect, imperfect, and deceptive </em><a data-item-id=\"e191ab64-b470-465b-be3e-0f4876cfbbc5\" href=\"\"><em>cadences</em></a><em>; demonstrate an understanding of a variety of chord progressions; demonstrate an understanding of the relationship between the elements of music and performance practices such as phrasing and breathing; identify various forms and aspects of form, such as fantasia, rhapsody, serialism, tone&nbsp;poem, tone&nbsp; row)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "extend their understanding of, and use correct terminology related to, the concepts of notation in a variety of activities (e.g., demonstrate an understanding of increasingly complex notation symbols by reading or writing notation when playing, singing, arranging, and composing; identify and notate accurately the seven standard diatonic modes; accurately notate increasingly complex or difficult melodies and rhythmic patterns; demonstrate an understanding of scoring formats for various small and larger ensembles; identify sound layering in increasingly complex voicings)",
+              "text_html": "<p>extend their understanding of, and use correct terminology related to, the concepts of notation in a variety of activities <em>(e.g., demonstrate an understanding of increasingly complex notation symbols by reading or writing notation when playing, singing, arranging, and composing; identify and notate accurately the seven standard diatonic modes; accurately notate increasingly complex or difficult melodies and rhythmic patterns; demonstrate an understanding of scoring formats for various small and larger ensembles; identify sound layering in increasingly complex&nbsp;voicings)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "accurately reproduce, notate, and identify increasingly complex melodic, harmonic, and/or rhythmic examples (e.g., seventh chords; perfect, plagal, imperfect, and deceptive cadences; all triads; major, minor, diminished, and augmented intervals, including inversions; rhythmic patterns in compound and mixed metres at various tempi)",
+              "text_html": "<p>accurately reproduce, notate, and identify increasingly complex melodic, harmonic, and/or rhythmic examples <em>(e.g., seventh chords; perfect, plagal, imperfect, and deceptive cadences; all triads; major, minor, diminished, and augmented intervals, including inversions; rhythmic patterns in compound and mixed metres at various tempi)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Characteristics and Development of Musical Forms",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the origins, development, and characteristics of various forms of music",
+          "text_html": "<p>demonstrate an understanding of the origins, development, and characteristics of various forms of music</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of the development of various forms of music with respect to chronology, genre, and theme (e.g., explain the features that differentiate opera and musical theatre; create a CD to demonstrate the timeline and chronology of the blues; analyse the  themes in music from the Romantic period)",
+              "text_html": "<p>demonstrate an understanding of the development of various forms of music with respect to chronology, genre, and theme <em>(e.g., explain the features that differentiate opera and musical theatre; create a CD to demonstrate the timeline and&nbsp;chronology&nbsp;of&nbsp;the&nbsp;blues;&nbsp;analyse&nbsp;the&nbsp; themes in music from the Romantic period)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "You are in Vienna in the 1830s. What music would you program for a performance in one of the city’s major concert halls? Why would you focus on these particular selections?\n  You are in Harlem in the 1930s. What music would you program for a concert at the Apollo Theater? Who would the featured artists be? Why?",
+                  "text_html": "<ul>\n  <li>You are in Vienna in the 1830s. What music would you program for a performance in one of the city’s major concert halls? Why would you focus on these particular selections?</li>\n  <li>You are in Harlem in the 1930s. What music would you program for a concert at the Apollo Theater? Who would the featured artists be? Why?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "analyse, on the basis of in-depth research, and report on the characteristics of and ideas in a variety of forms of traditional and contemporary music, including Aboriginal music, from Canada and around the world (e.g., the characteristics of serial music, in contrast to those of traditional Western tonal music; the characteristics of Cajun music from Louisiana and Acadian music from Maritime Canada; the use of the didgeridoo in Aboriginal music in Australia; the ideas in traditional  Russian ballads)",
+              "text_html": "<p>analyse, on the basis of in-depth research, and report on the characteristics of and ideas in a variety of forms of traditional and contemporary music, including <a data-item-id=\"d00a2d62-487b-4f63-acce-2a555f6074ba\" href=\"\">Aboriginal</a> music, from Canada and around the world <em>(e.g., the characteristics of serial music, in contrast to those of traditional Western tonal music; the characteristics of Cajun music from Louisiana and Acadian music from Maritime Canada; the use of the didgeridoo&nbsp;in Aboriginal music in Australia; the ideas in traditional&nbsp; Russian ballads)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some of the ideas expressed in the contemporary music that you listen to? How are these ideas different from those in popular music of the 1960s?\n  What characteristics do Cajun and Acadian music share? How can you account for the similarities?",
+                  "text_html": "<ul>\n  <li>What are some of the ideas expressed in the contemporary music that you listen to? How are these ideas different from those in popular music of the 1960s?</li>\n  <li>What characteristics do Cajun and Acadian music share? How can you account for the similarities?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Conventions and Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of conventions and responsible practices relating to music",
+          "text_html": "<p>demonstrate an understanding of conventions and responsible practices relating to music</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "demonstrate an understanding of performance-related injuries connected to the field of music and ways of minimizing such injuries (e.g., the impact on the auditory system of repeated exposure to loud sound; injuries that can result from poor posture, playing position, or technique; the purpose of various types of protective or ergonomic equipment)",
+              "text_html": "<p>demonstrate an understanding of performance-related injuries connected to the field of music and ways of minimizing such injuries <em>(e.g., the impact on the auditory system of repeated exposure to loud sound; injuries that can result from poor posture, playing position, or technique; the purpose of various types of protective or ergonomic&nbsp;equipment)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What types of repetitive strain injuries are a concern for musicians? What can be done to reduce their incidence?",
+                  "text_html": "<ul>\n  <li>What types of repetitive strain injuries are a concern for musicians? What can be done to reduce their incidence?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "extend their understanding of conventions associated with various types of musical performances, from the perspective of performers and audience members (e.g., the set-up of and responsibilities in a symphony orchestra; the use of surtitles at operas; how musical genres such as jazz or punk rock challenged traditional musical conventions)",
+              "text_html": "<p>extend their understanding of conventions associated with various types of musical performances, from the perspective of performers and audience members <em>(e.g., the set-up of and responsibilities in a symphony orchestra; the use of surtitles at operas; how musical genres such as jazz or punk rock challenged traditional musical conventions)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "demonstrate an understanding of legal and ethical practices with respect to both consumers and producers of music, with a particular emphasis on the recording industry (e.g., the function of the Canadian Musical Reproduction Rights Agency [CMRRA]; the methods of obtaining “mechanical licensing”; the implications of supporting musicians through legal purchase of their music as opposed to illegal file sharing)",
+              "text_html": "<p>demonstrate an understanding of legal and ethical practices with respect to both consumers and producers of music, with a particular emphasis on the recording industry <em>(e.g., the function of the Canadian Musical Reproduction Rights Agency [CMRRA]; the methods of obtaining “mechanical licensing”; the implications of supporting musicians through legal purchase of their music as opposed to illegal file&nbsp;sharing)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What agencies collect royalties on behalf of composers when their music is recorded for sale in Canada? How do they obtain their data?",
+                  "text_html": "<ul>\n  <li>What agencies collect royalties on behalf of composers when their music is recorded for sale in Canada? How do they obtain their data?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

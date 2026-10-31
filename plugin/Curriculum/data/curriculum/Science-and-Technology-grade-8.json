@@ -1,0 +1,533 @@
+{
+  "code": "",
+  "name": "Science and Technology",
+  "grades": [
+    "8"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Science and Technology",
+  "subject_group": "Science and Technology",
+  "description": "Here you will find the expectations and learning for the five areas of study for Grade 8.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology/courses/grade-8",
+  "source_codename": "sci___tech___grade_8",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "STEM Skills and Connections",
+      "describer": "Throughout Grade 8, in connection with the learning in the Life Systems, Matter and Energy, Structures and Mechanisms, and Earth and Space Systems strands, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "STEM Investigation and Communication Skills",
+          "describer": "Throughout Grade 8, in connection with the learning in the other strands, students will:",
+          "text": "use a scientific research process, a scientific experimentation process, and an engineering design process to conduct investigations, following appropriate health and safety procedures",
+          "text_html": "<p>use a <a href=\"/en/curriculum/science-technology/context/processes#scientific-processes\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">scientific research process, a scientific experimentation process,</a> and an <a href=\"/en/curriculum/science-technology/context/processes#engineering-design-process\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">engineering design process</a> to conduct investigations, following appropriate health and safety procedures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a scientific research process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific research process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "use a scientific experimentation process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific experimentation process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems",
+              "text_html": "<p>use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials",
+              "text_html": "<p>follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.5",
+              "text": "communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes",
+              "text_html": "<p>communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes&nbsp;&nbsp;&nbsp;&nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Coding and Emerging Technologies",
+          "describer": "Throughout Grade 8, in connection with the learning in the other strands, students will:",
+          "text": "use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life and in STEM-related fields",
+          "text_html": "<p>use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life and in STEM-related fields</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "write and execute code in investigations and when modelling concepts, with a focus on automating large systems in action",
+              "text_html": "<p>write and execute code in investigations and when modelling concepts, with a focus on automating large systems in action</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "identify and describe impacts of coding and of emerging technologies, such as artificial intelligence systems, on everyday life, including skilled trades",
+              "text_html": "<p>identify and describe impacts of coding and of emerging technologies, such as artificial intelligence systems, on everyday life, including skilled trades</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Applications, Connections, and Contributions",
+          "describer": "Throughout Grade 8, in connection with the learning in the other strands, students will:",
+          "text": "demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences",
+          "text_html": "<p>demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "describe practical applications of science and technology concepts in various occupations, including skilled trades, and how these applications address real-world problems",
+              "text_html": "<p>describe practical applications of science and technology concepts in various occupations, including skilled trades, and how these applications address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "investigate how science and technology can be used with other subject areas to address real-world problems",
+              "text_html": "<p>investigate how science and technology can be used with other subject areas to address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse contributions to science and technology from various communities",
+              "text_html": "<p>analyse contributions to science and technology from various communities</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Life Systems",
+      "describer": "By the end of Grade 8, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "assess developments in cell biology and their impact on individuals, society, and the environment",
+          "text_html": "<p>assess developments in cell biology and their impact on individuals, society, and the environment</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "assess how various technologies have enhanced our understanding of cells and cellular processes",
+              "text_html": "<p>assess how various technologies have enhanced our understanding of cells and cellular processes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "analyse beneficial and harmful effects of developments in cell biology and associated emerging technologies on human health and the environment, while taking different perspectives into consideration",
+              "text_html": "<p>analyse beneficial and harmful effects of developments in cell biology and associated emerging technologies on human health and the environment, while taking different perspectives into consideration</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "demonstrate an understanding of the basic structure and function of plant and animal cells and cell processes",
+          "text_html": "<p>demonstrate an understanding of the basic structure and function of plant and animal cells and cell processes</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "demonstrate an understanding of cells, using cell theory",
+              "text_html": "<p>demonstrate an understanding of cells, using cell theory</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "identify organelles and other cell components, including the nucleus, cell membrane, cell wall, chloroplasts, vacuole, mitochondria, and cytoplasm, and explain their basic functions",
+              "text_html": "<p>identify organelles and other cell components, including the nucleus, cell membrane, cell wall, chloroplasts, vacuole, mitochondria, and cytoplasm, and explain their basic functions</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "compare the structure and function of plant and animal cells",
+              "text_html": "<p>compare the structure and function of plant and animal cells</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "explain the processes of diffusion and osmosis within a cell",
+              "text_html": "<p>explain the processes of diffusion and osmosis within a cell</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.5",
+              "text": "describe various unicellular and multicellular organisms, and compare ways in which these two types of organisms meet their basic needs",
+              "text_html": "<p>describe various unicellular and multicellular organisms, and compare ways in which these two types of organisms meet their basic needs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.6",
+              "text": "describe the organization of cells into tissues, organs, and systems",
+              "text_html": "<p>describe the organization of cells into tissues, organs, and systems</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Matter and Energy",
+      "describer": "By the end of Grade 8, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "analyse uses of various technologies that rely on the properties of fluids, and assess the impact of these technologies on society and the environment",
+          "text_html": "<p>analyse uses of various technologies that rely on the properties of fluids, and assess the impact of these technologies on society and the environment</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "assess the environmental, social, and economic impacts of various innovations and technologies that are based on the properties of fluids",
+              "text_html": "<p>assess the environmental, social, and economic impacts of various innovations and technologies that are based on the properties of fluids</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "assess the environmental and social impacts of fluid spills, including impacts on First Nations, Métis, and Inuit communities, and including the cost and technical challenges related to cleanup and remediation efforts",
+              "text_html": "<p>assess the environmental and social impacts of fluid spills, including impacts on First Nations, Métis, and Inuit communities, and including the cost and technical challenges related to cleanup and remediation efforts</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "demonstrate an understanding of basic fluid mechanics, including the properties and uses of fluids",
+          "text_html": "<p>demonstrate an understanding of basic fluid mechanics, including the properties and uses of fluids</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of the factors that affect viscosity, and compare the viscosity of various fluids, including volumetric flow rate",
+              "text_html": "<p>demonstrate an understanding of the factors that affect viscosity, and compare the viscosity of various fluids, including volumetric flow rate</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "demonstrate an understanding of the relationship between mass, volume, and density",
+              "text_html": "<p>demonstrate an understanding of the relationship between mass, volume, and density</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "explain the difference between solids, liquids, and gases in terms of their density, using the particle theory of matter",
+              "text_html": "<p>explain the difference between solids, liquids, and gases in terms of their density, using the particle theory of matter</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "explain the difference between liquids and gases in terms of their compressibility and how their compressibility affects their technological applications",
+              "text_html": "<p>explain the difference between liquids and gases in terms of their compressibility and how their compressibility affects their technological applications</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "determine the buoyancy of an object, given its density, in a variety of fluids",
+              "text_html": "<p>determine the buoyancy of an object, given its density, in a variety of fluids</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.6",
+              "text": "explain in qualitative terms the relationship between pressure, volume, and temperature when a liquid or a gas is compressed or heated",
+              "text_html": "<p>explain in qualitative terms the relationship between pressure, volume, and temperature when a liquid or a gas is compressed or heated</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.7",
+              "text": "describe how forces are transferred in all directions in fluids, including using Pascal’s law to quantify the transfer of forces in fluids",
+              "text_html": "<p>describe how forces are transferred in all directions in fluids, including using Pascal’s law to quantify the transfer of forces in fluids</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.8",
+              "text": "describe factors that affect the flow of fluids",
+              "text_html": "<p>describe factors that affect the flow of fluids</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.9",
+              "text": "describe the differences between pneumatic and hydraulic systems",
+              "text_html": "<p>describe the differences between pneumatic and hydraulic systems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.10",
+              "text": "compare how fluids are used and how their flow is regulated in living organisms and in mechanical devices or systems",
+              "text_html": "<p>compare how fluids are used and how their flow is regulated in living organisms and in mechanical devices or systems</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Structures and Mechanisms",
+      "describer": "By the end of Grade 8, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "assess the social and environmental impacts of various systems, and evaluate improvements to the systems or alternative ways of meeting the same needs",
+          "text_html": "<p>assess the social and environmental impacts of various systems, and evaluate improvements to the systems or alternative ways of meeting the same needs</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "assess the social, economic, and environmental impacts of automating systems",
+              "text_html": "<p>assess the social, economic, and environmental impacts of automating systems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "assess the impact on individuals, society, and the environment of alternative ways of meeting needs that are currently met by existing systems, taking different points of view into consideration",
+              "text_html": "<p>assess the impact on individuals, society, and the environment of alternative ways of meeting needs that are currently met by existing systems, taking different points of view into consideration</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "demonstrate an understanding of different types of systems and the factors that contribute to their safe and efficient operation",
+          "text_html": "<p>demonstrate an understanding of different types of systems and the factors that contribute to their safe and efficient operation</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "identify various types of systems",
+              "text_html": "<p>identify various types of systems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "describe the purpose, inputs, and outputs of various systems, including systems related to food processing",
+              "text_html": "<p>describe the purpose, inputs, and outputs of various systems, including systems related to food processing</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "identify the various processes and components of a system that allow it to perform its function efficiently and safely",
+              "text_html": "<p>identify the various processes and components of a system that allow it to perform its function efficiently and safely</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "use the scientific terms displacement, force, work, energy, and efficiency to describe everyday experiences",
+              "text_html": "<p>use the scientific terms <em>displacement</em>, <em>force</em>, <em>work</em>, <em>energy</em>, and <em>efficiency</em> to describe everyday experiences</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.5",
+              "text": "demonstrate an understanding of the relationships between work, force, and displacement in simple systems",
+              "text_html": "<p>demonstrate an understanding of the relationships between work, force, and displacement in simple systems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.6",
+              "text": "explain the relationship between input and output forces and determine the mechanical advantage of various mechanical systems, including simple machines",
+              "text_html": "<p>explain the relationship between input and output forces and determine the mechanical advantage of various mechanical systems, including simple machines</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.7",
+              "text": "identify ways in which energy can dissipate from mechanical systems, and describe technological innovations that make these systems more efficient",
+              "text_html": "<p>identify ways in which energy can dissipate from mechanical systems, and describe technological innovations that make these systems more efficient</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.8",
+              "text": "explain how providing information and support to consumers helps to ensure that the systems they use run safely and efficiently",
+              "text_html": "<p>explain how providing information and support to consumers helps to ensure that the systems they use run safely and efficiently</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.9",
+              "text": "describe technological innovations involving mechanical systems that have increased productivity in various industries",
+              "text_html": "<p>describe technological innovations involving mechanical systems that have increased productivity in various industries</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.10",
+              "text": "identify social factors that influence the evolution of a system",
+              "text_html": "<p>identify social factors that influence the evolution of a system</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Earth and Space Systems",
+      "describer": "By the end of Grade 8, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "assess the impact of human activities and technologies on the sustainability of water resources",
+          "text_html": "<p>assess the impact of human activities and technologies on the sustainability of water resources&nbsp;</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "assess the social and environmental impact of the scarcity of fresh water, and propose a plan of action to help address fresh water sustainability issues",
+              "text_html": "<p>assess the social and environmental impact of the scarcity of fresh water, and propose a plan of action to help address fresh water sustainability issues</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.2",
+              "text": "demonstrate an understanding of First Nations, Métis, and Inuit knowledges and values about water, connections to water, and ways of managing water resources sustainably",
+              "text_html": "<p>demonstrate an understanding of First Nations, Métis, and Inuit knowledges and values about water, connections to water, and ways of managing water resources sustainably</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.3",
+              "text": "assess the impact of scientific discoveries and technological innovations on local and global water systems",
+              "text_html": "<p>assess the impact of scientific discoveries and technological innovations on local and global water systems</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "demonstrate an understanding of the characteristics of Earth’s water systems and of factors that affect these systems",
+          "text_html": "<p>demonstrate an understanding of the characteristics of Earth’s water systems and of factors that affect these systems</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "identify the states of water on Earth’s surface, their distribution, relative amounts, and circulation, and the conditions under which they exist",
+              "text_html": "<p>identify the states of water on Earth’s surface, their distribution, relative amounts, and circulation, and the conditions under which they exist &nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.2",
+              "text": "demonstrate an understanding of a watershed, and explain its importance to water management and planning",
+              "text_html": "<p>demonstrate an understanding of a watershed, and explain its importance to water management and planning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.3",
+              "text": "explain how human activity and natural phenomena cause changes in the water table",
+              "text_html": "<p>explain how human activity and natural phenomena cause changes in the water table</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.4",
+              "text": "identify factors, including climate change, that have contributed to the melting of glaciers and polar ice-caps, and describe the effects of this phenomenon on local and global water systems",
+              "text_html": "<p>identify factors, including climate change, that have contributed to the melting of glaciers and polar ice-caps, and describe the effects of this phenomenon on local and global water systems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.5",
+              "text": "explain changes in atmospheric conditions caused by the presence of bodies of water",
+              "text_html": "<p>explain changes in atmospheric conditions caused by the presence of bodies of water &nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.6",
+              "text": "describe various indicators of water quality, and explain the impact of human activity on those indicators",
+              "text_html": "<p>describe various indicators of water quality, and explain the impact of human activity on those indicators</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.7",
+              "text": "explain how municipalities process water and manage water usage",
+              "text_html": "<p>explain how municipalities process water and manage water usage&nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

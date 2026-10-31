@@ -1,0 +1,5 @@
+# Python packages the GLA skills need (gla setup installs them with pip --user).
+PyYAML>=5.4
+python-docx>=0.8.11
+# Optional: reads PDF sources in gla-plan-formatter's extract_text.py.
+# PyMuPDF>=1.23

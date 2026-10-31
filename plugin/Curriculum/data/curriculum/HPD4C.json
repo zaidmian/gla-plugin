@@ -1,0 +1,821 @@
+{
+  "code": "HPD4C",
+  "name": "Working with School-Age Children and Adolescents",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "College Preparation",
+  "category": "Family Studies, Raising and Caring for Children",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course prepares students for occupations involving school-age children and adolescents. Students will study a variety of theories about child behaviour and development, and will have opportunities for research and observation and for practical experiences with older children. Students will become familiar with occupational opportunities and requirements related to working with older children and adolescents. They will develop research skills used in investigating child and adolescent behaviour and development.",
+  "prerequisites": "Any university, college, or university/college preparation course in social sciences and humanities, English, or Canadian and world studies",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hpd4c",
+  "source_codename": "hpc3o__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to school-age children and adolescents, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to school-age children and adolescents, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to school-age children and adolescents (e.g., effects of vigorous physical exercise on school-age children; strategies for developing inclusive and diverse after-school care programs) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to school-age children and adolescents <em>(e.g., effects of vigorous physical exercise on school-age children; strategies for developing inclusive and diverse after-school care programs)</em> to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers)</em> related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you wanted to compare the experiences of adolescents in different cultures, how would you decide which cultures to investigate?",
+                  "text_html": "<ul>\n  <li>If you wanted to compare the experiences of adolescents in different cultures, how would you decide which cultures to investigate?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investigate their selected topics (e.g., outline purpose and method; identify sources of information; develop research tools such as surveys or questionnaires), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investigate their selected topics <em>(e.g., outline purpose and method; identify sources of information; develop research tools such as surveys or questionnaires)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways to locate reliable sources of information?\n  For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?\n  What methods would you use to ensure that you are following ethical guide­ lines when you develop surveys or interviews?",
+                  "text_html": "<ul>\n  <li>What are some ways to locate reliable sources of information?</li>\n  <li>For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?</li>\n  <li>What methods would you use to ensure that you are following ethical guide­ lines when you develop surveys or interviews?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews, observations, surveys, questionnaires, primary research published in peer-reviewed journals, data sets from Statistics Canada) and/or secondary sources (e.g., book reviews, government reports, textbooks, websites, brochures, newspaper and magazine articles)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews, observations, surveys, questionnaires, primary research published in peer-reviewed journals, data sets from Statistics Canada) </em>and/or secondary sources <em>(e.g., book reviews, government reports, textbooks, websites, brochures, newspaper and magazine articles)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the difference between primary and secondary sources in social sciences?\n  Why is it important to base your research on a variety of sources rather than just one or two?",
+                  "text_html": "<ul>\n  <li>What is the difference between primary and secondary sources in social sciences?</li>\n  <li>Why is it important to base your research on a variety of sources rather than just one or two?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research and inquiry",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research and inquiry</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gathered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gathered from primary and secondary sources <em>(e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies can you use to determine the relevance of the information you have gathered?\n  If two information sources contradict each other, how might you determine which is more reliable?\n  What values are embedded in these sources?\n  Whose voices are represented and whose are absent?\n  Whose interests are advanced if you believe the main message of this source?\n  What is your own personal connection to the research, and how does this affect your interpretation of the information gathered?",
+                  "text_html": "<ul>\n  <li>What strategies can you use to determine the relevance of the information you have gathered?</li>\n  <li>If two information sources contradict each other, how might you determine which is more reliable?</li>\n  <li>What values are embedded in these sources?</li>\n  <li>Whose voices are represented and whose are absent?</li>\n  <li>Whose interests are advanced if you believe the main message of this source?</li>\n  <li>What is your own personal connection to the research, and how does this affect your interpretation of the information gathered?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, summaries, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats <em>(e.g., notes, graphic organizers, summaries, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare information gathered from surveys and interviews; determine whether similar information is found in different sources)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare information gathered from surveys and interviews; determine whether similar information is found in different sources)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by documenting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by documenting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclusions (e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research questions)",
+              "text_html": "<p>synthesize findings and formulate conclusions <em>(e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research questions)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Digital Literacy",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presenta­tion, written research report, poster, multimedia presentation, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format <em>(e.g., oral presenta­tion, written research report, poster, multimedia presentation, web page) </em>to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "correctly use terms relating to the study of school-age children and adolescents (e.g., puberty, identity, formal operations, problem-based approach)",
+              "text_html": "<p>correctly use terms relating to the study of school-age children and adolescents <em>(e.g., puberty, </em><a data-item-id=\"92c2ed95-e618-4bbe-b215-6659b124c3c5\" href=\"\"><em>identity</em></a><em>, formal operations, </em><a data-item-id=\"568bb7ba-159c-4f10-8dde-1b36bdd3d292\" href=\"\"><em>problem-based approach</em></a><em>)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style, use in-text author-date citations)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style, use in-text author-date citations)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might the research methods you used have affected the results you obtained? \n  What steps might you take to enhance your research/inquiry skills?",
+                  "text_html": "<ul>\n  <li>How might the research methods you used have affected the results you obtained?&nbsp;</li>\n  <li>What steps might you take to enhance your research/inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Growth and Development",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Patterns of Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of patterns of social, emotional, cognitive, and physical development in school-age children and adolescents",
+          "text_html": "<p>demonstrate an understanding of patterns of social, emotional, cognitive, and <a data-item-id=\"cee60589-45d9-4a6b-b140-9ebc5b5be0c6\" href=\"\">physical development</a> in school-age children and adolescents</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "identify major milestones in the social, emo­tional, cognitive, and physical development of school-age children and adolescents",
+              "text_html": "<p>identify major milestones in the social, emo­tional, cognitive, and physical development of school-age children and adolescents</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might a child’s develop­ment be influenced by the social, emotional, and political context in which the child lives?",
+                  "text_html": "<ul>\n  <li>How might a child’s develop­ment be influenced by the social, emotional, and political context in which the child lives?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "explain the interdependence of the social, emotional, cognitive, and physical areas of development (i.e., how development in each of the areas affects development in the others",
+              "text_html": "<p>explain the interdependence of the social, emotional, cognitive, and physical areas of development (i.e., how development in each of the areas affects development in the others</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do the physical changes of adolescence affect social development?",
+                  "text_html": "<ul>\n  <li>How do the physical changes of adolescence affect <a data-item-id=\"4a45d22d-c836-44be-94e6-c44eec4adfe0\" href=\"\">social development</a>?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "identify and compare the nutritional and physical-activity requirements of school-age children and adolescents at different stages, based on current recommendations from Health Canada",
+              "text_html": "<p>identify and compare the nutritional and physical-activity requirements of school-age children and adolescents at different stages, based on current recommendations from Health Canada</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.4",
+              "text": "explain the benefits of healthy eating for the learning, growth, and development of school-age children and adolescents (e.g., increased ability to concentrate, maintenance of healthy body weight)",
+              "text_html": "<p>explain the benefits of healthy eating for the learning, growth, and development of school-age children and adolescents <em>(e.g., increased ability to concentrate, maintenance of healthy body weight)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.5",
+              "text": "describe indicators of the various types of exceptionalities in school-age children and adolescents (e.g., cognitive, behavioural, physical)",
+              "text_html": "<p>describe indicators of the various types of exceptionalities in school-age children and adolescents <em>(e.g., cognitive, behavioural, physical)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What behaviours would an early childhood educator notice that might indicate that a child has Asperger’s syndrome?",
+                  "text_html": "<ul>\n  <li>What behaviours would an early childhood educator notice that might indicate that a child has Asperger’s syndrome?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.6",
+              "text": "describe patterns in male and female sexual development and explain how sexual develop­ment affects physical, social, and emotional development",
+              "text_html": "<p>describe patterns in male and female sexual development and explain how sexual develop­ment affects physical, social, and <a data-item-id=\"88afda19-f312-4ac7-a6c5-321d0538f3b0\" href=\"\">emotional development</a></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might sexual develop­ment affect body image in males? In females?",
+                  "text_html": "<ul>\n  <li>How might sexual develop­ment affect body image in males? In females?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.7",
+              "text": "describe the findings of brain research that contribute to our understanding of development in older children and adolescents (e.g., information about blooming and pruning, brain wiring, control centres in the brain for judgement and decision making, development of the frontal lobe in late adolescence)",
+              "text_html": "<p>describe the findings of brain research that contribute to our understanding of development in older children and adolescents <em>(e.g., information about blooming and pruning, brain wiring, control centres in the brain for judgement and decision making, development of the frontal lobe in late adolescence)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Theories of Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of various influential theories about child and adolescent development",
+          "text_html": "<p>demonstrate an understanding of various influential theories about child and adolescent development</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "outline the theories of recognized experts in the field of child and adolescent development (e.g., theories of Piaget, Erikson, Gilligan, Kohlberg, Gardner)",
+              "text_html": "<p>outline the theories of recognized experts in the field of child and adolescent development <em>(e.g., theories of Piaget, Erikson, Gilligan, Kohlberg, Gardner)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "demonstrate an understanding of how various theories about child and adolescent development apply to real-life contexts",
+              "text_html": "<p>demonstrate an understanding of how various theories about child and adolescent development apply to real-life contexts</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does Kohlberg’s theory of moral development explain why a school-age child might tell a lie?\n  Piaget believes that logical reasoning abilities begin at approximately age thirteen. Why does he think that? Does that mean that we should not attempt to teach the scientific method and scientific reasoning before that age?",
+                  "text_html": "<ul>\n  <li>How does Kohlberg’s theory of moral development explain why a school-age child might tell a lie?</li>\n  <li>Piaget believes that logical reasoning abilities begin at approximately age thirteen. Why does he think that? Does that mean that we should not attempt to teach the scientific method and scientific reasoning before that age?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Positive Environments for Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how developmentally appropriate environments and experiences promote healthy development",
+          "text_html": "<p>demonstrate an understanding of how developmentally appropriate environments and experiences promote healthy development</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "describe conditions that promote growth and development in school-age children and adolescents in caregiving contexts (e.g., engaging personal relationships with caring adults, safe spaces)",
+              "text_html": "<p>describe conditions that promote growth and development in school-age children and adolescents in caregiving contexts <em>(e.g., engaging personal relationships with caring adults, safe spaces)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What can be done to ensure that before-school and after-school programs continue to be engaging for children who have been in childcare environments since their early years?\n  How can before-school and after-school programs ensure that diverse cultures are included in their programming in authentic ways?",
+                  "text_html": "<ul>\n  <li>What can be done to ensure that before-school and after-school programs continue to be engaging for children who have been in childcare environments since their early years?</li>\n  <li>How can before-school and after-school programs ensure that diverse cultures are included in their programming in authentic ways?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "describe strategies for teaching values and building character in school-age children and adolescents (e.g., use of bullying-prevention programs, peer mediation, leadership training courses, cultural literacy programs)",
+              "text_html": "<p>describe strategies for teaching values and building character in school-age children and adolescents <em>(e.g., use of bullying-prevention programs, peer mediation, leadership training courses, cultural literacy programs)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "explain how and why physical activity, including physical activity out of doors, promotes the physical and emotional health of school-age children and adolescents (e.g., by providing opportunities for vigorous exercise and connection with the natural environment, by laying the foundation for a healthy lifestyle)",
+              "text_html": "<p>explain how and why physical activity, including physical activity out of doors, promotes the physical and emotional health of school-age children and adolescents <em>(e.g., by providing opportunities for vigorous exercise and connection with the natural environment, by laying the foundation for a healthy lifestyle)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.4",
+              "text": "describe strategies to promote healthy eating among diverse groups of school-age children and adolescents",
+              "text_html": "<p>describe strategies to promote healthy eating among diverse groups of school-age children and adolescents</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What can schools do to encourage children to pack healthy lunches? What other community resources can be used to promote healthy eating?",
+                  "text_html": "<ul>\n  <li>What can schools do to encourage children to pack healthy lunches? What other community resources can be used to promote healthy eating?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.5",
+              "text": "explain ways in which the development of school-age children and adolescents is connected to the well-being of their families and the society in which they live (e.g., through access to social supports, access to educational and employment opportunities, access to adequate health care)",
+              "text_html": "<p>explain ways in which the development of school-age children and adolescents is connected to the well-being of their families and the society in which they live <em>(e.g., through access to social supports, access to educational and employment opportunities, access to adequate health care)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Employment Opportunities and Requirements",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Career Pathways",
+          "describer": "By the end of this course, students will:",
+          "text": "identify various postsecondary education and/or training opportunities, workplaces, and professional development options related to working with school-age children and adolescents",
+          "text_html": "<p>identify various postsecondary education and/or training opportunities, workplaces, and professional development options related to working with school-age children and adolescents</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify postsecondary pathways to occupations that involve working with school-age children and adolescents",
+              "text_html": "<p>identify postsecondary pathways to occupations that involve working with school-age children and adolescents</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "describe and compare a variety of workplace destinations that involve working with school-age children and adolescents (e.g., before-school and after-school programs, summer camps, parks and recreation programs, treatment centres)",
+              "text_html": "<p>describe and compare a variety of workplace destinations that involve working with school-age children and adolescents <em>(e.g., before-school and after-school programs, summer camps, parks and recreation programs, treatment centres)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways do after-school programs for school-age children differ from programs for adolescents?",
+                  "text_html": "<ul>\n  <li>In what ways do after-school programs for school-age children differ from programs for adolescents?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "demonstrate an understanding of the importance of professional development for people who work with school-age children and adolescents",
+              "text_html": "<p>demonstrate an understanding of the importance of professional development for people who work with school-age children and adolescents</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Workplace Expectations",
+          "describer": "By the end of this course, students will:",
+          "text": "explain the legal and social workplace expectations related to working with school-age children and adolescents in Ontario",
+          "text_html": "<p>explain the legal and social workplace expectations related to working with school-age children and adolescents in Ontario</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of the respon­sibilities of people who work with school-age children and adolescents as outlined in various local, provincial, federal, and international codes (e.g., school board policies, daycare policies, Ontario’s Equity and Inclusive Education Strategy, the Ontario Human Rights Code, the Canadian Charter of Rights and Freedoms, the United Nations Convention on the Rights of the Child)",
+              "text_html": "<p>demonstrate an understanding of the respon­sibilities of people who work with school-age children and adolescents as outlined in various local, provincial, federal, and international codes <em>(e.g., school board policies, daycare policies, Ontario’s Equity and Inclusive Education Strategy, the Ontario Human Rights Code, the Canadian Charter of Rights and Freedoms, the United Nations Convention on the Rights of the Child)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "describe the legal expectations for ensuring physically safe environments for school-age children and adolescents (e.g., fire-safety regula­tions, food-safety regulations, WHMIS regulations, the Day Nurseries Act)",
+              "text_html": "<p>describe the legal expectations for ensuring physically safe environments for school-age children and adolescents <em>(e.g., fire-safety regula­tions, food-safety regulations, WHMIS regulations, the Day Nurseries Act)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What food-safety guidelines should be followed in an after-school program when preparing snacks?",
+                  "text_html": "<ul>\n  <li>What food-safety guidelines should be followed in an after-school program when preparing snacks?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "describe the rules and regulations governing schooling that parents and professional caregivers are required to observe (e.g., truancy regulations, provisions of Ontario’s Safe Schools Act and Child and Family Services Act, Learning to 18 regulations, requirements for a vulnerable sector criminal check)",
+              "text_html": "<p>describe the rules and regulations governing schooling that parents and professional caregivers are required to observe <em>(e.g., truancy regulations, provisions of Ontario’s Safe Schools Act and Child and Family Services Act, Learning to 18 regulations, requirements for a vulnerable sector criminal check)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What provisions of Ontario’s Child and Family Services Act would a coun­sellor at a summer camp need to know about?",
+                  "text_html": "<ul>\n  <li>What provisions of Ontario’s Child and Family Services Act would a coun­sellor at a summer camp need to know about?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.4",
+              "text": "identify ways in which people who work with school-age children and adolescents carry out their responsibility to promote children’s socialization and healthy development (e.g., teaching life skills; helping youth recognize unhealthy relationships; having open, respectful conversations about sexual development; fostering vigilance about physical safety; fostering environmental awareness; treating all people, including children, equitably regardless of race, sex, ability, or family structure)",
+              "text_html": "<p>identify ways in which people who work with school-age children and adolescents carry out their responsibility to promote children’s socialization and healthy development <em>(e.g., teaching life skills; helping youth recognize unhealthy relationships; having open, respectful conversations about sexual development; fostering vigilance about physical safety; fostering environmental awareness; treating all people, including children, equitably regardless of race, sex, ability, or family structure)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "explain the code of ethics and standards of practice for people who work with children and adolescents as outlined by recognized professional organizations (e.g., Ontario College of Early Childhood Educators, Canadian Child Care Federation)",
+              "text_html": "<p>explain the code of ethics and standards of practice for people who work with children and adolescents as outlined by recognized professional organizations <em>(e.g., Ontario College of Early Childhood Educators, Canadian Child Care Federation)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Essential Skills and Personal Qualities",
+          "describer": "By the end of this course, students will:",
+          "text": "describe the essential skills, personal qualities, and work habits necessary for success in working with school-age children and adolescents",
+          "text_html": "<p>describe the essential skills, personal qualities, and work habits necessary for success in working with school-age children and adolescents</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "explain how their own personal experiences, beliefs, and attitudes have influenced their attitudes and behaviour towards children and adolescents (e.g., experiences, beliefs, and attitudes with respect to family, faith, community, political ideology, socio-economic status)",
+              "text_html": "<p>explain how their own personal experiences, beliefs, and attitudes have influenced their attitudes and behaviour towards children and adolescents <em>(e.g., experiences, beliefs, and attitudes with respect to family, faith, community, political ideology, socio-economic status)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might your personal experiences as an adolescent affect how you deal with social conflicts between children in your care?",
+                  "text_html": "<ul>\n  <li>How might your personal experiences as an adolescent affect how you deal with social conflicts between children in your care?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "identify the personal qualities needed to work with school-age children and adolescents (e.g., compassion, empathy, patience, creativity, flexibility)",
+              "text_html": "<p>identify the personal qualities needed to work with school-age children and adolescents <em>(e.g., compassion, empathy, patience, creativity, flexibility)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "describe the essential skills and work habits needed for success in working with children and adolescents (e.g., effective interpersonal skills, punctuality, ability to maintain confidentiality, ability to use self-reflection for self-evaluation)",
+              "text_html": "<p>describe the essential skills and work habits needed for success in working with children and adolescents <em>(e.g., effective interpersonal skills, punctuality, ability to maintain confidentiality, ability to use self-reflection for self-evaluation)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Interacting with School-Age Children and Adolescents",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Guiding Children’s Behaviour",
+          "describer": "By the end of this course, students will:",
+          "text": "describe a broad range of practices and techniques adopted by parents, educators, caregivers, and other professionals that shape the behaviour of school-age children and adolescents",
+          "text_html": "<p>describe a broad range of practices and techniques adopted by parents, educators, caregivers, and other professionals that shape the behaviour of school-age children and adolescents</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "explain various models for effectively guid­ing child and adolescent behaviour (e.g., the Morrish model, the Faber and Mazlish model)",
+              "text_html": "<p>explain various models for effectively guid­ing child and adolescent behaviour <em>(e.g., the Morrish model, the Faber and Mazlish model)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "identify character qualities that can help enable and empower school-age children and adolescents to achieve their goals (e.g., self- control; the ability to set personal limits, anticipate and accept consequences, take responsibility), and describe techniques for promoting the develop­ment of these qualities",
+              "text_html": "<p>identify character qualities that can help enable and empower school-age children and adolescents to achieve their goals <em>(e.g., self- control; the ability to set personal limits, anticipate and accept consequences, take responsibility)</em>, and describe techniques for promoting the develop­ment of these qualities</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways would involving children in setting the rules help to promote the development of self-control and responsibility?",
+                  "text_html": "<ul>\n  <li>In what ways would involving children in setting the rules help to promote the development of self-control and responsibility?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.3",
+              "text": "evaluate the effectiveness of various com­munication and behaviour-management strat­egies in interactions with school-age children and adolescents (e.g., conflict-resolution strategies, win-win problem-solving strategies, “I” messages, paraphrasing, restorative justice, threats)",
+              "text_html": "<p>evaluate the effectiveness of various com­munication and behaviour-management strat­egies in interactions with school-age children and adolescents <em>(e.g., conflict-resolution strategies, win-win problem-solving strategies, “I” messages, paraphrasing, restorative justice, threats)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When an adult uses sarcasm with teenagers, what are some of the effects?",
+                  "text_html": "<ul>\n  <li>When an adult uses sarcasm with teenagers, what are some of the effects?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.4",
+              "text": "analyse practical experiences with the use of various models for helping children and adolescents make informed decisions (e.g., the five-step model, the decision web, consultation with elders), and evaluate the effectiveness of the different models",
+              "text_html": "<p>analyse practical experiences with the use of various models for helping children and adolescents make informed decisions <em>(e.g., the five-step model, the decision web, consultation with elders)</em>, and evaluate the effectiveness of the different models</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.5",
+              "text": "explain how experiencing positive relation­ships with peers and others contributes to healthy social and emotional development in school-age children and adolescents (e.g., by strengthening their sense of belonging, sense of identity, and social skills)",
+              "text_html": "<p>explain how experiencing positive relation­ships with peers and others contributes to healthy social and emotional development in school-age children and adolescents <em>(e.g., by strengthening their sense of belonging, sense of identity, and social skills)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Planning Developmentally Appropriate Programming",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the ability to plan developmentally appropriate programs for school-age children and adolescents",
+          "text_html": "<p>demonstrate the ability to plan developmentally appropriate programs for school-age children and adolescents</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "identify and plan a variety of activities that promote social, linguistic, emotional, cognitive, and physical development in school-age chil­dren and adolescents (e.g., cooperative games, board games)",
+              "text_html": "<p>identify and plan a variety of activities that promote social, linguistic, emotional, cognitive, and physical development in school-age chil­dren and adolescents <em>(e.g., cooperative games, board games)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What type of cooperative games can be played with adolescents to promote physical development?\n  How can you capitalize on children’s interests to plan activities that would be engaging?\n  Given that social relationships are very important to school-age children and adolescents, how can you plan problem-based learning that incorporates social time?",
+                  "text_html": "<ul>\n  <li>What type of cooperative games can be played with adolescents to promote physical development?</li>\n  <li>How can you capitalize on children’s interests to plan activities that would be engaging?</li>\n  <li>Given that social relationships are very important to school-age children and adolescents, how can you plan problem-based learning that incorporates social time?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "demonstrate the ability to plan nutritious snacks and meals for school-age children and adolescents",
+              "text_html": "<p>demonstrate the ability to plan nutritious snacks and meals for school-age children and adolescents</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Refining Skills through Practical Experiences",
+          "describer": "By the end of this course, students will:",
+          "text": "apply and evaluate their knowledge of child and youth development through practical experiences with school-age children and adolescents",
+          "text_html": "<p>apply and evaluate their knowledge of child and youth development through practical experiences with school-age children and adolescents</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "identify and use a variety of observation techniques to study children and adolescents in a community setting (e.g., running record, anecdotal record, time sample, video, checklist, event sample)",
+              "text_html": "<p>identify and use a variety of observation techniques to study children and adolescents in a community setting <em>(e.g., </em><a data-item-id=\"3a98f27d-6d36-4952-9a56-ee6d8624ad41\" href=\"\"><em>running record</em></a><em>, </em><a data-item-id=\"e00ef6e2-74d4-46f2-8000-78de61ca2a1b\" href=\"\"><em>anecdotal record</em></a><em>, time sample, video, checklist, </em><a data-item-id=\"94e6f79a-53bb-4f31-91f6-e051d877497e\" href=\"\"><em>event sample</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What observation techniques might you use when observing a Grade 4 health and physical education class?",
+                  "text_html": "<ul>\n  <li>What observation techniques might you use when observing a Grade 4 health and physical education class?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "demonstrate the ability to design and imple­ment activities to meet the needs of school-age children and adolescents (e.g., an activity for an after-school program)",
+              "text_html": "<p>demonstrate the ability to design and imple­ment activities to meet the needs of school-age children and adolescents <em>(e.g., an activity for an after-school program)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "A play-based curriculum approach is very effective with toddlers and preschoolers. Why is a problem-based curriculum approach more effective with school-age children?",
+                  "text_html": "<ul>\n  <li>A <a data-item-id=\"0b1fc3ee-d470-480c-8f82-decb0c2a9f1b\" href=\"\">play-based</a> curriculum approach is very effective with toddlers and preschoolers. Why is a problem-based curriculum approach more effective with school-age children?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.3",
+              "text": "evaluate their experiences in working with school-age children and adolescents, and reflect on their potential strengths and areas for improvement",
+              "text_html": "<p>evaluate their experiences in working with school-age children and adolescents, and reflect on their potential strengths and areas for improvement</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Addressing Social Challenges",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Issues and Challenges",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of a variety of strategies for helping school-age children and adolescents deal with issues and challenges",
+          "text_html": "<p>demonstrate an understanding of a variety of strategies for helping school-age children and adolescents deal with issues and challenges</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "describe skills caregivers teach (e.g., self-advocacy skills, stress-management skills, self-defence skills, social skills for making and keeping friends) and strategies they use (e.g., providing appropriate physical/mental-health support) to help children and adolescents address particular issues and challenges",
+              "text_html": "<p>describe skills caregivers teach <em>(e.g., self-advocacy skills, stress-management skills, self-defence skills, social skills for making and keeping friends) </em>and strategies they use <em>(e.g., providing appropriate physical/mental-health support) </em>to help children and adolescents address particular issues and challenges</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.2",
+              "text": "demonstrate an understanding of the posi­tive and negative effects of media on children and adolescents (e.g., positive effects such as enhancing awareness of current events, facilitating social connection through social networking; negative effects such as legitimizing violence, pressuring viewers to purchase fad items, increasing opportuni­ties for cyber-bullying)",
+              "text_html": "<p>demonstrate an understanding of the posi­tive and negative effects of media on children and adolescents <em>(e.g., positive effects such as enhancing awareness of current events, facilitating social connection through social networking; negative effects such as legitimizing violence, pressuring viewers to purchase </em><a data-item-id=\"190ab3fa-8d42-424f-ad76-a8f828b5898f\" href=\"\"><em>fad</em></a><em> items, increasing opportuni­ties for cyber-bullying)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.3",
+              "text": "identify specific challenges faced by people who work with school-age children and ado­lescents, and describe effective strategies for addressing them (e.g., strategies for engaging children with exceptionalities, supporting children living in poverty, responding sensitively and appropriately to diversity)",
+              "text_html": "<p>identify specific challenges faced by people who work with school-age children and ado­lescents, and describe effective strategies for addressing them <em>(e.g., strategies for engaging children with exceptionalities, supporting children living in poverty, responding sensitively and appropriately to diversity)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If a childcare worker suspected that somebody in his after-school program had an eating disorder, what strategies might he use to support the child and her family?",
+                  "text_html": "<ul>\n  <li>If a childcare worker suspected that somebody in his after-school program had an eating disorder, what strategies might he use to support the child and her family?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Neglect and Abuse",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the responsibilities of people who work with school-age children and adolescents in dealing with issues related to abuse, neglect, and family violence",
+          "text_html": "<p>demonstrate an understanding of the responsibilities of people who work with school-age children and adolescents in dealing with issues related to abuse, neglect, and family violence</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "demonstrate an understanding of factors that can lead to patterns of neglect or physical, sexual, or emotional abuse (e.g., a family history of violence, stress, alcoholism)",
+              "text_html": "<p>demonstrate an understanding of factors that can lead to patterns of neglect or physical, sexual, or emotional abuse <em>(e.g., a family history of violence, stress, alcoholism)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.2",
+              "text": "identify indicators of neglect and physical, sexual, or emotional abuse in children (e.g., physical signs such as bruising and laceration; emotional signs such as withdrawal or unexplained fears)",
+              "text_html": "<p>identify indicators of neglect and physical, sexual, or emotional abuse in children <em>(e.g., physical signs such as bruising and laceration; emotional signs such as withdrawal or unexplained fears)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.3",
+              "text": "demonstrate an understanding that people who work with school-age children and ado­lescents have a duty to report suspected cases of neglect or physical, sexual, or emotional abuse, and describe procedures for doing so",
+              "text_html": "<p>demonstrate an understanding that people who work with school-age children and ado­lescents have a duty to report suspected cases of neglect or physical, sexual, or emotional abuse, and describe procedures for doing so</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the procedures for reporting suspected abuse?",
+                  "text_html": "<ul>\n  <li>What are the procedures for reporting suspected abuse?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E2.4",
+              "text": "describe strategies caregivers can use to anticipate and prevent neglect and physical, sexual, and emotional abuse (e.g., education, communication, policy development, advocacy)",
+              "text_html": "<p>describe strategies caregivers can use to anticipate and prevent neglect and physical, sexual, and emotional abuse <em>(e.g., education, communication, policy development, </em><a data-item-id=\"a366f1a4-e6e8-44cb-a2af-30c1d5914e0f\" href=\"\"><em>advocacy</em></a><em>)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E3",
+          "title": "Social and Cultural Variations",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how a variety of social and cultural factors affect school-age children and adolescents",
+          "text_html": "<p>demonstrate an understanding of how a variety of social and cultural factors affect school-age children and adolescents</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E3.1",
+              "text": "describe local and global variations in family forms (e.g., extended families, families led by same-sex partners, polygamous families)",
+              "text_html": "<p>describe local and global variations in family forms <em>(e.g., extended families, families led by same-sex partners, polygamous families)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E3.2",
+              "text": "explain how a variety of global challenges (e.g., war, famine, AIDS, use of child labour, natural disasters) affect the lives of children and adolescents",
+              "text_html": "<p>explain how a variety of global challenges <em>(e.g., war, famine, AIDS, use of child labour, natural disasters) </em>affect the lives of children and adolescents</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "For a teenager whose childhood was spent in a war-torn country, what are some possible effects of that experience on her social development?",
+                  "text_html": "<ul>\n  <li>For a teenager whose childhood was spent in a war-torn country, what are some possible effects of that experience on her social development?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E3.3",
+              "text": "demonstrate an understanding of how expectations related to the behaviour and treatment of children and adolescents vary or have varied in different cultures and historical periods (e.g., up to the industrial period in Western countries, adolescents were viewed as adults)",
+              "text_html": "<p>demonstrate an understanding of how expectations related to the behaviour and treatment of children and adolescents vary or have varied in different cultures and historical periods <em>(e.g., up to the industrial period in Western countries, adolescents were viewed as adults)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E3.4",
+              "text": "describe strategies and activities that can be used in formal and informal settings to ensure that environments for children and adolescents are free from bias and respectful of diversity",
+              "text_html": "<p>describe strategies and activities that can be used in formal and informal settings to ensure that environments for children and adolescents are free from bias and respectful of diversity</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would you choose materials to put on the walls of a before-school and after-school centre to ensure that the chil­dren in the centre can see themselves reflected in the environment?",
+                  "text_html": "<ul>\n  <li>How would you choose materials to put on the walls of a before-school and after-school centre to ensure that the chil­dren in the centre can see themselves reflected in the environment?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E3.5",
+              "text": "compare various forms of childcare in different cultures (e.g., extended families, kibbutzim)",
+              "text_html": "<p>compare various forms of childcare in different cultures <em>(e.g., extended families, kibbutzim)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "E3.6",
+              "text": "identify various organizations in the community that provide support to families (e.g., children’s aid societies, Dietitians of Canada, police, newcomers’ support centres, family counselling agencies, Native friendship centres, breakfast programs)",
+              "text_html": "<p>identify various organizations in the community that provide support to families <em>(e.g., children’s aid societies, Dietitians of Canada, police, newcomers’ support centres, family counselling agencies, Native friendship centres, breakfast programs)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

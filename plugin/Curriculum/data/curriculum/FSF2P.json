@@ -1,0 +1,809 @@
+{
+  "code": "FSF2P",
+  "name": "Core French",
+  "grades": [
+    "10"
+  ],
+  "levels": [],
+  "course_type": "Applied",
+  "category": "",
+  "panel": "Secondary",
+  "subject": "French as a Second Language",
+  "subject_group": "French As a Second Language",
+  "description": "This course provides opportunities for students to communicate in French about everyday matters and topics of personal interest in real-life situations. Students will exchange information, ideas, and opinions with others in structured, guided, and increasingly spontaneous spoken interactions. Students will develop their skills in listening, speaking, reading, and writing through using language learning strategies for understanding texts and communicating clearly. They will also increase their understanding and appreciation of diverse French-speaking communities, and will develop skills necessary for lifelong language learning.",
+  "prerequisites": "Core French, Grade 9, Academic or Applied",
+  "prerequisite_codes": [
+    "FSF1D"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-fsl/courses/fsf2p",
+  "source_codename": "fsf2p__copy__6369cf2",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Listening",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Listening to Understand",
+          "describer": "By the end of this course, students will:",
+          "text": "determine meaning in a variety of authentic and adapted oral French texts, using a range of listening strategies",
+          "text_html": "<p>determine meaning in a variety of authentic and adapted oral French texts, using a range of listening strategies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "identify a range of listening comprehension strategies, and use them before, during, and after listening to understand oral French texts (e.g., break down the elements of a speaker’s message; brainstorm vocabulary before a listening task; draw on prior knowledge and make connections to personal experiences; identify key ideas and list associated details; make predictions before a presentation, and confirm, modify, or reject them during and after it)",
+              "text_html": "<p>identify a range of listening comprehension strategies, and use them before, during, and after listening to understand oral French texts <em>(e.g., break down the elements of a speaker’s message; brainstorm vocabulary before a listening task; draw on prior knowledge and make connections to personal experiences; identify key ideas and list associated details; make predictions before a presentation, and confirm, modify, or reject them during and after it)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "De quelles façons est-ce que vos expériences personnelles influencent ce que vous entendez?\n  Comment est-ce que vos prédictions montrent vos connaissances antérieures?",
+                  "text_html": "<ul>\n  <li>De quelles façons est-ce que vos expériences personnelles influencent ce que vous entendez?</li>\n  <li>Comment est-ce que vos prédictions montrent vos connaissances antérieures?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to use the futur simple to describe the listening strategies they are going to use and the passé composé to describe the listening strategies they have used.\n  Teachers can encourage students to ask themselves questions to help them identify the context and to personalize the topic by linking it to their prior knowledge (e.g., “Quel est le titre de la chanson?”, “Quel est le sens du titre?”, “Qui est-ce qui chante?”, “Est-ce que je connais le chanteur?”, “Quel genre de chanson est-ce?”, “Quel est le thème?”, “Quels sont les mots familiers et les mots apparentés que j’ai entendus?”, “Quels sont les mots que je n’ai pas compris?”).",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to use the <em>futur simple </em>to describe the listening strategies they are going to use and the <em>passé composé </em>to describe the <a data-item-id=\"6130419b-91ed-48ea-9cbf-d77de8547ed2\" href=\"\">listening strategies</a> they have used.</li>\n  <li>Teachers can encourage students to ask themselves questions to help them identify the context and to personalize the topic by linking it to their prior knowledge (e.g., “Quel est le titre de la chanson?”, “Quel est le sens du titre?”, “Qui est-ce qui chante?”, “Est-ce que je connais le chanteur?”, “Quel genre de chanson est-ce?”, “Quel est le thème?”, “Quels sont les mots familiers et les mots apparentés que j’ai entendus?”, “Quels sont les mots que je n’ai pas compris?”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "demonstrate an understanding of messages in oral French texts about everyday matters and familiar topics, with support as appropriate (e.g., identify familiar words and expressions used to persuade in an advertisement; use a graphic organizer to sort information heard in a voice mail message; extract and summarize information from a broadcast about new and upcoming athletes; re-enact an event based on a description that includes new and familiar vocabulary; determine main ideas and relevant supporting details in a news broadcast; detect forms of bias in a song)",
+              "text_html": "<p>demonstrate an understanding of messages in oral French texts about everyday matters and familiar topics, with support as appropriate <em>(e.g., identify familiar words and expressions used to persuade in an advertisement; use a graphic organizer to sort information heard in a voice mail message; extract and summarize information from a broadcast about new and upcoming athletes; re-enact an event based on a description that includes new and familiar vocabulary; determine main ideas and relevant supporting details in a news broadcast; detect forms of bias in a song)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quels outils vous aident à trouver les points essentiels d’enregistrement court?\n  Quels types de stratégies utilisées dans un message publicitaire te poussent à acheter ou à ne pas acheter le produit?",
+                  "text_html": "<ul>\n  <li>Quels outils vous aident à trouver les points essentiels d’enregistrement court?</li>\n  <li>Quels types de stratégies utilisées dans un message publicitaire te poussent à acheter ou à ne pas acheter le produit?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to listen for possessives and demonstrative adjectives (e.g., “mon”, “ton”, “son”, “notre”, “votre”, “leur”, “ce”, “cet”, “cette”, “ces”) to enhance their comprehension of a recorded news broadcast or a song (e.g., “Pour cette information sur la qualité de l’air dans votre communauté, regardez…”).\n  Teachers can ask students to work with a partner to create a mime or charade that conveys the message of an oral text.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to listen for possessives and demonstrative adjectives (e.g., “mon”, “ton”, “son”, “notre”, “votre”, “leur”, “ce”, “cet”, “cette”, “ces”) to enhance their comprehension of a recorded news broadcast or a song (e.g., “Pour cette information sur la qualité de l’air dans votre communauté, regardez…”).</li>\n  <li>Teachers can ask students to work with a partner to create a mime or charade that conveys the message of an oral text.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Listening to Interact",
+          "describer": "By the end of this course, students will:",
+          "text": "interpret messages accurately while interacting in French for a variety of purposes and with diverse audiences",
+          "text_html": "<p>interpret messages accurately while interacting in French for a variety of purposes and with diverse <a data-item-id=\"9e1c4dd9-f613-42a6-a058-7adf4de33f3f\" href=\"\">audiences</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "identify and use interactive listening strategies to suit a variety of situations while participating in social interactions and interactions about everyday matters (e.g., acknowledge others’ ideas using appropriate body language and facial expressions; identify the topic of discussion in order to select appropriate vocabulary to respond; paraphrase different speakers’ points of view during a group discussion; ask for clarification or repetition to ensure comprehension during a conference with a teacher or peer)",
+              "text_html": "<p>identify and use interactive listening strategies to suit a variety of situations while participating in social interactions and interactions about everyday matters <em>(e.g., acknowledge others’ ideas using appropriate body language and facial expressions; identify the topic of discussion in order to select appropriate vocabulary to respond; paraphrase different speakers’ points of view during a group discussion; ask for clarification or repetition to ensure comprehension during a conference with a teacher or peer)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment le fait d’exprimer l’opinion d’un pair avec tes propres mots montre-t-il ta participation active?\n  Pourquoi faut-il demander à quelqu’un de clarifier son message?",
+                  "text_html": "<ul>\n  <li>Comment le fait d’exprimer l’opinion d’un pair avec tes propres mots montre-t-il ta participation active?</li>\n  <li>Pourquoi faut-il demander à quelqu’un de clarifier son message?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can model the use of the conditionnel présent to demonstrate how to politely ask for clarification (e.g., “Pourriez-vous répéter s’il vous plaît?”, “Pourrais-tu m’expliquer ce que tu as dit?”).",
+                  "text_html": "<ul>\n  <li>Teachers can model the use of the <em>conditionnel présent </em>to demonstrate how to politely ask for clarification (e.g., “Pourriez-vous répéter s’il vous plaît?”, “Pourrais-tu m’expliquer ce que tu as dit?”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "respond with understanding to what others say while participating in a variety of interactions about everyday matters and familiar topics, in formal and informal situations (e.g., interview students for a survey; answer questions from others in a small-group discussion; participate in an improvisational role play; express agreement or disagreement verbally and non-verbally)",
+              "text_html": "<p>respond with understanding to what others say while participating in a variety of interactions about everyday matters and familiar topics, in formal and informal situations <em>(e.g., interview students for a survey; answer questions from others in a small-group discussion; participate in an improvisational role play; express agreement or disagreement verbally and non-verbally)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "De quelle façon l’improvisation peut-elle t’aider à mieux connaître le sujet sur lequel elle porte?\n  Comment est-ce que le fait de travailler avec vos pairs vous encourage à considérer d’autres points de vue?",
+                  "text_html": "<ul>\n  <li>De quelle façon l’improvisation peut-elle t’aider à mieux connaître le sujet sur lequel elle porte?</li>\n  <li>Comment est-ce que le fait de travailler avec vos pairs vous encourage à considérer d’autres points de vue?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to respond to peers by choosing an adverb of frequency from a list posted in class (e.g., “Tu vas sur Internet à quelle fréquence?”, “souvent”, “rarement”, “jamais”, “parfois”, “quelquefois par semaine”, “une fois par jour”, “plusieurs fois par jour”, “Je suis toujours connecté”). \n  Teachers can model how to appropriately accept and decline invitations (e.g., “Je viens avec plaisir”, “J’ai déjà quelque chose de prévu”, “Tu peux compter sur moi”), and can encourage students to use these forms.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to respond to peers by choosing an adverb of frequency from a list posted in class (e.g., “Tu vas sur Internet à quelle fréquence?”, “souvent”, “rarement”, “jamais”, “parfois”, “quelquefois par semaine”, “une fois par jour”, “plusieurs fois par jour”, “Je suis toujours connecté”).&nbsp;</li>\n  <li>Teachers can model how to appropriately accept and decline invitations (e.g., “Je viens avec plaisir”, “J’ai déjà quelque chose de prévu”, “Tu peux compter sur moi”), and can encourage students to use these forms.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "describe strategies they found helpful before, during, and after listening\n  identify their areas of greater and lesser strength as listeners, and plan steps they can take to improve their listening skills (e.g., assess their level of participation in a role play; compare effective listening strategies with a peer)",
+              "text_html": "<ul>\n  <li>describe strategies they found helpful before, during, and after listening</li>\n  <li>identify their areas of greater and lesser strength as listeners, and plan steps they can take to improve their listening skills <em>(e.g., assess their level of participation in a role play; compare effective listening strategies with a peer)</em></li>\n</ul>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment le fait d’identifier tes forces et tes défis t’aide-t-il à améliorer tes capacités d’écoute?\n  Comment trouves-tu des solutions aux difficultés que tu rencontres lorsque tu écoutes un document sonore?\n  Que fais-tu pour améliorer ta compréhension d’un enregistrement?",
+                  "text_html": "<ul>\n  <li>Comment le fait d’identifier tes forces et tes défis t’aide-t-il à améliorer tes capacités d’écoute?</li>\n  <li>Comment trouves-tu des solutions aux difficultés que tu rencontres lorsque tu écoutes un document sonore?</li>\n  <li>Que fais-tu pour améliorer ta compréhension d’un enregistrement?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can suggest that students monitor their own learning and thought processes by asking themselves what-if questions (e.g., “Que faire si le dialogue n’est pas clair? Si le dialogue n’était pas clair, je pourrais l’écouter plusieurs fois”).\n  Teachers can provide feedback identifying strengths and challenges to help students develop action plans.",
+                  "text_html": "<ul>\n  <li>Teachers can suggest that students monitor their own learning and thought processes by asking themselves what-if questions (e.g., “Que faire si le dialogue n’est pas clair? Si le dialogue n’était pas clair, je pourrais l’écouter plusieurs fois”).</li>\n  <li>Teachers can provide feedback identifying strengths and challenges to help students develop action plans.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Intercultural Understanding",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of information in oral French texts about aspects of culture in diverse French-speaking communities and other communities around the world, and of French sociolinguistic conventions used in a variety of situations and communities",
+          "text_html": "<p>demonstrate an understanding of information in oral French texts about aspects of culture in diverse French-speaking communities and other communities around the world, and of French sociolinguistic conventions used in a variety of situations and communities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "using information from oral French texts, identify French-speaking communities worldwide, find out about aspects of their cultures, and make connections to personal experiences and their own and other communities (e.g., using a graphic organizer, record the names of French-speaking people heard describing their communities and identify French influences on their first and last names; listen to songs from a variety of French-speaking cultures to determine and appreciate how they convey messages)",
+              "text_html": "<p>using information from oral French texts, identify French-speaking communities worldwide, find out about aspects of their cultures, and make connections to personal experiences and their own and other communities <em>(e.g., using a graphic organizer, record the names of French-speaking people heard describing their communities and identify French influences on their first and last names; listen to songs from a variety of French-speaking cultures to determine and appreciate how they convey messages)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Qu’est-ce qui influence les croyances et les pratiques culturelles de cette communauté? En quoi leurs croyances et pratiques culturelles sont-elles semblables et différentes des tiennes?\n  Qu’est-ce qui t’aide à être plus ouvert aux autres?",
+                  "text_html": "<ul>\n  <li>Qu’est-ce qui influence les croyances et les pratiques culturelles de cette communauté? En quoi leurs croyances et pratiques culturelles sont-elles semblables et différentes des tiennes?</li>\n  <li>Qu’est-ce qui t’aide à être plus ouvert aux autres?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can suggest that students listen for the verbs “se situer” and “se trouver” used with prepositions of place (e.g., “entre”, “au nord de”, “à la frontière de”) to locate countries on a map.\n  Teachers can suggest that students listen for the nouns of nationalities, noting gender variations (e.g., “un(e) Anglais(e)”, “un(e) Français(e)”, “un(e) Canadien(ne)”, “un(e) Camerounais(e)”, “un(e) Marocain(e)”, “un(e) Vietnamien(ne)”, “un(e) Guinéen(ne)”, “un(e) Suisse”, “un(e) Belge”).",
+                  "text_html": "<ul>\n  <li>Teachers can suggest that students listen for the verbs “se situer” and “se trouver” used with prepositions of place (e.g., “entre”, “au nord de”, “à la frontière de”) to locate countries on a map.</li>\n  <li>Teachers can suggest that students listen for the nouns of nationalities, noting gender variations (e.g., “un(e) Anglais(e)”, “un(e) Français(e)”, “un(e) Canadien(ne)”, “un(e) Camerounais(e)”, “un(e) Marocain(e)”, “un(e) Vietnamien(ne)”, “un(e) Guinéen(ne)”, “un(e) Suisse”, “un(e) Belge”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "using information from oral French texts, identify and demonstrate an understanding of sociolinguistic conventions used in a variety of situations in diverse French-speaking communities (e.g., interpret the meanings and uses of intonation and non-verbal gestures in different French-speaking communities; identify expressions that show interest in what another person is saying; identify the language register used by the participants in a conversation)",
+              "text_html": "<p>using information from oral French texts, identify and demonstrate an understanding of sociolinguistic conventions used in a variety of situations in diverse French-speaking communities <em>(e.g., interpret the meanings and uses of intonation and non-verbal gestures in different French-speaking communities; identify expressions that show interest in what another person is saying; identify the language register used by the participants in a conversation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment peut-on développer nos compétences auditoires en apprenant à regarder de plus près la personne et ses gestes?\n  Comment la musique d’accompagnement d’un programme de radio t’aide-t-elle à comprendre le message, le sujet ou le thème?",
+                  "text_html": "<ul>\n  <li>Comment peut-on développer nos compétences auditoires en apprenant à regarder de plus près la personne et ses gestes?</li>\n  <li>Comment la musique d’accompagnement d’un programme de radio t’aide-t-elle à comprendre le message, le sujet ou le thème?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to listen for the use of “vouloir”, “pouvoir”, and “devoir” to help them identify wishes, possibilities, and obligations.\n  Teachers can post a list of expressions used to show interest in a conversation (e.g., “C’est vrai?”, “Ah bon?”, “Non! Ce n’est pas vrai!”, “Tu es sûr?”, “Vraiment?”, “Tu plaisantes!”, “Tu rigoles! ”, “Pas possible!”, “Tu as raison”, “Tu as tort”, “Je connais bien cette personne”) and to express opinions (e.g., “À mon avis”, “D’après moi”, “Selon moi”, “Personnellement, je pense/ crois/trouve que…”), and can encourage students to use these phrases when responding to the statements of others.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to listen for the use of “vouloir”, “pouvoir”, and “devoir” to help them identify wishes, possibilities, and obligations.</li>\n  <li>Teachers can post a list of expressions used to show interest in a conversation (e.g., “C’est vrai?”, “Ah bon?”, “Non! Ce n’est pas vrai!”, “Tu es sûr?”, “Vraiment?”, “Tu plaisantes!”, “Tu rigoles! ”, “Pas possible!”, “Tu as raison”, “Tu as tort”, “Je connais bien cette personne”) and to express opinions (e.g., “À mon avis”, “D’après moi”, “Selon moi”, “Personnellement, je pense/ crois/trouve que…”), and can encourage students to use these phrases when responding to the statements of others.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Speaking",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Speaking to Communicate",
+          "describer": "By the end of this course, students will:",
+          "text": "communicate information and ideas orally in French, using a variety of speaking strategies, appropriate language structures, and language appropriate to the purpose and audience",
+          "text_html": "<p>communicate information and ideas orally in French, using a variety of <a data-item-id=\"e0a63087-1e08-4afd-8502-6f081cd0e07f\" href=\"\">speaking strategies</a>, appropriate <a data-item-id=\"b1acaf35-76cf-4945-a682-15a94d2bd6de\" href=\"\">language structures</a>, and language appropriate to the purpose and audience</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "identify a range of speaking strategies and use them to express themselves clearly and coherently in French for various purposes and to a variety of audiences (e.g., focus on what to say rather than on how to say it; draw pictures to help correctly order the elements of a speaking task; use familiar ideas and expressions; provide supporting details to clarify ideas and opinions; continue speaking after making a mistake; build a bank of frequently used expressions, such as greetings, goodbyes, and requests for clarification, to help them focus on using complete phrases rather than individual words; rehearse with a partner)",
+              "text_html": "<p>identify a range of speaking strategies and use them to express themselves clearly and coherently in French for various purposes and to a variety of audiences <em>(e.g., focus on what to say rather than on how to say it; draw pictures to help correctly order the elements of a speaking task; use familiar ideas and expressions; provide supporting details to clarify ideas and opinions; continue speaking after making a mistake; build a bank of frequently used expressions, such as greetings, goodbyes, and requests for clarification, to help them focus on using complete phrases rather than individual words; rehearse with a partner)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Que fais-tu quand tu commets une erreur lorsque tu parles?\n  Comment réagis-tu pour montrer ta confiance en toi lorsque tu parles en français?\n  Quels éléments peux-tu utiliser pour consolider les idées clés de ton discours?\n  Comment te prépares-tu à mieux présenter devant le reste de la classe?",
+                  "text_html": "<ul>\n  <li>Que fais-tu quand tu commets une erreur lorsque tu parles?</li>\n  <li>Comment réagis-tu pour montrer ta confiance en toi lorsque tu parles en français?</li>\n  <li>Quels éléments peux-tu utiliser pour consolider les idées clés de ton discours?</li>\n  <li>Comment te prépares-tu à mieux présenter devant le reste de la classe?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can model expressions students can use to fill in the gaps while they are talking (e.g., “alors”, “donc”, “et bien”, “c’est-à-dire”) and can encourage students to integrate these expressions into their speech.\n  Teachers can encourage students to use impersonal expressions followed by the infinitif to emphasize ideas (e.g.,“C’est nécessaire de…”, “Il est important de…”, “Il faut/Il ne faut pas…”).",
+                  "text_html": "<ul>\n  <li>Teachers can model expressions students can use to fill in the gaps while they are talking (e.g., “alors”, “donc”, “et bien”, “c’est-à-dire”) and can encourage students to integrate these expressions into their speech.</li>\n  <li>Teachers can encourage students to use impersonal expressions followed by the <em>infinitif </em>to emphasize ideas (e.g.,“C’est nécessaire de…”, “Il est important de…”, “Il faut/Il ne faut pas…”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "produce prepared and spontaneous messages in French to communicate information, ideas, and opinions about familiar, everyday matters and topics of personal interest, with contextual, auditory, and visual support as appropriate (e.g., recount childhood memories or personal experiences; share interests, dreams, hopes, and aspirations; adapt and retell a familiar text; create and present a persuasive audio commercial; give a presentation on the importance of accessibility ramps in public buildings; present the results of a survey; describe a profession’s skills and responsibilities; discuss French television commercials or film trailers after viewing; discuss the cultural significance of a personal book, object, or photograph; lead a panel discussion on where to find the most economical ticket prices or cell phone plans)",
+              "text_html": "<p>produce prepared and spontaneous messages in French to communicate information, ideas, and opinions about familiar, everyday matters and topics of personal interest, with contextual, auditory, and visual support as appropriate <em>(e.g., recount childhood memories or personal experiences; share interests, dreams, hopes, and aspirations; adapt and retell a familiar text; create and present a persuasive audio commercial; give a presentation on the importance of accessibility ramps in public buildings; present the results of a survey; describe a profession’s skills and responsibilities; discuss French television commercials or film trailers after viewing; discuss the cultural significance of a personal book, object, or photograph; lead a panel discussion on where to find the most economical ticket prices or cell phone plans)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment est-ce quelqu’un développe ses arguments de façon logique pour convaincre un public?\n  Quelles stratégies peux-tu utiliser pour amener tes collègues à mieux apprécier ton point de vue?\n  Comment le vocabulaire technique enrichit-il ton discours?\n  Comment t’assures-tu qu’une présentation orale s’enchaîne (la chronologie, les liaisons, les oppositions) dans le bon ordre?",
+                  "text_html": "<ul>\n  <li>Comment est-ce quelqu’un développe ses arguments de façon logique pour convaincre un public?</li>\n  <li>Quelles stratégies peux-tu utiliser pour amener tes collègues à mieux apprécier ton point de vue?</li>\n  <li>Comment le vocabulaire technique enrichit-il ton discours?</li>\n  <li>Comment t’assures-tu qu’une présentation orale s’enchaîne (la chronologie, les liaisons, les oppositions) dans le bon ordre?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can model the use of the appropriate past tenses to describe a sequence of events (e.g., “C’était une fête très intéressante parce que j’ai invité tous mes amis”).",
+                  "text_html": "<ul>\n  <li>Teachers can model the use of the appropriate past tenses to describe a sequence of events (e.g., “C’était une fête très intéressante parce que j’ai invité tous mes amis”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "speak with a smooth pace, appropriate intonation, and accurate pronunciation in prepared and spontaneous communications about a range of familiar topics (e.g., vary tone and intonation for emphasis during presentations; speak in phrases using familiar vocabulary; avoid awkward pauses by using familiar vocabulary to describe an idea or object when the exact term is forgotten; role-play a telephone conversation to demonstrate clear speaking when face-to-face communication is not possible; recite a poem using pauses for dramatic emphasis)",
+              "text_html": "<p>speak with a smooth pace, appropriate intonation, and accurate pronunciation in prepared and spontaneous communications about a range of familiar topics <em>(e.g., vary tone and intonation for emphasis during presentations; speak in phrases using familiar vocabulary; avoid awkward pauses by using familiar vocabulary to describe an idea or object when the exact term is forgotten; role-play a telephone conversation to demonstrate clear speaking when face-to-face communication is not possible; recite a poem using pauses for dramatic emphasis)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment ton débit de parole doit-il changer selon ton public?\n  Par quel moyen t’exprimes-tu si le mot t’échappe ou si tu ne trouves pas les mots exacts pour une idée?\n  Comment ajoutes-tu de l’emphase pendant la présentation d’un poème?",
+                  "text_html": "<ul>\n  <li>Comment ton débit de parole doit-il changer selon ton public?</li>\n  <li>Par quel moyen t’exprimes-tu si le mot t’échappe ou si tu ne trouves pas les mots exacts pour une idée?</li>\n  <li>Comment ajoutes-tu de l’emphase pendant la présentation d’un poème?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can suggest that students provide each other with constructive feedback on their speaking fluency using a checklist.\n  Teachers can model the appropriate pace of negative sentences and can encourage students to practise pacing to sound more natural (e.g., “Elle ne mange pas de pain”, “Il ne prend pas de riz”, “On ne boit pas de vin”, “Pas de pommes de terre, pas de rôti”, “Il ne sort plus de sa chambre”, “Elle ne dort plus et ne mange plus, c’est ridicule”).",
+                  "text_html": "<ul>\n  <li>Teachers can suggest that students provide each other with constructive feedback on their speaking fluency using a checklist.</li>\n  <li>Teachers can model the appropriate pace of negative sentences and can encourage students to practise pacing to sound more natural (e.g., “Elle ne mange pas de pain”, “Il ne prend pas de riz”, “On ne boit pas de vin”, “Pas de pommes de terre, pas de rôti”, “Il ne sort plus de sa chambre”, “Elle ne dort plus et ne mange plus, c’est ridicule”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "communicate their meaning clearly, using parts of speech and word order appropriately (e.g., express feelings, desires, or suggestions using the conditional; describe an event using the appropriate past tense; use appropriate pronouns to avoid repetition while speaking)",
+              "text_html": "<p>communicate their meaning clearly, using parts of speech and word order appropriately <em>(e.g., express feelings, desires, or suggestions using the conditional; describe an event using the appropriate past tense; use appropriate pronouns to avoid repetition while speaking)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment t’exprimes-tu dans un restaurant ou demandes-tu des informations au téléphone?\n  Comment peut-on éviter la répétition des mots dans une conversation?",
+                  "text_html": "<ul>\n  <li>Comment t’exprimes-tu dans un restaurant ou demandes-tu des informations au téléphone?</li>\n  <li>Comment peut-on éviter la répétition des mots dans une conversation?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to use the conditionnel présent when expressing a wish or making suggestions in a conversation (e.g., “Je voudrais…”, “On pourrait…”).",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to use the <em>conditionnel présent </em>when expressing a wish or making suggestions in a conversation (e.g., “Je voudrais…”, “On pourrait…”).</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Speaking to Interact",
+          "describer": "By the end of this course, students will:",
+          "text": "participate in spoken interactions in French for a variety of purposes and with diverse audiences",
+          "text_html": "<p>participate in spoken interactions in French for a variety of purposes and with diverse audiences</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "demonstrate an understanding of appropriate speaking behaviour when interacting with others in a variety of formal and informal situations (e.g., restate and reformulate ideas and ask questions in response to a peer’s presentation; check for understanding; give alternative suggestions in response to others’ propositions; acknowledge the contributions of others before expressing their own opinion; contribute information in a small-group discussion to encourage active participation by all group members)",
+              "text_html": "<p>demonstrate an understanding of appropriate speaking behaviour when interacting with others in a variety of formal and informal situations <em>(e.g., restate and reformulate ideas and ask questions in response to a peer’s presentation; check for understanding; give alternative suggestions in response to others’ propositions; acknowledge the contributions of others before expressing their own opinion; contribute information in a small-group discussion to encourage active participation by all group members)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment réagis-tu si ton partenaire parle trop vite ou s’il utilise un vocabulaire que tu ne comprends pas?\n  Comment tiens-tu compte des réactions des membres d’un groupe pendant une conversation?\n  Que fais-tu pour t’assurer que ton message est clair et compris?",
+                  "text_html": "<ul>\n  <li>Comment réagis-tu si ton partenaire parle trop vite ou s’il utilise un vocabulaire que tu ne comprends pas?</li>\n  <li>Comment tiens-tu compte des réactions des membres d’un groupe pendant une conversation?</li>\n  <li>Que fais-tu pour t’assurer que ton message est clair et compris?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can model expressions that students can use to show courtesy when introducing their opinion in a conversation (e.g., “Excusez-moi”, “Je ne suis pas d’accord”, “Selon moi…”).\n  Teachers can help students expand their vocabulary banks by encouraging the use of prefixes and suffixes to change or add to meaning (e.g., “goût” – “goûter” – “dégoûter” – “dégoûtant”).",
+                  "text_html": "<ul>\n  <li>Teachers can model expressions that students can use to show courtesy when introducing their opinion in a conversation (e.g., “Excusez-moi”, “Je ne suis pas d’accord”, “Selon moi…”).</li>\n  <li>Teachers can help students expand their vocabulary banks by encouraging the use of prefixes and suffixes to change or add to meaning (e.g., “goût” – “goûter” – “dégoûter” – “dégoûtant”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "exchange information, ideas, and opinions with others in guided and spontaneous spoken interactions about everyday matters and topics of personal interest, with teacher modelling as appropriate (e.g., collaborate with classmates to prepare and present a skit; ask questions to elicit further information; acknowledge and respond to feedback during a writing conference with the teacher or peers; contribute opinions in a class discussion; discuss in small groups the effectiveness of messages in media texts; paraphrase or restate group members’ contributions to a discussion to verify understanding; compare “family rules” with a peer; discuss the setting, sequence of events, scenes, and characters in a text, using a graphic organizer to guide the conversation; with a partner, summarize key ideas from a group discussion; role-play a conversation between a parent and teenager about a product the teenager wants to have)",
+              "text_html": "<p>exchange information, ideas, and opinions with others in guided and spontaneous spoken interactions about everyday matters and topics of personal interest, with teacher modelling as appropriate <em>(e.g., collaborate with classmates to prepare and present a skit; ask questions to elicit further information; acknowledge and respond to feedback during a writing conference with the teacher or peers; contribute opinions in a class discussion; discuss in small groups the effectiveness of messages in media texts; paraphrase or restate group members’ contributions to a discussion to verify understanding; compare “family rules” with a peer; discuss the setting, sequence of events, scenes, and characters in a text, using a graphic organizer to guide the conversation; with a partner, summarize key ideas from a group discussion; role-play a conversation between a parent and teenager about a product the teenager wants to have)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quel est ton point de vue? Comment peux-tu l’expliquer aux autres membres de ton groupe?\n  Comment varies-tu le vocabulaire que tu utilises afin de maintenir l’intérêt de ton public?",
+                  "text_html": "<ul>\n  <li>Quel est ton point de vue? Comment peux-tu l’expliquer aux autres membres de ton groupe?</li>\n  <li>Comment varies-tu le vocabulaire que tu utilises afin de maintenir l’intérêt de ton public?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can demonstrate how to paraphrase key points during a discussion to ensure that others understand their message.\n  Teachers can direct students to pay attention to the placement of adjectives in their lines while they collaborate to develop a skit.",
+                  "text_html": "<ul>\n  <li>Teachers can demonstrate how to paraphrase key points during a discussion to ensure that others understand their message.</li>\n  <li>Teachers can direct students to pay attention to the placement of adjectives in their lines while they collaborate to develop a skit.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "describe strategies they found helpful before, during, and after speaking to communicate effectively\n  identify their areas of greater and lesser strength as speakers, and plan steps they can take to improve their speaking skills (e.g., plan to incorporate newly learned vocabulary in interactions; identify strategies that are useful when interacting with peers)",
+              "text_html": "<ul>\n  <li>describe strategies they found helpful before, during, and after speaking to communicate effectively</li>\n  <li>identify their areas of greater and lesser strength as speakers, and plan steps they can take to improve their speaking skills <em>(e.g., plan to incorporate newly learned vocabulary in interactions; identify strategies that are useful when interacting with peers)</em></li>\n</ul>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quelles stratégies utilises-tu lorsque tu parles pour te rappeler des points importants?\n  Qu’est-ce qui t’indique que la classe ne te comprend pas?\n  Quelles stratégies peux-tu utiliser pour t’assurer que les autres te comprennent?",
+                  "text_html": "<ul>\n  <li>Quelles stratégies utilises-tu lorsque tu parles pour te rappeler des points importants?</li>\n  <li>Qu’est-ce qui t’indique que la classe ne te comprend pas?</li>\n  <li>Quelles stratégies peux-tu utiliser pour t’assurer que les autres te comprennent?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to use the superlative forms of adjectives and adverbs when identifying speaking strategies they found helpful.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to use the superlative forms of adjectives and adverbs when identifying speaking strategies they found helpful.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Intercultural Understanding",
+          "describer": "By the end of this course, students will:",
+          "text": "in their spoken communications, demonstrate an awareness of aspects of culture in diverse French-speaking communities and other communities around the world, and of the appropriate use of French sociolinguistic conventions in a variety of situations.",
+          "text_html": "<p>in their spoken communications, demonstrate an awareness of aspects of culture in diverse French-speaking communities and other communities around the world, and of the appropriate use of French sociolinguistic <a data-item-id=\"27ad919c-080e-430b-8bff-2100a2087074\" href=\"\">conventions </a>in a variety of situations.</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "communicate information orally about French-speaking communities worldwide, including aspects of their cultures and their contributions to la francophonie and the world, and make connections to personal experiences and their own and other communities (e.g., make a presentation on popular tourist attractions, movies, or jobs in various French-speaking regions, comparing them to those in their own community; identify some countries where French is used as a first or additional language, and compare its use in these countries to how and where French is used in their own community; deliver an oral presentation on a famous person or fictional character from a French-speaking country)",
+              "text_html": "<p>communicate information orally about French-speaking communities worldwide, including aspects of their cultures and their contributions to <em>la francophonie </em>and the world, and make connections to personal experiences and their own and other communities <em>(e.g., make a presentation on popular tourist attractions, movies, or jobs in various French-speaking regions, comparing them to those in their own community; identify some countries where French is used as a first or additional language, and compare its use in these countries to how and where French is used in their own community; deliver an oral presentation on a famous person or fictional character from a French-speaking country)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Jusqu’à quel point peut-on se découvrir soi-même en explorant d’autres cultures?",
+                  "text_html": "<ul>\n  <li>Jusqu’à quel point peut-on se découvrir soi-même en explorant d’autres cultures?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can model various expressions of quantity and can encourage students to use them when comparing different communities (e.g., “Beaucoup de gens croient que…”, “À mon avis, il y a autant de…”, “Il y a quelque… de…”, “Ils utilisent moins de… et plus de…”, “Je crois qu’ils ont juste assez de…”).",
+                  "text_html": "<ul>\n  <li>Teachers can model various expressions of quantity and can encourage students to use them when comparing different communities (e.g., “Beaucoup de gens croient que…”, “À mon avis, il y a autant de…”, “Il y a quelque… de…”, “Ils utilisent moins de… et plus de…”, “Je crois qu’ils ont juste assez de…”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "identify sociolinguistic conventions associated with a variety of social situations in diverse French-speaking communities and use them appropriately in spoken interactions (e.g., participate in a role play using colloquialisms and gestures appropriate to the setting; speak using an appropriate level of formality)",
+              "text_html": "<p>identify sociolinguistic conventions associated with a variety of social situations in diverse French-speaking communities and use them appropriately in spoken interactions <em>(e.g., participate in a role play using colloquialisms and gestures appropriate to the setting; speak using an appropriate level of formality)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment vas-tu changer la manière dont tu parles aux personnages différents dans le jeu de rôle?\n  Quels mots et expressions t’aident à réagir d’une façon positive envers les autres?",
+                  "text_html": "<ul>\n  <li>Comment vas-tu changer la manière dont tu parles aux personnages différents dans le jeu de rôle?</li>\n  <li>Quels mots et expressions t’aident à réagir d’une façon positive envers les autres?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can suggest that students supplement their speech with interjections (e.g., “Chut!” to request silence, “Bof!” for annoyance, “Aïe!” for pain, “Pouah!” for disgust).",
+                  "text_html": "<ul>\n  <li>Teachers can suggest that students supplement their speech with interjections (e.g., “Chut!” to request silence, “Bof!” for annoyance, “Aïe!” for pain, “Pouah!” for disgust).</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Reading",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Reading Comprehension",
+          "describer": "By the end of this course, students will:",
+          "text": "determine meaning in a variety of authentic and adapted French texts, using a range of reading comprehension strategies",
+          "text_html": "<p>determine meaning in a variety of <a data-item-id=\"00b7ea2f-387b-44f9-8e1f-b5aba4737562\" href=\"\">authentic </a>and adapted French texts, using a range of reading comprehension strategies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify a variety of reading comprehension strategies and use them before, during, and after reading to understand French texts in modelled, shared, guided, and independent reading contexts (e.g., examine the features of a text before reading; note repeated words in a text to help them identify main ideas; make inferences based on images; focus on the overall message rather than the meaning of every word; choose texts about familiar topics; read beyond an unfamiliar word or phrase to infer its meaning from the overall sense of the passage)",
+              "text_html": "<p>identify a variety of reading comprehension strategies and use them before, during, and after reading to understand French texts in modelled, shared, guided, and independent reading contexts <em>(e.g., examine the features of a text before reading; note repeated words in a text to help them identify main ideas; make inferences based on images; focus on the overall message rather than the meaning of every word; choose texts about familiar topics; read beyond an unfamiliar word or phrase to infer its meaning from the overall sense of the passage)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Avant de lire un texte, comment établis-tu ce qu’il est important de retenir? Pendant la lecture, pourquoi faut-il identifier l’idée principale de chaque partie du texte? Après la lecture, comment identifies-tu les idées principales du texte lu?\n  Comment la participation aux discussions soutient-elle ta compréhension du texte?\n  Faut-il comprendre chaque mot pour identifier l’idée principale? Pourquoi?",
+                  "text_html": "<ul>\n  <li>Avant de lire un texte, comment établis-tu ce qu’il est important de retenir? Pendant la lecture, pourquoi faut-il identifier l’idée principale de chaque partie du texte? Après la lecture, comment identifies-tu les idées principales du texte lu?</li>\n  <li>Comment la participation aux discussions soutient-elle ta compréhension du texte?</li>\n  <li>Faut-il comprendre chaque mot pour identifier l’idée principale? Pourquoi?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to refer to headings in non-fiction texts to assist them in distinguishing between main ideas and supporting details.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to refer to headings in non-fiction texts to assist them in distinguishing between main ideas and supporting details.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "demonstrate an understanding of a variety of student- and teacher-selected French texts about everyday matters and personally relevant topics (e.g., distinguish between fact and opinion in a newspaper article about providing nutritious food in schools; identify stated and implied ideas in an Internet, cable, or cell phone plan; role-play alternative solutions to a conflict presented in a text; make a timeline of the plot or key events in a story before creating a summary; read cookbooks from a variety of cultures, comparing ingredients and discussing the cultural significance of particular foods or dishes; read and respond to a reviewer’s point of view about a movie or CD; read a city map to determine directions to a particular location)",
+              "text_html": "<p>demonstrate an understanding of a variety of student- and teacher-selected French texts about everyday matters and personally relevant topics <em>(e.g., distinguish between fact and opinion in a newspaper article about providing nutritious food in schools; identify stated and implied ideas in an Internet, cable, or cell phone plan; role-play alternative solutions to a conflict presented in a text; make a timeline of the plot or key events in a story before creating a summary; read cookbooks from a variety of cultures, comparing ingredients and discussing the cultural significance of particular foods or dishes; read and respond to a reviewer’s </em><a data-item-id=\"422def41-02ca-4559-82eb-8fd1ceb9256b\" href=\"\"><em>point of view</em></a><em> about a movie or CD; read a city map to determine directions to a particular location)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quels sont les faits et les opinions présentés dans ce texte? Comment sais-tu que cette information est fiable?\n  Comment organiseras-tu l’information pour en faire un résumé?\n  Quel est le point de vue de l’auteur? Quelles stratégies utilise-t-il pour communiquer son message?",
+                  "text_html": "<ul>\n  <li>Quels sont les faits et les opinions présentés dans ce texte? Comment sais-tu que cette information est fiable?</li>\n  <li>Comment organiseras-tu l’information pour en faire un résumé?</li>\n  <li>Quel est le point de vue de l’auteur? Quelles stratégies utilise-t-il pour communiquer son message?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to think about reading a text as detective work, gathering clues to the content from the title, pictures, headings, fonts, punctuation, and so forth.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to think about reading a text as detective work, gathering clues to the content from the title, pictures, headings, fonts, punctuation, and so forth.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "read a variety of French texts containing familiar vocabulary and expressions at a sufficient rate and with sufficient ease to demonstrate that they understand the overall sense of the text (e.g., divide text into chunks when reading aloud; read with appropriate expression to communicate the emotions suggested by the text; identify and pronounce smoothly previously encountered words; read in role using appropriate intonation to emphasize the emotions conveyed by the character)",
+              "text_html": "<p>read a variety of French texts containing familiar vocabulary and expressions at a sufficient rate and with sufficient ease to demonstrate that they understand the overall sense of the text <em>(e.g., divide text into chunks when reading aloud; read with appropriate expression to communicate the emotions suggested by the text; identify and pronounce smoothly previously encountered words; read in role using appropriate intonation to emphasize the emotions conveyed by the character)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment est-ce que les expressions et les mots familiers du texte t’aident à lire ce texte?\n  Pourquoi est-ce que c’est important de lire des groupes de mots?",
+                  "text_html": "<ul>\n  <li>Comment est-ce que les expressions et les mots familiers du texte t’aident à lire ce texte?</li>\n  <li>Pourquoi est-ce que c’est important de lire des groupes de mots?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to develop their fluency by reading every day a short paragraph to themselves or to a peer in their class.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to develop their fluency by reading every day a short paragraph to themselves or to a peer in their class.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.4",
+              "text": "use a variety of vocabulary-acquisition strategies before, during, and after reading to determine or confirm the meaning of new, unfamiliar, or recently learned words and expressions (e.g., make associations based on illustrations and prior knowledge to determine and clarify the meaning of new words; use knowledge of etymology and related words to help decode an unfamiliar word’s meaning; identify words borrowed from other languages; make a list of words and expressions that convey emotion; develop a personal lexicon including jargon and slang from personal online messaging, expressions used regularly in discussions, words from resource materials, and terminology in school-related documents; substitute a word that would make sense in the same context for an unfamiliar word)",
+              "text_html": "<p>use a variety of vocabulary-acquisition strategies before, during, and after reading to determine or confirm the meaning of new, unfamiliar, or recently learned words and expressions <em>(e.g., make associations based on illustrations and prior knowledge to determine and clarify the meaning of new words; use knowledge of etymology and related words to help decode an unfamiliar word’s meaning; identify words borrowed from other languages; make a list of words and expressions that convey emotion; develop a personal lexicon including jargon and slang from personal online messaging, expressions used regularly in discussions, words from resource materials, and terminology in school-related documents; substitute a word that would make sense in the same context for an unfamiliar word)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Que fais-tu quand tu ne comprends pas un mot?\n  Quels mots utilise l’auteur pour évoquer de la sympathie pour un personnage?\n  Selon toi, quelle stratégie t’aide le plus à comprendre le nouveau vocabulaire?\n  Comment organises-tu le nouveau vocabulaire et les nouvelles expressions afin de t’en rappeler?",
+                  "text_html": "<ul>\n  <li>Que fais-tu quand tu ne comprends pas un mot?</li>\n  <li>Quels mots utilise l’auteur pour évoquer de la sympathie pour un personnage?</li>\n  <li>Selon toi, quelle stratégie t’aide le plus à comprendre le nouveau vocabulaire?</li>\n  <li>Comment organises-tu le nouveau vocabulaire et les nouvelles expressions afin de t’en rappeler?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can demonstrate word-attack skills (e.g., using prefixes, suffixes, and stems to determine the meaning of unfamiliar words) and encourage students to use them to extend their vocabulary.\n  Teachers can suggest that when students look up words in a dictionary, they note any prefixes and/or suffixes (e.g., “organiser”/ ”désorganiser”).\n  Teachers can encourage students to identify the verb endings associated with various tenses in order to enhance their ability to understand texts (“Je présenterai mon discours aujourd’hui” vs “Je présenterais mon discours, si on avait le temps aujourd’hui”).",
+                  "text_html": "<ul>\n  <li>Teachers can demonstrate word-attack skills (e.g., using prefixes, suffixes, and stems to determine the meaning of unfamiliar words) and encourage students to use them to extend their vocabulary.</li>\n  <li>Teachers can suggest that when students look up words in a dictionary, they note any prefixes and/or suffixes (e.g., “organiser”/ ”désorganiser”).</li>\n  <li>Teachers can encourage students to identify the verb endings associated with various tenses in order to enhance their ability to understand texts (“Je présenterai mon discours aujourd’hui” vs “Je présenterais mon discours, si on avait le temps aujourd’hui”).</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Purpose, Form, and Style",
+          "describer": "By the end of this course, students will:",
+          "text": "identify the purpose(s), characteristics, and aspects of style of a variety of authentic and adapted text forms in French, including fictional, informational, graphic, and media forms",
+          "text_html": "<p>identify the purpose(s), characteristics, and aspects of style of a variety of authentic and adapted text forms in French, including fictional, informational, graphic, and media forms</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify the purpose(s) and characteristics of a variety of text forms, including fictional, informational, graphic, and media forms, and explain how the characteristics help communicate the meaning (e.g., an encyclopedia entry or newspaper article answers the questions “Qui?”, “Quand?”, “Quoi?”, “Comment?”, “Où?”, and “Pourquoi?” in relation to its subject; a list of materials enables a person to check that all components are present before assembling furniture; short essays, images, and useful links express and support opinions in a blog; speech bubbles, captions, and illustrations are used to convey information in comic strips and graphic novels)",
+              "text_html": "<p>identify the purpose(s) and characteristics of a variety of text forms, including fictional, informational, graphic, and media forms, and explain how the characteristics help communicate the meaning <em>(e.g., an encyclopedia entry or newspaper article answers the questions “Qui?”, “Quand?”, “Quoi?”, “Comment?”, “Où?”, and “Pourquoi?” in relation to its subject; a list of materials enables a person to check that all components are present before assembling furniture; short essays, images, and useful links express and support opinions in a blog; speech bubbles, captions, and illustrations are used to convey information in comic strips and graphic novels)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quelles informations peux-tu tirer du titre et des illustrations de ce texte?\n  Que connais-tu déjà à propos de ce sujet?\n  Comment est-ce que l’auteur présente ses opinions?\n  Comment peux-tu vérifier si l’information présentée est correcte?\n  Où peux-tu trouver l’explication des symboles sur la carte d’une ville?",
+                  "text_html": "<ul>\n  <li>Quelles informations peux-tu tirer du titre et des illustrations de ce texte?</li>\n  <li>Que connais-tu déjà à propos de ce sujet?</li>\n  <li>Comment est-ce que l’auteur présente ses opinions?</li>\n  <li>Comment peux-tu vérifier si l’information présentée est correcte?</li>\n  <li>Où peux-tu trouver l’explication des symboles sur la carte d’une ville?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can demonstrate how to read a graph or table in conjunction with the text in which the graphic appears, including how to use the figure/table number, title, and/or key words to find the related information in the written text.",
+                  "text_html": "<p>Teachers can demonstrate how to read a graph or table in conjunction with the text in which the graphic appears, including how to use the figure/table number, title, and/or key words to find the related information in the written text.</p>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "identify some features and stylistic elements of a variety of text forms, including fictional, informational, graphic, and media forms, and explain how they help to convey the meaning (e.g., tables and diagrams convey information concisely in a report; the impératif and persuasive language in advertisements encourage consumers to buy a product; boldface titles, the infinitif, numbered steps, and illustrations help to guide cooks through a recipe)",
+              "text_html": "<p>identify some features and <a data-item-id=\"98a18622-5c7d-458b-b532-3c7ecc76baeb\" href=\"\">stylistic elements</a> of a variety of text forms, including fictional, informational, graphic, and media forms, and explain how they help to convey the meaning <em>(e.g., tables and diagrams convey information concisely in a report; the </em>impératif <em>and persuasive language in advertisements encourage consumers to buy a product; boldface titles, the </em>infinitif<em>, numbered steps, and illustrations help to guide cooks through a recipe)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Pourquoi est-ce qu’on dresse une liste d’ingrédients avant d’expliquer la marche à suivre dans une recette?\n  Comment peut-on analyser des textes publicitaires en tenant compte, entre autres, des types d’appuis pour convaincre ou persuader (p. ex., appel aux sentiments, slogans)?",
+                  "text_html": "<ul>\n  <li>Pourquoi est-ce qu’on dresse une liste d’ingrédients avant d’expliquer la marche à suivre dans une recette?</li>\n  <li>Comment peut-on analyser des textes publicitaires en tenant compte, entre autres, des types d’appuis pour convaincre ou persuader (p. ex., appel aux sentiments, slogans)?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can direct students to list words that elicit a personal reaction as they read.\n  Teachers can direct students’ attention to the use of the infinitif in directions in a recipe or procedural text.",
+                  "text_html": "<ul>\n  <li>Teachers can direct students to list words that elicit a personal reaction as they read.</li>\n  <li>Teachers can direct students’ attention to the use of the <em>infinitif </em>in directions in a recipe or procedural text.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "describe strategies they found helpful before, during, and after reading to understand texts\n  identify their areas of greater and lesser strength as readers, and plan steps they can take to improve their reading skills (e.g., rank their top three reading comprehension strategies in order of effectiveness and give reasons for their ranking; compare their top strategies with those of a peer and collaborate to describe the best use for each strategy)",
+              "text_html": "<ul>\n  <li>describe strategies they found helpful before, during, and after reading to understand texts</li>\n  <li>identify their areas of greater and lesser strength as readers, and plan steps they can take to improve their reading skills <em>(e.g., rank their top three reading comprehension strategies in order of effectiveness and give reasons for their ranking; compare their top strategies with those of a peer and collaborate to describe the best use for each strategy)</em></li>\n</ul>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quelles stratégies utilises-tu pour te rappeler des arguments importants?\n  Quelles questions te poses-tu pour vérifier que tu as bien compris?\n  Est-ce que ces stratégies sont efficaces? Pourquoi? Quelles autres stratégies peux-tu utiliser?",
+                  "text_html": "<ul>\n  <li>Quelles stratégies utilises-tu pour te rappeler des arguments importants?</li>\n  <li>Quelles questions te poses-tu pour vérifier que tu as bien compris?</li>\n  <li>Est-ce que ces stratégies sont efficaces? Pourquoi? Quelles autres stratégies peux-tu utiliser?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can review ways in which students can use questions to help them set personal goals for improvement in reading.",
+                  "text_html": "<ul>\n  <li>Teachers can review ways in which students can use questions to help them set personal goals for improvement in reading.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Intercultural Understanding",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of information in French texts about aspects of culture in diverse French-speaking communities and other communities around the world, and of French sociolinguistic conventions used in a variety of situations and communities.",
+          "text_html": "<p>demonstrate an understanding of information in French texts about aspects of culture in diverse French-speaking communities and other communities around the world, and of French sociolinguistic conventions used in a variety of situations and communities.</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "using information from a variety of French texts, identify French-speaking communities worldwide, find out about aspects of their cultures, and make connections to personal experiences and their own and other communities (e.g., research symbols associated with specific French-speaking communities and explain their significance; from their reading of advertisements and promotional material, identify some culturally significant practices related to events in French-speaking communities in various countries, such as Switzerland, Belgium, or Canada; read job postings to identify languages required in business in French-speaking communities around the world; compare posted signage in French-speaking regions and infer some of the interests, values, and societal norms of those communities; read descriptions of the flags of various French-speaking countries and describe how the elements reflect the national history or culture)",
+              "text_html": "<p>using information from a variety of French texts, identify French-speaking communities worldwide, find out about aspects of their cultures, and make connections to personal experiences and their own and other communities <em>(e.g., research symbols associated with specific French-speaking communities and explain their significance; from their reading of advertisements and promotional material, identify some culturally significant practices related to events in French-speaking communities in various countries, such as Switzerland, Belgium, or Canada; read job postings to identify languages required in business in French-speaking communities around the world; compare posted signage in French-speaking regions and infer some of the interests, values, and societal norms of those communities; read descriptions of the flags of various French-speaking countries and describe how the elements reflect the national history or culture)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quels pays francophones aimerais-tu visiter si tu le pouvais? Pourquoi?\n  Comment est-ce que les textes publicitaires essaient de mettre en valeur les aspects enchanteurs des pays pour convaincre les gens d’y aller?\n  De quel point de vue l’information est-elle présentée dans la publicité?\n  Quelle est ta réaction à l’information présentée dans le texte? Comment est-ce que cette information t’aide à mieux comprendre cette communauté?",
+                  "text_html": "<ul>\n  <li>Quels pays francophones aimerais-tu visiter si tu le pouvais? Pourquoi?</li>\n  <li>Comment est-ce que les textes publicitaires essaient de mettre en valeur les aspects enchanteurs des pays pour convaincre les gens d’y aller?</li>\n  <li>De quel point de vue l’information est-elle présentée dans la publicité?</li>\n  <li>Quelle est ta réaction à l’information présentée dans le texte? Comment est-ce que cette information t’aide à mieux comprendre cette communauté?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "To help students develop their ability to understand texts from other cultures, teachers can suggest that, before reading, students find out about the writer and the circumstances in which the text was written and that they pay attention to illustrations for clues about the text and the culture that produced it.",
+                  "text_html": "<ul>\n  <li>To help students develop their ability to understand texts from other cultures, teachers can suggest that, before reading, students find out about the writer and the circumstances in which the text was written and that they pay attention to illustrations for clues about the text and the culture that produced it.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "identify, in a variety of French texts, examples of sociolinguistic conventions associated with a variety of social situations in diverse French- speaking communities (e.g., compare vocabulary in menus from two French-speaking communities; identify words and expressions unique to certain communities; describe how the words of the national anthem of a specific French-speaking country reflect aspects of its national history or culture)",
+              "text_html": "<p>identify, in a variety of French texts, examples of sociolinguistic conventions associated with a variety of social situations in diverse French- speaking communities <em>(e.g., compare vocabulary in menus from two French-speaking communities; identify words and expressions unique to certain communities; describe how the words of the national anthem of a specific French-speaking country reflect aspects of its national history or culture)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quelles sont les nouvelles expressions régionales retrouvées dans les vers d’un poème ou dans les paroles des chansons étudiées? Comment est-ce que tu vas essayer de les utiliser dans tes réponses?",
+                  "text_html": "<ul>\n  <li>Quelles sont les nouvelles expressions régionales retrouvées dans les vers d’un poème ou dans les paroles des chansons étudiées? Comment est-ce que tu vas essayer de les utiliser dans tes réponses?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to use an organizer such as a Venn diagram when comparing and contrasting vocabulary from different French-speaking communities.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to use an organizer such as a <a data-item-id=\"1373f2ba-1139-4bdd-a28b-9567c163a5f3\" href=\"\">Venn diagram</a> when comparing and contrasting vocabulary from different French-speaking communities.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Writing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Purpose, Audience, and Form",
+          "describer": "By the end of this course, students will:",
+          "text": "write French texts for different purposes and audiences, using a variety of forms and knowledge of language structures and conventions of written French appropriate for this level",
+          "text_html": "<p>write French texts for different purposes and audiences, using a variety of forms and knowledge of language structures and conventions of written French appropriate for this level</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "determine their purpose in writing and the audience for the French texts they plan to create (e.g., to publish an article in a school paper based on an interview with a family member about his or her cultural traditions; to critique a film for a blog; to promote community service in an advertisement; to prepare a report explaining how something works or why something happened; to create a travel brochure to convince their families to visit a particular city or country; to develop a series of dialogues illustrating various ways to request and give directions; to compose an email or text message accepting an invitation to a party and confirming information about the event; to highlight the admirable qualities of a personal hero in a biography; to create a newspaper or magazine advertisement discussing the benefits and importance of learning French or other languages; to create an advertising campaign to persuade students to support a school fundraising event)",
+              "text_html": "<p>determine their purpose in writing and the audience for the French texts they plan to create <em>(e.g., to publish an article in a school paper based on an interview with a family member about his or her cultural traditions; to critique a film for a blog; to promote community service in an advertisement; to prepare a report explaining how something works or why something happened; to create a travel brochure to convince their families to visit a particular city or country; to develop a series of dialogues illustrating various ways to request and give directions; to compose an email or text message accepting an invitation to a party and confirming information about the event; to highlight the admirable qualities of a personal hero in a biography; to create a newspaper or magazine advertisement discussing the benefits and importance of learning French or other languages; to create an advertising campaign to persuade students to support a school fundraising event)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Quels sont les éléments essentiels d’une nouvelle journalistique?\n  Comment peux-tu déterminer qu’une publicité est intéressante et cohérente pour tes lecteurs?\n  Dans quelle mesure une biographie est-elle un véhicule efficace des expériences vécues par une personne d’importance dans un mouvement social ou environnemental?",
+                  "text_html": "<ul>\n  <li>Quels sont les éléments essentiels d’une nouvelle journalistique?</li>\n  <li>Comment peux-tu déterminer qu’une publicité est intéressante et cohérente pour tes lecteurs?</li>\n  <li>Dans quelle mesure une biographie est-elle un véhicule efficace des expériences vécues par une personne d’importance dans un mouvement social ou environnemental?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can review the use of the futur simple and encourage students to use it when writing about the benefits of volunteering for a local, a national, or an international non-governmental organization. \n  Teachers can suggest that students use past tenses (passé composé and imparfait) when writing about the accomplishments of someone they admire.",
+                  "text_html": "<ul>\n  <li>Teachers can review the use of the <em>futur simple </em>and encourage students to use it when writing about the benefits of volunteering for a local, a national, or an international non-governmental organization.&nbsp;</li>\n  <li>Teachers can suggest that students use past tenses (<em>passé composé </em>and <em>imparfait</em>) when writing about the accomplishments of someone they admire.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "write a variety of French texts to convey information, ideas, and opinions about everyday matters and personally relevant topics, applying their knowledge of some of the structural and stylistic elements of each form (e.g., an editorial to encourage adults to improve their energy conservation practices; a promotional text for a book or a movie; a slogan to encourage healthy and active living; a classified advertisement about an item lost, found, or for sale; an FAQ section for a school website about school-based apprenticeships or opportunities for bilingual volunteer work)",
+              "text_html": "<p>write a variety of French texts to convey information, ideas, and opinions about everyday matters and personally relevant topics, applying their knowledge of some of the structural and stylistic elements of each form <em>(e.g., an editorial to encourage adults to improve their energy conservation practices; a promotional text for a book or a movie; a slogan to encourage healthy and active living; a classified advertisement about an item lost, found, or for sale; an FAQ section for a school website about school-based apprenticeships or opportunities for bilingual volunteer work)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment est-ce que les éléments stylistiques d’un slogan peuvent inciter les gens à faire des liens personnels?\n  Pourquoi y a-t-il une répétition de mots clés dans un message publicitaire?",
+                  "text_html": "<ul>\n  <li>Comment est-ce que les éléments stylistiques d’un slogan peuvent inciter les gens à faire des liens personnels?</li>\n  <li>Pourquoi y a-t-il une répétition de mots clés dans un message publicitaire?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to use the impératif in a slogan.\n  Teachers can suggest that students consider whether to use diagrams and/or point-form notes to explain their ideas in a text.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to use the <em>impératif </em>in a slogan.</li>\n  <li>Teachers can suggest that students consider whether to use diagrams and/or point-form notes to explain their ideas in a text.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.3",
+              "text": "communicate their meaning clearly, using parts of speech appropriately and following conventions for correct spelling, word order, and punctuation (e.g., describe places, objects, people, and feelings using correct forms of sensory adjectives and adverbs; express opinions or arguments using impersonal expressions and interjections; give instructions in a recipe, positioning object pronouns correctly with the impératif; write an autobiography using a variety of past tenses; vary sentence length and use conjunctions such as “si”, “quand”, “lorsque”, “dès que”, “cependant”, “car”, “donc” to create more complex sentences)",
+              "text_html": "<p>communicate their meaning clearly, using parts of speech appropriately and following conventions for correct spelling, word order, and punctuation <em>(e.g., describe places, objects, people, and feelings using correct forms of sensory adjectives and adverbs; express opinions or arguments using impersonal expressions and interjections; give instructions in a recipe, positioning object pronouns correctly with the </em>impératif<em>; write an autobiography using a variety of past tenses; vary sentence length and use conjunctions such as “si”, “quand”, “lorsque”, “dès que”, “cependant”, “car”, “donc” to create more complex sentences)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment peut-on varier les types de phrase dans un article?\n  De quelle façon peut-on exprimer une opinion ou un argument?",
+                  "text_html": "<ul>\n  <li>Comment peut-on varier les types de phrase dans un article?</li>\n  <li>De quelle façon peut-on exprimer une opinion ou un argument?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can illustrate how using a variety of conjunctions can help students to connect words, sentences, and ideas (e.g., “Je suis en retard lorsque je manque l’autobus”, “La solution est très simple, cependant personne n’y a pensé”).\n  Teachers can suggest that students use affirmative and negative infinitives following impersonal expressions (e.g., “Il est important d’être bilingue au Canada parce que…”, “Il est nécessaire de se protéger contre les rayons du soleil, car…”, “Il est préférable de ne pas conduire trop vite, étant donné que…”) to express their arguments forcefully.",
+                  "text_html": "<ul>\n  <li>Teachers can illustrate how using a variety of conjunctions can help students to connect words, sentences, and ideas (e.g., “Je suis en retard lorsque je manque l’autobus”, “La solution est très simple, cependant personne n’y a pensé”).</li>\n  <li>Teachers can suggest that students use affirmative and negative infinitives following impersonal expressions (e.g., “Il est important d’être bilingue au Canada parce que…”, “Il est nécessaire de se protéger contre les rayons du soleil, car…”, “Il est préférable de ne pas conduire trop vite, étant donné que…”) to express their arguments forcefully.</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "The Writing Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the stages of the writing process – including pre-writing, producing drafts, revising, editing, and publishing – to develop and organize content, clarify ideas and expression, correct errors, and present their work effectively",
+          "text_html": "<p>use the stages of the writing process – including pre-writing, producing drafts, revising, editing, and publishing – to develop and organize content, clarify ideas and expression, correct errors, and present their work effectively</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "generate, develop, and organize ideas for writing using a variety of pre-writing strategies and resources (e.g., discuss and reflect on personal opinions about a specific topic before writing; create a timeline of important events and personal achievements to use as the basis for an autobiography; discuss personal reactions with peers to clarify their own response to the word of a First Nation, Métis, or Inuit artist)",
+              "text_html": "<p>generate, develop, and organize ideas for writing using a variety of pre-writing strategies and resources <em>(e.g., discuss and reflect on personal opinions about a specific topic before writing; create a timeline of important events and personal achievements to use as the basis for an autobiography; discuss personal reactions with peers to clarify their own response to the word of a First Nation, Métis, or Inuit artist)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment peux-tu organiser tes idées pour présenter une opinion claire et convaincante?\n  Quel outil trouves-tu le plus efficace pour organiser tes idées avant d’écrire une ébauche?",
+                  "text_html": "<ul>\n  <li>Comment peux-tu organiser tes idées pour présenter une opinion claire et convaincante?</li>\n  <li>Quel outil trouves-tu le plus efficace pour organiser tes idées avant d’écrire une ébauche?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to use an organizer, such as a flow chart, idea web, or cause and effect organizer, to help them sort information and ideas into subtopics when writing a report.\n  Teachers can model a variety of interrogative adverbs (e.g., “qui”, “quoi”, “combien (de)”, “comment”, “où”, “pourquoi”, “quand”) and encourage students to use them when deciding what information to include in their draft.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to use an organizer, such as a flow chart, idea web, or cause and effect organizer, to help them sort information and ideas into subtopics when writing a report.</li>\n  <li>Teachers can model a variety of interrogative adverbs (e.g., “qui”, “quoi”, “combien (de)”, “comment”, “où”, “pourquoi”, “quand”) and encourage students to use them when deciding what information to include in their draft.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "plan and produce drafts and revise their work using a variety of teacher-directed and independent strategies (e.g., identify frequently used vocabulary and integrate a greater variety of words and expressions in their text; use a teacher- or student-generated checklist to revise grammar, spelling, syntax, and punctuation; prioritize ideas and information to improve organization and clarify the message; use feedback from peer and teacher conferences to improve a written piece; vary sentence length to add interest and improve coherence)",
+              "text_html": "<p>plan and produce drafts and revise their work using a variety of teacher-directed and independent strategies <em>(e.g., identify frequently used vocabulary and integrate a greater variety of words and expressions in their text; use a teacher- or student-generated checklist to revise grammar, spelling, syntax, and punctuation; prioritize ideas and information to improve organization and clarify the message; use feedback from peer and teacher conferences to improve a written piece; vary sentence length to add interest and improve coherence)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Comment les notes que tu prends pendant une lecture t’aident-elles à écrire le brouillon d’un résumé et pourquoi?\n  De quelle façon la rétroaction de tes pairs t’encourage-t-elle à réviser ton travail?\n  Comment les autres modèles que tu as trouvés durant ta recherche t’inspirent-ils à améliorer ton article de journal d’école?",
+                  "text_html": "<ul>\n  <li>Comment les notes que tu prends pendant une lecture t’aident-elles à écrire le brouillon d’un résumé et pourquoi?</li>\n  <li>De quelle façon la rétroaction de tes pairs t’encourage-t-elle à réviser ton travail?</li>\n  <li>Comment les autres modèles que tu as trouvés durant ta recherche t’inspirent-ils à améliorer ton article de journal d’école?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can provide students with opportunities to develop their ability to correctly and appropriately use object pronouns (i.e., “le”, “la”, “les”, “lui”, “leur”, “en”) with simple and compound verbs to replace repeated nouns in sentences.",
+                  "text_html": "<p>Teachers can provide students with opportunities to develop their ability to correctly and appropriately use object pronouns (i.e., “le”, “la”, “les”, “lui”, “leur”, “en”) with simple and compound verbs to replace repeated nouns in sentences.</p>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "make improvements to enhance the clarity and readability of their written work, and use some elements of effective presentation to produce a polished product for publication (e.g., add appropriate visuals or graphics to support key ideas; check for adequate development of information and ideas; check that their use of punctuation is appropriate and consistent with their meaning)",
+              "text_html": "<p>make improvements to enhance the clarity and readability of their written work, and use some elements of effective presentation to produce a polished product for publication <em>(e.g., add appropriate visuals or graphics to support key ideas; check for adequate development of information and ideas; check that their use of punctuation is appropriate and consistent with their meaning)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "As-tu répondu aux critères nécessaires pour accomplir ta tâche écrite?\n  De quelle façon les ressources électroniques te permettent-elles d’améliorer la qualité de ta production écrite?\n  Comment peux-tu rectifier la ponctuation de ton travail écrit?",
+                  "text_html": "<ul>\n  <li>As-tu répondu aux critères nécessaires pour accomplir ta tâche écrite?</li>\n  <li>De quelle façon les ressources électroniques te permettent-elles d’améliorer la qualité de ta production écrite?</li>\n  <li>Comment peux-tu rectifier la ponctuation de ton travail écrit?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can review the use of final punctuation for different sentence types, and can illustrate how altering internal punctuation can affect the message of a text (e.g., “Sam dit : le prof est drôle”, “Sam, dit le prof, est drôle”).",
+                  "text_html": "<ul>\n  <li>Teachers can review the use of final punctuation for different sentence types, and can illustrate how altering internal punctuation can affect the message of a text (e.g., “Sam dit : le prof est drôle”, “Sam, dit le prof, est drôle”).</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.4",
+              "text": "describe strategies they found helpful before, during, and after writing\n  identify their areas of greater and lesser strength as writers, and plan steps they can take to improve their writing skills (e.g., note in a writing log instances of writer’s block, what they did to overcome it, and how their strategies worked; assess their text against success criteria to determine what they did effectively and what could be improved)",
+              "text_html": "<ul>\n  <li>describe strategies they found helpful before, during, and after writing</li>\n  <li>identify their areas of greater and lesser strength as writers, and plan steps they can take to improve their <a data-item-id=\"95626b2c-5949-4b06-afb6-fc24f789eac2\" href=\"\">writing skills</a> <em>(e.g., note in a writing log instances of writer’s block, what they did to overcome it, and how their strategies worked; assess their text against success criteria to determine what they did effectively and what could be improved)</em></li>\n</ul>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Est-ce que tu es satisfait de ton travail? Que peux-tu changer pour l’améliorer?\n  Comment est-ce que la lecture du travail des autres t’aide à enrichir ton vocabulaire?",
+                  "text_html": "<ul>\n  <li>Est-ce que tu es satisfait de ton travail? Que peux-tu changer pour l’améliorer?</li>\n  <li>Comment est-ce que la lecture du travail des autres t’aide à enrichir ton vocabulaire?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "To help build confidence and reduce anxiety about writing, teachers can provide students with repeated opportunities to self-assess their use of strategies throughout the writing process.",
+                  "text_html": "<p>To help build confidence and reduce anxiety about writing, teachers can provide students with repeated opportunities to self-assess their use of strategies throughout the <a data-item-id=\"636e61cf-25d6-4092-99df-b844e635c844\" href=\"\">writing process</a>.</p>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Intercultural Understanding",
+          "describer": "By the end of this course, students will:",
+          "text": "in their written work, demonstrate an awareness of aspects of culture in diverse French-speaking communities and other communities around the world, and of the appropriate use of French sociolinguistic conventions in a variety of situations",
+          "text_html": "<p>in their written work, demonstrate an awareness of aspects of <a data-item-id=\"913ee599-052c-4f8e-88a6-5ff1e718ec72\" href=\"\">culture</a> in diverse French-speaking communities and other communities around the world, and of the appropriate use of French sociolinguistic conventions in a variety of situations</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "in their written work, communicate information about French- speaking communities worldwide, including aspects of their cultures and their contributions to la francophonie and the world, and make connections to personal experiences and their own and other communities (e.g., describe the influence of French colonization on the architecture of a French-speaking region; create a menu, including the prices, for a traditional French Canadian meal; write a journal entry describing the events during “la semaine de la francophonie”; describe the origins of a tradition or pastime from a French-speaking community; create a promotional poster related to the cuisine of a French-speaking country, such as “Saveurs de la Martinique”)",
+              "text_html": "<p>in their written work, communicate information about French- speaking communities worldwide, including aspects of their cultures and their contributions to <em>la francophonie </em>and the world, and make connections to personal experiences and their own and other communities <em>(e.g., describe the influence of French colonization on the architecture of a French-speaking region; create a menu, including the prices, for a traditional French Canadian meal; write a journal entry describing the events during “la semaine de la francophonie”; describe the origins of a tradition or pastime from a French-speaking community; create a promotional poster related to the cuisine of a French-speaking country, such as “Saveurs de la Martinique”)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "En quoi ton journal personnel serait-il différent de celui d’un adolescent haïtien?\n  Quel impact a ton choix de mots et d’expressions sur la réaction des autres?\n  Comment ta perception d’une autre culture est-elle influencée par tes propres valeurs?",
+                  "text_html": "<ul>\n  <li>En quoi ton journal personnel serait-il différent de celui d’un adolescent haïtien?</li>\n  <li>Quel impact a ton choix de mots et d’expressions sur la réaction des autres?</li>\n  <li>Comment ta perception d’une autre culture est-elle influencée par tes propres valeurs?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can encourage students to use verbs such as “pouvoir”, “vouloir”, and “devoir” in the text of promotional posters (e.g., “On peut goûter…”, “Vous voulez essayer…”, “Nous devons aller…”).\n  Teachers can provide opportunities for students to build vocabulary and expressions related to dining out (e.g., “à la carte”), types of food in different French-speaking communities, adjectives for describing food, verbs for cooking, and supermarket vocabulary.",
+                  "text_html": "<ul>\n  <li>Teachers can encourage students to use verbs such as “pouvoir”, “vouloir”, and “devoir” in the text of promotional posters (e.g., “On peut goûter…”, “Vous voulez essayer…”, “Nous devons aller…”).</li>\n  <li>Teachers can provide opportunities for students to build vocabulary and expressions related to dining out (e.g., “à la carte”), types of food in different French-speaking communities, adjectives for describing food, verbs for cooking, and supermarket vocabulary.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "identify sociolinguistic conventions associated with a variety of social situations in diverse French-speaking communities, and use them appropriately in their written work (e.g., use appropriate salutations and levels of formality when writing invitations for a special event to friends, the school principal, teachers, or a local government official; write to an organization to offer their services as a volunteer, explaining their reasons for volunteering, expressing interest in a particular position, and discussing how their skills and experiences can make a contribution; write a thank-you note to a store’s manager after a job interview)",
+              "text_html": "<p>identify sociolinguistic conventions associated with a variety of social situations in diverse French-speaking communities, and use them appropriately in their written work <em>(e.g., use appropriate salutations and levels of formality when writing invitations for a special event to friends, the school principal, teachers, or a local government official; write to an organization to offer their services as a volunteer, explaining their reasons for volunteering, expressing interest in a particular position, and discussing how their skills and experiences can make a contribution; write a thank-you note to a store’s manager after a job interview)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Pourquoi est-il important de déterminer le destinataire du message que l’on écrit?\n  Quels mots ou expressions as-tu incorporés dans ton texte pour faire la différence entre des messages adressés à un ami, au directeur d’école, aux enseignants et à un représentant du gouvernement dans ta région?\n  Comment sais-tu que tu as utilisé le mot convenable?",
+                  "text_html": "<ul>\n  <li>Pourquoi est-il important de déterminer le destinataire du message que l’on écrit?</li>\n  <li>Quels mots ou expressions as-tu incorporés dans ton texte pour faire la différence entre des messages adressés à un ami, au directeur d’école, aux enseignants et à un représentant du gouvernement dans ta région?</li>\n  <li>Comment sais-tu que tu as utilisé le mot convenable?</li>\n</ul>"
+                },
+                {
+                  "type": "Instructional tips",
+                  "text": "Teachers can remind students of the difference between “tu” and “vous”.\n  Teachers and students can develop a list of appropriate salutations and closings for different audiences (e.g., “Salut”, “Cher/Chère”, “Monsieur/Madame”, “Je vous prie d’agréer, Monsieur le directeur, l’expression de mes sentiments distingués”, “Espérant une réponse positive…”).",
+                  "text_html": "<ul>\n  <li>Teachers can remind students of the difference between “tu” and “vous”.</li>\n  <li>Teachers and students can develop a list of appropriate salutations and closings for different audiences (e.g., “Salut”, “Cher/Chère”, “Monsieur/Madame”, “Je vous prie d’agréer, Monsieur le directeur, l’expression de mes sentiments distingués”, “Espérant une réponse positive…”).</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

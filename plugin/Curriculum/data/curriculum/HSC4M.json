@@ -1,0 +1,796 @@
+{
+  "code": "HSC4M",
+  "name": "World Cultures",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "University-College Preparation",
+  "category": "Equity Studies",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course examines the nature of culture; how cultural identities are acquired, maintained, and transformed; and theories used to analyse cultures. Students will explore world cultures, with an emphasis on the analysis of religious and spiritual beliefs, art forms, and philosophy. They will study the contributions and influence of a range of cultural groups and will critically analyse issues facing ethnocultural groups within Canada and around the world. Students will develop and apply research skills and will design and implement a social action initiative relating to cultural diversity.",
+  "prerequisites": "Any university, college, or university/college preparation course in social sciences and humanities, English, or Canadian and world studies",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hsc4m",
+  "source_codename": "hse4m__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to world cultures and/or cultural groups, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to world cultures and/or cultural groups, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to world cultures and/or cultural groups (e.g., ethnocul­tural study of a particular culture, the issue of hyphenated identities, educational and employment barriers faced by newcomers to Canada, changing gender roles in specific cultures) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to world cultures and/or cultural groups <em>(e.g., ethnocul­tural study of a particular </em><a data-item-id=\"9ec6e0d9-4e3b-48ba-95df-6fc44cefefb4\" href=\"\"><em>culture</em></a><em>, the issue of hyphenated identities, educational and employment barriers faced by newcomers to Canada, changing </em><a data-item-id=\"f78eaa80-281b-4210-bd8c-a47d44dfccd8\" href=\"\"><em>gender roles</em></a><em> in specific cultures) </em>to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers) </em>related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were researching attitudes towards sexual diversity in different cultures, why might it be important to consider how these attitudes have changed over time? How might you do so?",
+                  "text_html": "<ul>\n  <li>If you were researching attitudes towards sexual diversity in different cultures, why might it be important to consider how these attitudes have changed over time? How might you do so?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investi­gate their selected topics (e.g., outline purpose and method; identify sources of information), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investi­gate their selected topics <em>(e.g., outline purpose and method; identify sources of information)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews; observations; surveys and questionnaires; original documents in print or other media such as film, photographs, songs, advertisements) and secondary sources (e.g., book reviews, magazine articles, literature reviews in academic journals)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews; observations; surveys and questionnaires; original documents in print or other media such as film, photographs, songs, advertisements) </em>and secondary sources <em>(e.g., book reviews, magazine articles, literature reviews in academic journals)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the difference between a primary and a secondary source? How can you determine whether a source is primary or secondary?\n  Why is it important to base your research on a variety of sources?",
+                  "text_html": "<ul>\n  <li>What is the difference between a primary and a secondary source? How can you determine whether a source is primary or secondary?</li>\n  <li>Why is it important to base your research on a variety of sources?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research and inquiry",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research and inquiry</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gathered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gathered from primary and secondary sources <em>(e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies can you use to determine the relevance of the information you have gathered? \n  If two sources contradict each other, how might you determine which is more reliable? \n  What values are embedded in these sources? \n  Whose voices are represented and whose are absent? \n  Whose interests are advanced if you believe the main message of this source?",
+                  "text_html": "<ul>\n  <li>What strategies can you use to determine the relevance of the information you have gathered?&nbsp;</li>\n  <li>If two sources contradict each other, how might you determine which is more reliable?&nbsp;</li>\n  <li>What values are embedded in these sources?&nbsp;</li>\n  <li>Whose voices are represented and whose are absent?&nbsp;</li>\n  <li>Whose interests are advanced if you believe the main message of this source?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety formats (e.g., notes, graphic organizers, summaries, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety formats <em>(e.g., notes, graphic organizers, summaries, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare results of surveys and interviews; determine whether common themes arise in different sources)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare results of surveys and interviews; determine whether common themes arise in different sources)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by docu­menting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by docu­menting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclu­sions (e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research question)",
+              "text_html": "<p>synthesize findings and formulate conclu­sions <em>(e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research question)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presenta­tion, written research report, poster, multimedia presentation, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format <em>(e.g., oral presenta­tion, written research report, poster, multimedia presentation, web page) </em>to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "use terms relating to world cultures and cultural groups correctly (e.g., power dynamics, endogamy and exogamy, social institutions, assimi­lation, multiculturalism, cultural imperialism, cultural appropriation, hyphenated identities)",
+              "text_html": "<p>use terms relating to world cultures and cultural groups correctly <em>(e.g., </em><a data-item-id=\"e66b5722-963d-4557-8f4b-5cb550bc1d97\" href=\"\"><em>power </em></a><em>dynamics, endogamy and exogamy, social institutions, assimi­lation, </em><a data-item-id=\"e33f33b0-51d8-49d2-9163-daf4532f8fa9\" href=\"\"><em>multiculturalism</em></a><em>, cultural imperialism, </em><a data-item-id=\"0eea1f2d-56c1-46cd-8b82-f5ff0060f735\" href=\"\"><em>cultural appropriation</em></a><em>, hyphenated identities)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style, use in-text author-date citations)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style, use in-text author-date citations)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways did your sources confirm what you already knew and understood about the topic? In what ways did they contradict what you thought was true? \n  How might the sources that you consulted have affected the conclusions that you reached?",
+                  "text_html": "<ul>\n  <li>In what ways did your sources confirm what you already knew and understood about the topic? In what ways did they contradict what you thought was true?&nbsp;</li>\n  <li>How might the sources that you consulted have affected the conclusions that you reached?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "The Concept of Culture",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Understanding Culture",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the elements and functions of culture and of the nature of cultural influence",
+          "text_html": "<p>demonstrate an understanding of the elements and functions of culture and of the nature of cultural influence</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "demonstrate an understanding of the ele­ments of culture (e.g., language, symbols, arts, literature, values, beliefs, traditions, ethnic origin, religion, social hierarchies, kinship relations) asso­ciated with various definitions of the term (e.g., the UNESCO definition; anthropological, sociological, humanist definitions)",
+              "text_html": "<p>demonstrate an understanding of the ele­ments of culture <em>(e.g., language, symbols, arts, literature, values, beliefs, traditions, ethnic origin, religion, social hierarchies, kinship relations) </em>asso­ciated with various definitions of the term <em>(e.g., the UNESCO definition; anthropological, sociological, humanist definitions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were describing Canadian culture to a friend from another country, what elements would you focus on? In what respects might these elements differ if you were describing Canadian culture to an anthropologist? \n  Why is language such a significant element of culture? In what ways do religion and culture overlap? In what ways are they distinct from one another?",
+                  "text_html": "<ul>\n  <li>If you were describing Canadian culture to a friend from another country, what elements would you focus on? In what respects might these elements differ if you were describing Canadian culture to an anthropologist?&nbsp;</li>\n  <li>Why is language such a significant element of culture? In what ways do religion and culture overlap? In what ways are they distinct from one another?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "analyse various functions of culture (e.g., contributing to an individual’s sense of self and sense of community; providing a sense of security; establishing and enforcing social norms; providing meaning, purpose, and structure in individuals’ lives)",
+              "text_html": "<p>analyse various functions of culture <em>(e.g., contributing to an individual’s sense of self and sense of community; providing a sense of security; establishing and enforcing social norms; providing meaning, purpose, and structure in individuals’ lives)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the positive aspects of the cultural enforcement of social norms? What negative effects might arise from this enforcement? \n  What are the benefits of belong­ing to a cultural group? What are some other sources of the sense of security and belonging that are often provided by a cultural group?",
+                  "text_html": "<ul>\n  <li>What are the positive aspects of the cultural enforcement of social norms? What negative effects might arise from this enforcement?&nbsp;</li>\n  <li>What are the benefits of belong­ing to a cultural group? What are some other sources of the sense of security and belonging that are often provided by a cultural group?&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "describe multiple ways in which culture can influence an individual’s perceptions, attitudes, and behaviours (e.g., with respect to dietary choices/restrictions, customs, habits, moral expectations, the human relationship to nature, social roles such as gender roles or roles associated with age) and can shape social institutions and practices (e.g., the education system, employment opportunities, forms of entertainment)",
+              "text_html": "<p>describe multiple ways in which culture can influence an individual’s perceptions, attitudes, and behaviours <em>(e.g., with respect to dietary choices/restrictions, customs, habits, moral expectations, the human relationship to nature, social roles such as gender roles or roles associated with age) </em>and can shape social institutions and practices <em>(e.g., the education system, employment opportunities, forms of entertainment)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does culture influence your everyday social interactions? How does your culture regulate your behaviour at school, at home, and in public? \n  In what ways does the culture of your school conflict with your home culture? How do you manage those conflicts? \n  What impact does a society’s culture have on its educational system?",
+                  "text_html": "<ul>\n  <li>In what ways does culture influence your everyday social interactions? How does your culture regulate your behaviour at school, at home, and in public?&nbsp;</li>\n  <li>In what ways does the culture of your school conflict with your home culture? How do you manage those conflicts?&nbsp;</li>\n  <li>What impact does a society’s culture have on its educational system?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Cultural Dynamics",
+          "describer": "By the end of this course, students will:",
+          "text": "analyse how cultural identities are socially constructed, preserved, transmitted, and transformed",
+          "text_html": "<p>analyse how cultural identities are socially constructed, preserved, transmitted, and transformed</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "demonstrate an understanding of how an individual’s cultural identity is socially constructed (e.g., with reference to family expectations, peer pressure, religious expectations, education and training, media and popular culture)",
+              "text_html": "<p>demonstrate an understanding of how an individual’s cultural identity is socially constructed <em>(e.g., with reference to family expectations, peer pressure, religious expectations, education and training, media and popular culture)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "analyse how culture is acquired and main­tained within a group (e.g., through oral/written traditions, social and religious organizations and institutions, language, symbols, customs and mores, art, philosophy; through practices such as endogamy",
+              "text_html": "<p>analyse how culture is acquired and main­tained within a group <em>(e.g., through oral/written traditions, social and religious organizations and institutions, language, symbols, customs and mores, art, philosophy; through practices such as endogamy</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What role does oral history play in teaching us about culture?\n  What is the importance of language and customs in maintaining cultural identity? \n  What steps have Franco-Ontarians and Québécois taken to preserve their cultural identity? \n  How do groups use art to preserve their culture? \n  What are the similarities and differences in the ways in which culture is acquired and maintained in an ethnocultural group and in workplace and/or school groups?",
+                  "text_html": "<ul>\n  <li>What role does oral history play in teaching us about culture?</li>\n  <li>What is the importance of language and customs in maintaining cultural identity?&nbsp;</li>\n  <li>What steps have Franco-Ontarians and Québécois taken to preserve their cultural identity?&nbsp;</li>\n  <li>How do groups use art to preserve their culture?&nbsp;</li>\n  <li>What are the similarities and differences in the ways in which culture is acquired and maintained in an ethnocultural group and in workplace and/or school groups?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "analyse ways in which culture is transmitted between groups (e.g., through dispersion, incorporation, assimilation, diffusion, conquest, exogamy, cultural imperialism) and how processes of transmission can result in changes to cultures, including loss of traditional culture",
+              "text_html": "<p>analyse ways in which culture is transmitted between groups <em>(e.g., through dispersion, incorporation, assimilation, diffusion, conquest, exogamy, cultural imperialism) </em>and how processes of transmission can result in changes to cultures, including loss of traditional culture</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What impact did the Canadian policy of forced assimilation have on First Nation people? In what ways are these experiences similar to or different from those of indigenous groups outside Canada? \n  What were the causes of the African and Jewish dias­poras? What impact did dispersion have on these cultures?",
+                  "text_html": "<ul>\n  <li>What impact did the Canadian policy of forced assimilation have on First Nation people? In what ways are these experiences similar to or different from those of indigenous groups outside Canada?&nbsp;</li>\n  <li>What were the causes of the African and Jewish dias­poras? What impact did dispersion have on these cultures?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.4",
+              "text": "compare the rates at which cultural change is taking place within a variety of cultures (e.g., with respect to language, social mores, traditions, religious observance, fashion, intergenerational rela­tionships, marriage, rites of passage; in the roles of women, men, and children), and analyse the fac­tors contributing to this change (e.g., technological change, economic development, globalization, epi­demics, migration, civil strife, education, mass media, climate change)",
+              "text_html": "<p>compare the rates at which cultural change is taking place within a variety of cultures <em>(e.g., with respect to language, social mores, traditions, religious observance, fashion, intergenerational rela­tionships, marriage, rites of passage; in the roles of women, men, and children)</em>, and analyse the fac­tors contributing to this change <em>(e.g., technological change, economic development, globalization, epi­demics, migration, civil strife, education, mass media, climate change)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways do individuals from the groups you are studying practise their culture differently from previous generations? \n  What impact does education have on the roles of women and children in the cultures you are considering? \n  How has the mass media affected fashion in various societies? \n  What are the current effects of rising sea levels on people living in island and coastal communities? What are the future effects likely to be?",
+                  "text_html": "<ul>\n  <li>In what ways do individuals from the groups you are studying practise their culture differently from previous generations?&nbsp;</li>\n  <li>What impact does education have on the roles of women and children in the cultures you are considering?&nbsp;</li>\n  <li>How has the mass media affected fashion in various societies?&nbsp;</li>\n  <li>What are the current effects of rising sea levels on people living in island and coastal communities? What are the future effects likely to be?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.5",
+              "text": "analyse various types of tensions that can occur between individuals and their collective culture (e.g., intergenerational conflict regarding social roles, values, beliefs, and behaviours such as gender roles, the language used at home, dating and courtship practices, dress; culture clashes between majority and minority cultures; tension between secular and religious perspectives on sexual mores)",
+              "text_html": "<p>analyse various types of tensions that can occur between individuals and their collective culture <em>(e.g., intergenerational conflict regarding social roles, values, beliefs, and behaviours such as gender roles, the language used at home, dating and courtship practices, dress; culture clashes between majority and minority cultures; tension between secular and religious perspectives on sexual mores)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Do you agree with all the cultural practices and beliefs of your family? If not, what are some of the areas of disagreement? Why do you think these areas are contentious? What are the positions of those on opposite sides of the debate about introducing sharia or other religious elements into family law in Ontario?",
+                  "text_html": "<ul>\n  <li>Do you agree with all the cultural practices and beliefs of your family? If not, what are some of the areas of disagreement? Why do you think these areas are contentious? What are the positions of those on opposite sides of the debate about introducing sharia or other religious elements into family law in Ontario?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Theoretical Analysis of Culture",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of theories and concepts related to the study of culture, and apply these theories to analyse various cultures",
+          "text_html": "<p>demonstrate an understanding of theories and concepts related to the study of culture, and apply these theories to analyse various cultures</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "explain the major ideas related to the study of culture of leading figures in the humanities and social sciences (e.g., Surinder Bhardwaj, Franz Boas, bell hooks, Ruth Hubbard, Samuel Huntington, JeeYeun Lee, Lila Abu Lughod, Marshall McLuhan, Margaret Mead, Ziba Mir-Hosseini, Gayle Rubin, Edward Said, Cornel West, Mayfair Mei-yui Yang)",
+              "text_html": "<p>explain the major ideas related to the study of culture of leading figures in the humanities and social sciences <em>(e.g., Surinder Bhardwaj, Franz Boas, bell hooks, Ruth Hubbard, Samuel Huntington, JeeYeun Lee, Lila Abu Lughod, Marshall McLuhan, Margaret Mead, Ziba Mir-Hosseini, Gayle Rubin, Edward Said, Cornel West, Mayfair Mei-yui Yang)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the significance of the notion of the “Other” in Edward Said’s theory of Orientalism? How does Said’s theory help us study and understand cultures that are different from our own? \n  What does Ziba Mir-Hosseini’s analysis of gender and Islam suggest about changing gender roles in Islamic societies?",
+                  "text_html": "<ul>\n  <li>What is the significance of the notion of the “Other” in Edward Said’s theory of Orientalism? How does Said’s theory help us study and understand cultures that are different from our own?&nbsp;</li>\n  <li>What does Ziba Mir-Hosseini’s analysis of <a data-item-id=\"cf378a4c-c93a-4b31-876f-b7b49c3cbdcc\" href=\"\">gender</a> and Islam suggest about changing gender roles in Islamic societies?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "demonstrate an understanding of theoretical perspectives used to analyse culture (e.g., structural functionalist, conflict theory, feminist theory, symbolic interactionist, and cultural materialist perspectives)",
+              "text_html": "<p>demonstrate an understanding of theoretical perspectives used to analyse culture <em>(e.g., structural functionalist, conflict theory, feminist theory, symbolic interactionist, and cultural materialist perspectives)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to cultural materialist theories, how does the economy influence the development of culture? In what ways does the cultural materialist view differ from conflict theory perspectives?",
+                  "text_html": "<ul>\n  <li>According to cultural materialist theories, how does the economy influence the development of culture? In what ways does the cultural materialist view differ from conflict theory perspectives?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "apply a range of theoretical perspectives to analyse selected cultures or cultural practices",
+              "text_html": "<p>apply a range of theoretical perspectives to analyse selected cultures or cultural practices</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might a structural functionalist perspective and a symbolic interactionist perspective differ in their analysis of the cow-jumping rite of passage among the Hamar people of Ethiopia? What are the strengths and weaknesses of both theoretical perspectives in helping you understand and explain this practice?",
+                  "text_html": "<ul>\n  <li>How might a structural functionalist perspective and a symbolic interactionist perspective differ in their analysis of the cow-jumping rite of passage among the Hamar people of Ethiopia? What are the strengths and weaknesses of both theoretical perspectives in helping you understand and explain this practice?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Cultural Expressions",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Art, Philosophy, and Religion",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of artistic expressions, philosophies, and religious/spiritual beliefs found within specific cultures, and of how these expressions relate to various aspects of those cultures",
+          "text_html": "<p>demonstrate an understanding of artistic expressions, philosophies, and religious/spiritual beliefs found within specific cultures, and of how these expressions relate to various aspects of those cultures</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "describe forms of artistic expression found within a specific culture (e.g., Koto drumming, Arab architecture, dancing in West Africa, totem poles of West Coast First Nations in Canada, Bollywood films), and explain how they relate to aspects of that culture (e.g., spiritual or religious beliefs or rituals; military or political traditions; social roles and structures; values, norms, and attitudes; identities)",
+              "text_html": "<p>describe forms of artistic expression found within a specific culture <em>(e.g., Koto drumming, Arab architecture, dancing in West Africa, totem poles of West Coast First Nations in Canada, Bollywood films)</em>, and explain how they relate to aspects of that culture <em>(e.g., spiritual or religious beliefs or rituals; military or political traditions; social roles and structures; values, norms, and attitudes; identities)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does the clothing used in the ceremony of encoffinment in Japan reflect attitudes and beliefs about death in that society?\n  In what ways is the art of Frida Kahlo a reflection of Mexican cultural identity? \n  What do African-American slave spirituals tell us about the society in which they were created? In what ways were these songs used? \n  What does Ghanaian literature reveal about that society?",
+                  "text_html": "<ul>\n  <li>How does the clothing used in the ceremony of encoffinment in Japan reflect attitudes and beliefs about death in that society?</li>\n  <li>In what ways is the art of Frida Kahlo a reflection of Mexican cultural identity?&nbsp;</li>\n  <li>What do African-American slave spirituals tell us about the society in which they were created? In what ways were these songs used?&nbsp;</li>\n  <li>What does Ghanaian literature reveal about that society?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "demonstrate an understanding of various secular beliefs or philosophies found within a specific culture (e.g., individualism, collectivism, patriarchalism, feminism, humanism, rationalism, egalitarianism, elitism, imperialism, Confucianism, Marxism, liberalism, conservatism, modernism, belief in capitalism) and of how they relate to various aspects of that culture (e.g., attitudes towards health and wellness, child-rearing practices, social hierarchies, rituals surrounding birth and death, concepts of land ownership and use, trade, education, taboos)",
+              "text_html": "<p>demonstrate an understanding of various secular beliefs or philosophies found within a specific culture <em>(e.g., individualism, collectivism, patriarchalism, </em><a data-item-id=\"7a4549e4-1cb7-4a4d-b0e5-0d8b9ab45894\" href=\"\"><em>feminism</em></a><em>, humanism, rationalism, egalitarianism, elitism, imperialism, Confucianism, Marxism, liberalism, conservatism, modernism, belief in capitalism) </em>and of how they relate to various aspects of that culture <em>(e.g., attitudes towards health and wellness, child-rearing practices, social hierarchies, rituals surrounding birth and death, concepts of land ownership and use, trade, education, taboos)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What attitudes and behav­iours are associated with consumerism in North America? \n  What impact have tribalism and imperialism had on social structures and atti­tudes in Rwanda? \n  What are the similarities and differences between tribalism and nation­alism? \n  Why is the global literacy rate higher for boys than for girls? What beliefs do such literacy statistics reflect? \n  What beliefs are reflected in the social organization of a feudal society? A patriarchal society? A democratic society? What implications do these beliefs have for individuals living in these societies?\n  What are the connections between Chinese medicine and Eastern philosophies of life and well-being?",
+                  "text_html": "<ul>\n  <li>What attitudes and behav­iours are associated with consumerism in North America?&nbsp;</li>\n  <li>What impact have tribalism and imperialism had on social structures and atti­tudes in Rwanda?&nbsp;</li>\n  <li>What are the similarities and differences between tribalism and nation­alism?&nbsp;</li>\n  <li>Why is the global literacy rate higher for boys than for girls? What beliefs do such literacy statistics reflect?&nbsp;</li>\n  <li>What beliefs are reflected in the social organization of a feudal society? A patriarchal society? A democratic society? What implications do these beliefs have for individuals living in these societies?</li>\n  <li>What are the connections between Chinese medicine and Eastern philosophies of life and well-being?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "demonstrate an understanding of various religious or spiritual beliefs (e.g., Taoism, Buddhism, Hinduism, Judaism, Christianity, Islam, Aboriginal or tribal spiritual beliefs) found within a specific culture and of how they relate to various aspects of that culture (e.g., dietary laws; social hierarchies; attitudes towards gender roles and social inequality; ethics and mores; rituals/practices around birth, marriage, sickness, death; educational practices; practices such as meditation, powwows, pilgrimages, shamanism, t’ai chi ch’uan, voodoo)",
+              "text_html": "<p>demonstrate an understanding of various religious or spiritual beliefs <em>(e.g., Taoism, Buddhism, Hinduism, Judaism, Christianity, Islam, Aboriginal or tribal spiritual beliefs) </em>found within a specific culture and of how they relate to various aspects of that culture <em>(e.g., dietary laws; social hierarchies; attitudes towards gender roles and social inequality; ethics and mores; rituals/practices around birth, marriage, sickness, death; educational practices; practices such as meditation, powwows, pilgrimages, shamanism, t’ai chi ch’uan, voodoo)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does t’ai chi ch’uan reflect Chinese philosophies of the mind, body, and spirit? \n  What is the relationship between the concept of reincarnation found in Hinduism and the caste system in India? \n  In what ways is liberation theology in Latin America related to the organization of social class? \n  In what ways are Mexican beliefs about the nature of death reflected in El Dia de los Muertos?",
+                  "text_html": "<ul>\n  <li>In what ways does t’ai chi ch’uan reflect Chinese philosophies of the mind, body, and spirit?&nbsp;</li>\n  <li>What is the relationship between the concept of reincarnation found in Hinduism and the caste system in India?&nbsp;</li>\n  <li>In what ways is liberation theology in Latin America related to the organization of social class?&nbsp;</li>\n  <li>In what ways are Mexican beliefs about the nature of death reflected in El Dia de los Muertos?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.4",
+              "text": "analyse the ways in which a culture’s rela­tionship to the environment is reflected in its art, philosophy, and religious/spiritual beliefs (e.g., with reference to depictions of nature in visual arts; creation stories of various cultures, including that of the Garden of Eden; the Aboriginal medicine wheel; philosophical approaches that view nature as separate from humanity)",
+              "text_html": "<p>analyse the ways in which a culture’s rela­tionship to the environment is reflected in its art, philosophy, and religious/spiritual beliefs <em>(e.g., with reference to depictions of nature in visual arts; creation stories of various cultures, including that of the Garden of Eden; the Aboriginal medicine wheel; philosophical approaches that view nature as separate from humanity)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How is the Cree conception of Mother Earth reflected in that nation’s rela­tionship to the environment? \n  What does the concept of instrumental reason in Western phi­losophy suggest about humanity’s relationship to the environment?",
+                  "text_html": "<ul>\n  <li>How is the Cree conception of Mother Earth reflected in that nation’s rela­tionship to the environment?&nbsp;</li>\n  <li>What does the concept of instrumental reason in Western phi­losophy suggest about humanity’s relationship to the environment?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Cultural Expressions in Context",
+          "describer": "By the end of this course, students will:",
+          "text": "analyse specific cultural expressions and a range of factors that can affect them",
+          "text_html": "<p>analyse specific cultural expressions and a range of factors that can affect them</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "analyse specific cultural expressions (e.g., in the areas of visual arts, music, dance, drama, literature, architecture, fashion, values, philosophy, religion, media) with reference to their function and the time and place with which they are associated",
+              "text_html": "<p>analyse specific cultural expressions <em>(e.g., in the areas of visual arts, music, dance, drama, literature, architecture, fashion, values, philosophy, religion, media) </em>with reference to their function and the time and place with which they are associated</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What functions did wampum belts serve for Eastern Woodlands First Nations? \n  What do Bob Marley’s lyrics to “Africa Unite” reveal about the connections between Africa and Jamaica? \n  What do vari­ous images of the Last Supper suggest about the sociocultural context in which they were created?",
+                  "text_html": "<ul>\n  <li>What functions did wampum belts serve for Eastern Woodlands First Nations?&nbsp;</li>\n  <li>What do Bob Marley’s lyrics to “Africa Unite” reveal about the connections between Africa and Jamaica?&nbsp;</li>\n  <li>What do vari­ous images of the Last Supper suggest about the sociocultural context in which they were created?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "analyse the impact of various transformative social, economic, or political conditions or events (e.g., the partition of India, demographic and economic changes in Harlem in the early twentieth century, the Cultural Revolution in China, apartheid in South Africa) on forms of cultural expression in the areas of art, philosophy, and religion/spirituality",
+              "text_html": "<p>analyse the impact of various transformative social, economic, or political conditions or events <em>(e.g., the partition of India, demographic and economic changes in Harlem in the early twentieth century, the Cultural Revolution in China, apartheid in South Africa) </em>on forms of cultural expression in the areas of art, philosophy, and religion/spirituality</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How did the particular social and economic conditions of the African-American community in Harlem in the 1920s and 1930s contribute to the music and poetry created within this community? \n  What impact has the Holocaust had on Jewish cultural expression? \n  Why were the Bamiyan Buddhas in Afghanistan created? Why were they destroyed? \n  Why were the late 1800s and early 1900s referred to as “The Silent Years” in Haida art?",
+                  "text_html": "<ul>\n  <li>How did the particular social and economic conditions of the African-American community in Harlem in the 1920s and 1930s contribute to the music and poetry created within this community?&nbsp;</li>\n  <li>What impact has the Holocaust had on Jewish cultural expression?&nbsp;</li>\n  <li>Why were the Bamiyan Buddhas in Afghanistan created? Why were they destroyed?&nbsp;</li>\n  <li>Why were the late 1800s and early 1900s referred to as “The Silent Years” in Haida art?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "compare similar forms of cultural expression in different cultures and/or historical periods (e.g., cartooning and animé or manga in the United States and Japan; Aboriginal art in Australia and Canada; Catholicism in Latin America and Spain; rap in Cuba, Senegal, and the United States)",
+              "text_html": "<p>compare similar forms of cultural expression in different cultures and/or historical periods <em>(e.g., cartooning and animé or manga in the United States and Japan; Aboriginal art in Australia and Canada; Catholicism in Latin America and Spain; rap in Cuba, Senegal, and the United States)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways are the values reflected in Senegalese rap different from those in American rap? How do you think American rap listeners would respond to the messages in Senegalese rap music? Why?",
+                  "text_html": "<ul>\n  <li>In what ways are the values reflected in Senegalese rap different from those in American rap? How do you think American rap listeners would respond to the messages in Senegalese rap music? Why?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Contributions and Influences",
+          "describer": "By the end of this course, students will:",
+          "text": "assess the contributions to and influence on various cultures/societies, including Canada, of a diverse range of ethnocultural groups and individuals from those groups",
+          "text_html": "<p>assess the contributions to and influence on various cultures/societies, including Canada, of a diverse range of ethnocultural groups and individuals from those groups</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "analyse the integration of different aspects of culture in the cultural expressions of specific societies (e.g., how religion can affect practices related to food, clothing, education, music; how philosophy can affect visual art, architecture, songs; how folk traditions can be integrated with more modern elements in dance, music, crafts; how the arts can be used to enhance religious practices)",
+              "text_html": "<p>analyse the integration of different aspects of culture in the cultural expressions of specific societies <em>(e.g., how religion can affect practices related to food, clothing, education, music; how philosophy can affect visual art, architecture, songs; how folk traditions can be integrated with more modern elements in dance, music, crafts; how the arts can be used to enhance religious practices)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What influence has the Ayurvedic tradition had on Indian cuisine?",
+                  "text_html": "<ul>\n  <li>What influence has the Ayurvedic tradition had on Indian cuisine?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "assess the influence of the art, philosophy, and religious/spiritual beliefs or practices of one culture (e.g., Grebo or Haida masks, yoga and meditation, t’ai chi ch’uan, salsa, hip hop, reggae, capoeira, Maori haka, Bollywood films) on forms of cultural expression produced by individuals or groups from other cultures",
+              "text_html": "<p>assess the influence of the art, philosophy, and religious/spiritual beliefs or practices of one culture <em>(e.g., Grebo or Haida masks, yoga and meditation, t’ai chi ch’uan, salsa, hip hop, reggae, capoeira, Maori haka, Bollywood films) </em>on forms of cultural expression produced by individuals or groups from other cultures</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What was the impact of Chinese Buddhism on Korea, Vietnam, and China? How were practices associated with Chinese Buddhism adapted in these different social/cultural contexts? \n  What is the difference between cultural appropriation and cultural influence in an artist’s work? Why is the dis­tinction important? \n  Do you think Picasso practised cultural appropriation of African art forms? Give reasons for your answer.",
+                  "text_html": "<ul>\n  <li>What was the impact of Chinese Buddhism on Korea, Vietnam, and China? How were practices associated with Chinese Buddhism adapted in these different social/cultural contexts?&nbsp;</li>\n  <li>What is the difference between cultural appropriation and cultural influence in an artist’s work? Why is the dis­tinction important?&nbsp;</li>\n  <li>Do you think Picasso practised cultural appropriation of African art forms? Give reasons for your answer.</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "assess ethnocultural minority groups’ contributions to and influence on culture in Canada (e.g., heritage centres; cultural museums; ethnic neighbourhoods in large cities; meditation centres; fusion cuisine; ethnocultural film festivals; multi­ cultural festivals; a variety of churches, temples, and mosques; influences on fashion, literature, music, visual art)",
+              "text_html": "<p>assess ethnocultural minority groups’ contributions to and influence on culture in Canada <em>(e.g., heritage centres; cultural museums; ethnic neighbourhoods in large cities; meditation centres; fusion cuisine; ethnocultural film festivals; multi­ cultural festivals; a variety of churches, temples, and mosques; influences on fashion, literature, music, visual art)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways has cuisine from various ethnocultural groups changed the nature of the Canadian culinary landscape? \n  What have been the effects of interfaith dialogue on Canadian culture? \n  In what ways has ethnocultural diversity contributed to Canadian national identity?\n  How has respect for ethnocultural diversity in Canada contributed to respect for other kinds of diversity (e.g., sexual diversity, respect for the rights of people with disabilities)?",
+                  "text_html": "<ul>\n  <li>In what ways has cuisine from various ethnocultural groups changed the nature of the Canadian culinary landscape?&nbsp;</li>\n  <li>What have been the effects of interfaith dialogue on Canadian culture?&nbsp;</li>\n  <li>In what ways has ethnocultural diversity contributed to Canadian national identity?</li>\n  <li>How has respect for ethnocultural diversity in Canada contributed to respect for other kinds of diversity (e.g., sexual diversity, respect for the rights of people with disabilities)?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.4",
+              "text": "demonstrate an understanding of the ways in which Canadian individuals from various ethnocultural minority groups have contributed to and influenced Canadian culture and society (e.g., Rosalie Abella, Zanana Akande, Lincoln Alexander, Adam Beach, David Bouchard, Rosemary Brown, Herb Carnegie, Thérèse Casgrain, Wayson Choy, Viola Desmond, Graham Greene, Elijah Harper, Nazem Kadri, Joy Kogawa, Susur Lee, Stephen Lewis, Sandra Lovelace, Antonine Maillet, Tak W. Mak, Deepa Mehta, Rohinton Mistry, Raymond Moriyama, Robbie Robertson, Haroon Siddiqui, Alfred Sung, David Suzuki)",
+              "text_html": "<p>demonstrate an understanding of the ways in which Canadian individuals from various ethnocultural minority groups have contributed to and influenced Canadian culture and society <em>(e.g., Rosalie Abella, Zanana Akande, Lincoln Alexander, Adam Beach, David Bouchard, Rosemary Brown, Herb Carnegie, Thérèse Casgrain, Wayson Choy, Viola Desmond, Graham Greene, Elijah Harper, Nazem Kadri, Joy Kogawa, Susur Lee, Stephen Lewis, Sandra Lovelace, Antonine Maillet, Tak W. Mak, Deepa Mehta, Rohinton Mistry, Raymond Moriyama, Robbie Robertson, Haroon Siddiqui, Alfred Sung, David Suzuki)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways have “firsts” (i.e., the first people from ethnocultural minori­ties to attain positions of influence) changed the face of Canadian society?\n  What impact has David Suzuki had on environmental awareness in Canada?\n  What contributions has Rosalie Abella made to human rights in Canada? Why is this contribution important for all Canadians?",
+                  "text_html": "<ul>\n  <li>In what ways have “firsts” (i.e., the first people from ethnocultural minori­ties to attain positions of influence) changed the face of Canadian society?</li>\n  <li>What impact has David Suzuki had on environmental awareness in Canada?</li>\n  <li>What contributions has Rosalie Abella made to <a data-item-id=\"6d4de286-3019-4b8a-82fd-349b34eda450\" href=\"\">human rights</a> in Canada? Why is this contribution important for all Canadians?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.5",
+              "text": "assess the broad significance of historic cul­tural developments associated with a diverse range of ethnocultural groups (e.g., Semitic and Phoenician alphabets; Egyptian, Roman, and Aztec calendars; Persian and Chinese calligraphy; Arab mathematical notation; Chinese paper and gun powder; the Three Sisters of Haudenosaunee agriculture; tobacco; the canoe; Saracenic art; Japanese and Arab architecture; Islamic and Christian illu­minated manuscripts; Chinese medicine; scripture from various cultures; foods/beverages such as pasta, rice, ketchup, corn, potatoes, tea, coffee, wine)",
+              "text_html": "<p>assess the broad significance of historic cul­tural developments associated with a diverse range of ethnocultural groups <em>(e.g., Semitic and Phoenician alphabets; Egyptian, Roman, and Aztec calendars; Persian and Chinese calligraphy; Arab mathematical notation; Chinese paper and gun powder; the Three Sisters of Haudenosaunee agriculture; tobacco; the canoe; Saracenic art; Japanese and Arab architecture; Islamic and Christian illu­minated manuscripts; Chinese medicine; scripture from various cultures; foods/beverages such as pasta, rice, ketchup, corn, potatoes, tea, coffee, wine)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How did practices in Timbuktu advance the field of education and the development of academic institutions outside West Africa? \n  What was the role of East Africa and the Arab world in the popular­ization of coffee? How important is the coffee trade to today’s global economy? What have been the effects of the trade on local farmers who cultivate this crop?",
+                  "text_html": "<ul>\n  <li>How did practices in Timbuktu advance the field of education and the development of academic institutions outside West Africa?&nbsp;</li>\n  <li>What was the role of East Africa and the Arab world in the popular­ization of coffee? How important is the coffee trade to today’s global economy? What have been the effects of the trade on local farmers who cultivate this crop?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Critical Cultural Issues",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Power Relations",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the dynamics of power relations within specific cultural groups and between minority and majority cultures",
+          "text_html": "<p>demonstrate an understanding of the dynamics of power relations within specific cultural groups and between minority and majority cultures</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "demonstrate an understanding of the dynamics of power relations within specific cultural groups (e.g., with reference to: the caste system in India; shadism in various societies; race relations in Mexico or Zimbabwe; the role of elders in China or among First Nation peoples; gender roles in Iran or Japan; the status of katoey in Thailand, hijra in India, two-spirited people in Aboriginal cultures, fafafini in Samoa)",
+              "text_html": "<p>demonstrate an understanding of the dynamics of power relations within specific cultural groups <em>(e.g., with reference to: the caste system in India; shadism in various societies; </em><a data-item-id=\"c42c0914-c10c-4da6-94e7-cdad81bae8b0\" href=\"\"><em>race</em></a><em> relations in Mexico or Zimbabwe; the role of elders in China or among First Nation peoples; gender roles in Iran or Japan; the status of katoey in Thailand, hijra in India, two-spirited people in Aboriginal cultures, fafafini in Samoa)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What role do elders play in Mohawk society? What implications does this role have for the power dynamics within this society? \n  Why is there a market for skin-bleaching products in some South Asian nations?",
+                  "text_html": "<ul>\n  <li>What role do elders play in Mohawk society? What implications does this role have for the power dynamics within this society?&nbsp;</li>\n  <li>Why is there a market for skin-bleaching products in some South Asian nations?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "analyse the potential impact on cultural identity and on the relations between cultural groups of cultural stereotypes, labelling, and misrepresentations found in mainstream media and popular culture (e.g., the labelling of some groups as “model minorities” or “fresh off the boat”; stereotypes such as dragon women, Asian lotus blossoms, Black athletes, First Nation warriors; misrepresentations such as Muslims as terrorists)",
+              "text_html": "<p>analyse the potential impact on cultural identity and on the relations between cultural groups of cultural <a data-item-id=\"6899813e-f819-4f82-8442-4aeaeab7dc68\" href=\"\">stereotypes</a>, labelling, and misrepresentations found in mainstream media and popular culture <em>(e.g., the labelling of some groups as “model minorities” or “fresh off the boat”; stereotypes such as dragon women, Asian lotus blossoms, Black athletes, First Nation warriors; misrepresentations such as Muslims as terrorists)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What specific cultural stereotypes are found on television shows and in movies that you watch? What effect do you think they have on both the minority cultures who are the targets of these stereotypes and on the majority culture?",
+                  "text_html": "<ul>\n  <li>What specific cultural stereotypes are found on television shows and in movies that you watch? What effect do you think they have on both the minority cultures who are the targets of these stereotypes and on the majority culture?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.3",
+              "text": "analyse both the positive and negative aspects and effects of the interactions between minority and majority cultures in Canada and around the world (e.g., interactions between Aboriginal peoples and majority cultures in Canada; relations between francophones and anglophones in Quebec; interactions between the Black majority and white minority in South Africa; the interaction of the majority culture with Uighurs in China, Hmong in Laos, Algerians in France, Kurds in Iraq, Palestinians in Israel; the experience of Romani in central Europe)",
+              "text_html": "<p>analyse both the positive and negative aspects and effects of the interactions between minority and majority cultures in Canada and around the world <em>(e.g., interactions between Aboriginal peoples and majority cultures in Canada; relations between francophones and anglophones in Quebec; interactions between the Black majority and white minority in South Africa; the interaction of the majority culture with Uighurs in China, Hmong in Laos, Algerians in France, Kurds in Iraq, Palestinians in Israel; the experience of Romani in central Europe)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why has Africville become a symbol of the treatment of Black Nova Scotians?\n  How and why have different cultural groups adopted mainstream holidays into their own cultural practices? \n  Do you think hyphenated identities are a positive phenomenon? Why or why not? \n  What evidence of minority-majority interactions do you see in everyday life? Which of these would you categorize as positive? Why? Which are negative?",
+                  "text_html": "<ul>\n  <li>Why has Africville become a symbol of the treatment of Black Nova Scotians?</li>\n  <li>How and why have different cultural groups adopted mainstream holidays into their own cultural practices?&nbsp;</li>\n  <li>Do you think hyphenated identities are a positive phenomenon? Why or why not?&nbsp;</li>\n  <li>What evidence of minority-majority interactions do you see in everyday life? Which of these would you categorize as positive? Why? Which are negative?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.4",
+              "text": "describe various ways in which cultural minority groups address challenges to their identity from more powerful groups (e.g., cul­tural resistance, revitalization movements, culture jamming, forming social organizations/networks, banning intermarriage, establishing their own media, lobbying)",
+              "text_html": "<p>describe various ways in which cultural minority groups address challenges to their identity from more powerful groups <em>(e.g., cul­tural resistance, revitalization movements, culture jamming, forming social organizations/networks, banning intermarriage, establishing their own media, lobbying)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Are there ethnic media in your community? What types of stories do they cover that are not addressed by the mainstream media?",
+                  "text_html": "<ul>\n  <li>Are there ethnic media in your community? What types of stories do they cover that are not addressed by the mainstream media?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.5",
+              "text": "assess the effects of cultural imperialism on cultures around the world (e.g., loss of language, preferences for Western brands over local products, the spread of consumerism, increased cultural pro­tectionism, cultural appropriation)",
+              "text_html": "<p>assess the effects of cultural imperialism on cultures around the world <em>(e.g., loss of language, preferences for Western brands over local products, the spread of consumerism, increased cultural pro­tectionism, </em><a data-item-id=\"0eea1f2d-56c1-46cd-8b82-f5ff0060f735\" href=\"\"><em>cultural appropriation</em></a><em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How has the mass media spread Western culture? What effects has the reach of Western culture had on local cultures? \n  What are some examples of culture flowing from local cultures to wider societies? \n  Do you think we are heading towards a global consumer culture? Why or why not?",
+                  "text_html": "<ul>\n  <li>How has the mass media spread Western culture? What effects has the reach of Western culture had on local cultures?&nbsp;</li>\n  <li>What are some examples of culture flowing from local cultures to wider societies?&nbsp;</li>\n  <li>Do you think we are heading towards a global consumer culture? Why or why not?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Policies and Issues",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of past and present policies and issues affecting cultural diversity in Canada, and compare approaches to such policy in Canada with those in other countries",
+          "text_html": "<p>demonstrate an understanding of past and present policies and issues affecting cultural <a data-item-id=\"3d2eefc5-ef14-483b-954e-60f82900fc63\" href=\"\">diversity</a> in Canada, and compare approaches to such policy in Canada with those in other countries</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "explain the impact of colonization on Aboriginal communities in Canada and other countries (e.g., the loss of culture, autonomy, land, and way of life; the impact on language and spiritu­ality; the effects of the introduction of alcohol and new diseases; the different impact on women, men, and children)",
+              "text_html": "<p>explain the impact of <a data-item-id=\"0fa515d1-b057-44c3-9e26-3a953e3ee758\" href=\"\">colonization</a> on Aboriginal communities in Canada and other countries <em>(e.g., the loss of culture, autonomy, land, and way of life; the impact on language and spiritu­ality; the effects of the introduction of alcohol and new diseases; the different impact on women, men, and children)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "evaluate the impact on cultural groups of Canada’s immigration and refugee policies, past and present (e.g., changing criteria for admis­sion, the Chinese Exclusion Act, the Continuous Passage Act, the refusal to accept Jewish refugees from the SS St. Louis or South Asian immigrants from the Komagata Maru; policies regarding settlement, sponsorship, education and training, recognition of credentials)",
+              "text_html": "<p>evaluate the impact on cultural groups of Canada’s immigration and refugee policies, past and present <em>(e.g., changing criteria for admis­sion, the Chinese Exclusion Act, the Continuous Passage Act, the refusal to accept Jewish refugees from the SS </em>St. Louis <em>or South Asian immigrants from the </em>Komagata Maru<em>; policies regarding settlement, sponsorship, education and training, recognition of credentials)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How have neighbourhoods been transformed as a result of immigration? \n  What are some of the ways in which host communities in Canada have responded to the arrival of different groups of immigrants?\n  How have cultural groups responded to Canadian immigration policies in the past? In what ways were these responses different from those of today?",
+                  "text_html": "<ul>\n  <li>How have neighbourhoods been transformed as a result of immigration?&nbsp;</li>\n  <li>What are some of the ways in which host communities in Canada have responded to the arrival of different groups of immigrants?</li>\n  <li>How have cultural groups responded to Canadian immigration policies in the past? In what ways were these responses different from those of today?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "explain systemic barriers to integration and achievement facing Canadian ethnocultural minority groups (e.g., the need for “Canadian experience”; racism and discrimination; lack of access to language training, social services, educational opportunities), and assess the effectiveness of programs and strategies to overcome these bar­riers (e.g., programs for English language learners, provincial and federal credential assessment programs, support groups for immigrant women, projects of various agencies serving immigrants)",
+              "text_html": "<p>explain systemic barriers to integration and achievement facing Canadian ethnocultural minority groups <em>(e.g., the need for “Canadian experience”; racism and discrimination; lack of access to language training, social services, educational opportunities)</em>, and assess the effectiveness of programs and strategies to overcome these bar­riers <em>(e.g., programs for English language learners, provincial and federal credential assessment programs, support groups for immigrant women, projects of various agencies serving immigrants)</em></p>\n<p><br></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How should academic credentials from other countries be assessed in order to allow fair access to Canadian employment for immigrants and refugees? \n  How does the need for “Canadian experience” discriminate against cultural groups?\n  What kinds of programs are available to help newcomers overcome challenges to settling in Canada? Do you think these programs ade­quately address newcomers’ needs? Why or why not?",
+                  "text_html": "<ul>\n  <li>How should academic credentials from other countries be assessed in order to allow fair access to Canadian employment for immigrants and refugees?&nbsp;</li>\n  <li>How does the need for “Canadian experience” discriminate against cultural groups?</li>\n  <li>What kinds of programs are available to help newcomers overcome challenges to settling in Canada? Do you think these programs ade­quately address newcomers’ needs? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.4",
+              "text": "analyse major past and present policies, practices, and cultural issues at the community, (e.g., nativism; ghettoization; Quebec nationalism; hyphenated Canadians and the balance between ethnocultural identity and Canadian identity; biculturalism and multiculturalism; integration versus assimilation; intermarriage and the status of First Nation women; racial profiling; cultural/gender imbalances in political representation; American cultural imperialism)",
+              "text_html": "<p>analyse major past and present policies, practices, and cultural issues at the community, <em>(e.g., nativism; ghettoization; Quebec nationalism; hyphenated Canadians and the balance between ethnocultural identity and Canadian identity; biculturalism and multiculturalism; integration versus assimilation; intermarriage and the status of First Nation women; </em><a data-item-id=\"00029f5e-9aa9-43db-ac44-9b897d3f893f\" href=\"\"><em>racial profiling</em></a><em>; cultural/</em><a data-item-id=\"cf378a4c-c93a-4b31-876f-b7b49c3cbdcc\" href=\"\"><em>gender</em></a><em> imbalances in political representation; American cultural imperialism)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the goals of Canada’s multiculturalism policy? How effective is the policy at meeting those goals? \n  How is Québécois identity addressed by the provincial government in Quebec and the federal government? \n  What was the stated purpose behind residential schools for First Nation children?",
+                  "text_html": "<ul>\n  <li>What are the goals of Canada’s multiculturalism policy? How effective is the policy at meeting those goals?&nbsp;</li>\n  <li>How is Québécois identity addressed by the provincial government in Quebec and the federal government?&nbsp;</li>\n  <li>What was the stated purpose behind residential schools for First Nation children?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.5",
+              "text": "compare the context of and approaches implicit in Canada’s policies on diversity and multiculturalism with the context, approaches, and policies of other nations (e.g., China’s policy towards minority groups, Thailand’s policy towards Hill Tribe groups, the integration of immigrants in various nations, the White Australia policy, secularism versus religious freedom in France, the Statement of the Government of Canada on Indian Policy [White Paper, 1969], the federal response to Quebec nationalism)",
+              "text_html": "<p>compare the context of and approaches implicit in Canada’s policies on diversity and multiculturalism with the context, approaches, and policies of other nations <em>(e.g., China’s policy towards minority groups, Thailand’s policy towards Hill Tribe groups, the integration of immigrants in various nations, the White Australia policy, secularism versus religious freedom in France, the Statement of the Government of Canada on Indian Policy [White Paper, 1969], the federal response to Quebec nationalism)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why are clothing and reli­gious/cultural symbols worn by various groups controversial in some countries? What are some instances of such controversy in Canada? How were these controversies dealt with? \n  How do policies with respect to Aboriginal people in Canada compare to other nations’ policies in relationship to their indigenous populations?",
+                  "text_html": "<ul>\n  <li>Why are clothing and reli­gious/cultural symbols worn by various groups controversial in some countries? What are some instances of such controversy in Canada? How were these controversies dealt with?&nbsp;</li>\n  <li>How do policies with respect to Aboriginal people in Canada compare to other nations’ policies in relationship to their indigenous populations?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Social Action and Personal Engagement",
+          "describer": "By the end of this course, students will:",
+          "text": "design, implement, and evaluate an initiative to address an issue related to cultural groups or promoting cultural diversity",
+          "text_html": "<p>design, implement, and evaluate an initiative to address an issue related to cultural groups or promoting cultural diversity</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "identify a specific need related to cultural groups or promoting cultural diversity, and design an initiative to address this need (e.g., a multimedia campaign in your school to combat cul­tural stereotyping; a series of student workshops that address discrimination experienced by cultural groups within your school; a student-led forum that voices common issues between different cultural groups)",
+              "text_html": "<p>identify a specific need related to cultural groups or promoting cultural diversity, and design an initiative to address this need <em>(e.g., a multimedia campaign in your school to combat cul­tural stereotyping; a series of student workshops that address discrimination experienced by cultural groups within your school; a student-led forum that voices common issues between different cultural groups)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you think that you would like to design a workshop to educate students about Islamophobia, how might you determine how widespread Islamophobia is in your school?",
+                  "text_html": "<ul>\n  <li>If you think that you would like to design a workshop to educate students about Islamophobia, how might you determine how widespread Islamophobia is in your school?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "identify strategies and skills needed for gaining support for and handling potential resistance to their initiative (e.g., strategies such as finding allies within their school/community, determining who has power and influence, and working with those people/groups; skills related to advocacy, persuasion, diplomacy, active listening, understanding various perspectives, collaboration and consultation)",
+              "text_html": "<p>identify strategies and skills needed for gaining support for and handling potential resistance to their initiative <em>(e.g., strategies such as finding allies within their school/community, determining who has power and influence, and working with those people/groups; skills related to </em><a data-item-id=\"a366f1a4-e6e8-44cb-a2af-30c1d5914e0f\" href=\"\"><em>advocacy</em></a><em>, persuasion, diplomacy, active listening, understanding various perspectives, collaboration and consultation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What steps can your group take to be as collaborative as possible? \n  Where will you look for resources to support your plan? \n  Who do you think will help support your plan? Who are some good contact people? \n  What concerns might arise when individuals work on behalf of groups whose identity is different from their own (e.g., when straight people work on behalf of LGBT initiatives, when white women work on behalf of women of colour, when men work on behalf of women)?",
+                  "text_html": "<ul>\n  <li>What steps can your group take to be as collaborative as possible?&nbsp;</li>\n  <li>Where will you look for resources to support your plan?&nbsp;</li>\n  <li>Who do you think will help support your plan? Who are some good contact people?&nbsp;</li>\n  <li>What concerns might arise when individuals work on behalf of groups whose identity is different from their own (e.g., when straight people work on behalf of <a data-item-id=\"340df9f3-5e8f-4c1d-8e72-15fab2d1ca7c\" href=\"\">LGBT</a> initiatives, when white women work on behalf of women of colour, when men work on behalf of women)?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.3",
+              "text": "demonstrate an understanding of how to effectively evaluate social action initiatives (e.g., strategies for evaluating the clarity of the message and the appropriateness of the initiative for the target audience or group being served, for measuring results)",
+              "text_html": "<p>demonstrate an understanding of how to effectively evaluate social action initiatives <em>(e.g., strategies for evaluating the clarity of the message and the appropriateness of the initiative for the target audience or group being served, for measuring results)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the goals of your initiative? How will you know if you have successfully reached your goals? \n  How have other activists measured the success of their initiatives?",
+                  "text_html": "<ul>\n  <li>What are the goals of your initiative? How will you know if you have successfully reached your goals?&nbsp;</li>\n  <li>How have other activists measured the success of their initiatives?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.4",
+              "text": "implement their initiative using appropriate planning, organizational, evaluation, and communication skills",
+              "text_html": "<p>implement their initiative using appropriate planning, organizational, evaluation, and communication skills</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.5",
+              "text": "reflect on the skills and strategies they used before, during, and after designing and implementing their initiative; explain which ones they found most useful in achieving their objectives; and identify what they would do differently in the future to improve their work as committed, responsible activists",
+              "text_html": "<p>reflect on the skills and strategies they used before, during, and after designing and implementing their initiative; explain which ones they found most useful in achieving their objectives; and identify what they would do differently in the future to improve their work as committed, responsible activists</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which individuals or social groups were served by your project?\n  How do you know your project was effective? What could you have done to make it more effective?",
+                  "text_html": "<ul>\n  <li>Which individuals or social groups were served by your project?</li>\n  <li>How do you know your project was effective? What could you have done to make it more effective?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

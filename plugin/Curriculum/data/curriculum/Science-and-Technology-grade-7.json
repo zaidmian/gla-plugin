@@ -1,0 +1,521 @@
+{
+  "code": "",
+  "name": "Science and Technology",
+  "grades": [
+    "7"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Science and Technology",
+  "subject_group": "Science and Technology",
+  "description": "Here you will find the expectations and learning for the five areas of study for Grade 7.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology/courses/grade-7",
+  "source_codename": "sci___tech___grade_7",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "STEM Skills and Connections",
+      "describer": "Throughout Grade 7, in connection with the learning in the Life Systems, Matter and Energy, Structures and Mechanisms, and Earth and Space Systems strands, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "STEM Investigation and Communication Skills",
+          "describer": "Throughout Grade 7, in connection with the learning in the other strands, students will:",
+          "text": "use a scientific research process, a scientific experimentation process, and an engineering design process to conduct investigations, following appropriate health and safety procedures",
+          "text_html": "<p>use a <a href=\"/en/curriculum/science-technology/context/processes#scientific-processes\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">scientific research process, a scientific experimentation process,</a> and an <a href=\"/en/curriculum/science-technology/context/processes#engineering-design-process\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">engineering design process</a> to conduct investigations, following appropriate health and safety procedures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a scientific research process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific research process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "use a scientific experimentation process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific experimentation process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems",
+              "text_html": "<p>use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials",
+              "text_html": "<p>follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.5",
+              "text": "communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes",
+              "text_html": "<p>communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Coding and Emerging Technologies",
+          "describer": "Throughout Grade 7, in connection with the learning in the other strands, students will:",
+          "text": "use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life and in STEM-related fields",
+          "text_html": "<p>use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life and in STEM-related fields</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "write and execute code in investigations and when modelling concepts, with a focus on planning and designing programs",
+              "text_html": "<p>write and execute code in investigations and when modelling concepts, with a focus on planning and designing programs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "identify and describe impacts of coding and of emerging technologies, such as artificial intelligence systems, on everyday life, including skilled trades",
+              "text_html": "<p>identify and describe impacts of coding and of emerging technologies, such as artificial intelligence systems, on everyday life, including skilled trades</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Applications, Connections, and Contributions",
+          "describer": "Throughout Grade 7, in connection with the learning in the other strands, students will:",
+          "text": "demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences",
+          "text_html": "<p>demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "describe practical applications of science and technology concepts in various occupations, including skilled trades, and how these applications address real-world problems",
+              "text_html": "<p>describe practical applications of science and technology concepts in various occupations, including skilled trades, and how these applications address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "investigate how science and technology can be used with other subject areas to address real-world problems",
+              "text_html": "<p>investigate how science and technology can be used with other subject areas to address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse contributions to science and technology from various communities",
+              "text_html": "<p>analyse contributions to science and technology from various communities</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Life Systems",
+      "describer": "By the end of Grade 7, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "assess the impact of human activities and technologies on the environment, and analyse ways to mitigate negative impacts and contribute to environmental sustainability",
+          "text_html": "<p>assess the impact of human activities and technologies on the environment, and analyse ways to mitigate negative impacts and contribute to environmental sustainability</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "assess the impact of various technologies on the environment",
+              "text_html": "<p>assess the impact of various technologies on the environment</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "assess the effectiveness of various ways of mitigating the negative and enhancing the positive impact of human activities on the environment",
+              "text_html": "<p>assess the effectiveness of various ways of mitigating the negative and enhancing the positive impact of human activities on the environment</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "analyse how diverse First Nations, Métis, and Inuit practices and perspectives contribute to environmental sustainability",
+              "text_html": "<p>analyse how diverse First Nations, Métis, and Inuit practices and perspectives contribute to environmental sustainability</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "demonstrate an understanding of interactions between and among biotic and abiotic components in the environment",
+          "text_html": "<p>demonstrate an understanding of interactions between and among biotic and abiotic components in the environment</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "explain that an ecosystem is a network of interactions among living organisms and their environment",
+              "text_html": "<p>explain that an ecosystem is a network of interactions among living organisms and their environment</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "identify biotic and abiotic components in an ecosystem, and describe the interactions between them",
+              "text_html": "<p>identify biotic and abiotic components in an ecosystem, and describe the interactions between them</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "describe roles and relationships between producers, consumers, and decomposers within an ecosystem",
+              "text_html": "<p>describe roles and relationships between producers, consumers, and decomposers within an ecosystem</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "describe the transfer of energy in a food chain, and explain the effects of altering any part of the chain",
+              "text_html": "<p>describe the transfer of energy in a food chain, and explain the effects of altering any part of the chain</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.5",
+              "text": "describe how matter is cycled within the environment, and explain how the cycling of matter promotes sustainability",
+              "text_html": "<p>describe how matter is cycled within the environment, and explain how the cycling of matter promotes sustainability</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.6",
+              "text": "explain the differences between primary succession and secondary succession in ecosystems",
+              "text_html": "<p>explain the differences between primary succession and secondary succession in ecosystems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.7",
+              "text": "explain how biotic and abiotic factors limit the number of organisms an ecosystem can sustain",
+              "text_html": "<p>explain how biotic and abiotic factors limit the number of organisms an ecosystem can sustain</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.8",
+              "text": "describe how different approaches to agriculture and to harvesting food from the natural environment can impact an ecosystem, and identify strategies that can be used to maintain and/or restore balance to ecosystems",
+              "text_html": "<p>describe how different approaches to agriculture and to harvesting food from the natural environment can impact an ecosystem, and identify strategies that can be used to maintain and/or restore balance to ecosystems</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Matter and Energy",
+      "describer": "By the end of Grade 7, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "evaluate the environmental and social impacts of the use and disposal of various pure substances and mixtures",
+          "text_html": "<p>evaluate the environmental and social impacts of the use and disposal of various pure substances and mixtures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "analyse the social and environment impacts of the use and disposal of pure substances found in technological devices, considering local and global perspectives",
+              "text_html": "<p>analyse the social and environment impacts of the use and disposal of pure substances found in technological devices, considering local and global perspectives</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "assess environmental and social impacts of different industrial methods used to separate mixtures",
+              "text_html": "<p>assess environmental and social impacts of different industrial methods used to separate mixtures</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "demonstrate an understanding of the nature of matter, including the properties of pure substances and mixtures, and describe these properties using particle theory",
+          "text_html": "<p>demonstrate an understanding of the nature of matter, including the properties of pure substances and mixtures, and describe these properties using particle theory</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of the particle theory of matter",
+              "text_html": "<p>demonstrate an understanding of the particle theory of matter</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "use particle theory to distinguish between pure substances and mixtures",
+              "text_html": "<p>use particle theory to distinguish between pure substances and mixtures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "distinguish between homogeneous and heterogeneous mixtures",
+              "text_html": "<p>distinguish between homogeneous and heterogeneous mixtures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "use the particle theory to describe how different factors affect the solubility of a substance and the rate at which it dissolves",
+              "text_html": "<p>use the particle theory to describe how different factors affect the solubility of a substance and the rate at which it dissolves</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "describe the concentration of a saturated solution in both qualitative and quantitative terms, and differentiate between saturated and unsaturated solutions",
+              "text_html": "<p>describe the concentration of a saturated solution in both qualitative and quantitative terms, and differentiate between saturated and unsaturated solutions</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.6",
+              "text": "explain why water is referred to as the universal solvent",
+              "text_html": "<p>explain why water is referred to as the universal solvent</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.7",
+              "text": "explain various processes used to separate mixtures, including solutions, into their components, and identify some applications of these processes",
+              "text_html": "<p>explain various processes used to separate mixtures, including solutions, into their components, and identify some applications of these processes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.8",
+              "text": "describe pure substances as elements and compounds consisting of atoms and combinations of atoms",
+              "text_html": "<p>describe pure substances as elements and compounds consisting of atoms and combinations of atoms</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Structures and Mechanisms",
+      "describer": "By the end of Grade 7, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "analyse personal, social, economic, and environmental factors that should be considered when designing and building structures",
+          "text_html": "<p>analyse personal, social, economic, and environmental factors that should be considered when designing and building structures</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "evaluate environmental, social, and economic factors that should be considered when designing and building structures to meet specific needs for individuals and communities",
+              "text_html": "<p>evaluate environmental, social, and economic factors that should be considered when designing and building structures to meet specific needs for individuals and communities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "evaluate the impact of the ergonomic design of various tools, objects, and work spaces on a user’s health, safety, and ability to work efficiently, and use this information to describe changes that could be made in their own spaces and activities",
+              "text_html": "<p>evaluate the impact of the ergonomic design of various tools, objects, and work spaces on a user’s health, safety, and ability to work efficiently, and use this information to describe changes that could be made in their own spaces and activities</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "demonstrate an understanding of the relationship between structural forms and the forces acting on them",
+          "text_html": "<p>demonstrate an understanding of the relationship between structural forms and the forces acting on them</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "classify structures as solid structures, frame structures, or shell structures",
+              "text_html": "<p>classify structures as solid structures, frame structures, or shell structures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "describe ways in which the centre of gravity of a structure affects the structure’s stability",
+              "text_html": "<p>describe ways in which the centre of gravity of a structure affects the structure’s stability</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "identify the magnitude, direction, point of application, and plane of application of the forces applied to a structure",
+              "text_html": "<p>identify the magnitude, direction, point of application, and plane of application of the forces applied to a structure</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "describe the role of symmetry in structures, and identify instances of symmetry in various structures",
+              "text_html": "<p>describe the role of symmetry in structures, and identify instances of symmetry in various structures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.5",
+              "text": "describe factors that can cause a structure to fail",
+              "text_html": "<p>describe factors that can cause a structure to fail</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.6",
+              "text": "identify the factors that determine the suitability of materials for use in manufacturing a product or constructing a structure",
+              "text_html": "<p>identify the factors that determine the suitability of materials for use in manufacturing a product or constructing a structure</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.7",
+              "text": "describe methods engineers and other professionals use to assess, improve, and maintain the safety of structures",
+              "text_html": "<p>describe methods engineers and other professionals use to assess, improve, and maintain the safety of structures</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Earth and Space Systems",
+      "describer": "By the end of Grade 7, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "assess the benefits of technologies that reduce heat loss, and analyse various social and environmental impacts of the use of energy from renewable and non-renewable sources",
+          "text_html": "<p>assess the benefits of technologies that reduce heat loss, and analyse various social and environmental impacts of the use of energy from renewable and non-renewable sources</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "assess the social and environmental benefits of technologies that reduce heat loss in enclosed spaces or heat transfer to surrounding spaces",
+              "text_html": "<p>assess the social and environmental benefits of technologies that reduce heat loss in enclosed spaces or heat transfer to surrounding spaces</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.2",
+              "text": "analyse various social, economic, and environmental impacts, including impacts related to climate change, of using non-renewable and renewable sources of energy",
+              "text_html": "<p>analyse various social, economic, and environmental impacts, including impacts related to climate change, of using non-renewable and renewable sources of energy &nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 7, students will:",
+          "text": "demonstrate an understanding of heat as a form of energy that is associated with the movement of particles and is essential for many natural processes within Earth’s systems",
+          "text_html": "<p>demonstrate an understanding of heat as a form of energy that is associated with the movement of particles and is essential for many natural processes within Earth’s systems</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "use particle theory to explain how heat affects the motion of particles in a solid, a liquid, and a gas",
+              "text_html": "<p>use particle theory to explain how heat affects the motion of particles in a solid, a liquid, and a gas</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.2",
+              "text": "demonstrate an understanding of various ways in which heat is generated",
+              "text_html": "<p>demonstrate an understanding of various ways in which heat is generated</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.3",
+              "text": "use particle theory to explain the effects of heat on volume in solids, liquids, and gases, including during changes of states of matter",
+              "text_html": "<p>use particle theory to explain the effects of heat on volume in solids, liquids, and gases, including during changes of states of matter</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.4",
+              "text": "explain how heat is transmitted through conduction, and describe natural processes that are affected by conduction",
+              "text_html": "<p>explain how heat is transmitted through conduction, and describe natural processes that are affected by conduction &nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.5",
+              "text": "explain how heat is transmitted in liquids and gases through convection, and describe natural processes that depend on convection",
+              "text_html": "<p>explain how heat is transmitted in liquids and gases through convection, and describe natural processes that depend on convection</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.6",
+              "text": "explain how heat is transmitted through radiation, and describe the effects of radiation from the Sun on different kinds of surfaces",
+              "text_html": "<p>explain how heat is transmitted through radiation, and describe the effects of radiation from the Sun on different kinds of surfaces</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.7",
+              "text": "describe the role of radiation in heating and cooling Earth, and explain how greenhouse gases affect the transmission of radiated heat through the atmosphere",
+              "text_html": "<p>describe the role of radiation in heating and cooling Earth, and explain how greenhouse gases affect the transmission of radiated heat through the atmosphere</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.8",
+              "text": "identify common sources of greenhouse gases, including sources resulting from human activity, and describe how humans can reduce emissions of these gases",
+              "text_html": "<p>identify common sources of greenhouse gases, including sources resulting from human activity, and describe how humans can reduce emissions of these gases</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

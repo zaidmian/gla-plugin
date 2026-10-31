@@ -1,0 +1,552 @@
+{
+  "code": "ATC3O",
+  "name": "Dance",
+  "grades": [
+    "11"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "Dance",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course emphasizes the development of students’ movement vocabulary relating to dance genres from around the world, and of their understanding of the elements of dance and the tools of composition in a variety of performance situations. Students will research and explain how physical, intellectual, and artistic skills developed in dance can be applied in a wide range of careers. They will apply tools and techniques through-out the process of creation and presentation, and reflect on how studies in the dance arts affect personal identity.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/atc3o",
+  "source_codename": "arts___sec___atc3m__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating, Presenting, and Performing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the creative process, the elements of dance, and a variety of sources to develop movement vocabulary",
+          "text_html": "<p>use the <a href=\"/en/curriculum/secondary-arts/context/program#the-creative-process\">creative process</a>, the elements of dance, and a variety of sources to develop movement vocabulary</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use the elements of dance to develop and perform a series of connected dance phrases inspired by a source (e.g., demonstrate “stages in the life” of figures from various Rodin sculptures; depict changes in an object from nature or the surrounding environment)",
+              "text_html": "<p>use the <a data-item-id=\"dfb089dd-c60e-49c7-a3c7-362e0f0ba133\" href=\"\">elements of dance</a> to develop and perform a series of connected dance phrases inspired by a source <em>(e.g., demonstrate “stages in the life” of figures from various Rodin sculptures; depict changes in an object from nature or the surrounding environment)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What other works of art could be a source for dance creation?\n  If you think of this figure as moving in time, can you demonstrate what preceded this moment, and what you imagine happens next?",
+                  "text_html": "<ul>\n  <li>What other works of art could be a source for dance creation?</li>\n  <li>If you think of this figure as moving in time, can you demonstrate what preceded this moment, and what you imagine happens next?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "create and perform phrases that combine the elements of dance in a variety of ways (e.g., use body parts in a sequential and then in an isolated way while alternating levels with each movement; combine the elements of space and relationship in a diagonal movement by a tightly clumped group)",
+              "text_html": "<p>create and perform phrases that combine the elements of dance in a variety of ways <em>(e.g., use </em><a data-item-id=\"9a442420-766b-41c9-a806-37c74b566396\" href=\"\"><em>body</em></a><em> parts in a sequential and then in an isolated way while alternating levels with each movement; combine the elements of space and relationship in a diagonal movement by a tightly clumped group)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What happens when you change direction abruptly? What happens to your formation when you move forward, backward, or in a zigzag?",
+                  "text_html": "<ul>\n  <li>What happens when you change direction abruptly? What happens to your formation when you move forward, backward, or in a zigzag?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "use the elements of dance to produce and perform movement vocabulary through guided improvisation (e.g., explore negative space within a small group in a variety of ways, collaboratively decide on revisions, and repeat the improvisational process several times until a sequence begins to unfold)",
+              "text_html": "<p>use the elements of dance to produce and perform <a data-item-id=\"57bda9cf-e518-4c16-ae94-2876c64dc02b\" href=\"\">movement vocabulary</a> through guided improvisation <em>(e.g., explore </em><a data-item-id=\"e45d6a94-3686-474c-9e56-bf0fd1c5fb1f\" href=\"\"><em>negative space</em></a><em> within a small group in a variety of ways, collaboratively decide on revisions, and repeat the improvisational process several times until a sequence begins to unfold)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies help you remember movement ideas generated during improvisation for use in a dance piece?",
+                  "text_html": "<ul>\n  <li>What strategies help you remember movement ideas generated during improvisation for use in a <a data-item-id=\"b871e8de-c1aa-4e17-8d83-a694647023c5\" href=\"\">dance piece?</a></li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.4",
+              "text": "develop a variety of solutions to movement problems following specific guidelines in performance (e.g., use juxtaposition, contrast, and/or repetition with a partner to broaden movement vocabulary)",
+              "text_html": "<p>develop a variety of solutions to movement problems following specific guidelines in performance <em>(e.g., use juxtaposition, </em><a data-item-id=\"d8644e2f-4172-4ea9-8d8b-7a527ca07411\" href=\"\"><em>contrast</em></a><em>, and/or repetition with a partner to broaden movement vocabulary)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What other manipulations can you include in the exploration to broaden the development of your movement material?",
+                  "text_html": "<ul>\n  <li>What other manipulations can you include in the exploration to broaden the development of your movement material?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Choreography and Composition",
+          "describer": "By the end of this course, students will:",
+          "text": "combine the elements of dance in a variety of ways in composing individual and ensemble dance creations",
+          "text_html": "<p>combine the elements of dance in a variety of ways in composing individual and ensemble dance creations</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "use a variety of choreographic forms, structures, and techniques to create and perform a series of movement phrases (e.g., use a theme and variation structure in a duet; create a group composition using movement motifs that communicate a response to a natural or built environment beyond the studio)",
+              "text_html": "<p>use a variety of choreographic forms, structures, and techniques to create and perform a series of movement phrases <em>(e.g., use a theme and variation structure in a duet; create a group </em><a data-item-id=\"a20e0f30-948c-4323-a101-c8391558a0fe\" href=\"\"><em>composition</em></a><em> using movement motifs that communicate a response to a natural or built environment beyond&nbsp;the studio)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what way will your chosen environment shape your movement patterns and the relationships of the dancers?",
+                  "text_html": "<ul>\n  <li>In what way will your chosen environment shape your movement patterns and the relationships of the dancers?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "create a dance composition inspired by a source (e.g., develop dance phrases suggested by Feathers and Fools by Mem Fox and Nicholas Wilton or The Great Kapok Tree by Lynne Cherry and use them as the basis for a longer composition)",
+              "text_html": "<p>create a dance composition inspired by a source <em>(e.g., develop dance phrases suggested by </em>Feathers and Fools <em>by Mem Fox and Nicholas Wilton or </em>The Great Kapok Tree <em>by Lynne Cherry and use them as the basis for a longer composition)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which illustrations, images, key words, and/or phrases from the story give you ideas you can use in your composition? Do they appeal to your visual imagination, or your sense of sound or rhythm?\n  What is the story’s message? How can you translate that message into the language of dance?",
+                  "text_html": "<ul>\n  <li>Which illustrations, images, key words, and/or phrases from the story give you ideas you can use in your composition? Do they appeal to your visual imagination, or your sense of sound or rhythm?</li>\n  <li>What is the story’s message? How can you translate that message into the language of dance?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "use a variety of compositional approaches to express a range of ideas and moods through dance (e.g., select evocative words from a poem and create movement vocabulary to communicate their meaning; compose a series of dance phrases to reflect the structure and express the mood of a piece of music)",
+              "text_html": "<p>use a variety of compositional approaches to express a range of ideas and moods through dance <em>(e.g., select evocative words from a poem and create movement vocabulary to communicate their meaning; compose a series of dance phrases to reflect the structure and express the mood of a piece&nbsp;of music)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which compositional approaches will you use? Which ones are likely to be most helpful in exploring new ways to communicate through movement?",
+                  "text_html": "<ul>\n  <li>Which compositional approaches will you use? Which ones are likely to be most helpful in exploring new ways to communicate through movement?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Dance Techniques",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the dance techniques and movement vocabularies of a variety of dance forms from around the world",
+          "text_html": "<p>demonstrate an understanding of the dance techniques and movement vocabularies of a variety of dance forms from around the world</p>",
+          "transferable_skills": [
+            "Communication",
+            "Digital Literacy",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "apply knowledge of the movement vocabularies of a variety of dance forms from around the world (e.g., practise and demonstrate movements from ballet/jazz dance, modern/contemporary dance, and one or more world dance forms, such as the Anishinabe “jingle dress dance” and the Punjabi bhangra dance)",
+              "text_html": "<p>&nbsp;apply knowledge of the movement vocabularies of a variety of dance forms from around the world <em>(e.g., practise and demonstrate movements from ballet/jazz dance, modern/contemporary dance, and one or more world dance forms, such as the Anishinabe “jingle dress dance” and the Punjabi bhangra dance)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what way does knowing about the cultural or historical origins of a dance form influence how you perform the vocabulary?",
+                  "text_html": "<ul>\n  <li>In what way does knowing about the cultural or historical origins of a dance form influence how you perform the vocabulary?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "accurately reproduce timing and phrasing patterns found in a variety of dance forms from around the world (e.g., correctly perform a syncopated movement phrase)",
+              "text_html": "<p>accurately reproduce timing and phrasing patterns found in a variety of dance forms from around the world <em>(e.g., correctly perform a&nbsp;syncopated&nbsp;movement phrase)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What visual or auditory cues do you use to help you execute a specific rhythmic timing in dance? Is music distracting or helpful to your timing?\n  Are mirrors helpful or distracting when you are focusing on accurately learning the rhythm or timing of a phrase?",
+                  "text_html": "<ul>\n  <li>What visual or auditory cues do you use to help you execute a specific rhythmic timing in dance? Is music distracting or helpful to your timing?</li>\n  <li>Are mirrors helpful or distracting when you are focusing on accurately learning the rhythm or timing of a phrase?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "arrange and present multiple sequences using the dance vocabulary and technique from an identified dance form (e.g., use the vocabulary learned in Limón technique to create a five-minute Limón technique demonstration for a Grade 8 class)",
+              "text_html": "<p>arrange and present multiple sequences using the dance vocabulary and technique from an identified dance form <em>(e.g., use the vocabulary learned in Limón technique to create&nbsp;a five-minute Limón technique demonstration for&nbsp;a Grade 8&nbsp;class)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What aspects of the Limón technique will you focus on in your demonstration?",
+                  "text_html": "<ul>\n  <li>What aspects of the Limón technique will you focus on in your demonstration?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Performance",
+          "describer": "By the end of this course, students will:",
+          "text": "apply dance presentation skills in a variety of contexts and performances",
+          "text_html": "<p>apply dance presentation skills in a variety of contexts and performances</p>",
+          "transferable_skills": [
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "revise, refine, and polish movement execution and choreography (e.g., use teacher and peer feedback to clarify their movement choices and intention; rework or change phrases/sections that need revision; polish the technical execution of movement, timing, and spacing)",
+              "text_html": "<p>revise, refine, and polish movement execution and choreography <em>(e.g., use teacher and peer feedback to clarify their movement choices and intention; rework or change phrases/sections that need revision; polish the technical execution of movement, timing, and spacing)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Have you received feedback encouraging you to change movement phrases that you are really attached to? Do you understand the reasons behind the suggestions? How could you work with the suggestions to produce a solution you can feel good about?",
+                  "text_html": "<ul>\n  <li>Have you received feedback encouraging you to change movement phrases that you are really attached to? Do you understand the reasons behind the suggestions? How could you work with the suggestions to produce a solution you can feel good about?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A4.2",
+              "text": "use the tools of stagecraft to achieve specific purposes in dance presentations (e.g., use lighting to create a particular effect on stage or in the studio)",
+              "text_html": "<p>use the tools of stagecraft to achieve specific purposes in dance presentations <em>(e.g., use lighting to create a particular effect on stage or in the studio)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What technologies can you use to create lighting effects for your dance piece if a lighting board and lighting instruments such as spotlights, striplights, floodlights, and follow spots are not available?",
+                  "text_html": "<ul>\n  <li>What technologies can you use to create lighting effects for your dance piece if a lighting board and lighting instruments such as spotlights, striplights, floodlights, and follow spots are not available?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A4.3",
+              "text": "maintain an appropriate stage presence in rehearsals and performances (e.g., demonstrate awareness of self and others, a strong sense of focus, and an appropriate frame of mind)",
+              "text_html": "<p>maintain an appropriate stage presence in rehearsals and performances <em>(e.g., demonstrate awareness of self and others, a strong sense of focus, and an appropriate frame of&nbsp;mind)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How is the quality of your dancing in rehearsals and performances affected when you are distracted? How is the quality of a performance affected when you are distracting others?\n  How do the energy and attitude you bring to the rehearsal environment affect the overall performance of the group?",
+                  "text_html": "<ul>\n  <li>How is the quality of your dancing in rehearsals and performances affected when you are distracted? How is the quality of a performance affected when you are distracting others?</li>\n  <li>How do the <a data-item-id=\"7b16847d-b01d-4cce-a01d-1d7fab729e13\" href=\"\">energy</a> and attitude you bring to the rehearsal environment affect the overall performance of the group?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the critical analysis process to reflect on and evaluate their own and others’ dance works and activities",
+          "text_html": "<p>use the <a href=\"/en/curriculum/secondary-arts/context/program#the-critical-analysis-process\">critical analysis process</a> to reflect on and evaluate their own and others’ dance works and activities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "use the critical analysis process to describe and compare a wide variety of dance forms (e.g., identify and describe the movement vocabularies of two or more dance forms and explain what is different and what is similar within these forms)",
+              "text_html": "<p>use the critical analysis process to describe and compare a wide variety of dance forms <em>(e.g., identify and describe the movement vocabularies of two or more dance forms and explain what is different and what is similar within these forms)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why does comparing one dance form with another help you understand each one more clearly?",
+                  "text_html": "<ul>\n  <li>Why does comparing one dance form with another help you understand each one more clearly?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "analyse dance works in terms of both their content and their fluency, artistry, or expressiveness (e.g., identify technical details of alignment and placement in their peers’ movement combinations and explain how they affect the fluency and expressiveness of their dance works)",
+              "text_html": "<p>analyse dance works in terms of both their content and their <a data-item-id=\"93f37146-600f-4c96-882e-90fc164c00b9\" href=\"\">fluency</a>, artistry, or expressiveness <em>(e.g., identify technical details of alignment and placement in their peers’ movement combinations and explain how they affect the fluency and expressiveness of their dance works)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can identifying the details that give fluency to another person’s movement combinations help you improve the fluency of your own dance works?",
+                  "text_html": "<ul>\n  <li>How can identifying the details that give fluency to another person’s movement combinations help you improve the fluency of your own dance works?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Dance and Society",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how societies present and past use or have used dance, and of how creating and viewing dance can benefit individuals, groups, and communities",
+          "text_html": "<p>demonstrate an understanding of how societies present and past use or have used dance, and of how creating and viewing dance can benefit individuals, groups, and communities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "compare the characteristics of a world dance form and a social dance form and describe the role each has in its society or culture of origin (e.g., Odissi and square dance)",
+              "text_html": "<p>compare the characteristics of a world dance form and a social dance form and describe the role each has in its society or culture of origin <em>(e.g., Odissi and square dance)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does traditional North American square dance resemble other kinds of folk dances? What are some ways it is different from other folk dances, past and present? How would you describe the differences between folk dance and other types of dance?",
+                  "text_html": "<ul>\n  <li>How does traditional North American square dance resemble other kinds of folk dances? What are some ways it is different from other folk dances, past and present? How would you describe the differences between folk dance and other types of dance?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "explain how dance contributes to their personal growth and self-understanding (e.g., develop a series of “Dance gives me…” statements that reflect how they benefit from dance activities within and outside of school)",
+              "text_html": "<p>explain how dance contributes to their personal growth and self-understanding <em>(e.g., develop a series of “Dance gives me…” statements that reflect how they benefit from dance activities within and outside of school)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What areas of your life are most affected by your learning in dance? In what ways? Are there any areas that are not touched by it?",
+                  "text_html": "<ul>\n  <li>What areas of your life are most affected by your learning in dance? In what ways? Are there any areas that are not touched by it?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "identify and describe different types of dance represented in a particular culture, and describe their purposes (e.g., the characteristics of rain dances in ancient Egypt and their relationship to environmental factors, agricultural practices, and religious beliefs)",
+              "text_html": "<p>identify and describe different types of dance represented in a particular culture, and describe their purposes <em>(e.g., the characteristics of rain dances in ancient Egypt and their relationship to environmental factors, agricultural practices, and&nbsp;religious beliefs)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some environmental issues in the world today? Which of these issues could you comment on in a dance? How might your dance be enhanced if you studied how dances from other cultures addressed environmental issues?",
+                  "text_html": "<ul>\n  <li>What are some environmental issues in the world today? Which of these issues could you comment on in a dance? How might your dance be enhanced if you studied how dances from other cultures addressed environmental issues?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the purpose and possibilities of continuing engagement in dance arts",
+          "text_html": "<p>demonstrate an understanding of the purpose and possibilities of continuing engagement in dance arts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "identify physical, intellectual, and artistic skills that are developed through dance, and explain how they can be applied to a wide range of careers (e.g., identify occupations that require the type of discipline and patience needed to participate in ballet class)",
+              "text_html": "<p>identify physical, intellectual, and artistic skills that are developed through dance, and explain how they can be applied to a wide range of careers <em>(e.g., identify occupations that require the type of discipline and patience needed&nbsp;to participate in ballet class)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What skills or personal qualities are developed through studying classical East Indian dance? What careers require similar skills or qualities?",
+                  "text_html": "<ul>\n  <li>What skills or personal qualities are developed through studying classical East Indian dance? What careers require similar skills or qualities?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "explain why it is important to support dance arts in their community (e.g., explain how a local dance organization contributes to community life, and identify supports it needs to continue or extend its activities)",
+              "text_html": "<p>explain why it is important to support dance arts in their community <em>(e.g., explain how a&nbsp;local dance organization contributes to community life, and identify supports it needs to continue or extend its activities)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What would you include in a detailed plan to help meet the needs of a community dance organization? How would you implement that plan within the organization?",
+                  "text_html": "<ul>\n  <li>What would you include in a detailed plan to help meet the needs of a community dance organization? How would you implement that plan within the organization?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "develop and maintain a traditional or digital dance portfolio to demonstrate their learning in a variety of ways (e.g., gather and organize materials and records that reflect their evolution as dance creators and performers)",
+              "text_html": "<p>develop and maintain a traditional or digital dance portfolio to demonstrate their learning in a variety of ways <em>(e.g., gather and organize materials and&nbsp;records&nbsp;that&nbsp;reflect&nbsp;their evolution as dance creators and&nbsp;performers)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could you use the materials selected for your portfolio to create a “narrative” about your learning in dance throughout the year? What story will your portfolio tell?",
+                  "text_html": "<ul>\n  <li>How could you use the materials selected for your portfolio to create a “narrative” about your learning in dance throughout the year? What story will your portfolio tell?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Physiology and Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of, and use correct terminology when referring to, the physiology of movement as it relates to dance",
+          "text_html": "<p>demonstrate an understanding of, and use correct terminology when referring to, the physiology of movement as it relates to dance</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify and describe practices that can enhance a positive body image and healthy lifestyle and contribute to successful achievement in dance (e.g., making informed nutritional choices; avoiding substance abuse; recognizing negative patterns of behaviour; identifying and building on their strengths)",
+              "text_html": "<p>identify and describe practices that can enhance a positive body image and healthy lifestyle and contribute to successful achievement in dance <em>(e.g., making informed nutritional choices; avoiding substance abuse; recognizing negative patterns of behaviour; identifying and building on their strengths)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are at least two positive things you can say about yourself? How do the positive comments affect how you see yourself when you look in the mirror? What kinds of positive comments have your peers written about themselves? How have the comments affected the mood or tone of the class?",
+                  "text_html": "<ul>\n  <li>What are at least two positive things you can say about yourself? How do the positive comments affect how you see yourself when you look in the mirror? What kinds of positive comments have your peers written about themselves? How have the comments affected the mood or tone of the class?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "demonstrate an understanding of specific details of muscular anatomy as they relate to movement (e.g., describe the relationships between flexors, extensors, adductors, and abductors; create a short warm-up exercise that demonstrates the relationships between the skeletal muscles in the upper and lower body; identify key surface and deep muscles in different parts of their anatomy and explain or demonstrate ways to maintain or increase their  strength)",
+              "text_html": "<p>demonstrate an understanding of specific details of muscular anatomy as they relate to movement&nbsp;<em>(e.g., describe&nbsp;the&nbsp;relationships between flexors, extensors, adductors, and abductors; create a short warm-up exercise that demonstrates the relationships between the skeletal muscles in the upper and lower body; identify key surface and deep muscles in different parts of their anatomy and explain or demonstrate ways to maintain or increase their&nbsp; strength)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are tendons and ligaments involved in the warm-up process? What movements are included in your warm-up? What muscle groups are used in each movement?",
+                  "text_html": "<ul>\n  <li>How are tendons and ligaments involved in the warm-up process? What movements are included in your warm-up? What muscle groups are used in each movement?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "demonstrate, and describe using correct terminology, movement repertoire from a variety of dance forms from around the world (e.g., describe and perform capoeira movements such as banda, cocorinha, ginga, rasteira; create games or narratives involving both words and movements to illustrate dance terminology)",
+              "text_html": "<p>demonstrate, and describe using correct terminology, movement repertoire from a variety of dance forms from around the world <em>(e.g., describe and perform capoeira movements such as banda, cocorinha, ginga, rasteira; create games or narratives involving both words and movements&nbsp;to illustrate dance&nbsp;terminology)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the key terms and vocabulary we have studied this year? What methods of memorization or demonstration might help you remember your dance terminology?",
+                  "text_html": "<ul>\n  <li>What are the key&nbsp;terms and vocabulary we have studied this year? What methods of memorization or demonstration might help you remember your dance terminology?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Contexts and Influences",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the social, cultural, and historical origins and development of dance forms, including their influence on each other and on society",
+          "text_html": "<p>demonstrate an understanding of the social, cultural, and historical origins and development of dance forms, including their influence on each other and on society</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "describe the historical development of one or more dance forms (e.g., the development of English folk dance; the evolution of contra dance into salsa dance as we know it today)",
+              "text_html": "<p>describe the historical development of one or more dance forms <em>(e.g., the development of English folk dance; the evolution of contra dance into salsa dance as we know it today)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some effective ways you can communicate information about the evolution of the dance form(s) you are interested in?",
+                  "text_html": "<ul>\n  <li>What are some effective ways you can communicate information about the evolution of the dance form(s) you are interested in?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "identify and describe ways in which dance is or can be used to reflect or comment on social questions in the local and/or global community (e.g., research and report on the themes addressed by dance pieces such as Lamentation by Martha Graham, A Flock of Flyers by the dance/comedy group Corpus, and/or The Green Table by Kurt Jooss, and the techniques they use to communicate their message; research and report on how companies such as CityDance Ensemble, TRIP Dance Theater, and ODC Dance use dance to comment on environmental issues)",
+              "text_html": "<p>identify and describe ways in which dance is or can be used to reflect or comment on social questions in the local and/or global community <em>(e.g., research and report on the themes addressed by dance pieces such as </em>Lamentation&nbsp;<em>by Martha Graham, </em>A Flock of Flyers <em>by the dance/comedy group Corpus, and/or </em>The Green Table <em>by Kurt Jooss, and the techniques they&nbsp;use to communicate their message; research and report on how companies such as CityDance Ensemble, TRIP Dance Theater, and ODC Dance use dance to comment on environmental issues)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which dance companies use dance as social commentary most effectively? Which of their approaches or techniques might you adopt for your own purposes?",
+                  "text_html": "<ul>\n  <li>Which dance companies use dance as social commentary most effectively? Which of their approaches or techniques might you adopt for your own purposes?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "identify and describe similarities and differences in some dance forms from around the world and illustrate them through performance (e.g., do research to identify and compare some characteristic gestures and movements of Kathakali dance and Aboriginal dance, or tap and flamenco, and perform excerpts from these styles to demonstrate their findings)",
+              "text_html": "<p>identify and describe similarities and differences in some dance forms from around the world and illustrate them through performance <em>(e.g., do research to identify and compare some characteristic gestures&nbsp;and&nbsp;movements&nbsp;of Kathakali dance and </em><a data-item-id=\"d00a2d62-487b-4f63-acce-2a555f6074ba\" href=\"\"><em>Aboriginal</em></a><em> dance, or&nbsp;tap and flamenco, and perform excerpts from these styles to demonstrate their findings)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some of the characteristics of social dance from the 1960s? How do these social dance forms reflect the music of this era? What role does improvisation play in this type of social dance? Is improvisation used to make some kind of “statement”? If so, what kind?",
+                  "text_html": "<ul>\n  <li>What are some of the characteristics of social dance from the 1960s? How do these social dance forms reflect the music&nbsp;of this era? What role does improvisation play in this type of social dance? Is improvisation used to make some kind of “statement”? If so, what kind?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of safe, ethical, and responsible personal and interpersonal practices in dance activities",
+          "text_html": "<p>demonstrate an understanding of safe, ethical, and responsible personal and interpersonal practices in dance activities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify and follow responsible practices while creating, performing, and viewing dance (e.g., explain why it is important to avoid distracting or inappropriate movement while viewing others’ performances; give constructive and respectful feedback)",
+              "text_html": "<p>identify and follow responsible practices while creating, performing, and viewing dance <em>(e.g., explain why it is important to avoid distracting or inappropriate movement while viewing others’ performances; give constructive and respectful feedback)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why is it important to watch other students perform without making comments while the presentation is in progress?\n  How does having an inattentive, noisy, or restless audience affect your own performance?",
+                  "text_html": "<ul>\n  <li>Why is it important to watch other students perform without making comments while the presentation is in progress?</li>\n  <li>How does having an inattentive, noisy, or restless audience affect your own performance?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "demonstrate collaborative and negotiating skills during rehearsal and performance (e.g., contribute their fair share to the creative process; show willingness to negotiate group roles such as motivator, scheduler, materials manager, project coordinator)",
+              "text_html": "<p>demonstrate collaborative and negotiating skills during rehearsal and performance <em>(e.g., contribute their fair share to the creative process; show willingness to negotiate group roles such as motivator, scheduler, materials manager, project coordinator)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do you do to build trust and encourage people to contribute their ideas?\n  Do creation or presentation processes work better when people feel that they have a specific role/function in the group?",
+                  "text_html": "<ul>\n  <li>What do you do to build trust and encourage people to contribute their ideas?</li>\n  <li>Do creation or presentation processes work better when people feel that they have a specific role/function in the group?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "identify and follow safe and ethical practices in dance activities in both classroom and performance settings (e.g., help others to use equipment safely; maintain appropriate boundaries; show respect for the opinions of others during class or group discussions; explain why it is important to respect others’ choreographic and intellectual property; create, describe, and perform a presentation that shows how another person’s work can be incorporated without plagiarizing)",
+              "text_html": "<p>identify and follow safe and ethical practices in dance activities in both classroom and performance settings <em>(e.g., help others to use equipment safely; maintain appropriate boundaries; show respect for the opinions of others during class or group discussions; explain why it is important to respect others’ choreographic and intellectual property; create, describe, and perform a presentation that shows how another person’s work can be incorporated without plagiarizing)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What specific safety concerns do we need to be aware of during this activity? Would it be helpful to give each student a specific safety feature to be responsible for?\n  What is the difference between imitating and plagiarizing? When might it be appropriate to use someone else’s idea or concept in your own work? What are some strategies you can use to imitate creatively, without plagiarizing?",
+                  "text_html": "<ul>\n  <li>What specific safety concerns do we need to be aware of during this activity? Would it be helpful to give each student a specific safety feature to be responsible for?</li>\n  <li>What is the difference between imitating and plagiarizing? When might it be appropriate to use someone else’s idea or concept in your&nbsp;own work? What are some strategies you can use to imitate creatively, without plagiarizing?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

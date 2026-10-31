@@ -1,0 +1,736 @@
+{
+  "code": "HSE3E",
+  "name": "Equity, Diversity, and Social Justice",
+  "grades": [
+    "11"
+  ],
+  "levels": [],
+  "course_type": "Workplace",
+  "category": "Equity Studies",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course enables students to develop an understanding of historical and contemporary issues relating to equity, diversity, and social justice in a variety of contexts. Students will explore the nature of diversity and power relations in Canada and how social norms shape individual identity. They will learn about social activism and how to address situations that involve discrimination, harassment, and denial of rights. Students will develop and apply research skills and will design and implement a social action initiative relating to an equity, diversity, or social justice issue.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hse3e",
+  "source_codename": "hsg3m__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to equity, diversity, and/or social justice, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to <a data-item-id=\"2370285d-8eb0-47ef-a5a2-6ae83212f0a4\" href=\"\">equity</a>, <a data-item-id=\"3d2eefc5-ef14-483b-954e-60f82900fc63\" href=\"\">diversity</a>, and/or <a data-item-id=\"2c9e7064-cc16-46ec-9947-a8fa4eb2c27b\" href=\"\">social justice</a>, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to equity, diversity, and/or social justice (e.g., stereotypes in textbooks, newspapers, and magazines; gender discrimination in sports) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to equity, diversity, and/or social justice <em>(e.g., </em><a data-item-id=\"6899813e-f819-4f82-8442-4aeaeab7dc68\" href=\"\"><em>stereotypes</em></a><em> in textbooks, newspapers, and magazines; </em><a data-item-id=\"cf378a4c-c93a-4b31-876f-b7b49c3cbdcc\" href=\"\"><em>gender</em></a><em> </em><a data-item-id=\"95172453-fc82-4742-b74d-229aed3de574\" href=\"\"><em>discrimination</em></a><em> in sports) </em>to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers) </em>related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were researching depictions of race in video games, how might you choose a sample of games to study?",
+                  "text_html": "<ul>\n  <li>If you were researching depictions of <a data-item-id=\"c42c0914-c10c-4da6-94e7-cdad81bae8b0\" href=\"\">race</a> in video games, how might you choose a sample of games to study?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investi­gate their selected topics (e.g., outline purpose and method; identify sources of information), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investi­gate their selected topics <em>(e.g., outline purpose and method; identify sources of information)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews; personal observation; surveys and questionnaires; original documents in print or other media such as film, photographs, songs, advertisements) and secondary sources (e.g., textbooks, magazines)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews; personal observation; surveys and questionnaires; original documents in print or other media such as film, photographs, songs, advertisements) </em>and secondary sources <em>(e.g., textbooks, magazines)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why is it important to base your research on a variety of sources?",
+                  "text_html": "<ul>\n  <li>Why is it important to base your research on a variety of sources?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research and inquiry",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research and inquiry</p>",
+          "transferable_skills": [
+            "Communication",
+            "Digital Literacy",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gath­ered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gath­ered from primary and secondary sources <em>(e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can you determine whether all of the information you have gath­ered is relevant to your research topic? \n  If two sources contradict each other, how might you determine which is more reliable? \n  What biases might there be in your sources?",
+                  "text_html": "<ul>\n  <li>How can you determine whether all of the information you have gath­ered is relevant to your research topic?&nbsp;</li>\n  <li>If two sources contradict each other, how might you determine which is more reliable?&nbsp;</li>\n  <li>What biases might there be in your sources?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, summaries, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats <em>(e.g., notes, graphic organizers, summaries, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare results of surveys and interviews; determine whether common themes arise in different media products)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare results of surveys and interviews; determine whether common themes arise in different media products)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by docu­menting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by docu­menting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclusions (e.g., weigh and connect information to determine the answer to their research question)",
+              "text_html": "<p>synthesize findings and formulate conclusions <em>(e.g., weigh and connect information to determine the answer to their research question)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presenta­tion, graph, brochure, flyer, poster, report, multimedia presentation, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format <em>(e.g., oral presenta­tion, graph, brochure, flyer, poster, report, multimedia presentation, web page) </em>to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "correctly use terms relating to equity, diversity, and social justice (e.g., social construction of identity, power, oppression, social movement, antidiscrimination)",
+              "text_html": "<p>correctly use terms relating to equity, diversity, and social justice <em>(e.g., </em><a data-item-id=\"008534cf-bf8b-4ffe-9424-92b23384b28d\" href=\"\"><em>social construction</em></a><em> of identity, </em><a data-item-id=\"e66b5722-963d-4557-8f4b-5cb550bc1d97\" href=\"\"><em>power</em></a><em>, </em><a data-item-id=\"2aa8d5d3-b0bb-4221-b9c8-06089454d0e0\" href=\"\"><em>oppression</em></a><em>, social movement, antidiscrimination)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What steps might you take to enhance your research and inquiry skills?",
+                  "text_html": "<ul>\n  <li>What steps might you take to enhance your research and inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Social Construction of Identity",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how identity is socially constructed and internalized, and of the impact of social norms and stereotypes",
+          "text_html": "<p>demonstrate an understanding of how identity is socially constructed and internalized, and of the impact of social norms and stereotypes</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "explain how various aspects of identity (e.g., gender identity, sexual orientation, trans identities, race, culture, ethnicity, ability, language, class, faith, age, body image) may be socially constructed and internalized (e.g., through the media, parental expectations, religion, popular culture)",
+              "text_html": "<p>explain how various aspects of identity <em>(e.g., </em><a data-item-id=\"f223e401-dc5d-49d1-b34c-9e7045ac51b9\" href=\"\"><em>gender identity</em></a><em>, </em><a data-item-id=\"7196a23d-4630-4cd1-970a-9a22d00e5141\" href=\"\"><em>sexual orientation</em></a><em>, trans identities, </em><a data-item-id=\"c42c0914-c10c-4da6-94e7-cdad81bae8b0\" href=\"\"><em>race</em></a><em>, </em><a data-item-id=\"9ec6e0d9-4e3b-48ba-95df-6fc44cefefb4\" href=\"\"><em>culture</em></a><em>, </em><a data-item-id=\"37924fba-9c75-42f1-aa51-beb90194f286\" href=\"\"><em>ethnicity</em></a><em>, ability, language, class, faith, age, body image) </em>may be socially constructed and internalized <em>(e.g., through the media, parental expectations, religion, popular culture)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What influences have been the most important in your life? How do you think they have affected “who you are”? \n  How do young boys and girls in Canadian society learn what it means to be masculine or feminine? How and why might this process differ depending on their racial, ethnocultural, or class background? \n  How are dominant gender roles conveyed to young children through advertisements? Through toys, board games, and video games? \n  In what ways might identity formation be different for an Aboriginal person and a person of European background living in Canada? \n  In what ways has religion helped shape your identity?",
+                  "text_html": "<ul>\n  <li>What influences have been the most important in your life? How do you think they have affected “who you are”?&nbsp;</li>\n  <li>How do young boys and girls in Canadian society learn what it means to be masculine or feminine? How and why might this process differ depending on their racial, ethnocultural, or class background?&nbsp;</li>\n  <li>How are dominant gender roles conveyed to young children through advertisements? Through toys, board games, and video games?&nbsp;</li>\n  <li>In what ways might identity formation be different for an Aboriginal person and a person of European background living in Canada?&nbsp;</li>\n  <li>In what ways has religion helped shape your identity?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "demonstrate an understanding of how a variety of factors (e.g., race, socio-economic status, sexual orientation, ability) intersect in individuals to create diverse experiences of identity and social roles",
+              "text_html": "<p>demonstrate an understanding of how a variety of factors <em>(e.g., race, socio-economic status, sexual orientation, ability) </em>intersect in individuals to create diverse experiences of identity and social roles</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways might expec­tations relating to employment possibilities differ for males and females from different racial or socio-economic backgrounds? How might these differing expectations affect one’s sense of iden­tity and how one acts? \n  How might religion influence the adoption of gender roles or norms and related behaviour?",
+                  "text_html": "<ul>\n  <li>In what ways might expec­tations relating to employment possibilities differ for males and females from different racial or socio-economic backgrounds? How might these differing expectations affect one’s sense of iden­tity and how one acts?&nbsp;</li>\n  <li>How might religion influence the adoption of gender roles or norms and related behaviour?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "explain positive and negative ways in which social norms can affect individuals (e.g., positive effects: social acceptance and self-acceptance, popular­ity, positive self-esteem, sense of security for those who follow norms; negative effects: ostracism for those who challenge norms, internal conflicts between one’s sense of self and societal expectations)",
+              "text_html": "<p>explain positive and negative ways in which social norms can affect individuals <em>(e.g., </em>positive effects: <em>social acceptance and self-acceptance, popular­ity, positive self-esteem, sense of security for those who follow norms; </em>negative effects: <em>ostracism for those who challenge norms, internal conflicts between one’s sense of self and societal expectations)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What might your peers say about you if you do not conform to what they think is normal or “cool”? How would this reac­tion make you feel? \n  How might different groups or individuals in the school and com­munity react if a female student took her girlfriend to the prom?",
+                  "text_html": "<ul>\n  <li>What might your peers say about you if you do not conform to what they think is normal or “cool”? How would this reac­tion make you feel?&nbsp;</li>\n  <li>How might different groups or individuals in the school and com­munity react if a female student took her girlfriend to the prom?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "explain how biases and stereotypes, including those related to race, class, gender, and sexual orientation, are transmitted through the media and popular culture (e.g., with reference to gender roles depicted in music videos; the depiction of LGBT [lesbian, gay, bisexual, transgender] characters in films and television shows; stereotypical representa­tions of Aboriginal people in films; how race, class, and gender figure in media depictions of criminal behaviour and victims of crime), and describe their possible impact on individuals (e.g., the impact on well-being, self-image, their own attitudes and behaviour and those of others)",
+              "text_html": "<p>explain how biases and stereotypes, including those related to race, class, gender, and sexual orientation, are transmitted through the media and popular culture <em>(e.g., with reference to gender roles depicted in music videos; the depiction of </em><a data-item-id=\"340df9f3-5e8f-4c1d-8e72-15fab2d1ca7c\" href=\"\"><em>LGBT</em></a><em> [lesbian, gay, bisexual, </em><a data-item-id=\"564c3ef4-9e2a-4177-98ec-7321d421aa12\" href=\"\"><em>transgender</em></a><em>] characters in films and television shows; stereotypical representa­tions of Aboriginal people in films; how race, class, and gender figure in media depictions of criminal behaviour and victims of crime)</em>, and describe their possible impact on individuals <em>(e.g., the impact on well-being, self-image, their own attitudes and behaviour and those of others)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are race and class depicted in video games? What do these depic­tions imply? \n  How do television programs represent working-class people? \n  What are some of the stereotypes related to depictions/reports of violence in the media and popular culture? What effect do you think these stereo­ types have on both perpetrators and victims?\n  How does the use of sexual imagery in the promotion of fashion and beauty products marketed to increasingly young girls affect their self-image? \n  What impact might the stereotypical representation of certain groups (e.g., people with disabilities, Aboriginal people, working-class people, people in racialized communities) in the media have on members of these groups? What impact might positive representations have on members of these groups and on the wider society? \n  How are people in positions of power and privilege depicted in popular films?",
+                  "text_html": "<ul>\n  <li>How are race and class depicted in video games? What do these depic­tions imply?&nbsp;</li>\n  <li>How do television programs represent working-class people?&nbsp;</li>\n  <li>What are some of the stereotypes related to depictions/reports of violence in the media and popular culture? What effect do you think these stereo­ types have on both perpetrators and victims?</li>\n  <li>How does the use of sexual imagery in the promotion of fashion and beauty products marketed to increasingly young girls affect their self-image?&nbsp;</li>\n  <li>What impact might the stereotypical representation of certain groups (e.g., people with disabilities, Aboriginal people, working-class people, people in racialized communities) in the media have on members of these groups? What impact might positive representations have on members of these groups and on the wider society?&nbsp;</li>\n  <li>How are people in positions of power and <a data-item-id=\"2e5233a1-0687-42d1-8fea-6a06070ab503\" href=\"\">privilege</a> depicted in popular films?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Power Relations",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the dynamics of power relations in various social contexts",
+          "text_html": "<p>demonstrate an understanding of the dynamics of power relations in various social contexts</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "explain how power and privilege operate in various Canadian social, economic, and political contexts (e.g., in the arts, education, publishing, community organizations, professional sports, financial institutions, the labour market, the media, government)",
+              "text_html": "<p>explain how power and <a data-item-id=\"2e5233a1-0687-42d1-8fea-6a06070ab503\" href=\"\">privilege</a> operate in various Canadian social, economic, and political contexts <em>(e.g., in the arts, education, publishing, community organizations, professional sports, financial institutions, the labour market, the media, government)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the similarities and differences in the make-up of your local town/city council, the Ontario provincial gov­ernment, and Canada’s federal government? \n  How diverse are the backgrounds and characteristics of individuals who sit on the boards of or hold executive positions in organizations in your community? \n  How might a person’s English-language skills and/or accent affect his or her chances of being hired for a job for which he or she is fully qualified?\n  What roles do race, gender, sexual orientation, ability, and class play with respect to power and privilege? \n  What are the responsibilities of those in posi­tions of power or privilege towards those who are less powerful or privileged? \n  Who decides what issues are featured in the media and how they are addressed? \n  How many texts written by Aboriginal authors are available in your school library or media centre? What do you think these numbers reflect?",
+                  "text_html": "<ul>\n  <li>What are the similarities and differences in the make-up of your local town/city council, the Ontario provincial gov­ernment, and Canada’s federal government?&nbsp;</li>\n  <li>How diverse are the backgrounds and characteristics of individuals who sit on the boards of or hold executive positions in organizations in your community?&nbsp;</li>\n  <li>How might a person’s English-language skills and/or accent affect his or her chances of being hired for a job for which he or she is fully qualified?</li>\n  <li>What roles do race, gender, sexual orientation, ability, and class play with respect to power and privilege?&nbsp;</li>\n  <li>What are the responsibilities of those in posi­tions of power or privilege towards those who are less powerful or privileged?&nbsp;</li>\n  <li>Who decides what issues are featured in the media and how they are addressed?&nbsp;</li>\n  <li>How many texts written by Aboriginal authors are available in your school library or media centre? What do you think these numbers reflect?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "explain how and why a person’s power and privilege can vary in different contexts (e.g., at home, in a peer group, at school, in the community)",
+              "text_html": "<p>explain how and why a person’s power and privilege can vary in different contexts <em>(e.g., at home, in a peer group, at school, in the community)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Do you feel you are in a position of power at home? At school? On a sports team? In a community group? Why do you feel more powerful in some situations and less so in others?",
+                  "text_html": "<ul>\n  <li>Do you feel you are in a position of power at home? At school? On a sports team? In a community group? Why do you feel more powerful in some situations and less so in others?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "demonstrate an understanding of the differ­ence between individual and systemic forms of discrimination and oppression (e.g., antisemitic remarks, racial profiling, gay bashing, racist slurs, homophobic comments, lack of captioning of television programs or videos, employment barriers, restrictions on gay men being blood or organ donors, the reserve system for First Nations peoples in Canada, failure to make buildings accessible for elderly people and people with disabilities)",
+              "text_html": "<p>demonstrate an understanding of the differ­ence between individual and systemic forms of discrimination and oppression <em>(e.g., antisemitic remarks, </em><a data-item-id=\"00029f5e-9aa9-43db-ac44-9b897d3f893f\" href=\"\"><em>racial profiling</em></a><em>, gay bashing, racist slurs, homophobic comments, lack of captioning of television programs or videos, employment barriers, restrictions on gay men being blood or organ donors, the reserve system for First Nations peoples in Canada, failure to make buildings accessible for elderly people and people with disabilities)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the difference between prejudice and discrimination?\n  Why do some Aboriginal adolescents have to leave their communities to go to high school? Do you think this constitutes an individual form of discrimination? Why or why not?\n  What are the similarities and differences between a racial slur and racial profiling?",
+                  "text_html": "<ul>\n  <li>What is the difference between <a data-item-id=\"0906a6b2-9570-401c-ab38-83f4ec768a62\" href=\"\">prejudice</a> and discrimination?</li>\n  <li>Why do some Aboriginal adolescents have to leave their communities to go to high school? Do you think this constitutes an individual form of discrimination? Why or why not?</li>\n  <li>What are the similarities and differences between a racial slur and racial profiling?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.4",
+              "text": "describe the effects of discrimination and oppression on individuals and groups (e.g., feelings of marginalization, powerlessness, anger, hopelessness; motivation to seek societal change or engage in advocacy, action)",
+              "text_html": "<p>describe the effects of discrimination and oppression on individuals and groups <em>(e.g., feelings of </em><a data-item-id=\"c3842484-e6e0-4a0c-a7fa-9229b58c26d1\" href=\"\"><em>marginalization</em></a><em>, powerlessness, anger, hopelessness; motivation to seek societal change or engage in </em><a data-item-id=\"a366f1a4-e6e8-44cb-a2af-30c1d5914e0f\" href=\"\"><em>advocacy</em></a><em>, action)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some of the ways in which people react when they experience discrimination?\n  What conditions led to the People with Disabilities Act in Ontario? \n  How were individuals from Aboriginal communities affected by the residential school experience? \n  What impact might expensive school field trips have on less affluent students and their parents? \n  How might individuals be affected by never seeing people similar to themselves portrayed in the media? How might this absence affect individuals in the dominant culture?",
+                  "text_html": "<ul>\n  <li>What are some of the ways in which people react when they experience discrimination?</li>\n  <li>What conditions led to the People with Disabilities Act in Ontario?&nbsp;</li>\n  <li>How were individuals from Aboriginal communities affected by the residential school experience?&nbsp;</li>\n  <li>What impact might expensive school field trips have on less affluent students and their parents?&nbsp;</li>\n  <li>How might individuals be affected by never seeing people similar to themselves portrayed in the media? How might this absence affect individuals in the dominant culture?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Social Awareness and Individual Action",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the impact individual action can have on equity, social justice, and environmental issues, and of how the media can create awareness of these issues",
+          "text_html": "<p>demonstrate an understanding of the impact individual action can have on equity, social justice, and environmental issues, and of how the media can create awareness of these issues</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "describe ways in which one’s personal choices or behaviour (e.g., socially conscious con­sumption, support for fair/ethical trade, involvement in co-construction of public policy, personal language use, expanding one’s political awareness) can help empower individuals and reduce the impact of inequity or social injustice in local, national, and international contexts",
+              "text_html": "<p>describe ways in which one’s personal choices or behaviour <em>(e.g., socially conscious con­sumption, support for fair/ethical trade, involvement in co-construction of public policy, personal language use, expanding one’s political awareness) </em>can help empower individuals and reduce the impact of inequity or social injustice in local, national, and international contexts</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why is it important to use inclusive language when working with groups that have a diverse membership? Why is it also important to use inclusive language with groups that seem to be homogeneous?",
+                  "text_html": "<ul>\n  <li>Why is it important to use inclusive language when working with groups that have a diverse membership? Why is it also important to use inclusive language with groups that seem to be homogeneous?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "demonstrate an understanding of the effects of individual actions that are grounded in environmental awareness (e.g., taking public transportation helps reduce air pollution, shopping at thrift stores helps reduce the depletion of resources used to create products, recycling lessens the amount of garbage going into landfill sites)",
+              "text_html": "<p>demonstrate an understanding of the effects of individual actions that are grounded in environmental awareness <em>(e.g., taking public transportation helps reduce air pollution, shopping at thrift stores helps reduce the depletion of resources used to create products, recycling lessens the amount of garbage going into landfill sites)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some ways in which you can act in an environmentally responsible manner on a day-to-day basis? What impact can these actions have? \n  What is your respon­sibility to people in other countries and to future generations with respect to the environment?",
+                  "text_html": "<ul>\n  <li>What are some ways in which you can act in an environmentally responsible manner on a day-to-day basis? What impact can these actions have?&nbsp;</li>\n  <li>What is your respon­sibility to people in other countries and to future generations with respect to the environment?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "explain how the media and popular culture can help create awareness of equity, social justice, and environmental issues (e.g., through Internet campaigns, social marketing, documentaries and other films; by publicizing positive role models)",
+              "text_html": "<p>explain how the media and popular culture can help create awareness of equity, social justice, and environmental issues <em>(e.g., through Internet campaigns, social marketing, documentaries and other films; by publicizing positive role models)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Who are some musicians who use their music to convey messages about social justice or the environment? What impact do you think they have had?",
+                  "text_html": "<ul>\n  <li>Who are some musicians who use their music to convey messages about social justice or the environment? What impact do you think they have had?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.4",
+              "text": "identify career and volunteer opportunities that could help support equity and social justice objectives (e.g., working as a trade union representative or in social services, participating in political campaigns, lobbying in support of an equity issue, serving on a community social justice committee)",
+              "text_html": "<p>identify career and volunteer opportunities that could help support equity and social justice objectives <em>(e.g., working as a trade union representative or in social services, participating in political campaigns, lobbying in support of an equity issue, serving on a community social justice committee)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Equity, Social Justice and Change",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Ethnocultural Diversity in Canada",
+          "describer": "By the end of this course, students will:",
+          "text": "describe challenges faced by various racial, cultural, and national communities in Canada and the contributions these communities have made to this country",
+          "text_html": "<p>describe challenges faced by various racial, cultural, and national communities in Canada and the contributions these communities have made to this country</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "describe the ongoing challenges and struggles facing various racial, cultural, or national minority groups in Canada, including Aboriginal people and newcomers (e.g., the need to learn a new language, different social role expectations, lack of recognition for international qualifications, religious stereotypes, ghettoization, family reunification, the time taken to settle refugee claims, prejudice and discrimination, racism, racial profiling, poverty)",
+              "text_html": "<p>describe the ongoing challenges and struggles facing various racial, cultural, or national minority groups in Canada, including Aboriginal people and newcomers <em>(e.g., the need to learn a new language, different social role expectations, lack of recognition for international qualifications, religious stereotypes, ghettoization, family reunification, the time taken to settle refugee claims, </em><a data-item-id=\"0906a6b2-9570-401c-ab38-83f4ec768a62\" href=\"\"><em>prejudice</em></a><em> and discrimination, racism, racial profiling, poverty)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why are some people who worked as engineers, lawyers, or doctors in other countries driving taxis or cleaning houses or offices in Canada? \n  How might being separated from your family for an extended period of time affect your life? \n  How do multicultural and antiracist policies affect ethnocultural communities in Canada? \n  What unique challenges face immigrant communities in Canada? \n  What challenges face First Nation people living on reserves? How do these compare to the challenges facing First Nation people living off reserve?",
+                  "text_html": "<ul>\n  <li>Why are some people who worked as engineers, lawyers, or doctors in other countries driving taxis or cleaning houses or offices in Canada?&nbsp;</li>\n  <li>How might being separated from your family for an extended period of time affect your life?&nbsp;</li>\n  <li>How do multicultural and antiracist policies affect ethnocultural communities in Canada?&nbsp;</li>\n  <li>What unique challenges face immigrant communities in Canada?&nbsp;</li>\n  <li>What challenges face First Nation people living on reserves? How do these compare to the challenges facing First Nation people living off reserve?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "describe the complexities of the relationship between an individual’s cultural heritage and Canadian values, beliefs, and practices (e.g., with reference to: dual identities; possible conflict between values in the family and the broader society; differences in expectations regarding citizen rights and participation; conflict between collective and individualistic values; mainstream Canadian attitudes towards and stereotypes about the newcomer’s country of origin or Aboriginal cultures; ties to the home coun­try, including economic ties such as remittances)",
+              "text_html": "<p>describe the complexities of the relationship between an individual’s cultural heritage and Canadian values, beliefs, and practices <em>(e.g., with reference to: dual identities; possible conflict between values in the family and the broader society; differences in expectations regarding citizen rights and participation; conflict between collective and individualistic values; mainstream Canadian attitudes towards and stereotypes about the newcomer’s country of origin or Aboriginal cultures; ties to the home coun­try, including economic ties such as remittances)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What, if any, tensions do you experience between the traditions in your home and the behaviour/attitudes that help you fit in at school? \n  What stereotypes exist in Canada about other countries? \n  What are the main ethnocultural groups in your local community? What effect do current events in their country or countries of origin have on the community? \n  Why are individuals from certain racial, cultural, or national groups frequently asked when they came to Canada? Have you ever been asked that question? How did that make you feel? \n  What impact have British cultural traditions had on Canadian values, beliefs, and practices? How might Canadian values, beliefs, and practices be different if Aboriginal ways of knowing and being had been valued more widely in the country’s history?",
+                  "text_html": "<ul>\n  <li>What, if any, tensions do you experience between the traditions in your home and the behaviour/attitudes that help you fit in at school?&nbsp;</li>\n  <li>What stereotypes exist in Canada about other countries?&nbsp;</li>\n  <li>What are the main ethnocultural groups in your local community? What effect do current events in their country or countries of origin have on the community?&nbsp;</li>\n  <li>Why are individuals from certain racial, cultural, or national groups frequently asked when they came to Canada? Have you ever been asked that question? How did that make you feel?&nbsp;</li>\n  <li>What impact have British cultural traditions had on Canadian values, beliefs, and practices? How might Canadian values, beliefs, and practices be different if Aboriginal ways of knowing and being had been valued more widely in the country’s history?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "describe various racial, cultural, and national communities’ contributions to and influence on Canadian life and society (e.g., with reference to the arts, sports, business, science, government, non-governmental organizations [NGOs])",
+              "text_html": "<p>describe various racial, cultural, and national communities’ contributions to and influence on Canadian life and society <em>(e.g., with reference to the arts, sports, business, science, government, non-governmental organizations [NGOs])</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways do festivals and celebrations such as Caribana, St-Jean-Baptiste Day, and Chinese New Year enrich Canadian life?\n  What impact has Celtic, Latin, and Caribbean music had on the Canadian music scene? \n  In what ways have NGOs associated with First Nations contributed to Canadian society? \n  What contribution do small businesses owned by ethnocultural minorities make to the economy of Ontario’s cities?",
+                  "text_html": "<ul>\n  <li>In what ways do festivals and celebrations such as Caribana, St-Jean-Baptiste Day, and Chinese New Year enrich Canadian life?</li>\n  <li>What impact has Celtic, Latin, and Caribbean music had on the Canadian music scene?&nbsp;</li>\n  <li>In what ways have NGOs associated with First Nations contributed to Canadian society?&nbsp;</li>\n  <li>What contribution do small businesses owned by ethnocultural minorities make to the economy of Ontario’s cities?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Equity and Social Justice in Canada",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of a range of historical and contemporary Canadian equity and social justice issues",
+          "text_html": "<p>demonstrate an understanding of a range of historical and contemporary Canadian equity and social justice issues</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "describe a variety of historical and contem­porary examples of inequity and social injustice in Canada (e.g., historical immigration policy, including the Chinese Exclusion Act and head tax on Chinese residents; the response to Jewish refugees fleeing Nazism; the internment of Japanese Canadians, German Canadians, and Doukhobors; living conditions in urban slums and First Nation communities; working conditions in early factories and sweatshops; the destruction of Africville; the struggle for unions and for health and safety standards for workers; discrimination against francophones; environmental degradation related to resource exploitation)",
+              "text_html": "<p>describe a variety of historical and contem­porary examples of inequity and social injustice in Canada <em>(e.g., historical immigration policy, including the Chinese Exclusion Act and head tax on Chinese residents; the response to Jewish refugees fleeing Nazism; the internment of Japanese Canadians, German Canadians, and Doukhobors; living conditions in urban slums and First Nation communities; working conditions in early factories and sweatshops; the destruction of Africville; the struggle for unions and for health and safety standards for workers; discrimination against francophones; environmental degradation related to resource exploitation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Historically, which groups have been encouraged to immigrate to Canada? Which groups have been discouraged or barred? Why? \n  What was life like in Africville prior to its destruction? What happened to its residents?",
+                  "text_html": "<ul>\n  <li>Historically, which groups have been encouraged to immigrate to Canada? Which groups have been discouraged or barred? Why?&nbsp;</li>\n  <li>What was life like in Africville prior to its destruction? What happened to its residents?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "demonstrate an understanding of Canada’s historical and current relationship with First Nation, Métis, and Inuit peoples, and of the ways in which Aboriginal people have worked to achieve recognition of Aboriginal and treaty rights (e.g., by forming Aboriginal organizations, through the courts, by lobbying governments, through appeals to the United Nations and the international community, through demonstrations and blockades)",
+              "text_html": "<p>demonstrate an understanding of Canada’s historical and current relationship with First Nation, Métis, and Inuit peoples, and of the ways in which Aboriginal people have worked to achieve recognition of Aboriginal and treaty rights <em>(e.g., by forming Aboriginal organizations, through the courts, by lobbying governments, through appeals to the United Nations and the international community, through demonstrations and blockades)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What issues and actions led to the Canadian government’s apology for the residential school system? \n  Why isn’t it common for Aboriginal children to be educated in their own language?\n  Where and why have First Nations used blockades?",
+                  "text_html": "<ul>\n  <li>What issues and actions led to the Canadian government’s apology for the residential school system?&nbsp;</li>\n  <li>Why isn’t it common for Aboriginal children to be educated in their own language?</li>\n  <li>Where and why have First Nations used blockades?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "describe the progress Canada has made in the areas of human rights, equity, and social justice (e.g., the Canada/Quebec Pension Plan and Old Age Security, the Canadian Charter of Rights and Freedoms, the Ontarians with Disabilities Act, same-sex marriage laws, anti–hate crimes legislation)",
+              "text_html": "<p>describe the progress Canada has made in the areas of <a data-item-id=\"6d4de286-3019-4b8a-82fd-349b34eda450\" href=\"\">human rights</a>, equity, and social justice <em>(e.g., the Canada/Quebec Pension Plan and Old Age Security, the Canadian Charter of Rights and Freedoms, the Ontarians with Disabilities Act, same-sex marriage laws, anti–hate crimes legislation)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "describe a range of perspectives on specific contemporary equity or social justice issues in Canada (e.g., equity in the workplace, safe schools, accessibility for elderly people and for people with disabilities, treatment of domestic workers and itinerant labourers)",
+              "text_html": "<p>describe a range of perspectives on specific contemporary equity or social justice issues in Canada <em>(e.g., equity in the workplace, safe schools, accessibility for elderly people and for people with disabilities, treatment of domestic workers and itinerant labourers)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What might be the responses of governments, employers, and families with and without children to the issue of universal childcare? \n  Whose perspectives on social justice issues are generally found in the mainstream media? Where might you look to find a greater range of perspectives on these issues?",
+                  "text_html": "<ul>\n  <li>What might be the responses of governments, employers, and families with and without children to the issue of universal childcare?&nbsp;</li>\n  <li>Whose perspectives on social justice issues are generally found in the mainstream media? Where might you look to find a greater range of perspectives on these issues?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Social Activism",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how social activism can be used to support equity and social justice objectives",
+          "text_html": "<p>demonstrate an understanding of how social activism can be used to support equity and social justice objectives</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "describe the impact of historically important social movements (e.g., movements in support of civil rights, women’s rights, Aboriginal rights, gay rights; the Black Power movement; peace, environ­ mental, and anti-globalization movements)",
+              "text_html": "<p>describe the impact of historically important social movements <em>(e.g., movements in support of civil rights, women’s rights, Aboriginal rights, gay rights; the Black Power movement; peace, environ­ mental, and anti-globalization movements)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "describe forms of social activism, including those unique to contemporary society (e.g., netivism, hacktivism, culture jamming; participation in student social justice clubs; use of the arts such as music, theatre, and visual arts to publicize or comment on social justice issues; use of the media to report on social injustice; protests such as hunger strikes, demonstrations, civil disobedience, passive resistance)",
+              "text_html": "<p>describe forms of social activism, including those unique to contemporary society <em>(e.g., netivism, hacktivism, culture jamming; participation in student social justice clubs; use of the arts such as music, theatre, and visual arts to publicize or comment on social justice issues; use of the media to report on social injustice; protests such as hunger strikes, demonstrations, civil disobedience, passive resistance)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What forms of activism have you noticed in and around your community? \n  How could you use your talents and/or inter­ests to raise awareness around an issue you feel strongly about? \n  What do you think are the lasting effects of campaigns that take place through social networking sites? Do you think people “click and care”? Why or why not?",
+                  "text_html": "<ul>\n  <li>What forms of activism have you noticed in and around your community?&nbsp;</li>\n  <li>How could you use your talents and/or inter­ests to raise awareness around an issue you feel strongly about?&nbsp;</li>\n  <li>What do you think are the lasting effects of campaigns that take place through social networking sites? Do you think people “click and care”? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "describe how various social groups have created effective coalitions to achieve significant equity and social justice objectives (e.g., the Ontario Coalition for Social Justice, the World Social Forum, the Equal Pay Coalition, the Coalition for Cultural Diversity)",
+              "text_html": "<p>describe how various social groups have created effective coalitions to achieve significant equity and social justice objectives <em>(e.g., the Ontario Coalition for Social Justice, the World Social Forum, the Equal Pay Coalition, the Coalition for Cultural Diversity)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some examples of successful coalitions? How did working together advance the cause of the respective groups or create positive change?",
+                  "text_html": "<ul>\n  <li>What are some examples of successful coalitions? How did working together advance the cause of the respective groups or create positive change?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.4",
+              "text": "describe contemporary examples of social justice activism by indigenous communities and other groups from around the world (e.g., by indigenous groups in Bolivia, Niger, the Circumpolar North; through specific Internet campaigns; through Theatre of the Oppressed productions; by organizations such as Inclusion International, Free the Children, War Child Canada, Right to Play; by anti-globalization activists; by groups advocating a peaceful resolution between Israelis and Palestinians)",
+              "text_html": "<p>describe contemporary examples of social justice activism by indigenous communities and other groups from around the world <em>(e.g., by indigenous groups in Bolivia, Niger, the Circumpolar North; through specific Internet campaigns; through Theatre of the Oppressed productions; by organizations such as Inclusion International, Free the Children, War Child Canada, Right to Play; by anti-globalization activists; by groups advocating a peaceful resolution between Israelis and Palestinians)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In the case study you are considering, what goals were the activists trying to achieve? What strategies did they use? How successful were they in achieving their goals?",
+                  "text_html": "<ul>\n  <li>In the case study you are considering, what goals were the activists trying to achieve? What strategies did they use? How successful were they in achieving their goals?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Promoting Equity and Social Justice",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Respecting Diversity",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how to interact successfully in settings characterized by diversity, including school, workplace, and community settings, and ways to promote respect for diversity in these settings",
+          "text_html": "<p>demonstrate an understanding of how to interact successfully in settings characterized by diversity, including school, workplace, and community settings, and ways to promote respect for diversity in these settings</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "identify the specific skills, including those outlined in the Ontario Skills Passport, required to work and live successfully in diverse school, workplace, or community settings (e.g., skills related to conflict resolution, consensus building, problem solving, democratic decision-making; skills required to interact positively with peers, co-workers, clients/customers)",
+              "text_html": "<p>identify the specific skills, including those outlined in the Ontario Skills Passport, required to work and live successfully in diverse school, workplace, or community settings <em>(e.g., skills related to conflict resolution, consensus building, problem solving, democratic decision-making; skills required to interact positively with peers, co-workers, clients/customers)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "explain how to apply specific skills and strategies necessary to interact effectively in diverse school, workplace, and community settings (e.g., skills/strategies for engaging in inter­ cultural communication, constructive dialogue, consensus building, interventions, advocacy; respectful behaviour; the use of inclusive language and avoidance of offensive language/expressions)",
+              "text_html": "<p>explain how to apply specific skills and strategies necessary to interact effectively in diverse school, workplace, and community settings <em>(e.g., skills/strategies for engaging in inter­ cultural communication, constructive dialogue, consensus building, interventions, </em><a data-item-id=\"a366f1a4-e6e8-44cb-a2af-30c1d5914e0f\" href=\"\"><em>advocacy</em></a><em>; respectful behaviour; the use of inclusive language and avoidance of offensive language/expressions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might you and your peers support a peer with a physical or intel­lectual disability to enable you all to work successfully together?",
+                  "text_html": "<ul>\n  <li>How might you and your peers support a peer with a physical or intel­lectual disability to enable you all to work successfully together?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.3",
+              "text": "describe various policies and initiatives in the school, workplace, and community that are designed to promote respect for diversity (e.g., student equity groups; school/workplace antidiscrimination policies; multiculturalism policies)",
+              "text_html": "<p>describe various policies and initiatives in the school, workplace, and community that are designed to promote respect for diversity <em>(e.g., student equity groups; school/workplace antidiscrimination policies; </em><a data-item-id=\"e33f33b0-51d8-49d2-9163-daf4532f8fa9\" href=\"\"><em>multiculturalism</em></a><em> policies)</em></p>\n<p><br></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can cultural festivals or Pride Week or National Aboriginal Day events enhance respect for diversity in the community? To what extent can such festivals help to change people’s attitudes? What are their limitations? \n  Why is it important to include antiracist components in school programs celebrating ethnocultural diversity?",
+                  "text_html": "<ul>\n  <li>How can cultural festivals or Pride Week or National Aboriginal Day events enhance respect for diversity in the community? To what extent can such festivals help to change people’s attitudes? What are their limitations?&nbsp;</li>\n  <li>Why is it important to include antiracist components in school programs celebrating ethnocultural diversity?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Human Rights, Equity, and Antidiscrimination",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of their rights and responsibilities relating to equity and human rights, and of how to appropriately address situations involving discrimination, harassment, and the denial of rights",
+          "text_html": "<p>demonstrate an understanding of their rights and responsibilities relating to equity and human rights, and of how to appropriately address situations involving discrimination, <a data-item-id=\"16d086ec-5b53-4af4-b8a5-7fc447fafc2c\" href=\"\">harassment</a>, and the denial of rights</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "describe the protections outlined in the Ontario Human Rights Code and other human rights legislation and policies (e.g., equity and antidiscrimination legislation; antiharassment, union, worker safety, safe school policies) as they apply to school, workplace, and community settings",
+              "text_html": "<p>describe the protections outlined in the Ontario Human Rights Code and other human rights legislation and policies <em>(e.g., equity and antidiscrimination legislation; antiharassment, union, worker safety, safe school policies) </em>as they apply to school, workplace, and community settings</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What policies are in place to protect individuals who are harassed at school or in a volunteer or cooperative placement?",
+                  "text_html": "<ul>\n  <li>What policies are in place to protect individuals who are harassed at school or in a volunteer or cooperative placement?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "demonstrate an understanding of how to apply strategies to effectively and safely address personal experiences of bias, stereotypes, prejudice, discrimination, and/or oppression (e.g., anti-bullying strategies, self-assertion and self-advocacy techniques, intervention strategies, conflict-resolution strategies)",
+              "text_html": "<p>demonstrate an understanding of how to apply strategies to effectively and safely address personal experiences of bias, stereotypes, prejudice, discrimination, and/or oppression <em>(e.g., anti-bullying strategies, self-assertion and self-</em><a data-item-id=\"a366f1a4-e6e8-44cb-a2af-30c1d5914e0f\" href=\"\"><em>advocacy</em></a><em> techniques, intervention strategies, conflict-resolution strategies)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can you determine whether you can safely respond to a bully or harasser on your own? How can you determine when and from whom to seek help?",
+                  "text_html": "<ul>\n  <li>How can you determine whether you can safely respond to a bully or harasser on your own? How can you determine when and from whom to seek help?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "demonstrate an understanding of how to respond safely and effectively when witnessing a situation or behaviour that reflects prejudice, discrimination, oppression, harassment, or bullying",
+              "text_html": "<p>demonstrate an understanding of how to respond safely and effectively when witnessing a situation or behaviour that reflects prejudice, discrimination, oppression, harassment, or bullying</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What can you do if you hear racist or homophobic comments in the hallway? \n  How can you safely intervene if a friend is being harassed or bullied?",
+                  "text_html": "<ul>\n  <li>What can you do if you hear racist or homophobic comments in the hallway?&nbsp;</li>\n  <li>How can you safely intervene if a friend is being harassed or bullied?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Social Action and Personal Engagement",
+          "describer": "By the end of this course, students will:",
+          "text": "design, implement, and evaluate an initiative to address an equity or social justice issue",
+          "text_html": "<p>design, implement, and evaluate an initiative to address an equity or social justice issue</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "identify a specific need related to an equity or social justice issue, and design an initiative to address this need (e.g., an initiative such as designing a classroom or school workshop or campaign to promote diversity; creating posters, pam­phlets, or a website on an equity theme; organizing a petition or a letter-writing campaign on a social justice issue)",
+              "text_html": "<p>identify a specific need related to an equity or social justice issue, and design an initiative to address this need <em>(e.g., an initiative such as designing a classroom or school workshop or campaign to promote diversity; creating posters, pam­phlets, or a website on an equity theme; organizing a petition or a letter-writing campaign on a social justice issue)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some equity issues that have affected you personally or that you have personally witnessed in your school? What steps can be taken to address such issues?",
+                  "text_html": "<ul>\n  <li>What are some equity issues that have affected you personally or that you have personally witnessed in your school? What steps can be taken to address such issues?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "identify strategies and skills needed for gaining support for and handling potential resistance to their initiative (e.g., strategies such as resolving differences of opinion, seeking common ground with those who approach the issue differently; skills related to active listening, understanding various perspectives, collaboration and consultation)",
+              "text_html": "<p>identify strategies and skills needed for gaining support for and handling potential resistance to their initiative <em>(e.g., strategies such as resolving differences of opinion, seeking common ground with those who approach the issue differently; skills related to active listening, understanding various perspectives, collaboration and consultation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What steps might you take to work effectively with others who may have different opinions from yours? \n  How can you ensure that you have support for your initiative from people in power, such as your school principal?",
+                  "text_html": "<ul>\n  <li>What steps might you take to work effectively with others who may have different opinions from yours?&nbsp;</li>\n  <li>How can you ensure that you have support for your initiative from people in power, such as your school principal?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.3",
+              "text": "demonstrate an understanding of how to effectively evaluate social action initiatives (e.g., strategies for evaluating the clarity of the message and the appropriateness of the initiative for the target audience or group being served, for measuring results)",
+              "text_html": "<p>demonstrate an understanding of how to effectively evaluate social action initiatives <em>(e.g., strategies for evaluating the clarity of the message and the appropriateness of the initiative for the target audience or group being served, for measuring results)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How will you know whether your project was successful? What criteria will you use to measure its success?",
+                  "text_html": "<ul>\n  <li>How will you know whether your project was successful? What criteria will you use to measure its success?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.4",
+              "text": "implement their initiative using appropriate planning, organizational, evaluation, and communication skills",
+              "text_html": "<p>implement their initiative using appropriate planning, organizational, evaluation, and communication skills</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.5",
+              "text": "reflect on the skills and strategies they used before, during, and after designing and implementing their initiative; explain which ones they found most useful in achieving their objectives; and identify what they would do differently in the future to improve their work as committed, responsible activists",
+              "text_html": "<p>reflect on the skills and strategies they used before, during, and after designing and implementing their initiative; explain which ones they found most useful in achieving their objectives; and identify what they would do differently in the future to improve their work as committed, responsible activists</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When implementing your initiative, what skills did you develop that you could use for other social action initiatives? What challenges did you face? How might you overcome these when working on future projects?",
+                  "text_html": "<ul>\n  <li>When implementing your initiative, what skills did you develop that you could use for other social action initiatives? What challenges did you face? How might you overcome these when working on future projects?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

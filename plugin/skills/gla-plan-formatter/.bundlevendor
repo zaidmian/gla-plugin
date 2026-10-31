@@ -1,0 +1,3 @@
+# Copied into the .skill zip by _tools/make_skill_bundle.py; never committed here.
+# prefill.py reads it when Teaching/Standards is not in reach (claude.ai).
+references/growing_success_matrix.md <- Standards/assessment/growing-success-summary.md :: Final mark breakdown | Final evaluation by subject | Exemptions from the written-exam requirement

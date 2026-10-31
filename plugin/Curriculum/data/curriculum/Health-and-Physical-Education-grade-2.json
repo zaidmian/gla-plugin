@@ -1,0 +1,577 @@
+{
+  "code": "",
+  "name": "Health and Physical Education",
+  "grades": [
+    "2"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Health and Physical Education",
+  "subject_group": "Health and Physical Education",
+  "description": "Here you will find an overview of student development and learning in health and physical education at the primary level, as well as the expectations and learning for the four areas of study for Grade 2.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-health-and-physical-education/courses/grade-2",
+  "source_codename": "hpe___grade_2",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Social-Emotional Learning Skills",
+      "describer": "Throughout Grade 2, in order to promote overall health and well-being, positive mental health, and the ability to learn, build resilience, and thrive, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Social-Emotional Learning Skills",
+          "describer": "Throughout Grade 2, students will, to the best of their ability:",
+          "text": "apply, to the best of their ability, a range of social-emotional learning skills as they acquire knowledge and skills in connection with the expectations in the Active Living, Movement Competence, and Healthy Living strands for this grade",
+          "text_html": "<p>apply, to the best of their ability, a range of <a data-item-id=\"3e8a4cd7-a64d-43c9-b64d-2f0489227b7d\" href=\"\">social-emotional learning</a> skills as they acquire knowledge and skills in connection with <a data-item-id=\"2dc89ef0-e92f-498d-b0d3-111eca64cacc\" href=\"\">the expectations in the Active Living, Movement Competence, and Healthy Living strands</a> for this grade</p>",
+          "transferable_skills": [],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "apply skills that help them identify and manage emotions as they participate in learning experiences in health and physical education, in order to improve their ability to express their own feelings and understand and respond to the feelings of others (e.g., Active Living: if feeling unhappy or upset before the start of a physical activity, take a moment to breathe deeply and refocus, so they can be ready to participate fully; Movement Competence: be aware of the feelings they and their partner are experiencing as they work cooperatively to throw and catch objects of varying sizes, and respond by making adjustments in how they are sending the objects; Healthy Living: show understanding for the feelings of someone who is voicing objections and refusing to participate in an activity that they do not like)",
+              "text_html": "<p>apply skills that help them identify and manage emotions as they participate in learning experiences in health and physical education, in order to improve their ability to express their own feelings and understand and respond to the feelings of others <em>(e.g., </em><em><strong>Active Living: </strong></em><em>if feeling unhappy or upset before the start of a physical activity, take a moment to breathe deeply and refocus, so they can be ready to participate fully; </em><em><strong>Movement Competence: </strong></em><em>be aware of the feelings they and their partner are experiencing as they work cooperatively to throw and catch objects of varying sizes, and respond by making adjustments in how they are </em><a data-item-id=\"d4cea242-ee5f-4c20-b2d4-2cde48919b6a\" href=\"\"><em>sending</em></a><em> the objects; </em><em><strong>Healthy Living: </strong></em><em>show understanding for the feelings of someone who is voicing objections and refusing to participate in an activity that they do not like)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "apply skills that help them to recognize sources of stress and to cope with challenges, including help-seeking behaviours, as they participate in learning experiences in health and physical education, in order to support the development of personal resilience (e.g., Active Living: dress appropriately for outdoor activity, recognizing that they help themselves feel more comfortable by doing so; Movement Competence: describe the value of positive self-talk to help manage several variables when engaged in an activity, such as sending objects of different sizes, at different levels, using different body parts; Healthy Living: in response to teasing, try different solutions – walking away, telling the person to stop, telling the person how the teasing makes them feel, getting help)",
+              "text_html": "<p>apply skills that help them to recognize sources of stress and to cope with challenges, including help-seeking behaviours, as they participate in learning experiences in health and physical education, in order to support the development of personal <a data-item-id=\"dc34a340-b6e9-42e1-9fe8-aed414607a78\" href=\"\">resilience</a> <em>(e.g., </em><em><strong>Active Living: </strong></em><em>dress appropriately for outdoor activity, recognizing that they help themselves feel more comfortable by doing so; </em><em><strong>Movement Competence: </strong></em><em>describe the value of positive self-talk to help manage several variables when engaged in an activity, such as sending objects of different sizes, at different levels, using different body parts; </em><em><strong>Healthy Living: </strong></em><em>in response to teasing, try different solutions – walking away, telling the person to stop, telling the person how the teasing makes them feel, getting help)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "apply skills that help them develop habits of mind that support positive motivation and perseverance as they participate in learning experiences in health and physical education, in order to promote a sense of optimism and hope (e.g., Active Living: understand the connection between getting a good sleep and feeling ready to participate; Movement Competence: show perseverance in exploring ways of using different body parts and balancing; Healthy Living: show appreciation for all the things their bodies can do)",
+              "text_html": "<p>apply skills that help them develop habits of mind that support positive motivation and perseverance as they participate in learning experiences in health and physical education, in order to promote a sense of optimism and hope <em>(e.g., </em><em><strong>Active Living: </strong></em><em>understand the connection between getting a good sleep and feeling ready to participate; </em><em><strong>Movement Competence: </strong></em><em>show perseverance in exploring ways of using different body parts and balancing; </em><em><strong>Healthy Living: </strong></em><em>show appreciation for all the things their bodies can do)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "apply skills that help them build relationships, develop empathy, and communicate with others as they participate in learning experiences in health and physical education, in order to support healthy relationships, a sense of belonging, and respect for diversity (e.g., Active Living: demonstrate how they can help one another while using equipment; Movement Competence: in a mirroring activity, copy a partner’s movements by following their non-verbal signals as well as body language that signals the next movement; Healthy Living: use positive language when talking to peers, as part of developing healthy relationships, and encourage others to do the same)",
+              "text_html": "<p>apply skills that help them build relationships, develop empathy, and communicate with others as they participate in learning experiences in health and physical education, in order to support healthy relationships, a sense of belonging, and respect for diversity <em>(e.g., </em><em><strong>Active Living: </strong></em><em>demonstrate how they can help one another while using equipment; </em><em><strong>Movement Competence: </strong></em><em>in a mirroring activity, copy a partner’s movements by following their non-verbal signals as well as body language that signals the next movement; </em><em><strong>Healthy Living: </strong></em><em>use positive language when talking to peers, as part of developing healthy relationships, and encourage others to do the same)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.5",
+              "text": "apply skills that help them develop self-awareness and self-confidence as they participate in learning experiences in health and physical education, in order to support the development of a sense of identity and a sense of belonging (e.g., Active Living: monitor their body’s physical and mental responses when they are participating in a physical activity; Movement Competence: after jumping, consider what they did well  as they tried to land in a stable position, and what they could do better; Healthy Living: complete a checklist to monitor their daily care of their teeth and explain how the checklist can help build their awareness of health habits that contribute to their overall health",
+              "text_html": "<p>apply skills that help them develop self-awareness and self-confidence as they participate in learning experiences in health and physical education, in order to support the development of a sense of identity and a sense of belonging <em>(e.g., </em><em><strong>Active Living: </strong></em><em>monitor their body’s physical and mental responses when they are participating in a physical activity; </em><em><strong>Movement Competence: </strong></em><em>after </em><a data-item-id=\"0b19b17b-8d8c-4767-b951-1bfa71180b55\" href=\"\"><em>jumping</em></a><em>, consider what they did well&nbsp; as they tried to land in a stable position, and what they could do better; </em><em><strong>Healthy Living: </strong></em><em>complete a checklist to monitor their daily care of their teeth and explain how the checklist can help build their awareness of health habits that contribute to their overall health</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.6",
+              "text": "apply skills that help them think critically and creatively as they participate in learning experiences in health and physical education, in order to support making connections, analysing, evaluating, problem solving, and decision making (e.g., Active Living: explain how participating in moderate to vigorous activity is connected to better fitness and better health; describe what is needed to play safely and comfortably outside in different kinds of weather; Movement Competence: explore the use of many pieces of equipment and explain how each is different and why they prefer one over another; Healthy Living: explain how to stay safe by identifying household products that might be dangerous)",
+              "text_html": "<p>apply skills that help them think critically and creatively as they participate in learning experiences in health and physical education, in order to support making connections, analysing, evaluating, problem solving, and decision making <em>(e.g., </em><em><strong>Active Living: </strong></em><em>explain how participating in </em><a data-item-id=\"1ac98f59-7932-4d3c-8590-9ffaa5990fcd\" href=\"\"><em>moderate to vigorous activity</em></a><em> is connected to better fitness and better health; describe what is needed to play safely and comfortably outside in different kinds of weather; </em><em><strong>Movement Competence: </strong></em><em>explore the use of many pieces of equipment and explain how each is different and why they prefer one over another; </em><em><strong>Healthy Living: </strong></em><em>explain how to stay safe by identifying household products that might be dangerous)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Active Living",
+      "describer": "By the end of Grade 2, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Active Participation",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "participate actively and regularly in a wide variety of physical activities, and demonstrate an understanding of how physical activity can be incorporated into their daily lives",
+          "text_html": "<p>participate actively and regularly in a wide variety of physical activities, and demonstrate an understanding of how physical activity can be incorporated into their daily lives</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "actively participate in a wide variety of program activities, according to their capabilities (e.g., individual and small-group activities, dancing to music, cooperative games), while applying behaviours that enhance their readiness and ability to take part (e.g., being engaged and moving throughout the activity; knowing what to do; demonstrating appropriate interpersonal skills, such as active listening, communicating with respect, and providing help to and asking for help from group members) [A1.3 Motivation, 1.5 Self]",
+              "text_html": "<p>actively participate in a wide variety of program activities, according to their capabilities <em>(e.g., individual and small-group activities, dancing to music, cooperative games)</em>, while applying behaviours that enhance their readiness and ability to take part <em>(e.g., being engaged and moving throughout the activity; knowing what to do; demonstrating appropriate interpersonal skills, such as </em><a data-item-id=\"d19a40b1-7a26-4209-8ef0-cbfd6cd1f3a7\" href=\"\"><em>active listening</em></a><em>, communicating with respect, and providing help to and asking for help from group members) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “What does it look like and feel like when you are ready to participate?”\n    \n      Student: “I am wearing my running shoes, I’m listening to instructions, and I’m excited about doing the activities. I try to find a partner or get into a group quickly.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“What does it look like and feel like when you are ready to participate?”\n    <ul>\n      <li><a data-item-id=\"e99df69a-8a87-46f6-84a2-429e03c9ce55\" href=\"\"><em><strong>Student</strong></em></a><em><strong>: </strong></em>“I am wearing my running shoes, I’m listening to instructions, and I’m excited about doing the activities. I try to find a partner or get into a group quickly.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "demonstrate an understanding of factors that contribute to their personal enjoyment of being active (e.g., having the opportunity to participate fully in all aspects of an activity, being able to choose the activities they participate in and having choice within the activities, having adequate practice time, having access to safe outdoor play space, being able to take part in activities that are connected to their cultural background) as they participate in a wide variety of individual and small-group activities [A1.1 Emotions, 1.5 Self]",
+              "text_html": "<p>demonstrate an understanding of factors that contribute to their personal enjoyment of being active <em>(e.g., having the opportunity to participate fully in all aspects of an activity, being able to choose the activities they participate in and having choice within the activities, having adequate practice time, having access to safe outdoor play space, being able to take part in activities that are connected to their cultural background) </em>as they participate in a wide variety of individual and small-group activities [<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "identify reasons for participating in physical activity every day (e.g., to have fun, learn through play, be with classmates who are involved in after-school physical activities, pursue personal interests in certain kinds of activities, enjoy a change from the classroom routine, emulate a role model, interact with family members, improve physical and mental health, follow cultural teachings) [A1.1 Emotions, 1.2 Coping, 1.6 Thinking]",
+              "text_html": "<p>identify reasons for participating in physical activity every day <em>(e.g., to have fun, learn through play, be with classmates who are involved in after-school physical activities, pursue personal interests in certain kinds of activities, enjoy a change from the classroom routine, emulate a role model, interact with family members, improve physical and </em><a data-item-id=\"3a479f12-1eb5-4c72-b724-4806a291023c\" href=\"\"><em>mental health</em></a><em>, follow cultural teachings) </em>[<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions</a>, <a data-item-id=\"e5329d3b-30b8-4511-8af5-fdb489fbe3d2\" href=\"\">1.2 Coping</a>, <a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">1.6 Thinking</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “The Canadian 24-Hour Movement Guidelines recommend that children limit the amount of time that they spend sitting without being active. The Canadian Physical Activity Guidelines for Children recommend that children build physical activity into their daily routines to create a pattern that will stay with them for the rest of their lives. The guidelines recommend that children gradually increase active time and decrease non-active time, including screen time. Why is it important to be active every day? What do you like to do to be active?”\n    \n      Student: “Being active every day helps to make you strong and healthy. I like to do outdoor activities with my friends or family.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“The Canadian 24-Hour Movement Guidelines recommend that children limit the amount of time that they spend sitting without being active. The Canadian Physical Activity Guidelines for Children recommend that children build physical activity into their daily routines to create a pattern that will stay with them for the rest of their lives. The guidelines recommend that children gradually increase active time and decrease non-active time, including screen time. Why is it important to be active every day? What do you like to do to be active?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“Being active every day helps to make you strong and healthy. I like to do outdoor activities with my friends or family.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Physical Fitness",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate an understanding of the importance of being physically active, and apply physical fitness concepts and practices that contribute to healthy, active living",
+          "text_html": "<p>demonstrate an understanding of the importance of being physically active, and apply <a data-item-id=\"49c211d7-ef4d-4adc-8b45-6b02c02f3510\" href=\"\">physical fitness</a> concepts and practices that contribute to healthy, active living</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "Daily physical activity (DPA): participate in moderate to vigorous physical activity, with appropriate warm-up and cool-down activities, to the best of their ability for a minimum of twenty minutes each day (e.g., playing continuous tag games, skipping, wheeling their wheelchair, using hula hoops) [A1.3 Motivation, 1.5 Self]",
+              "text_html": "<p><strong>Daily physical activity (DPA): </strong>participate in <a data-item-id=\"1ac98f59-7932-4d3c-8590-9ffaa5990fcd\" href=\"\">moderate to vigorous physical activity</a>, with appropriate <a data-item-id=\"b01ac74a-a066-4e8c-94b9-f0f8f1fcd443\" href=\"\">warm-up</a> and <a data-item-id=\"e9a06c77-167d-4090-b8f7-1f48be7aba32\" href=\"\">cool-down</a> activities, to the best of their ability for a minimum of twenty minutes each day <em>(e.g., playing continuous tag games, </em><a data-item-id=\"8dacc3e1-f90d-4078-afaf-fda98820c87e\" href=\"\"><em>skipping</em></a><em>, wheeling their wheelchair, using hula hoops) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Today, we will be doing a chair aerobics routine for our DPA activity. We will be starting with slow music, and we will move our arm and leg muscles slowly in order to stretch them and warm them up. We will stretch again during the cool-down after our muscles are warm. How will that help us?”\n    \n      Student: “Moving slowly at the beginning helps to get our bodies ready for more activity. Then, when the music gets faster, we can really move our bodies to the beat! We stretch at the end because our muscles are warm then and they stretch more easily. We move slowly in the cool-down to relax our bodies and get ready to move on to something else.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Today, we will be doing a chair aerobics routine for our DPA activity. We will be starting with slow music, and we will move our arm and leg muscles slowly in order to stretch them and warm them up. We will stretch again during the cool-down after our muscles are warm. How will that help us?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“Moving slowly at the beginning helps to get our bodies ready for more activity. Then, when the music gets faster, we can really move our bodies to the beat! We stretch at the end because our muscles are warm then and they stretch more easily. We move slowly in the cool-down to relax our bodies and get ready to move on to something else.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "describe different types of activities that improve the strength of the heart and lungs (e.g., running, wheeling fast, walking fast, skipping, dancing to music, doing a fitness circuit, other whole-body or large muscle activities)",
+              "text_html": "<p>describe different types of activities that improve the strength of the heart and lungs <em>(e.g., running, wheeling fast, walking fast, skipping, dancing to music, doing a </em><a data-item-id=\"18b884a5-1874-46fd-85c7-36976614d0ae\" href=\"\"><em>fitness circuit</em></a><em>, other whole-body or large muscle activities)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “What types of activities do we do that make our hearts and lungs stronger?”\n    \n      Student: “We can make our hearts and lungs stronger by doing activities that make our hearts beat faster and make us breathe hard. Activities like dancing, running, and jumping do that for me.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“What types of activities do we do that make our hearts and lungs stronger?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“We can make our hearts and lungs stronger by doing activities that make our hearts beat faster and make us breathe hard. Activities like dancing, running, and <a data-item-id=\"0b19b17b-8d8c-4767-b951-1bfa71180b55\" href=\"\">jumping</a> do that for me.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "recognize their degree of exertion in physical activities by using simple assessment methods (e.g., putting their hand on their chest to feel the increase in heart rate as they move faster, using the talk test [monitoring whether they can talk while being physically active]), and identify factors that affect their performance level (e.g., humidity, extremely cold or warm air, poor air quality, personal fitness level, sleep, feelings, stressful events) [A1.3 Motivation, 1.5 Self]",
+              "text_html": "<p>recognize their degree of exertion in physical activities by using simple assessment methods <em>(e.g., putting their hand on their chest to feel the increase in heart rate as they move faster, using the </em><a data-item-id=\"1cd042bb-64f5-4831-9bf9-2e523d8f8071\" href=\"\"><em>talk test</em></a><em> [monitoring whether they can talk while being physically active])</em>, and identify factors that affect their performance level <em>(e.g., humidity, extremely cold or warm air, poor air quality, personal fitness level, sleep, feelings, stressful events) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Think about how you feel when you are active. Put your thumb up if you feel you were working really hard. Put your thumb down if you feel you were not working hard. Put your thumb somewhere in between if you feel that you were in between.”\n    \n      Student: “I put my thumb at the ‘in between’ spot because my heart was beating faster and I was breathing harder, but I think I could have done even more. I was a bit tired today because I went to bed late last night, so I did not go as fast as I could have.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Think about how you feel when you are active. Put your thumb up if you feel you were working really hard. Put your thumb down if you feel you were not working hard. Put your thumb somewhere in between if you feel that you were in between.”\n    <ul>\n      <li><em><strong>Student: </strong></em>“I put my thumb at the ‘in between’ spot because my heart was beating faster and I was breathing harder, but I think I could have done even more. I was a bit tired today because I went to bed late last night, so I did not go as fast as I could have.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.4",
+              "text": "participate in setting and achieving realistic personal and group goals related to physical activity (e.g., a personal goal of doing a physical activity for a specified period of time, a group goal of completing a collective number of class star jumps in a given time frame) [A1.3 Motivation, 1.6 Thinking]",
+              "text_html": "<p>participate in setting and achieving realistic personal and group goals related to physical activity <em>(e.g., a personal goal of doing a physical activity for a specified period of time, a group goal of completing a collective number of class star jumps in a given time frame) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">1.6 Thinking</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “For the next two songs, keep moving fast for as long as you can. See if you can keep moving in different and interesting ways – galloping, skipping, jumping, wheeling, moving in a zigzag pattern. When you need to rest, walk or wheel slowly, then start moving faster again. Before you start, set a goal for yourself about how long you will try to move. How many breaks do you think you will need to take? What is realistic for you? What will help you achieve your goal?”\n    \n      Students: “I am going to try to move for the next two songs, and I’ll only take one ‘slow down’ break. I love this music, so that will help me keep going.” “If I am tired, it helps me if someone encourages me.” “I like trying to beat my record.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“For the next two songs, keep moving fast for as long as you can. See if you can keep moving in different and interesting ways – <a data-item-id=\"43a5889f-389c-4dfc-add3-6e5a0da4093b\" href=\"\">galloping</a>, skipping, jumping, wheeling, moving in a zigzag pattern. When you need to rest, walk or wheel slowly, then start moving faster again. Before you start, set a goal for yourself about how long you will try to move. How many breaks do you think you will need to take? What is realistic for you? What will help you achieve your goal?”\n    <ul>\n      <li><em><strong>Students: </strong></em>“I am going to try to move for the next two songs, and I’ll only take one ‘slow down’ break. I love this music, so that will help me keep going.” “If I am tired, it helps me if someone encourages me.” “I like trying to beat my record.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Safety",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate responsibility for their own safety and the safety of others as they participate in physical activities",
+          "text_html": "<p>demonstrate responsibility for their own safety and the safety of others as they participate in physical activities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "demonstrate behaviours and apply procedures that maximize safety and lessen the risk of injury, including the risk of concussion, for themselves and others during physical activity (e.g., being aware of personal space; making sure their shoelaces are tied; warming up to prevent injury; wearing a properly fitting helmet when cycling, skiing, or playing hockey; taking turns when sharing equipment; avoiding overcrowding when using equipment both in class and on the playground; making sure straps are done up before pushing a wheelchair) [A1.4 Relationships, 1.5 Self]",
+              "text_html": "<p>demonstrate behaviours and apply procedures that maximize safety and lessen the risk of injury, including the risk of <a data-item-id=\"7c69bfed-fce1-48ac-bd07-49fdb5e14d04\" href=\"\">concussion</a>, for themselves and others during physical activity <em>(e.g., being aware of personal space; making sure their shoelaces are tied; warming up to prevent injury; wearing a properly fitting </em><a data-item-id=\"22e04e6e-99d5-4b7c-86b3-7afd621134ec\" href=\"\"><em>helmet</em></a><em> when cycling, skiing, or playing hockey; taking turns when sharing equipment; avoiding overcrowding when using equipment both in class and on the playground; making sure straps are done up before pushing a wheelchair) </em>[<a data-item-id=\"b2c3e6ba-8a41-4693-8845-b55b2f20578b\" href=\"\">A1.4 Relationships, </a><a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “You and your partner are each going to be given a beanbag, a pylon, and a plastic hoop to make up your own game. How will you make sure that both of you have a chance to play safely?”\n    \n      Student: “We will make sure that we have enough space around us so that we are not throwing near another group. We will take turns throwing.",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“You and your partner are each going to be given a beanbag, a pylon, and a plastic hoop to make up your own game. How will you make sure that both of you have a chance to play safely?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“We will make sure that we have enough space around us so that we are not throwing near another group. We will take turns throwing.</li>\n    </ul>\n  </li>\n</ul>"
+                },
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “When you are skipping or hopping in the gym or classroom, what do you need to think about to move safely?”\n    \n      Student: “I need to keep my head up and pay attention to the people and equipment around me so that I do not bump into anyone. If my head, neck, or body gets hit, I will stop my activity right away and tell an adult. I also need to be able to stop with control when the teacher gives a signal.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“When you are skipping or <a data-item-id=\"0db49a7b-57ff-45ef-ab5a-865c58231923\" href=\"\">hopping</a> in the gym or classroom, what do you need to think about to move safely?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“I need to keep my head up and pay attention to the people and equipment around me so that I do not bump into anyone. If my head, neck, or body gets hit, I will stop my activity right away and tell an adult. I also need to be able to stop with control when the teacher gives a signal.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "identify ways of protecting themselves and others, including those with medical conditions, from safety risks while participating in physical activity (e.g., avoiding broken glass on the field or on the playground and reporting it to the teacher, carrying an epinephrine autoinjector if needed, reducing intensity of physical activity if poor air quality causes breathing difficulties, bringing an inhaler if needed, tucking in the tubing of an insulin therapy pump to prevent it from getting caught) [A1.4 Relationships, 1.6 Thinking]",
+              "text_html": "<p>identify ways of protecting themselves and others, including those with medical conditions, from safety risks while participating in physical activity <em>(e.g., avoiding broken glass on the field or on the playground and reporting it to the teacher, carrying an </em><a data-item-id=\"1b6f31df-db22-45ba-a90f-a1c77521133f\" href=\"\"><em>epinephrine autoinjector</em></a><em> if needed, reducing intensity of physical activity if poor air quality causes breathing difficulties, bringing an inhaler if needed, tucking in the tubing of an </em><a data-item-id=\"9a83d9b1-1111-4714-b1c5-42555e8df2cc\" href=\"\"><em>insulin therapy pump</em></a><em> to prevent it from getting caught) </em>[<a data-item-id=\"b2c3e6ba-8a41-4693-8845-b55b2f20578b\" href=\"\">A1.4 Relationships</a>, <a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">1.6 Thinking</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Before we go outside to be active, what do you need to have with you to be safe?”\n    \n      Students: “I need to have my puffer in my pocket in case I need it for my breathing.” “I need to have my medicine [epinephrine autoinjector] in my pouch in case I get stung by a bee.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Before we go outside to be active, what do you need to have with you to be safe?”\n    <ul>\n      <li><em><strong>Students: </strong></em>“I need to have my puffer in my pocket in case I need it for my breathing.” “I need to have my medicine [epinephrine autoinjector] in my pouch in case I get stung by a bee.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Movement Competence: Skills, Concepts, and Strategies",
+      "describer": "By the end of Grade 2, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Movement Skills and Concepts",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "perform movement skills, demonstrating an understanding of the basic requirements of the skills and applying movement concepts as appropriate, as they engage in a variety of physical activities",
+          "text_html": "<p>perform <a data-item-id=\"f9af4a9c-c0a3-4c4e-836b-9694155baa49\" href=\"\">movement skills</a>, demonstrating an understanding of the basic requirements of the skills and applying <a data-item-id=\"7ccda12a-8dbc-44a2-bdcc-ff06fdbc747d\" href=\"\">movement concepts</a> as appropriate, as they engage in a variety of physical activities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "perform a variety of static balances with and without equipment (e.g., balance on the floor, on a line, on a bench; balance objects on different body parts), using different body parts at different levels and making different body shapes (e.g., low level – perform a V-sit: balance on buttocks with legs in the air, hold with muscles tight and legs together  and arms either supporting the body or held at their sides; medium level – perform a standing scale: balance on one foot with the other leg stretched behind in the air, torso bent forward, and arms out parallel to the floor for balance; high level – perform a standing balance: using a walker for balance, lift one foot or one hand) [A1.3 Motivation]",
+              "text_html": "<p>perform a variety of <a data-item-id=\"1c95ec8f-b492-4ce1-a14f-736954ab02c2\" href=\"\">static balances</a> with and without equipment <em>(e.g., </em><a data-item-id=\"d7db7d48-c6e6-4767-a0e1-ffac0f308cd5\" href=\"\"><em>balance</em></a><em> on the floor, on a line, on a bench; balance objects on different body parts)</em>, using different body parts at different levels and making different body shapes <em>(e.g., </em><em><strong>low level </strong></em><em>– perform a </em><a data-item-id=\"48be2741-1e56-40fc-86bc-0164df2cac10\" href=\"\"><em>V-sit</em></a><em>: balance on buttocks with legs in the air, hold with muscles tight and legs together&nbsp; and arms either supporting the body or held at their sides; </em><em><strong>medium level </strong></em><em>– perform a </em><a data-item-id=\"64c2d125-8410-4609-8f04-21c31752c0d1\" href=\"\"><em>standing scale</em></a><em>: balance on one foot with the other leg stretched behind in the air, torso bent forward, and arms out parallel to the floor for balance; </em><em><strong>high level </strong></em><em>– perform a standing balance: using a walker for balance, lift one foot or one hand) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Create an interesting balance, with your weight on one or two feet. Now create a balance with one body part touching the floor and another on a bench. How did you change your balance – by shifting your weight, changing your body position, changing the body parts your weight was on, or by using another method?”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Create an interesting balance, with your weight on one or two feet. Now create a balance with one body part touching the floor and another on a bench. How did you change your balance – by shifting your weight, changing your body position, changing the body parts your weight was on, or by using another method?”</li>\n</ul>"
+                },
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Show me three balances that you can hold steady for ten seconds without moving. Make one balance a low one close to the ground, one at a medium level, and one stretched to a high level. Now make three new balances at each level, using different body parts. What do you need to do to hold your body steady in each position?”\n    \n      Student: “Squeezing my muscles tight, using bigger body parts, and keeping my eyes on one spot make it easier to balance. Balances where I have my arms and legs stretched out into a wide position are easier to hold steady than ones where I am balancing on one body part or in a narrow position. It is easier to balance in positions that are closer to the ground than ones where I am stretched up high.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Show me three balances that you can hold steady for ten seconds without moving. Make one balance a low one close to the ground, one at a medium level, and one stretched to a high level. Now make three new balances at each level, using different body parts. What do you need to do to hold your body steady in each position?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“Squeezing my muscles tight, using bigger body parts, and keeping my eyes on one spot make it easier to balance. Balances where I have my arms and legs stretched out into a wide position are easier to hold steady than ones where I am balancing on one body part or in a narrow position. It is easier to balance in positions that are closer to the ground than ones where I am stretched up high.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "demonstrate the ability to jump, hop, and land safely and in control, taking off from one foot or from two feet [A1.3 Motivation]",
+              "text_html": "<p>demonstrate the ability to jump, <a data-item-id=\"0db49a7b-57ff-45ef-ab5a-865c58231923\" href=\"\">hop</a>, and land safely and in control, taking off from one foot or from two feet [<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Teacher prompt: “When you start a jump taking off from two feet, bend your knees and swing your arms forward to help push you forward and up. To land safely, think about putting your body into a position as if you were riding a bicycle. Keep your hands out, knees bent, and head up. While you land, think ‘toes-heels-knees-freeze’, which means that as you land you should touch the ground with your toes first and then your heels, then bend your knees to absorb the impact, and finally ‘stick’ the landing by holding your position in control.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“When you start a jump taking off from two feet, bend your knees and swing your arms forward to help push you forward and up. To land safely, think about putting your body into a position as if you were riding a bicycle. Keep your hands out, knees bent, and head up. While you land, think ‘toes-heels-knees-freeze’, which means that as you land you should touch the ground with your toes first and then your heels, then bend your knees to absorb the impact, and finally ‘stick’ the landing by holding your position in control.”</li>\n</ul>"
+                },
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Teacher prompt: “When hopping on one foot, keep your head up and use your arms for balance. Practise hopping with each of your feet.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“When hopping on one foot, keep your head up and use your arms for balance. Practise hopping with each of your feet.”</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "perform a variety of locomotor movements with and without equipment, travelling in different directions and at different speeds, and using different pathways (e.g., hop sideways across a line, gallop in a curved pathway around trees or objects, skip quickly using a rope, slide or wheel slowly in a zigzag pattern, move at different speeds in response to the beat of a drum, run quickly following a curving pathway, jog slowly backwards while checking over their shoulder) [A1.3 Motivation, 1.4 Relationships]",
+              "text_html": "<p>perform a variety of <a data-item-id=\"764e7a6e-a8dd-4966-993c-dbb5ffa34cc2\" href=\"\">locomotor movements</a> with and without equipment, travelling in different directions and at different <a data-item-id=\"a7c01eb7-471f-44f7-9d09-76203987fdfc\" href=\"\">speeds</a>, and using different pathways <em>(e.g., hop sideways across a line, </em><a data-item-id=\"43a5889f-389c-4dfc-add3-6e5a0da4093b\" href=\"\"><em>gallop</em></a><em> in a curved pathway around trees or objects, </em><a data-item-id=\"8dacc3e1-f90d-4078-afaf-fda98820c87e\" href=\"\"><em>skip</em></a><em> quickly using a rope, </em><a data-item-id=\"f1ac71cd-2dd3-4d76-af66-8554fb4d43b9\" href=\"\"><em>slide</em></a><em> or wheel slowly in a zigzag pattern, move at different speeds in response to the beat of a drum, run quickly following a curving pathway, jog slowly backwards while checking over their shoulder) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"b2c3e6ba-8a41-4693-8845-b55b2f20578b\" href=\"\">1.4 Relationships</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Teacher prompt: “In how many different ways can you travel along the lines of the gym? Can you skip? Run? Hop? Use tiny steps or giant steps? Wheel forward and backwards? Go slowly? Go quickly? Go sideways? Jump over lines that cross the one you are travelling on? Can you walk or wheel at different speeds while balancing a beanbag on your head? In how many ways can you move the ribbon as you skip around the gym?”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“In how many different ways can you travel along the lines of the gym? Can you skip? Run? Hop? Use tiny steps or giant steps? Wheel forward and backwards? Go slowly? Go quickly? Go sideways? Jump over lines that cross the one you are travelling on? Can you walk or wheel at different speeds while balancing a beanbag on your head? In how many ways can you move the ribbon as you skip around the gym?”</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.4",
+              "text": "send objects of different shapes and sizes at different levels and in different ways, using different body parts (e.g., slide a beanbag across the floor to a partner; throw a beanbag across the floor to a partner; throw a beanbag or ball underhand, using two hands or their dominant hand, and catch it or have a partner catch it; throw a disc through an upright hula hoop; kick a utility ball to a partner; strike a beachball, using their hands, knees, chest, or foot) [A1.1 Emotions, 1.2 Coping, 1.5 Self]",
+              "text_html": "<p>send objects of different shapes and sizes at different levels and in different ways, using different body parts <em>(e.g., slide a beanbag across the floor to a partner; throw a beanbag across the floor to a partner; throw a beanbag or ball underhand, using two hands or their </em><a data-item-id=\"6a8c87d3-cf5f-4d71-a64f-218e22e9ef86\" href=\"\"><em>dominant hand</em></a><em>, and catch it or have a partner catch it; throw a disc through an upright hula hoop; kick a utility ball to a partner; strike a beachball, using their hands, knees, chest, or foot) </em>[<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions</a>, <a data-item-id=\"e5329d3b-30b8-4511-8af5-fdb489fbe3d2\" href=\"\">1.2 Coping</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Strike a ball with your hand so that your partner can catch it in the air. Now strike the ball with your hand so that it rolls along the ground to your partner. Now do the same using your feet. What do you do that is the same in all these cases? What changes when you send a different type of object?”\n    \n      Student: “No matter how I send an object, it helps to face my partner and stretch my hand or foot towards my partner when I throw or kick, so that the object will travel in a straight line. That works for any kind of object, but bigger objects are easier to hit. Lighter objects move more slowly.”\n      Teacher: “What part of your foot should you use to contact the ball if you want to kick it along the ground?”\n      Student: “I should use the side of my foot, not my toe.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Strike a ball with your hand so that your partner can catch it in the air. Now strike the ball with your hand so that it rolls along the ground to your partner. Now do the same using your feet. What do you do that is the same in all these cases? What changes when you send a different type of object?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“No matter how I send an object, it helps to face my partner and stretch my hand or foot towards my partner when I throw or kick, so that the object will travel in a straight line. That works for any kind of object, but bigger objects are easier to hit. Lighter objects move more slowly.”</li>\n      <li><em><strong>Teacher: </strong></em>“What part of your foot should you use to contact the ball if you want to kick it along the ground?”</li>\n      <li><em><strong>Student: </strong></em>“I should use the side of my foot, not my toe.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.5",
+              "text": "receive objects of different shapes and sizes at different levels and in various ways, using different body parts (e.g., stop a low bouncing ball with their hands or feet; catch or trap a beanbag that they or a partner toss, using two hands or their dominant hand) [A1.1 Emotions, 1.5 Self, 1.6 Thinking]",
+              "text_html": "<p><a data-item-id=\"61bc8f21-a911-4204-b074-8fb5347b8284\" href=\"\">receive</a> objects of different shapes and sizes at different levels and in various ways, using different body parts <em>(e.g., stop a low bouncing ball with their hands or feet; catch or trap a beanbag that they or a partner toss, using two hands or their dominant hand) </em>[<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self,</a> <a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">1.6 Thinking</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “In how many different ways can you stop a ball without using your hands? Can you stop it with your feet? Your thigh? Your chest? Your shin?\"",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“In how many different ways can you stop a ball without using your hands? Can you stop it with your feet? Your thigh? Your chest? Your shin?\"</li>\n</ul>"
+                },
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “What do you do to make it easier to catch the ball?”\n    \n      Student: “I keep my eyes on the ball the whole time it is coming to me.” “I like using the mitt that the ball sticks to better than the scoop, because the mitt makes it easier to catch the ball. The ball sometimes bounces out of the scoop.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“What do you do to make it easier to catch the ball?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“I keep my eyes on the ball the whole time it is coming to me.” “I like using the mitt that the ball sticks to better than the scoop, because the mitt makes it easier to catch the ball. The ball sometimes bounces out of the scoop.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Movement Strategies",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "apply movement strategies appropriately, demonstrating an understanding of the components of a variety of physical activities, in order to enhance their ability to participate successfully in those activities",
+          "text_html": "<p>apply <a data-item-id=\"8483553e-bf24-4554-9eb0-377f3831718f\" href=\"\">movement strategies</a> appropriately, demonstrating an understanding of the components of a variety of physical activities, in order to enhance their ability to participate successfully in those activities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding that different physical activities have different components (e.g., movement skills, basic rules and boundaries, conventions of fair play and etiquette), and apply this understanding as they participate in and explore a variety of individual and small-group activities [A1.3 Motivation, 1.4 Relationships]",
+              "text_html": "<p>demonstrate an understanding that different physical activities have different components <em>(e.g., movement skills, basic rules and boundaries, conventions of </em><a data-item-id=\"8db6d515-27eb-4e73-9542-38119c95d7c5\" href=\"\"><em>fair play</em></a><em> and etiquette)</em>, and apply this understanding as they participate in and explore a variety of individual and small-group activities [<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"b2c3e6ba-8a41-4693-8845-b55b2f20578b\" href=\"\">1.4 Relationships</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “What are some skills that you might use when you are playing ball with a partner? What do you need to do and watch for when you practise these skills? What changes in a bigger group?”\n    \n      Student: “When I am playing with a ball with a partner, we can work on sending the ball in different ways – by kicking it, throwing it, striking it, or rolling it. We can also try to receive it in different ways – by catching it with our hands or stopping it with our feet. My partner and I need to stand close enough to each other that we can get the ball to each other. I need to make sure my partner sees that I am going to throw the ball before I throw it. We need to watch out for other pairs of students and make sure we don’t get too close to them. If I’m in a bigger group, we need to make sure that everyone gets to throw the ball sometimes and that we’re not too close together or too far apart.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“What are some skills that you might use when you are playing ball with a partner? What do you need to do and watch for when you practise these skills? What changes in a bigger group?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“When I am playing with a ball with a partner, we can work on <a data-item-id=\"d4cea242-ee5f-4c20-b2d4-2cde48919b6a\" href=\"\">sending</a> the ball in different ways – by kicking it, throwing it, striking it, or rolling it. We can also try to receive it in different ways – by catching it with our hands or stopping it with our feet. My partner and I need to stand close enough to each other that we can get the ball to each other. I need to make sure my partner sees that I am going to throw the ball before I throw it. We need to watch out for other pairs of students and make sure we don’t get too close to them. If I’m in a bigger group, we need to make sure that everyone gets to throw the ball sometimes and that we’re not too close together or too far apart.”</li>\n    </ul>\n  </li>\n</ul>"
+                },
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “When you are sharing a scooter with your partner, how do you show that you are playing fair? What can you do to follow good playing etiquette?”\n    \n      Student: “If we are sharing the scooter, we take turns so we both have about the same time with the scooter. When we are finished with the scooter, we show good etiquette by putting the scooter away where it belongs.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“When you are sharing a scooter with your partner, how do you show that you are playing fair? What can you do to follow good playing etiquette?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“If we are sharing the scooter, we take turns so we both have about the same time with the scooter. When we are finished with the scooter, we show good etiquette by putting the scooter away where it belongs.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "apply a variety of simple tactics to increase their chances of success during physical activities (e.g., wheel their wheelchair or run into open space when playing tag games in order to more easily avoid being tagged; choose an object for a throwing activity that they think they can successfully throw and catch multiple times – a cloth ball, a utility ball, a tennis ball, a beanbag; use adapted or specialized equipment, such as a ball with a bell inside that can provide an auditory cue) [A1.6 Thinking]",
+              "text_html": "<p>apply a variety of simple tactics to increase their chances of success during physical activities <em>(e.g., wheel their wheelchair or run into </em><a data-item-id=\"7cf17475-0406-4d15-b2a2-5f1a6f39ec96\" href=\"\"><em>open space</em></a><em> when playing tag games in order to more easily avoid being tagged; choose an object for a throwing activity that they think they can successfully throw and catch multiple times – a cloth ball, a utility ball, a tennis ball, a beanbag; use adapted or </em><a data-item-id=\"1884e8a5-af2d-4f1c-abfa-d3ca6c32df03\" href=\"\"><em>specialized equipment</em></a><em>, such as a ball with a bell inside that can provide an auditory cue) </em>[<a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">A1.6 Thinking</a>]<a data-item-id=\"a320bc90-fac6-4933-a586-932dd4f10c85\" href=\"\">&nbsp;</a></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “When you choose an object to throw and catch, what do you think about to make a choice that is good for you?”\n    \n      Students: “Catching is hard for me, so I picked a bigger ball.” “I picked a bouncy ball because I like running fast to get it if I drop it.” “I can’t see very well, so I chose a ball with a bell inside. Hearing the bell lets me know where the ball is.” “I use a walker and have a hard time moving around, so I picked a beanbag that won’t roll away if I drop it.” “I picked a stuffed animal to catch because it is fun, and I can practise with my own stuffed animals at home. It is also really easy to catch because it is soft.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“When you choose an object to throw and catch, what do you think about to make a choice that is good for you?”\n    <ul>\n      <li><em><strong>Students: </strong></em>“Catching is hard for me, so I picked a bigger ball.” “I picked a bouncy ball because I like running fast to get it if I drop it.” “I can’t see very well, so I chose a ball with a bell inside. Hearing the bell lets me know where the ball is.” “I use a walker and have a hard time moving around, so I picked a beanbag that won’t roll away if I drop it.” “I picked a stuffed animal to catch because it is fun, and I can practise with my own stuffed animals at home. It is also really easy to catch because it is soft.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Healthy Living",
+      "describer": "By the end of Grade 2, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Understanding Health Concepts",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate an understanding of factors that contribute to healthy development",
+          "text_html": "<p>demonstrate an understanding of factors that contribute to healthy development</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "demonstrate an understanding of practices that enhance personal safety in the home (e.g., observing precautions for answering the phone and door, establishing home fire escape strategies, respecting electrical outlet covers, following precautions for preparing and storing foods, washing hands), outdoors (e.g., using UV protection; observing safety rules when riding the bus, riding a bicycle, walking to school, approaching railway tracks and crossings; carrying medication for allergic reactions; being cautious when approaching animals), and when online (e.g., not sharing personal information, checking with an adult if information found online is true) [A1.5 Self, 1.6 Thinking]",
+              "text_html": "<p>demonstrate an understanding of practices that enhance personal safety in the home <em>(e.g., observing precautions for answering the phone and door, establishing home fire escape strategies, respecting electrical outlet covers, following precautions for preparing and storing foods, washing hands)</em>, outdoors <em>(e.g., using UV protection; observing safety rules when riding the bus, riding a bicycle, walking to school, approaching railway tracks and crossings; carrying medication for allergic reactions; being cautious when approaching animals)</em>, and when online <em>(e.g., not sharing personal information, checking with an adult if information found online is true) </em>[<a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">A1.5 Self,</a> <a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">1.6 Thinking</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “What are some things you should do to stay safe when you are at home, outside, or riding on the school bus?”\n    \n      Students: “At home, you should make sure that an adult always knows where you are when you’re playing outside. You should not touch any household product that has a symbol on it that means danger or poison. You should have a plan and know what to do in an emergency.” “When you’re outside, you should wear a hat to protect you from the sun and a helmet when you’re riding your bike, tobogganing, or snowboarding.” “You should sit facing the front of the school bus, and always cross the road in front of the bus when you get off. Don’t get so close to the bus that you can touch it. Get help from the driver or another adult if you drop something in the ‘danger zone’ – the area around the bus where the driver can’t see you.” “If you have a nut allergy,  tell your friends and their parents about it when you’re playing at their house. Make sure your snacks do not have nuts, and always carry an autoinjector.” “If you want to come up to an animal or touch it, you have to ask permission from an adult and learn how to do it safely.”\n      Teacher: “What are some things you should do to stay safe when you are playing online games, searching the Internet, or accessing videos?”\n      Student: “I know that whenever I am on a device, I need to use it with respect for myself and others and think about my personal safety. If I see a picture or video online and feel uncomfortable, confused, or unsafe, I should stop and tell a parent or trusted adult right away. It is important not to talk to strangers in the virtual world because they may not be who they say they are. Also, I should follow household rules about being online.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“What are some things you should do to stay safe when you are at home, outside, or riding on the school bus?”\n    <ul>\n      <li><em><strong>Students: </strong></em>“At home, you should make sure that an adult always knows where you are when you’re playing outside. You should not touch any household product that has a symbol on it that means danger or poison. You should have a plan and know what to do in an emergency.” “When you’re outside, you should wear a hat to protect you from the sun and a helmet when you’re riding your bike, tobogganing, or snowboarding.” “You should sit facing the front of the school bus, and always cross the road in front of the bus when you get off. Don’t get so close to the bus that you can touch it. Get help from the driver or another adult if you drop something in the ‘danger zone’ – the area around the bus where the driver can’t see you.” “If you have a nut allergy,&nbsp; tell your friends and their parents about it when you’re playing at their house. Make sure your snacks do not have nuts, and always carry an autoinjector.” “If you want to come up to an animal or touch it, you have to ask permission from an adult and learn how to do it safely.”</li>\n      <li><em><strong>Teacher: </strong></em>“What are some things you should do to stay safe when you are playing online games, searching the Internet, or accessing videos?”</li>\n      <li><em><strong>Student: </strong></em>“I know that whenever I am on a device, I need to use it with respect for myself and others and think about my personal safety. If I see a picture or video online and feel uncomfortable, confused, or unsafe, I should stop and tell a parent or trusted adult right away. It is important not to talk to strangers in the virtual world because they may not be who they say they are. Also, I should follow household rules about being online.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "identify common food allergies and sensitivities (e.g., to peanuts, tree nuts, milk, eggs, fish) and the reactions they might cause (e.g., swelling, skin rash, difficulty breathing, abdominal cramps, vomiting, diarrhea, coma, death)",
+              "text_html": "<p>identify common food <a data-item-id=\"de064d36-ebb1-4cbc-a3c8-7effaf53f706\" href=\"\">allergies and sensitivities</a> <em>(e.g., to peanuts, tree nuts, milk, eggs, fish) </em>and the reactions they might cause <em>(e.g., swelling, skin rash, difficulty breathing, abdominal cramps, vomiting, diarrhea, coma, death)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Anaphylaxis is a serious allergic reaction that can be life threatening. Food is the most common cause of anaphylaxis, but insect stings, medicine, latex, or exercise can also cause a reaction. What is the reason for our school policy that asks students not to bring nut products to school?”\n    \n      Student: “A lot of people have allergies to nuts. If you have a nut allergy, you can have a very dangerous reaction if you eat or come into contact with nuts or something that is made with nuts.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“<a data-item-id=\"f352bf55-86fb-4374-8688-d68d3725584a\" href=\"\">Anaphylaxis</a> is a serious allergic reaction that can be life threatening. Food is the most common cause of anaphylaxis, but insect stings, medicine, latex, or exercise can also cause a reaction. What is the reason for our school policy that asks students not to bring nut products to school?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“A lot of people have allergies to nuts. If you have a nut allergy, you can have a very dangerous reaction if you eat or come into contact with nuts or something that is made with nuts.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.3",
+              "text": "describe the difference between prescription medicines and non-prescription medicines, giving examples of each, and identify rules for the proper use of all medicines [A1.6 Thinking]",
+              "text_html": "<p>describe the difference between prescription medicines and non-prescription medicines, giving examples of each, and identify rules for the proper use of all medicines [<a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">A1.6 Thinking</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Prescription medicines, such as penicillin and other antibiotics, are prescribed by a physician or nurse practitioner and are available only at a pharmacy. How can you recognize a prescription medicine?”\n    \n      Student: “On the label of the bottle, it has the name of the patient, instructions for using the medicine, and a prescription number.”\n      Teacher: “How are commonly used non-prescription medicines and health care supplements – for example, cough syrup; vitamins; herbal, homeopathic, and naturopathic remedies; and First Nations, Métis, and Inuit medicines – different from prescription medicines?”\n      Student: “You don’t need a prescription from a physician or nurse practitioner to get them. You can get them in places like health food stores and not just in pharmacies. Some First Nations, Métis, and Inuit medicines come from the land, and are considered a gift.”\n      Teacher: “What should we do to ensure that medicines are used safely and correctly?”\n      Student: “You should only take medicine that an adult who is caring for you gives you. You should never share prescription medicines. All instructions, like how much you should take and when you should take it, for all medicines should be followed carefully.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Prescription medicines, such as penicillin and other antibiotics, are prescribed by a physician or nurse practitioner and are available only at a pharmacy. How can you recognize a prescription medicine?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“On the label of the bottle, it has the name of the patient, instructions for using the medicine, and a prescription number.”</li>\n      <li><em><strong>Teacher: </strong></em>“How are commonly used non-prescription medicines and health care supplements – for example, cough syrup; vitamins; herbal, homeopathic, and naturopathic remedies; and First Nations, Métis, and Inuit medicines – different from prescription medicines?”</li>\n      <li><em><strong>Student: </strong></em>“You don’t need a prescription from a physician or nurse practitioner to get them. You can get them in places like health food stores and not just in pharmacies. Some First Nations, Métis, and Inuit medicines come from the land, and are considered a gift.”</li>\n      <li><em><strong>Teacher: </strong></em>“What should we do to ensure that medicines are used safely and correctly?”</li>\n      <li><em><strong>Student: </strong></em>“You should only take medicine that an adult who is caring for you gives you. You should never share prescription medicines. All instructions, like how much you should take and when you should take it, for all medicines should be followed carefully.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.4",
+              "text": "outline the basic stages of human development (e.g., infant, child, adolescent, adult, older adult) and related changes, and identify physical, mental, social, and environmental factors that are important for healthy growth and living throughout life [A1.5 Self]",
+              "text_html": "<p>outline the basic stages of human development <em>(e.g., infant, child, adolescent, adult, older adult) </em>and related changes, and identify physical, mental, social, and environmental factors that are important for healthy growth and living throughout life [<a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">A1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “How does your body change as you grow? What helps you to grow and be healthy?”\n    \n      Student: “As you grow, you get taller and bigger. Your bones grow. Your muscles grow. You grow faster at some stages than at others and not everyone grows the same amount at the same time. When you’re an adult, your body doesn’t grow anymore, but it still changes – for example, your skin gets more wrinkled and your hair might turn grey. Things that help make you healthy all through your life are eating well, being active, getting enough sleep, and having people to care for you.”\n      Teacher: “When we look at growth and change throughout life, we can consider teachings from different cultures, including First Nations, Métis, and Inuit cultures, about the cycles of birth, life, and death. Indigenous communities have rite of passage ceremonies for each life stage, and teachings about growing and changes in roles and responsibilities at each stage. For example, the Anishinaabe teach about seven stages of life, and believe that at each stage, learning traditional teachings, such as the seven-grandfather teachings, from family, community, and Elders contributes to their overall mental, physical, spiritual, and emotional health.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“How does your body change as you grow? What helps you to grow and be healthy?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“As you grow, you get taller and bigger. Your bones grow. Your muscles grow. You grow faster at some stages than at others and not everyone grows the same amount at the same time. When you’re an adult, your body doesn’t grow anymore, but it still changes – for example, your skin gets more wrinkled and your hair might turn grey. Things that help make you healthy all through your life are eating well, being active, getting enough sleep, and having people to care for you.”</li>\n      <li><em><strong>Teacher: </strong></em>“When we look at growth and change throughout life, we can consider teachings from different cultures, including First Nations, Métis, and Inuit cultures, about the cycles of birth, life, and death. Indigenous communities have rite of passage ceremonies for each life stage, and teachings about growing and changes in roles and responsibilities at each stage. For example, the Anishinaabe teach about <a data-item-id=\"78ed2484-f942-4874-9c15-9f2a711b9743\" href=\"\">seven stages of life</a>, and believe that at each stage, learning traditional teachings, such as the <a data-item-id=\"f4deee95-5e39-411f-94a9-69bea4dc0522\" href=\"\">seven-grandfather teachings</a>, from family, community, and <a data-item-id=\"b4567405-375e-4a4e-bada-94c9947a438c\" href=\"\">Elders</a> contributes to their overall mental, physical, spiritual, and emotional health.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.5",
+              "text": "demonstrate the ability to identify and appreciate aspects of how their bodies work and describe what they can do to ensure that they will continue to appreciate their bodies as they grow and change [A1.1 Emotions, 1.3 Motivation, 1.5 Self]",
+              "text_html": "<p>demonstrate the ability to identify and appreciate aspects of how their bodies work and describe what they can do to ensure that they will continue to appreciate their bodies as they grow and change [<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions</a>, <a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">1.3 Motivation</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “You have already identified what you like about what your body can do. How can you show appreciation for what your body can do?”\n    \n      Student: “I take care of my body by brushing my teeth, getting enough sleep, being active, and eating well.”\n      Teacher: “Our bodies’ job is to work a certain way, not to look a certain way. How can you focus on the things your body helps you do, instead of what your body looks like?”\n      Student: “I can remind myself that every person’s body is unique, and that’s why I do not compare the size or shape of my body to others. I will focus on recognizing and appreciating what my body can do, like how my feet spring up when I jump or how my stomach moves out and in as I breathe.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“You have already identified what you like about what your body can do. How can you show appreciation for what your body can do?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“I take care of my body by brushing my teeth, getting enough sleep, being active, and eating well.”</li>\n      <li><em><strong>Teacher: </strong></em>“Our bodies’ job is to <em>work </em>a certain way, not to <em>look </em>a certain way. How can you focus on the things your body helps you do, instead of what your body looks like?”</li>\n      <li><em><strong>Student: </strong></em>“I can remind myself that every person’s body is unique, and that’s why I do not compare the size or shape of my body to others. I will focus on recognizing and appreciating what my body can do, like how my feet spring up when I <a data-item-id=\"0b19b17b-8d8c-4767-b951-1bfa71180b55\" href=\"\">jump</a> or how my stomach moves out and in as I breathe.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.6",
+              "text": "demonstrate an understanding of how a person’s body and brain respond to challenging or uncomfortable situations (e.g., they may feel tired, easily overwhelmed, confused, or overstimulated; they may want to cry or they may have very intense feelings; they may get a headache or feel hot), and describe what they can do to feel better at those times [A1.1 Emotions, 1.4 Relationships, 1.5 Self]",
+              "text_html": "<p>demonstrate an understanding of how a person’s body and brain respond to challenging or uncomfortable situations <em>(e.g., they may feel tired, easily overwhelmed, confused, or overstimulated; they may want to cry or they may have very intense feelings; they may get a headache or feel hot)</em>, and describe what they can do to feel better at those times [<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions,</a> <a data-item-id=\"b2c3e6ba-8a41-4693-8845-b55b2f20578b\" href=\"\">1.4 Relationships</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “When you are worried or feel uncomfortable about something, your body may let you know about it in different ways. This is something everyone experiences in different ways. What are some of these ways?”\n    \n      Student: “I get tired and don’t want to be around anyone. I feel like I want to cry.”\n      Teacher: “It’s helpful to recognize what you’re feeling. Sometimes crying or being on your own helps. What are some other things that you can do when you feel like that?”\n      Students: “When I’m sad, I like to play with my cat.” “When I’m at school, it helps me to talk with a friend or my teacher about how I’m feeling.”\n      Teacher: “How do you know if someone else might be feeling worried or uncomfortable about something? How would you treat them?”\n      Student: “Sometimes you can tell by looking at someone’s face but sometimes it’s hard to tell how another person is feeling, so it’s good to ask. If someone doesn’t want to talk or play, I can give them space but I could also check on them in case they want to join later – or maybe ask if they want to talk.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“When you are worried or feel uncomfortable about something, your body may let you know about it in different ways. This is something everyone experiences in different ways. What are some of these ways?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“I get tired and don’t want to be around anyone. I feel like I want to cry.”</li>\n      <li><em><strong>Teacher: </strong></em>“It’s helpful to recognize what you’re feeling. Sometimes crying or being on your own helps. What are some other things that you can do when you feel like that?”</li>\n      <li><em><strong>Students: </strong></em>“When I’m sad, I like to play with my cat.” “When I’m at school, it helps me to talk with a friend or my teacher about how I’m feeling.”</li>\n      <li><em><strong>Teacher: </strong></em>“How do you know if someone else might be feeling worried or uncomfortable about something? How would you treat them?”</li>\n      <li><em><strong>Student: </strong></em>“Sometimes you can tell by looking at someone’s face but sometimes it’s hard to tell how another person is feeling, so it’s good to ask. If someone doesn’t want to talk or play, I can give them space but I could also check on them in case they want to join later – or maybe ask if they want to talk.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Making Healthy Choices",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate the ability to apply health knowledge and social-emotional learning skills to make reasoned decisions and take appropriate actions relating to their personal health and well-being",
+          "text_html": "<p>demonstrate the ability to apply health knowledge and <a data-item-id=\"3e8a4cd7-a64d-43c9-b64d-2f0489227b7d\" href=\"\">social-emotional learning</a> skills to make reasoned decisions and take appropriate actions relating to their personal health and well-being</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "use Canada’s Food Guide to identify food and beverage choices that contribute to healthy eating patterns",
+              "text_html": "<p>use Canada’s Food Guide to identify food and beverage choices that contribute to healthy eating patterns</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “The term ‘eating pattern’ refers to what you eat and drink on a regular basis, and helps support your overall health. Here are pictures of a week of school lunches. What variety of foods do you see? Do they support healthy eating patterns? What might make these lunches healthier?”\n    \n      Student: “Healthy eating patterns can be developed by regularly eating vegetables and fruits, whole grain foods, and protein foods, and choosing protein foods that come from plants more often, if possible. Most of the lunches here include a variety of healthy foods. They could contribute to an even healthier eating pattern if they included water more often.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“The term ‘eating pattern’ refers to what you eat and drink on a regular basis, and helps support your overall health. Here are pictures of a week of school lunches. What variety of foods do you see? Do they support healthy eating patterns? What might make these lunches healthier?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“Healthy eating patterns can be developed by regularly eating vegetables and fruits, whole grain foods, and protein foods, and choosing protein foods that come from plants more often, if possible. Most of the lunches here include a variety of healthy foods. They could contribute to an even healthier eating pattern if they included water more often.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "demonstrate an understanding of how to make healthy food choices for meals and snacks, considering the factors they can and cannot control (e.g., the food that’s available in the home; the food that’s available when eating out; energy needed at different times of day; allergies; food guidelines associated with medical conditions such as diabetes or celiac disease; food safety related to food preparation, storage, handling, and cleanliness) [A1.3 Motivation, 1.6 Thinking]",
+              "text_html": "<p>demonstrate an understanding of how to make healthy food choices for meals and snacks, considering the factors they can and cannot control <em>(e.g., the food that’s available in the home; the food that’s available when eating out; energy needed at different times of day; allergies; food guidelines associated with medical conditions such as diabetes or celiac disease; food safety related to food preparation, storage, handling, and cleanliness) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">1.6 Thinking</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “What are some things to consider when choosing a snack?”\n    \n      Student: “A snack should give me energy and it should be safe to eat. Snacks with less sugar – like vegetables and fruit – are better for my teeth. Also, some foods need to be kept cold to be safe to eat.”\n      Teacher: “What can you do if you are going to be somewhere where there are only a few healthy choices or none at all?”\n      Student: “I could try to make the healthiest choice I can, like having a salad instead of fries at a fast-food restaurant. Or I can go ahead and eat what is available. It’s okay to eat some things that are less healthy sometimes, knowing that I don’t do this regularly or too often. If I’m not hungry, though, I can wait to eat something healthier at my next meal or snack. I can try to bring a healthy snack from home next time, or if my school has a healthy snack program, I can have a snack at school.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“What are some things to consider when choosing a snack?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“A snack should give me energy and it should be safe to eat. Snacks with less sugar – like vegetables and fruit – are better for my teeth. Also, some foods need to be kept cold to be safe to eat.”</li>\n      <li><em><strong>Teacher: </strong></em>“What can you do if you are going to be somewhere where there are only a few healthy choices or none at all?”</li>\n      <li><em><strong>Student: </strong></em>“I could try to make the healthiest choice I can, like having a salad instead of fries at a fast-food restaurant. Or I can go ahead and eat what is available. It’s okay to eat some things that are less healthy sometimes, knowing that I don’t do this regularly or too often. If I’m not hungry, though, I can wait to eat something healthier at my next meal or snack. I can try to bring a healthy snack from home next time, or if my school has a healthy snack program, I can have a snack at school.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "explain the importance of consent and demonstrate the ability to stand up for themselves and others, to enhance well-being and safety (e.g., speaking confidently; stating boundaries, whether in person or online; saying no; respecting the right of a person to say no and encouraging others to respect that right also; reporting exploitative behaviours, such as improper touching of their bodies or others’ bodies) [A1.1 Emotions, 1.2 Coping, 1.4 Relationships]",
+              "text_html": "<p>explain the importance of consent and demonstrate the ability to stand up for themselves and others, to enhance well-being and safety <em>(e.g., speaking confidently; stating boundaries, whether in person or online; saying no; respecting the right of a person to say no and encouraging others to respect that right also; reporting exploitative behaviours, such as improper touching of their bodies or others’ bodies) </em>[<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions,</a> <a data-item-id=\"e5329d3b-30b8-4511-8af5-fdb489fbe3d2\" href=\"\">1.2 Coping</a>, <a data-item-id=\"b2c3e6ba-8a41-4693-8845-b55b2f20578b\" href=\"\">1.4 Relationships</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “Why is standing up for yourself and showing respect for others important in a friendship?”\n    \n      Student: “It helps you when you can say what you think or what you need. Friends should listen to each other and show respect. When someone tells a person to stop, that person should stop. For example, if someone teases me about my allergy to nuts, I can tell them to stop and let them know that contact with nuts could make me stop breathing.”\n      Teacher: “What can standing up for yourself look like?”\n      Student: “You can hold your head up high, make eye contact, and speak strongly. You can say what you feel and think in a polite but firm way and refuse to do anything that makes you uncomfortable.”\n      Teacher: “In some cultures, making eye contact is considered disrespectful. What can you do then?”\n      Student: “You can stand up for yourself in other ways, such as speaking firmly to say what you are or are not comfortable with.”\n      Teacher: “If someone touches you in an inappropriate way, or asks to touch you, or asks you to touch them, in a way that makes you feel uncomfortable, confused, or unsafe, how can you stand up for yourself?”\n      Student: “I can say no and move away. My body is mine. I can tell someone – like a parent, a teacher, a doctor, or an adult that I trust – that I need help. I can keep telling until I get help.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“Why is standing up for yourself and showing respect for others important in a friendship?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“It helps you when you can say what you think or what you need. Friends should listen to each other and show respect. When someone tells a person to stop, that person should stop. For example, if someone teases me about my allergy to nuts, I can tell them to stop and let them know that contact with nuts could make me stop breathing.”</li>\n      <li><em><strong>Teacher: </strong></em>“What can standing up for yourself look like?”</li>\n      <li><em><strong>Student: </strong></em>“You can hold your head up high, make eye contact, and speak strongly. You can say what you feel and think in a polite but firm way and refuse to do anything that makes you uncomfortable.”</li>\n      <li><em><strong>Teacher: </strong></em>“In some cultures, making eye contact is considered disrespectful. What can you do then?”</li>\n      <li><em><strong>Student: </strong></em>“You can stand up for yourself in other ways, such as speaking firmly to say what you are or are not comfortable with.”</li>\n      <li><em><strong>Teacher: </strong></em>“If someone touches you in an inappropriate way, or asks to touch you, or asks you to touch them, in a way that makes you feel uncomfortable, confused, or unsafe, how can you stand up for yourself?”</li>\n      <li><em><strong>Student: </strong></em>“I can say no and move away. My body is mine. I can tell someone – like a parent, a teacher, a doctor, or an adult that I trust – that I need help. I can keep telling until I get help.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.4",
+              "text": "demonstrate an understanding of and apply practices that contribute to the maintenance of good oral health (e.g., brushing, flossing, going to the dentist regularly for a checkup) [A1.3 Motivation, 1.5 Self]",
+              "text_html": "<p>demonstrate an understanding of and apply practices that contribute to the maintenance of good oral health <em>(e.g., brushing, flossing, going to the dentist regularly for a checkup) </em>[<a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">A1.3 Motivation</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “How should you care for your teeth when you lose a tooth?”\n    \n      Student: “I should make sure my hands are clean when I touch my teeth and remember to brush the gap between the teeth.”\n      Teacher: “It is important to brush your teeth after eating, but if you can’t, what else can you do?”\n      Student: “I can rinse my mouth with water.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“How should you care for your teeth when you lose a tooth?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“I should make sure my hands are clean when I touch my teeth and remember to brush the gap between the teeth.”</li>\n      <li><em><strong>Teacher: </strong></em>“It is important to brush your teeth after eating, but if you can’t, what else can you do?”</li>\n      <li><em><strong>Student: </strong></em>“I can rinse my mouth with water.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.5",
+              "text": "explain how understanding and being able to name their feelings (e.g., happy, relaxed, calm, uncomfortable, sad, angry, frustrated, scared, worried) can help in knowing when they might need to get help [A1.2 Coping, 1.3 Motivation, 1.5 Self]",
+              "text_html": "<p>explain how understanding and being able to name their feelings <em>(e.g., happy, relaxed, calm, uncomfortable, sad, angry, frustrated, scared, worried) </em>can help in knowing when they might need to get help [<a data-item-id=\"e5329d3b-30b8-4511-8af5-fdb489fbe3d2\" href=\"\">A1.2 Coping</a>, <a data-item-id=\"185e83bd-2c6a-405d-9722-56d5144d9d61\" href=\"\">1.3 Motivation</a>, <a data-item-id=\"0e063fd0-56eb-49ee-a76e-c16485503784\" href=\"\">1.5 Self</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “We’ve talked about things you might do to feel better when things are difficult or scary. Sometimes you can help yourself. Sometimes you might need to get help. You might also want to help a friend who is worried or upset. What can you do to get help if you or your friend needs it?”\n    \n      Student: “I can talk with an adult that I can trust. It could be a parent or someone at school or someone else in my family.”\n      Teacher: “Why might it be important to ask for help from a trusted grown-up?”\n      Students: “Sometimes I don’t know what to do to make myself feel better.” “Sometimes I’m not sure what to do and talking to my teacher helps me figure it out.” “Sometimes it’s hard to tell if someone is in trouble, so it’s best to get help from a grown-up.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“We’ve talked about things you might do to feel better when things are difficult or scary. Sometimes you can help yourself. Sometimes you might need to get help. You might also want to help a friend who is worried or upset. What can you do to get help if you or your friend needs it?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“I can talk with an adult that I can trust. It could be a parent or someone at school or someone else in my family.”</li>\n      <li><em><strong>Teacher: </strong></em>“Why might it be important to ask for help from a trusted grown-up?”</li>\n      <li><em><strong>Students: </strong></em>“Sometimes I don’t know what to do to make myself feel better.” “Sometimes I’m not sure what to do and talking to my teacher helps me figure it out.” “Sometimes it’s hard to tell if someone is in trouble, so it’s best to get help from a grown-up.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Making Connections for Healthy Living",
+          "describer": "By the end of Grade 2, students will:",
+          "text": "demonstrate the ability to make connections that relate to health and well-being – how their choices and behaviours affect both themselves and others, and how factors in the world around them affect their own and others’ health and well-being",
+          "text_html": "<p>demonstrate the ability to make connections that relate to health and well-being – how their choices and behaviours affect both themselves and others, and how factors in the world around them affect their own and others’ health and well-being</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "describe how to relate positively to family members, caregivers, and others (e.g., cooperate, show respect, communicate openly, manage anger, pay attention to what people say and to their facial expressions and body language), and describe behaviours that can be harmful to others (e.g., verbal abuse, including both online and face-to-face name calling, insults, and mocking; deliberately ignoring someone, or ignoring the feelings they express; physical violence, including pushing, kicking, and hitting) [A1.1 Emotions, 1.2 Coping, 1.4 Relationships]",
+              "text_html": "<p>describe how to relate positively to family members, caregivers, and others <em>(e.g., cooperate, show respect, communicate openly, manage anger, pay attention to what people say and to their facial expressions and body language)</em>, and describe behaviours that can be harmful to others <em>(e.g., verbal abuse, including both online and face-to-face name calling, insults, and mocking; deliberately ignoring someone, or ignoring the feelings they express; physical violence, including pushing, kicking, and hitting) </em>[<a data-item-id=\"f848cc84-ac69-4cbb-b906-feaead1d1f18\" href=\"\">A1.1 Emotions</a>, <a data-item-id=\"e5329d3b-30b8-4511-8af5-fdb489fbe3d2\" href=\"\">1.2 Coping</a>, <a data-item-id=\"b2c3e6ba-8a41-4693-8845-b55b2f20578b\" href=\"\">1.4 Relationships</a>]</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher prompts and Student Answers",
+                  "text": "Teacher prompt: “What are some respectful ways you can let someone know that you disagree with them?”\n    \n      Student: “In our family, when there is a disagreement, each person gets a chance to let each other know what they feel and think, and we pay attention to what everyone has to say, without interrupting them. I feel better when I share my feelings and don’t keep them bottled up inside.”\n      Teacher: “What does being a good friend look like? How can you show that you’re a friend while working in groups?”\n      Student: “I can make sure to include everyone, be kind to anyone who wants to be my partner, share toys and equipment, be encouraging, keep my hands to myself, and speak nicely.”\n      Teacher: “Calling someone a name or leaving them out of a group because of how they learn, speak, or look are examples of abusing or mistreating someone with your words or behaviour. We are learning how to prevent and change this behaviour and also how to respond to this behaviour if it happens. What could you do to help in this kind of situation?”\n      Student: “I could make sure I don’t behave that way. If I saw someone else doing it, I could tell the person to stop, or get help from an adult. I could also be friendly to the person who is being treated badly.”",
+                  "text_html": "<ul>\n  <li><em><strong>Teacher prompt: </strong></em>“What are some respectful ways you can let someone know that you disagree with them?”\n    <ul>\n      <li><em><strong>Student: </strong></em>“In our family, when there is a disagreement, each person gets a chance to let each other know what they feel and think, and we pay attention to what everyone has to say, without interrupting them. I feel better when I share my feelings and don’t keep them bottled up inside.”</li>\n      <li><em><strong>Teacher: </strong></em>“What does being a good friend look like? How can you show that you’re a friend while working in groups?”</li>\n      <li><em><strong>Student: </strong></em>“I can make sure to include everyone, be kind to anyone who wants to be my partner, share toys and equipment, be encouraging, keep my hands to myself, and speak nicely.”</li>\n      <li><em><strong>Teacher: </strong></em>“Calling someone a name or leaving them out of a group because of how they learn, speak, or look are examples of abusing or mistreating someone with your words or behaviour. We are learning how to prevent and change this behaviour and also how to respond to this behaviour if it happens. What could you do to help in this kind of situation?”</li>\n      <li><em><strong>Student: </strong></em>“I could make sure I don’t behave that way. If I saw someone else doing it, I could tell the person to stop, or get help from an adult. I could also be friendly to the person who is being treated badly.”</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "describe methods that may be used instead of or in combination with medication to maintain good physical and mental health and prevent or treat various health problems (e.g., getting more sleep to help get rid of a cold; getting more fresh air and physical activity to relieve headaches; eating healthier meals as recommended in Canada’s Food Guide or Canada’s Food Guide for First Nations, Inuit, and Métis; using natural healing treatments, Indigenous health practices) [A1.2 Coping, 1.6 Thinking]",
+              "text_html": "<p>describe methods that may be used instead of or in combination with medication to maintain good physical and <a data-item-id=\"3a479f12-1eb5-4c72-b724-4806a291023c\" href=\"\">mental health </a>and prevent or treat various health problems <em>(e.g., getting more sleep to help get rid of a cold; getting more fresh air and physical activity to relieve headaches; eating healthier meals as recommended in Canada’s Food Guide or Canada’s Food Guide for First Nations, Inuit, and Métis; using natural healing treatments, Indigenous health practices) </em>[<a data-item-id=\"e5329d3b-30b8-4511-8af5-fdb489fbe3d2\" href=\"\">A1.2 Coping</a>, <a data-item-id=\"64ce7957-2b11-45c2-ad0f-2f67a3e2c7b2\" href=\"\">1.6 Thinking</a>]</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

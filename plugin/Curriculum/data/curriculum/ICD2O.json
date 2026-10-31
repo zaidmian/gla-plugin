@@ -1,0 +1,426 @@
+{
+  "code": "ICD2O",
+  "name": "Digital Technology and Innovations in the Changing World",
+  "grades": [
+    "10"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "",
+  "panel": "Secondary",
+  "subject": "Computer Studies",
+  "subject_group": "Computer Studies",
+  "description": "This course helps students develop cutting-edge digital technology and computer programming skills that will support them in contributing to and leading the global economic, scientific and societal innovations of tomorrow. Students will learn and apply coding concepts and skills to build hands-on projects and investigate artificial intelligence, cybersecurity, and other emerging digital technologies that connect to a wide range of fields and careers. Using critical thinking skills with a focus on digital citizenship, students will investigate the appropriate use and development of the digital technologies that they encounter every day, as well as the benefits and limitations of these technologies.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/computer-studies/courses/icd2o",
+  "source_codename": "ics2o__copy__329399f",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Computational Thinking and Making Connections",
+      "describer": "Throughout this course, in connection with the learning in the other strands, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Computational Thinking, Planning, and Purpose",
+          "describer": "Throughout this course, in connection with the learning in the other strands, students will:",
+          "text": "apply computational thinking concepts and practices, and use various tools and processes to plan and develop computational artifacts for a wide variety of contexts, users, and purposes",
+          "text_html": "<p>apply <a data-item-id=\"734ec8e2-ef00-413e-ad17-721effef7de1\" href=\"\">computational thinking</a> concepts and practices, and use various <a data-item-id=\"58f0de2a-1d42-42d3-91be-f8a6a1726582\" href=\"\">tools</a> and processes to plan and develop <a data-item-id=\"e07e34e2-9736-4282-9fa6-634273788b5d\" href=\"\">computational artifacts</a> for a wide variety of contexts, users, and purposes</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "apply computational thinking concepts and practices when planning and designing computational artifacts",
+              "text_html": "<p>apply computational thinking concepts and practices when planning and designing computational artifacts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "use a variety of tools and processes to plan, design, and share algorithms and computational artifacts",
+              "text_html": "<p>use a variety of tools and processes to plan, design, and share algorithms and computational artifacts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "develop computational artifacts for a variety of contexts and purposes that support the needs of diverse users and audiences",
+              "text_html": "<p>develop computational artifacts for a variety of contexts and purposes that support the needs of diverse users and audiences</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Digital Technology and Society",
+          "describer": "Throughout this course, in connection with the learning in the other strands, students will:",
+          "text": "demonstrate an understanding of important social, cultural, economic, environmental, and ethical issues, as well as contributions and innovations involving diverse local and global communities, related to digital technology",
+          "text_html": "<p>demonstrate an understanding of important social, cultural, economic, environmental, and ethical issues, as well as contributions and innovations involving diverse local and global communities, related to digital technology</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "investigate current social, cultural, economic, environmental, and ethical issues related to digital technology that have personal, local, and global impacts, taking various perspectives into account",
+              "text_html": "<p>investigate current social, cultural, economic, environmental, and ethical issues related to digital technology that have personal, local, and global impacts, taking various perspectives into account</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "analyze personal and societal safety and cybersecurity issues related to digital technology, and identify measures and technologies that can help mitigate related concerns for individuals and communities",
+              "text_html": "<p>analyze personal and societal safety and cybersecurity issues related to digital technology, and identify measures and technologies that can help mitigate related concerns for individuals and communities&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "investigate contributions to innovations in digital technology and computing by people from diverse local, Canadian, and global communities, including Indigenous communities in Canada and around the world",
+              "text_html": "<p>investigate contributions to innovations in digital technology and computing by people from diverse local, Canadian, and global communities, including Indigenous communities in Canada and around the world</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.4",
+              "text": "investigate how to identify and address bias involving digital technology",
+              "text_html": "<p>investigate how to identify and address bias involving digital technology</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.5",
+              "text": "analyze accessibility issues involving digital technology, and identify measures that can improve accessibility",
+              "text_html": "<p>analyze accessibility issues involving digital technology, and identify measures that can improve accessibility</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Applications, Careers, and Connections",
+          "describer": "Throughout this course, in connection with the learning in the other strands, students will:",
+          "text": "demonstrate an understanding of real-world applications of digital technology and programming, including within various industries and careers",
+          "text_html": "<p>demonstrate an understanding of real-world applications of digital technology and programming, including within various industries and careers</p>",
+          "transferable_skills": [
+            "Communication",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "investigate how digital technology and programming skills can be used within a variety of disciplines in real-world applications",
+              "text_html": "<p>investigate how digital technology and programming skills can be used within a variety of disciplines in real-world applications</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "investigate ways in which various industries, including those that involve skilled trades, are changing as a result of digital technology and programming innovations",
+              "text_html": "<p>investigate ways in which various industries, including those that involve skilled trades, are changing as a result of digital technology and programming innovations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "investigate various career options related to digital technology and programming, and ways to continue their learning in these areas",
+              "text_html": "<p>investigate various career options related to digital technology and programming, and ways to continue their learning in these areas</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Hardware, Software, and Innovations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Understanding Hardware and Software",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the functions and features of the hardware and software they encounter in their everyday life",
+          "text_html": "<p>demonstrate an understanding of the <a data-item-id=\"a7dcc538-d5f9-45a9-8bd5-47ef71818948\" href=\"\">functions and features</a> of the hardware and software they encounter in their everyday life</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "describe the functions and features of various core components of hardware associated with digital technologies they encounter in their everyday life",
+              "text_html": "<p>describe the functions and features of various core components of hardware associated with digital technologies they encounter in their everyday life</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "describe the functions and features of various connected devices associated with digital technologies they encounter in their everyday life",
+              "text_html": "<p>describe the functions and features of various connected devices associated with digital technologies they encounter in their everyday life</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "describe the functions of various types of software they encounter in their everyday life",
+              "text_html": "<p>describe the functions of various types of software they encounter in their everyday life</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Using Hardware and Software",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of various ways to use hardware, software, and file management, and of research practices to support their own use of digital technology",
+          "text_html": "<p>demonstrate an understanding of various ways to use hardware, software, and file management, and of research practices to support their own use of digital technology</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "use file management techniques, including those related to local and cloud storage, to organize, edit, and share files",
+              "text_html": "<p>use file management techniques, including those related to local and cloud storage, to organize, edit, and share files</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "identify and use effective research practices and supports when learning to use new hardware or software",
+              "text_html": "<p>identify and use effective research practices and supports when learning to use new hardware or software</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "assess the hardware and software requirements for various users, contexts, and purposes in order to make recommendations for devices and programs",
+              "text_html": "<p>assess the hardware and software requirements for various users, contexts, and purposes in order to make recommendations for devices and programs</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Cybersecurity and Data",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of safe and effective practices related to data and cybersecurity in various contexts",
+          "text_html": "<p>demonstrate an understanding of safe and effective practices related to data and cybersecurity in various contexts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "apply safe and effective data practices when using digital technology in various contexts",
+              "text_html": "<p>apply safe and effective data practices when using digital technology in various contexts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "apply safe and effective security practices, including practices to protect their privacy, when using digital technology in various contexts",
+              "text_html": "<p>apply safe and effective security practices, including practices to protect their privacy, when using digital technology in various contexts</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B4",
+          "title": "Innovations in Digital Technology",
+          "describer": "By the end of this course, students will:",
+          "text": "investigate current and emerging innovations in digital technology, including automation and artificial intelligence, and assess their benefits and limitations",
+          "text_html": "<p>investigate current and emerging innovations in digital technology, including automation and artificial intelligence, and assess their benefits and limitations</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B4.1",
+              "text": "investigate current innovations, including automation and artificial intelligence systems, and assess the impacts of these technologies on everyday life",
+              "text_html": "<p>investigate current innovations, including automation and artificial intelligence systems, and assess the impacts of these technologies on everyday life</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B4.2",
+              "text": "investigate hardware and methods used to establish networks and connectivity, and assess the benefits and limitations of increased connectivity with reference to everyday life",
+              "text_html": "<p>investigate hardware and methods used to establish networks and connectivity, and assess the benefits and limitations of increased connectivity with reference to everyday life</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B4.3",
+              "text": "investigate emerging innovations related to hardware and software and their possible benefits and limitations with reference to everyday life in the future",
+              "text_html": "<p>investigate emerging innovations related to hardware and software and their possible benefits and limitations with reference to everyday life in the future</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Programming",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Programming Concepts and Algorithms",
+          "describer": "By the end of this course, students will:",
+          "text": "explain fundamental programming concepts and algorithms",
+          "text_html": "<p>explain fundamental programming concepts and algorithms</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "use appropriate terminology to describe programming concepts and algorithms",
+              "text_html": "<p>use appropriate terminology to describe programming concepts and algorithms</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "describe simple algorithms that are encountered in everyday situations",
+              "text_html": "<p>describe simple algorithms that are encountered in everyday situations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "identify various types of data and explain how they are used within programs",
+              "text_html": "<p>identify various types of data and explain how they are used within programs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "determine the appropriate expressions and instructions to use in a programming statement, taking into account the order of operations",
+              "text_html": "<p>determine the appropriate expressions and instructions to use in a programming statement, taking into account the order of operations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.5",
+              "text": "identify and explain situations in which conditional and repeating structures are required",
+              "text_html": "<p>identify and explain situations in which conditional and repeating structures are required</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Writing Programs",
+          "describer": "By the end of this course, students will:",
+          "text": "use fundamental programming concepts to write simple programs",
+          "text_html": "<p>use fundamental programming concepts to write simple programs</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "use variables, constants, expressions, and assignment statements to store and manipulate numbers and text in a program",
+              "text_html": "<p>use variables, constants, expressions, and assignment statements to store and manipulate numbers and text in a program</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "write programs that use and generate data involving various sources and formats",
+              "text_html": "<p>write programs that use and generate data involving various sources and formats</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "write programs that include single and nested conditional statements",
+              "text_html": "<p>write programs that include single and nested conditional statements</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "write programs that include sequential, selection, and repeating events",
+              "text_html": "<p>write programs that include sequential, selection, and repeating events</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "write programs that include the use of Boolean operators, comparison operators, text operators, and arithmetic operators",
+              "text_html": "<p>write programs that include the use of <a data-item-id=\"8e882a48-c9e8-4f85-985a-aeee2fcca1ae\" href=\"\">Boolean operators</a>, <a data-item-id=\"ab7e32da-83ba-4dd1-ad2f-de73180deca4\" href=\"\">comparison operators</a>, <a data-item-id=\"14b93516-14cd-453a-bb41-0ff253f3f7a9\" href=\"\">text operators</a>, and <a data-item-id=\"b4b6537c-59ec-4eb6-bad9-723739985f1e\" href=\"\">arithmetic operators</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.6",
+              "text": "interpret program errors and implement strategies to resolve them",
+              "text_html": "<p>interpret program errors and implement strategies to resolve them</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.7",
+              "text": "write clear internal documentation and use coding standards to improve code readability",
+              "text_html": "<p>write clear internal documentation and use coding standards to improve code readability</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Modularity and Modification",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of program components and modules",
+          "text_html": "<p>demonstrate an understanding of program components and modules</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "analyze existing code to understand the components and outcomes of the code",
+              "text_html": "<p>analyze existing code to understand the components and outcomes of the code</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "modify an existing program, or components of a program, to enable it to complete a different task",
+              "text_html": "<p>modify an existing program, or components of a program, to enable it to complete a different task</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "write subprograms, and use existing subprograms, to complete program components",
+              "text_html": "<p>write subprograms, and use existing subprograms, to complete program components</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.4",
+              "text": "write programs that make use of external or add-on modules or libraries",
+              "text_html": "<p>write programs that make use of external or add-on modules or libraries</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.5",
+              "text": "explain the components of a computational artifact they have created, including considerations for reuse by others",
+              "text_html": "<p>explain the components of a <a data-item-id=\"e07e34e2-9736-4282-9fa6-634273788b5d\" href=\"\">computational artifact</a> they have created, including considerations for reuse by others</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

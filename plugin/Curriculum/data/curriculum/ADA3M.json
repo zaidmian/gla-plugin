@@ -1,0 +1,492 @@
+{
+  "code": "ADA3M",
+  "name": "Drama",
+  "grades": [
+    "11"
+  ],
+  "levels": [],
+  "course_type": "University-College Preparation",
+  "category": "Drama",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course requires students to create and perform in dramatic presentations. Students will analyse, interpret, and perform dramatic works from various cultures and time periods. Students will research various acting styles and conventions that could be  used in their presentations, and analyse the functions of playwrights, directors, actors, designers, technicians, and audiences.",
+  "prerequisites": "Grade 9 or 10 Drama, Open",
+  "prerequisite_codes": [
+    "ADA1O",
+    "ADA2O"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/ada3m",
+  "source_codename": "arts___sec___ada3m",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Presenting",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the creative process and a variety of sources and forms, both individually and collaboratively, to design and develop drama works",
+          "text_html": "<p>use the creative process and a variety of sources and forms, both individually and collaboratively, to design and develop <a data-item-id=\"c35a5848-e3f1-43f0-87ed-549c5868302e\" href=\"\">drama works</a></p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "develop interpretations of drama texts or other sources from a variety of Western and non-Western traditions as a basis for their own drama presentations (e.g., interpretations of narratives by men, women, and children from diverse backgrounds; scenes from Kabuki or Noh theatre; excerpts from Tennessee Williams’s The Glass Menagerie, Marsha Norman’s ’Night Mother, or Dennis Foon’s Skin; scenes from plays by men and women playwrights, including Aboriginal, Asian Canadian/American, or African Canadian/American dramatists)",
+              "text_html": "<p>develop interpretations of drama texts or other sources from a variety of Western and non-Western traditions as a basis for their own drama presentations <em>(e.g., interpretations of narratives by men, women, and children from diverse backgrounds; scenes from </em><a data-item-id=\"610f626a-84bc-4a2f-a520-eb566289c3c0\" href=\"\"><em>Kabuki </em></a><em>or </em><a data-item-id=\"cc45ccb8-09bb-41aa-84e3-f95f3f3cde44\" href=\"\"><em>Noh theatre</em></a><em>; excerpts from Tennessee Williams’s </em>The Glass Menagerie<em>, Marsha Norman’s </em>’Night Mother, <em>or Dennis Foon’s </em>Skin<em>; scenes from plays by men and women playwrights, including </em><a data-item-id=\"d00a2d62-487b-4f63-acce-2a555f6074ba\" href=\"\"><em>Aboriginal,</em></a><em> Asian Canadian/American, or African Canadian/American&nbsp;dramatists)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might you dramatize a narrative like The History of Mary Prince, A West Indian Slave? What other kinds of historical voices could you bring to life through drama?\n  What are some of the themes and issues in this text? How could you adapt the source to show its relevance to the world of today?",
+                  "text_html": "<ul>\n  <li>How might you dramatize a narrative like <em>The History of Mary Prince, A West Indian Slave</em>? What other kinds of historical voices could you bring to life through drama?</li>\n  <li>What are some of the themes and issues in this text? How could you adapt the source to show its relevance to the world of today?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "select and use appropriate drama forms to present a variety of adapted or original drama works (e.g., use a drama anthology to present a famous person’s life story; use a skit with slapstick humour to comment on a recent media event; use puppetry to adapt a children’s book on a social or environmental theme, such as The Lorax [Seuss] or The Great Kapok Tree [Cherry], for a dramatic presentation)",
+              "text_html": "<p>select and use appropriate drama forms to present a variety of adapted or original drama works <em>(e.g., use a </em><a data-item-id=\"fc43fa15-7785-4f08-8b25-b256d3573285\" href=\"\"><em>drama anthology</em></a><em> to present a famous person’s life story; use a skit with slapstick humour to comment on a recent media event; use puppetry to adapt a children’s book on a social or environmental theme, such as </em>The Lorax <em>[Seuss] or </em>The Great Kapok Tree <em>[Cherry], for a dramatic presentation)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What form could you use to dramatize an important turning point in a person’s life? Mime? A dramatic monologue? A type of ritual?",
+                  "text_html": "<ul>\n  <li>What form could you use to dramatize an important turning point in a person’s life? <a data-item-id=\"5a0e7bd9-5a42-4a4d-baf9-d6add68c78f1\" href=\"\">Mime?</a> A dramatic <a data-item-id=\"ec624c76-a5ec-446b-a60a-270db2ca883a\" href=\"\">monologue</a>? A type of <a data-item-id=\"082a6802-d8cc-4d4a-b056-6ad349844865\" href=\"\">ritual</a>?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "create and interpret a range of characters using a variety of acting approaches (e.g., present a scene in the style of melodrama or commedia dell’arte; use the Laban approach to create an original character)",
+              "text_html": "<p>create and interpret a range of characters using a variety of acting approaches <em>(e.g., present a scene in the style of melodrama or </em><a data-item-id=\"d4954491-c891-4c02-9ebd-319e49c427d6\" href=\"\"><em>commedia dell’arte</em></a><em>; use the Laban approach to create an original character)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do inside-out and outside-in acting approaches help you to create a character? Which do you prefer, and why?\n  What are some of the strategies a company of actors might explore in rehearsal to draw attention to the dilemma facing a character?",
+                  "text_html": "<ul>\n  <li>How do inside-out and outside-in acting approaches help you to create a character? Which do you prefer, and why?</li>\n  <li>What are some of the strategies a company of actors might explore in rehearsal to draw attention to the dilemma facing a character?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Elements and Conventions",
+          "describer": "By the end of this course, students will:",
+          "text": "use the elements and conventions of drama effectively in creating individual and ensemble drama works, including works based on a variety of sources",
+          "text_html": "<p>use the elements and conventions of drama effectively in creating individual and ensemble drama works, including works based on a variety of sources</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "highlight selected elements of drama and subordinate others to achieve specific purposes (e.g., use setting and relationship to illuminate character; use time to explore relationship)",
+              "text_html": "<p>highlight selected <a data-item-id=\"a43d2502-a169-43c7-b2b9-c7e475ae08a8\" href=\"\">elements of drama</a> and subordinate others to achieve specific purposes <em>(e.g., use setting and relationship to illuminate character; use time to explore relationship)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could disrupting chronology to show the end of this relationship before its beginning help create tension throughout the play?",
+                  "text_html": "<ul>\n  <li>How could disrupting chronology to show the end of this relationship before its beginning help create <a data-item-id=\"c187d57c-5f03-4678-9d7e-5a800acd84e5\" href=\"\">tension</a> throughout the play?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "use a variety of drama conventions to establish a distinctive context or role in original or adapted works (e.g., use guided imagery and mapping to visualize settings and relationships; use hot-seating or voices in the head to build a rounded picture of a character)",
+              "text_html": "<p>use a variety of drama conventions to establish a distinctive <a data-item-id=\"311a1efa-4039-4020-ad3b-63706029b550\" href=\"\">context</a> or role in original or adapted works <em>(e.g., use </em><a data-item-id=\"e9d86b21-0580-4b21-9073-0ab89ce71fe2\" href=\"\"><em>guided imagery</em></a><em> and mapping to visualize settings and relationships; use </em><a data-item-id=\"a2345d18-6747-433d-9b77-84ed41e998ca\" href=\"\"><em>hot-seating </em></a><em>or voices in the head to build a rounded picture of a character)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might you depict the relationships and atmosphere of Shakespearean characters in a modern setting? What will you do to establish a convincing context?\n  What information do we need about this character in order to decide how she will react to this new challenge? How can we explore her character to find out?",
+                  "text_html": "<ul>\n  <li>How might you depict the relationships and atmosphere of Shakespearean characters in a modern setting? What will you do to establish a convincing context?</li>\n  <li>What information do we need about this character in order to decide how she will react to this new challenge? How can we explore her character to find out?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Presentation Techniques and Technologies",
+          "describer": "By the end of this course, students will:",
+          "text": "use a variety of presentation techniques and technological tools to enhance the impact of drama works and communicate for specific audiences and purposes",
+          "text_html": "<p>use a variety of presentation techniques and technological tools to enhance the impact of drama works and communicate for specific audiences and purposes</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "use a variety of techniques to increase interaction with or participation by the audience (e.g., use forum theatre to involve the whole class in developing a character or exploring a theme; situate some of the action in non-stage areas of the theatre)",
+              "text_html": "<p>use a variety of techniques to increase interaction with or participation by the audience <em>(e.g., use </em><a data-item-id=\"fec6262d-d4cc-4345-a131-81cfc5bf9b1e\" href=\"\"><em>forum theatre</em></a><em> to involve the whole class&nbsp;in developing a character or exploring a theme; situate some of the action in </em><a data-item-id=\"ba58beca-d05c-4e2f-818a-b11a9ec4dda9\" href=\"\"><em>non-stage areas</em></a><em> of&nbsp;the theatre)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would you use staging techniques, such as breaking the fourth wall, to connect with your audience?",
+                  "text_html": "<ul>\n  <li>How would you use staging techniques, such as breaking the fourth wall, to connect with your audience?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "use a range of techniques and acting approaches to refine performance during rehearsal (e.g., use vocal, movement, trust, and relaxation exercises to prepare for rehearsal; use hot-seating and writing in role to extend character development  during rehearsal)",
+              "text_html": "<p>use a range of techniques and acting approaches to refine performance during rehearsal <em>(e.g., use vocal, movement, trust, and relaxation exercises to prepare for rehearsal; use hot-seating and </em><a data-item-id=\"c5641a8a-6eac-46c4-9bfd-ed93c857d5ba\" href=\"\"><em>writing in role</em></a><em> to extend character development&nbsp; during rehearsal)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What techniques could you use to create a back story for your character? Why might creating a back story for a character help you portray that character more effectively?",
+                  "text_html": "<ul>\n  <li>What techniques could you use to create a back story for your character? Why might creating a back story for a character help you portray that character more effectively?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "select and use a variety of technological tools, including forms of new media, to highlight the message and enhance the impact of drama works (e.g., use traditional and digital music and video supports to create lighting and sound effects that enhance a specific mood)",
+              "text_html": "<p>select and use a variety of technological tools, including forms of new media, to highlight the message and enhance the impact of drama works <em>(e.g., use traditional and digital music and video supports to create lighting and sound effects that enhance a specific&nbsp;mood)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can we use lighting and sound to heighten tension in this scene?",
+                  "text_html": "<ul>\n  <li>How can we use lighting and sound to heighten tension in this scene?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "use the critical analysis process to reflect on and evaluate their own and others’ drama works",
+          "text_html": "<p>use the critical analysis process to reflect on and evaluate their own and others’ drama works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "use the critical analysis process before and during drama projects to assign roles within the group, monitor the group process, and modify the roles and process as needed (e.g., use brainstorming and group discussion to generate ideas, assign roles, and agree on a process that includes a mechanism for reviewing progress and providing feedback; use journal writing to reflect on progress during rehearsal; create and use a self- or peer-assessment tool based on student-developed criteria)",
+              "text_html": "<p>use the critical analysis process before and during drama projects to assign roles within the group, monitor the group process, and modify the roles and process as needed <em>(e.g., use brainstorming and group discussion to generate ideas, assign roles, and agree on a process that includes a mechanism for reviewing progress and providing feedback; use </em><a data-item-id=\"0694a20e-22df-4ed6-a7a7-79b5fddea35a\" href=\"\"><em>journal writing</em></a><em> to reflect on progress during rehearsal; create and use&nbsp;a self- or peer-assessment tool based on student-developed criteria)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How will you track your group’s progress during the rehearsal process?\n  How can you build opportunities for peer feedback into the process to improve your group’s creative work?",
+                  "text_html": "<ul>\n  <li>How will you track your group’s progress during the rehearsal process?</li>\n  <li>How can you build opportunities for peer feedback into the process to improve your group’s creative work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "analyse drama works to determine how they communicate ideas about issues, culture, and society (e.g., compare the different ways in which dramas on the same topic present their themes; compare the presentation of female characters by women playwrights in two different eras)",
+              "text_html": "<p>analyse drama works to determine how they communicate ideas about issues, <a data-item-id=\"3a282604-c4cb-4466-a258-fdeff74f22dd\" href=\"\">culture</a>, and society <em>(e.g., compare the different ways in which dramas on the same topic present their themes; compare the presentation of female characters by women playwrights in two different eras)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does Shaw’s comic approach to war in Arms and the Man serve his purpose? What role does comedy serve in other plays about war, such as Shakespeare’s Henry V ?\n  What are some common themes in the work of pre-modern women playwrights such as Aphra Behn, Joanna Baillie, or Hannah Cowley? Are there any similarities with the work of modern women playwrights? What are some reasons why there are so few women playwrights from pre-modern times?",
+                  "text_html": "<ul>\n  <li>How does Shaw’s comic approach to war in <em>Arms and the Man </em>serve&nbsp;his purpose? What role does comedy serve in other plays about war, such as Shakespeare’s <em>Henry V </em>?</li>\n  <li>What are some common themes in the work of pre-modern women playwrights such as Aphra Behn, Joanna Baillie, or Hannah Cowley? Are there any similarities with the work of modern women playwrights? What are some reasons why there are so few women playwrights from pre-modern times?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "analyse and evaluate the aesthetic and technical aspects of drama works of diverse genres and styles (e.g., give feedback to peers about the strengths and areas for improvement of their directing decisions and stagecraft choices)",
+              "text_html": "<p>analyse and evaluate the <a data-item-id=\"b9887e4e-a360-4919-bda9-0b58e804e341\" href=\"\">aesthetic</a> and technical aspects of drama works of diverse genres and styles <em>(e.g., give feedback to peers about the strengths and areas for improvement of their directing decisions and stagecraft&nbsp;choices)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What decisions did the director make about how to highlight the theme? What aspects of character were chosen for emphasis?\n  What effect did the blocking create? Was it appropriate to the work as a whole?",
+                  "text_html": "<ul>\n  <li>What decisions did the director make about how to highlight the theme? What aspects of character were chosen for emphasis?</li>\n  <li>What effect did the <a data-item-id=\"9d85a40e-1a17-4769-9a16-0c04bbe355cf\" href=\"\">blocking</a> create? Was it appropriate to the work as a whole?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Drama and Society",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how societies present and past use or have used drama, and of how creating and viewing drama can benefit individuals, groups, and communities",
+          "text_html": "<p>demonstrate an understanding of how societies present and past use or have used drama, and of how creating and viewing drama can benefit individuals, groups, and communities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "analyse different styles of drama and explain their influence on artistic and social conditions in diverse communities and cultures from the past and present (e.g., explain how the emerging style of naturalism in drama enabled Chekhov, Ibsen, or Shaw to address issues of his day, including themes of social change; explain the reasons for Shaw’s satirical attack on the well-made play; describe alienation in Brechtian theatre as a reaction to the elevation of theatrical illusion over message; assess the influence of groups such as Dreamrider Theatre and Ubom! Eastern Cape Drama Company in raising awareness of environmental issues)",
+              "text_html": "<p>analyse different styles of drama and explain their influence on artistic and social conditions in diverse communities and cultures from the past and present <em>(e.g., explain how the emerging style of naturalism in drama enabled Chekhov, Ibsen, or Shaw to address issues of his&nbsp;day,&nbsp;including&nbsp;themes of&nbsp;social&nbsp;change;&nbsp;explain the reasons for Shaw’s satirical attack on&nbsp;the well-made </em><a data-item-id=\"3f003692-30f2-4f7e-b11e-311fd1d6cc02\" href=\"\"><em>play</em></a><em>; describe alienation in </em><a data-item-id=\"036bd5a3-95cd-43a1-adf7-34fab9501650\" href=\"\"><em>Brechtian theatre </em></a><em>as a reaction to the elevation of theatrical illusion over message; assess the influence of groups such as Dreamrider Theatre and Ubom! Eastern Cape Drama Company in raising awareness of environmental issues)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways is this specific style of theatre a reaction to styles of theatre that preceded it?\n  What does a play like Ibsen’s A Doll’s House say about the role of women in nineteenth-century Europe? How might people have reacted to the play when it was first presented? What impact does it have today?\n  How did this drama affect your understanding of racism? What are some other dramas that deal with this issue? How did they affect audiences when they were first performed?",
+                  "text_html": "<ul>\n  <li>In what ways is this specific style of theatre a reaction to styles of theatre that preceded it?</li>\n  <li>What does a play like Ibsen’s <em>A Doll’s House </em>say about the role of women in nineteenth-century Europe? How might people have reacted to the play when it was first presented? What impact does it have today?</li>\n  <li>How did this drama affect your understanding of racism? What are some other dramas that deal with this issue? How did they affect audiences when they were first performed?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "identify ways in which drama can influence personal growth, relationships with others, and aesthetic judgement (e.g., issue-based and whole-group drama activities can help develop empathy, self-knowledge, and social and environmental awareness; participation in the creative process can develop skills in applying aesthetic criteria to improve or evaluate a final product)",
+              "text_html": "<p>identify ways in which drama can influence personal growth, relationships with others, and aesthetic judgement <em>(e.g., issue-based and whole-group drama activities can help develop </em><a data-item-id=\"e79a68a9-4006-42a9-a15c-177d096c3422\" href=\"\"><em>empathy</em></a><em>, self-knowledge, and social and environmental awareness;&nbsp;participation in the&nbsp;creative&nbsp;process can develop skills in applying aesthetic&nbsp;criteria to improve or evaluate a final product)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What was your view of this issue before the drama took place? Has your view changed or altered based on what you experienced during the improvisation? Why or why not?\n  What did you learn about the importance of pacing from the feedback provided in your theatre workshop?",
+                  "text_html": "<ul>\n  <li>What was your view of this issue before the drama took place? Has your view changed or altered based on what you experienced during the improvisation? Why or why not?</li>\n  <li>What did you learn about the importance of pacing from the feedback provided in your theatre workshop?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "identify ways in which drama can influence the broader community (e.g., by giving expression to previously unheard voices; by highlighting systemic or emerging social  problems)",
+              "text_html": "<p>identify ways in which drama can influence the broader community <em>(e.g., by giving expression to previously unheard voices; by highlighting systemic or emerging social&nbsp; problems)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What social or environmental issue might you use as the basis for an anthology for a school assembly? What would be your goal in presenting this issue?",
+                  "text_html": "<ul>\n  <li>What social or environmental issue might you use as the basis for an anthology for a school assembly? What would be your goal in presenting this issue?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.4",
+              "text": "explain how different types of theatre mirror cultural diversity and local or regional concerns in Canadian and global societies from the past and present (e.g., explain the link between the use of joual in Quebec theatre in the 1970s and the political unrest in the province at that time; after viewing a production or video of Theatre Passe Muraille’s Farm Show, explain the reasons for its documentary-style portrayal of people from a small rural community; explain how types or styles of theatre represented by Noh theatre, Famous People Players, Cirque de Soleil, Green Thumb theatre, or De-Ba-Jeh-Mu-Jig theatre reflect aspects of the communities that produced them)",
+              "text_html": "<p>explain how different types of theatre mirror cultural diversity and local or regional concerns in Canadian and global societies from the past and present <em>(e.g., explain the link between the use of </em>joual <em>in Quebec theatre in the 1970s&nbsp;and the political unrest in the province at that&nbsp;time; after viewing a production or video of&nbsp;Theatre Passe Muraille’s </em>Farm Show<em>, explain the reasons for its documentary-style portrayal of people from a small rural community; explain how types or styles of theatre represented by Noh theatre, Famous People Players, Cirque de Soleil, Green Thumb theatre, or De-Ba-Jeh-Mu-Jig theatre reflect aspects of the communities that produced them)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What topics or issues are addressed in this drama work? Can you see a connection between the style of this work and social or political conditions in its time and place of origin?",
+                  "text_html": "<ul>\n  <li>What topics or issues are addressed in this drama work? Can you see a connection between the style of this work and social or political conditions in its time and place of origin?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "identify knowledge and skills they have acquired through drama activities, and demonstrate an understanding of ways in which they can apply this learning in personal, social, and career contexts",
+          "text_html": "<p>identify knowledge and skills they have acquired through drama activities, and demonstrate an understanding of ways in which they can apply this learning in personal, social, and career contexts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "identify the collaborative skills and techniques they used to produce ensemble drama works, and explain how they can be applied in a variety of other contexts (e.g., explain the connection between carrying out an assigned role in staging a drama and contributing to a school committee or “playing their position” in a team sport)",
+              "text_html": "<p>identify the collaborative skills and techniques they used to produce <a data-item-id=\"6a8e02e3-49ea-423b-ba86-9249d82207dc\" href=\"\">ensemble </a>drama works, and explain how they can be applied in a variety of other contexts <em>(e.g., explain the connection between carrying out an assigned role in staging a drama and contributing to a school committee or “playing their position” in a team sport)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could you use the teamwork skills learned in drama in other areas of our school? In the community? In the workplace?",
+                  "text_html": "<ul>\n  <li>How could you use the teamwork skills learned in drama in other areas of our school? In the community? In the workplace?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "analyse their use of the creative process in drama activities, and explain what they learned from it and how that learning can be applied in work and other social contexts (e.g., how creative thinking might help them solve problems in other school subjects, based on their experience in drama work)",
+              "text_html": "<p>analyse their use of the creative process in drama activities, and explain what they learned from it and how that learning can be applied in work and other social contexts <em>(e.g., how creative thinking might help them solve problems in other school subjects, based on their experience in drama work)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the benefits of being able to look at a situation from several different perspectives?",
+                  "text_html": "<ul>\n  <li>What are the benefits of being able to look at a situation from several different perspectives?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "relate the various functions they have performed in drama activities to educational and career opportunities in the broader educational and arts sectors (e.g., describe, in a  portfolio, how the skills acquired through involvement in community theatre can be applied elsewhere in the arts; identify postsecondary careers and university and college programs in the field of drama and theatre where they could apply their drama experience and skills)",
+              "text_html": "<p>relate the various functions they have performed in drama activities to educational and career opportunities in the broader educational and&nbsp;arts&nbsp;sectors&nbsp;<em>(e.g., describe, in&nbsp;a&nbsp; portfolio, how the skills acquired through involvement&nbsp;in community theatre can be applied elsewhere in the arts; identify postsecondary careers and university and college programs in the field of drama and theatre where they could apply their drama experience and skills)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What roles are open to volunteers in community theatre? How might volunteer work with a community theatre group contribute to your learning in drama?",
+                  "text_html": "<ul>\n  <li>What roles are open to volunteers in community theatre? How might volunteer work with a community theatre group contribute to your learning in drama?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Concepts and Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the nature and functions of drama forms, elements, conventions, and techniques, including the correct terminology for the various components",
+          "text_html": "<p>demonstrate an understanding of the nature and functions of drama forms, elements, conventions, and techniques, including the correct terminology for the various components</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify and describe the forms, elements, conventions, and techniques used in a variety of drama styles, and explain how they help achieve specific purposes and effects (e.g., explain how the use of formal postures and gestures supports the intended effect of drawing-room comedy; describe how tension is created in scenes by dramatists such as Molière, Henrik Ibsen, Thornton Wilder, Lillian Hellman, Carol Bolt, or Michel Tremblay)",
+              "text_html": "<p>identify and describe the forms, elements, conventions, and techniques used in a variety of drama styles, and explain how they help achieve specific purposes and effects <em>(e.g., explain how the use of formal postures and gestures supports the intended effect of drawing-room comedy; describe how tension is created in scenes by dramatists such as Molière, Henrik Ibsen, Thornton Wilder, Lillian Hellman, Carol Bolt, or Michel Tremblay)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does overhearing this character’s inner thoughts change our perspective on her past actions or future behaviour?",
+                  "text_html": "<ul>\n  <li>How does overhearing this character’s inner thoughts change our perspective on her past actions or future behaviour?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "use correct terminology for the various components and processes of their own and others’ drama works (e.g., script analysis, character actor, supporting role, dialogue, role on the wall, hot-seating, method acting, classical technique)",
+              "text_html": "<p>use correct terminology for the various components and processes of their own and others’ drama works <em>(e.g., script analysis, character&nbsp;actor, supporting role, </em><a data-item-id=\"6ea18026-7a11-4315-be82-57e2267d8ac8\" href=\"\"><em>dialogue</em></a><em>, </em><a data-item-id=\"9ae47edd-ef13-4184-af1d-b5e86f42455e\" href=\"\"><em>role on the wall</em></a><em>, hot-seating, method acting, classical technique)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What aspects of character can be explored using role on the wall?",
+                  "text_html": "<ul>\n  <li>What aspects of character can be explored using role on the wall?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "demonstrate an understanding of production and promotion roles, practices, and terminology (e.g., set and costume design and construction processes; technical design and support roles; marketing and publicity tools and strategies)",
+              "text_html": "<p>demonstrate an understanding of production and promotion roles, practices, and terminology <em>(e.g., set and costume design and construction processes; technical design and support roles; marketing and publicity tools and&nbsp;strategies)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What tools and strategies could the publicity team use in advertising the production? What types of people are your target audience and how will you attract them?",
+                  "text_html": "<ul>\n  <li>What tools and strategies could the publicity team use in advertising the production? What types of people are your target audience and how will you attract them?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Contexts and Influences",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the origins and development of drama and theatre arts and their influence on past and present societies",
+          "text_html": "<p>demonstrate an understanding of the origins and development of drama and theatre arts and their influence on past and present societies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "locate, synthesize, and communicate information about scripts, performance spaces, and theatre traditions from different periods and cultures (e.g., create a comparison chart of conventions used in the staging of Greek, Roman, and medieval theatre; describe the differences in make-up styles in Noh theatre, Renaissance drama, and other genres; highlight key elements of Elizabethan and Restoration acting styles)",
+              "text_html": "<p>locate, synthesize, and communicate information about scripts, performance spaces, and theatre traditions from different periods and cultures <em>(e.g., create a comparison chart of conventions used in the staging of </em><a data-item-id=\"a0fc313c-abcd-4d59-a90c-f8faa8f5b932\" href=\"\"><em>Greek</em></a><em>, Roman, and medieval theatre; describe the differences in make-up styles in Noh theatre, Renaissance drama, and other genres; highlight key elements of </em><a data-item-id=\"02fbf27a-bd72-430c-8ae9-a872ca127492\" href=\"\"><em>Elizabethan</em></a><em> and Restoration acting styles)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are the key similarities and differences between these styles of theatre? Are any conventions shared between different cultures and time periods?",
+                  "text_html": "<ul>\n  <li>What are the key similarities and differences between these styles of theatre? Are any conventions shared between different cultures and time periods?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "compare the acting skill sets required by performers in current media to those required in traditional theatre (e.g., explain how the merits and limitations of television, the Internet, webcasts, and/or films shape the performances  of actors in these media)",
+              "text_html": "<p>compare the acting skill sets required by performers in current media to those required in traditional theatre <em>(e.g., explain how the merits and limitations of television, the Internet, webcasts, and/or films shape the performances&nbsp; of actors in these media)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How are webcast, television, and film performances different from theatrical performances? What skills do theatrical actors use to communicate without the assistance of close-up camera shots and/or microphones?",
+                  "text_html": "<ul>\n  <li>How are webcast, television, and film performances different from theatrical performances? What skills do theatrical actors use to communicate without the assistance of close-up camera shots and/or microphones?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of safe, ethical, and responsible personal and interpersonal practices in drama activities",
+          "text_html": "<p>demonstrate an understanding of safe, ethical, and responsible personal and interpersonal practices in drama activities</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify and follow safe and ethical practices in all drama activities (e.g., use vocal and physical warm-ups to protect against strain injuries; tape cords to ensure safety; store and handle flats safely; follow instructions and protocols for operating equipment; follow procedures for the environmentally responsible use of materials and energy; honour the dramatist’s intentions; obtain performance rights; present and honour a variety of perspectives)",
+              "text_html": "<p>identify and follow safe and ethical practices in all drama activities <em>(e.g., use vocal and physical warm-ups to protect against strain injuries; tape cords to ensure safety; store and handle flats safely; follow instructions and protocols for operating equipment; follow procedures for the environmentally responsible use of materials and </em><a data-item-id=\"7b16847d-b01d-4cce-a01d-1d7fab729e13\" href=\"\"><em>energy</em></a><em>; honour the dramatist’s intentions; obtain performance rights; present and honour a variety of perspectives)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What safety concerns might we face as we move forward with this production?\n  How can we ensure that the materials used in these sets are available for re-use in future productions?\n  Why is it important to reflect the reality of ethnic diversity both in developing and in presenting drama works?",
+                  "text_html": "<ul>\n  <li>What safety concerns might we face as we move forward with this production?</li>\n  <li>How can we ensure that the materials used in these sets are available for re-use in future productions?</li>\n  <li>Why is it important to reflect the reality of ethnic diversity both in developing and in presenting drama works?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "demonstrate an understanding of the tasks and responsibilities involved in producing drama works (e.g., itemize the multiple and interrelated responsibilities and competencies of director, stage manager, costume manager, and writer)",
+              "text_html": "<p>demonstrate an understanding of the tasks and responsibilities involved in producing drama works <em>(e.g., itemize the multiple and interrelated responsibilities and competencies of director, </em><a data-item-id=\"3627fe44-70ec-459c-a926-79fd2ec6bdd3\" href=\"\"><em>stage manager</em></a><em>, costume manager, and&nbsp;writer)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What skills, knowledge, and attitudes do you need to be an effective stage manager?",
+                  "text_html": "<ul>\n  <li>What skills, knowledge, and attitudes do you need to be an effective stage manager?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "demonstrate an understanding of correct theatre worker and audience etiquette in classroom drama work and formal performance contexts (e.g., as a director: show respect for actors’ opinions and approaches; as a performer: accept direction from peer coaches and teachers; respect the fourth wall; as a viewer: maintain a receptive attitude; respond courteously)",
+              "text_html": "<p>demonstrate an understanding of correct theatre worker and <a data-item-id=\"2e173e54-a5d6-4cfa-bbe4-f93205d66776\" href=\"\">audience etiquette</a> in classroom drama work and formal performance contexts <em>(e.g., as a director: show respect for&nbsp;actors’ opinions and approaches; as a performer: accept direction from peer coaches and teachers; respect the fourth wall; as a viewer: maintain a receptive attitude; respond courteously)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What procedures could you put in place that will help maintain good communication within your group?\n  What is the importance of being able to think and feel what other people’s situations and predicaments must be like?",
+                  "text_html": "<ul>\n  <li>What procedures could you put in place that will help maintain good communication within your group?</li>\n  <li>What is the importance of being able to think and feel what other people’s situations and predicaments must be like?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

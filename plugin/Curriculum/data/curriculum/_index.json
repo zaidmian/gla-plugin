@@ -1,0 +1,3627 @@
+{
+  "language": "en-CA",
+  "written": [
+    {
+      "code": "ADA1O",
+      "name": "Drama",
+      "grades": [
+        "9"
+      ],
+      "file": "ADA1O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "ADA2O",
+      "name": "Drama",
+      "grades": [
+        "10"
+      ],
+      "file": "ADA2O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "ADA3M",
+      "name": "Drama",
+      "grades": [
+        "11"
+      ],
+      "file": "ADA3M.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "ADA3O",
+      "name": "Drama",
+      "grades": [
+        "11"
+      ],
+      "file": "ADA3O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "ADA4E",
+      "name": "Drama",
+      "grades": [
+        "12"
+      ],
+      "file": "ADA4E.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "ADA4M",
+      "name": "Drama",
+      "grades": [
+        "12"
+      ],
+      "file": "ADA4M.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "AEA3O",
+      "name": "Exploring and Creating in the Arts",
+      "grades": [
+        "11"
+      ],
+      "file": "AEA3O.json",
+      "strands": 3,
+      "overall_expectations": 11,
+      "specific_expectations": 31
+    },
+    {
+      "code": "AEA4O",
+      "name": "Exploring and Creating in the Arts",
+      "grades": [
+        "12"
+      ],
+      "file": "AEA4O.json",
+      "strands": 3,
+      "overall_expectations": 11,
+      "specific_expectations": 31
+    },
+    {
+      "code": "ALC1O",
+      "name": "Integrated Arts",
+      "grades": [
+        "9"
+      ],
+      "file": "ALC1O.json",
+      "strands": 3,
+      "overall_expectations": 11,
+      "specific_expectations": 29
+    },
+    {
+      "code": "ALC2O",
+      "name": "Integrated Arts",
+      "grades": [
+        "10"
+      ],
+      "file": "ALC2O.json",
+      "strands": 3,
+      "overall_expectations": 11,
+      "specific_expectations": 29
+    },
+    {
+      "code": "AMU1O",
+      "name": "Music",
+      "grades": [
+        "9"
+      ],
+      "file": "AMU1O.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 29
+    },
+    {
+      "code": "AMU2O",
+      "name": "Music",
+      "grades": [
+        "10"
+      ],
+      "file": "AMU2O.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 29
+    },
+    {
+      "code": "AMU3M",
+      "name": "Music",
+      "grades": [
+        "11"
+      ],
+      "file": "AMU3M.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 29
+    },
+    {
+      "code": "AMU3O",
+      "name": "Music",
+      "grades": [
+        "11"
+      ],
+      "file": "AMU3O.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 27
+    },
+    {
+      "code": "AMU4E",
+      "name": "Music",
+      "grades": [
+        "12"
+      ],
+      "file": "AMU4E.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 25
+    },
+    {
+      "code": "AMU4M",
+      "name": "Music",
+      "grades": [
+        "12"
+      ],
+      "file": "AMU4M.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 29
+    },
+    {
+      "code": "ASM2O",
+      "name": "Media Arts",
+      "grades": [
+        "10"
+      ],
+      "file": "ASM2O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 33
+    },
+    {
+      "code": "ASM3M",
+      "name": "Media Arts",
+      "grades": [
+        "11"
+      ],
+      "file": "ASM3M.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 35
+    },
+    {
+      "code": "ASM3O",
+      "name": "Media Arts",
+      "grades": [
+        "11"
+      ],
+      "file": "ASM3O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 33
+    },
+    {
+      "code": "ASM4E",
+      "name": "Media Arts",
+      "grades": [
+        "12"
+      ],
+      "file": "ASM4E.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 32
+    },
+    {
+      "code": "ASM4M",
+      "name": "Media Arts",
+      "grades": [
+        "12"
+      ],
+      "file": "ASM4M.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 35
+    },
+    {
+      "code": "ATC1O",
+      "name": "Dance",
+      "grades": [
+        "9"
+      ],
+      "file": "ATC1O.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 31
+    },
+    {
+      "code": "ATC2O",
+      "name": "Dance",
+      "grades": [
+        "10"
+      ],
+      "file": "ATC2O.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 31
+    },
+    {
+      "code": "ATC3M",
+      "name": "Dance",
+      "grades": [
+        "11"
+      ],
+      "file": "ATC3M.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 30
+    },
+    {
+      "code": "ATC3O",
+      "name": "Dance",
+      "grades": [
+        "11"
+      ],
+      "file": "ATC3O.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 30
+    },
+    {
+      "code": "ATC4E",
+      "name": "Dance",
+      "grades": [
+        "12"
+      ],
+      "file": "ATC4E.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 27
+    },
+    {
+      "code": "ATC4M",
+      "name": "Dance",
+      "grades": [
+        "12"
+      ],
+      "file": "ATC4M.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 30
+    },
+    {
+      "code": "AVI1O",
+      "name": "Visual Arts",
+      "grades": [
+        "9"
+      ],
+      "file": "AVI1O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "AVI2O",
+      "name": "Visual Arts",
+      "grades": [
+        "10"
+      ],
+      "file": "AVI2O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "AVI3M",
+      "name": "Visual Arts",
+      "grades": [
+        "11"
+      ],
+      "file": "AVI3M.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 27
+    },
+    {
+      "code": "AVI3O",
+      "name": "Visual Arts",
+      "grades": [
+        "11"
+      ],
+      "file": "AVI3O.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 26
+    },
+    {
+      "code": "AVI4E",
+      "name": "Visual Arts",
+      "grades": [
+        "12"
+      ],
+      "file": "AVI4E.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 22
+    },
+    {
+      "code": "AVI4M",
+      "name": "Visual Arts",
+      "grades": [
+        "12"
+      ],
+      "file": "AVI4M.json",
+      "strands": 3,
+      "overall_expectations": 9,
+      "specific_expectations": 27
+    },
+    {
+      "code": "BEM1O",
+      "name": "Building the Entrepreneurial Mindset",
+      "grades": [
+        "9"
+      ],
+      "file": "BEM1O.json",
+      "strands": 3,
+      "overall_expectations": 11,
+      "specific_expectations": 34
+    },
+    {
+      "code": "BEP2O",
+      "name": "Launching and Leading a Business",
+      "grades": [
+        "10"
+      ],
+      "file": "BEP2O.json",
+      "strands": 4,
+      "overall_expectations": 14,
+      "specific_expectations": 46
+    },
+    {
+      "code": "CGC1W",
+      "name": "Exploring Canadian Geography",
+      "grades": [
+        "9"
+      ],
+      "file": "CGC1W.json",
+      "strands": 5,
+      "overall_expectations": 10,
+      "specific_expectations": 51
+    },
+    {
+      "code": "CHC2D",
+      "name": "Canadian History since World War I (effective beginning in the 2026–27 school year)",
+      "grades": [
+        "10"
+      ],
+      "file": "CHC2D.json",
+      "strands": 5,
+      "overall_expectations": 14,
+      "specific_expectations": 75
+    },
+    {
+      "code": "CHC2P",
+      "name": "Canadian History since World War I (effective beginning in the 2026–27 school year)",
+      "grades": [
+        "10"
+      ],
+      "file": "CHC2P.json",
+      "strands": 5,
+      "overall_expectations": 14,
+      "specific_expectations": 67
+    },
+    {
+      "code": "CHV2O",
+      "name": "Civics and Citizenship",
+      "grades": [
+        "10"
+      ],
+      "file": "CHV2O.json",
+      "strands": 3,
+      "overall_expectations": 7,
+      "specific_expectations": 36
+    },
+    {
+      "code": "DCO3O",
+      "name": "Creating Opportunities through Co-op",
+      "grades": [
+        "11"
+      ],
+      "file": "DCO3O.json",
+      "strands": 4,
+      "overall_expectations": 8,
+      "specific_expectations": 24
+    },
+    {
+      "code": "ELDAO",
+      "name": "English Literacy Development ELD Level 1",
+      "grades": [],
+      "file": "ELDAO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ELDBO",
+      "name": "English Literacy Development ELD Level 2",
+      "grades": [],
+      "file": "ELDBO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ELDCO",
+      "name": "English Literacy Development ELD Level 3",
+      "grades": [],
+      "file": "ELDCO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ELDDO",
+      "name": "English Literacy Development ELD Level 4",
+      "grades": [],
+      "file": "ELDDO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ELDEO",
+      "name": "English Literacy Development ELD Level 5",
+      "grades": [],
+      "file": "ELDEO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ENL1W",
+      "name": "English",
+      "grades": [
+        "9"
+      ],
+      "file": "ENL1W.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 59
+    },
+    {
+      "code": "ESLAO",
+      "name": "English as a Second Language ESL Level 1",
+      "grades": [],
+      "file": "ESLAO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ESLBO",
+      "name": "English as a Second Language ESL Level 2",
+      "grades": [],
+      "file": "ESLBO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ESLCO",
+      "name": "English as a Second Language ESL Level 3",
+      "grades": [],
+      "file": "ESLCO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ESLDO",
+      "name": "English as a Second Language ESL Level 4",
+      "grades": [],
+      "file": "ESLDO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "ESLEO",
+      "name": "English as a Second Language ESL Level 5",
+      "grades": [],
+      "file": "ESLEO.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 47
+    },
+    {
+      "code": "FEF1D",
+      "name": "Extended French",
+      "grades": [
+        "9"
+      ],
+      "file": "FEF1D.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FEF2D",
+      "name": "Extended French",
+      "grades": [
+        "10"
+      ],
+      "file": "FEF2D.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FEF3U",
+      "name": "Extended French",
+      "grades": [
+        "11"
+      ],
+      "file": "FEF3U.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FEF4U",
+      "name": "Extended French",
+      "grades": [
+        "12"
+      ],
+      "file": "FEF4U.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FIF1D",
+      "name": "French Immersion",
+      "grades": [
+        "9"
+      ],
+      "file": "FIF1D.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FIF2D",
+      "name": "French Immersion",
+      "grades": [
+        "10"
+      ],
+      "file": "FIF2D.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FIF2P",
+      "name": "French Immersion",
+      "grades": [
+        "10"
+      ],
+      "file": "FIF2P.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FIF3O",
+      "name": "French Immersion",
+      "grades": [
+        "11"
+      ],
+      "file": "FIF3O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FIF3U",
+      "name": "French Immersion",
+      "grades": [
+        "11"
+      ],
+      "file": "FIF3U.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FIF4O",
+      "name": "French Immersion",
+      "grades": [
+        "12"
+      ],
+      "file": "FIF4O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FIF4U",
+      "name": "French Immersion",
+      "grades": [
+        "12"
+      ],
+      "file": "FIF4U.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "FSF1D",
+      "name": "Core French",
+      "grades": [
+        "9"
+      ],
+      "file": "FSF1D.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "FSF1O",
+      "name": "Core French",
+      "grades": [
+        "9"
+      ],
+      "file": "FSF1O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "FSF2D",
+      "name": "Core French",
+      "grades": [
+        "10"
+      ],
+      "file": "FSF2D.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "FSF2O",
+      "name": "Core French",
+      "grades": [
+        "10"
+      ],
+      "file": "FSF2O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "FSF2P",
+      "name": "Core French",
+      "grades": [
+        "10"
+      ],
+      "file": "FSF2P.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "FSF3O",
+      "name": "Core French",
+      "grades": [
+        "11"
+      ],
+      "file": "FSF3O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "FSF3U",
+      "name": "Core French",
+      "grades": [
+        "11"
+      ],
+      "file": "FSF3U.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "FSF4O",
+      "name": "Core French",
+      "grades": [
+        "12"
+      ],
+      "file": "FSF4O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 33
+    },
+    {
+      "code": "FSF4U",
+      "name": "Core French",
+      "grades": [
+        "12"
+      ],
+      "file": "FSF4U.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 33
+    },
+    {
+      "code": "GLC2O",
+      "name": "Career Studies",
+      "grades": [
+        "10"
+      ],
+      "file": "GLC2O.json",
+      "strands": 3,
+      "overall_expectations": 7,
+      "specific_expectations": 20
+    },
+    {
+      "code": "GLD2O",
+      "name": "Discovering the Workplace",
+      "grades": [
+        "10"
+      ],
+      "file": "GLD2O.json",
+      "strands": 4,
+      "overall_expectations": 15,
+      "specific_expectations": 57
+    },
+    {
+      "code": "GLE1O",
+      "name": "Learning Strategies 1: Skills for Success in Secondary School",
+      "grades": [
+        "9"
+      ],
+      "file": "GLE1O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 45
+    },
+    {
+      "code": "GLE2O",
+      "name": "Learning Strategies 1: Skills for Success in Secondary School",
+      "grades": [
+        "10"
+      ],
+      "file": "GLE2O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 45
+    },
+    {
+      "code": "GLE3O",
+      "name": "Advanced Learning Strategies: Skills for Success After Secondary School",
+      "grades": [
+        "11"
+      ],
+      "file": "GLE3O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 50
+    },
+    {
+      "code": "GLE4O",
+      "name": "Advanced Learning Strategies: Skills for Success After Secondary School",
+      "grades": [
+        "12"
+      ],
+      "file": "GLE4O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 50
+    },
+    {
+      "code": "GLN4O",
+      "name": "Navigating the Workplace",
+      "grades": [
+        "12"
+      ],
+      "file": "GLN4O.json",
+      "strands": 4,
+      "overall_expectations": 14,
+      "specific_expectations": 56
+    },
+    {
+      "code": "GLS1O",
+      "name": "Learning Strategies 1: Skills for Success in Secondary School",
+      "grades": [
+        "9"
+      ],
+      "file": "GLS1O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 45
+    },
+    {
+      "code": "GLS4O",
+      "name": "Advanced Learning Strategies: Skills for Success After Secondary School",
+      "grades": [
+        "12"
+      ],
+      "file": "GLS4O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 50
+    },
+    {
+      "code": "GPP3O",
+      "name": "Leadership and Peer Support",
+      "grades": [
+        "11"
+      ],
+      "file": "GPP3O.json",
+      "strands": 3,
+      "overall_expectations": 11,
+      "specific_expectations": 41
+    },
+    {
+      "code": "GWL3O",
+      "name": "Designing Your Future",
+      "grades": [
+        "11"
+      ],
+      "file": "GWL3O.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 57
+    },
+    {
+      "code": "HFA4C",
+      "name": "Nutrition and Health",
+      "grades": [
+        "12"
+      ],
+      "file": "HFA4C.json",
+      "strands": 5,
+      "overall_expectations": 17,
+      "specific_expectations": 75
+    },
+    {
+      "code": "HFA4U",
+      "name": "Nutrition and Health",
+      "grades": [
+        "12"
+      ],
+      "file": "HFA4U.json",
+      "strands": 5,
+      "overall_expectations": 17,
+      "specific_expectations": 75
+    },
+    {
+      "code": "HFC3E",
+      "name": "Food and Culture",
+      "grades": [
+        "11"
+      ],
+      "file": "HFC3E.json",
+      "strands": 4,
+      "overall_expectations": 14,
+      "specific_expectations": 60
+    },
+    {
+      "code": "HFC3M",
+      "name": "Food and Culture",
+      "grades": [
+        "11"
+      ],
+      "file": "HFC3M.json",
+      "strands": 4,
+      "overall_expectations": 14,
+      "specific_expectations": 60
+    },
+    {
+      "code": "HFL4E",
+      "name": "Food and Healthy Living",
+      "grades": [
+        "12"
+      ],
+      "file": "HFL4E.json",
+      "strands": 5,
+      "overall_expectations": 17,
+      "specific_expectations": 74
+    },
+    {
+      "code": "HFN1O",
+      "name": "Food and Nutrition",
+      "grades": [
+        "9"
+      ],
+      "file": "HFN1O.json",
+      "strands": 5,
+      "overall_expectations": 17,
+      "specific_expectations": 72
+    },
+    {
+      "code": "HFN2O",
+      "name": "Food and Nutrition",
+      "grades": [
+        "10"
+      ],
+      "file": "HFN2O.json",
+      "strands": 5,
+      "overall_expectations": 17,
+      "specific_expectations": 72
+    },
+    {
+      "code": "HHD3O",
+      "name": "Dynamics of Human Relationships",
+      "grades": [
+        "11"
+      ],
+      "file": "HHD3O.json",
+      "strands": 5,
+      "overall_expectations": 17,
+      "specific_expectations": 75
+    },
+    {
+      "code": "HHG4M",
+      "name": "Human Development throughout the Lifespan",
+      "grades": [
+        "12"
+      ],
+      "file": "HHG4M.json",
+      "strands": 5,
+      "overall_expectations": 16,
+      "specific_expectations": 53
+    },
+    {
+      "code": "HHS4C",
+      "name": "Families in Canada",
+      "grades": [
+        "12"
+      ],
+      "file": "HHS4C.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 47
+    },
+    {
+      "code": "HHS4U",
+      "name": "Families in Canada",
+      "grades": [
+        "12"
+      ],
+      "file": "HHS4U.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 47
+    },
+    {
+      "code": "HIF1O",
+      "name": "Exploring Family Studies",
+      "grades": [
+        "9"
+      ],
+      "file": "HIF1O.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 45
+    },
+    {
+      "code": "HIF2O",
+      "name": "Exploring Family Studies",
+      "grades": [
+        "10"
+      ],
+      "file": "HIF2O.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 45
+    },
+    {
+      "code": "HIP4O",
+      "name": "Personal Life Management",
+      "grades": [
+        "12"
+      ],
+      "file": "HIP4O.json",
+      "strands": 5,
+      "overall_expectations": 16,
+      "specific_expectations": 70
+    },
+    {
+      "code": "HLS3O",
+      "name": "Housing and Home Design",
+      "grades": [
+        "11"
+      ],
+      "file": "HLS3O.json",
+      "strands": 4,
+      "overall_expectations": 14,
+      "specific_expectations": 52
+    },
+    {
+      "code": "HNB4M",
+      "name": "The World of Fashion",
+      "grades": [
+        "12"
+      ],
+      "file": "HNB4M.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 44
+    },
+    {
+      "code": "HNC3C",
+      "name": "Understanding Fashion",
+      "grades": [
+        "11"
+      ],
+      "file": "HNC3C.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 43
+    },
+    {
+      "code": "HNL2O",
+      "name": "Clothing",
+      "grades": [
+        "10"
+      ],
+      "file": "HNL2O.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "HPC3O",
+      "name": "Raising Healthy Children",
+      "grades": [
+        "11"
+      ],
+      "file": "HPC3O.json",
+      "strands": 5,
+      "overall_expectations": 16,
+      "specific_expectations": 73
+    },
+    {
+      "code": "HPD4C",
+      "name": "Working with School-Age Children and Adolescents",
+      "grades": [
+        "12"
+      ],
+      "file": "HPD4C.json",
+      "strands": 5,
+      "overall_expectations": 16,
+      "specific_expectations": 63
+    },
+    {
+      "code": "HPW3C",
+      "name": "Working with Infants and Young Children",
+      "grades": [
+        "11"
+      ],
+      "file": "HPW3C.json",
+      "strands": 5,
+      "overall_expectations": 16,
+      "specific_expectations": 67
+    },
+    {
+      "code": "HRF3O",
+      "name": "World Religions and Belief Traditions in Daily Life",
+      "grades": [
+        "11"
+      ],
+      "file": "HRF3O.json",
+      "strands": 6,
+      "overall_expectations": 17,
+      "specific_expectations": 62
+    },
+    {
+      "code": "HRT3M",
+      "name": "World Religions and Belief Traditions: Perspectives, Issues, and Challenges",
+      "grades": [
+        "11"
+      ],
+      "file": "HRT3M.json",
+      "strands": 6,
+      "overall_expectations": 18,
+      "specific_expectations": 71
+    },
+    {
+      "code": "HSB4U",
+      "name": "Challenge and Change in Society",
+      "grades": [
+        "12"
+      ],
+      "file": "HSB4U.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 49
+    },
+    {
+      "code": "HSC4M",
+      "name": "World Cultures",
+      "grades": [
+        "12"
+      ],
+      "file": "HSC4M.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 53
+    },
+    {
+      "code": "HSE3E",
+      "name": "Equity, Diversity, and Social Justice",
+      "grades": [
+        "11"
+      ],
+      "file": "HSE3E.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 49
+    },
+    {
+      "code": "HSE4M",
+      "name": "Equity and Social Justice: From Theory to Practice",
+      "grades": [
+        "12"
+      ],
+      "file": "HSE4M.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 50
+    },
+    {
+      "code": "HSG3M",
+      "name": "Gender Studies",
+      "grades": [
+        "11"
+      ],
+      "file": "HSG3M.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 50
+    },
+    {
+      "code": "HSP3C",
+      "name": "Introduction to Anthropology, Psychology, and Sociology",
+      "grades": [
+        "11"
+      ],
+      "file": "HSP3C.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 43
+    },
+    {
+      "code": "HSP3U",
+      "name": "Introduction to Anthropology, Psychology, and Sociology",
+      "grades": [
+        "11"
+      ],
+      "file": "HSP3U.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 43
+    },
+    {
+      "code": "HZB3M",
+      "name": "Philosophy: The Big Questions",
+      "grades": [
+        "11"
+      ],
+      "file": "HZB3M.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 36
+    },
+    {
+      "code": "HZT4U",
+      "name": "Philosophy: Questions and Theories",
+      "grades": [
+        "12"
+      ],
+      "file": "HZT4U.json",
+      "strands": 8,
+      "overall_expectations": 30,
+      "specific_expectations": 95
+    },
+    {
+      "code": "ICD2O",
+      "name": "Digital Technology and Innovations in the Changing World",
+      "grades": [
+        "10"
+      ],
+      "file": "ICD2O.json",
+      "strands": 3,
+      "overall_expectations": 10,
+      "specific_expectations": 39
+    },
+    {
+      "code": "IDC3O/IDP3O",
+      "name": "Interdisciplinary Studies",
+      "grades": [
+        "11"
+      ],
+      "file": "IDC3O-IDP3O.json",
+      "strands": 3,
+      "overall_expectations": 12,
+      "specific_expectations": 49
+    },
+    {
+      "code": "IDC4O/IDP4O",
+      "name": "Interdisciplinary Studies",
+      "grades": [
+        "12"
+      ],
+      "file": "IDC4O-IDP4O.json",
+      "strands": 3,
+      "overall_expectations": 12,
+      "specific_expectations": 50
+    },
+    {
+      "code": "IDC4U/IDP4U",
+      "name": "Interdisciplinary Studies",
+      "grades": [
+        "12"
+      ],
+      "file": "IDC4U-IDP4U.json",
+      "strands": 3,
+      "overall_expectations": 12,
+      "specific_expectations": 50
+    },
+    {
+      "code": "LASBO",
+      "name": "American Sign Language as a Second Language",
+      "grades": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ],
+      "file": "LASBO.json",
+      "strands": 4,
+      "overall_expectations": 11,
+      "specific_expectations": 34
+    },
+    {
+      "code": "LBABD – LDYBD",
+      "name": "International Languages",
+      "grades": [],
+      "file": "LBABD-LDYBD.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "LBABO – LDYBO",
+      "name": "International Languages",
+      "grades": [],
+      "file": "LBABO-LDYBO.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "LBACO – LDYCO",
+      "name": "International Languages",
+      "grades": [],
+      "file": "LBACO-LDYCO.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "LBACU – LDYCU",
+      "name": "International Languages",
+      "grades": [],
+      "file": "LBACU-LDYCU.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "LBADO – LDYDO",
+      "name": "International Languages",
+      "grades": [],
+      "file": "LBADO-LDYDO.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "LBADU – LDYDU",
+      "name": "International Languages",
+      "grades": [],
+      "file": "LBADU-LDYDU.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 34
+    },
+    {
+      "code": "LNAAO – LNOAO",
+      "name": "Native Languages (NL1)",
+      "grades": [],
+      "file": "LNAAO-LNOAO.json",
+      "strands": 3,
+      "overall_expectations": 3,
+      "specific_expectations": 43
+    },
+    {
+      "code": "LNABO – LNOBO",
+      "name": "Native Languages (NL2)",
+      "grades": [],
+      "file": "LNABO-LNOBO.json",
+      "strands": 3,
+      "overall_expectations": 3,
+      "specific_expectations": 44
+    },
+    {
+      "code": "LNACO – LNOCO",
+      "name": "Native Languages (NL3)",
+      "grades": [],
+      "file": "LNACO-LNOCO.json",
+      "strands": 3,
+      "overall_expectations": 3,
+      "specific_expectations": 51
+    },
+    {
+      "code": "LNADO – LNODO",
+      "name": "Native Languages (NL4)",
+      "grades": [],
+      "file": "LNADO-LNODO.json",
+      "strands": 3,
+      "overall_expectations": 3,
+      "specific_expectations": 30
+    },
+    {
+      "code": "LNAEO – LNOEO",
+      "name": "Native Languages (NL5)",
+      "grades": [],
+      "file": "LNAEO-LNOEO.json",
+      "strands": 3,
+      "overall_expectations": 3,
+      "specific_expectations": 30
+    },
+    {
+      "code": "LVGBD/LVLBD",
+      "name": "Classical Languages (Ancient Greek/Latin)",
+      "grades": [],
+      "file": "LVGBD-LVLBD.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 29
+    },
+    {
+      "code": "LVGCU/LVLCU",
+      "name": "Classical Languages (Ancient Greek/Latin)",
+      "grades": [],
+      "file": "LVGCU-LVLCU.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 29
+    },
+    {
+      "code": "LVGDU/LVLDU",
+      "name": "Classical Languages (Ancient Greek/Latin)",
+      "grades": [],
+      "file": "LVGDU-LVLDU.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 29
+    },
+    {
+      "code": "LVV4U",
+      "name": "Classical Civilization",
+      "grades": [
+        "12"
+      ],
+      "file": "LVV4U.json",
+      "strands": 5,
+      "overall_expectations": 20,
+      "specific_expectations": 46
+    },
+    {
+      "code": "MTH1W",
+      "name": "Mathematics",
+      "grades": [
+        "9"
+      ],
+      "file": "MTH1W.json",
+      "strands": 7,
+      "overall_expectations": 14,
+      "specific_expectations": 43
+    },
+    {
+      "code": "NAC1O",
+      "name": "Expressions of First Nations, Métis, and Inuit Cultures",
+      "grades": [
+        "9"
+      ],
+      "file": "NAC1O.json",
+      "strands": 4,
+      "overall_expectations": 14,
+      "specific_expectations": 49
+    },
+    {
+      "code": "NAC2O",
+      "name": "First Nations, Métis, and Inuit in Canada",
+      "grades": [
+        "10"
+      ],
+      "file": "NAC2O.json",
+      "strands": 6,
+      "overall_expectations": 17,
+      "specific_expectations": 72
+    },
+    {
+      "code": "NBE3C",
+      "name": "English: Understanding Contemporary First Nations, Métis, and Inuit Voices",
+      "grades": [
+        "11"
+      ],
+      "file": "NBE3C.json",
+      "strands": 5,
+      "overall_expectations": 21,
+      "specific_expectations": 96
+    },
+    {
+      "code": "NBE3E",
+      "name": "English: Understanding Contemporary First Nations, Métis, and Inuit Voices",
+      "grades": [
+        "11"
+      ],
+      "file": "NBE3E.json",
+      "strands": 5,
+      "overall_expectations": 21,
+      "specific_expectations": 96
+    },
+    {
+      "code": "NBE3U",
+      "name": "English: Understanding Contemporary First Nations, Métis, and Inuit  Voices",
+      "grades": [
+        "11"
+      ],
+      "file": "NBE3U.json",
+      "strands": 5,
+      "overall_expectations": 21,
+      "specific_expectations": 96
+    },
+    {
+      "code": "NBV3C",
+      "name": "World Views and Aspirations of First Nations, Métis, and Inuit Communities in Canada",
+      "grades": [
+        "11"
+      ],
+      "file": "NBV3C.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 44
+    },
+    {
+      "code": "NBV3E",
+      "name": "World Views and Aspirations of First Nations, Métis, and Inuit Communities in Canada",
+      "grades": [
+        "11"
+      ],
+      "file": "NBV3E.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 44
+    },
+    {
+      "code": "NDA3M",
+      "name": "Contemporary First Nations, Métis, and Inuit Issues and Perspectives",
+      "grades": [
+        "11"
+      ],
+      "file": "NDA3M.json",
+      "strands": 5,
+      "overall_expectations": 12,
+      "specific_expectations": 54
+    },
+    {
+      "code": "NDG4M",
+      "name": "First Nations, Métis, and Inuit Governance in Canada",
+      "grades": [
+        "12"
+      ],
+      "file": "NDG4M.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 55
+    },
+    {
+      "code": "NDW4M",
+      "name": "Contemporary Indigenous Issues and Perspectives in a Global Context",
+      "grades": [
+        "12"
+      ],
+      "file": "NDW4M.json",
+      "strands": 4,
+      "overall_expectations": 13,
+      "specific_expectations": 44
+    },
+    {
+      "code": "PLF4M",
+      "name": "Recreation and Healthy Active Living Leadership",
+      "grades": [
+        "12"
+      ],
+      "file": "PLF4M.json",
+      "strands": 3,
+      "overall_expectations": 8,
+      "specific_expectations": 32
+    },
+    {
+      "code": "PPL1O",
+      "name": "Healthy Active Living Education",
+      "grades": [
+        "9"
+      ],
+      "file": "PPL1O.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 34
+    },
+    {
+      "code": "PPL2O",
+      "name": "Healthy Active Living Education",
+      "grades": [
+        "10"
+      ],
+      "file": "PPL2O.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 33
+    },
+    {
+      "code": "PPL3O",
+      "name": "Healthy Active Living Education",
+      "grades": [
+        "11"
+      ],
+      "file": "PPL3O.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 33
+    },
+    {
+      "code": "PPL4O",
+      "name": "Healthy Active Living Education",
+      "grades": [
+        "12"
+      ],
+      "file": "PPL4O.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 33
+    },
+    {
+      "code": "PPZ3C",
+      "name": "Health for Life",
+      "grades": [
+        "11"
+      ],
+      "file": "PPZ3C.json",
+      "strands": 3,
+      "overall_expectations": 8,
+      "specific_expectations": 28
+    },
+    {
+      "code": "PSK4U",
+      "name": "Introductory Kinesiology",
+      "grades": [
+        "12"
+      ],
+      "file": "PSK4U.json",
+      "strands": 3,
+      "overall_expectations": 6,
+      "specific_expectations": 25
+    },
+    {
+      "code": "SNC1W",
+      "name": "Science",
+      "grades": [
+        "9"
+      ],
+      "file": "SNC1W.json",
+      "strands": 5,
+      "overall_expectations": 10,
+      "specific_expectations": 50
+    },
+    {
+      "code": "TAS1O",
+      "name": "Technology and the Skilled Trades",
+      "grades": [
+        "9"
+      ],
+      "file": "TAS1O.json",
+      "strands": 2,
+      "overall_expectations": 7,
+      "specific_expectations": 35
+    },
+    {
+      "code": "TAS2O",
+      "name": "Technology and the Skilled Trades",
+      "grades": [
+        "10"
+      ],
+      "file": "TAS2O.json",
+      "strands": 2,
+      "overall_expectations": 7,
+      "specific_expectations": 36
+    },
+    {
+      "code": "",
+      "name": "Cooperative Education Linked to a Related Course (or Courses)",
+      "grades": [
+        "Secondary"
+      ],
+      "file": "Cooperative-Education-Linked-to-a-Related-Course-or-Courses-grade-Secondary.json",
+      "strands": 2,
+      "overall_expectations": 4,
+      "specific_expectations": 12
+    },
+    {
+      "code": "",
+      "name": "Core French Program",
+      "grades": [
+        "4"
+      ],
+      "file": "Core-French-Program-grade-4.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 32
+    },
+    {
+      "code": "",
+      "name": "Core French Program",
+      "grades": [
+        "5"
+      ],
+      "file": "Core-French-Program-grade-5.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 32
+    },
+    {
+      "code": "",
+      "name": "Core French Program",
+      "grades": [
+        "6"
+      ],
+      "file": "Core-French-Program-grade-6.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 32
+    },
+    {
+      "code": "",
+      "name": "Core French Program",
+      "grades": [
+        "7"
+      ],
+      "file": "Core-French-Program-grade-7.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 33
+    },
+    {
+      "code": "",
+      "name": "Core French Program",
+      "grades": [
+        "8"
+      ],
+      "file": "Core-French-Program-grade-8.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 33
+    },
+    {
+      "code": "",
+      "name": "Extended French",
+      "grades": [
+        "4"
+      ],
+      "file": "Extended-French-grade-4.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 39
+    },
+    {
+      "code": "",
+      "name": "Extended French",
+      "grades": [
+        "5"
+      ],
+      "file": "Extended-French-grade-5.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 39
+    },
+    {
+      "code": "",
+      "name": "Extended French",
+      "grades": [
+        "6"
+      ],
+      "file": "Extended-French-grade-6.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 39
+    },
+    {
+      "code": "",
+      "name": "Extended French",
+      "grades": [
+        "7"
+      ],
+      "file": "Extended-French-grade-7.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "Extended French",
+      "grades": [
+        "8"
+      ],
+      "file": "Extended-French-grade-8.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "1"
+      ],
+      "file": "French-Immersion-Program-grade-1.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 39
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "2"
+      ],
+      "file": "French-Immersion-Program-grade-2.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 39
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "3"
+      ],
+      "file": "French-Immersion-Program-grade-3.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 39
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "4"
+      ],
+      "file": "French-Immersion-Program-grade-4.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "5"
+      ],
+      "file": "French-Immersion-Program-grade-5.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "6"
+      ],
+      "file": "French-Immersion-Program-grade-6.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "7"
+      ],
+      "file": "French-Immersion-Program-grade-7.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "French Immersion Program",
+      "grades": [
+        "8"
+      ],
+      "file": "French-Immersion-Program-grade-8.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "Geography",
+      "grades": [
+        "7"
+      ],
+      "file": "Geography-grade-7.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 37
+    },
+    {
+      "code": "",
+      "name": "Geography",
+      "grades": [
+        "8"
+      ],
+      "file": "Geography-grade-8.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 35
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "1"
+      ],
+      "file": "Health-and-Physical-Education-grade-1.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 34
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "2"
+      ],
+      "file": "Health-and-Physical-Education-grade-2.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 35
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "3"
+      ],
+      "file": "Health-and-Physical-Education-grade-3.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 35
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "4"
+      ],
+      "file": "Health-and-Physical-Education-grade-4.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 36
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "5"
+      ],
+      "file": "Health-and-Physical-Education-grade-5.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 37
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "6"
+      ],
+      "file": "Health-and-Physical-Education-grade-6.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 36
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "7"
+      ],
+      "file": "Health-and-Physical-Education-grade-7.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 35
+    },
+    {
+      "code": "",
+      "name": "Health and Physical Education",
+      "grades": [
+        "8"
+      ],
+      "file": "Health-and-Physical-Education-grade-8.json",
+      "strands": 4,
+      "overall_expectations": 9,
+      "specific_expectations": 35
+    },
+    {
+      "code": "",
+      "name": "History (effective beginning in the 2026–27 school year)",
+      "grades": [
+        "7"
+      ],
+      "file": "History-effective-beginning-in-the-2026-27-school-year-grade-7.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 36
+    },
+    {
+      "code": "",
+      "name": "History (effective beginning in the 2026–27 school year)",
+      "grades": [
+        "8"
+      ],
+      "file": "History-effective-beginning-in-the-2026-27-school-year-grade-8.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 37
+    },
+    {
+      "code": "",
+      "name": "History (effective until the end of the 2025–26 school year)",
+      "grades": [
+        "7"
+      ],
+      "file": "History-effective-until-the-end-of-the-2025-26-school-year-grade-7.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 34
+    },
+    {
+      "code": "",
+      "name": "History (effective until the end of the 2025–26 school year)",
+      "grades": [
+        "8"
+      ],
+      "file": "History-effective-until-the-end-of-the-2025-26-school-year-grade-8.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 35
+    },
+    {
+      "code": "",
+      "name": "Kindergarten Curriculum (2026)",
+      "grades": [
+        "Kindergarten"
+      ],
+      "file": "Kindergarten-Curriculum-2026-grade-Kindergarten.json",
+      "strands": 4,
+      "overall_expectations": 25,
+      "specific_expectations": 102
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "1"
+      ],
+      "file": "Language-grade-1.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 63
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "2"
+      ],
+      "file": "Language-grade-2.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 61
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "3"
+      ],
+      "file": "Language-grade-3.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 61
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "4"
+      ],
+      "file": "Language-grade-4.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 59
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "5"
+      ],
+      "file": "Language-grade-5.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 59
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "6"
+      ],
+      "file": "Language-grade-6.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 59
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "7"
+      ],
+      "file": "Language-grade-7.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 59
+    },
+    {
+      "code": "",
+      "name": "Language",
+      "grades": [
+        "8"
+      ],
+      "file": "Language-grade-8.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 59
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "1"
+      ],
+      "file": "Mathematics-grade-1.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "2"
+      ],
+      "file": "Mathematics-grade-2.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 39
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "3"
+      ],
+      "file": "Mathematics-grade-3.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 46
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "4"
+      ],
+      "file": "Mathematics-grade-4.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 48
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "5"
+      ],
+      "file": "Mathematics-grade-5.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 51
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "6"
+      ],
+      "file": "Mathematics-grade-6.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 51
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "7"
+      ],
+      "file": "Mathematics-grade-7.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 52
+    },
+    {
+      "code": "",
+      "name": "Mathematics",
+      "grades": [
+        "8"
+      ],
+      "file": "Mathematics-grade-8.json",
+      "strands": 6,
+      "overall_expectations": 12,
+      "specific_expectations": 44
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "1"
+      ],
+      "file": "Science-and-Technology-grade-1.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 44
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "2"
+      ],
+      "file": "Science-and-Technology-grade-2.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 41
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "3"
+      ],
+      "file": "Science-and-Technology-grade-3.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 44
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "4"
+      ],
+      "file": "Science-and-Technology-grade-4.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 44
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "5"
+      ],
+      "file": "Science-and-Technology-grade-5.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 42
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "6"
+      ],
+      "file": "Science-and-Technology-grade-6.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 44
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "7"
+      ],
+      "file": "Science-and-Technology-grade-7.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 50
+    },
+    {
+      "code": "",
+      "name": "Science and Technology",
+      "grades": [
+        "8"
+      ],
+      "file": "Science-and-Technology-grade-8.json",
+      "strands": 5,
+      "overall_expectations": 11,
+      "specific_expectations": 52
+    },
+    {
+      "code": "",
+      "name": "Social Studies",
+      "grades": [
+        "1"
+      ],
+      "file": "Social-Studies-grade-1.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 33
+    },
+    {
+      "code": "",
+      "name": "Social Studies",
+      "grades": [
+        "2"
+      ],
+      "file": "Social-Studies-grade-2.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 34
+    },
+    {
+      "code": "",
+      "name": "Social Studies",
+      "grades": [
+        "3"
+      ],
+      "file": "Social-Studies-grade-3.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 34
+    },
+    {
+      "code": "",
+      "name": "Social Studies",
+      "grades": [
+        "4"
+      ],
+      "file": "Social-Studies-grade-4.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 36
+    },
+    {
+      "code": "",
+      "name": "Social Studies",
+      "grades": [
+        "5"
+      ],
+      "file": "Social-Studies-grade-5.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 35
+    },
+    {
+      "code": "",
+      "name": "Social Studies",
+      "grades": [
+        "6"
+      ],
+      "file": "Social-Studies-grade-6.json",
+      "strands": 2,
+      "overall_expectations": 6,
+      "specific_expectations": 40
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "1"
+      ],
+      "file": "The-Arts-grade-1.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "2"
+      ],
+      "file": "The-Arts-grade-2.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "3"
+      ],
+      "file": "The-Arts-grade-3.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "4"
+      ],
+      "file": "The-Arts-grade-4.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "5"
+      ],
+      "file": "The-Arts-grade-5.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "6"
+      ],
+      "file": "The-Arts-grade-6.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "7"
+      ],
+      "file": "The-Arts-grade-7.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    },
+    {
+      "code": "",
+      "name": "The Arts",
+      "grades": [
+        "8"
+      ],
+      "file": "The-Arts-grade-8.json",
+      "strands": 4,
+      "overall_expectations": 12,
+      "specific_expectations": 38
+    }
+  ],
+  "skipped": [
+    {
+      "code": "BAF3M",
+      "name": "Financial Accounting Fundamentals",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BAI3E",
+      "name": "Accounting Essentials",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BAN4E",
+      "name": "Accounting for a Small Business",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BAT4M",
+      "name": "Financial Accounting Principles",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BBB4E",
+      "name": "International Business Essentials",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BBB4M",
+      "name": "International Business Fundamentals",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BDI3C",
+      "name": "Entrepreneurship: The Venture",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BDP3O",
+      "name": "Entrepreneurship: The Enterprising Person",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BDV4C",
+      "name": "Entrepreneurship: Venture Planning in an Electronic Age",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BMI3C",
+      "name": "Marketing: Goods, Services, Events",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BMX3E",
+      "name": "Marketing: Retail and Service",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BOG4E",
+      "name": "Business Leadership: Becoming a Manager",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BOH4M",
+      "name": "Business Leadership: Management Fundamentals",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BTA3O",
+      "name": "Information and Communication Technology: The Digital Environment",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BTX4C",
+      "name": "Information and Communication Technology: Multimedia Solutions",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "BTX4E",
+      "name": "Information and Communication Technology in the Workplace",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGD3M",
+      "name": "Regional Geography",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGF3M",
+      "name": "Forces of Nature: Physical Processes and Disasters",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGG3O",
+      "name": "Travel and Tourism: A Geographic Perspective",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGO4M",
+      "name": "Spatial Technologies in Action",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGR4E",
+      "name": "Living in a Sustainable World",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGR4M",
+      "name": "The Environment and Resource Management",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGT3O",
+      "name": "Introduction to Spatial Technologies",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGU4M",
+      "name": "World Geography: Urban Patterns and Population Issues",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGW4C",
+      "name": "World Issues: A Geographic Analysis",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CGW4U",
+      "name": "World Issues: A Geographic Analysis",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHA3U",
+      "name": "American History",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHE3O",
+      "name": "Origins and Citizenship: The History of a Canadian Ethnic Group",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHI4U",
+      "name": "Canada: History, Identity, and Culture",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHM4E",
+      "name": "Adventures in World History",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHT3O",
+      "name": "World History since 1900: Global and Regional Interactions",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHW3M",
+      "name": "World History to the End of the Fifteenth Century",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHY4C",
+      "name": "World History since the Fifteenth Century",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CHY4U",
+      "name": "World History since the Fifteenth Century",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CIA4U",
+      "name": "Analysing Current Economic Issues",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CIC4E",
+      "name": "Making Personal Economic Choices",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CIE3M",
+      "name": "The Individual and the Economy",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CLN4C",
+      "name": "Legal Studies",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CLN4U",
+      "name": "Canadian and International Law",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CLU3E",
+      "name": "Understanding Canadian Law in Everyday Life",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CLU3M",
+      "name": "Understanding Canadian Law",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CPC3O",
+      "name": "Politics in Action: Making Change",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "CPW4U",
+      "name": "Canadian and International Politics",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "EBT4O",
+      "name": "Business and Technological Communication",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ELS2O",
+      "name": "Literacy Skills: Reading and Writing",
+      "grades": [
+        "10"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "EMS3O",
+      "name": "Media Studies",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG2D",
+      "name": "English",
+      "grades": [
+        "10"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG2P",
+      "name": "English",
+      "grades": [
+        "10"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG3C",
+      "name": "English",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG3E",
+      "name": "English",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG3U",
+      "name": "English",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG4C",
+      "name": "English",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG4E",
+      "name": "English",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ENG4U",
+      "name": "English",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "EPS3O",
+      "name": "Presentation and Speaking Skills",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ETC3M",
+      "name": "Canadian Literature",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ETS4C",
+      "name": "Studies in Literature",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ETS4U",
+      "name": "Studies in Literature",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "EWC4C",
+      "name": "The Writer’s Craft",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "EWC4U",
+      "name": "The Writer’s Craft",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ICS3C",
+      "name": "Introduction to Computer Programming",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ICS3U",
+      "name": "Introduction to Computer Science",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ICS4C",
+      "name": "Computer Programming",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "ICS4U",
+      "name": "Computer Science",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MAP4C",
+      "name": "Foundations for College Mathematics",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MBF3C",
+      "name": "Foundations for College Mathematics",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MCF3M",
+      "name": "Functions and Applications",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MCR3U",
+      "name": "Functions",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MCT4C",
+      "name": "Mathematics for College Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MCV4U",
+      "name": "Calculus and Vectors",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MDM4U",
+      "name": "Mathematics of Data Management",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MEL3E",
+      "name": "Mathematics for Work and Everyday Life",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MEL4E",
+      "name": "Mathematics for Work and Everyday Life",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MFM2P",
+      "name": "Foundations of Mathematics",
+      "grades": [
+        "10"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MHF4U",
+      "name": "Advanced Functions",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "MPM2D",
+      "name": "Principles of Mathematics",
+      "grades": [
+        "10"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "OLC4O",
+      "name": "Ontario Secondary School Literacy Course",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SBI3C",
+      "name": "Biology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SBI3U",
+      "name": "Biology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SBI4U",
+      "name": "Biology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SCH3U",
+      "name": "Chemistry",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SCH4C",
+      "name": "Chemistry",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SCH4U",
+      "name": "Chemistry",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SES4U",
+      "name": "Earth and Space Science",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SNC2D",
+      "name": "Science",
+      "grades": [
+        "10"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SNC2P",
+      "name": "Science",
+      "grades": [
+        "10"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SNC4E",
+      "name": "Science",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SNC4M",
+      "name": "Science",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SPH3U",
+      "name": "Physics",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SPH4C",
+      "name": "Physics",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SPH4U",
+      "name": "Physics",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SVN3E",
+      "name": "Environmental Science",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "SVN3M",
+      "name": "Environmental Science",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TCJ3C",
+      "name": "Construction Engineering Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TCJ3E",
+      "name": "Construction Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TCJ4C",
+      "name": "Construction Engineering Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TCJ4E",
+      "name": "Construction Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TDJ3M",
+      "name": "Technological Design",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TDJ3O",
+      "name": "Technological Design and the Environment",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TDJ4M",
+      "name": "Technological Design",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TDJ4O",
+      "name": "Technological Design in the Twenty-first Century",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TEJ3E",
+      "name": "Computer Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TEJ3M",
+      "name": "Computer Engineering Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TEJ4E",
+      "name": "Computer Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TEJ4M",
+      "name": "Computer Engineering Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TFJ3C",
+      "name": "Hospitality and Tourism",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TFJ3E",
+      "name": "Hospitality and Tourism",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TFJ4C",
+      "name": "Hospitality and Tourism",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TFJ4E",
+      "name": "Hospitality and Tourism",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TGJ3M",
+      "name": "Communications Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TGJ3O",
+      "name": "Communications Technology: Broadcast and Print Production",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TGJ4M",
+      "name": "Communications Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TGJ4O",
+      "name": "Communications Technology: Digital Imagery and Web Design",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "THJ3E",
+      "name": "Green Industries",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "THJ3M",
+      "name": "Green Industries",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "THJ4E",
+      "name": "Green Industries",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "THJ4M",
+      "name": "Green Industries",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TMJ3C",
+      "name": "Manufacturing Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TMJ3E",
+      "name": "Manufacturing Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TMJ3M",
+      "name": "Manufacturing Engineering Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TMJ4C",
+      "name": "Manufacturing Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TMJ4E",
+      "name": "Manufacturing Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TMJ4M",
+      "name": "Manufacturing Engineering Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TOJ4C",
+      "name": "Child Development and Gerontology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TPJ3C",
+      "name": "Health Care",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TPJ3M",
+      "name": "Health Care",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TPJ4C",
+      "name": "Health Care",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TPJ4E",
+      "name": "Health Care: Support Services",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TPJ4M",
+      "name": "Health Care",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TTJ3C",
+      "name": "Transportation Technology",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TTJ3O",
+      "name": "Transportation Technology: Vehicle Ownership",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TTJ4C",
+      "name": "Transportation Technology",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TTJ4E",
+      "name": "Transportation Technology: Vehicle Maintenance",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TWJ3E",
+      "name": "Custom Woodworking",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TWJ4E",
+      "name": "Custom Woodworking",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TXJ3E",
+      "name": "Hairstyling and Aesthetics",
+      "grades": [
+        "11"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "TXJ4E",
+      "name": "Hairstyling and Aesthetics",
+      "grades": [
+        "12"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "1"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "2"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "3"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "4"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "5"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "6"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "7"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "Native Languages",
+      "grades": [
+        "8"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    },
+    {
+      "code": "",
+      "name": "The Kindergarten Program (2016)",
+      "grades": [
+        "Kindergarten"
+      ],
+      "reason": "no structured expectations in CMS (PDF-only curriculum)"
+    }
+  ]
+}

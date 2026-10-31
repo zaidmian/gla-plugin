@@ -1,0 +1,733 @@
+{
+  "code": "HFC3E",
+  "name": "Food and Culture",
+  "grades": [
+    "11"
+  ],
+  "levels": [],
+  "course_type": "Workplace",
+  "category": "Family Studies, Food and Nutrition",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course focuses on the flavours, aromas, cooking techniques, foods, and cultural traditions of world cuisines. Students will demonstrate the ability to cook with ingredients and equipment from a range of cultures, describe food-related etiquette in a variety of countries and cultures, and explore ways in which Canadian food choices and traditions have been influenced by other cultures. Students will have opportunities to develop practical skills and apply research skills as they investigate foods and food practices from around the world.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hfc3e",
+  "source_codename": "hfc3m__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to food and culture, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to food and culture, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to food and culture (e.g., food guidelines from around the world, herbs and spices used in different cuisines) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to food and culture <em>(e.g., food guidelines from around the world, herbs and spices used in different cuisines)</em> to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers)</em> related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were looking for Thai recipes, why might it be important to look for versions of the recipes that do not include common allergens such as peanuts and shrimp?",
+                  "text_html": "<ul>\n  <li>If you were looking for Thai recipes, why might it be important to look for versions of the recipes that do not include common allergens such as peanuts and shrimp?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, and locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Communication",
+            "Digital Literacy",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investigate their selected topics (e.g., outline purpose and method; identify sources of information), ensuring that their plans follow guidelines",
+              "text_html": "<p>create appropriate research plans to investigate their selected topics <em>(e.g., outline purpose and method; identify sources of information)</em>, ensuring that their plans follow guidelines</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?",
+                  "text_html": "<ul>\n  <li>For which purposes might websites such as Wikipedia be adequate sources of information? What are the risks of relying on websites such as Wikipedia?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews, surveys, questionnaires, observations) and/or secondary sources (e.g., textbooks, advertisements, brochures, newspaper and magazine articles, cookbooks, recipe websites)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews, surveys, questionnaires, observations)</em> and/or secondary sources <em>(e.g., textbooks, advertisements, brochures, newspaper and magazine articles, cookbooks, recipe websites)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research and inquiry",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research and inquiry</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gathered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gathered from primary and secondary sources <em>(e.g., accuracy, relevance, reliability, inherent values and bias, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies can you use to determine the relevance of the information you have gathered?\n  If two information sources contradict each other, how might you determine which is more reliable?",
+                  "text_html": "<ul>\n  <li>What strategies can you use to determine the relevance of the information you have gathered?</li>\n  <li>If two information sources contradict each other, how might you determine which is more reliable?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, audio/visual/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats <em>(e.g., notes, graphic organizers, audio/visual/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare information from different sources; identify gaps in information that necessitate further research)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare information from different sources; identify gaps in information that necessitate further research)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by documenting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by documenting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclusions (e.g., weigh and connect information to determine the answer to their research question)",
+              "text_html": "<p>synthesize findings and formulate conclusions <em>(e.g., weigh and connect information to determine the answer to their research question)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., brochure, flyer, poster, multimedia presentation) to communicate the results of their research and inquiry effectively for a specific audience and purpose",
+              "text_html": "<p>use an appropriate format <em>(e.g., brochure, flyer, poster, multimedia presentation)</em> to communicate the results of their research and inquiry effectively for a specific audience and purpose</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "use terms relating to food and culture correctly (e.g., staple foods, etiquette, eating patterns, tajine, wok, cuisine)",
+              "text_html": "<p>use terms relating to food and culture correctly <em>(e.g., staple foods, etiquette, eating patterns, tajine, wok, cuisine)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might the research methods you used have affected the results you obtained?\n  What steps might you take to enhance your research/inquiry skills?",
+                  "text_html": "<ul>\n  <li>How might the research methods you used have affected the results you obtained?</li>\n  <li>What steps might you take to enhance your research/inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Culture, Foods, and Food Practices",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Food Choices",
+          "describer": "",
+          "text": "demonstrate an understanding of the factors that influence food choices, with reference to a variety of cultures",
+          "text_html": "<p>demonstrate an understanding of the factors that influence food choices, with reference to a variety of cultures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "describe how various factors (e.g., geography, religion, economics, culture, environment, values) influence personal food choices",
+              "text_html": "<p>describe how various factors <em>(e.g., geography, religion, economics, culture, environment, values)</em> influence personal food choices</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would your food choices be affected if you consumed only food that was grown and/or produced within a 100-kilometre radius of your home?",
+                  "text_html": "<ul>\n  <li>How would your food choices be affected if you consumed only food that was grown and/or produced within a 100-kilometre radius of your home?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "identify specific foods that are served for special occasions in Canada and other countries (e.g., for national holidays, cultural and religious celebrations, weddings, harvest celebrations)",
+              "text_html": "<p>identify specific foods that are served for special occasions in Canada and other countries <em>(e.g., for national holidays, cultural and religious celebrations, weddings, harvest celebrations)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some Christmas foods that are served in different cultures?\n  How do Passover foods differ according to the Ashkenazi and Sephardic traditions?\n  That are some cultures in which specific holidays are marked by obtaining special foods (e.g., by killing a whale)?",
+                  "text_html": "<ul>\n  <li>What are some Christmas foods that are served in different cultures?</li>\n  <li>How do Passover foods differ according to the Ashkenazi and Sephardic traditions?</li>\n  <li>That are some cultures in which specific holidays are marked by obtaining special foods (e.g., by killing a whale)?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "describe some technological innovations that make local and imported foods available to Canadians in all seasons (e.g., refrigerated trucks, freeze drying, deep freezing, cold storage, greenhouse food production)",
+              "text_html": "<p>describe some technological innovations that make local and imported foods available to Canadians in all seasons <em>(e.g., refrigerated trucks, freeze drying, deep freezing, cold storage, greenhouse food production)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How is cold storage used to ensure access to Ontario apples all year round?",
+                  "text_html": "<ul>\n  <li>How is cold storage used to ensure access to Ontario apples all year round?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "plan and prepare a food item or items associated with a special occasion of their own or another culture or country",
+              "text_html": "<p>plan and prepare a food item or items associated with a special occasion of their own or another culture or country</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Food Guidelines",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of recommendations made in Canada’s Food Guide and of recommendations made in the guidelines of other countries",
+          "text_html": "<p>demonstrate an understanding of recommendations made in Canada’s Food Guide and of recommendations made in the guidelines of other countries</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "identify key recommendations in Canada’s Food Guide (e.g., choose lower-fat milk products; have vegetables and fruit more often than juice)",
+              "text_html": "<p>identify key recommendations in Canada’s Food Guide <em>(e.g., choose lower-fat milk products; have vegetables and fruit more often than juice)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "compare recommendations in Canada’s Food Guide with those in the First Nations, Inuit, and Métis Food Guide",
+              "text_html": "<p>compare recommendations in Canada’s Food Guide with those in the First Nations, Inuit, and Métis Food Guide</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does the First Nations, Inuit, and Métis version of Canada’s Food Guide reflect the rural traditions that are an inherent part of First Nation, Inuit, and Métis cultures?",
+                  "text_html": "<ul>\n  <li>How does the First Nations, Inuit, and Métis version of Canada’s Food Guide reflect the rural traditions that are an inherent part of First Nation, Inuit, and Métis cultures?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "compare recommendations in Canada’s Food Guide with those in food guidelines from other countries (e.g., Dietary Guidelines for Americans, Mediterranean Food Guide, Chinese Food Guide)",
+              "text_html": "<p>compare recommendations in Canada’s Food Guide with those in food guidelines from other countries <em>(e.g., Dietary Guidelines for Americans, Mediterranean Food Guide, Chinese Food Guide)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would the typical diet of someone following the Mediterranean Food Guide differ from that of someone following Canada’s Food Guide?",
+                  "text_html": "<ul>\n  <li>How would the typical diet of someone following the Mediterranean Food Guide differ from that of someone following Canada’s Food Guide?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Culture and Food Habits",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the influence of culture on how people obtain, prepare, serve, and consume food",
+          "text_html": "<p>demonstrate an understanding of the influence of culture on how people obtain, prepare, serve, and consume food</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "identify foods from other cultures that have become common in Canada (e.g., samosas, sushi, pizza, fried rice, pita, nachos, tortillas, dhal, bannock)",
+              "text_html": "<p>identify foods from other cultures that have become common in Canada <em>(e.g., samosas, sushi, pizza, fried rice, pita, nachos, tortillas, dhal, bannock)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "identify where in their local community foods from various cultures can be acquired (e.g., international aisles at grocery stores, the school cafeteria, restaurants, community events, culture-specific grocery markets)",
+              "text_html": "<p>identify where in their local community foods from various cultures can be acquired <em>(e.g., international aisles at grocery stores, the school cafeteria, restaurants, community events, culture-specific grocery markets)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "describe some food-production and food-acquisition practices in Canada and in a variety of other countries/cultures (e.g., cultivation on small family farms, organic farming practices, large monoculture farms, the use of chemicals and genetically modified seeds/plants, the role of hunting and fishing, growing cash crops, growing for local consumption, using surplus produce to barter or trade for different foodstuffs, buying packaged goods and butchered meat in grocery stores, buying fresh produce and live animals in markets, kosher and halal foods)",
+              "text_html": "<p>describe some food-production and food-acquisition practices in Canada and in a variety of other countries/cultures <em>(e.g., cultivation on small family farms, organic farming practices, large monoculture farms, the use of chemicals and genetically modified seeds/plants, the role of hunting and fishing, growing cash crops, growing for local consumption, using surplus produce to barter or trade for different foodstuffs, buying packaged goods and butchered meat in grocery stores, buying fresh produce and live animals in markets, kosher and halal foods)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is a community-based garden? Are there any community-based gardens in your neighbourhood?",
+                  "text_html": "<ul>\n  <li>What is a community-based garden? Are there any community-based gardens in your neighbourhood?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.4",
+              "text": "describe some cultural variations in daily eating patterns (e.g., time of day for meals, number of meals per day, timing and typical content of the main meal of the day)",
+              "text_html": "<p>describe some cultural variations in daily eating patterns <em>(e.g., time of day for meals, number of meals per day, timing and typical content of the main meal of the day)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.5",
+              "text": "describe some cultural variations in dining etiquette (e.g., seating arrangements, order and use of utensils, appropriate sounds while eating)",
+              "text_html": "<p>describe some cultural variations in dining etiquette <em>(e.g., seating arrangements, order and use of utensils, appropriate sounds while eating)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do you show appreciation of food in various cultures?\n  In which cultures/countries do people sit close to the floor to eat traditional meals?",
+                  "text_html": "<ul>\n  <li>How do you show appreciation of food in various cultures?</li>\n  <li>In which cultures/countries do people sit close to the floor to eat traditional meals?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foods and Flavours",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Food Availability",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the relationship between geography and the foods naturally found and/or produced in Canada and in various other countries",
+          "text_html": "<p>demonstrate an understanding of the relationship between geography and the foods naturally found and/or produced in Canada and in various other countries</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify foods naturally found or produced in the different regions of Canada (e.g., salmon on the west coast, beef and bison on the prairies, Saskatoon berries on the prairies, cranberries in Ontario, grapes in southern Ontario, fish/seafood in the Atlantic provinces, seal and whale in the far north)",
+              "text_html": "<p>identify foods naturally found or produced in the different regions of Canada <em>(e.g., salmon on the west coast, beef and bison on the prairies, Saskatoon berries on the prairies, cranberries in Ontario, grapes in southern Ontario, fish/seafood in the Atlantic provinces, seal and whale in the far north)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "explain the relationship between geography and the foods naturally found or produced in Canada (e.g., the influence on food production of land formations, rainfall, the location of fertile farmland or temperate climates)",
+              "text_html": "<p>explain the relationship between geography and the foods naturally found or produced in Canada <em>(e.g., the influence on food production of land formations, rainfall, the location of fertile farmland or temperate climates)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What factors explain the fact that cranberries grow so well in Ontario?",
+                  "text_html": "<ul>\n  <li>What factors explain the fact that cranberries grow so well in Ontario?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "explain how overhunting and overfishing, as well as the reduction or elimination of natural habitats, have affected the availability of foods found in different regions of Canada",
+              "text_html": "<p>explain how overhunting and overfishing, as well as the reduction or elimination of natural habitats, have affected the availability of foods found in different regions of Canada</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "explain the relationship between geography and the foods naturally found or produced in various countries or regions (e.g., tropical and citrus fruits in countries with consistently warm climates, fish/seafood in coastal areas, food products from grazing animals in grassland areas)",
+              "text_html": "<p>explain the relationship between geography and the foods naturally found or produced in various countries or regions <em>(e.g., tropical and citrus fruits in countries with consistently warm climates, fish/seafood in coastal areas, food products from grazing animals in grassland areas)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.5",
+              "text": "identify foods that are naturally found or produced in particular countries and regions of the world (e.g., rice in the Far East, maize/corn in Central America, fish/seafood in Spain and Portugal, olives in Mediterranean countries)",
+              "text_html": "<p>identify foods that are naturally found or produced in particular countries and regions of the world <em>(e.g., rice in the Far East, maize/corn in Central America, fish/seafood in Spain and Portugal, olives in Mediterranean countries)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why are animal food products more available in some countries than others?",
+                  "text_html": "<ul>\n  <li>Why are animal food products more available in some countries than others?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.6",
+              "text": "describe ways in which food-acquisition practices vary among people who live in rural and urban environments (e.g., in rural areas, people may grow some of their own food, keep poultry for eggs and/or meat, hunt for seasonal game; in urban areas, people have access to large grocery stores and may have access to food products from a variety of cultures, local farmers' markets, and community gardens)",
+              "text_html": "<p>describe ways in which food-acquisition practices vary among people who live in rural and urban environments <em>(e.g., in rural areas, people may grow some of their own food, keep poultry for eggs and/or meat, hunt for seasonal game; in urban areas, people have access to large grocery stores and may have access to food products from a variety of cultures, local farmers' markets, and community gardens)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why might people living in rural communities shop less frequently than people living in suburban communities?",
+                  "text_html": "<ul>\n  <li>Why might people living in rural communities shop less frequently than people living in suburban communities?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Sources of Foods",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the sources of foods eaten in Canada and in various other countries/cultures",
+          "text_html": "<p>demonstrate an understanding of the sources of foods eaten in Canada and in various other countries/cultures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify the origins of various foods eaten in Canada (e.g., potatoes, breads, corn, rice, bananas, tofu, various cheeses, various herbs and spices)",
+              "text_html": "<p>identify the origins of various foods eaten in Canada <em>(e.g., potatoes, breads, corn, rice, bananas, tofu, various cheeses, various herbs and spices)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In which country did tofu originate? How much of the tofu consumed in Canada is actually produced here?",
+                  "text_html": "<ul>\n  <li>In which country did tofu originate? How much of the tofu consumed in Canada is actually produced here?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "identify foods that are regularly eaten as a dominant part of the diet in different parts of the world (e.g., grains/cereals such as rice, wheat, maize/corn, millet, sorghum; roots and tubers such as potatoes, cassava, yams, taro; animal products such as meat, milk, eggs, cheese, fish)",
+              "text_html": "<p>identify foods that are regularly eaten as a dominant part of the diet in different parts of the world <em>(e.g., grains/cereals such as rice, wheat, maize/corn, millet, sorghum; roots and tubers such as potatoes, cassava, yams, taro; animal products such as meat, milk, eggs, cheese, fish)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "identify different ways in which certain food sources are used around the world (e.g., rice: noodles, rice paper, rice pudding, risotto; corn/maize: flour, tortillas, polenta, oil; chickpeas: hummus, chana masala, flour, dahl; wheat: flour, bannock, pasta, cereal, breads such as pita, naan, focaccia, challah)",
+              "text_html": "<p>identify different ways in which certain food sources are used around the world <em>(e.g., rice: noodles, rice paper, rice pudding, risotto; corn/maize: flour, tortillas, polenta, oil; chickpeas: hummus, chana masala, flour, dahl; wheat: flour, bannock, pasta, cereal, breads such as pita, naan, focaccia, challah)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "plan and prepare a food item or items using ingredients from a variety of countries/cultures",
+              "text_html": "<p>plan and prepare a food item or items using ingredients from a variety of countries/cultures</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Flavours of the World",
+          "describer": "",
+          "text": "demonstrate an understanding of the characteristic flavours, aromas, herbs, and spices associated with the cuisines of various countries/cultures",
+          "text_html": "<p>demonstrate an understanding of the characteristic flavours, aromas, herbs, and spices associated with the cuisines of various countries/cultures</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify various herbs and spices",
+              "text_html": "<p>identify various herbs and spices</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what forms can you find cinnamon or coriander at the grocery store?",
+                  "text_html": "<ul>\n  <li>In what forms can you find cinnamon or coriander at the grocery store?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "identify the sources and common uses of herbs and spices in the cuisines of various countries/cultures",
+              "text_html": "<p>identify the sources and common uses of herbs and spices in the cuisines of various countries/cultures</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What herb and spice blends are often used in Italian cooking? Cantonese cooking?",
+                  "text_html": "<ul>\n  <li>What herb and spice blends are often used in Italian cooking? Cantonese cooking?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "describe characteristic flavours and aromas of the cuisines of various cultures",
+              "text_html": "<p>describe characteristic flavours and aromas of the cuisines of various cultures</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which cultures/countries tend to use a lot of garlic in their cuisine?",
+                  "text_html": "<ul>\n  <li>Which cultures/countries tend to use a lot of garlic in their cuisine?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.4",
+              "text": "plan and prepare a food item or items using herbs and spices typical of the cuisine of a particular country/culture",
+              "text_html": "<p>plan and prepare a food item or items using herbs and spices typical of the cuisine of a particular country/culture</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Food-Preparation Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Kitchen Safety",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of practices that ensure or enhance kitchen safety",
+          "text_html": "<p>demonstrate an understanding of practices that ensure or enhance kitchen safety</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "describe common accidents that can occur in the kitchen (e.g., cuts, burns, fires, falls, poisoning, electric shocks)",
+              "text_html": "<p>describe common accidents that can occur in the kitchen <em>(e.g., cuts, burns, fires, falls, poisoning, electric shocks)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "demonstrate an understanding of safe practices within the food-preparation area (e.g., safely handle hot foods; prevent spatters, scalds, and cuts; wipe up spills immediately)",
+              "text_html": "<p>demonstrate an understanding of safe practices within the food-preparation area <em>(e.g., safely handle hot foods; prevent spatters, scalds, and cuts; wipe up spills immediately)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.3",
+              "text": "demonstrate an understanding of appropriate emergency responses to common accidents associated with food preparation (e.g., cuts, burns, scalds, fires)",
+              "text_html": "<p>demonstrate an understanding of appropriate emergency responses to common accidents associated with food preparation <em>(e.g., cuts, burns, scalds, fires)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Food Safety",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of practices that ensure or enhance food safety",
+          "text_html": "<p>demonstrate an understanding of practices that ensure or enhance food safety</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "describe the causes and symptoms of foodborne illnesses (e.g., E. coli poisoning, botulism poisoning, Clostridium perfringens poisoning, salmonellosis, listeriosis) and techniques for preventing these illnesses",
+              "text_html": "<p>describe the causes and symptoms of foodborne illnesses <em>(e.g., </em>E. coli <em>poisoning, botulism poisoning</em>, Clostridium perfringens <em>poisoning, salmonellosis, listeriosis) </em>and techniques for preventing these illnesses</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "use appropriate personal hygiene practices to prevent contamination of food (e.g., wash hands frequently; cover a cough or sneeze in their sleeve; use gloves to cover cuts or wounds; tie hair back)",
+              "text_html": "<p>use appropriate personal hygiene practices to prevent contamination of food <em>(e.g., wash hands frequently; cover a cough or sneeze in their sleeve; use gloves to cover cuts or wounds; tie hair back)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "use safe food-handling practices to prevent cross-contamination by pathogens, parasites, and allergens in the food-preparation area (e.g., wash fresh produce; sanitize cutting boards after contact with meat products; sanitize implements that come into contact with allergens when preparing food for or with people with known allergies; sanitize work surfaces; replace and/or sanitize sponges or cloths frequently; use proper clean-up procedures)",
+              "text_html": "<p>use safe food-handling practices to prevent cross-contamination by pathogens, parasites, and allergens in the food-preparation area <em>(e.g., wash fresh produce; sanitize cutting boards after contact with meat products; sanitize implements that come into contact with allergens when preparing food for or with people with known allergies; sanitize work surfaces; replace and/or sanitize sponges or cloths frequently; use proper clean-up procedures)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "follow appropriate protocols to ensure food safety (e.g., cook foods to recommended temperatures; keep hot foods hot and cold foods cold; store food appropriately; wipe tops of cans before opening; check “best-before” dates; demonstrate awareness of common allergenic ingredients)",
+              "text_html": "<p>follow appropriate protocols to ensure food safety <em>(e.g., cook foods to recommended temperatures; keep hot foods hot and cold foods cold; store food appropriately; wipe tops of cans before opening; check “best-before” dates; demonstrate awareness of common allergenic ingredients)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Food Preparation",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate skills used in food preparation in various countries/cultures",
+          "text_html": "<p>demonstrate skills used in food preparation in various countries/cultures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "identify the tools and equipment used for preparing, serving, and eating foods from a variety of cultures (e.g., wok, tajine, barbeque, smoker, clay oven, bamboo steamer, chopsticks, mortar and pestle, skewer)",
+              "text_html": "<p>identify the tools and equipment used for preparing, serving, and eating foods from a variety of cultures <em>(e.g., wok, tajine, barbeque, smoker, clay oven, bamboo steamer, chopsticks, mortar and pestle, skewer)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.2",
+              "text": "demonstrate the ability to safely use, maintain, clean, and store tools and equipment used in food preparation",
+              "text_html": "<p>demonstrate the ability to safely use, maintain, clean, and store tools and equipment used in food preparation</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "demonstrate the ability to adapt recipes from other countries/cultures by substituting equipment that is readily available (e.g., use a frying pan instead of a wok; use a standard oven instead of a clay oven; use a Dutch oven or slow cooker instead of a tajine)",
+              "text_html": "<p>demonstrate the ability to adapt recipes from other countries/cultures by substituting equipment that is readily available <em>(e.g., use a frying pan instead of a wok; use a standard oven instead of a clay oven; use a Dutch oven or slow cooker instead of a tajine)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.4",
+              "text": "demonstrate the ability to measure quantities accurately (e.g., use different strategies for measuring wet and dry ingredients; level off excess amounts; measure liquids at eye level)",
+              "text_html": "<p>demonstrate the ability to measure quantities accurately <em>(e.g., use different strategies for measuring wet and dry ingredients; level off excess amounts; measure liquids at eye level)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.5",
+              "text": "demonstrate the correct use of food-preparation techniques (e.g., stirring, beating, whipping, chopping, broiling, frying)",
+              "text_html": "<p>demonstrate the correct use of food-preparation techniques <em>(e.g., stirring, beating, whipping, chopping, broiling, frying)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.6",
+              "text": "demonstrate the ability to manage time effectively in food preparation",
+              "text_html": "<p>demonstrate the ability to manage time effectively in food preparation</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.7",
+              "text": "demonstrate an understanding of meal customs and table-setting practices in a variety of cultures (e.g., sitting on the floor on a rug in northern Africa; sitting on tatami [mats] for a traditional Japanese meal; setting the table with many utensils for a formal European meal)",
+              "text_html": "<p>demonstrate an understanding of meal customs and table-setting practices in a variety of cultures <em>(e.g., sitting on the floor on a rug in northern Africa; sitting on tatami [mats] for a traditional Japanese meal; setting the table with many utensils for a formal European meal)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.8",
+              "text": "plan and prepare a variety of food items from various countries/cultures using culturally specific ingredients and techniques",
+              "text_html": "<p>plan and prepare a variety of food items from various countries/cultures using culturally specific ingredients and techniques</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D4",
+          "title": "Kitchen Literacy and Numeracy",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the literacy and numeracy skills required in food preparation",
+          "text_html": "<p>demonstrate the literacy and numeracy skills required in food preparation</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D4.1",
+              "text": "demonstrate an understanding of the information found on Canadian food labels and on labels of foods from other countries",
+              "text_html": "<p>demonstrate an understanding of the information found on Canadian food labels and on labels of foods from other countries</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can it be that a food which is labelled “Product of Canada” might have come from a country thousands of kilometres away?",
+                  "text_html": "<ul>\n  <li>How can it be that a food which is labelled “Product of Canada” might have come from a country thousands of kilometres away?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D4.2",
+              "text": "demonstrate the ability to follow a recipe",
+              "text_html": "<p>demonstrate the ability to follow a recipe</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D4.3",
+              "text": "demonstrate an understanding of common terms used in food preparation (e.g., names of utensils and techniques)",
+              "text_html": "<p>demonstrate an understanding of common terms used in food preparation <em>(e.g., names of utensils and techniques)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D4.4",
+              "text": "apply mathematical skills correctly in food-preparation tasks (e.g., convert between imperial and metric measurements; calculate yield changes)",
+              "text_html": "<p>apply mathematical skills correctly in food-preparation tasks (e.g., convert between imperial and metric measurements; calculate yield changes)</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

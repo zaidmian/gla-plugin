@@ -1,0 +1,456 @@
+{
+  "code": "AVI3M",
+  "name": "Visual Arts",
+  "grades": [
+    "11"
+  ],
+  "levels": [],
+  "course_type": "University-College Preparation",
+  "category": "Visual Arts",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course enables students to further develop their knowledge and skills in visual arts. Students will use the creative process to explore a wide range of themes through studio work that may include drawing, painting, sculpting, and printmaking, as well as the creation of collage, multimedia works, and works using emerging technologies. Students will use the critical analysis process when evaluating their own work and the work of others. The course may be delivered as a comprehensive program or through a program focused on a particular art form (e.g., photography, video, computer graphics, information design).",
+  "prerequisites": "Grade 9 or 10 Visual Arts, Open",
+  "prerequisite_codes": [
+    "AVI1O",
+    "AVI2O"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/avi3m",
+  "source_codename": "arts___sec___avi3m",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Presenting",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the creative process to create a variety of art works, individually and/or collaboratively",
+          "text_html": "<p>apply the creative process to create a variety of art works, individually and/or collaboratively</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use various strategies, individually and/or collaboratively, to generate, explore, and elaborate on ideas and to develop and revise detailed plans for the creation of art works that address a variety of creative challenges (e.g., use brainstorming, concept webs, and/or group discussions to formulate original ideas for thematic works and/or works of personal expression; use research and discussions with a partner to explore and elaborate on ideas;  use diagrams, notes, and/or outlines to help them formulate detailed plans for the art work; revise their plans on the basis of reflection)",
+              "text_html": "<p>use various strategies, individually and/or collaboratively, to generate, explore, and elaborate on ideas and to develop and revise detailed plans for the creation of art works that address a variety of creative challenges <em>(e.g., use brainstorming, concept webs, and/or group discussions to formulate original ideas for thematic works and/or works of personal expression; use research and discussions with a partner to explore and elaborate on ideas;&nbsp; use&nbsp;diagrams, notes, and/or outlines to help them formulate detailed&nbsp;plans for the art work; revise their plans on the basis of reflection)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What sources might you consult to help you elaborate on your ideas?\n  Have you reflected on how your plan addresses each stage of the creative process? Do you need to revise your approach to any of these stages?",
+                  "text_html": "<ul>\n  <li>What sources might you consult to help you elaborate on your ideas?</li>\n  <li>Have you reflected on how your plan addresses each stage of the creative process? Do you need to revise your approach to any of these stages?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "apply the appropriate stages of the creative process to produce and revise two- and three-dimensional art works using a variety of traditional and contemporary media (e.g., explore, experiment with, and refine their use of a variety of media; choose a medium/media appropriate for their planned art work; reflect on the effectiveness of preliminary versions of their work; revise their art work on the basis of reflection and useful feedback)",
+              "text_html": "<p>apply the appropriate stages of the creative process to produce and revise two- and three-dimensional art works using a variety of traditional and contemporary media <em>(e.g., explore, experiment with, and refine their use of a variety of media; choose a medium/media appropriate for their planned art work; reflect on the effectiveness of preliminary versions of their work; revise their art work on the basis of reflection and useful feedback)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How have you revised your planned art work as a result of your experimentation with media and techniques? In what ways does your completed work differ from your original vision?",
+                  "text_html": "<ul>\n  <li>How have you revised your planned art work as a result of your experimentation with media and techniques? In what ways does your completed work differ from your original vision?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "document their use of each stage of the creative process, as well as varied and extensive research, in a portfolio that includes art works created for a variety of purposes (e.g., ensure that their portfolio includes evidence of idea generation and elaboration, research, investigation, planning, exploration, experimentation, and revision; include a variety of works created for different purposes), and review and reflect on the contents of their portfolio to determine how effectively they have used the creative process",
+              "text_html": "<p>document their use of each stage of the creative process, as well as varied and extensive research, in a portfolio that includes art works created for a variety of purposes <em>(e.g., ensure that their portfolio includes evidence of idea generation and elaboration, research, investigation, planning, exploration, experimentation, and revision; include a variety of works created for different purposes)</em>, and review and reflect on&nbsp;the contents of their portfolio to determine how effectively they have used the creative process</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What evidence does your portfolio provide of research during the imagination/innovation and exploration stages of the creative process?\n  Does your portfolio include representative samples of your work?",
+                  "text_html": "<ul>\n  <li>What evidence does your portfolio provide of research during the imagination/innovation and exploration stages of the creative process?</li>\n  <li>Does your portfolio include representative samples of your work?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "The Elements and Principles of Design",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the elements and principles of design to create art works for the purpose of self-expression and to communicate ideas, information, and/or messages",
+          "text_html": "<p>apply the elements and principles of design to create art works for the purpose of self-expression and to communicate ideas, information, and/or messages</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "explore how elements and principles of design can be used to convey emotion and enhance personal expression, and use a combination of these elements and principles to create two- and three-dimensional art works that express personal feelings and communicate specific emotions to an audience (e.g., explore how variations in line, value, form, proportion, and emphasis can be used to convey various emotions; adapt their findings to enhance expression in their art work)",
+              "text_html": "<p>explore how elements and principles of design can be used to convey emotion and enhance personal expression, and use a combination of these elements and principles to create two- and <a data-item-id=\"c62877f4-e56b-45ef-8586-a5516257b3e5\" href=\"\">three-dimensional</a> art works that express personal feelings and communicate specific emotions to an audience <em>(e.g., explore how variations in line, value, form, </em><a data-item-id=\"19b1e82c-3dbb-439b-9318-e70088d9d0d4\" href=\"\"><em>proportion</em></a><em>, and emphasis can be used to convey various emotions; adapt their findings to enhance expression in their art work)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How has Marjane Satrapi used black-and-white line drawings to enhance the emotional aspects of her autobiographical graphic novel Persepolis? How could you adapt aspects of her use of elements and principles and apply them to enhance your own works of personal expression?",
+                  "text_html": "<ul>\n  <li>How has Marjane Satrapi used black-and-white line drawings to enhance the emotional aspects of her autobiographical graphic novel <em>Persepolis</em>? How could you adapt aspects of her use of elements and principles and apply them to enhance your own works of personal expression?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "apply elements and principles of design as well as art-making conventions to create art works that comment and/or communicate their personal perspective on issues related to social justice or the environment (e.g., use line and value in a drypoint etching that integrates satire or symbolism to comment on an issue such as poverty, child labour, or discrimination)",
+              "text_html": "<p>apply elements and principles of design as well as art-making conventions to create art works that comment and/or communicate their personal <a data-item-id=\"f5796e3c-f331-4d5f-999b-810702cf215a\" href=\"\">perspective</a> on issues related to social justice or the environment <em>(e.g., use </em><a data-item-id=\"7d02983a-ec82-4054-8163-f12ee4768968\" href=\"\"><em>line</em></a><em> and value in a drypoint etching that integrates satire or symbolism to comment on an issue such as poverty, child&nbsp;labour, or discrimination)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What type of symbols might you use in a work about poverty? Why do you think these symbols would be effective? How might you use conventions such as juxtaposition or exaggeration in the same work?",
+                  "text_html": "<ul>\n  <li>What type of symbols might you use in a work about poverty? Why do you think these symbols would be effective? How might you use conventions such as <a data-item-id=\"8a3534fb-47ad-4d55-8ec1-8d601ededbed\" href=\"\">juxtaposition</a> or <a data-item-id=\"748d1cb7-e851-4ed1-ae2c-88eb4fada309\" href=\"\">exaggeration</a> in the same work?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Production and Presentation",
+          "describer": "By the end of this course, students will:",
+          "text": "produce art works, using a variety of media/materials and traditional and emerging technologies, tools, and techniques, and demonstrate an understanding of a variety of ways of presenting their works and the works of others",
+          "text_html": "<p>produce art works, using a variety of media/materials and traditional and <a data-item-id=\"8d5e5b08-58d0-49a0-8ce9-2173deaeb77c\" href=\"\">emerging technologies</a>, tools, and techniques, and demonstrate an understanding of a variety of ways of presenting their works and the works of others</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "explore and experiment with media, including alternative media, and current technologies, and use them to create a variety of art works (e.g., use media such as digitally enhanced photographs, transparencies, and/or found objects when creating a collage; create a mixed-media image reflecting their personal identity or cultural heritage)",
+              "text_html": "<p>explore and experiment with media, including alternative media, and current technologies, and use them to create a variety of art works <em>(e.g., use media such as digitally enhanced photographs, transparencies, and/or found objects when creating a collage; create a mixed-media image reflecting their personal identity or cultural heritage)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How might you combine alternative and traditional media to create a collage?\n  How might you use digital technologies to enhance the creativity of your art work?",
+                  "text_html": "<ul>\n  <li>How might you combine alternative and traditional media to create a collage?</li>\n  <li>How might you use digital technologies to enhance the creativity of your art work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "explore a range of traditional and current materials, technologies, techniques, and tools used by visual artists (e.g., Claude Monet’s use of optical colour mixing; Andy Warhol’s use of silkscreens; George Segal’s use of plaster bandage; Jean-Paul Riopelle’s use of a palette knife for impasto application of paint; Daphne Odjig’s use of interconnecting black lines), and adapt and apply them to create original art works",
+              "text_html": "<p>explore a range of traditional and current materials, technologies, techniques, and tools used by visual artists <em>(e.g., Claude Monet’s use&nbsp;of optical colour mixing; Andy Warhol’s use of silkscreens; George Segal’s use of plaster bandage; Jean-Paul Riopelle’s use of a palette knife for impasto application of paint; Daphne Odjig’s use&nbsp;of interconnecting black lines)</em>, and adapt and apply them to create <a data-item-id=\"3b773618-1e30-4112-ada0-9ff23281da87\" href=\"\">original art works</a></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Explain how you can affect a viewer’s impression of your work by altering the materials, techniques, or media.\n  How might you adapt some of the techniques used by Monet in his Giverny paintings to enhance your own landscape painting?",
+                  "text_html": "<ul>\n  <li>Explain how you can affect&nbsp;a viewer’s impression of your work by altering the materials, techniques, or media.</li>\n  <li>How might you adapt some of the techniques used by Monet in his Giverny paintings to enhance your own <a data-item-id=\"3b4ca575-7b57-49a9-a6ca-577d30350eb9\" href=\"\">landscape</a> painting?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "describe appropriate standards and conventions for the presentation of different types of visual art works, and apply these standards and conventions when preparing their art works for presentation (e.g., ensure that their work is signed, labelled, dated, matted, and/or mounted, that their three-dimensional work can be displayed safely, that the appropriate digital presentation technology is available and in working order)",
+              "text_html": "<p>describe appropriate standards and conventions for the presentation of different types of visual art works, and apply these standards and conventions when preparing their art works for presentation <em>(e.g., ensure that their work is signed, labelled, dated, matted, and/or mounted, that their three-dimensional work can be displayed safely, that the appropriate digital presentation technology is available and in working order)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How and why does the intended venue for your work change the way you prepare the work for display?\n  In what ways can variations in matting or mounting affect the audience’s response to your work?",
+                  "text_html": "<ul>\n  <li>How and why does the intended venue for your work change the way you prepare the work for display?</li>\n  <li>In what ways can variations in matting or mounting affect the audience’s response to your work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.4",
+              "text": "explain how variations in where and how art works are displayed (e.g., as public art, in private and public galleries, on the Internet, in the mass media, in virtual and traditional museums, as transient art works) can affect the impact and meaning of the works and the size and type of audience they reach",
+              "text_html": "<p>explain how variations in where and how art works are displayed <em>(e.g., as public art, in private and public galleries, on the Internet, in the mass media, in virtual and traditional museums,&nbsp;as transient art works) </em>can affect the impact and meaning of the works and the size and type of audience they reach</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what circumstances would a traditional gallery be the best place to exhibit a work of art? When might a virtual gallery be more appropriate? Why?",
+                  "text_html": "<ul>\n  <li>In what circumstances would a traditional gallery be the best place to exhibit a work of art? When might a virtual gallery be more appropriate? Why?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the critical analysis process by examining, interpreting, evaluating, and reflecting on various art works",
+          "text_html": "<p>demonstrate an understanding of the critical analysis process by examining, interpreting, evaluating, and reflecting on various art works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "analyse their initial response to art works (e.g., describe their initial reaction to an art work and determine which specific aspects of the work and their personal experience led to their reaction)",
+              "text_html": "<p>analyse their initial response to art works <em>(e.g., describe their initial reaction to an art work and determine which specific aspects of the work and their personal experience led to their reaction)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do you see when you look at this art work for the first time? What do you think this art work is about? Why? Do you think everyone would share your opinion or understanding? Why or why not?",
+                  "text_html": "<ul>\n  <li>What do you see when you look at this art work for the first time? What do you think this art work is about? Why? Do you think everyone would share your opinion or understanding? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "deconstruct the visual content and the use of elements and principles of design in their own art work and the work of others (e.g., identify individual elements and principles and aspects of the visual content in an art work, interpret their function, and analyse how the artist has manipulated them to create impact, emphasis, mood, movement, and meaning; compare The Abduction of the Daughters of Leucippus by Peter Paul Rubens to the cover of a contemporary comic book about an action hero, with reference to the artists’ use of colour, line, shape, value, balance, and emphasis)",
+              "text_html": "<p>deconstruct the visual content and the use of elements and principles of design in their own art work and the work of others <em>(e.g., identify individual elements and principles and aspects of the visual content in an art work, interpret their function, and analyse how the artist has manipulated them to create impact, emphasis, mood, movement, and meaning; compare </em>The Abduction of the Daughters of Leucippus <em>by Peter Paul Rubens to the cover of a contemporary comic book about an action hero, with reference to the artists’ use of colour, line, shape, value, balance, and emphasis)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What differences are there between the landscapes of Homer Watson and those of Emily Carr with respect to the artists’ use of elements/principles such as colour, value, shape, proportion, and emphasis? What impact do these differences have on the mood or meaning of the works?",
+                  "text_html": "<ul>\n  <li>What differences are there between the landscapes of Homer Watson and those of Emily Carr with respect to the artists’ use of elements/principles such as colour, value, shape, proportion, and emphasis? What impact do these differences have on the mood or meaning of the works?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "explain, with reference to particular works, both historical and contemporary (e.g., J. M. W. Turner’s Rain, Steam, and Speed: The Great Western Railway; Maya Lin’s Vietnam Veterans Memorial), how knowledge of an art work’s cultural and historical context, achieved through research, has clarified and enriched their understanding of the work’s intent and meaning",
+              "text_html": "<p>explain, with reference to particular works, both historical and contemporary <em>(e.g., J. M. W. Turner’s </em>Rain, Steam, and Speed: The Great Western Railway<em>; Maya Lin’s </em>Vietnam Veterans Memorial<em>), </em>how knowledge of an art work’s cultural and historical context, achieved through research, has clarified and enriched their understanding of the work’s intent and meaning</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways has your research on the American role in the Vietnam War contributed to your understanding of the intent of Maya Lin’s design for the Vietnam Veterans Memorial?\n  Does learning about the Industrial Revolution change the way you interpret Turner’s painting? Why or why not?\n  Why does knowledge about the role of Canadian women in World War II enhance a viewer’s understanding of Paraskeva Clark’s Parachute Riggers?",
+                  "text_html": "<ul>\n  <li>In what ways has your research on the American role in the Vietnam War contributed to your understanding of the intent of Maya Lin’s design for the <em>Vietnam Veterans Memorial</em>?</li>\n  <li>Does learning about the Industrial Revolution change the way you interpret Turner’s painting? Why or why not?</li>\n  <li>Why does knowledge about the role of Canadian women in World War II enhance a viewer’s understanding of Paraskeva Clark’s <em>Parachute Riggers</em>?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "describe and reflect on the qualities of their own art works and the works of others, and evaluate the effectiveness of these works, using a variety of criteria (e.g., the works’ ability to convey a message or emotion; their technical merit; their stylistic qualities; the use of technique and successful manipulation of media/materials; the connection between form and message)",
+              "text_html": "<p>describe and reflect on the qualities of their own art works and the works of others, and evaluate the effectiveness of these works, using a variety of criteria <em>(e.g., the works’ ability to convey a message or emotion; their technical merit; their stylistic qualities; the use of technique and successful manipulation of media/materials; the connection between form and message)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When you reflect on the stylistic qualities of this work, which do you think are successful? Why? Are there any that you think are not effective? What might you change to increase their effectiveness?",
+                  "text_html": "<ul>\n  <li>When you reflect on the stylistic qualities of this work, which do you think are successful? Why? Are there any that you think are not effective? What might you change to increase their effectiveness?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Art, Society, and Values",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how art works reflect the society in which they were created, and of how they can affect both social and personal values",
+          "text_html": "<p>demonstrate an understanding of how art works reflect the society in which they were created, and of how they can affect both social and personal values</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "analyse the function and social impact of different kinds of art works in both past and present societies (e.g., the use of art works for ritualistic and religious purposes; for social and/or political commentary; as propaganda; as  symbols of economic or social power; to commemorate people and/or historical events; to instruct)",
+              "text_html": "<p>analyse the function and social impact of different kinds of art works in both past and present societies <em>(e.g., the use of art works for ritualistic and religious purposes; for social and/or political&nbsp;commentary;&nbsp;as propaganda;&nbsp;as&nbsp; symbols of economic or social power; to commemorate&nbsp;people and/or historical events; to&nbsp;instruct)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What was the purpose of the murals Diego Rivera was commissioned to create in Mexico in the 1920s? What impact did his works have in Mexico and the rest of North America?\n  Why and how was the Taj Mahal built?",
+                  "text_html": "<ul>\n  <li>What was the purpose of the murals Diego Rivera was commissioned to create in Mexico in the 1920s? What impact did his works have in Mexico and the rest of North America?</li>\n  <li>Why and how was the Taj Mahal built?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "explain, on the basis of research, ways in which various art works are a response to and a reflection of the society in which they were created (e.g., how available technologies and materials affect artists’ work; how artists have responded to persecution or social injustice; how changing gender roles are reflected in art works)",
+              "text_html": "<p>explain, on the basis of research, ways in which various art works are a response to and a reflection of the society in which they were created <em>(e.g., how available technologies and materials affect artists’ work; how artists have responded to persecution or social injustice; how changing gender roles are reflected in art&nbsp;works)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways did the invention of the camera change the course of painting?\n  In what ways does Gerald McMaster’s work reflect his experiences as a Cree living in Canada?\n  How did the ‘Reversing Vandalism’ art show come about? What does it reveal about social mores?",
+                  "text_html": "<ul>\n  <li>In what ways did the invention of the camera change the course of painting?</li>\n  <li>In what ways does Gerald McMaster’s work reflect his experiences as a Cree living in Canada?</li>\n  <li>How did the ‘Reversing Vandalism’ art show come about? What does it reveal about social mores?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "reflect on and explain how creating and analysing art works has affected their personal identity and values and/or changed their perceptions of society and social issues (e.g., with reference to their emotional awareness and their ability to express themselves; their awareness of stereotypes; their understanding of the meaning of objects and symbols associated with a variety of cultural groups; their awareness of and relationship to their physical environment; their position on social issues such as censorship, discrimination, inequality)",
+              "text_html": "<p>reflect on and explain how creating and analysing art works has affected their personal identity and values and/or changed their perceptions of society and social issues <em>(e.g., with reference to their emotional awareness and their ability to express themselves; their awareness of stereotypes; their understanding of the&nbsp;meaning of objects and symbols associated with a variety of cultural groups; their awareness of and relationship to their physical environment; their position on social issues such as censorship, discrimination, inequality)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Has analysing art works created by First Nation artists affected your awareness of Aboriginal culture in Canada? Why or why not?\n  In what ways has creating art works enhanced your ability to express your feelings or point of view?",
+                  "text_html": "<ul>\n  <li>Has analysing art works created by First Nation artists affected your awareness of <a data-item-id=\"d00a2d62-487b-4f63-acce-2a555f6074ba\" href=\"\">Aboriginal</a> culture in Canada? Why or why not?</li>\n  <li>In what ways has creating art works enhanced your ability to express your feelings or point of view?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "describe opportunities and requirements for continued engagement in visual arts",
+          "text_html": "<p>describe opportunities and requirements for continued engagement in visual&nbsp;arts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "identify a variety of careers in fields related to visual arts (e.g., advertising, art direction for theatre or films, art therapy, costume design, graphic design, industrial design, museum or gallery curation, photojournalism), and describe the skills, education, and training they require",
+              "text_html": "<p>identify a variety of careers in fields related to visual arts <em>(e.g., advertising, art direction for theatre or films, art therapy, costume design, graphic design, industrial design, museum or gallery curation, photojournalism)</em>, and describe the skills, education, and training they require</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "describe, on the basis of research and investigation, a variety of personal opportunities in their community in cultural or other fields related to visual arts (e.g., opportunities within their school or community to promote the arts by finding new venues for visual arts displays; opportunities to organize or create an art installation in a public space; the availability of grants, funding, or sponsorship for public or school-based art works that explore a social theme)",
+              "text_html": "<p>describe, on the basis of research and investigation, a variety of personal opportunities in their community in cultural or other fields related to visual arts <em>(e.g., opportunities within their school or community to promote the arts by finding new venues for visual arts displays; opportunities to organize or create an art </em><a data-item-id=\"0ad9af94-c9d2-4617-b6fa-84893668e6ff\" href=\"\"><em>installation</em></a><em> in a public space; the availability of grants, funding, or sponsorship for public or school-based art works that explore a social&nbsp;theme)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "describe, on the basis of investigation, a variety of local, national, and global arts-based organizations, and identify ways they could become involved with one or more of these organizations (e.g., community art councils; websites that promote the arts)",
+              "text_html": "<p>describe, on the basis of investigation, a variety of local, national, and global arts-based organizations, and identify ways they could become involved with one or more of these organizations <em>(e.g., community art councils; websites that promote the&nbsp;arts)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of, and use correct terminology when referring to, elements, principles, and other components related to visual arts",
+          "text_html": "<p>demonstrate an understanding of, and use correct terminology when referring to, elements, principles, and other components related to visual arts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "demonstrate an understanding of the elements and principles of design, and use terminology related to these elements and principles correctly and appropriately when creating or analysing art works (e.g., when describing how they have used elements and principles in a sculpture to convey a sense of movement)",
+              "text_html": "<p>demonstrate an understanding of the elements and principles of design, and use terminology related to these elements and principles correctly and appropriately when creating or analysing art works <em>(e.g., when describing how they have used elements and principles in a sculpture to convey a sense of&nbsp;movement)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "explain terminology related to a variety of techniques, materials, and tools (e.g., additive and subtractive techniques, blazing, gesso, intaglio, layering, palette knife, scumbling, transfers, single-lens reflex [SLR] cameras, software used to edit digital photographs), and use this terminology correctly and appropriately when creating, analysing, and/or presenting art works",
+              "text_html": "<p>explain terminology related to a variety of techniques, materials, and tools <em>(e.g., additive and subtractive techniques, blazing, gesso, intaglio, layering, palette&nbsp;knife, </em><a data-item-id=\"6e2669d8-f3f9-422c-9ab7-eb6094c78d4f\" href=\"\"><em>scumbling</em></a><em>, transfers, single-lens reflex [SLR] cameras, software used to edit digital photographs)</em>, and use this terminology correctly and appropriately when creating, analysing, and/or presenting art works</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "using appropriate terminology, explain the creative process and describe in detail the critical analysis process, with particular reference to the role of deconstruction in the latter process",
+              "text_html": "<p>using appropriate terminology, explain the creative process and describe in detail the critical analysis process, with particular reference to the role of deconstruction in the latter process</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What kinds of decisions about materials, techniques, and style does the artist have to make when deciding to create an art work? What kinds of information does the viewer need to explore when trying to deconstruct the art work?",
+                  "text_html": "<ul>\n  <li>What kinds of decisions about materials, techniques, and style does the artist have to make when deciding to create an art work? What kinds of information does the viewer need to explore when trying to deconstruct the art work?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Conventions and Techniques",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of conventions and techniques used in the creation of visual art works",
+          "text_html": "<p>demonstrate an understanding of conventions and techniques used in the creation of visual art works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of a wide variety of techniques that artists use to achieve a range of specific effects (e.g., techniques used to create the illusion of depth and perspective and to create texture on different surfaces; the use of additive and subtractive sculpture, layering, positive and negative space, and relief to create effects)",
+              "text_html": "<p>demonstrate an understanding of a wide variety of techniques that artists use to achieve a range of specific effects <em>(e.g., techniques used to create the illusion of depth and perspective and&nbsp;to create texture on different surfaces; the use of additive and subtractive sculpture, layering, positive and </em><a data-item-id=\"191341e9-70f4-4774-993e-a06ad54c2f8c\" href=\"\"><em>negative space</em></a><em>, and relief to create&nbsp;effects)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "demonstrate an understanding of a variety of conventions used in visual arts (e.g., allegory, expressive exaggeration, juxtaposition, synectics; conventions associated with heroic, narrative, naturalistic, propaganda, realistic, and satirical art), and explain how they are used in different types of art works",
+              "text_html": "<p>demonstrate an understanding of a variety of conventions used in visual arts <em>(e.g., allegory, expressive exaggeration, juxtaposition, synectics; conventions associated with heroic, narrative, naturalistic, propaganda, realistic, and satirical art)</em>, and explain how they are used in different types of art works</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why is allegory often used in propaganda art or works of social or political criticism?",
+                  "text_html": "<ul>\n  <li>Why is allegory often used in propaganda art or works of social or political criticism?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of responsible practices related to visual arts",
+          "text_html": "<p>demonstrate an understanding of responsible practices related to visual arts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "demonstrate an understanding of legal and ethical issues related to the appropriation of images, materials, or ideas, or to the display of art works (e.g., issues related to censorship, to the appropriate and inappropriate display of art works), and apply legal and ethical practices when appropriating images, materials, and/or ideas to create art works (e.g., provide a suitable credit to the original artist when appropriating images and/or ideas; show sensitivity in the use of images or conventions associated with other cultures)",
+              "text_html": "<p>demonstrate an understanding of legal and ethical issues related to the appropriation of images, materials, or ideas, or to the display of art works <em>(e.g., issues related to censorship, to the appropriate and inappropriate display of art works), </em>and apply legal and ethical practices when appropriating images, materials, and/or ideas to create art works <em>(e.g., provide a suitable credit to the original artist when appropriating images and/or ideas; show sensitivity in the use of images or conventions associated with other cultures)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "demonstrate an understanding of health and safety issues and conscientious practices associated with the use of materials, property, techniques, tools, and technologies in visual arts (e.g., the appropriate use of aerosol products, utility knives, printing presses, electrical tools, computers; appropriate precautions to take when exposed to physical and chemical hazards), and apply these practices when creating and/or presenting art works",
+              "text_html": "<p>demonstrate an understanding of health and safety issues and conscientious practices associated with the use of materials, property, techniques, tools, and technologies in visual arts <em>(e.g., the appropriate use of aerosol products, utility knives, printing presses, electrical tools, computers; appropriate precautions to take when exposed to physical and chemical hazards)</em>, and apply these practices when creating and/or presenting art works</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "demonstrate an understanding of how the production and presentation of art works can affect the environment (e.g., in small groups, prepare a role play to illustrate the environmental consequences of improper use or disposal of hazardous or toxic materials), and apply environmentally responsible practices when creating, presenting, and promoting art works",
+              "text_html": "<p>demonstrate an understanding of how the production and presentation of art works can affect the environment <em>(e.g., in small groups, prepare a role play to illustrate the environmental consequences of improper use or disposal of hazardous or toxic materials)</em>, and apply environmentally responsible practices when creating, presenting, and promoting art works</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why is it important to know the source and content of the materials and media you are using?\n  What types of materials should you avoid using in your art works because their sourcing, processing, and/or disposal can damage the environment?",
+                  "text_html": "<ul>\n  <li>Why is it important to know the source and content of the materials and media you are using?</li>\n  <li>What types of materials should you avoid using in your art works because their sourcing, processing, and/or disposal can damage the environment?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

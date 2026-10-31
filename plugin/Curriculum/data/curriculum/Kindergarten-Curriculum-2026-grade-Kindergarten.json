@@ -1,0 +1,1535 @@
+{
+  "code": "",
+  "name": "Kindergarten Curriculum (2026)",
+  "grades": [
+    "Kindergarten"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Kindergarten",
+  "subject_group": "Kindergarten",
+  "description": "",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/kindergarten/courses/jk-sk",
+  "source_codename": "kindergarten",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Foundations of Language and Mathematics",
+      "describer": "As students progress through Kindergarten, they:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Oral and Non-Verbal Communication",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "communicate orally and non-verbally",
+          "text_html": "<p>communicate <a data-item-id=\"e5b746fe-dce0-41b1-bf2e-ef222883e8f7\" href=\"\">orally</a> and <a data-item-id=\"f89ebef6-2556-4a22-af8c-eaf82a9657e7\" href=\"\">non-verbally</a>&nbsp;</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "listen and respond",
+              "text_html": "<p>listen and respond</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "share ideas and explain their thinking about a math problem \n  express their feelings while engaged in games with other students \n  offer their opinions while engaged in scientific observations outdoors \n  collaborate with a group while creating artwork",
+                  "text_html": "<ul>\n  <li>share ideas and explain their thinking about a math problem&nbsp;</li>\n  <li>express their feelings while engaged in games with other students&nbsp;</li>\n  <li>offer their opinions while engaged in scientific observations outdoors&nbsp;</li>\n  <li>collaborate with a group while creating artwork&nbsp;&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "use language conventions and non-verbal communication",
+              "text_html": "<p>use <a data-item-id=\"db132687-eee3-453f-9ecf-3732a0199cf7\" href=\"\">language conventions</a> and non-verbal communication&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Language conventions:  \n\n  use simple declarative sentences and conjunctions (e.g., and) to explain their thinking, reflect, and problem solve  \n  use simple interrogative sentences to ask a variety of questions \n  use simple exclamatory sentences to sustain interactions with other students and adults during group activities \n  contribute to whole-class discussions using a combination of sentence structures in their first language(s) and the language of instruction  \n\nNon-verbal communication: \n\n  ensure they have the audience’s attention before they start speaking \n  use facial expressions that match the content of their message \n  use gestures to describe the size of an object they built \n  vary rhythm and tone of voice when dramatizing or retelling information",
+                  "text_html": "<p><strong>Language conventions:&nbsp;</strong>&nbsp;</p>\n<ul>\n  <li>use simple <a data-item-id=\"6e50c21b-deaa-4f10-a39b-597b62d0cd1b\" href=\"\">declarative sentences</a> and conjunctions (e.g., <em>and</em>) to explain their thinking, reflect, and problem solve&nbsp;&nbsp;</li>\n  <li>use simple <a data-item-id=\"6e50c21b-deaa-4f10-a39b-597b62d0cd1b\" href=\"\">interrogative sentences</a> to ask a variety of questions&nbsp;</li>\n  <li>use simple <a data-item-id=\"6e50c21b-deaa-4f10-a39b-597b62d0cd1b\" href=\"\">exclamatory sentences</a> to sustain interactions with other students and adults during group activities&nbsp;</li>\n  <li>contribute to whole-class discussions using a combination of <a data-item-id=\"0bcf988d-83c8-4fbc-bb1d-25c951c0414b\" href=\"\">sentence structures</a> in their first language(s) and the language of instruction&nbsp;&nbsp;</li>\n</ul>\n<p><strong>Non-verbal communication:</strong>&nbsp;</p>\n<ul>\n  <li>ensure they have the audience’s attention before they start speaking&nbsp;</li>\n  <li>use facial expressions that match the content of their message&nbsp;</li>\n  <li>use gestures to describe the size of an object they built&nbsp;</li>\n  <li>vary rhythm and <a data-item-id=\"c9583855-8a6e-4561-ba4d-38dc986d636f\" href=\"\">tone</a> of voice when dramatizing or retelling information&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "understand and use new words and develop morphological awareness",
+              "text_html": "<p>understand and use new words and develop <a data-item-id=\"52ef1d0c-b3a5-4e9a-a39d-80b1009d64f4\" href=\"\">morphological awareness</a>&nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Foundations for Reading and Writing",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "apply early reading and writing skills",
+          "text_html": "<p>apply early reading and writing skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "name upper- and lowercase letters (both in and out of order)",
+              "text_html": "<p>name upper- and lowercase letters (both in and out of order)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "use proper formation patterns to write letters",
+              "text_html": "<p>use proper formation patterns to write letters</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "isolate and blend phonemes, and segment simple words into phonemes",
+              "text_html": "<p>isolate and blend <a data-item-id=\"96cbc559-e7ec-4b6c-b192-bacac323180d\" href=\"\">phonemes</a>, and segment simple words into phonemes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.4",
+              "text": "identify simple grapheme-phoneme correspondences",
+              "text_html": "<p>identify simple <a data-item-id=\"2372bfae-0bfe-474d-95d3-a3193c71581a\" href=\"\">grapheme-phoneme correspondences</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.5",
+              "text": "read and spell simple words using phonemic awareness and phonics knowledge",
+              "text_html": "<p>read and spell simple words using <a data-item-id=\"71315299-49ae-441e-b946-105aca74aff3\" href=\"\">phonemic awareness</a> and <a data-item-id=\"580d6709-1ef7-4669-a5f3-255429fa3fa4\" href=\"\">phonics</a> knowledge</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.6",
+              "text": "read short sentences fluently, including those with explicitly taught words, with increasing accuracy, to support comprehension",
+              "text_html": "<p>read short sentences <a data-item-id=\"dabd509d-b034-4e74-b517-6bbe475d943d\" href=\"\">fluently</a>, including those with explicitly taught words, with increasing accuracy, to support <a data-item-id=\"a2b97c58-dc67-4309-a46e-1293734ef2eb\" href=\"\">comprehension</a></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Understanding and Responding to Texts",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "understand and respond to a variety of texts by diverse creators from Canada and by diverse First Nations, Métis, and Inuit creators",
+          "text_html": "<p>understand and respond to a variety of <a data-item-id=\"d9f68102-7565-438d-8b38-e1228ec1f5e5\" href=\"\">texts</a> by diverse creators from Canada and by diverse First Nations, Métis, and Inuit creators</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "identify purposes for choosing different texts",
+              "text_html": "<p>identify purposes for choosing different texts</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Purposes for choosing texts: \n\n  for information, enjoyment \n\nTexts: \n\n  oral stories, labels, picture books, cultural texts (e.g., oral teachings, songs)",
+                  "text_html": "<p><strong>Purposes for choosing texts:</strong>&nbsp;</p>\n<ul>\n  <li>for information, enjoyment&nbsp;</li>\n</ul>\n<p><strong>Texts:</strong>&nbsp;</p>\n<ul>\n  <li>oral stories, labels, picture books, <a data-item-id=\"fb7edbed-0c87-4a1a-b4d3-5698197ae0fa\" href=\"\">cultural texts</a> (e.g., oral teachings, songs)&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "apply knowledge of words, sentence structure, and punctuation",
+              "text_html": "<p>apply knowledge of words, <a data-item-id=\"0bcf988d-83c8-4fbc-bb1d-25c951c0414b\" href=\"\">sentence structure</a>, and <a data-item-id=\"a2ead076-9a03-4368-9275-e44402a47840\" href=\"\">punctuation</a>&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "recognize directionality of print in English – how it is read from left to right and from top to bottom \n  recognize that print uses letters, words, spaces between words, and sentences \n  understand that sentences begin with a capital letter and end with a period, question mark, or exclamation mark",
+                  "text_html": "<ul>\n  <li>recognize directionality of print in English – how it is read from left to right and from top to bottom&nbsp;</li>\n  <li>recognize that print uses letters, words, spaces between words, and sentences&nbsp;</li>\n  <li>understand that sentences begin with a capital letter and end with a period, question mark, or exclamation mark&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "read and understand simple texts, using background knowledge and beginning knowledge of words, grammar, and sentence structure",
+              "text_html": "<p>read and understand simple texts, using background knowledge and beginning knowledge of words, grammar, and sentence structure&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use their background knowledge to understand the topic of a new text \n  use their known vocabulary to understand the meaning of a text \n  use their knowledge of how words are ordered within sentences to understand a text",
+                  "text_html": "<ul>\n  <li>use their background knowledge to understand the topic of a new text&nbsp;</li>\n  <li>use their known vocabulary to understand the meaning of a text&nbsp;</li>\n  <li>use their knowledge of how words are ordered within sentences to understand a text&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.4",
+              "text": "express personal thoughts and feelings about texts",
+              "text_html": "<p>express personal thoughts and feelings about texts</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "in response to listening to a story about communities, describe the people and places that make their community special  \n  in response to viewing a short video about caring for the land, paint or draw pictures to show how they care for plants and animals in the schoolyard \n  in response to reading a poem about snow, choose specific words to describe how the poem captured the beauty of snow and the joy it brings",
+                  "text_html": "<ul>\n  <li>in response to listening to a story about communities, describe the people and places that make their community special&nbsp;&nbsp;</li>\n  <li>in response to <a data-item-id=\"0564cd39-f7b1-4f13-9214-a3cff5e03e7a\" href=\"\">viewing</a> a short video about caring for the land, paint or draw pictures to show how they care for plants and animals in the schoolyard&nbsp;</li>\n  <li>in response to reading a poem about snow, <a data-item-id=\"3e82bbba-f4d1-4280-b387-2e4e53112b76\" href=\"\">choose specific words</a> to describe how the poem captured the beauty of snow and the joy it brings&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.5",
+              "text": "make predictions about unfamiliar texts, using background knowledge",
+              "text_html": "<p>make predictions about unfamiliar texts, using background knowledge</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use the cover picture and/or title to determine the topic and/or text form \n  use illustrations to predict what might happen next in a story \n  use their prior knowledge of familiar texts, knowledge of the world around them, and educator-taught background knowledge to understand a new text",
+                  "text_html": "<ul>\n  <li>use the cover picture and/or title to determine the topic and/or <a data-item-id=\"a1f8f102-a472-400b-bdc8-7593405f4009\" href=\"\">text form</a>&nbsp;</li>\n  <li>use illustrations to predict what might happen next in a story&nbsp;</li>\n  <li>use their prior knowledge of familiar texts, knowledge of the world around them, and educator-taught background knowledge to understand a new text&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.6",
+              "text": "make connections to a variety of texts",
+              "text_html": "<p>make connections to a variety of texts</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Making connections: \n\n  to new experiences \n  to stories shared by Elders and/or Knowledge Keepers \n  to events in the world around them",
+                  "text_html": "<p><strong>Making connections:</strong>&nbsp;</p>\n<ul>\n  <li>to new experiences&nbsp;</li>\n  <li>to stories shared by <a data-item-id=\"a641a898-f33e-43a7-b41c-f7db6e0e4ee0\" href=\"\">Elders</a> and/or <a data-item-id=\"37731a85-0781-4aa1-9334-c748ff7bb8a6\" href=\"\">Knowledge Keepers</a>&nbsp;</li>\n  <li>to events in the world around them&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Expressing Ideas and Creating Texts",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "create texts using foundational language knowledge and skills",
+          "text_html": "<p>create <a data-item-id=\"d9f68102-7565-438d-8b38-e1228ec1f5e5\" href=\"\">texts</a> using foundational language knowledge and skills&nbsp;&nbsp;</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use knowledge of letters, words, and sentences, with pictures and symbols, to create simple texts",
+              "text_html": "<p>use knowledge of letters, words, and sentences, with pictures and symbols, to create simple texts&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "record observations during an investigation and/or to document wonderings in a learning area \n  write about an outdoor experience (e.g., a nature walk), using known words and/or simple sentences, and draw pictures to accompany the text",
+                  "text_html": "<ul>\n  <li>record observations during an investigation and/or to document wonderings in a learning area&nbsp;</li>\n  <li>write about an outdoor experience (e.g., a nature walk), using known words and/or simple sentences, and draw pictures to accompany the text&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A4.2",
+              "text": "use classroom writing resources to support creating simple texts",
+              "text_html": "<p>use classroom writing resources to support creating simple texts</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Classroom writing resources: \n\n  word lists of nouns, verbs, and adjectives used repeatedly in shared or interactive writing experiences \n  alphabet cards \n\nSimple texts: \n\n  a grocery list  \n  a birthday card for a friend \n  a picture graph illustrating students’ favourite foods",
+                  "text_html": "<p><strong>Classroom writing resources:</strong>&nbsp;</p>\n<ul>\n  <li>word lists of nouns, verbs, and adjectives used repeatedly in shared or interactive writing experiences&nbsp;</li>\n  <li>alphabet cards&nbsp;</li>\n</ul>\n<p><strong>Simple texts:</strong>&nbsp;</p>\n<ul>\n  <li>a grocery list&nbsp;&nbsp;</li>\n  <li>a birthday card for a friend&nbsp;</li>\n  <li>a picture graph illustrating students’ favourite foods&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A5",
+          "title": "The Mathematical Processes",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "apply the mathematical processes (i.e., problem solving; reasoning and proving; reflecting; connecting; communicating; representing; and selecting tools and strategies)",
+          "text_html": "<p>apply the mathematical processes (i.e., problem solving; reasoning and proving; reflecting; connecting; communicating; representing; and selecting <a data-item-id=\"9fafde09-56f5-4cd0-b5ba-4c791d9ff60d\" href=\"\">tools</a> and strategies)</p>",
+          "transferable_skills": [],
+          "supports": [],
+          "specific_expectations": []
+        },
+        {
+          "index": "A6",
+          "title": "Number Sense and Operations",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "use numbers and operations",
+          "text_html": "<p>use numbers and <a data-item-id=\"1543c3b4-6e0d-414f-97c6-e2b8db58c7f4\" href=\"\">operations</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A6.1",
+              "text": "explore what numbers are used for",
+              "text_html": "<p>explore what numbers are used for&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Different uses of numbers:\n\n  to indicate quantity or cardinality: a student uses magnetic and sandpaper numerals to represent the number of objects in a set  \n  to indicate ordinality: a student lines up toys and manipulatives, and identifies the first, second, and so on \n  to label or name: “My favourite player is number 24.”",
+                  "text_html": "<p><strong>Different uses of numbers:</strong></p>\n<ul>\n  <li><strong>to indicate </strong><a data-item-id=\"d76be6f8-b4d0-429b-b290-5a32dd2ca46f\" href=\"\"><strong>quantity</strong></a><strong> or </strong><a data-item-id=\"27a94269-a954-473a-a88c-e8a50740dec2\" href=\"\"><strong>cardinality</strong></a><strong>:</strong> a student uses magnetic and sandpaper <a data-item-id=\"87e6ba58-bb95-4457-a0c1-1e3bc8762e7c\" href=\"\">numerals</a> to <a data-item-id=\"e10f9d26-63fe-40fa-b0a9-d5d78ab87c29\" href=\"\">represent</a> the number of objects in a set&nbsp;&nbsp;</li>\n  <li><strong>to indicate </strong><a data-item-id=\"441a7fb2-0754-432d-ad0a-ea644fdbf884\" href=\"\"><strong>ordinality</strong></a><strong>:</strong> a student lines up toys and <a data-item-id=\"f41067dd-646a-4261-9b5b-75cf249a2474\" href=\"\">manipulatives</a>, and identifies the first, second, and so on&nbsp;</li>\n  <li><strong>to label or name: </strong>“My favourite player is number 24.”</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.2",
+              "text": "understand when counting forward, the quantity gets bigger and when counting backward, the quantity gets smaller",
+              "text_html": "<p>understand when <a data-item-id=\"59780896-202e-45e6-a57e-3104343e504f\" href=\"\">counting</a> forward, the quantity gets bigger and when counting backward, the quantity gets smaller&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Tools to support an understanding of the relationship between quantity and a number’s placement in a counting sequence: \n\n  walkable number paths  \n  concrete vertical number paths built with stacking blocks or connecting cubes \n  number path games and board games with numbered squares",
+                  "text_html": "<p><a data-item-id=\"9fafde09-56f5-4cd0-b5ba-4c791d9ff60d\" href=\"\"><strong>Tools</strong></a><strong> to support an understanding of the </strong><a data-item-id=\"f5b5e0bf-653d-4263-ba73-b428aac3b197\" href=\"\"><strong>relationship</strong></a><strong> between quantity and a number’s placement in a counting sequence:</strong>&nbsp;</p>\n<ul>\n  <li>walkable <a data-item-id=\"c1ebba09-ece2-416f-a787-b9301f868704\" href=\"\">number paths</a>&nbsp;&nbsp;</li>\n  <li><a data-item-id=\"89aa4079-d955-4a9e-a251-85ace4ec0459\" href=\"\">concrete</a> vertical number paths built with stacking blocks or <a data-item-id=\"9f6cd997-76de-4e18-97fd-6a80f97c7211\" href=\"\">connecting cubes</a>&nbsp;</li>\n  <li>number path games and board games with numbered squares&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.3",
+              "text": "identify and write numbers to 20",
+              "text_html": "<p>identify and write numbers to 20&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Identifying numbers: \n\n  recognizing numbers represented with numerals and concrete representations, including those using fingers or manipulatives, five and ten frames, rekenreks, and bead strings \n\nNumbers: \n\n  identifying and recording numbers found throughout the indoor and outdoor environments",
+                  "text_html": "<p><strong>Identifying numbers:</strong>&nbsp;</p>\n<ul>\n  <li>recognizing numbers represented with numerals and concrete representations, including those using fingers or <a data-item-id=\"f41067dd-646a-4261-9b5b-75cf249a2474\" href=\"\">manipulatives</a>, <a data-item-id=\"85e08a72-8028-4dd5-86ec-83a1a1cd2868\" href=\"\">five</a> and <a data-item-id=\"9a7dba7f-2065-4496-9d64-22d8c4969249\" href=\"\">ten frames</a>, <a data-item-id=\"650b578e-d28b-43f3-804d-21f7884edacf\" href=\"\">rekenreks</a>, and bead strings&nbsp;</li>\n</ul>\n<p><strong>Numbers:</strong>&nbsp;</p>\n<ul>\n  <li>identifying and recording numbers found throughout the indoor and outdoor environments&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.4",
+              "text": "subitize quantities to 5",
+              "text_html": "<p><a data-item-id=\"73c9199c-1c8e-4eba-a2d0-a78139f75a19\" href=\"\">subitize</a> quantities to 5&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Materials and strategies to develop subitizing skills:\n\n  dominoes, single-colour dot cards/plates, two-colour dot cards/plates, dice, five and ten frames, playing cards, and fingers\n  games with dice, playing cards, or dot cards",
+                  "text_html": "<p><strong>Materials and strategies to develop subitizing skills:</strong></p>\n<ul>\n  <li>dominoes, single-colour dot cards/<a data-item-id=\"859c0584-44a1-4c30-97a3-b467f0ff7559\" href=\"\">plates</a>, two-colour dot cards/plates, dice, five and ten frames, playing cards, and fingers</li>\n  <li>games with dice, playing cards, or dot cards</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.5",
+              "text": "compose and decompose quantities to 10",
+              "text_html": "<p><a data-item-id=\"5302f040-05d5-4eb2-85d9-6db22b930f84\" href=\"\">compose</a> and <a data-item-id=\"030ef6da-0fbb-489d-a16f-bc3cb1c98b39\" href=\"\">decompose</a> quantities to 10</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Materials and strategies to develop composing and decomposing skills:\n\n  make multiple representations of numbers using two colours of connecting cubes, blocks, counters in five and ten frames, rekenreks, playing cards, and other manipulatives\n  do activities that involve part-whole and missing-part relationships, including Shake and Spill with two-colour counters and Race to 10 using a ten frame, counters, and a spinner",
+                  "text_html": "<p><strong>Materials and strategies to develop composing and decomposing skills:</strong></p>\n<ul>\n  <li>make multiple representations of numbers using two colours of <a data-item-id=\"9f6cd997-76de-4e18-97fd-6a80f97c7211\" href=\"\">connecting cubes</a>, blocks, counters in five and ten frames, rekenreks, playing cards, and other manipulatives</li>\n  <li>do activities that involve part-whole and missing-part relationships, including Shake and Spill with two-colour counters and Race to 10 using a ten frame, counters, and a spinner</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.6",
+              "text": "understand the concept of more than, the same (equal), or less than",
+              "text_html": "<p>understand the concept of more than, the same (equal), or less than&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Materials and strategies for investigating relationships between quantities: \n\n  use concrete materials and tools, including rekenreks and counters with five and ten frames  \n  use matching and counting strategies to find out which of two cups contains more buttons",
+                  "text_html": "<p><strong>Materials and strategies for investigating relationships between quantities:</strong>&nbsp;</p>\n<ul>\n  <li>use concrete materials and tools, including rekenreks and counters with five and ten frames&nbsp;&nbsp;</li>\n  <li>use matching and counting strategies to find out which of two cups contains more buttons</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.7",
+              "text": "estimate the number of objects in small collections and check by counting",
+              "text_html": "<p><a data-item-id=\"518bbd81-7777-46c8-8765-e9ec307f5982\" href=\"\">estimate</a> the number of objects in small collections and check by counting<strong>&nbsp;</strong>&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Estimation strategies:\n\n  use a common referent, such as a five or ten frame, to make comparisons, such as “Is the quantity closer to 5 or 10?”\n  estimate the quantity of an unknown collection by comparing it to a benchmark (known) collection\n  use conceptual subitizing strategies for small quantities",
+                  "text_html": "<p><strong>Estimation strategies:</strong></p>\n<ul>\n  <li>use a common referent, such as a five or ten frame, to make comparisons, such as “Is the quantity closer to 5 or 10?”</li>\n  <li>estimate the quantity of an unknown collection by comparing it to a <a data-item-id=\"994e9cc0-536c-43f5-9802-401dc05b2bf2\" href=\"\">benchmark</a> (known) collection</li>\n  <li>use <a data-item-id=\"ef86efb5-bc52-4624-93d3-8b71be740d09\" href=\"\">conceptual subitizing</a> strategies for small quantities</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.8",
+              "text": "count to 20 by 1s, starting from any number",
+              "text_html": "<p>count to 20 by 1s, starting from any number</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use songs, rhymes, chants, and/or speaking to explore number and counting sequences",
+                  "text_html": "<ul>\n  <li>use songs, rhymes, chants, and/or speaking to explore number and counting sequences&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.9",
+              "text": "solve equal-share problems using concrete materials",
+              "text_html": "<p>solve <a data-item-id=\"a9c11419-e2f7-407e-b802-187cacb93b8f\" href=\"\">equal-share problems</a> using concrete materials&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Equal-share problem: \n\n  There are 4 stickers and 2 friends. How many stickers will each friend get if they share the stickers equally?",
+                  "text_html": "<p><strong>Equal-share problem:</strong>&nbsp;</p>\n<ul>\n  <li>There are 4 stickers and 2 friends. How many stickers will each friend get if they share the stickers equally?&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.10",
+              "text": "describe relationships between any two numbers from 0 to 20",
+              "text_html": "<p>describe relationships between any two numbers from 0 to 20&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Number relationships: \n\n  greater than or less than, one and two more/less \n\nTools for identifying number relationships: \n\n  five and ten frames, rekenreks, part-whole models such as two-colour dot cards \n\nStrategies for identifying number relationships: \n\n  use tally marks  \n  count on fingers \n  use the benchmarks 5 and 10 \n  make a 5 and a 10 using concrete materials",
+                  "text_html": "<p><strong>Number relationships:</strong>&nbsp;</p>\n<ul>\n  <li>greater than or less than, one and two more/less&nbsp;</li>\n</ul>\n<p><strong>Tools for identifying number relationships:</strong>&nbsp;</p>\n<ul>\n  <li>five and ten frames, rekenreks, part-whole models such as two-colour dot cards&nbsp;</li>\n</ul>\n<p><strong>Strategies for identifying number relationships:</strong>&nbsp;</p>\n<ul>\n  <li>use tally marks&nbsp;&nbsp;</li>\n  <li>count on fingers&nbsp;</li>\n  <li>use the benchmarks 5 and 10&nbsp;</li>\n  <li>make a 5 and a 10 using concrete materials&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.11",
+              "text": "recall addition facts to 5 and related subtraction facts",
+              "text_html": "<p>recall <a data-item-id=\"c2c2b75b-b85e-43cc-89f1-1b03d2cf2665\" href=\"\">addition</a> <a data-item-id=\"b06b00c5-08a9-4bae-a8ba-a0dc12a26a38\" href=\"\">facts</a> to 5 and related <a data-item-id=\"c122375f-93be-43e5-8123-d5b6ae0103a8\" href=\"\">subtraction</a> facts</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Developing addition facts: \n\n  play number memory games using dot cards/plates that go up to 5 and have dots in two colours  \n  introduce strategies of “one or two more”, counting on, and “doubles” \n\nDeveloping subtraction facts: \n\n  play games with a given whole and a missing part \n  introduce strategies of “one or two less” and counting back",
+                  "text_html": "<p><strong>Developing addition facts:</strong>&nbsp;</p>\n<ul>\n  <li>play number memory games using dot cards/plates that go up to 5 and have dots in two colours&nbsp;&nbsp;</li>\n  <li>introduce strategies of “one or two more”, <a data-item-id=\"5bd9a6e9-8b31-4b2b-932c-0c8894e2d89a\" href=\"\">counting on</a>, and <a data-item-id=\"b1b84b42-e861-4752-933e-eb9ba166c807\" href=\"\">“doubles”&nbsp;</a></li>\n</ul>\n<p><strong>Developing subtraction facts:</strong>&nbsp;</p>\n<ul>\n  <li>play games with a given whole and a missing part&nbsp;</li>\n  <li>introduce strategies of “one or two less” and counting back&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.12",
+              "text": "solve situations involving addition and subtraction to 10 using concrete materials",
+              "text_html": "<p>solve situations involving addition and subtraction to 10 using concrete materials&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Situations: \n\n  join problems: A friend has 2 apples. You give her 1 more. How many apples does she have? \n  separating problems: You have 5 apples. You give 1 to a friend. How many apples do you have now? \n  part-whole problems: You have 7 apples. Five of them are red and the rest are green. How many green apples do you have? \n  compare problems: You have 8 apples. Your friend has 4 apples. Who has more? By how much? \n\nTools and strategies: \n\n  use five and ten frames, connecting cubes, rekenreks, number paths, or fingers to represent the quantities in the situation \n  act out the situation using strategies such as counting all, counting on, counting back, or finding the difference (for subtraction) \n  use one and two more/less  \n  use the benchmarks 5 and 10",
+                  "text_html": "<p><strong>Situations:</strong>&nbsp;</p>\n<ul>\n  <li><strong>join problems:</strong> A friend has 2 apples. You give her 1 more. How many apples does she have?&nbsp;</li>\n  <li><strong>separating problems:</strong> You have 5 apples. You give 1 to a friend. How many apples do you have now?&nbsp;</li>\n  <li><strong>part-whole problems:</strong> You have 7 apples. Five of them are red and the rest are green. How many green apples do you have?&nbsp;</li>\n  <li><strong>compare problems:</strong> You have 8 apples. Your friend has 4 apples. Who has more? By how much?&nbsp;</li>\n</ul>\n<p><strong>Tools and strategies:</strong>&nbsp;</p>\n<ul>\n  <li>use five and ten frames, connecting cubes, rekenreks, number paths, or fingers to represent the quantities in the situation&nbsp;</li>\n  <li>act out the situation using strategies such as <a data-item-id=\"9de06a52-1082-44c1-85af-a6b403138f84\" href=\"\">counting all</a>, counting on, <a data-item-id=\"5d08781c-3e01-437c-b9ff-b354c2c2ada3\" href=\"\">counting back</a>, or finding the difference (for subtraction)&nbsp;</li>\n  <li>use one and two more/less&nbsp;&nbsp;</li>\n  <li>use the benchmarks 5 and 10&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A6.13",
+              "text": "identify and explore the value of Canadian coins to 25¢ and coins and bills to $10",
+              "text_html": "<p>identify and explore the value of Canadian coins to 25¢ and coins and bills to $10</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use sorting trays or hoops for organizing coin manipulatives and play money",
+                  "text_html": "<ul>\n  <li>use sorting trays or hoops for organizing coin manipulatives and play money&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A7",
+          "title": "Patterns and Relationships",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "investigate repeating patterns",
+          "text_html": "<p>investigate <a data-item-id=\"f45781e4-0a8f-4eff-a62b-7fde9f5c68f5\" href=\"\">repeating patterns</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A7.1",
+              "text": "identify, describe, and create patterns",
+              "text_html": "<p>identify, describe, and create <a data-item-id=\"e98d801e-e24d-4ce4-92aa-e16b3fec55ee\" href=\"\">patterns</a></p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "with movements: “step forward–step back–step right–step left, step forward–step back–step right–step left, step forward–step back–step right–step left” \n  with colour: “red–yellow–blue, red–yellow–blue, red–yellow–blue” \n  with sounds: “loud–soft–soft–soft, loud–soft–soft–soft, loud–soft–soft–soft” \n  with concrete materials: “big triangle–small triangle, big triangle–small triangle, big triangle–small triangle” \n  with code: “up 2–right 3–down 4, up 2–right 3–down 4, up 2–right 3–down 4”",
+                  "text_html": "<ul>\n  <li><strong>with movements:</strong> “step forward–step back–step right–step left, step forward–step back–step right–step left, step forward–step back–step right–step left”&nbsp;</li>\n  <li><strong>with colour:</strong> “red–yellow–blue, red–yellow–blue, red–yellow–blue”&nbsp;</li>\n  <li><strong>with sounds:</strong> “loud–soft–soft–soft, loud–soft–soft–soft, loud–soft–soft–soft”&nbsp;</li>\n  <li><strong>with </strong><a data-item-id=\"89aa4079-d955-4a9e-a251-85ace4ec0459\" href=\"\"><strong>concrete materials</strong></a><strong>:</strong> “big triangle–small triangle, big triangle–small triangle, big triangle–small triangle”&nbsp;</li>\n  <li><strong>with </strong><a data-item-id=\"5a2bd1e8-1b4e-40cb-be5a-16445e74d7ec\" href=\"\"><strong>code</strong></a><strong>:</strong> “up 2–right 3–down 4, up 2–right 3–down 4, up 2–right 3–down 4”</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A7.2",
+              "text": "identify the core of a repeating pattern and describe why it is important",
+              "text_html": "<p>identify the <a data-item-id=\"cb13a168-7a7e-4884-b7dc-a19237f9bae4\" href=\"\">core</a> of a repeating pattern and describe why it is important</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "for the pattern “snap–snap–clap, snap–snap–clap, snap–snap–clap”, the core is “snap–snap–clap” or AAB",
+                  "text_html": "<ul>\n  <li>for the pattern “snap–snap–clap, snap–snap–clap, snap–snap–clap”, the core is “snap–snap–clap” or AAB&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A7.3",
+              "text": "show that patterns can be represented in different ways because the core remains the same",
+              "text_html": "<p>show that patterns can be <a data-item-id=\"e10f9d26-63fe-40fa-b0a9-d5d78ab87c29\" href=\"\">represented</a> in different ways because the core remains the same&nbsp;&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "re-represent “red–blue–blue, red–blue–blue, red–blue–blue” as “circle–square–square, circle–square–square, circle–square–square”, and explain that both pattern cores have the form ABB",
+                  "text_html": "<ul>\n  <li>re-represent “red–blue–blue, red–blue–blue, red–blue–blue” as “circle–square–square, circle–square–square, circle–square–square”, and explain that both pattern cores have the form ABB&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A7.4",
+              "text": "extend patterns in both directions and identify any missing elements",
+              "text_html": "<p>extend patterns in both directions and identify any missing <a data-item-id=\"641d02bc-86fe-4d1c-801e-35e7ccc34ebd\" href=\"\">elements</a></p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "given the pattern green–yellow–blue, green–yellow–blue, green–yellow–blue \n    \n      what element comes next? \n      what element came before? \n    \n  \n  given the pattern 🖤♣️🖤♣️__ ♣️🖤♣️\n    \n      what element is missing?",
+                  "text_html": "<ul>\n  <li>given the pattern green–yellow–blue, green–yellow–blue, green–yellow–blue&nbsp;\n    <ul>\n      <li>what element comes next?&nbsp;</li>\n      <li>what element came before?&nbsp;</li>\n    </ul>\n  </li>\n  <li>given the pattern 🖤♣️🖤♣️__ ♣️🖤♣️\n    <ul>\n      <li>what element is missing?&nbsp;</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A8",
+          "title": "Data Literacy and Probability",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "collect and display data to answer questions and communicate information, and explore probability in everyday contexts",
+          "text_html": "<p>collect and display <a data-item-id=\"43a42914-c54b-4916-967b-949b304cbde6\" href=\"\">data</a> to answer questions and communicate information, and explore <a data-item-id=\"a340f902-da16-4082-9e2a-47bc03ad4879\" href=\"\">probability</a> in everyday contexts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A8.1",
+              "text": "sort objects or data using one attribute",
+              "text_html": "<p>sort objects or data using one <a data-item-id=\"a4935636-bc6a-4b96-968e-8a9637b35d29\" href=\"\">attribute</a></p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "sort natural materials that they have collected by size, colour, shape, type, texture, thickness, quantity, and so on",
+                  "text_html": "<ul>\n  <li>sort natural materials that they have collected by size, colour, shape, type, texture, thickness, quantity, and so on</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A8.2",
+              "text": "collect and record data to answer questions of interest, and display it in concrete graphs or picture graphs",
+              "text_html": "<p>collect and record data to answer questions of interest, and display it in <a data-item-id=\"48d7ad72-e194-426c-9e2e-9a73174c50d9\" href=\"\">concrete graphs</a> or picture graphs&nbsp;&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Ways to collect data: \n\n  observations, experiments, interviews/surveys \n\nQuestions of interest: \n\n  “What birds will come to the bird feeder during outdoor learning? How many of the birds were robins?” (observation) \n  “How many blocks can you add to your small tinfoil boat before it sinks?” (experiment) \n  “What should we fill our sensory table with today?” (interview/survey) \n\nConcrete graphs: \n\n  people graphs \n  stacking blocks \n  connecting cubes",
+                  "text_html": "<p><strong>Ways to collect data:</strong>&nbsp;</p>\n<ul>\n  <li>observations, experiments, interviews/surveys&nbsp;</li>\n</ul>\n<p><strong>Questions of interest:</strong>&nbsp;</p>\n<ul>\n  <li>“What birds will come to the bird feeder during outdoor learning? How many of the birds were robins?” (observation)&nbsp;</li>\n  <li>“How many blocks can you add to your small tinfoil boat before it sinks?” (experiment)&nbsp;</li>\n  <li>“What should we fill our sensory table with today?” (interview/survey)&nbsp;</li>\n</ul>\n<p><strong>Concrete graphs:</strong>&nbsp;</p>\n<ul>\n  <li>people graphs&nbsp;</li>\n  <li>stacking blocks&nbsp;</li>\n  <li>connecting cubes&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A8.3",
+              "text": "respond to data in concrete graphs and picture graphs by interpreting it and drawing conclusions",
+              "text_html": "<p>respond to data in concrete graphs and picture graphs by interpreting it and drawing conclusions&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Interpreting data in graphs:  \n\n  “There are more students in the apple line than in the banana line.” \n  “The tower for the January snowy days is higher than the February tower.” \n\nDrawing conclusions: \n\n  “We need to order more apples than bananas for play day.” \n  “January had more snowy days than February.”",
+                  "text_html": "<p><strong>Interpreting data in </strong><a data-item-id=\"ab09ac1f-d139-4ff7-98ef-8642abd98d4c\" href=\"\"><strong>graphs</strong></a><strong>:&nbsp;</strong>&nbsp;</p>\n<ul>\n  <li>“There are more students in the apple line than in the banana line.”&nbsp;</li>\n  <li>“The tower for the January snowy days is higher than the February tower.”&nbsp;</li>\n</ul>\n<p><strong>Drawing conclusions:</strong>&nbsp;</p>\n<ul>\n  <li>“We need to order more apples than bananas for play day.”&nbsp;</li>\n  <li>“January had more snowy days than February.”&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A8.4",
+              "text": "describe how likely familiar events are to happen",
+              "text_html": "<p>describe how likely familiar <a data-item-id=\"9049bcdf-44b4-413f-b3cd-c7d698209fa5\" href=\"\">events</a> are to happen</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use everyday language to describe likelihood: \n    \n      “It will probably rain today because there are dark clouds in the sky.” \n    \n  \n  use mathematical language (possible/impossible/certain) to describe likelihood: \n    \n      “It’s impossible for me to pull out a blue block because there are only yellow and red blocks left in the bag.”",
+                  "text_html": "<ul>\n  <li>use everyday language to describe <a data-item-id=\"0248709f-e759-4ec5-940f-8cd23a7547fd\" href=\"\">likelihood</a>:&nbsp;\n    <ul>\n      <li>“It will probably rain today because there are dark clouds in the sky.”&nbsp;</li>\n    </ul>\n  </li>\n  <li>use <a data-item-id=\"04b7b525-504f-4da1-8570-3a7bcdee528b\" href=\"\">mathematical language</a> (possible/impossible/certain) to describe likelihood:&nbsp;\n    <ul>\n      <li>“It’s impossible for me to pull out a blue block because there are only yellow and red blocks left in the bag.”&nbsp;</li>\n    </ul>\n  </li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A9",
+          "title": "Geometric and Spatial Reasoning",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "describe two-dimensional shapes and three-dimensional objects, and the location and movement of people and objects",
+          "text_html": "<p>describe <a data-item-id=\"71d7fff5-7138-4228-84f1-01dd3064b739\" href=\"\">two-dimensional shapes</a> and <a data-item-id=\"e7630a4b-4515-48d3-b707-ba88cde6357b\" href=\"\">three-dimensional objects</a>, and the location and movement of people and objects</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A9.1",
+              "text": "identify, sort, and compare the most common two-dimensional shapes, including circle, hexagon, rhombus, and trapezoid",
+              "text_html": "<p>identify, <a data-item-id=\"f6e39bb8-9d0d-44fe-adce-2c6ab9ac848f\" href=\"\">sort</a>, and <a data-item-id=\"3f9403e2-38f3-4a87-8635-68ecefbfe451\" href=\"\">compare</a> the most common two-dimensional shapes, including <a data-item-id=\"cc2ff9f4-3d40-4998-9f23-f0d207381f3d\" href=\"\">circle</a>, <a data-item-id=\"fb5b5874-4224-4c1e-ba16-35ae9200ec54\" href=\"\">hexagon</a>, <a data-item-id=\"490a4a3a-92c6-438a-a4c2-83be4e2c7c87\" href=\"\">rhombus</a>, and <a data-item-id=\"8453f9aa-8d15-4914-b8cb-e31eb6162dfc\" href=\"\">trapezoid</a></p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Ways to sort two-dimensional shapes: \n\n  number of sides and vertices (”corners”) \n  straight or curved sides \n\nWays to compare two-dimensional shapes: \n\n  triangles have 3 sides; squares, rectangles, trapezoids, and rhombuses have 4 sides \n  rectangles have square corners; triangles, trapezoids, and rhombuses might or might not have square corners",
+                  "text_html": "<p><strong>Ways to sort two-dimensional shapes:</strong>&nbsp;</p>\n<ul>\n  <li>number of <a data-item-id=\"f57dfee5-4708-41f6-b71a-712f34f7a211\" href=\"\">sides</a> and <a data-item-id=\"cf307852-63b2-4b58-ab1c-92fbea0eb6c0\" href=\"\">vertices</a> (”corners”)&nbsp;</li>\n  <li>straight or curved sides&nbsp;</li>\n</ul>\n<p><strong>Ways to compare two-dimensional shapes:</strong>&nbsp;</p>\n<ul>\n  <li>triangles have 3 sides; <a data-item-id=\"fbbec6a6-4af4-4f8d-a339-45287fefe1d5\" href=\"\">squares</a>, rectangles, trapezoids, and rhombuses have 4 sides&nbsp;</li>\n  <li>rectangles have square corners; triangles, trapezoids, and rhombuses might or might not have square corners&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A9.2",
+              "text": "identify, sort, and compare the most common three-dimensional objects, including  cube, sphere, prisms, cone, and pyramid",
+              "text_html": "<p>identify, sort, and compare the most common three-dimensional objects, including &nbsp;<a data-item-id=\"729fefd0-d733-4b6c-b195-3c5dedc45616\" href=\"\">cube</a>, <a data-item-id=\"52930687-a103-4f03-a3bd-987442119fda\" href=\"\">sphere</a>, <a data-item-id=\"595429fb-1d0d-4de2-b5d7-c227d5214fe5\" href=\"\">prisms</a>, <a data-item-id=\"739ea835-99dd-48ec-90dc-3ecd5cd5a4bb\" href=\"\">cone</a>, and&nbsp;<a data-item-id=\"75dd8e2a-1da7-42e6-a94a-de30d905c550\" href=\"\">pyramid</a></p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Ways to compare three-dimensional objects: \n\n  number of faces / edges / vertices (“corners”) \n  three-dimensional objects with flat faces can slide; three-dimensional objects with curved faces can roll \n  some three-dimensional objects with flat sides can be stacked",
+                  "text_html": "<p><strong>Ways to compare three-dimensional objects:</strong>&nbsp;</p>\n<ul>\n  <li>number of <a data-item-id=\"96c1bec0-0f56-4087-a525-3d396c1ccc9d\" href=\"\">faces</a> / <a data-item-id=\"20e1a084-ed88-4209-9264-94459eb65d3a\" href=\"\">edges</a> / vertices (“corners”)&nbsp;</li>\n  <li>three-dimensional objects with flat faces can slide; three-dimensional objects with curved faces can roll&nbsp;</li>\n  <li>some three-dimensional objects with flat sides can be stacked&nbsp;&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A9.3",
+              "text": "in structures they have made, identify three-dimensional objects and two-dimensional shapes",
+              "text_html": "<p>in structures they have made, identify three-dimensional objects and two-dimensional shapes&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "identify a cube and notice that the flat surface of the cube is a square \n  identify a cylinder and notice that the base of the cylinder is a circle",
+                  "text_html": "<ul>\n  <li>identify a cube and notice that the flat surface of the cube is a square&nbsp;</li>\n  <li>identify a cylinder and notice that the <a data-item-id=\"0e73276b-7162-4a77-81cb-14543b4bdf76\" href=\"\">base</a> of the cylinder is a circle&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A9.4",
+              "text": "construct two-dimensional pictures and three-dimensional structures with matching halves",
+              "text_html": "<p>construct two-dimensional pictures and three-dimensional structures with matching halves&nbsp;&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use pattern blocks to create a design with matching halves on each side \n  use magnetic tiles to build a tower with matching colours and shapes on each side",
+                  "text_html": "<ul>\n  <li>use pattern blocks to create a design with matching halves on each side&nbsp;</li>\n  <li>use magnetic tiles to build a tower with matching colours and shapes on each side&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A9.5",
+              "text": "put two-dimensional shapes together to make other shapes, break them into smaller shapes, and put them together in different ways",
+              "text_html": "<p>put two-dimensional shapes together to make other shapes, break them into smaller shapes, and put them together in different ways&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Tools and materials for making shapes: \n\n  stickers, geoboards, magnetic tiles, pattern blocks, geometric puzzles, tangrams",
+                  "text_html": "<p><strong>Tools and materials for making shapes:</strong>&nbsp;</p>\n<ul>\n  <li>stickers, geoboards, magnetic tiles, <a data-item-id=\"5b8b07ff-1127-4367-a2fa-5aeef29414ef\" href=\"\">pattern blocks</a>, geometric puzzles, <a data-item-id=\"9c064250-3960-4662-a9aa-ef3c9001f3a6\" href=\"\">tangrams</a>&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A9.6",
+              "text": "describe basic spatial relationships and movements, and visualize objects from different perspectives",
+              "text_html": "<p>describe basic spatial <a data-item-id=\"f5b5e0bf-653d-4263-ba73-b428aac3b197\" href=\"\">relationships</a> and movements, and visualize objects from different <a data-item-id=\"da248d6f-a776-4c86-ae1b-4b55d24e267f\" href=\"\">perspectives</a>&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Spatial relationships: \n\n  “above/below”, “in/out”, “forward/backward”, “in front of / behind”, “next to”, “towards”, “to the left/right” \n\nPerspectives: \n\n  bird’s eye, worm’s eye view",
+                  "text_html": "<p><strong>Spatial relationships:</strong>&nbsp;</p>\n<ul>\n  <li>“above/below”, “in/out”, “forward/backward”, “in front of / behind”, “next to”, “towards”, “to the left/right”&nbsp;</li>\n</ul>\n<p><strong>Perspectives:</strong>&nbsp;</p>\n<ul>\n  <li>bird’s eye, worm’s eye view&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A9.7",
+              "text": "give and follow directions for moving from one location to another",
+              "text_html": "<p>give and follow directions for moving from one location to another&nbsp;&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "develop and describe a sequence of actions to move an object through a maze constructed using arrows or directional cards in coding activities",
+                  "text_html": "<ul>\n  <li>develop and describe a sequence of actions to move an object through a maze constructed using arrows or directional cards in <a data-item-id=\"5a2bd1e8-1b4e-40cb-be5a-16445e74d7ec\" href=\"\">coding</a> activities&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A10",
+          "title": "Measurement",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "describe and compare the length, area, mass, or capacity of a variety of objects",
+          "text_html": "<p>describe and <a data-item-id=\"3f9403e2-38f3-4a87-8635-68ecefbfe451\" href=\"\">compare</a> the length, area, <a data-item-id=\"1668c94b-0a81-4368-a542-9aeb1fa85f13\" href=\"\">mass</a>, or <a data-item-id=\"ed6fdb5b-bb70-4a82-9582-c4da6908be21\" href=\"\">capacity</a> of a variety of objects</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A10.1",
+              "text": "describe different ways that objects can be measured",
+              "text_html": "<p>describe different ways that objects can be measured&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use descriptive vocabulary such as small, big, short, long, tall, light, heavy, narrow, wide \n  when comparing one object to another object, use vocabulary such as longer, shorter, heavier",
+                  "text_html": "<ul>\n  <li>use descriptive vocabulary such as <em>small, big, short, long, tall, light, heavy, narrow, wide</em>&nbsp;</li>\n  <li>when comparing one object to another object, use vocabulary such as <em>longer, shorter, heavier</em>&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A10.2",
+              "text": "compare the length, area, mass, and capacity of objects using concrete materials",
+              "text_html": "<p>compare the length, area, mass, and capacity of objects using <a data-item-id=\"89aa4079-d955-4a9e-a251-85ace4ec0459\" href=\"\">concrete materials</a></p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Strategies for comparing objects: \n\n  objects can be directly compared by matching, covering, or filling one object with the other to determine which has more length, mass, area, or capacity \n  when a direct comparison cannot be easily made, a third object, such as a piece of string, can serve as a “go-between” tool to make an indirect comparison",
+                  "text_html": "<p><strong>Strategies for comparing objects:</strong>&nbsp;</p>\n<ul>\n  <li>objects can be directly compared by matching, covering, or filling one object with the other to determine which has more length, mass, area, or capacity&nbsp;</li>\n  <li>when a direct comparison cannot be easily made, a third object, such as a piece of string, can serve as a “go-between” tool to make an indirect comparison&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Problem Solving and Innovating",
+      "describer": "As students progress through Kindergarten, they:",
+      "overall_expectations": [
+        {
+          "index": "B11",
+          "title": "Coding Skills",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "use foundational coding concepts and skills",
+          "text_html": "<p>use <a data-item-id=\"daf9b91b-9001-4738-937b-4733eab4a6fc\" href=\"\">foundational coding concepts and skills</a></p>",
+          "transferable_skills": [
+            "Collaboration",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B11.1",
+              "text": "use directional and positional language to create and follow instructions involving movement",
+              "text_html": "<p>use directional and positional language to create and follow instructions involving movement</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "directional language: “Move forward three steps, then turn left and move forward one step.”  \n  positional language: “Move to the closest red square, then move to the blue square beside the red square.”",
+                  "text_html": "<ul>\n  <li>directional language: “Move forward three steps, then turn left and move forward one step.”&nbsp;&nbsp;</li>\n  <li>positional language: “Move to the closest red square, then move to the blue square beside the red square.”&nbsp;&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B11.2",
+              "text": "test and refine instructions",
+              "text_html": "<p>test and refine instructions</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "when students review a picture story illustrating the sequence of steps for preparing to go outside for recess, they notice that one step is out of order and work together to correct it  \n  when students program a robot to move across the room to the door, the robot hits the wall instead, so they work together to revise the instructions to ensure the robot reaches the door",
+                  "text_html": "<ul>\n  <li>when students review a picture story illustrating the sequence of steps for preparing to go outside for recess, they notice that one step is out of order and work together to correct it&nbsp;&nbsp;</li>\n  <li>when students program a robot to move across the room to the door, the robot hits the wall instead, so they work together to revise the instructions to ensure the robot reaches the door&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B11.3",
+              "text": "communicate and record step-by-step instructions using symbols, words, or pictures",
+              "text_html": "<p>communicate and record step-by-step instructions using symbols, words, or pictures</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use arrows to give a sequential set of instructions on how to move across a grid  \n  use clear and precise language to outline the sequence of steps needed to build a structure using blocks \n  use picture cards to sequence a story",
+                  "text_html": "<ul>\n  <li>use arrows to give a sequential set of instructions on how to move across a grid&nbsp;&nbsp;</li>\n  <li>use clear and precise language to outline the sequence of steps needed to build a structure using blocks&nbsp;</li>\n  <li>use picture cards to sequence a story&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B12",
+          "title": "Scientific Investigation and Engineering Design",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "use an inquiry process to engage in scientific investigations and to design, build, and test models and structures",
+          "text_html": "<p>use an <a data-item-id=\"5131274a-e64e-4b11-8c49-9cd2c12d6a5f\" href=\"\">inquiry process</a> to engage in scientific investigations and to design, build, and test models and structures&nbsp;</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B12.1",
+              "text": "state problems and pose questions",
+              "text_html": "<p>state problems and pose questions</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "state the following problem when building a block tower: “Our tower keeps falling over. What can we do to make it stand up better?” \n  notice that some objects don’t stick to a magnet and ask why certain materials are attracted to magnets while others are not",
+                  "text_html": "<ul>\n  <li>state the following problem when building a block tower: “Our tower keeps falling over. What can we do to make it stand up better?”&nbsp;</li>\n  <li>notice that some objects don’t stick to a magnet and ask why certain materials are attracted to magnets while others are not&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B12.2",
+              "text": "make predictions and observations while exploring, investigating, and designing",
+              "text_html": "<p>make predictions and observations while exploring, investigating, and designing</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "predict that a heavier object will sink faster than a lighter one, and then observe how different materials behave in water during a sink-or-float investigation \n  predict that a bumpy surface will slow down a toy car more than a smooth one, and then observe how the car moves across sandpaper, carpet, and tile",
+                  "text_html": "<ul>\n  <li>predict that a heavier object will sink faster than a lighter one, and then observe how different materials behave in water during a sink-or-float investigation&nbsp;</li>\n  <li>predict that a bumpy surface will slow down a toy car more than a smooth one, and then observe how the car moves across sandpaper, carpet, and tile&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B12.3",
+              "text": "select materials and tools to carry out investigations and to construct models and structures",
+              "text_html": "<p>select materials and tools to carry out investigations and to construct models and structures</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use different fabrics and droppers to test which materials absorb water best \n  select sticks, leaves, and string to build a model of a bird’s nest after observing one outdoors \n  use magnets, paper clips, and cardboard to design a structure for a simple game that uses magnetic force \n  gather small containers, funnels, and sand to explore how different shapes affect pouring and flow",
+                  "text_html": "<ul>\n  <li>use different fabrics and droppers to test which materials absorb water best&nbsp;</li>\n  <li>select sticks, leaves, and string to build a model of a bird’s nest after observing one outdoors&nbsp;</li>\n  <li>use magnets, paper clips, and cardboard to design a structure for a simple game that uses magnetic force&nbsp;</li>\n  <li>gather small containers, funnels, and sand to explore how different shapes affect pouring and flow</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B12.4",
+              "text": "draw conclusions and communicate results",
+              "text_html": "<p>draw conclusions and communicate results</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "notice patterns and draw conclusions from a plant growth investigation \n  show or describe the process of building their structure",
+                  "text_html": "<ul>\n  <li>notice patterns and draw conclusions from a plant growth investigation&nbsp;</li>\n  <li>show or describe the process of building their structure&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B12.5",
+              "text": "design, build, and test models and structures",
+              "text_html": "<p>design, build, and test models and structures</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "design and build a shelter for a small toy animal, and then test whether it will stay dry when water is gently poured over it  \n  construct towers using paper of a variety of types, and then test the towers’ stability by blowing on them \n  create a model of a spiderweb using yarn and sticks, and then test its strength by placing small objects on it",
+                  "text_html": "<ul>\n  <li>design and build a shelter for a small toy animal, and then test whether it will stay dry when water is gently poured over it&nbsp;&nbsp;</li>\n  <li>construct towers using paper of a variety of types, and then test the towers’ stability by blowing on them&nbsp;</li>\n  <li>create a model of a spiderweb using yarn and sticks, and then test its strength by placing small objects on it&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B12.6",
+              "text": "follow safety rules to help prevent injuries, including concussion, and demonstrate an understanding of the importance of these practices",
+              "text_html": "<p>follow safety rules to help prevent injuries, including concussion, and demonstrate an understanding of the importance of these practices</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "remind a peer to take turns using the climbing structure to prevent bumping into each other while testing their parachute models \n  notice a patch of ice on the playground and inform an educator to help keep others safe while building snow forts",
+                  "text_html": "<ul>\n  <li>remind a peer to take turns using the climbing structure to prevent bumping into each other while testing their parachute models&nbsp;</li>\n  <li>notice a patch of ice on the playground and inform an educator to help keep others safe while building snow forts&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B13",
+          "title": "Exploring Environments",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "investigate natural and built environments",
+          "text_html": "<p>investigate natural and built environments</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B13.1",
+              "text": "ask questions about and describe some natural occurrences",
+              "text_html": "<p>ask questions about and describe some natural occurrences</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Student questions: \n\n   “Why does the Moon change shape?” \n   “Where does the wind come from?” \n\nStudent descriptions:  \n\n   “The clouds are moving fast because it’s windy today.”  \n   “The snow melted because the Sun came out and it’s warmer.”",
+                  "text_html": "<p><strong>Student questions:</strong>&nbsp;</p>\n<ul>\n  <li>&nbsp;“Why does the Moon change shape?”&nbsp;</li>\n  <li>&nbsp;“Where does the wind come from?”&nbsp;</li>\n</ul>\n<p><strong>Student descriptions:&nbsp;</strong>&nbsp;</p>\n<ul>\n  <li>&nbsp;“The clouds are moving fast because it’s windy today.”&nbsp;&nbsp;</li>\n  <li>&nbsp;“The snow melted because the Sun came out and it’s warmer.”&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B13.2",
+              "text": "sort and classify groups of living and non-living things",
+              "text_html": "<p>sort and classify groups of living and non-living things&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Sorting categories: \n\n  things that grow and things that do not grow \n  things that are liquid and things that are solid \n\nSorting tools: \n\n  hula hoops, sorting circles, paper plates, T-charts, Venn diagrams",
+                  "text_html": "<p><strong>Sorting categories:</strong>&nbsp;</p>\n<ul>\n  <li>things that grow and things that do not grow&nbsp;</li>\n  <li>things that are liquid and things that are solid&nbsp;</li>\n</ul>\n<p><strong>Sorting tools:</strong>&nbsp;</p>\n<ul>\n  <li>hula hoops, sorting circles, paper plates, T-charts, Venn diagrams</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B13.3",
+              "text": "compare patterns in natural and built environments",
+              "text_html": "<p>compare patterns in natural and built environments</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Compare: \n\n  the spiral of a snail shell with a spiral staircase \n  the symmetry of butterfly wings with the symmetry of a stained-glass window design \n  stripes on animals with painted lines on the street",
+                  "text_html": "<p><strong>Compare:</strong>&nbsp;</p>\n<ul>\n  <li>the spiral of a snail shell with a spiral staircase&nbsp;</li>\n  <li>the symmetry of butterfly wings with the symmetry of a stained-glass window design&nbsp;</li>\n  <li>stripes on animals with painted lines on the street&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Self-Regulation and Well-Being",
+      "describer": "As students progress through Kindergarten, they:",
+      "overall_expectations": [
+        {
+          "index": "C14",
+          "title": "Social Skills",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "identify and use social skills in play and other contexts",
+          "text_html": "<p>identify and use social skills in play and other contexts&nbsp;</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C14.1",
+              "text": "act and talk with peers and adults by expressing and accepting positive messages",
+              "text_html": "<p>act and talk with peers and adults by expressing and accepting positive messages</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use tone of voice and gestures appropriate to the context\n  give compliments\n  give and accept constructive criticism",
+                  "text_html": "<ul>\n  <li>use <a data-item-id=\"c9583855-8a6e-4561-ba4d-38dc986d636f\" href=\"\">tone</a> of voice and gestures appropriate to the context</li>\n  <li>give compliments</li>\n  <li>give and accept constructive criticism</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C14.2",
+              "text": "show the ability to take turns",
+              "text_html": "<p>show the ability to take turns</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Occasions for taking turns: \n\n  while engaged in play with others \n  in discussions with peers and adults",
+                  "text_html": "<p><strong>Occasions for taking turns:</strong>&nbsp;</p>\n<ul>\n  <li>while engaged in play with others&nbsp;</li>\n  <li>in discussions with peers and adults&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C14.3",
+              "text": "demonstrate an awareness of ways of making and keeping friends",
+              "text_html": "<p>demonstrate an awareness of ways of making and keeping friends</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Ways of making and keeping friends: \n\n  sharing, listening, talking, helping \n  entering into play or joining a group",
+                  "text_html": "<p><strong>Ways of making and keeping friends:</strong>&nbsp;</p>\n<ul>\n  <li>sharing, listening, talking, helping&nbsp;</li>\n  <li>entering into play or joining a group&nbsp;&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C14.4",
+              "text": "use problem-solving skills in social situations",
+              "text_html": "<p>use problem-solving skills in social situations</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Problem-solving skills:  \n\n  trial and error: a student tries joining a game without asking, but then, seeing the response of their peers, asks politely to join   \n  checking: a student asks, “Do we need more blocks?” before adding one to the tower \n  asking for help: a student seeks the teacher for assistance when there is a conflict amongst peers and other conflict resolution strategies are not working",
+                  "text_html": "<p><strong>Problem-solving skills:&nbsp;</strong>&nbsp;</p>\n<ul>\n  <li><strong>trial and error:</strong> a student tries joining a game without asking, but then, seeing the response of their peers, asks politely to join&nbsp;&nbsp;&nbsp;</li>\n  <li><strong>checking:</strong> a student asks, “Do we need more blocks?” before adding one to the tower&nbsp;</li>\n  <li><strong>asking for help:</strong> a student seeks the teacher for assistance when there is a conflict amongst peers and other conflict resolution strategies are not working&nbsp;&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C15",
+          "title": "Self-Regulation",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "demonstrate independence, self-regulation, and a willingness to take on responsibility",
+          "text_html": "<p>demonstrate independence, self-regulation, and a willingness to take on responsibility&nbsp;</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C15.1",
+              "text": "demonstrate self-reliance and a sense of responsibility",
+              "text_html": "<p>demonstrate self-reliance and a sense of responsibility</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "take care of personal belongings\n  know when to seek assistance",
+                  "text_html": "<ul>\n  <li>take care of personal belongings</li>\n  <li>know when to seek assistance</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C15.2",
+              "text": "demonstrate a willingness to try new experiences and to adapt to new situations",
+              "text_html": "<p>demonstrate a willingness to try new experiences and to adapt to new situations</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "New experiences to try: \n\n  experimenting with new materials/tools \n  experimenting with writing \n\nNew situations to adapt to: \n\n  having visitors in the classroom \n  going on a field trip \n  riding the school bus",
+                  "text_html": "<p><strong>New experiences to try:</strong>&nbsp;</p>\n<ul>\n  <li>experimenting with new materials/tools&nbsp;</li>\n  <li>experimenting with writing&nbsp;</li>\n</ul>\n<p><strong>New situations to adapt to:</strong>&nbsp;</p>\n<ul>\n  <li>having visitors in the classroom&nbsp;</li>\n  <li>going on a field trip&nbsp;</li>\n  <li>riding the school bus&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C15.3",
+              "text": "demonstrate self-motivation, initiative, and confidence in their approach to learning",
+              "text_html": "<p>demonstrate self-motivation, initiative, and confidence in their approach to learning</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "choose learning tasks independently \n  persevere with challenging tasks",
+                  "text_html": "<ul>\n  <li>choose learning tasks independently&nbsp;</li>\n  <li>persevere with challenging tasks&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C15.4",
+              "text": "demonstrate self-control and adapt behaviour to different contexts",
+              "text_html": "<p>demonstrate self-control and adapt behaviour to different contexts</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Demonstrating self-control: \n\n  be aware of and label their own emotions \n  accept help to regulate emotions \n\nAdapting behaviour to different school contexts: \n\n  follow routines and rules in the classroom, gym, library, playground",
+                  "text_html": "<p><strong>Demonstrating self-control:</strong>&nbsp;</p>\n<ul>\n  <li>be aware of and label their own emotions&nbsp;</li>\n  <li>accept help to regulate emotions&nbsp;</li>\n</ul>\n<p><strong>Adapting behaviour to different school contexts:</strong>&nbsp;</p>\n<ul>\n  <li>follow routines and rules in the classroom, gym, library, playground&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C15.5",
+              "text": "develop empathy for others, and acknowledge and respond to each other’s feelings",
+              "text_html": "<p>develop empathy for others, and acknowledge and respond to each other’s feelings</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "tell an adult when another student is hurt/sick/upset\n  have an imaginary conversation with a tree or an insect\n  role-play emotions with dolls and puppets",
+                  "text_html": "<ul>\n  <li>tell an adult when another student is hurt/sick/upset</li>\n  <li>have an imaginary conversation with a tree or an insect</li>\n  <li><a data-item-id=\"9f15af6a-6b7f-44dd-8b99-404633f15206\" href=\"\">role-play</a> emotions with dolls and puppets</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C16",
+          "title": "Understanding Health Concepts",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "demonstrate an awareness of their own health and well-being",
+          "text_html": "<p>demonstrate an awareness of their own health and well-being</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C16.1",
+              "text": "demonstrate an understanding of the effects of healthy, active living on the mind and body",
+              "text_html": "<p>demonstrate an understanding of the effects of healthy, active living on the mind and body</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Healthy, active living:\n\n  choose a balance of active and quiet activities throughout the day\n  remember to have a snack\n  drink water when thirsty",
+                  "text_html": "<p><strong>Healthy, active living:</strong></p>\n<ul>\n  <li>choose a balance of active and quiet activities throughout the day</li>\n  <li>remember to have a snack</li>\n  <li>drink water when thirsty</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C16.2",
+              "text": "investigate the benefits of nutritious foods and explore ways of ensuring healthy eating",
+              "text_html": "<p>investigate the benefits of nutritious foods and explore ways of ensuring healthy eating</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Ways of ensuring healthy eating:\n\n  identifying nutritious food, including foods from various cultures\n  avoiding foods to which they are allergic",
+                  "text_html": "<p><strong>Ways of ensuring healthy eating:</strong></p>\n<ul>\n  <li>identifying nutritious food, including foods from various cultures</li>\n  <li>avoiding foods to which they are allergic</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C16.3",
+              "text": "practise and discuss appropriate personal hygiene that promotes personal, family, and community health",
+              "text_html": "<p>practise and discuss appropriate personal hygiene that promotes personal, family, and community health</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C16.4",
+              "text": "discuss what action to take when they feel unsafe or uncomfortable, in person or online, and when and how to seek assistance",
+              "text_html": "<p>discuss what action to take when they feel unsafe or uncomfortable, in person or online, and when and how to seek assistance</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Actions to take when feeling unsafe or uncomfortable, in person or online: \n\n  taking action in response to inappropriate touching \n  seeking assistance from an adult they know and trust, from 911 operators, or from playground monitors \n  identifying substances that are harmful to the body  \n  when online, knowing to stop and get help from a parent or trusted adult if they feel unsafe or uncomfortable",
+                  "text_html": "<p><strong>Actions to take when feeling unsafe or uncomfortable, in person or online:</strong>&nbsp;</p>\n<ul>\n  <li>taking action in response to inappropriate touching&nbsp;</li>\n  <li>seeking assistance from an adult they know and trust, from 911 operators, or from playground monitors&nbsp;</li>\n  <li>identifying substances that are harmful to the body&nbsp;&nbsp;</li>\n  <li>when online, knowing to stop and get help from a parent or trusted adult if they feel unsafe or uncomfortable&nbsp;&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C16.5",
+              "text": "discuss and demonstrate in play what makes them happy and unhappy, and why",
+              "text_html": "<p>discuss and demonstrate in play what makes them happy and unhappy, and why</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C17",
+          "title": "Active Participation",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "participate actively and regularly in a variety of activities that require the application of movement concepts",
+          "text_html": "<p>participate actively and regularly in a variety of activities that require the application of <a data-item-id=\"0ab6675d-02b7-4e76-b220-d86c4db6dd4f\" href=\"\">movement concepts</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C17.1",
+              "text": "participate actively in creative movement and other daily physical activities",
+              "text_html": "<p>participate actively in creative movement and other daily physical activities</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "dance\n  engage in outdoor play and activities\n  take fitness breaks",
+                  "text_html": "<ul>\n  <li>dance</li>\n  <li>engage in outdoor play and activities</li>\n  <li>take fitness breaks</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C17.2",
+              "text": "demonstrate persistence while engaged in activities that require the use of both large and small muscles",
+              "text_html": "<p>demonstrate persistence while engaged in activities that require the use of both large and small muscles&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Activities that require the use of large and small muscles: \n\n  tossing and catching beanbags  \n  skipping  \n  lacing  \n  drawing and painting",
+                  "text_html": "<p><strong>Activities that require the use of large and small muscles:</strong>&nbsp;</p>\n<ul>\n  <li>tossing and catching beanbags&nbsp;&nbsp;</li>\n  <li>skipping&nbsp;&nbsp;</li>\n  <li>lacing&nbsp;&nbsp;</li>\n  <li>drawing and painting</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C17.3",
+              "text": "demonstrate strategies for engaging in cooperative play in a variety of games and activities",
+              "text_html": "<p>demonstrate strategies for engaging in cooperative play in a variety of games and activities</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C18",
+          "title": "Movement Skills and Concepts",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "develop movement skills and concepts as they use their growing bodies to move in a variety of ways and in a variety of contexts",
+          "text_html": "<p>develop <a data-item-id=\"5751f06e-717f-4af9-bec2-da69eb4e4e77\" href=\"\">movement skills</a> and <a data-item-id=\"0ab6675d-02b7-4e76-b220-d86c4db6dd4f\" href=\"\">concepts</a> as they use their growing bodies to move in a variety of ways and in a variety of contexts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C18.1",
+              "text": "demonstrate spatial awareness in activities that require the use of large muscles",
+              "text_html": "<p>demonstrate <a data-item-id=\"0ab6675d-02b7-4e76-b220-d86c4db6dd4f\" href=\"\">spatial awareness</a> in activities that require the use of large muscles</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C18.2",
+              "text": "demonstrate control of large muscles with and without equipment",
+              "text_html": "<p>demonstrate control of large muscles with and without equipment</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "climb and balance on playground equipment \n  roll, throw, and catch a variety of balls \n  hop, slide, wheel, or gallop in the gym or outdoors",
+                  "text_html": "<ul>\n  <li>climb and balance on playground equipment&nbsp;</li>\n  <li>roll, throw, and catch a variety of balls&nbsp;</li>\n  <li>hop, slide, wheel, or gallop in the gym or outdoors&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C18.3",
+              "text": "demonstrate balance, whole-body and hand-eye coordination, and flexibility in movement",
+              "text_html": "<p>demonstrate balance, whole-body and hand-eye coordination, and flexibility in movement</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "walk on the balance beam\n  run, jump, and climb\n  catch a ball",
+                  "text_html": "<ul>\n  <li>walk on the balance beam</li>\n  <li>run, jump, and climb</li>\n  <li>catch a ball</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C18.4",
+              "text": "demonstrate control of small muscles while working in a variety of learning areas and when using a variety of materials or equipment",
+              "text_html": "<p>demonstrate control of small muscles while working in a variety of learning areas and when using a variety of materials or equipment</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "use a functional grip when writing or drawing with a crayon or pencil\n  paint with paintbrushes\n  string beads or roll playdough\n  cut with scissors",
+                  "text_html": "<ul>\n  <li>use a functional grip when writing or drawing with a crayon or pencil</li>\n  <li>paint with paintbrushes</li>\n  <li>string beads or roll playdough</li>\n  <li>cut with scissors</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C18.5",
+              "text": "demonstrate spatial awareness by doing activities that require the use of small muscles",
+              "text_html": "<p>demonstrate spatial awareness by doing activities that require the use of small muscles</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Belonging and Contributing",
+      "describer": "As students progress through Kindergarten, they:",
+      "overall_expectations": [
+        {
+          "index": "D19",
+          "title": "Identity and Self-Image",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "demonstrate a sense of identity and a positive self-image",
+          "text_html": "<p>demonstrate a sense of identity and a positive self-image&nbsp;</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D19.1",
+              "text": "recognize personal interests, strengths, and accomplishments",
+              "text_html": "<p>recognize personal interests, strengths, and accomplishments</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D19.2",
+              "text": "identify and talk about their own interests and preferences",
+              "text_html": "<p>identify and talk about their own interests and preferences</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D19.3",
+              "text": "express their thoughts and share experiences",
+              "text_html": "<p>express their thoughts and share experiences</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "convey their thoughts about a science discovery or about something they have made\n  describe experiences at home or cultural experiences",
+                  "text_html": "<ul>\n  <li>convey their thoughts about a science discovery or about something they have made</li>\n  <li>describe experiences at home or cultural experiences</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D20",
+          "title": "Understanding Perspectives and Canadian Identity",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "show understanding of the multiple perspectives and diversity among individuals, groups, and communities in Canada, and identify areas of connection",
+          "text_html": "<p>show understanding of the multiple <a data-item-id=\"da248d6f-a776-4c86-ae1b-4b55d24e267f\" href=\"\">perspectives</a> and diversity among individuals, groups, and communities in Canada, and identify areas of connection&nbsp;</p>",
+          "transferable_skills": [
+            "Collaboration",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D20.1",
+              "text": "understand that everyone belongs to multiple groups and communities, and that these groups and communities together shape Canadian identity",
+              "text_html": "<p>understand that everyone belongs to multiple groups and communities, and that these groups and communities together shape Canadian identity</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Groups/communities:\n\n  a family, a class, a school, a neighbourhood\n  a cultural or faith community",
+                  "text_html": "<p><strong>Groups/communities:</strong></p>\n<ul>\n  <li>a family, a class, a school, a neighbourhood</li>\n  <li>a cultural or faith community</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D20.2",
+              "text": "describe, both verbally and non-verbally, ways in which they contribute to the various groups to which they belong",
+              "text_html": "<p>describe, both verbally and non-verbally, ways in which they contribute to the various groups to which they belong</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D20.3",
+              "text": "demonstrate respect for different perspectives and identify areas of connection",
+              "text_html": "<p>demonstrate respect for different perspectives and identify areas of connection</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "build on ideas expressed by a classmate \n  adapt behaviour to accommodate a classmate’s ideas",
+                  "text_html": "<ul>\n  <li>build on ideas expressed by a classmate&nbsp;</li>\n  <li>adapt behaviour to accommodate a classmate’s ideas</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D21",
+          "title": "Self-Confidence",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "recognize bias in ideas and develop the self-confidence to stand up for themselves and others against prejudice and discrimination",
+          "text_html": "<p>recognize <a data-item-id=\"420f50ab-5607-4eba-ac40-ae2dbdbc5705\" href=\"\">bias</a> in ideas and develop the self-confidence to stand up for themselves and others against prejudice and discrimination</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D21.1",
+              "text": "stand up for themselves, and apply behaviours that enhance their own and others’ well-being",
+              "text_html": "<p>stand up for themselves, and apply behaviours that enhance their own and others’ well-being</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "speak confidently  \n  state boundaries  \n  make choices to enhance their well-being and comfort",
+                  "text_html": "<ul>\n  <li>speak confidently&nbsp;&nbsp;</li>\n  <li>state boundaries&nbsp;&nbsp;</li>\n  <li>make choices to enhance their well-being and comfort&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D21.2",
+              "text": "think critically about fair/unfair and biased behaviour towards both themselves and others, and act with compassion and kindness",
+              "text_html": "<p><a data-item-id=\"ac233600-388a-4487-aeb2-b5482b03bd92\" href=\"\">think critically</a> about fair/unfair and biased behaviour towards both themselves and others, and act with compassion and kindness &nbsp;&nbsp;&nbsp;&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D21.3",
+              "text": "recognize discriminatory and inequitable practices and behaviours and respond appropriately",
+              "text_html": "<p>recognize discriminatory and inequitable practices and behaviours and respond appropriately</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D22",
+          "title": "People and Communities",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "demonstrate an awareness of their surroundings",
+          "text_html": "<p>demonstrate an awareness of their surroundings</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D22.1",
+              "text": "recognize people in their community and talk about what they do",
+              "text_html": "<p>recognize people in their community and talk about what they do</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "People in their community:\n\n  Elder, Knowledge Keeper, store clerk, farmer, park ranger, police officer, nurse, engineer, baker",
+                  "text_html": "<p><strong>People in their community:</strong></p>\n<ul>\n  <li><a data-item-id=\"a641a898-f33e-43a7-b41c-f7db6e0e4ee0\" href=\"\">Elder</a>, <a data-item-id=\"37731a85-0781-4aa1-9334-c748ff7bb8a6\" href=\"\">Knowledge Keeper</a>, store clerk, farmer, park ranger, police officer, nurse, engineer, baker</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D22.2",
+              "text": "recognize places and buildings within their community, both natural and human-made, and talk about their functions",
+              "text_html": "<p>recognize places and buildings within their community, both natural and human-made, and talk about their functions</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Places and buildings within their community: \n\n  farm, hospital, community centre",
+                  "text_html": "<p><strong>Places and buildings within their community:</strong>&nbsp;</p>\n<ul>\n  <li>farm, hospital, community centre&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D23",
+          "title": "Respect and Care for Nature",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "demonstrate an understanding of the natural world and the need to care for and respect the environment",
+          "text_html": "<p>demonstrate an understanding of the natural world and the need to care for and respect the environment</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D23.1",
+              "text": "identify similarities and differences between local environments",
+              "text_html": "<p>identify similarities and differences between local environments</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Local environments to compare:\n\n  a park and a pond\n  a schoolyard and a field",
+                  "text_html": "<p><strong>Local environments to compare:</strong></p>\n<ul>\n  <li>a park and a pond</li>\n  <li>a schoolyard and a field</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D23.2",
+              "text": "describe what would happen if something in the local environment changed",
+              "text_html": "<p>describe what would happen if something in the local environment changed</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Changes in the local environment:\n\n  trees in the park being cut down\n  a pond drying up\n  native flowers being planted in the school garden",
+                  "text_html": "<p><strong>Changes in the local environment:</strong></p>\n<ul>\n  <li>trees in the park being cut down</li>\n  <li>a pond drying up</li>\n  <li>native flowers being planted in the school garden</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D23.3",
+              "text": "describe ways in which they care for and respect the environment",
+              "text_html": "<p>describe ways in which they care for and respect the environment</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "feed the birds in winter\n  reuse and recycle\n  turn off unnecessary lights at home",
+                  "text_html": "<ul>\n  <li>feed the birds in winter</li>\n  <li>reuse and recycle</li>\n  <li>turn off unnecessary lights at home</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D24",
+          "title": "Responding to Art",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "respond to a variety of forms of dance, drama, music, and visual arts from various cultures and communities, including using their language and mathematics knowledge and skills",
+          "text_html": "<p>respond to a variety of forms of dance, drama, music, and visual arts from various cultures and communities, including using their language and mathematics knowledge and skills</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D24.1",
+              "text": "express their responses to dance and drama",
+              "text_html": "<p>express their responses to dance and drama</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Respond by: \n\n  using movements \n  making connections to their experiences with dance and drama\n  describing how dance and drama make them feel",
+                  "text_html": "<p><strong>Respond by:</strong>&nbsp;</p>\n<ul>\n  <li>using movements&nbsp;</li>\n  <li>making connections to their experiences with dance and drama</li>\n  <li>describing how dance and drama make them feel&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D24.2",
+              "text": "respond to texts and art forms from various cultures and communities through classroom drama activities and make connections to their own experiences",
+              "text_html": "<p>respond to <a data-item-id=\"d9f68102-7565-438d-8b38-e1228ec1f5e5\" href=\"\">texts</a> and art forms from various cultures and communities through classroom drama activities and make connections to their own experiences</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Respond by: \n\n  using actions, words, pictures, or props to retell a story or represent a poem  \n  describing their feeling about a character in a story \n  sharing how they felt, using actions, pictures, or words, after listening to First Nations hand drumming, Métis fiddle music, Inuit throat singing, a song in a new language \n  talking about lines, shapes and forms, colours, and textures after viewing paintings, textiles, sculptures, or illustrations",
+                  "text_html": "<p><strong>Respond by:</strong>&nbsp;</p>\n<ul>\n  <li>using actions, words, pictures, or props to retell a story or represent a poem&nbsp;&nbsp;</li>\n  <li>describing their feeling about a character in a story&nbsp;</li>\n  <li>sharing how they felt, using actions, pictures, or words, after listening to First Nations hand drumming, Métis fiddle music, Inuit throat singing, a song in a new language&nbsp;</li>\n  <li>talking about <a data-item-id=\"da7a8b27-a8b5-4ddd-a3a1-4700f1d4e439\" href=\"\">lines</a>, shapes and forms, colours, and textures after <a data-item-id=\"0564cd39-f7b1-4f13-9214-a3cff5e03e7a\" href=\"\">viewing</a> paintings, textiles, sculptures, or illustrations&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D24.3",
+              "text": "express their responses to music by moving, by making connections to their own experiences, or by talking about the musical form",
+              "text_html": "<p>express their responses to music by moving, by making connections to their own experiences, or by talking about the musical form</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "Respond by: \n\n  clapping the patterns in the beat and rhythm of familiar music \n  identifying similar beat and rhythm in different pieces of music",
+                  "text_html": "<p><strong>Respond by:</strong>&nbsp;</p>\n<ul>\n  <li>clapping the patterns in the beat and rhythm of familiar music&nbsp;</li>\n  <li>identifying similar beat and rhythm in different pieces of music&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D25",
+          "title": "Exploring and Creating Art",
+          "describer": "As students progress through Kindergarten, they:",
+          "text": "explore and create a variety of art forms, including dance, drama, music, and visual arts",
+          "text_html": "<p>explore and create a variety of art forms, including dance, drama, music, and visual arts&nbsp;&nbsp;</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D25.1",
+              "text": "explore the elements of dance, drama, music, and design",
+              "text_html": "<p>explore the elements of dance, drama, music, and <a data-item-id=\"94423957-3ab8-4cd3-891a-5bb44d3341a8\" href=\"\">design</a></p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "try out different voices for parts of a story or chant \n  find different ways to move to music, trying to connect the movement with the mood and speed of the music \n  create a sequence of visual patterns",
+                  "text_html": "<ul>\n  <li>try out different voices for parts of a story or chant&nbsp;</li>\n  <li>find different ways to move to music, trying to connect the movement with the mood and speed of the music&nbsp;</li>\n  <li>create a sequence of visual patterns</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D25.2",
+              "text": "experiment with different materials, techniques, and processes used in a variety of art forms",
+              "text_html": "<p>experiment with different materials, techniques, and processes used in a variety of art forms&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "experiment with different instruments to create a rhythm pattern to accompany a familiar song \n  create a sculpture, experimenting with how different materials affect its stability \n  choose colours to reflect their feelings in their paintings, exploring the effects of different colours",
+                  "text_html": "<ul>\n  <li>experiment with different instruments to create a rhythm pattern to accompany a familiar song&nbsp;</li>\n  <li>create a sculpture, experimenting with how different materials affect its stability&nbsp;</li>\n  <li>choose colours to reflect their feelings in their paintings, exploring the effects of different colours&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D25.3",
+              "text": "use problem-solving skills and imagination to create forms of art",
+              "text_html": "<p>use problem-solving skills and imagination to create forms of art&nbsp;</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "choose an alternative way to fasten their materials if the first way is unsuccessful \n  contribute to making a variation on a familiar song with the class \n  contribute their own ideas to role-playing",
+                  "text_html": "<ul>\n  <li>choose an alternative way to fasten their materials if the first way is unsuccessful&nbsp;</li>\n  <li>contribute to making a variation on a familiar song with the class&nbsp;</li>\n  <li>contribute their own ideas to <a data-item-id=\"9f15af6a-6b7f-44dd-8b99-404633f15206\" href=\"\">role-playing</a>&nbsp;&nbsp;</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D25.4",
+              "text": "communicate ideas through dance, drama, music, and visual arts",
+              "text_html": "<p>communicate ideas through dance, drama, music, and visual arts</p>",
+              "elaborations": [
+                {
+                  "type": "Examples",
+                  "text": "represent their ideas about a familiar story or the meaning of a word through drawing or painting \n  convey their thoughts about an experience using movement \n  represent their understanding of a mathematical pattern through visual art",
+                  "text_html": "<ul>\n  <li>represent their ideas about a familiar story or the meaning of a word through drawing or painting&nbsp;</li>\n  <li>convey their thoughts about an experience using movement&nbsp;</li>\n  <li>represent their understanding of a mathematical pattern through visual art&nbsp;</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

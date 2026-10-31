@@ -1,0 +1,736 @@
+{
+  "code": "HHS4U",
+  "name": "Families in Canada",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "University Preparation",
+  "category": "Family Studies, General Family Studies",
+  "panel": "Secondary",
+  "subject": "Social Sciences and Humanities",
+  "subject_group": "Social Sciences and Humanities",
+  "description": "This course enables students to draw on sociological, psychological, and anthropological theories and research to analyse the development of individuals, intimate relationships, and family and parent-child relationships. Students will focus on issues and challenges facing individuals and families in Canada’s diverse society. They will develop analytical tools that enable them to assess various factors affecting families and to consider policies and practices intended to support families in Canada. They will develop the investigative skills required to conduct and communicate the results of research on individuals, intimate relationships, and parent-child relationships.",
+  "prerequisites": "Any university or university/college preparation course in social sciences and humanities, English, or Canadian and world studies",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/social-sciences-humanities/courses/hhs4u",
+  "source_codename": "hhd3o__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Research and Inquiry Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Exploring",
+          "describer": "Throughout this course, students will:",
+          "text": "explore topics related to families in Canada, and formulate questions to guide their research",
+          "text_html": "<p>explore topics related to families in Canada, and formulate questions to guide their research</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "explore a variety of topics related to families in Canada (e.g., the effects of changes in marriage and divorce legislation on individuals and families; the effects of economic downturns on children, parents, and the elderly) to identify topics for research and inquiry",
+              "text_html": "<p>explore a variety of topics related to families in Canada <em>(e.g., the effects of changes in marriage and divorce legislation on individuals and families; the effects of economic downturns on children, parents, and the elderly)</em> to identify topics for research and inquiry</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify key concepts (e.g., through discussion, brainstorming, use of visual organizers) related to their selected topics",
+              "text_html": "<p>identify key concepts <em>(e.g., through discussion, brainstorming, use of visual organizers)</em> related to their selected topics</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "formulate effective questions to guide their research and inquiry",
+              "text_html": "<p>formulate effective questions to guide their research and inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "If you were researching the effects of changes in divorce laws on families, whose perspectives might you include? Which different time periods would be it most appropriate to consider?",
+                  "text_html": "<ul>\n  <li>If you were researching the effects of changes in divorce laws on families, whose perspectives might you include? Which different time periods would be it most appropriate to consider?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Investigating",
+          "describer": "Throughout this course, students will:",
+          "text": "create research plans, locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods",
+          "text_html": "<p>create research plans, locate and select information relevant to their chosen topics, using appropriate social science research and inquiry methods</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "create appropriate research plans to investigate their selected topics (e.g., outline purpose and method; identify sources of information; develop research tools such as surveys, questionnaires, or interviews), ensuring that their plans follow guidelines for ethical research",
+              "text_html": "<p>create appropriate research plans to investigate their selected topics<em> (e.g., outline purpose and method; identify sources of information; develop research tools such as surveys, questionnaires, or interviews)</em>, ensuring that their plans follow guidelines for ethical research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "locate and select information relevant to their investigations from a variety of primary sources (e.g., interviews; observations; surveys and questionnaires; original research published in peer-reviewed journals; census data; original documents in print or other media such as film, photographs) and/or secondary sources (e.g., textbooks, book reviews, literature reviews, magazine or newspaper articles)",
+              "text_html": "<p>locate and select information relevant to their investigations from a variety of primary sources <em>(e.g., interviews; observations; surveys and questionnaires; original research published in peer-reviewed journals; census data; original documents in print or other media such as film, photographs)</em> and/or secondary sources <em>(e.g., textbooks, book reviews, literature reviews, magazine or newspaper articles)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can you determine whether a source is primary or secondary?\n  Which types of research questions lend themselves to research based primarily on secondary sources? Which require access to primary sources in addition to secondary sources?",
+                  "text_html": "<ul>\n  <li>How can you determine whether a source is primary or secondary?</li>\n  <li>Which types of research questions lend themselves to research based primarily on secondary sources? Which require access to primary sources in addition to secondary sources?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.3",
+              "text": "based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research",
+              "text_html": "<p>based on preliminary research, for each investigation formulate a hypothesis, thesis statement, or research question, and use it to focus their research</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Processing Information",
+          "describer": "Throughout this course, students will:",
+          "text": "assess, record, analyse, and synthesize information gathered through research and inquiry",
+          "text_html": "<p>assess, record, analyse, and synthesize information gathered through research and inquiry</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "assess various aspects of information gathered from primary and secondary sources (e.g., accuracy, relevance, reliability, inherent values and bias, voice)",
+              "text_html": "<p>assess various aspects of information gathered from primary and secondary sources <em>(e.g., accuracy, relevance, reliability, inherent values and </em><a data-item-id=\"ade0ba52-aa2c-4a9c-907b-fb2c46b186f7\" href=\"\"><em>bias</em></a><em>, voice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What strategies can you use to determine the relevance of the information you have gathered?\n  If two information sources contradict each other, how might you determine which is more reliable?\n  What values are embedded in these sources?\n  Whose voices are represented and whose are absent?\n  Whose interests are advanced if you believe the main message of this source?",
+                  "text_html": "<ul>\n  <li>What strategies can you use to determine the relevance of the information you have gathered?</li>\n  <li>If two information sources contradict each other, how might you determine which is more reliable?</li>\n  <li>What values are embedded in these sources?</li>\n  <li>Whose voices are represented and whose are absent?</li>\n  <li>Whose interests are advanced if you believe the main message of this source?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "record and organize information and key ideas using a variety of formats (e.g., notes, graphic organizers, summaries, audio/digital records)",
+              "text_html": "<p>record and organize information and key ideas using a variety of formats<em> (e.g., notes, graphic organizers, summaries, audio/digital records)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse and interpret research information (e.g., compare results of interviews with different groups; determine whether common themes arise in different sources; compare results from primary data sources with results reported in secondary sources)",
+              "text_html": "<p>analyse and interpret research information <em>(e.g., compare results of interviews with different groups; determine whether common themes arise in different sources; compare results from primary data sources with results reported in secondary sources)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate academic honesty by documenting the sources of all information generated through research",
+              "text_html": "<p>demonstrate academic honesty by documenting the sources of all information generated through research</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "synthesize findings and formulate conclusions (e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research question; assess the extent to which their results may be affected by “confounding variables” – i.e., variables not controlled for in their research design)",
+              "text_html": "<p>synthesize findings and formulate conclusions <em>(e.g., determine whether their results support or contradict their hypothesis; weigh and connect information to determine the answer to their research question; assess the extent to which their results may be affected by “confounding variables” – i.e., variables not controlled for in their research design)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Communicating and Reflecting",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills",
+          "text_html": "<p>communicate the results of their research and inquiry clearly and effectively, and reflect on and evaluate their research, inquiry, and communication skills</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "use an appropriate format (e.g., oral presentation, poster, multimedia presentation, research report, web page) to communicate the results of their research and inquiry effectively for a specific purpose and audience",
+              "text_html": "<p>use an appropriate format <em>(e.g., oral presentation, poster, multimedia presentation, research report, web page)</em> to communicate the results of their research and inquiry effectively for a specific purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "use terms relating to families in Canada correctly (e.g., family systems, life expectancy, replacement rate, primary and secondary data, socialization, social policy)",
+              "text_html": "<p>use terms relating to families in Canada correctly <em>(e.g., family systems, life expectancy, replacement rate, primary and secondary data, </em><a data-item-id=\"c26a9a14-db89-46f9-b7ae-e1023c15cbda\" href=\"\"><em>socialization</em></a><em>, social policy)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "clearly communicate the results of their inquiries (e.g., write clearly, organize ideas logically, use language conventions properly), and follow APA conventions for acknowledging sources (e.g., generate a reference list in APA style, use in-text citations properly)",
+              "text_html": "<p>clearly communicate the results of their inquiries <em>(e.g., write clearly, organize ideas logically, use language conventions properly)</em>, and follow APA conventions for acknowledging sources <em>(e.g., generate a reference list in APA style, use in-text citations properly)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.4",
+              "text": "demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills",
+              "text_html": "<p>demonstrate an understanding of the general research process by reflecting on and evaluating their own research, inquiry, and communication skills</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways did the primary and/or secondary sources you used confirm what you already knew and understood about the topic? In what ways did these sources contradict what you thought was true?\n  How might the research methods you used have affected the results you obtained?\n  What steps might you take to enhance your research/inquiry skills?",
+                  "text_html": "<ul>\n  <li>In what ways did the primary and/or secondary sources you used confirm what you already knew and understood about the topic? In what ways did these sources contradict what you thought was true?</li>\n  <li>How might the research methods you used have affected the results you obtained?</li>\n  <li>What steps might you take to enhance your research/inquiry skills?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Theoretical Perspectives on Development",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Individual Development",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of theoretical perspectives and research on various aspects of individual development",
+          "text_html": "<p>demonstrate an understanding of theoretical perspectives and research on various aspects of individual development</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "explain individual development throughout the lifespan, according to a variety of theoretical perspectives on development (e.g., psychodynamic perspective [Sigmund Freud, Erik Erikson, Karen Horney], cognitive perspective [Lev Vygotsky], humanist perspective [Abraham Maslow, Carl Rogers], symbolic interactionist perspective [Charles Cooley, George Mead], sociocultural perspective [Urie Bronfenbrenner], evolutionary perspective [Konrad Lorenz, John Bowlby])",
+              "text_html": "<p>explain individual development throughout the lifespan, according to a variety of theoretical perspectives on development <em>(e.g., psychodynamic perspective [Sigmund Freud, Erik Erikson, Karen Horney], cognitive perspective [Lev Vygotsky], humanist perspective [Abraham Maslow, Carl Rogers], </em><a data-item-id=\"037190e8-56de-4a76-a215-45290bb60015\" href=\"\"><em>symbolic interactionist</em></a><em> perspective [Charles Cooley, George Mead], sociocultural perspective [Urie Bronfenbrenner], evolutionary perspective [Konrad Lorenz, John Bowlby])</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What factors have the greatest influence on individual development, according to the psychodynamic perspective? What are the similarities and differences between these factors and those that are the focus of the sociocultural perspective?\n  What are some critiques of these theoretical perspectives?",
+                  "text_html": "<ul>\n  <li>What factors have the greatest influence on individual development, according to the psychodynamic perspective? What are the similarities and differences between these factors and those that are the focus of the sociocultural perspective?</li>\n  <li>What are some critiques of these theoretical perspectives?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "assess research on sex-based similarities and differences as well as gender-based similarities and differences (e.g., with reference to the complexity of distinguishing the effects of nature and nurture; the impact of cultural, social, and historical change on expectations associated with gender)",
+              "text_html": "<p>assess research on sex-based similarities and differences as well as gender-based similarities and differences <em>(e.g., with reference to the complexity of distinguishing the effects of nature and nurture; the impact of cultural, social, and historical change on expectations associated with gender)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why can researchers never completely separate the effects of nature and nurture when studying sex- and gender-based differences?",
+                  "text_html": "<ul>\n  <li>Why can researchers never completely separate the effects of nature and nurture when studying sex- and gender-based differences?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "compare theories used to explain adult development in later life (e.g., Erik Erikson’s stages of generativity versus stagnation, and ego integrity versus despair; Daniel Levinson’s midlife transition; Bernice Neugarten’s concept of the social clock; George Mead’s symbolic interactionist theories)",
+              "text_html": "<p>compare theories used to explain adult development in later life <em>(e.g., Erik Erikson’s stages of generativity versus stagnation, and ego integrity versus despair; Daniel Levinson’s midlife transition; Bernice Neugarten’s concept of the social clock; George Mead’s symbolic interactionist theories)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which developmental theory predicts the greatest developmental variability among adults?",
+                  "text_html": "<ul>\n  <li>Which developmental theory predicts the greatest developmental variability among adults?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "The Development of Intimate Relationships",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of theoretical perspectives and research on the development of intimate relationships",
+          "text_html": "<p>demonstrate an understanding of theoretical perspectives and research on the development of intimate relationships</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "explain the development of intimate relationships according to a variety of theoretical perspectives (e.g., psychodynamic, evolutionary, structural functionalist, conflict theory, feminist theory, queer theory perspectives)",
+              "text_html": "<p>explain the development of intimate relationships according to a variety of theoretical perspectives <em>(e.g., psychodynamic, evolutionary, </em><a data-item-id=\"9495b05c-6f34-4224-bb19-42f1c1668da1\" href=\"\"><em>structural functionalist</em></a><em>, </em><a data-item-id=\"a833aacd-9d37-465b-aa9c-938ef8ff0b52\" href=\"\"><em>conflict theory</em></a><em>, feminist theory, queer theory perspectives)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would a structural functionalist and a conflict theorist explain the ways in which couples establish the division of labour in their households?\n  How would different theories account for the experiences of a couple in an arranged marriage versus a couple in a free-choice marriage?",
+                  "text_html": "<ul>\n  <li>How would a structural functionalist and a conflict theorist explain the ways in which couples establish the division of labour in their households?</li>\n  <li>How would different theories account for the experiences of a couple in an arranged marriage versus a couple in a free-choice marriage?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "compare various theories of attraction and mate selection (e.g., evolutionary theory, filter theory, social homogamy theory, the theory of complementary needs)",
+              "text_html": "<p>compare various theories of attraction and mate selection <em>(e.g., evolutionary theory, filter theory, social homogamy theory, the theory of complementary needs)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which theories of attraction and mate selection predict similar outcomes? Which theories contradict one another?",
+                  "text_html": "<ul>\n  <li>Which theories of attraction and mate selection predict similar outcomes? Which theories contradict one another?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.3",
+              "text": "assess various theories of attraction, mate selection, and the development of intimate relationships with reference to current research that supports or contradicts them",
+              "text_html": "<p>assess various theories of attraction, mate selection, and the development of intimate relationships with reference to current research that supports or contradicts them</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which theory or theories of mate selection do you think are the most valid? Why? What research supports your position?",
+                  "text_html": "<ul>\n  <li>Which theory or theories of mate selection do you think are the most valid? Why? What research supports your position?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "The Development of Family and Parent-Child Relationships",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of theoretical perspectives and research on the development of family and parent-child relationships",
+          "text_html": "<p>demonstrate an understanding of theoretical perspectives and research on the development of family and parent-child relationships</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "describe the functions of the family (e.g., reproduction, socialization of children, physical maintenance of members, nurturance and love, social control, production of goods and services), and explain the ways in which these functions are met in diverse family forms (e.g., single-parent families, two-parent families [both same-sex and heterosexual], grandparent-led families, extended families, childless families)",
+              "text_html": "<p>describe the functions of the family <em>(e.g., reproduction, socialization of children, physical maintenance of members, nurturance and love, social control, production of goods and services)</em>, and explain the ways in which these functions are met in diverse family forms <em>(e.g., single-parent families, two-parent families [both same-sex and heterosexual], grandparent-led families, </em><a data-item-id=\"fc8842d0-18b7-45c5-82eb-c9fdca4ac58d\" href=\"\"><em>extended families</em></a><em>, childless families)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "assess various theoretical perspectives on the development of family and parent-child relationships (e.g., psychodynamic, symbolic interactionist, structural functionalist, conflict theory, social exchange theory perspectives)",
+              "text_html": "<p>assess various theoretical perspectives on the development of family and parent-child relationships <em>(e.g., psychodynamic, symbolic interactionist, structural functionalist, conflict theory, social exchange theory perspectives)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do the various theoretical perspectives explain the stress experienced by families after the birth of a child?\n  Why might some theories be more useful than others in accounting for the experiences of diverse families?\n  Which theoretical perspective do you think best accounts for the range of experiences among families in Canada? Why?",
+                  "text_html": "<ul>\n  <li>How do the various theoretical perspectives explain the stress experienced by families after the birth of a child?</li>\n  <li>Why might some theories be more useful than others in accounting for the experiences of diverse families?</li>\n  <li>Which theoretical perspective do you think best accounts for the range of experiences among families in Canada? Why?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.3",
+              "text": "assess, with reference to current theories and research (e.g., caregiver identity theory, child and adult attachment theories, Roy Adaptation Model of Caregiver Stress), the impact of caregiving on family relationships",
+              "text_html": "<p>assess, with reference to current theories and research <em>(e.g., caregiver identity theory, child and adult </em><a data-item-id=\"1ddf55bd-6de0-4bc4-b32c-b9ea81c96a85\" href=\"\"><em>attachment</em></a><em> theories, Roy Adaptation Model of Caregiver Stress)</em>, the impact of caregiving on family relationships</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "According to current research and statistics, who provides the majority of the care in families in Canada? What impact might this trend have on family members?\n  What are the psychological, social, and economic effects of being the primary caregiver in a family?\n  According to caregiver identity theory, what stresses are associated with the transition from an individual’s identity as “son” or “daughter” to that as “caregiver”?",
+                  "text_html": "<ul>\n  <li>According to current research and statistics, who provides the majority of the care in families in Canada? What impact might this trend have on family members?</li>\n  <li>What are the psychological, social, and economic effects of being the primary caregiver in a family?</li>\n  <li>According to caregiver identity theory, what stresses are associated with the transition from an individual’s identity as “son” or “daughter” to that as “caregiver”?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "The Impact of Norms, Roles, and Institutions",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "The Effects on Individuals",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the impact of norms, roles, and social institutions on individuals throughout the lifespan",
+          "text_html": "<p>demonstrate an understanding of the impact of <a data-item-id=\"ebb25774-8405-43c9-83e5-b969cfd79373\" href=\"\">norms</a>, roles, and social institutions on individuals throughout the lifespan</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "assess ways in which norms, values, and expectations (e.g., cultural or social norms and expectations, gender expectations, familial values and expectations) influence individual decisions throughout the lifespan (e.g., with regard to educational choices, career choices, choices about sexuality and relationships)",
+              "text_html": "<p>assess ways in which norms, values, and expectations <em>(e.g., cultural or social norms and expectations, gender expectations, familial values and expectations)</em> influence individual decisions throughout the lifespan<em> (e.g., with regard to educational choices, career choices, choices about sexuality and relationships)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the interrelationship between financial considerations, gender expectations, and personal goals with respect to educational choices? Which factor do you think has the greatest influence on an individual’s educational choices? Why?",
+                  "text_html": "<ul>\n  <li>What is the interrelationship between financial considerations, gender expectations, and personal goals with respect to educational choices? Which factor do you think has the greatest influence on an individual’s educational choices? Why?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "explain how multiple roles (e.g., student, volunteer, employee, friend, son/daughter, sibling, caregiver) can create personal conflict",
+              "text_html": "<p>explain how multiple roles <em>(e.g., student, volunteer, employee, friend, son/daughter, sibling, caregiver)</em> can create personal conflict</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do conflicting roles contribute to the stress that people feel when they are both caregiver and son/daughter?\n  What is meant by the term sandwich generation? Why do people in the sandwich generation often experience personal conflict?",
+                  "text_html": "<ul>\n  <li>How do conflicting roles contribute to the stress that people feel when they are both caregiver and son/daughter?</li>\n  <li>What is meant by the term <em>sandwich generation</em>? Why do people in the sandwich generation often experience personal conflict?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.3",
+              "text": "analyse the impact of social institutions (e.g., the family; the media; educational, religious, economic, and political institutions) on the socialization of individuals throughout the lifespan",
+              "text_html": "<p>analyse the impact of social institutions <em>(e.g., the family; the media; educational, religious, economic, and political institutions)</em> on the socialization of individuals throughout the lifespan</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does the economy affect the socialization of young children?\n  How do various social institutions affect the identity formation of individuals?",
+                  "text_html": "<ul>\n  <li>How does the economy affect the socialization of young children?</li>\n  <li>How do various social institutions affect the identity formation of individuals?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "The Effects on Intimate Relationships",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the impact of norms, roles, and social institutions on intimate relationships",
+          "text_html": "<p>demonstrate an understanding of the impact of norms, roles, and social institutions on intimate relationships</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "analyse ways in which social norms and expectations (e.g., cultural and religious norms; expectations of peers, friends, and parents) can influence the establishment and maintenance of healthy intimate relationships",
+              "text_html": "<p>analyse ways in which social norms and expectations <em>(e.g., cultural and religious norms; expectations of peers, friends, and parents)</em> can influence the establishment and maintenance of healthy intimate relationships</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does the expectation of abstinence before marriage in some religions affect dating/courtship relationships in a secular society?",
+                  "text_html": "<ul>\n  <li>How does the expectation of abstinence before marriage in some religions affect dating/courtship relationships in a secular society?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "explain mate-selection, courtship, and marriage customs (e.g., arranged and free-choice marriages; use of matchmakers; civil, religious, and tribal marriage ceremonies; polygamy and monogamy) in various cultures, religions, and historical periods",
+              "text_html": "<p>explain mate-selection, courtship, and marriage customs <em>(e.g., arranged and free-choice marriages; use of matchmakers; civil, religious, and tribal marriage ceremonies; polygamy and monogamy)</em> in various cultures, religions, and historical periods</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do recent statistics show about the rates of religious and civil weddings in Canada?\n  In societies that permit polygamy, how can access to resources affect whether marriages are monogamous or polygamous?",
+                  "text_html": "<ul>\n  <li>What do recent statistics show about the rates of religious and civil weddings in Canada?</li>\n  <li>In societies that permit polygamy, how can access to resources affect whether marriages are monogamous or polygamous?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "analyse ways in which roles are negotiated in intimate relationships (e.g., with reference to division of labour, patterns of authority, decision making)",
+              "text_html": "<p>analyse ways in which roles are negotiated in intimate relationships <em>(e.g., with reference to division of labour, patterns of authority, decision making)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the relationship between a person’s economic role and his or her decision-making role in a relationship?",
+                  "text_html": "<ul>\n  <li>What is the relationship between a person’s economic role and his or her decision-making role in a relationship?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.4",
+              "text": "analyse differences among roles in intimate relationships in various social, historical, and ethnocultural contexts (e.g., in traditional Islamic and Hindu societies; in First Nation or Inuit cultures; before and after the second wave women’s movement in Canada)",
+              "text_html": "<p>analyse differences among roles in intimate relationships in various social, historical, and ethnocultural contexts <em>(e.g., in traditional Islamic and Hindu societies; in First Nation or Inuit cultures; before and after the second wave women’s movement in Canada)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How have the rights of women throughout history and across cultures helped to determine their domestic roles?\n  In what ways are gender roles in dual-earner families different from those in households with a male breadwinner? In what ways are they similar?",
+                  "text_html": "<ul>\n  <li>How have the rights of women throughout history and across cultures helped to determine their domestic roles?</li>\n  <li>In what ways are <a data-item-id=\"f78eaa80-281b-4210-bd8c-a47d44dfccd8\" href=\"\">gender roles</a> in dual-earner families different from those in households with a male breadwinner? In what ways are they similar?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.5",
+              "text": "analyse how social institutions (e.g., religious, economic, political institutions) can affect intimate relations",
+              "text_html": "<p>analyse how social institutions<em> (e.g., religious, economic, political institutions)</em> can affect intimate relations</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why has same-sex marriage legislation in Canada been significant for same-sex couples, even if they choose not to get married?\n  What do various religions teach about the roles of and relationship between spouses?",
+                  "text_html": "<ul>\n  <li>Why has same-sex marriage legislation in Canada been significant for same-sex couples, even if they choose not to get married?</li>\n  <li>What do various religions teach about the roles of and relationship between spouses?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "The Effects on Family and Parent-Child Relationships",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of factors that can affect decisions about whether to have and how to care for children, and of the impact of norms, roles, and social institutions on family and parent-child relationships",
+          "text_html": "<p>demonstrate an understanding of factors that can affect decisions about whether to have and how to care for children, and of the impact of norms, roles, and social institutions on family and parent-child relationships</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "explain a range of factors that can influence decisions about having children (e.g., fertility; access to assisted reproductive technologies; access to birth control; religious beliefs regarding birth control and abortion; adoption policies and practices; the stability of an intimate relationship; considerations regarding the number and spacing of children; age and health; financial status; educational, career, and personal goals; cultural/religious background; the influence of friends or family; concerns about overconsumption of resources)",
+              "text_html": "<p>explain a range of factors that can influence decisions about having children <em>(e.g., fertility; access to assisted reproductive technologies; access to birth control; religious beliefs regarding birth control and abortion; adoption policies and practices; the stability of an intimate relationship; considerations regarding the number and spacing of children; age and health; financial status; educational, career, and personal goals; cultural/religious background; the influence of friends or family; concerns about overconsumption of resources)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What policies have different jurisdictions put in place to encourage individuals and couples to have children? What sorts of policies might discourage individuals and couples from having children?",
+                  "text_html": "<ul>\n  <li>What policies have different jurisdictions put in place to encourage individuals and couples to have children? What sorts of policies might discourage individuals and couples from having children?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "analyse the ways in which caregiving responsibilities are carried out (e.g., with reference to the sex of caregivers; whether caregiving is paid work; the extent to which children, grandparents, or other relatives are involved in providing care) in diverse families (e.g., working-class and upper-middle-class families, single-parent and extended families, grandparent-led families)",
+              "text_html": "<p>analyse the ways in which caregiving responsibilities are carried out (<em>e.g., with reference to the sex of caregivers; whether caregiving is paid work; the extent to which children, grandparents, or other relatives are involved in providing care)</em> in diverse families <em>(e.g., working-class and upper-middle-class families, single-parent and extended families, grandparent-led families)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do the caregiving responsibilities of children and teens in single-parent families compare to those in two-parent families?\n  What roles do elders play in providing care in families?\n  What do recent Canadian statistics show about the extent to which men are involved in caregiving responsibilities in the home?",
+                  "text_html": "<ul>\n  <li>How do the caregiving responsibilities of children and teens in single-parent families compare to those in two-parent families?</li>\n  <li>What roles do elders play in providing care in families?</li>\n  <li>What do recent Canadian statistics show about the extent to which men are involved in caregiving responsibilities in the home?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "assess government policy and legislation that is intended to support and protect families (e.g., parental and maternity leave benefits, protection from discrimination on the grounds of family status, protection against discrimination because of pregnancy, the right to breastfeed in public, adoption rights for same-sex couples, subsidized childcare, grandparents’ rights)",
+              "text_html": "<p>assess government policy and legislation that is intended to support and protect families <em>(e.g., parental and maternity leave benefits, protection from </em><a data-item-id=\"95172453-fc82-4742-b74d-229aed3de574\" href=\"\"><em>discrimination</em></a><em> on the grounds of family status, protection against discrimination because of pregnancy, the right to breastfeed in public, adoption rights for same-sex couples, subsidized childcare, grandparents’ rights)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do parental leave benefits in Canada compare to those available in other countries? Why may low-income families be less able than higher income families to take full advantage of parental leave benefits? What changes would you make to legislation and policy to ensure equal access to such benefits?",
+                  "text_html": "<ul>\n  <li>How do parental leave benefits in Canada compare to those available in other countries? Why may low-income families be less able than higher income families to take full advantage of parental leave benefits? What changes would you make to legislation and policy to ensure equal access to such benefits?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.4",
+              "text": "analyse the role of the family as an agent of socialization in different cultures and historical periods and among groups from various religious backgrounds (e.g., with reference to child rearing practices, parental expectations, attitudes towards sexuality, education, gender socialization)",
+              "text_html": "<p>analyse the role of the family as an agent of socialization in different cultures and historical periods and among groups from various religious backgrounds <em>(e.g., with reference to child rearing practices, parental expectations, attitudes towards sexuality, education, gender socialization)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In the present day, do family or peers have the greater impact on the socialization of teens? To what extent has this changed from fifty years ago? How do you think it will have changed fifty years from now?",
+                  "text_html": "<ul>\n  <li>In the present day, do family or peers have the greater impact on the socialization of teens? To what extent has this changed from fifty years ago? How do you think it will have changed fifty years from now?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.5",
+              "text": "compare the roles of children in the family and society in various cultures and historical periods (e.g., with reference to rites of passage, participation in education and the labour force, the nature of parent-child relationships, attitudes towards family members with special needs)",
+              "text_html": "<p>compare the roles of children in the family and society in various cultures and historical periods <em>(e.g., with reference to rites of passage, participation in education and the labour force, the nature of parent-child relationships, attitudes towards family members with special needs)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why do literacy rates tend to be higher for boys than girls in most developing countries?",
+                  "text_html": "<ul>\n  <li>Why do literacy rates tend to be higher for boys than girls in most developing countries?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.6",
+              "text": "analyse the impact of social institutions (e.g., educational, religious, economic, and political institutions) on the socialization of family members",
+              "text_html": "<p>analyse the impact of social institutions <em>(e.g., educational, religious, economic, and political institutions)</em> on the socialization of family members</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What impact might economic or political instability have on child development and socialization?\n  How have government controls and interventions affected the lives of First Nation, Métis, and Inuit families?",
+                  "text_html": "<ul>\n  <li>What impact might economic or political instability have on child development and socialization?</li>\n  <li>How have government controls and interventions affected the lives of First Nation, Métis, and Inuit families?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Trends, Issues, and Challenges",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Trends and Challenges for Individuals",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of demographic trends related to the lives of individuals and of the impact of social issues and challenges on individual development",
+          "text_html": "<p>demonstrate an understanding of demographic trends related to the lives of individuals and of the impact of social issues and challenges on individual development</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "analyse the significance of recent demographic trends relating to the lives of individuals (e.g., trends related to educational attainment, workforce participation, income, independent living, age at retirement, life expectancy, rates of cancer and other serious diseases)",
+              "text_html": "<p>analyse the significance of recent demographic trends relating to the lives of individuals <em>(e.g., trends related to educational attainment, workforce participation, income, independent living, age at retirement, life expectancy, rates of cancer and other serious diseases)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the interrelationship between trends in educational attainment, participation in the workforce, and independent living?\n  Women in Canada have a longer life expectancy than men. What implications does this fact have for the types of caregiving arrangements and supports needed for older men and women?",
+                  "text_html": "<ul>\n  <li>What is the interrelationship between trends in educational attainment, participation in the workforce, and independent living?</li>\n  <li>Women in Canada have a longer life expectancy than men. What implications does this fact have for the types of caregiving arrangements and supports needed for older men and women?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "assess the impact of current social trends, issues, and challenges on individual development (e.g., with reference to electronic media, climate change, increased urbanization, increased life expectancy, health care, education, economic changes)",
+              "text_html": "<p>assess the impact of current social trends, issues, and challenges on individual development <em>(e.g., with reference to electronic media, climate change, increased urbanization, increased life expectancy, health care, education, economic changes)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do statistics show about the representation of minority groups in leadership roles in areas such as business and politics? What impact do you think systemic discrimination has had on their representation in these fields?\n  How is childhood development affected by increased urbanization and the corresponding decrease in time spent in nature?",
+                  "text_html": "<ul>\n  <li>What do statistics show about the representation of minority groups in leadership roles in areas such as business and politics? What impact do you think systemic discrimination has had on their representation in these fields?</li>\n  <li>How is childhood development affected by increased urbanization and the corresponding decrease in time spent in nature?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Trends and Challenges in Intimate Relationships",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of demographic and social trends and issues related to intimate relationships and of strategies for responding to challenges in those relationships",
+          "text_html": "<p>demonstrate an understanding of demographic and social trends and issues related to intimate relationships and of strategies for responding to challenges in those relationships</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "analyse the significance of recent demographic trends relating to intimate relationships (e.g., with regard to adolescent sexual activity; cohabitation, marriage, and divorce rates; same-sex marriage; delayed age of marriage; the number of people living independently; serial monogamy; an increase in arranged marriages)",
+              "text_html": "<p>analyse the significance of recent demographic trends relating to intimate relationships <em>(e.g., with regard to adolescent sexual activity; cohabitation, marriage, and divorce rates; same-sex marriage; delayed age of marriage; the number of people living independently; serial monogamy; an increase in arranged marriages)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What trends have there been in cohabitation, marriage, and divorce rates in Canada over the past twenty-five years? What direction do you think these rates will take in the future? Why?",
+                  "text_html": "<ul>\n  <li>What trends have there been in cohabitation, marriage, and divorce rates in Canada over the past twenty-five years? What direction do you think these rates will take in the future? Why?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "assess the impact of current social trends, issues, and challenges on intimate relationships (e.g., with reference to electronic media, employment, health care, education, economic changes, the aging population, balancing work and family, an increase in the number of relationships between people of different faiths or ethnic backgrounds)",
+              "text_html": "<p>assess the impact of current social trends, issues, and challenges on intimate relationships<em> (e.g., with reference to electronic media, employment, health care, education, economic changes, the aging population, balancing work and family, an increase in the number of relationships between people of different faiths or ethnic backgrounds)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some of the ways in which marriage traditions have been adjusted to accommodate interfaith couples?",
+                  "text_html": "<ul>\n  <li>What are some of the ways in which marriage traditions have been adjusted to accommodate interfaith couples?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.3",
+              "text": "outline strategies for avoiding and responding to various types of violence and abuse in intimate relationships (e.g., emotional, physical, sexual, financial abuse)",
+              "text_html": "<p>outline strategies for avoiding and responding to various types of violence and abuse in intimate relationships <em>(e.g., emotional, physical, sexual, financial abuse)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What community agencies are available to support women who are leaving violent relationships?",
+                  "text_html": "<ul>\n  <li>What community agencies are available to support women who are leaving violent relationships?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Trends and Challenges in the Family and in Parent-Child Relationships",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of demographic trends related to the family and to parent-child relationships and of the impact of social issues and challenges on family development",
+          "text_html": "<p>demonstrate an understanding of demographic trends related to the family and to parent-child relationships and of the impact of social issues and challenges on family development</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "analyse the impact of major social and economic changes on the historical evolution of the family (e.g., with reference to complementary roles for men, women, and children in peasant families in agricultural economies; family relations in slave economies; male breadwinners and stay-at-home mothers and children in middle-class families and child labour in working-class families in industrializing economies; the impact on child labour of the development of compulsory education policies; changes in child-rearing practices)",
+              "text_html": "<p>analyse the impact of major social and economic changes on the historical evolution of the family <em>(e.g., with reference to complementary roles for men, women, and children in peasant families in agricultural economies; family relations in slave economies; male breadwinners and stay-at-home mothers and children in middle-class families and child labour in working-class families in industrializing economies; the impact on child labour of the development of compulsory education policies; changes in child-rearing practices)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways have social changes affected the evolution of the family?\n  Given current social issues affecting families, in what ways do you think families will change in the future?",
+                  "text_html": "<ul>\n  <li>In what ways have social changes affected the evolution of the family?</li>\n  <li>Given current social issues affecting families, in what ways do you think families will change in the future?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.2",
+              "text": "analyse the significance of recent demographic trends relating to parent-child relationships (e.g., with reference to family forms, birth rates, age at childbearing, child custody arrangements, caregiving responsibilities, life expectancy, employment status of family members, educational attainment)",
+              "text_html": "<p>analyse the significance of recent demographic trends relating to parent-child relationships <em>(e.g., with reference to family forms, birth rates, age at childbearing, child custody arrangements, caregiving responsibilities, life expectancy, employment status of family members, educational attainment)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways might statistics on domestic fertility rates affect various government policies relating to employment planning, immigration, and pension plans?",
+                  "text_html": "<ul>\n  <li>In what ways might statistics on domestic fertility rates affect various government policies relating to employment planning, immigration, and pension plans?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.3",
+              "text": "assess the impact of current social trends, issues, and challenges relating to the functioning of families (e.g., with reference to electronic media, climate change, health care, education, economic conditions, the aging of the population, balancing work and family, increasing ethnocultural and religious diversity in Canada)",
+              "text_html": "<p>assess the impact of current social trends, issues, and challenges relating to the functioning of families <em>(e.g., with reference to electronic media, climate change, health care, education, economic conditions, the aging of the population, balancing work and family, increasing ethnocultural and religious diversity in Canada)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does the aging of the population affect the stress levels of families in Canada? What government supports have been or could be put in place to support families facing these challenges?\n  How has climate change affected Inuit families?",
+                  "text_html": "<ul>\n  <li>In what ways does the aging of the population affect the stress levels of families in Canada? What government supports have been or could be put in place to support families facing these challenges?</li>\n  <li>How has climate change affected Inuit families?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D3.4",
+              "text": "analyse the impact of violence and abuse on family relationships (e.g., with reference to victims and witnesses of child abuse and neglect, spousal/ partner abuse, elder abuse and neglect)",
+              "text_html": "<p>analyse the impact of violence and abuse on family relationships<em> (e.g., with reference to victims and witnesses of child abuse and neglect, spousal/ partner abuse, elder abuse and neglect)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How widespread is elder abuse in Canada? Why might it be challenging to gather accurate statistics on rates of elder abuse? What supports need to be in place to reduce the extent of such abuse in Canada?",
+                  "text_html": "<ul>\n  <li>How widespread is elder abuse in Canada? Why might it be challenging to gather accurate statistics on rates of elder abuse? What supports need to be in place to reduce the extent of such abuse in Canada?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

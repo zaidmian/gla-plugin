@@ -1,0 +1,531 @@
+{
+  "code": "BEP2O",
+  "name": "Launching and Leading a Business",
+  "grades": [
+    "10"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "Introduction to Business Studies and Entrepreneurship",
+  "panel": "Secondary",
+  "subject": "Business Studies",
+  "subject_group": "Business Studies",
+  "description": "This course introduces students to the world of business and what is required to be successful, ethical, and responsible in today’s economy. Students will develop the knowledge and skills needed to be an entrepreneur who knows how to respond to local and global market opportunities. Throughout the course, students will explore and understand the responsibility of managing different functions of a business. This includes accounting, marketing, information and communication technology, financial management, human resources, and production.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/business-studies/courses/bep2o",
+  "source_codename": "bbi2o__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Business Leadership, Project Management, and Connections",
+      "describer": "Throughout this course, in connection with the learning in strands B to D, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Business Leadership and Project Management",
+          "describer": "Throughout this course, in connection with the learning in strands B to D, students will:",
+          "text": "demonstrate an understanding of various business leadership styles and use a project management process when performing business-related tasks",
+          "text_html": "<p>demonstrate an understanding of various <a data-item-id=\"503faaed-ae44-4cd7-aaf0-dfb7cfc3d486\" href=\"\">business leadership styles</a> and use a <a href=\"/en/curriculum/business-studies/courses/bep2o/g9-10-intro#importance\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">project management process</a> when performing business-related tasks</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Collaboration",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "compare various business leadership styles and explain why it might be appropriate to use a particular style in a particular situation",
+              "text_html": "<p>compare various <a data-item-id=\"503faaed-ae44-4cd7-aaf0-dfb7cfc3d486\" href=\"\">business leadership styles</a> and explain why it might be appropriate to use a particular style in a particular situation</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "use a project management process to manage the main aspects of a business project, including goals, key performance indicators, resources, delegation of tasks and responsibilities, progress of tasks, deadlines, and risks, while demonstrating a leadership style appropriate to each situation",
+              "text_html": "<p>use a project management process to manage the main aspects of a business project, including goals, <a data-item-id=\"725c984c-87ce-4989-8eea-0a2896f149d5\" href=\"\">key performance indicators</a>, resources, delegation of tasks and responsibilities, progress of tasks, deadlines, and risks, while demonstrating a leadership style appropriate to each situation</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "evaluate tasks and projects on a regular basis in terms of goals, key performance indicators, and outcomes, taking into account feedback gathered from a variety of sources",
+              "text_html": "<p>evaluate tasks and projects on a regular basis in terms of goals, key performance indicators, and outcomes, taking into account feedback gathered from a variety of sources</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Business Technologies",
+          "describer": "Throughout this course, in connection with the learning in strands B to D, students will:",
+          "text": "demonstrate an understanding of business-related digital technologies and use them in a way that respects their own and others’ online safety and data security to complete a variety of business-related tasks and projects",
+          "text_html": "<p>demonstrate an understanding of <a data-item-id=\"2f8f9973-ed49-4266-9f4d-9a796443f056\" href=\"\">business-related digital technologies</a> and use them in a way that respects their own and others’ online safety and data security to complete a variety of business-related tasks and projects</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "identify a variety of existing and emerging digital technologies, tools, and applications designed to support the completion of various business-related tasks and projects",
+              "text_html": "<p>identify a variety of existing and emerging digital technologies, tools, and applications designed to support the completion of various business-related tasks and projects</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "analyze and compare the benefits, limitations, costs, and risks, including risks to online safety and data security, associated with various digital technologies, tools, and applications used to complete business-related tasks and projects",
+              "text_html": "<p>analyze and compare the benefits, limitations, costs, and risks, including risks to online safety and data security, associated with various digital technologies, tools, and applications used to complete business-related tasks and projects</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "select and use the most appropriate digital technologies, tools, and applications to complete a variety of business-related tasks and projects",
+              "text_html": "<p>select and use the most appropriate digital technologies, tools, and applications to complete a variety of business-related tasks and projects</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Connections, Applications, and Careers",
+          "describer": "Throughout this course, in connection with the learning in strands B to D, students will:",
+          "text": "analyze how business skills and knowledge can be applied in other subject areas and in a variety of careers",
+          "text_html": "<p>analyze how business skills and knowledge can be applied in other subject areas and in a variety of careers</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "describe ways in which problem solving and creative and critical thinking can be applied to address local and global real-world opportunities and challenges",
+              "text_html": "<p>describe ways in which problem solving and creative and critical thinking can be applied to address local and global real-world opportunities and challenges</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "analyze and explain how business skills and knowledge, including financial literacy, can support learning in other subject areas, in-school job skills programs, and community-based programs",
+              "text_html": "<p>analyze and explain how business skills and knowledge, including financial literacy, can support learning in other subject areas, in-school job skills programs, and community-based programs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "describe how their learning in this course can be applied in a variety of careers, including self-employment, entrepreneurship, or skilled trades",
+              "text_html": "<p>describe how their learning in this course can be applied in a variety of careers, including self-employment, entrepreneurship, or skilled trades</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "create and maintain a portfolio that illustrates their business competencies and growth as an entrepreneur",
+              "text_html": "<p>create and maintain a <a data-item-id=\"d52e954e-aa16-432c-8700-1520d0fb059d\" href=\"\">portfolio</a> that illustrates their business competencies and growth as an entrepreneur</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Contributions of Entrepreneurs",
+          "describer": "Throughout this course, in connection with the learning in strands B to D, students will:",
+          "text": "describe how entrepreneurs contribute to social, economic, and environmental progress, and analyze challenges that they face, identifying ways to address these challenges",
+          "text_html": "<p>describe how entrepreneurs contribute to social, economic, and environmental progress, and analyze challenges that they face, identifying ways to address these challenges</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "describe ways in which different entrepreneurial ventures have addressed social, economic, environmental, and ethical issues",
+              "text_html": "<p>describe ways in which different <a data-item-id=\"8573dcec-027d-4735-bc3f-dc8c5cb7dcc8\" href=\"\">entrepreneurial ventures</a> have addressed social, economic, environmental, and ethical issues</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.2",
+              "text": "describe the contributions and impacts of successful entrepreneurs from diverse local, Canadian, and global communities",
+              "text_html": "<p>describe the contributions and impacts of successful <a data-item-id=\"2ad65c14-1baf-49f1-8df4-13489853e2c5\" href=\"\">entrepreneurs</a> from diverse local, Canadian, and global communities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A4.3",
+              "text": "analyze challenges faced by entrepreneurs from various communities, and identify supports available to help address these challenges",
+              "text_html": "<p>analyze challenges faced by entrepreneurs from various communities, and identify supports available to help address these challenges</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Economic Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Market Forces",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how businesses respond to market forces, including supply and demand, and the needs and wants of consumers",
+          "text_html": "<p>demonstrate an understanding of how businesses respond to <a data-item-id=\"8d165b40-1771-4b36-bc80-b327f441041e\" href=\"\">market forces,</a> including supply and demand, and the needs and wants of consumers</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "explain how market forces affect the supply, demand, and price of goods and services and economic cycles",
+              "text_html": "<p>explain how <a data-item-id=\"8d165b40-1771-4b36-bc80-b327f441041e\" href=\"\">market forces</a> affect the supply, demand, and price of goods and services and <a data-item-id=\"b1c48ac4-7a0c-442f-b53d-eb1d306a6db0\" href=\"\">economic cycles</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "describe how the needs and wants of consumers and the scarcity and choice of goods and services impact consumer behaviour and how businesses respond to that behaviour",
+              "text_html": "<p>describe how the needs and wants of consumers and the scarcity and choice of goods and services impact consumer behaviour and how businesses respond to that behaviour</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "describe how various groups in Canada have been affected by current and past market forces beyond their control",
+              "text_html": "<p>describe how various groups in Canada have been affected by current and past market forces beyond their control</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "The Competitive Market Environment in Canada",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the competitive market environment in Canada and the ways in which economic systems, trade relationships, and governments influence it",
+          "text_html": "<p>demonstrate an understanding of the competitive market environment in Canada and the ways in which <a data-item-id=\"dcc14244-d620-4ac6-be63-3802b07b113b\" href=\"\">economic systems</a>, trade relationships, and governments influence it</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "analyze how different competitive market structures affect business activities in Canada",
+              "text_html": "<p>analyze how different <a data-item-id=\"61c6b68c-9447-4753-9664-788c650658dd\" href=\"\">competitive market structures</a> affect business activities in Canada</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "describe how trade relationships Canada has with other countries have an impact on Canadian markets and on Canadian business activities and decisions",
+              "text_html": "<p>describe how trade relationships Canada has with other countries have an impact on Canadian markets and on Canadian business activities and decisions</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "explain how different levels of government in Canada, as well as non-governmental bodies, may intervene in an attempt to correct market failures and to create a more fair, competitive, and responsible market environment",
+              "text_html": "<p>explain how different levels of government in Canada, as well as non-governmental bodies, may intervene in an attempt to correct market failures and to create a more fair, competitive, and responsible market environment</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Business in Canada",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the various types of businesses that compose Canada’s economy, and analyze the effect of their activity and innovation on communities and domestic and global economies",
+          "text_html": "<p>demonstrate an understanding of the various types of businesses that compose Canada’s economy, and analyze the effect of their activity and innovation on communities and domestic and global economies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "describe the different types of businesses in Canada and their role in domestic and global economies",
+              "text_html": "<p>describe the different types of businesses in Canada and their role in domestic and global economies</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "compare the actions taken and innovations made by various Canadian businesses to become more socially and environmentally responsible",
+              "text_html": "<p>compare the actions taken and innovations made by various Canadian businesses to become more socially and environmentally responsible</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "analyze the ways in which various Canadian businesses are working with Indigenous entrepreneurs, businesses, or organizations, as well as First Nations, Métis, and Inuit individuals or communities, and describe how this contributes to reconciliation",
+              "text_html": "<p>analyze the ways in which various Canadian businesses are working with Indigenous <a data-item-id=\"2ad65c14-1baf-49f1-8df4-13489853e2c5\" href=\"\">entrepreneurs</a>, businesses, or organizations, as well as First Nations, Métis, and Inuit individuals or communities, and describe how this contributes to reconciliation</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Entrepreneurship: From Mindset to Venture",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "The Entrepreneurial Mindset: Designing, Refining, and Pitching an Idea",
+          "describer": "By the end of this course, students will:",
+          "text": "develop, refine, and pitch an entrepreneurial idea by using design, problem solving, and pitch processes as well as an entrepreneurial mindset",
+          "text_html": "<p>develop, refine, and pitch an entrepreneurial idea by using design, problem solving, and <a data-item-id=\"5906dace-d631-4b28-9800-e3fd434ef19f\" href=\"\">pitch processes</a> as well as an <a href=\"/en/curriculum/business-studies/courses/bep2o/g9-10-intro#entrepreneurship-business-ed\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">entrepreneurial mindset</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "describe what constitutes an entrepreneurial mindset, and how their own lived experiences can help them to create and innovate new products or services",
+              "text_html": "<p>describe what constitutes an entrepreneurial mindset, and how their own lived experiences can help them to create and innovate new products or services</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "use a design process to identify how to meet a market need or opportunity; select and develop an entrepreneurial idea to pursue; and create a prototype that takes into account the end-user experience",
+              "text_html": "<p>use a <a data-item-id=\"7d4b38fb-653e-465f-9ddb-65f1cc847558\" href=\"\">design process</a> to identify how to meet a market need or opportunity; select and develop an entrepreneurial idea to pursue; and create a <a data-item-id=\"9984ebf8-7eb9-4d80-a831-26e4df52a787\" href=\"\">prototype</a> that takes into account the end-user experience &nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "use a problem solving process to assess and refine their entrepreneurial idea and prototype, considering social, economic, environmental, and ethical impacts",
+              "text_html": "<p>use a <a data-item-id=\"0501e310-26e7-469b-bf21-10d965227e48\" href=\"\">problem solving proces</a>s to assess and refine their entrepreneurial idea and prototype, considering social, economic, environmental, and ethical impacts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "use a pitch process to effectively communicate their entrepreneurial idea to various audiences for the purpose of gathering support for a potential entrepreneurial venture",
+              "text_html": "<p>use a <a data-item-id=\"5906dace-d631-4b28-9800-e3fd434ef19f\" href=\"\">pitch process </a>to effectively communicate their entrepreneurial idea to various audiences for the purpose of gathering support for a potential <a data-item-id=\"8573dcec-027d-4735-bc3f-dc8c5cb7dcc8\" href=\"\">entrepreneurial venture</a></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Planning an Entrepreneurial Venture",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and plan the various components necessary for their entrepreneurial venture’s development, and evaluate the feasibility of their venture throughout the planning process",
+          "text_html": "<p>identify and plan the various components necessary for their <a data-item-id=\"8573dcec-027d-4735-bc3f-dc8c5cb7dcc8\" href=\"\">entrepreneurial venture</a>’s development, and evaluate the feasibility of their venture throughout the planning process</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify key performance indicators for their venture to measure its progress and success",
+              "text_html": "<p>identify <a data-item-id=\"725c984c-87ce-4989-8eea-0a2896f149d5\" href=\"\">key performance indicators</a> for their venture to measure its progress and success</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "consider the target market and competition for their venture, and create a brand that captures its personality and identity",
+              "text_html": "<p>consider the target market and competition for their venture, and create a <a data-item-id=\"7d34d810-9d46-4655-8659-666f7bd6132d\" href=\"\">brand</a> that captures its personality and identity</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "identify the logistics, resources, and requirements needed for their entrepreneurial venture in order to assess its feasibility",
+              "text_html": "<p>identify the <a data-item-id=\"d84894ab-8d04-4183-a845-117be5fa9372\" href=\"\">logistics</a>, resources, and requirements needed for their <a data-item-id=\"8573dcec-027d-4735-bc3f-dc8c5cb7dcc8\" href=\"\">entrepreneurial venture</a> in order to assess its feasibility</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "calculate their venture’s start-up budget and conduct a break-even analysis to ensure their venture’s financial viability",
+              "text_html": "<p>calculate their venture’s start-up budget and conduct a <a data-item-id=\"caaa49fd-a7a6-4c8d-afef-6508a7582f69\" href=\"\">break-even analysis</a> to ensure their venture’s financial viability</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Financing and Launching an Entrepreneurial Venture",
+          "describer": "By the end of this course, students will:",
+          "text": "launch an entrepreneurial venture by identifying funding opportunities and sales strategies that will help them to achieve their goals and key performance indicators",
+          "text_html": "<p>launch an <a data-item-id=\"8573dcec-027d-4735-bc3f-dc8c5cb7dcc8\" href=\"\">entrepreneurial venture</a> by identifying funding opportunities and sales strategies that will help them to achieve their goals and <a data-item-id=\"725c984c-87ce-4989-8eea-0a2896f149d5\" href=\"\">key performance indicators</a></p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify and compare various supports, including funding opportunities, available for entrepreneurs in their community to help them launch a venture",
+              "text_html": "<p>identify and compare various supports, including funding opportunities, available for <a data-item-id=\"2ad65c14-1baf-49f1-8df4-13489853e2c5\" href=\"\">entrepreneurs</a> in their community to help them launch a venture</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "launch an entrepreneurial venture and lead it towards achieving their identified goals and key performance indicators",
+              "text_html": "<p>launch an <a data-item-id=\"8573dcec-027d-4735-bc3f-dc8c5cb7dcc8\" href=\"\">entrepreneurial venture</a> and lead it towards achieving their identified goals and <a data-item-id=\"725c984c-87ce-4989-8eea-0a2896f149d5\" href=\"\">key performance indicators</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "analyze ethical sales strategies and respectful, accessible customer service approaches and apply them to their entrepreneurial venture",
+              "text_html": "<p>analyze ethical sales strategies and respectful, accessible customer service approaches and apply them to their entrepreneurial venture</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Business Functions",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Operations",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the processes involved in producing a product or delivering a service, and develop a process for producing their product or delivering their service, identifying ways to improve the process overall",
+          "text_html": "<p>demonstrate an understanding of the processes involved in producing a product or delivering a service, and develop a process for producing their product or delivering their service, identifying ways to improve the process overall</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "describe the processes involved in the production of a product or the delivery of a service",
+              "text_html": "<p>describe the processes involved in the production of a product or the delivery of a service</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "examine and evaluate how various businesses have enhanced the efficiency, health and safety practices, ethics, and sustainability of their production or delivery processes",
+              "text_html": "<p>examine and evaluate how various businesses have enhanced the efficiency, health and safety practices, ethics, and sustainability of their production or delivery processes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.3",
+              "text": "outline a process for producing their product or delivering their service in an efficient, healthy, safe, ethical, and sustainable way",
+              "text_html": "<p>outline a process for producing their product or delivering their service in an efficient, healthy, safe, ethical, and sustainable way</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Marketing",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the “three Cs” (company, customer, and competition) and the “four Ps” (product, price, place, and promotion), including how different strategies can be used in different markets",
+          "text_html": "<p>demonstrate an understanding of the “three Cs” (company, customer, and competition) and the “four Ps” (product, price, place, and promotion), including how different strategies can be used in different markets</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "analyze how various businesses have successfully used different marketing strategies for different target markets",
+              "text_html": "<p>analyze how various businesses have successfully used different <a data-item-id=\"66fa942f-084d-422a-8849-2ff6dbe2d688\" href=\"\">marketing strategies</a> for different target markets</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "create a mission statement based on the unique selling proposition and brand values of their entrepreneurial venture",
+              "text_html": "<p>create a <a data-item-id=\"8bc7ad5a-ae90-4fc1-9764-1b9b59dcc387\" href=\"\">mission statement</a> based on the <a data-item-id=\"8b9d75b7-bc97-4814-9fc2-75a898eb75c0\" href=\"\">unique selling proposition</a> and brand values of their <a data-item-id=\"8573dcec-027d-4735-bc3f-dc8c5cb7dcc8\" href=\"\">entrepreneurial venture</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "explain how their venture is best suited for their target customer and how it distinguishes itself from the competition through its value proposition and competitive advantages",
+              "text_html": "<p>explain how their venture is best suited for their target customer and how it distinguishes itself from the competition through its <a data-item-id=\"88c38640-b226-4af7-8695-18fc3d274f64\" href=\"\">value proposition</a> and competitive advantages</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "describe the four Ps of marketing, including how they complement each other to attract customers, and create a marketing mix for their entrepreneurial venture",
+              "text_html": "<p>describe the four Ps of marketing, including how they complement each other to attract customers, and create a <a data-item-id=\"8c5fc779-e02b-4921-aa40-627ca1852419\" href=\"\">marketing mix</a> for their entrepreneurial venture</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Accounting",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the role and importance of accounting to the entrepreneurial process and to the development and growth of a small business",
+          "text_html": "<p>demonstrate an understanding of the role and importance of accounting to the entrepreneurial process and to the development and growth of a small business</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "explain the role and importance of both financial and management accounting for a business in decision making and in building transparency and trust, internally and externally",
+              "text_html": "<p>explain the role and importance of both <a data-item-id=\"3e115174-df1e-42e9-ae48-d65b9d3e1567\" href=\"\">financial</a> and <a data-item-id=\"f9e14fad-e1d8-43d6-a9e5-9afa7e26de5d\" href=\"\">management accounting</a> for a business in decision making and in building transparency and trust, internally and externally</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.2",
+              "text": "demonstrate an understanding of tracking cash inflows and outflows for a small business and the responsibility of reporting on performance",
+              "text_html": "<p>demonstrate an understanding of tracking cash inflows and outflows for a small business and the responsibility of reporting on performance</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "analyze basic financial statements for a small business to determine its financial position and performance",
+              "text_html": "<p>analyze basic <a data-item-id=\"31b44863-b8bd-4fec-b938-7dab72091aea\" href=\"\">financial statements</a> for a small business to determine its financial position and performance</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.4",
+              "text": "demonstrate an understanding of the role and importance of non-financial reporting and how it helps to communicate their venture’s impact and commitment to responsible practices",
+              "text_html": "<p>demonstrate an understanding of the role and importance of <a data-item-id=\"6f805089-fdf2-4cca-a9c2-1657a7f5b89a\" href=\"\">non-financial reporting</a> and how it helps to communicate their venture’s impact and commitment to responsible practices</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D4",
+          "title": "Management of Human Resources",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the role of management in supporting a team of employees, including a manager’s ethical, moral, and legal responsibilities and considerations",
+          "text_html": "<p>demonstrate an understanding of the role of management in supporting a team of employees<strong>, </strong>including a manager’s ethical, moral, and legal responsibilities and considerations</p>",
+          "transferable_skills": [
+            "Collaboration",
+            "Communication",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D4.1",
+              "text": "explain the role of management in leading others in a business, including a manager’s ethical, moral, and legal responsibilities and considerations",
+              "text_html": "<p>explain the role of management in leading others in a business, including a manager’s ethical, moral, and legal responsibilities and considerations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D4.2",
+              "text": "demonstrate how to manage human resource issues that might arise in a business, including ethical issues related to employees, the environment, and communities",
+              "text_html": "<p>demonstrate how to manage human resource issues that might arise in a business, including ethical issues related to employees, the environment, and communities</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

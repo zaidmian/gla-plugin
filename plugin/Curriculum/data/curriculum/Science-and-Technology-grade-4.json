@@ -1,0 +1,485 @@
+{
+  "code": "",
+  "name": "Science and Technology",
+  "grades": [
+    "4"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Science and Technology",
+  "subject_group": "Science and Technology",
+  "description": "Here you will find the expectations and learning for the five areas of study for Grade 4.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology/courses/grade-4",
+  "source_codename": "sci___tech___grade_4",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "STEM Skills and Connections",
+      "describer": "Throughout Grade 4, in connection with the learning in the Life Systems, Matter and Energy, Structures and Mechanisms, and Earth and Space Systems strands, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "STEM Investigation and Communication Skills",
+          "describer": "Throughout Grade 4, in connection with the learning in the other strands, students will:",
+          "text": "use a scientific research process, a scientific experimentation process, and an engineering design process to conduct investigations, following appropriate health and safety procedures",
+          "text_html": "<p>use a <a href=\"/en/curriculum/science-technology/context/processes#scientific-processes\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">scientific research process, a scientific experimentation process,</a> and an <a href=\"/en/curriculum/science-technology/context/processes#engineering-design-process\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">engineering design process</a> to conduct investigations, following appropriate health and safety procedures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a scientific research process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific research process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "use a scientific experimentation process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific experimentation process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems",
+              "text_html": "<p>use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials",
+              "text_html": "<p>follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.5",
+              "text": "communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes",
+              "text_html": "<p>communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes&nbsp;&nbsp;&nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Coding and Emerging Technologies",
+          "describer": "Throughout Grade 4, in connection with the learning in the other strands, students will:",
+          "text": "use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life and in STEM-related fields",
+          "text_html": "<p>use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life and in STEM-related fields</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "write and execute code in investigations and when modelling concepts, with a focus on producing different types of output for a variety of purposes",
+              "text_html": "<p>write and execute code in investigations and when modelling concepts, with a focus on producing different types of output for a variety of purposes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "identify and describe impacts of coding and of emerging technologies on everyday life, including skilled trades",
+              "text_html": "<p>identify and describe impacts of coding and of emerging technologies on everyday life, including skilled trades</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Applications, Connections, and Contributions",
+          "describer": "Throughout Grade 4, in connection with the learning in the other strands, students will:",
+          "text": "demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences",
+          "text_html": "<p>demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "describe practical applications of science and technology concepts in various occupations, including skilled trades, and how these applications address real-world problems",
+              "text_html": "<p>describe practical applications of science and technology concepts in various occupations, including skilled trades, and how these applications address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "investigate how science and technology can be used with other subject areas to address real-world problems",
+              "text_html": "<p>investigate how science and technology can be used with other subject areas to address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse contributions to science and technology from various communities",
+              "text_html": "<p>analyse contributions to science and technology from various communities</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Life Systems",
+      "describer": "By the end of Grade 4, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "assess impacts of human activities on habitats and communities, and analyse actions for minimizing negative impacts and enhancing positive ones",
+          "text_html": "<p>assess impacts of human activities on habitats and communities, and analyse actions for minimizing negative impacts and enhancing positive ones</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "assess positive and negative impacts of human activities on habitats and communities, while taking different perspectives into account",
+              "text_html": "<p>assess positive and negative impacts of human activities on habitats and communities, while taking different perspectives into account</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "analyse the impact of the depletion or extinction of a species on its habitat and community, and describe possible actions to prevent such depletions or extinctions",
+              "text_html": "<p>analyse the impact of the depletion or extinction of a species on its habitat and community, and describe possible actions to prevent such depletions or extinctions</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "demonstrate an understanding of habitats and communities and of interrelationships among the organisms that live in them",
+          "text_html": "<p>demonstrate an understanding of habitats and communities and of interrelationships among the organisms that live in them</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "describe habitats as areas that provide organisms, including plants and animals, with the necessities of life, and identify ways in which a local habitat provides these necessities",
+              "text_html": "<p>describe habitats as areas that provide organisms, including plants and animals, with the necessities of life, and identify ways in which a local habitat provides these necessities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "describe a community as a group of interacting species sharing a common habitat, and identify factors that affect the ability of a community of plants and animals to survive in a local habitat",
+              "text_html": "<p>describe a community as a group of interacting species sharing a common habitat, and identify factors that affect the ability of a community of plants and animals to survive in a local habitat</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "describe the relationship of organisms in a food chain, and classify organisms as producers, consumers, or decomposers",
+              "text_html": "<p>describe the relationship of organisms in a food chain, and classify organisms as producers, consumers, or decomposers</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "demonstrate an understanding of a food web as the interconnection of multiple food chains in a natural community",
+              "text_html": "<p>demonstrate an understanding of a food web as the interconnection of multiple food chains in a natural community</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.5",
+              "text": "describe how animals are categorized according to their diet, and categorize various animals as carnivores, herbivores, or omnivores",
+              "text_html": "<p>describe how animals are categorized according to their diet, and categorize various animals as carnivores, herbivores, or omnivores</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.6",
+              "text": "describe structural adaptations of a variety of plants and animals and how these adaptations allow the organisms to survive in specific habitats",
+              "text_html": "<p>describe structural adaptations of a variety of plants and animals and how these adaptations allow the organisms to survive in specific habitats</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.7",
+              "text": "explain why all habitats have limits to the number of plants and animals they can support",
+              "text_html": "<p>explain why all habitats have limits to the number of plants and animals they can support</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Matter and Energy",
+      "describer": "By the end of Grade 4, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "assess the impacts on society and the environment of technological innovations related to light and sound",
+          "text_html": "<p>assess the impacts on society and the environment of technological innovations related to light and sound</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "assess the impacts on society of devices that use the properties of light or sound, or both",
+              "text_html": "<p>assess the impacts on society of devices that use the properties of light or sound, or both</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "assess the impacts on the environment of light energy and sound energy produced by various technologies, while taking different perspectives into account",
+              "text_html": "<p>assess the impacts on the environment of light energy and sound energy produced by various technologies, while taking different perspectives into account</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "demonstrate an understanding of light and sound as forms of energy that have specific characteristics and properties",
+          "text_html": "<p>demonstrate an understanding of light and sound as forms of energy that have specific characteristics and properties</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify a variety of natural and artificial light sources",
+              "text_html": "<p>identify a variety of natural and artificial light sources</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "distinguish between objects and living things that emit their own light and those that reflect light from other sources",
+              "text_html": "<p>distinguish between objects and living things that emit their own light and those that reflect light from other sources</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "describe properties of light, including that light travels in a straight path and that light can be absorbed, reflected, and refracted",
+              "text_html": "<p>describe properties of light, including that light travels in a straight path and that light can be absorbed, reflected, and refracted</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "describe properties of sound, including that sound travels through a medium as a wave and that sound can be absorbed or reflected and modified",
+              "text_html": "<p>describe properties of sound, including that sound travels through a medium as a wave and that sound can be absorbed or reflected and modified</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "explain how vibrations cause sound waves",
+              "text_html": "<p>explain how vibrations cause sound waves</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.6",
+              "text": "describe how different objects and materials interact with light and sound energy",
+              "text_html": "<p>describe how different objects and materials interact with light and sound energy</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.7",
+              "text": "distinguish between sources of light that emit both light and heat and those that emit light but little heat",
+              "text_html": "<p>distinguish between sources of light that emit both light and heat and those that emit light but little heat</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.8",
+              "text": "identify sensory organs and devices that make use of the properties of light and sound",
+              "text_html": "<p>identify sensory organs and devices that make use of the properties of light and sound</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Structures and Mechanisms",
+      "describer": "By the end of Grade 4, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "evaluate the impacts of various machines and their mechanisms on society and the environment",
+          "text_html": "<p>evaluate the impacts of various machines and their mechanisms on society and the environment</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "assess the impacts of machines and their mechanisms on the daily lives of people in various communities",
+              "text_html": "<p>assess the impacts of machines and their mechanisms on the daily lives of people in various communities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "assess and compare the environmental impacts of using different machines designed for similar purposes",
+              "text_html": "<p>assess and compare the environmental impacts of using different machines designed for similar purposes</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "demonstrate an understanding of the basic principles and functions of machines and their mechanisms",
+          "text_html": "<p>demonstrate an understanding of the basic principles and functions of machines and their mechanisms</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "identify machines that are used in daily life, and describe their purposes",
+              "text_html": "<p>identify machines that are used in daily life, and describe their purposes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "identify the parts of various mechanisms and describe the purpose of each part",
+              "text_html": "<p>identify the parts of various mechanisms and describe the purpose of each part</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "describe how different mechanisms transmit various types of motion, including rotary motion, from one system to another",
+              "text_html": "<p>describe how different mechanisms transmit various types of motion, including rotary motion, from one system to another</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "describe how mechanisms transform motion, including how they can change the geometric plane in which the motion occurs and the speed and/or direction of motion",
+              "text_html": "<p>describe how mechanisms transform motion, including how they can change the geometric plane in which the motion occurs and the speed and/or direction of motion</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.5",
+              "text": "explain how forces are changed in a variety of machines",
+              "text_html": "<p>explain how forces are changed in a variety of machines</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Earth and Space Systems",
+      "describer": "By the end of Grade 4, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "assess the social and environmental impacts of geological processes and of human uses of rocks and minerals",
+          "text_html": "<p>assess the social and environmental impacts of geological processes and of human uses of rocks and minerals</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "analyse ways in which geological processes impact society and the environment",
+              "text_html": "<p>analyse ways in which geological processes impact society and the environment</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.2",
+              "text": "assess social and environmental impacts of extracting and refining rocks and minerals and of manufacturing, recycling, and disposing of products derived from rocks and minerals, while taking various perspectives into account",
+              "text_html": "<p>assess social and environmental impacts of extracting and refining rocks and minerals and of manufacturing, recycling, and disposing of products derived from rocks and minerals, while taking various perspectives into account</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 4, students will:",
+          "text": "demonstrate an understanding of rocks, minerals, and Earth’s geological processes",
+          "text_html": "<p>demonstrate an understanding of rocks, minerals, and Earth’s geological processes</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "explain geological processes that result in the formation of igneous, sedimentary, and metamorphic rocks, using the rock cycle",
+              "text_html": "<p>explain geological processes that result in the formation of igneous, sedimentary, and metamorphic rocks, using the rock cycle</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.2",
+              "text": "describe the physical properties of igneous, sedimentary, and metamorphic rocks",
+              "text_html": "<p>describe the physical properties of igneous, sedimentary, and metamorphic rocks</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.3",
+              "text": "classify different rocks and minerals according to their composition and physical properties, using various tests and criteria",
+              "text_html": "<p>classify different rocks and minerals according to their composition and physical properties, using various tests and criteria</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.4",
+              "text": "describe everyday uses of rocks and minerals",
+              "text_html": "<p>describe everyday uses of rocks and minerals</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.5",
+              "text": "describe how fossils are formed and what information they can provide about Earth’s history",
+              "text_html": "<p>describe how fossils are formed and what information they can provide about Earth’s history</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.6",
+              "text": "demonstrate an understanding of First Nations, Métis, and Inuit geological knowledges that are used in the selection of different rocks and minerals for specific purposes",
+              "text_html": "<p>demonstrate an understanding of First Nations, Métis, and Inuit geological knowledges that are used in the selection of different rocks and minerals for specific purposes&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

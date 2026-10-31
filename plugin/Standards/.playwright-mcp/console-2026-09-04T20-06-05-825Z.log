@@ -1,0 +1,8 @@
+[     584ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ http://localhost:8080/api/v1/staff-absence?page=0&size=20:0
+[     613ms] [WARNING] ⚠️ The following "Toast" props are deprecated: "iconClass".
+💡 Please use the "classes" prop instead.
+Migration example: classes={{ icon: "bg-danger-bg text-danger-fg" }}
+ @ http://localhost:5173/node_modules/@sveltejs/kit/src/runtime/client/client.js?v=5c8b5caf:3352
+[   89998ms] [ERROR] Failed to load resource: the server responded with a status of 401 () @ http://localhost:8080/api/v1/person?q=smith&size=8:0
+[  152034ms] [LOG] [vite] server connection lost. Polling for restart... @ http://localhost:5173/@vite/client:864
+[  153223ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:5173/login:0

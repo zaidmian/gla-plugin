@@ -1,0 +1,43 @@
+# GLA school calendar, 2026-27
+# One file per school year, shared by every course. A semester config names
+# it with `school_calendar: "2026-27 S1"` (or S2) and lists only what is
+# particular to the course (see README.md). Write a date as YYYY-MM-DD, or
+# "TODO" until the office confirms it; a semester that needs a TODO date
+# will not build.
+#
+# S1 dates, holidays, PA days and events were carried from ICS3U's
+# 2026-27 S1 semester_config.yaml on October 29, 2026. S2 and the second
+# half of the year are TODO.
+
+school_year: "2026-27"
+
+semesters:
+  S1: { first_day: "2026-08-31", last_day: "2027-01-15", exam_start: "2027-01-18", exam_end: "2027-01-21" }
+  S2: { first_day: "TODO", last_day: "TODO", exam_start: "TODO", exam_end: "TODO" }
+
+# Every non-instructional day or range in the year. Ramadan break and Eid
+# shift yearly; enter that year's dates here. Single days: start == end.
+holidays:
+  - { name: "Labour Day", start: "2026-09-07", end: "2026-09-07" }
+  - { name: "National Day for Truth and Reconciliation", start: "2026-09-30", end: "2026-09-30" }
+  - { name: "Fall Break", start: "2026-10-12", end: "2026-10-16" }
+  - { name: "Winter Break", start: "2026-12-21", end: "2027-01-01" }
+  # TODO: S2 holidays (Family Day, Ramadan break, Eid al-Fitr, March Break, Good Friday, Easter Monday, Eid al-Adha, Victoria Day)
+
+# "YYYY-MM-DD", or { date: "YYYY-MM-DD", label: "PD Day / Parent-Teacher Interviews" }
+pa_days:
+  - "2026-10-09"
+  - { date: "2026-11-20", label: "PD Day / Parent-Teacher Interviews" }
+  # TODO: S2 PA days
+
+# School-wide days that disrupt classes but do not close the school. No
+# buffers here: each course config decides how many buffer days an event
+# takes by listing it by name. An event a course does not list adds its note
+# to the course's class days that fall in it.
+events:
+  - { name: "Terry Fox Run", start: "2026-09-17", end: "2026-09-17" }
+  - { name: "DECA Symposium", start: "2026-09-28", end: "2026-09-28" }
+  - { name: "Interschool Cross Country", start: "2026-10-05", end: "2026-10-08", note: "Interschool Cross Country, expect disruption" }
+  - { name: "Literacy Test", start: "2026-11-25", end: "2026-11-25" }
+  - { name: "Winter Wonderland", start: "2026-12-18", end: "2026-12-18" }
+  # TODO: S2 events

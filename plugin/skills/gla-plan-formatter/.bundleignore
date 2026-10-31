@@ -1,0 +1,4 @@
+# Excluded from the .skill bundle in addition to caches, git files, dist/, _incoming/, docx and pdf outputs.
+CAPABILITIES.md
+SAMPLE_DELTAS.md
+*.spec.json

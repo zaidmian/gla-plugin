@@ -1,0 +1,112 @@
+# ============================================================
+# GLA Weekly Lesson Plan: Shared Master Schema (v4)
+# ============================================================
+# One week_plan.yaml per week folder. This file is the blank template;
+# copy it and fill every field. Keep it terse: wording for expectations
+# lives in the course's Curriculum_Coverage_Map.md, and detailed
+# activities live in the day lesson files. This document exists for
+# ministry record-keeping and administrative review, alongside (not
+# replacing) daily lesson files.
+#
+# Date-agnostic rules:
+#   - No calendar dates in a master. The `dates` block is filled by
+#     rehydration ({{...}} placeholders stay literal in the master).
+#   - Slot IDs (U2.W3.D1) are permanent; days are numbered within the week.
+#
+# v4 (shared-package): metadata is course-parameterized; exercise marks
+# use the /10 scale (see assessment/Grading_Conventions.md).
+# v5: adds the `studio` day_type (self-directed divergent work from a
+# BRIEF_ sheet: see Style_Guide_Core.md §2/§5). Studio days are sub-ready.
+# ============================================================
+
+metadata:
+  course_code: ""           # e.g. "ICS4U"
+  course_name: ""           # e.g. "Computer Science"
+  grade: 0                  # e.g. 12
+  pathway: ""               # e.g. "University Preparation"
+  school: "Gibraltar Leadership Academy"
+  teacher: "Br. Zaid"
+  unit: ""                  # e.g. "U2"
+  unit_name: ""             # e.g. "Objects, Arrays, and Files"
+  week: 0                   # week number within the unit
+  week_title: ""            # e.g. "File Input and Output"
+  slot_prefix: ""           # e.g. "U2.W2"
+  dates:                    # REHYDRATION ONLY, leave placeholders in master
+    start: "{{WEEK_START}}"
+    end: "{{WEEK_END}}"
+
+# GLA requirement: 1-2 sentences connecting the week to Islamic values,
+# plus a short elaboration.
+islamic_expectations:
+  focus: ""
+  connection: ""
+
+# 1-3 GLA core values emphasized this week (from: Respect, Responsibility,
+# Punctuality, Honesty, Integrity, Tolerance, Cleanliness, Cooperation,
+# Courage, Humility) with one sentence on how.
+character_education:
+  values: []                # e.g. [Responsibility, Cooperation]
+  how: ""
+
+# 3-4 of the six Ontario learning skills targeted this week (Responsibility,
+# Organization, Independent Work, Collaboration, Initiative, Self-Regulation).
+learning_skills: []
+
+# Which of the four achievement categories are touched by this week's graded
+# work (Knowledge/Understanding, Thinking, Communication, Application).
+# Spell the second one the way this course's curriculum document does:
+# "Thinking" in Computer Studies, "Thinking and Investigation" in Science.
+achievement_categories: []
+
+# Expectation CODES only: wording lives in the course's coverage map.
+curriculum_expectations:
+  overall: []               # e.g. [A1, A2]
+  specific: []              # e.g. [A1.3, A1.4, A2.1]
+
+# 2-3 goals, each with 1-3 "You can..." success criteria.
+learning_goals:
+  - goal: ""                # "You will learn..."
+    success_criteria: []    # "You can..."
+
+# Everything needed for the week, one flat list (tech, handouts, refs).
+resources: []
+
+# One entry per instructional day. Keep activities to 3-4 timed bullets;
+# the day lesson file has the full flow. ~50 usable minutes per day.
+daily_lessons:
+  - day: 1                  # D1..D5 within this week
+    slot: ""                # e.g. "U2.W2.D1"
+    date: "{{D1_DATE}}"     # REHYDRATION ONLY
+    day_type: teach         # teach | lab | exercise | studio | flex | assess
+    sub_ready: false        # true for exercise/lab/studio/flex days (Style Guide Core §8)
+    title: ""
+    focus: ""
+    activities:             # 3-4 bullets, minutes should total ~50
+      - minutes: 0
+        what: ""            # the one-line summary of the activity (required)
+        teacher: ""         # optional: what the teacher does; unit plans split their
+        student: ""         #   teacher and student columns from these two keys
+    materials: []           # filenames used (deck, exercise sheet, ref sheet)
+
+# Assessment strategies in brief prose (not booleans).
+assessment:
+  for_learning: []          # AFL: e.g. "checkpoint questions during D1 deck"
+  as_learning: []           # AAL: e.g. "students self-check EX against posted criteria"
+  of_learning: []           # AOL: e.g. "EX_File_Reader submitted D4 (/10)"
+
+# Graded items due or handed out this week. Use slot IDs, never dates.
+evaluations:
+  - kind: ""                # exercise | assignment | test | culminating | milestone
+                            #   culminating: a component of the culminating task (part of the
+                            #     final evaluation); the name says group or individual
+                            #   milestone: a formative checkpoint toward a larger task; marks
+                            #     says formative
+    name: ""                # e.g. "EX_File_Reader"
+    handed_out: ""          # slot ID
+    due: ""                 # slot ID
+    marks: ""               # "/10" for exercises; points for assignments/tests
+    summary: ""             # optional: one or two plain lines saying what the item is; the
+                            #   Assessment Register's "What it is" column (first mention wins)
+
+# Anything a future teacher (or substitute coordinator) should know.
+notes: ""

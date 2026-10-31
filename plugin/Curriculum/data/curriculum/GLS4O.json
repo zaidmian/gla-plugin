@@ -1,0 +1,525 @@
+{
+  "code": "GLS4O",
+  "name": "Advanced Learning Strategies: Skills for Success After Secondary School",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "",
+  "panel": "Secondary",
+  "subject": "Guidance and Career Education",
+  "subject_group": "Guidance and Career Education",
+  "description": "This course improves students’ learning and personal-management skills, preparing them to make successful transitions to work, training, and/or postsecondary education destinations. Students will assess their learning abilities and use literacy, numeracy, and research skills and personal-management techniques to maximize their learning. Students will investigate trends and resources to support their postsecondary employment, training, and/or education choices and develop a plan to help them meet their learning and career goals.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-guidance-and-career-education/courses/gls4o",
+  "source_codename": "gls4o___pdf__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Learning Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Learning and Thinking Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "evaluate learning skills and strategies that contribute to success in various settings",
+          "text_html": "<p>evaluate learning skills and strategies that contribute to success in various settings</p>",
+          "transferable_skills": [
+            "Communication",
+            "Self-Directed Learning",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "identify and apply appropriate strategies for improving concentration and minimizing internal and external distractions",
+              "text_html": "<p>identify and apply appropriate strategies for improving concentration and minimizing internal and external distractions</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "demonstrate effective use of the inquiry/research process and problem solving in a variety of learning situations",
+              "text_html": "<p>demonstrate effective use of the inquiry/research process and problem solving in a variety of learning situations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "describe and make effective use of memory strategies to support learning",
+              "text_html": "<p>describe and make effective use of memory strategies to support learning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "demonstrate the ability to adapt their study techniques and test-taking strategies to suit different subjects and testing formats (e.g., essay, multiple choice, open book, oral)",
+              "text_html": "<p>demonstrate the ability to adapt their study techniques and test-taking strategies to suit different subjects and testing formats (<em>e.g., essay, multiple choice, open book, oral</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Literacy and Numeracy Skills and Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "apply appropriate literacy and numeracy skills and strategies to support learning and planning for postsecondary choices",
+          "text_html": "<p>apply appropriate literacy and numeracy skills and strategies to support learning and planning for postsecondary choices</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "identify and apply appropriate reading skills and strategies (e.g., referring to headings and subheadings for content clues, using pictures and charts to help in understanding content, asking questions) to acquire and evaluate information from a variety of written materials",
+              "text_html": "<p>identify and apply appropriate reading skills and strategies (<em>e.g., referring to headings and subheadings for content clues, using pictures and charts to help in understanding content, asking questions</em>) to acquire and evaluate information from a variety of written materials</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "apply a variety of skills and strategies (e.g., brainstorming, use of mind maps and charts, note taking) to improve their writing for various audiences and purposes (e.g., writing reports, completing job applications, preparing personal résumés)",
+              "text_html": "<p>apply a variety of skills and strategies (<em>e.g., brainstorming, use of mind maps and charts, note taking</em>) to improve their writing for various audiences and purposes (<em>e.g., writing reports, completing job applications, preparing personal résumés</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "identify and apply oral communication skills and strategies to improve interactions with others (e.g., participating in class discussions, conducting interviews, requesting assistance, asking for information) in school, the community, and the workplace",
+              "text_html": "<p>identify and apply oral communication skills and strategies to improve interactions with others (<em>e.g., participating in class discussions, conducting interviews, requesting assistance, asking for information</em>) in school, the community, and the workplace</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.4",
+              "text": "identify and apply appropriate numeracy skills and strategies (e.g., calculating, interpreting data, budgeting) to meet academic and career-planning requirements",
+              "text_html": "<p>identify and apply appropriate numeracy skills and strategies (<em>e.g., calculating, interpreting data, budgeting</em>) to meet academic and career-planning requirements</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Planning for Learning",
+          "describer": "By the end of this course, students will:",
+          "text": "analyse their learning skills and styles to determine their learning strengths and needs, and develop strategies to maximize their learning while in secondary school and throughout their lives",
+          "text_html": "<p>analyse their learning skills and styles to determine their learning strengths and needs, and develop strategies to maximize their learning while in secondary school and throughout their lives</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "identify and analyse learning styles (e.g., auditory, visual, kinesthetic) to determine how they learn best",
+              "text_html": "<p>identify and analyse learning styles (<em>e.g., auditory, visual, kinesthetic</em>) to determine how they learn best</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "list positive and negative personal factors that affect learning in secondary school (e.g., motivation, values, attitude), and identify strategies to maximize their learning (e.g., connecting rewards to achieving goals, connecting learning to personal goals, engaging in practical learning experiences, using peer support)",
+              "text_html": "<p>list positive and negative personal factors that affect learning in secondary school (<em>e.g., motivation, values, attitude</em>), and identify strategies to maximize their learning (<em>e.g., connecting rewards to achieving goals, connecting learning to personal goals, engaging in practical learning experiences, using peer support</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "identify difficulties they have experienced in educational settings (e.g., completing projects, tests, essays; working in groups; making oral presentations) and explain how they could improve in these areas",
+              "text_html": "<p>identify difficulties they have experienced in educational settings (<em>e.g., completing projects, tests, essays; working in groups; making oral presentations</em>) and explain how they could improve in these areas</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "identify possible challenges (e.g., learning difficulties, physical barriers, family, finances, location) to effective learning in their selected postsecondary work or educational destination",
+              "text_html": "<p>identify possible challenges (<em>e.g., learning difficulties, physical barriers, family, finances, location</em>) to effective learning in their selected postsecondary work or educational destination</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.5",
+              "text": "identify a variety of resources (e.g., library, Internet, tutors, guidance office, school personnel, community agencies) available to support student learning",
+              "text_html": "<p>identify a variety of resources (<em>e.g., library, Internet, tutors, guidance office, school personnel, community agencies</em>) available to support student learning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.6",
+              "text": "identify and use strategies for self-advocacy to meet learning and personal needs",
+              "text_html": "<p>identify and use strategies for self-advocacy to meet learning and personal needs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.7",
+              "text": "describe how they will continue lifelong learning in both formal and informal ways after secondary school",
+              "text_html": "<p>describe how they will continue lifelong learning in both formal and informal ways after secondary school</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Personal Management",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Applying Personal-Management Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and apply the personal-management skills and strategies that contribute to success in a variety of settings",
+          "text_html": "<p>identify and apply the personal-management skills and strategies that contribute to success in a variety of settings</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "compare the personal-management skills, habits, and characteristics needed for success in secondary school (e.g., setting goals, effort and persistence, willingness to reflect and learn from their mistakes) with those required in other learning and work environments",
+              "text_html": "<p>compare the personal-management skills, habits, and characteristics needed for success in secondary school (<em>e.g., setting goals, effort and persistence, willingness to reflect and learn from their mistakes</em>) with those required in other learning and work environments</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "evaluate their personal-management skills, habits, and characteristics through a self-assessment process (e.g., using personal inventories, skills tests; examining past successes and failures), and identify those areas most in need of improvement",
+              "text_html": "<p>evaluate their personal-management skills, habits, and characteristics through a self-assessment process (<em>e.g., using personal inventories, skills tests; examining past successes and failures</em>), and identify those areas most in need of improvement</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "describe the variety of ways in which people manage themselves when dealing with issues such as risk, time, change, planning, and money",
+              "text_html": "<p>describe the variety of ways in which people manage themselves when dealing with issues such as risk, time, change, planning, and money</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.4",
+              "text": "demonstrate effective use of strategies for improving their personal-management skills (e.g., use of agenda, goal setting, time management, priority management, budgeting)",
+              "text_html": "<p>demonstrate effective use of strategies for improving their personal-management skills (<em>e.g., use of agenda, goal setting, time management, priority management, budgeting</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Impact of Personal Factors",
+          "describer": "By the end of this course, students will:",
+          "text": "explain the impact of personal factors on achievement and apply strategies for personal improvement",
+          "text_html": "<p>explain the impact of personal factors on achievement and apply strategies for personal improvement</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "identify and describe personal factors that can negatively affect their learning and thinking (e.g., low self-esteem, high anxiety, substance abuse, poor interpersonal skills, family relationships)",
+              "text_html": "<p>identify and describe personal factors that can negatively affect their learning and thinking (<em>e.g., low self-esteem, high anxiety, substance abuse, poor interpersonal skills, family relationships</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "describe the personal and social factors that contribute to positive and negative stress (e.g., disabilities, racism, discrimination, financial situation, family support), and explain how stress affects them in a variety of settings (e.g., school, family, workplace, peer group)",
+              "text_html": "<p>describe the personal and social factors that contribute to positive and negative stress (<em>e.g., disabilities, racism, discrimination, financial situation, family support</em>), and explain how stress affects them in a variety of settings (<em>e.g., school, family, workplace, peer group</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "explain the relationship between a healthy lifestyle (e.g., adequate sleep, good nutrition, regular exercise; holistic approaches to well-being, such as those found in Aboriginal cultures) and daily performance in various settings",
+              "text_html": "<p>explain the relationship between a healthy lifestyle (<em>e.g., adequate sleep, good nutrition, regular exercise; holistic approaches to well-being, such as those found in </em><a data-item-id=\"916140f7-d731-4ca6-ad27-250194db8b92\" href=\"\"><em>Aboriginal</em></a><em> cultures</em>) and daily performance in various settings</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "assess their affective preparedness (e.g., sense of responsibility, independence, emotional readiness) for their postsecondary education or work goals",
+              "text_html": "<p>assess their affective preparedness (<em>e.g., sense of responsibility, independence, emotional readiness</em>) for their postsecondary education or work goals</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Interpersonal Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the interpersonal skills and strategies required to achieve success in reaching goals in a variety of settings",
+          "text_html": "<p>apply the interpersonal skills and strategies required to achieve success in reaching goals in a variety of settings</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Collaboration",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "identify and use strategies and resources (e.g., conflict resolution, co-curricular activities, counselling) to maximize success in school and for daily living",
+              "text_html": "<p>identify and use strategies and resources (<em>e.g., conflict resolution, co-curricular activities, counselling</em>) to maximize success in school and for daily living</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "demonstrate an understanding of the importance of networking, mentorship, and self-advocacy to the achievement of postsecondary goals (e.g., work, travel, training, further education)",
+              "text_html": "<p>demonstrate an understanding of the importance of networking, mentorship, and self-advocacy to the achievement of postsecondary goals (<em>e.g., work, travel, training, further education</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "demonstrate the use of interpersonal skills that contribute to achievement of goals in a variety of areas (e.g., communicating with employers in the workplace, requesting information about community resources, applying for a job, obtaining work experience)",
+              "text_html": "<p>demonstrate the use of interpersonal skills that contribute to achievement of goals in a variety of areas (<em>e.g., communicating with employers in the workplace, requesting information about community resources, applying for a job, obtaining work experience</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Exploration of Opportunities",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Trends",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge of selected workplace trends in order to make decisions about postsecondary choices and pathways",
+          "text_html": "<p>demonstrate knowledge of selected workplace trends in order to make decisions about postsecondary choices and pathways</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "assess the effects of information technology on selected fields of work, including its impact on educational and skill requirements, learning opportunities, how work is done, and employment opportunities",
+              "text_html": "<p>assess the effects of information technology on selected fields of work, including its impact on educational and skill requirements, learning opportunities, how work is done, and employment opportunities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "compare emerging work-style alternatives (e.g., contract work, telecommuting, talent pooling) and other employment-related trends (e.g., changing composition of the labour market, impact of education level on earnings and employment), and explain how these trends may influence their education and career plans",
+              "text_html": "<p>compare emerging work-style alternatives (<em>e.g., contract work, telecommuting, talent pooling</em>) and other employment-related trends (<em>e.g., changing composition of the labour market, impact of education level on earnings and employment</em>), and explain how these trends may influence their education and career plans</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "identify traditional and emerging approaches to learning in modern workplaces (e.g., formal instruction, independent computer-based learning, mentorship, apprenticeship) and explain why businesses and other organizations value ongoing, self-directed learning",
+              "text_html": "<p>identify traditional and emerging approaches to learning in modern workplaces (<em>e.g., formal instruction, independent computer-based learning, mentorship, apprenticeship</em>) and explain why businesses and other organizations value ongoing, self-directed learning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "assess how well their transferable and essential skills (e.g., writing, oral communication, numeracy, computer skills) and other personal information (e.g., learning styles, family commitment, finances) align with selected fields of work",
+              "text_html": "<p>assess how well their transferable and essential skills (<em>e.g., writing, oral communication, numeracy, computer skills</em>) and other personal information (<em>e.g., learning styles, family commitment, finances</em>) align with selected fields of work</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Opportunities",
+          "describer": "By the end of this course, students will:",
+          "text": "apply research and career-exploration strategies to identify postsecondary options",
+          "text_html": "<p>apply research and career-exploration strategies to identify postsecondary options</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "locate, select, and summarize relevant educational and career information from a variety of sources (e.g., print material, Internet websites, information interviews, job shadowing, work experience) based on their personal interests and abilities",
+              "text_html": "<p>locate, select, and summarize relevant educational and career information from a variety of sources (<em>e.g., print material, Internet websites, information interviews, job shadowing, work experience</em>) based on their personal interests and abilities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "identify and describe selected education/training options (e.g., independent study; college, university, workplace training) that could help them achieve their learning and career goals, and assess the suitability of these options on the basis of criteria that they have identified (e.g., cost, duration, learning environment)",
+              "text_html": "<p>identify and describe selected education/training options (<em>e.g., independent study; college, university, workplace training</em>) that could help them achieve their learning and career goals, and assess the suitability of these options on the basis of criteria that they have identified (<em>e.g., cost, duration, learning environment</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "describe the knowledge, talents, and skills required for success in selected occupations, and the education/training routes that prepare people for these occupations",
+              "text_html": "<p>describe the knowledge, talents, and skills required for success in selected occupations, and the education/training routes that prepare people for these occupations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "compare the eligibility criteria for programs relevant to their learning goals through the use of course calendars and other literature from educational institutions or training centres",
+              "text_html": "<p>compare the eligibility criteria for programs relevant to their learning goals through the use of course calendars and other literature from educational institutions or training centres</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Learning Environments and Resources",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and describe the learning environments and resources available to support lifelong learning",
+          "text_html": "<p>identify and describe the learning environments and resources available to support lifelong learning</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "locate and assess resources and assistance programs that support learning in selected education/training programs (e.g., adult literacy centres, Human Resources and Social Development Canada website, programs for students with learning disabilities)",
+              "text_html": "<p>locate and assess resources and assistance programs that support learning in selected education/training programs (<em>e.g., adult literacy centres, Human Resources and Social Development Canada website, programs for students with learning disabilities</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "describe the benefits of such experiences as volunteering and part-time work and other out-of-school activities for acquiring new knowledge and skills",
+              "text_html": "<p>describe the benefits of such experiences as volunteering and part-time work and other out-of-school activities for acquiring new knowledge and skills</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "describe the learning environments and the approaches to learning (e.g., apprenticeships, correspondence courses, online learning, field work, independent study, lectures and tutorials) that they can expect to encounter in postsecondary education or training programs",
+              "text_html": "<p>describe the learning environments and the approaches to learning (<em>e.g., apprenticeships, correspondence courses, online learning, field work, independent study, lectures and tutorials</em>) that they can expect to encounter in postsecondary education or training programs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.4",
+              "text": "demonstrate an understanding of career development as a process involving lifelong learning",
+              "text_html": "<p>demonstrate an understanding of career development as a process involving lifelong learning</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Preparation for Transitions and Change",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Transition Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "evaluate their own transition skills and strategies, and identify those requiring improvement",
+          "text_html": "<p>evaluate their own transition skills and strategies, and identify those requiring improvement</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "identify the successes and challenges of transitions and changes they have experienced (e.g., graduating from elementary to secondary school, dealing with changes in family situations, starting a new job)",
+              "text_html": "<p>identify the successes and challenges of transitions and changes they have experienced (<em>e.g., graduating from elementary to secondary school, dealing with changes in family situations, starting a new job</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "describe the challenges (e.g., physical, social, emotional) and the positive experiences that may be part of secondary school students’ transitions to new roles and environments (e.g., work, postsecondary education/training, independent adult life)",
+              "text_html": "<p>describe the challenges (<em>e.g., physical, social, emotional</em>) and the positive experiences that may be part of secondary school students’ transitions to new roles and environments (<em>e.g., work, postsecondary education/training, independent adult life</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.3",
+              "text": "analyse ways of thinking and behaving that support successful adjustments to new situations and environments (e.g., positive attitude, supportive team/group attitudes and behaviours, proactive problem solving, self-directed lifelong learning, professional work ethics, punctuality)",
+              "text_html": "<p>analyse ways of thinking and behaving that support successful adjustments to new situations and environments (<em>e.g., positive attitude, supportive team/group attitudes and behaviours, proactive problem solving, self-directed lifelong learning, professional work ethics, punctuality</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.4",
+              "text": "demonstrate effective use of transition management strategies and skills (e.g., managing stress, risk, time, change, and money; becoming familiar with new environments; anticipating challenges) to prepare for their first postsecondary destination",
+              "text_html": "<p>demonstrate effective use of transition management strategies and skills (<em>e.g., managing stress, risk, time, change, and money; becoming familiar with new environments; anticipating challenges</em>) to prepare for their first postsecondary destination</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Work Search",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the skills and strategies needed to prepare for the work search process",
+          "text_html": "<p>demonstrate the skills and strategies needed to prepare for the work search process</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "create an up-to-date résumé and cover letter outlining their work skills and experiences for use in postsecondary planning",
+              "text_html": "<p>create an up-to-date résumé and cover letter outlining their work skills and experiences for use in postsecondary planning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "demonstrate the ability to prepare and conduct themselves effectively in an interview process",
+              "text_html": "<p>demonstrate the ability to prepare and conduct themselves effectively in an interview process</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "identify a variety of resources (e.g., personal networks, employment centres, Internet job postings) to identify fields of work and specific job opportunities suited to them",
+              "text_html": "<p>identify a variety of resources (<em>e.g., personal networks, employment centres, Internet job postings</em>) to identify fields of work and specific job opportunities suited to them</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "maintain an updated portfolio (e.g., including an updated résumé, certifications, relevant assignments, letters of recommendation) as evidence of their learning and skill development",
+              "text_html": "<p>maintain an updated portfolio (<em>e.g., including an updated résumé, certifications, relevant assignments, letters of recommendation</em>) as evidence of their learning and skill development</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Planning for Transition",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate effective use of decision-making, goal-setting, and action-planning skills and strategies to prepare for transition to their first postsecondary destination",
+          "text_html": "<p>demonstrate effective use of decision-making, goal-setting, and action-planning skills and strategies to prepare for transition to their first postsecondary destination</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "demonstrate an understanding of the personal financial skills that will be required for the future (e.g., budgeting, banking, saving, borrowing money)",
+              "text_html": "<p>demonstrate an understanding of the personal financial skills that will be required for the future (<em>e.g., budgeting, banking, saving, borrowing money</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.2",
+              "text": "investigate sources and types of financial assistance (e.g., Ontario Student Assistance Program, small business loans, government grants, bursaries) for postsecondary education/training and identify those appropriate to their situations",
+              "text_html": "<p>investigate sources and types of financial assistance (<em>e.g., Ontario Student Assistance Program, small business loans, government grants, bursaries</em>) for postsecondary education/training and identify those appropriate to their situations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "use a decision-making process to produce a plan that addresses their learning and career goals, including the steps they can take to help make a successful transition to their selected postsecondary destination",
+              "text_html": "<p>use a decision-making process to produce a plan that addresses their learning and career goals, including the steps they can take to help make a successful transition to their selected postsecondary destination</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.4",
+              "text": "identify viable options to the plan that address anticipated or unexpected challenges (e.g., unsuccessful school or job applications, changes in financial or family circumstances)",
+              "text_html": "<p>identify viable options to the plan that address anticipated or unexpected challenges (<em>e.g., unsuccessful school or job applications, changes in financial or family circumstances</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

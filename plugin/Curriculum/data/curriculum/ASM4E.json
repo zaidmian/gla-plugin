@@ -1,0 +1,461 @@
+{
+  "code": "ASM4E",
+  "name": "Media Arts",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "Workplace",
+  "category": "Media Arts",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course focuses on a practical approach to a variety of media arts challenges related to the interests of the student and provides students with opportunities to examine media arts in relation to the world of work. Students will develop works that express their views on contemporary issues and will create portfolios suitable for use in post-secondary work experiences. Students will critically analyse the role of media artists in shaping audience perceptions of identity, culture, and community values, particularly within the context of the workplace.",
+  "prerequisites": "Grade 11 Media Arts, Open",
+  "prerequisite_codes": [
+    "ASM3O"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/asm4e",
+  "source_codename": "arts___sec___asm4e",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Presenting",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the creative process to create media art works, individually and/or collaboratively",
+          "text_html": "<p>apply the creative process to create media art works, individually and/or collaboratively</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a variety of strategies (e.g., brainstorming, concept webs, mind maps, group discussions, research) to generate and organize ideas, individually and/or collaboratively, for addressing creative challenges (e.g., the creation of a mixed-media installation that raises awareness of workplace safety issues in Ontario)",
+              "text_html": "<p>use a variety of strategies <em>(e.g., brainstorming, concept webs, mind maps, group discussions, research) </em>to generate and organize ideas, individually and/or collaboratively, for addressing creative challenges <em>(e.g., the creation of a mixed-media installation that raises awareness of workplace safety issues in Ontario)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can you use the diverse experiences of your team members to help generate a range of ideas?\n  How do you decide whether an idea is worth pursuing?\n  What impact did the collaborative process have on how your ideas were generated and developed?",
+                  "text_html": "<ul>\n  <li>How can you use the diverse experiences of your team members to help generate a range of ideas?</li>\n  <li>How do you decide whether an idea is worth pursuing?</li>\n  <li>What impact did the collaborative process have on how your ideas were generated and developed?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "develop production plans, individually and/or collaboratively, that address a variety of creative challenges (e.g., use thumbnail sketches, storyboards, and/or production notes to help them formulate plans for a sound and image presentation for the workplace), and modify their plans on the basis of feedback from their teacher, their peers, and others",
+              "text_html": "<p>develop production plans, individually and/or collaboratively, that address a variety of creative challenges <em>(e.g., use thumbnail sketches, storyboards, and/or production notes to help them formulate plans for a sound and image presentation for the workplace)</em>, and modify their plans&nbsp;on the basis of feedback from their teacher, their peers, and others</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When you reflect on your plan, do all its aspects seem practical? Is there a particular area that presents difficulties? What process might your group use to solve these difficulties?",
+                  "text_html": "<ul>\n  <li>When you reflect on your plan, do all its aspects seem practical? Is there a particular area that presents difficulties? What process might your group use to solve these difficulties?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "use experimentation, input, and reflection to produce a media art work based on their production plan and to refine their art work (e.g., experiment with media tools and techniques; before producing their final product, reflect on feedback from their teacher, peers, and others, and use it to refine their preliminary work)",
+              "text_html": "<p>use experimentation, input, and reflection to produce a media art work based on their production plan and to refine their art work <em>(e.g., experiment with media tools and techniques; before producing their final product, reflect on feedback from their teacher, peers, and others, and use it to refine their preliminary work)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Has your experiment with this technique been successful? Why or why not? What might you do differently to achieve a more positive outcome?\n  How did experimentation and feedback affect your final product?",
+                  "text_html": "<ul>\n  <li>Has your experiment with this technique been successful? Why or why not? What might you do differently to achieve a more positive outcome?</li>\n  <li>How did experimentation and feedback affect your final product?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.4",
+              "text": "present media art works, individually and/or collaboratively, using methods that are appropriate for the work (e.g., project digital images with a soundtrack that enhances the theme of the images; create an interactive web page with clear instructions; present their site-based installation in a space that complements the installation; present their video or animation during a classroom film festival)",
+              "text_html": "<p>present media art works, individually and/or collaboratively, using methods that are appropriate for the work <em>(e.g., project digital images with a soundtrack that enhances the theme&nbsp;of the images; create an interactive web page with clear instructions; present their site-based installation in a space that complements the installation; present their video or </em><a data-item-id=\"f8c07cf4-28ae-4328-afba-5e9ee3eb97dc\" href=\"\"><em>animation</em></a><em> during a classroom film festival)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What factors should you take into consideration when presenting your installation in this space?",
+                  "text_html": "<ul>\n  <li>What factors should you take into consideration when presenting your installation in this space?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.5",
+              "text": "use an appropriate tracking tool (e.g., a sketchbook, a process journal, a checklist, production notes) to create a record of their application of the creative process, and use this record to determine, through reflection, how effectively they applied this process",
+              "text_html": "<p>use an appropriate tracking tool <em>(e.g., a sketchbook, a process journal, a checklist, production notes) </em>to create a record of their application of the creative process, and use this record to determine, through reflection, how effectively they applied this process</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What did you learn from reviewing your record of the creative process? Are there other uses for such a record? How might documenting the creative process benefit the relationship between client and media artist?",
+                  "text_html": "<ul>\n  <li>What did you learn from reviewing your record of the creative process? Are there other uses for such a record? How might documenting the creative process benefit the relationship between client and media artist?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "The Principles of Media Arts",
+          "describer": "By the end of this course, students will:",
+          "text": "design and produce media art works, applying principles of media arts and using various elements from contributing arts (dance, drama, music, visual arts)",
+          "text_html": "<p>design and produce media art works, applying principles of media arts and using various elements from contributing arts (dance, drama, music, visual arts)</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "demonstrate an understanding of the four principles of media arts, and apply one or more of them to transform an existing art work into  a media product that is appropriate for a workplace (e.g., a hospital, a school, a retail outlet, or a professional office such as a law, dental, or accountant’s office)",
+              "text_html": "<p>demonstrate an understanding of the four principles of media arts, and apply one or more of them to transform an existing art work into&nbsp; a media product that is appropriate for a workplace <em>(e.g., a hospital, a school, a retail outlet, or a professional office such as a law, dental, or accountant’s office)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What type of image or message would be appropriate for this workplace? How could you transform an art work using the principle of point of view to convey this image or message?\n  What are some examples of existing art works that have been transformed to create a new image or product brand? How can examining these works help you create your media product?",
+                  "text_html": "<ul>\n  <li>What type of image or message would be appropriate for this workplace? How could you transform an art work using the principle of point of view to convey this image or message?</li>\n  <li>What are some examples of existing art works that have been transformed to create a new image or product brand? How can examining these works help you create your media product?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "design and produce original media art works by applying two or more of the principles of media arts with increasing skill to organize elements from the contributing arts (e.g., extend their skill in applying principles of media arts by creating an interactive environment that considers the points of view of various stakeholders in the workplace [employer, manager, employee] and reflects the style of the work of Jenny Holzer)",
+              "text_html": "<p>design and produce original media art works by applying two or more of the principles of media arts with increasing skill to organize elements from the <a data-item-id=\"c7f31ef4-b7c6-490d-acbe-faace0ea9ca3\" href=\"\">contributing arts</a> <em>(e.g., extend their skill in applying principles of media arts by creating an interactive environment that considers the points of view of various stakeholders in the workplace [employer, manager, employee] and reflects the style of the work of Jenny&nbsp;Holzer)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What elements might you use to enrich the communicative aspects of your work? How might you use the principles of duration and interactivity to heighten the effectiveness of these elements?",
+                  "text_html": "<ul>\n  <li>What elements might you use to enrich the communicative aspects of your work? How might you use the principles of duration and interactivity to heighten the effectiveness of these elements?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Using Technologies, Tools, and Techniques",
+          "describer": "By the end of this course, students will:",
+          "text": "apply traditional and emerging technologies, tools, and techniques to produce and present media art works for a variety of audiences and purposes",
+          "text_html": "<p>apply traditional and emerging technologies, tools, and techniques to produce and present media art works for a variety of audiences and purposes</p>",
+          "transferable_skills": [
+            "Communication",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "explore and refine their use of a variety of traditional and emerging technologies, tools, and techniques, and apply them to produce effective media art works (e.g., experiment with still and video cameras and image-editing software; explore available OSAPAC software; manipulate found sounds to create an ambient soundtrack for a slide show; use 2D animation software to create an animation on workplace safety)",
+              "text_html": "<p>explore and refine their use of a variety of traditional and emerging technologies, tools, and techniques, and apply them to produce effective media art works <em>(e.g., experiment with still and video cameras and image-editing software; explore available OSAPAC software; manipulate found sounds to create an ambient soundtrack for a slide show; use 2D animation software to create an animation on workplace safety)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Have you used this tool in other contexts? How could you modify your use of this tool to increase the impact of your art work?\n  How does refining your skills with media arts tools and techniques increase your ability to design and manage projects?",
+                  "text_html": "<ul>\n  <li>Have you used this tool in other contexts? How could you modify your use of this tool to increase the impact of your art work?</li>\n  <li>How does refining your skills with media arts tools and techniques increase your ability to design and manage projects?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "create and present media art works that effectively communicate specific messages to specific audiences (e.g., an audience of new employees, occupational health and safety representatives, senior high school students), using a variety of technologies, tools, and techniques (e.g., projection, broadcast, interactive web pages, site-based installations) and venues (e.g., a boardroom, a theatre, a gallery)",
+              "text_html": "<p>create and present media art works that effectively communicate specific messages to specific audiences <em>(e.g., an audience of new employees, occupational health and safety representatives, senior high school students)</em>, using a variety of technologies, tools, and techniques <em>(e.g., projection, broadcast, interactive web pages, site-based installations) </em>and venues <em>(e.g., a boardroom, a theatre, a gallery)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What type of audience are you targeting? Given what you know about your audience and the message you are trying to communicate, what techniques or technologies would be most appropriate?",
+                  "text_html": "<ul>\n  <li>What type of audience are you targeting? Given what you know about your audience and the message you are trying to communicate, what techniques or technologies would be most appropriate?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "demonstrate a personal style when using a variety of tools and techniques to create and present media art works (e.g., use animation software to create a personal avatar for a video game; use sound and images in a personally meaningful way when creating an interactive website on an issue of interest to them)",
+              "text_html": "<p>demonstrate a personal style when using a variety of tools and techniques to create and present media art works <em>(e.g., use animation software to create a personal </em><a data-item-id=\"43717cb1-2180-4654-b050-311e2c9c0272\" href=\"\"><em>avatar</em></a><em> for a video game; use sound and images in a personally meaningful way when creating an interactive website on an issue of interest to&nbsp;them)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can you modify your use of this technique to make it more original?\n  Why does having an original style increase your employability in the media arts industry?",
+                  "text_html": "<ul>\n  <li>How can you modify your use of this technique to make it more original?</li>\n  <li>Why does having an original style increase your employability in the media arts industry?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the critical analysis process by using it to monitor the creative process, and by examining, interpreting, assessing, and reflecting on media art works",
+          "text_html": "<p>demonstrate an understanding of the critical analysis process by using it to monitor the creative process, and by examining, interpreting, assessing, and reflecting on media art works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "use the critical analysis process to examine, interpret, and reflect on media art works created by peers (e.g., view media art works at various stages of production and record their initial reactions to them, examine the technical aspects of the works, interpret their message or purpose, and reflect on the effectiveness of the works in communicating this message or achieving this purpose)",
+              "text_html": "<p>use the critical analysis process to examine, interpret, and reflect on media art works created by peers <em>(e.g., view media art works at various stages of production and record their initial reactions to them, examine the technical aspects of the works, interpret their message or purpose, and reflect on the effectiveness of the works in communicating this message or achieving this&nbsp;purpose)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How could changes to the technical or aesthetic aspects of this work heighten its impact on the consumer?",
+                  "text_html": "<ul>\n  <li>How could changes to the technical or <a data-item-id=\"b9887e4e-a360-4919-bda9-0b58e804e341\" href=\"\">aesthetic</a> aspects of this work heighten its impact on the consumer?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "use the critical analysis process to examine, interpret, and assess media art works created by recognized media artists and intended for or used in workplace applications (e.g., examine a media art work used in theatre, film, promotion, or music industry applications; document their initial reaction to the art work and their analysis of its elements and principles; determine the purpose or intent of the media art work in the workplace context; analyse the work holistically, technically, and aesthetically to assess how well it meets the requirements of the workplace/client)",
+              "text_html": "<p>use the critical analysis process to examine, interpret, and assess media art works created by recognized media artists and intended for or used in workplace applications <em>(e.g., examine a media art work used in theatre, film, promotion, or music industry applications; document their initial reaction to the art work and their analysis of its elements and principles; determine the purpose or intent of the media art work in the workplace context; analyse the work holistically, technically, and aesthetically to assess how well it meets the requirements of the workplace/client)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How well does this media art work meet the criteria specified by the client or purchaser? What features of the work contribute to its success or lack of success in meeting that objective?",
+                  "text_html": "<ul>\n  <li>How well does this media art work meet the criteria specified by the client or purchaser? What features of the work contribute to its success or lack of success in meeting that objective?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "demonstrate an understanding of how each stage of the critical analysis process contributes to their comprehension of media art works, including works intended for commercial applications (e.g., reflect on how their interpretation and assessment of a work has changed over the course of the critical analysis process, and use a presentation, a journal, an online discussion, an annotated sketchbook, or a weblog to communicate their reflections)",
+              "text_html": "<p>demonstrate an understanding of how each stage of the critical analysis process contributes to their comprehension of media art works, including works intended for commercial applications <em>(e.g., reflect on how their interpretation and assessment of a work has changed over&nbsp;the course of the critical analysis process, and use&nbsp;a presentation, a journal, an online discussion, an annotated sketchbook, or a weblog to communicate their reflections)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How does your increased understanding of the artist’s approach change the way you perceive the art work?\n  What aspects of this media art work make it appropriate for a commercial application?",
+                  "text_html": "<ul>\n  <li>How does your increased understanding of the artist’s approach change the way you perceive the art work?</li>\n  <li>What aspects of this media art work make it appropriate for a commercial application?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.4",
+              "text": "use the appropriate components of the critical analysis process to guide the individual and/or collaborative use of the creative process when creating and presenting a media art work for a particular client or consumer and to draw out and interpret responses to the work (e.g., use the critical analysis process to assess planning, production, and presentation decisions; involve the client or consumer in the critical analysis process throughout the creative process to ensure that the end product achieves its purpose)",
+              "text_html": "<p>use the appropriate components of the critical analysis process to guide the individual and/or collaborative use of the creative process when creating and presenting a media art work for a particular client or consumer and to draw out and interpret responses to the work <em>(e.g., use the critical analysis process to assess planning, production, and presentation decisions; involve the client or consumer in the critical analysis process throughout the creative process to ensure that the end product achieves its purpose)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What makes an effective commercial media art work?\n  What artistic and technical concepts should the commercial artist be mindful of when creating a presentation for a particular client or audience?\n  Why is it important to encourage clients to be specific when communicating their response to a work?",
+                  "text_html": "<ul>\n  <li>What makes an effective commercial media art work?</li>\n  <li>What artistic and technical concepts should the commercial artist be mindful of when creating a presentation for a particular client or audience?</li>\n  <li>Why is it important to encourage clients to be specific when communicating their response to a work?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Identity and Values",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how media art works reflect personal and cultural identity, and affect personal, cultural, and community values and their awareness of those values",
+          "text_html": "<p>demonstrate an understanding of how media art works reflect personal and cultural identity, and affect personal, cultural, and community values and their awareness of those values</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "analyse the function of the artist’s identity in a media art work used in commercial applications (e.g., how the identity of an artist is affected when his or her work is recontextualized for the purpose of selling a  product)",
+              "text_html": "<p>analyse the function of the artist’s identity in a media art work used in commercial applications <em>(e.g., how the identity of an artist is affected when his or her work is recontextualized for the purpose of selling a&nbsp; product)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "analyse how media art works express cultural identity (e.g., tourism advertisements; documentaries such as The Invisible Nation; Speak It! From the Heart of Black Nova Scotia; Crossroads)",
+              "text_html": "<p>analyse how media art works express cultural identity <em>(e.g., tourism advertisements; documentaries such as </em>The Invisible Nation<em>; </em>Speak It! From the Heart of Black Nova Scotia<em>; </em>Crossroads<em>)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "analyse how media art works influence community or societal values (e.g., advertisements for advocacy groups; music videos; documentaries such as Carts of Darkness, I’ll Find a Way, Wapos Bay, An Inconvenient Truth, Bowling for Columbine)",
+              "text_html": "<p>analyse how media art works influence community or societal values <em>(e.g., advertisements for advocacy groups; music videos; documentaries such as </em>Carts of Darkness<em>, </em>I’ll Find&nbsp;a Way<em>, </em>Wapos Bay<em>, </em>An Inconvenient Truth<em>, </em>Bowling for Columbine<em>)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "analyse how creating and presenting media art works has affected their personal values and their understanding of the values of their culture and community, with particular reference to the values of corporate and commercial enterprises (e.g., how creating a multimedia advertisement for a corporate client and reflecting on the client’s response to that advertisement contributed to their understanding of the values of the corporation)",
+              "text_html": "<p>analyse how creating and presenting media art works has affected their personal values and their understanding of the values of their culture and community, with particular reference to the values of corporate and commercial enterprises <em>(e.g., how creating a multimedia advertisement for a corporate client and reflecting on the client’s response to that advertisement contributed to their understanding of the values of the corporation)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.5",
+              "text": "explain how the process of critically analysing media art works (e.g., television advertisements from countries outside North America) has affected their perception and understanding of different communities, cultures, ideologies, and/or social groups",
+              "text_html": "<p>explain how the process of critically analysing media art works <em>(e.g., television advertisements from countries outside North America) </em>has affected their perception and understanding of different communities, cultures, ideologies, and/or social groups</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the types of knowledge and skills developed in media arts and how they can be used outside the media arts classroom",
+          "text_html": "<p>demonstrate an understanding of the types of knowledge and skills developed in media arts and how they can be used outside the media arts classroom</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "identify and describe, on the basis of research, areas for continued study in media arts and related fields (e.g., the requirements for and course content of postsecondary programs in media arts and the contributing arts; learning opportunities in the workplace), and create and maintain a portfolio that could be used to apply to programs or for jobs in these fields",
+              "text_html": "<p>identify and describe, on the basis of research, areas for continued study in media arts and related fields <em>(e.g., the requirements for and course content of postsecondary programs in media arts and the contributing arts; learning opportunities in the workplace)</em>, and create and maintain a portfolio that could be used to apply to programs or for jobs in these fields</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What sorts of jobs or workplaces provide continuing learning opportunities related to media arts?",
+                  "text_html": "<ul>\n  <li>What sorts of jobs or workplaces provide continuing learning opportunities related to media arts?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "identify their personal skills and interests as they relate to jobs associated with media arts (e.g., conduct an inventory of their skills and interests as they relate to jobs such as producer, web designer, media critic, video game designer, interactive television producer, on-line journalist, DJ; perform a gap analysis to determine the skills they need to acquire or improve on in order to achieve their employment goals), and describe the educational requirements for those jobs",
+              "text_html": "<p>identify their personal skills and interests as they relate to jobs associated with media arts <em>(e.g., conduct an inventory of their skills and interests as they relate to jobs such as producer,&nbsp;web designer, media critic, video game designer, interactive television producer, on-line journalist, DJ; perform a gap analysis to determine the skills they need to acquire or improve on in order to achieve their employment goals)</em>, and describe&nbsp;the educational requirements for those jobs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "explain how media arts skills and processes can facilitate tasks in the workplace (e.g., explain how the critical analysis process could be applied to assess the artistic merits of an advertising campaign, how presentation skills develop during the creative process could be applied in a business presentation, or how collaborative skills could be used in working with other people; compare media arts skills to the skills listed in the Ontario Skills Passport)",
+              "text_html": "<p>explain how media arts skills and processes can facilitate tasks in the workplace <em>(e.g., explain how the critical analysis process could be applied to assess the artistic merits of an advertising campaign, how presentation skills develop during the creative process could be applied&nbsp;in a business presentation, or how collaborative skills could be used in working with other people; compare media arts skills to the skills listed in the Ontario Skills Passport)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.4",
+              "text": "explain how media arts skills and understandings (e.g., the ability to meet deadlines, to communicate with team members, to analyse media; research skills; understanding of issues related to gender, race, sexuality, and cultural differences) can be applied in everyday life",
+              "text_html": "<p>explain how media arts skills and understandings&nbsp;<em>(e.g., the&nbsp;ability to&nbsp;meet&nbsp;deadlines, to communicate with team members, to analyse media; research skills; understanding of issues related to gender, race, sexuality, and cultural differences) </em>can be applied in everyday life</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Terminology",
+          "describer": "",
+          "text": "demonstrate an understanding of, and use correct terminology when referring to, elements, principles, and other concepts relating to media arts",
+          "text_html": "<p>demonstrate an understanding of, and use correct terminology when referring to, elements, principles, and other concepts relating to media arts</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "describe the stages of the creative and critical analysis processes with respect to media art works, and explain and use correctly and appropriately a range of terms related to the conventions, concepts, and principles of media arts when creating or analysing media art works (e.g., when analysing the conventions used in an advertisement to draw the viewer’s attention)",
+              "text_html": "<p>describe the stages of the creative and critical analysis processes with respect to media art works, and explain and use correctly and appropriately a range of terms related to the conventions, concepts, and principles of media arts when creating or analysing media art works <em>(e.g., when analysing the conventions used in an advertisement to draw the viewer’s attention)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "describe, on the basis of research, a range of elements from contributing arts that can be used in media art works, and explain how these elements can be applied through the principles of media arts (e.g., how elements from drama, music, and visual art can be applied using the principle of hybridization in a media art installation)",
+              "text_html": "<p>describe, on the basis of research, a range of elements from contributing arts that can be used in media art works, and explain how these elements can be applied through the principles of media arts <em>(e.g., how&nbsp;elements from drama, music, and visual art can be applied using the principle of hybridization in a media art installation)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "explain terminology associated with the technologies, tools, and techniques used in the production and presentation of media art works (e.g., produce a glossary that defines terms associated with the technologies, tools, and techniques used in their art work; explain terms such as cropping, burning, dodging, layers, key frames, transition, image framing, setup shot, close-up, zoom, microphone, key light, fill light, spot meter), and use this terminology correctly and appropriately when producing and presenting their work",
+              "text_html": "<p>explain terminology associated with the technologies, tools, and techniques used in the production and presentation of media art works <em>(e.g., produce a glossary that defines terms associated with the technologies, tools, and techniques used in their art work; explain terms such as </em><a data-item-id=\"44e8b53e-425d-49e2-87a6-d23419df687f\" href=\"\"><em>cropping</em></a><em>, burning, dodging, layers, key frames, transition, image framing, setup shot, close-up, zoom, microphone, key light, fill light, spot meter)</em>, and use this terminology correctly and appropriately when producing and presenting their work</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Contextual Study",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the history and function of media arts in the workplace",
+          "text_html": "<p>demonstrate an understanding of the history and function of media arts in the workplace</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify and explain the function of media art works in the workplace (e.g., the use of videos to promote corporate identity, to train new workers, or to present motivational messages; the use of websites to sell products or to promote cultural events)",
+              "text_html": "<p>identify and explain the function of media art works in the workplace <em>(e.g., the use of videos to promote corporate identity, to train new workers, or to present motivational messages; the use of websites to sell products or to promote cultural events)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "analyse, on the basis of research, the history of media art works developed for the workplace (e.g., the development of advertising in the twentieth century; the use of training or information films; the approach and content of posters used to recruit workers)",
+              "text_html": "<p>analyse, on the basis of research, the history of media art works developed for the workplace <em>(e.g., the development of advertising in the twentieth century; the use of training or information films; the approach and content of posters&nbsp;used to recruit workers)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of responsible practices associated with producing, presenting, and experiencing media art works",
+          "text_html": "<p>demonstrate an understanding of responsible practices associated with producing, presenting, and experiencing media art works</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify and apply conscientious practices and accepted workplace health and safety procedures when producing, presenting, promoting, or distributing media art works (e.g., demonstrate safe practices when setting up, taking down, and packing up lighting or sound equipment; use the proper personal protective equipment when working with chemicals or sharp tools; regularly update computer virus programs; stretch properly before  presenting an art work that involves movement; lift objects properly; use ladders or platforms safely)",
+              "text_html": "<p>identify and apply conscientious practices and accepted workplace health and safety procedures when producing, presenting, promoting, or distributing media art works <em>(e.g., demonstrate safe practices when setting up, taking down, and packing up lighting or sound equipment; use the proper personal protective equipment when working with chemicals or sharp tools; regularly update computer virus programs; stretch&nbsp;properly before&nbsp; presenting&nbsp;an&nbsp;art&nbsp;work that involves movement;&nbsp;lift&nbsp;objects properly; use ladders or platforms safely)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "explain and apply ethical and legal practices related to the media arts workplace (e.g., role-play a scenario on copyright violations; explain the importance of intellectual property; create a mixed-media presentation on a workplace issue such as discrimination, harassment, or accessibility; use authorized sources when downloading music, photos, or videos; show respect when using cultural representations)",
+              "text_html": "<p>explain and apply ethical and legal practices related to the media arts workplace <em>(e.g., role-play a scenario on copyright violations; explain the importance of intellectual property; create a mixed-media presentation on a workplace issue such as discrimination, harassment, or accessibility; use authorized sources when downloading music, photos, or videos; show respect when using cultural representations)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "identify and apply responsible environmental practices associated with the media arts workplace (e.g., dispose of chemicals and batteries in environmentally appropriate ways; use energy conservation practices; reuse and recycle materials when possible; substitute a less harmful substance for a hazardous one)",
+              "text_html": "<p>identify and apply responsible environmental practices associated with the media arts workplace <em>(e.g., dispose of chemicals and batteries in environmentally appropriate ways; use energy conservation practices; reuse and recycle materials when possible; substitute a less harmful substance for a hazardous one)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.4",
+              "text": "demonstrate an understanding of and apply conventions associated with the presenting and experiencing of media art works in workplace settings (e.g., protocols for presentations; respectful interactions with clients, customers, and consumers)",
+              "text_html": "<p>demonstrate an understanding of and apply conventions associated with the presenting and experiencing of media art works in workplace settings <em>(e.g., protocols for presentations; respectful interactions with clients, customers, and consumers)</em></p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

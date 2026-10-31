@@ -1,0 +1,537 @@
+{
+  "code": "ALC2O",
+  "name": "Integrated Arts",
+  "grades": [
+    "10"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "Integrated Arts",
+  "panel": "Secondary",
+  "subject": "The Arts",
+  "subject_group": "Arts",
+  "description": "This course integrates two or more of the arts (dance, drama, media arts, music, and visual arts), giving students the opportunity to produce and present integrated art works created individually or collaboratively. Students will demonstrate innovation as they learn and apply concepts, styles, and conventions unique to the various arts and acquire skills that are transferable beyond the classroom. Students will use the creative process and responsible practices to explore solutions to integrated arts challenges.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-arts/courses/alc2o",
+  "source_codename": "arts___sec___alc2o",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Creating and Presenting",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "The Creative Process",
+          "describer": "By the end of this course, students will:",
+          "text": "apply the creative process to create integrated art works/productions, individually and/or collaboratively",
+          "text_html": "<p>apply the <a href=\"/en/curriculum/secondary-arts/context/program#the-creative-process\">creative process</a> to create integrated art works/productions, individually and/or collaboratively</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a variety of strategies (e.g., brainstorming with a partner, word webs, mind maps) to generate ideas to address an integrated arts challenge, individually and/or collaboratively",
+              "text_html": "<p>use a variety of strategies <em>(e.g., brainstorming with a partner, word webs, mind maps) </em>to generate ideas to address an integrated arts challenge, individually and/or collaboratively</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Where might you find inspiration for an integrated art work?\n  Why is it necessary to consider more than one way of approaching a creative challenge?\n  What are some of the challenges and benefits of using a collaborative process to generate ideas?",
+                  "text_html": "<ul>\n  <li>Where might you find inspiration for an integrated art work?</li>\n  <li>Why is it necessary to consider more than one way of approaching a creative challenge?</li>\n  <li>What are some of the challenges and benefits of using a collaborative process to generate ideas?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "use exploration, input, and reflection to develop, revise, and refine plans for integrated art works/productions, individually and/or collaboratively (e.g., use a think-pair-share strategy to explore ideas and select one for their art work; use a checklist to develop their plan; reflect on the input of their peers and revise their plan as appropriate)",
+              "text_html": "<p>use exploration, input, and reflection to develop, revise, and refine plans for integrated art works/productions, individually and/or collaboratively <em>(e.g., use a </em><a data-item-id=\"27f500a8-ac1b-4911-b140-f555c5b148c5\" href=\"\"><em>think-pair-share</em></a><em> strategy to explore ideas and select one for their art work; use a checklist to develop their plan; reflect&nbsp;on the input of their peers and revise their plan as appropriate)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What steps are involved in developing a plan to create integrated art works? Why is it important to follow all of these steps? What can happen if you do not reflect carefully on the feasibility of your plan?",
+                  "text_html": "<ul>\n  <li>What steps are involved in developing a plan to create integrated art works? Why is it important to follow all of these steps? What can happen if you do not reflect carefully on the feasibility of your plan?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "use the appropriate stages of the creative process to produce and present preliminary integrated art works, individually and/or collaboratively, in response to creative challenges (e.g., a multidisciplinary art work on a topic such as folklore, body image, or the environment; a work that integrates drama and music to represent a First Nation, Métis, or Inuit world view), and revise their works on the basis of peer- and self-assessment (e.g., present versions of their preliminary work to a small group of their peers and make notes on the group’s response; reflect on the applicability of the input before revising their work)",
+              "text_html": "<p>use the appropriate stages of the creative process to produce and present preliminary integrated art works, individually and/or collaboratively, in response to creative challenges <em>(e.g., a multidisciplinary art work on a topic such as folklore, body image, or the environment; a work that integrates drama and music to represent a First Nation, Métis, or Inuit world view)</em>, and revise their works on the basis of peer- and self-assessment <em>(e.g., present versions of their preliminary work to a small group of their peers and make notes on the group’s response; reflect on the applicability of the input before revising their work)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Which arts disciplines might you combine in a work on an environmental theme?\n  Have you been able to integrate more than one discipline into a seamless work? What might you do to enhance the integrative aspects of the work?\n  In what ways did the feedback of your peers affect your own assessment of your work? What did you change about your work as a result of peer assessment?",
+                  "text_html": "<ul>\n  <li>Which arts disciplines might you combine in a work on an environmental theme?</li>\n  <li>Have you been able to integrate more than one discipline into a seamless work? What might you do to enhance the integrative aspects of the work?</li>\n  <li>In what ways did the feedback of your peers affect your own assessment of your work? What did you change about your work as a result of peer assessment?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Elements and Principles",
+          "describer": "By the end of this course, students will:",
+          "text": "apply key elements and principles from various arts disciplines when creating, modifying, and presenting art works, including integrated art works/productions",
+          "text_html": "<p>apply key elements and principles from various arts disciplines when creating, modifying, and presenting art works, including integrated art works/productions</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "select and apply a combination of key elements and principles from more than one arts discipline when creating and presenting integrated art works/productions (e.g., combine the elements of space and energy from dance with focus from drama to depict a “living” art work; create a work that combines the principle of rhythm from visual arts with the element of duration from music; present a work that applies the principles of point of view and hybridization from media arts with the element of role/character from drama)",
+              "text_html": "<p>select and apply a combination of key elements and principles from more than one arts discipline when creating and presenting integrated art works/productions <em>(e.g., combine the elements of </em><a data-item-id=\"d0a35439-8f48-4f57-b48d-125a9db43a13\" href=\"\"><em>space</em></a><em> and </em><a data-item-id=\"7b16847d-b01d-4cce-a01d-1d7fab729e13\" href=\"\"><em>energy</em></a><em> from dance with </em><a data-item-id=\"8250988f-3403-42fa-bb62-3fc0088cd493\" href=\"\"><em>focus</em></a><em> from drama to depict a “living” art work; create a work that combines the principle of rhythm&nbsp;from visual arts with the element of </em><a data-item-id=\"ca386903-18d8-4931-98de-e79e5ee691e4\" href=\"\"><em>duration</em></a><em> from music; present a work that applies the principles of </em><a data-item-id=\"7289cd5f-9137-4579-8003-9d86242ad5da\" href=\"\"><em>point of view</em></a><em> and hybridization from media arts with the element of role/character from drama)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When you listen to aspects of duration (beat, rhythm) in this piece of music, does a visual image come to mind? How might you combine music and visual arts to produce an integrated work that provides both a visual and aural representation of “rhythm”?",
+                  "text_html": "<ul>\n  <li>When you listen to aspects of duration (beat, rhythm) in this piece of music, does a visual image come to mind? How might you combine music and visual arts to produce an integrated work that provides both a visual and <a data-item-id=\"66e68f28-5232-4973-81bb-018e9e3747de\" href=\"\">aural</a> representation of “rhythm”?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "modify the elements and/or principles of an existing art work to achieve a particular intent (e.g., change the use of space in a dance presentation to convey a feeling of entrapment; change the point of view in a film clip to reflect the perspective of a minor character; modify the pitch and/or dynamics of the soundtrack for an animation to create a feeling of suspense), and compare the effects of the original and modified works",
+              "text_html": "<p>modify the elements and/or principles of an existing art work to achieve a particular intent <em>(e.g., change the use of space in a dance presentation to convey a feeling of entrapment; change the point of view in a film clip to reflect the perspective of a minor character; modify the pitch and/or dynamics of the soundtrack for an animation to create a feeling of suspense)</em>, and compare the effects of the original and modified works</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What was your reaction to this art work the first time you experienced it? How do you think your changes will affect the way the audience reacts to the new work?",
+                  "text_html": "<ul>\n  <li>What was your reaction to this art work the first time you experienced it? How do you think your changes will affect the way the <a data-item-id=\"8c075263-1982-4134-a2d7-0d29f528cfbd\" href=\"\">audience</a> reacts to the new work?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Tools, Techniques, and Technologies",
+          "describer": "By the end of this course, students will:",
+          "text": "use a variety of tools, techniques, and technologies to create integrated art works/productions that communicate specific messages and demonstrate creativity",
+          "text_html": "<p>use a variety of tools, techniques, and technologies to create integrated art works/productions that communicate specific messages and demonstrate creativity</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "integrate media/materials, tools, and techniques from more than one arts discipline to create an integrated art work/production that communicates a specific message (e.g., in the style of Barbara Kruger or Jenny Holzer, create a work that conveys a message on an issue such as the dangers of smoking, the causes and/or effects of global warming, or another issue of interest to them; create a video and/or audio public service announcement to inform a specific audience about a current issue)",
+              "text_html": "<p>integrate media/materials, tools, and techniques from more than one arts discipline to create an integrated art work/production that communicates a specific message <em>(e.g., in the </em><a data-item-id=\"008dfb34-d809-45a3-8290-47bde86c421f\" href=\"\"><em>style</em></a><em> of Barbara Kruger or Jenny Holzer, create a work that conveys a message on an issue such as the dangers of smoking, the causes and/or effects&nbsp;of global warming, or another issue of interest to them; create a video and/or audio public service announcement to inform a specific audience about&nbsp;a current issue)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is your chosen topic? What do you wish to communicate to your audience about this topic? What types of materials or techniques seem particularly suited to the subject matter?\n  What are the advantages of being able to use techniques from more than one arts discipline to convey  a message to an  audience?",
+                  "text_html": "<ul>\n  <li>What is your chosen topic? What do you wish to communicate to your audience about this topic? What types of materials or techniques seem particularly suited to the <a data-item-id=\"00083cbe-54ca-44f2-abb8-857e202288ae\" href=\"\">subject matter</a>?</li>\n  <li>What are the advantages of being able to use techniques from more than one arts discipline to convey&nbsp; a message to an &nbsp;audience?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "use technologies, tools, and techniques associated with more than one arts discipline to create integrated art works/productions that demonstrate creativity (e.g., create a music video that dramatizes their response to a particular piece of music; create a stage production using a digital sound track, video projection, and contemporary dance techniques)",
+              "text_html": "<p>use technologies, tools, and techniques associated with more than one arts discipline&nbsp;to create integrated art works/productions that demonstrate creativity <em>(e.g., create a music video that dramatizes their response to a particular piece&nbsp;of music; create a stage production using a digital sound track, video projection, and contemporary dance techniques)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do we mean by the term creativity? How can we determine the criteria for whether an art work or production demonstrates creativity?\n  What techniques might you use to transform an unoriginal or derivative art work into a unique, creative one?",
+                  "text_html": "<ul>\n  <li>What do we mean by the term <em>creativity</em>? How can we determine the criteria for whether an art work or production demonstrates creativity?</li>\n  <li>What techniques might you use to transform an unoriginal or derivative art work into a unique, creative one?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Presentation and Promotion",
+          "describer": "By the end of this course, students will:",
+          "text": "present and promote art works, including integrated art works/productions, for a variety of purposes, using appropriate technologies and conventions",
+          "text_html": "<p>present and promote art works, including integrated art works/productions, for a variety of purposes, using appropriate technologies and conventions</p>",
+          "transferable_skills": [
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "apply current technologies to present integrated art works/productions (e.g., add digitally designed lighting and music to enhance a drama presentation; present a virtual, interactive, and/or web-based version of a live project; present their work in a virtual gallery)",
+              "text_html": "<p>apply current technologies to present integrated art works/productions <em>(e.g., add digitally designed lighting and music to enhance a drama presentation; present a virtual, interactive, and/or web-based version of a live project; present their work in a virtual&nbsp;gallery)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What types of technological enhancements can be used when presenting art works digitally that could not be used in a live presentation?\n  Why can a presentation in a virtual gallery reach a broader audience than one in a traditional museum or art gallery?",
+                  "text_html": "<ul>\n  <li>What types of technological enhancements can be used when presenting art works digitally that could not be used in a live presentation?</li>\n  <li>Why can a presentation in a virtual gallery reach a broader audience than one in a traditional museum or art gallery?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A4.2",
+              "text": "demonstrate an understanding of and apply appropriate standards, conventions, and practices associated with the preparation, promotion, and presentation of art works, including integrated art works/productions, for a variety of purposes (e.g., format works for presentation in a gallery or for inclusion in a portfolio; describe the procedures and tools used to promote a production, including posters, tickets, programs)",
+              "text_html": "<p>demonstrate an understanding of and apply appropriate standards, conventions, and practices associated with the preparation, promotion, and presentation of art works, including integrated art works/productions, for a variety of purposes <em>(e.g., format works for presentation in a gallery or for inclusion in a portfolio; describe the procedures and tools used to promote a production, including posters, tickets, programs)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways can the inclusion of an artist’s statement in your portfolio provide insight into your artistic intent?\n  How will you organize and present your body of work in your portfolio to highlight your strengths and range of abilities and experiences?\n  How might you approach promoting an art show in your school?",
+                  "text_html": "<ul>\n  <li>In what ways can the inclusion of an <a data-item-id=\"3a000b0a-99af-4abd-be2e-a2abad6c3947\" href=\"\">artist’s statement</a> in your portfolio provide insight into your artistic intent?</li>\n  <li>How will you organize and present your body of work in your portfolio to highlight your strengths and range of abilities and experiences?</li>\n  <li>How might you approach promoting an art show in your school?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Reflecting, Responding, and Analysing",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "The Critical Analysis Process",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of the critical analysis process by applying it to study works from various arts disciplines as well as integrated art works/productions",
+          "text_html": "<p>demonstrate an understanding of the <a href=\"/en/curriculum/secondary-arts/context/program#the-critical-analysis-process\">critical analysis process</a> by applying it to study works from various arts disciplines as well as integrated art works/productions</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "identify and communicate their initial reaction to works from a variety of arts disciplines, using various strategies and modes of communication (e.g., a small-group or class discussion, a placemat exercise, a blog, a journal)",
+              "text_html": "<p>identify and communicate their initial reaction to works from a variety of arts disciplines, using various strategies and modes of communication <em>(e.g., a small-group or class discussion, a placemat exercise, a blog, a journal)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "When you initially encountered this art work, what were the first five words that came to mind? What questions did the work raise? What three questions would you like to ask the artist about his or her work?",
+                  "text_html": "<ul>\n  <li>When you initially encountered this art work, what were the first five words that came to mind? What questions did the work raise? What three questions would you like to ask the artist about his or her work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.2",
+              "text": "identify and describe the elements and principles used to create integrated art works (e.g., Noh theatre, music videos, installation or performance art, ballet), and describe the methods used to combine these elements and principles into unified art works",
+              "text_html": "<p>identify and describe the elements and principles used to create integrated art works <em>(e.g., </em><a data-item-id=\"cc45ccb8-09bb-41aa-84e3-f95f3f3cde44\" href=\"\"><em>Noh theatre</em></a><em>, music videos, </em><a data-item-id=\"896ae3a7-cb44-437a-97ab-b4d71181b2e2\" href=\"\"><em>installation</em></a><em> or performance art, ballet)</em>, and describe the methods used to combine these elements and principles into unified art works</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What disciplines did the artist draw on to create this music video? What elements are combined in the work? How are they integrated into a seamless whole?",
+                  "text_html": "<ul>\n  <li>What disciplines did the artist draw on to create this music video? What elements are combined in the work? How are they integrated into a seamless whole?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B1.3",
+              "text": "identify and reflect on the qualities of their own art works and the works of others (e.g., using a journal, a blog, discussions with peers), and evaluate the effectiveness of these works",
+              "text_html": "<p>identify and reflect on the qualities of their own art works and the works of others <em>(e.g., using a journal, a blog, discussions with peers)</em>, and evaluate the effectiveness of these works</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What aspects of this art work do you think are successful? Why?\n  When you reflect on your own completed art work/production, is there anything that you would do differently? Why or why not?",
+                  "text_html": "<ul>\n  <li>What aspects of this art work do you think are successful? Why?</li>\n  <li>When you reflect on your own completed art work/production, is there anything that you would do differently? Why or why not?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "The Function of the Arts in Society",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of various functions of the arts in past and present societies",
+          "text_html": "<p>demonstrate an understanding of various functions of the arts in past and present societies</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "describe the role of the arts as a vehicle for both cultural expression and the individual expression of the artist, with reference to works from both the past and the present (e.g., describe how a specific work of art conveys the artist’s personal perspective; prepare a model demonstrating a ceremony or ritual, and explain its cultural significance; prepare a presentation on the cultural significance of different types of clothing; listen to popular music of the 1920s and describe its connections to changing cultural/social mores of that decade; compare indigenous dances from different parts of the world with respect to their cultural meaning)",
+              "text_html": "<p>describe the role of the arts as a vehicle for both cultural expression and the individual expression of the artist, with reference to works from both the past and the present <em>(e.g., describe how a specific work of art conveys the artist’s personal perspective; prepare a model demonstrating a </em><a data-item-id=\"082a6802-d8cc-4d4a-b056-6ad349844865\" href=\"\"><em>ceremony</em></a><em> or ritual, and explain its cultural significance; prepare a presentation on the cultural significance of different types of clothing; listen to popular music of the 1920s and describe its connections to changing cultural/social mores of that decade; compare indigenous dances from different parts of the world with respect to their cultural meaning)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What does this particular dance reveal about the culture that created it?\n  What pieces of public art do you encounter on a daily basis? What do they reveal about the society in which you live?",
+                  "text_html": "<ul>\n  <li>What does this particular dance reveal about the <a data-item-id=\"3a282604-c4cb-4466-a258-fdeff74f22dd\" href=\"\">culture</a> that created it?</li>\n  <li>What pieces of public art do you encounter on a daily basis? What do they reveal about the society in which you live?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B2.2",
+              "text": "communicate an understanding of the ability of the arts to inform and instruct and to contribute to social change (e.g., with a partner, research art works that communicate a specific message, and describe their effect; explore and describe the purpose of art works created for a specific audience, including works intended for a local, national, and global audience; describe the intention and techniques of didactic drama such as Augusto Boal’s Theatre of the Oppressed; research and report on protest songs from different eras; prepare a presentation on the use of propaganda art during the Cultural Revolution in China; describe the influence of current music videos on youth culture)",
+              "text_html": "<p>communicate an understanding of the ability of the arts to inform and instruct and to contribute to social change <em>(e.g., with a partner, research art works that communicate a specific message, and describe their effect; explore and describe the purpose of art works created for a specific audience, including works intended for a local, national, and global audience; describe the intention and techniques of didactic drama such as Augusto Boal’s </em><a data-item-id=\"9e13c2e4-a2c5-4d8d-8a42-083d6b2a4693\" href=\"\"><em>Theatre of the Oppressed</em></a><em>; research and report on protest songs from different eras; prepare a presentation on the use of propaganda art during the Cultural Revolution in China; describe the influence of current music&nbsp;videos on youth culture)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What purpose do you think musical theatre productions such as Hair or Rent served? Why?\n  What are some of the social issues that have been addressed in protest songs? What role does such music play in society?",
+                  "text_html": "<ul>\n  <li>What purpose do you think musical theatre productions such as <em>Hair </em>or <em>Rent </em>served? Why?</li>\n  <li>What are some of the social issues that have been addressed in protest songs? What role does such music&nbsp;play in society?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Values and Identity",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of how creating, presenting, and analysing art works has affected their understanding of personal, community, and cultural values and of Canadian identity",
+          "text_html": "<p>demonstrate an understanding of how creating, presenting, and analysing art works has affected their understanding of personal, community, and cultural values and of Canadian identity</p>",
+          "transferable_skills": [
+            "Communication",
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "describe how creating, presenting, and analysing a variety of art works has affected their personal values and their awareness of the values of their community and culture and those of other cultures (e.g., how reflecting on their initial reaction to an art work has helped them understand their own values; how creating an art work addressing an issue of local importance  has contributed to their awareness of the values of their community; how analysing art works from a variety of cultures has contributed to their awareness of the values of those cultures)",
+              "text_html": "<p>describe how creating, presenting, and analysing a variety of art works has affected their personal values and their awareness of the values of their community and culture and those of other cultures <em>(e.g., how reflecting on their initial reaction to an art work has helped them understand their own values; how creating an art work addressing an issue of local importance&nbsp; has contributed to their awareness of the&nbsp;values of their community; how analysing art works from a variety of cultures has contributed to their awareness of the values of those cultures)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What have you learned about yourself from engaging in the creative process?\n  What have you learned about the values of your peers from feedback received from presenting your art work?",
+                  "text_html": "<ul>\n  <li>What have you learned about yourself from engaging in the creative process?</li>\n  <li>What have you learned about the values of your peers from feedback received from presenting your art work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "demonstrate an understanding of how exploring the arts has affected their perception and understanding of Canadian identity (e.g., their understanding of Canadian multiculturalism; their understanding of issues that concern Canadians, including Aboriginal peoples; their awareness of the diversity of the artistic community in Canada)",
+              "text_html": "<p>demonstrate an understanding of how exploring the arts has affected their perception and understanding of Canadian identity <em>(e.g., their understanding of Canadian multiculturalism; their understanding of issues that concern Canadians,&nbsp;including&nbsp;Aboriginal peoples; their awareness of the diversity of the artistic community in Canada)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why does the art of the Group of Seven have so prominent a place in perceptions of Canadian identity?\n  How has your knowledge of the work of Aboriginal artists contributed to your understanding of Canadian identity?\n  What impact has your study of the songs of Québécois chansonniers had on your perception of Canadian identity?",
+                  "text_html": "<ul>\n  <li>Why does the art of the Group of Seven have so prominent a place in perceptions of Canadian identity?</li>\n  <li>How has your knowledge of the work of Aboriginal artists contributed to your understanding of Canadian identity?</li>\n  <li>What impact has your study of the songs of Québécois <em>chansonniers </em>had on your perception of Canadian identity?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B4",
+          "title": "Connections Beyond the Classroom",
+          "describer": "By the end of this course, students will:",
+          "text": "describe the types of skills developed through creating, presenting, and analysing art works, including integrated art works/productions, and identify various opportunities to pursue artistic endeavours outside the classroom",
+          "text_html": "<p>describe the types of skills developed through creating, presenting, and analysing art works, including integrated art works/productions, and identify various opportunities to pursue artistic endeavours outside the classroom</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B4.1",
+              "text": "identify skills, character traits, and work habits that are developed through the processes of creating, analysing, presenting, and/or promoting art works, including integrated art works/productions (e.g., problem-solving skills; technical skills; their ability to express themselves; character traits developed through collaboration, such  as  cooperativeness, flexibility, and respect for the opinion of others; ability to work in teams and independently), and describe how they can be applied outside the classroom (e.g., create a visual organizer to compare integrated arts skills with Essential Skills in the Ontario Skills Passport or Human Resources and Skills Development Canada [HRSDC] Essential Skills; describe how their cooperative work habits can be applied in family situations or in their job; describe how they can use their analytical skills when attending arts-related presentations in their community)",
+              "text_html": "<p>identify skills, character traits, and work habits that are developed through the processes of creating, analysing, presenting, and/or promoting art works, including integrated art works/productions <em>(e.g., problem-solving skills; technical skills; their ability to express themselves; character traits developed through collaboration, such&nbsp; as&nbsp; cooperativeness, flexibility, and respect for the opinion of others; ability to work in teams and independently)</em>, and describe how they can be applied outside the classroom <em>(e.g., create a visual organizer to compare integrated arts skills with Essential Skills in the Ontario Skills Passport or Human Resources and Skills Development Canada [HRSDC] Essential Skills; describe how their cooperative work habits can be applied in family situations or in their job; describe how they can use their analytical skills when attending arts-related presentations in their community)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What decision-making and problem-solving skills developed in this course can be applied in your part-time job?",
+                  "text_html": "<ul>\n  <li>What decision-making and problem-solving skills developed in this course can be applied in your part-time job?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B4.2",
+              "text": "identify and explore arts-related careers and secondary and postsecondary pathways that reflect their interests and skills (e.g., create a list of college and university programs and apprenticeships related to their field of interest in the arts; conduct on-line research on arts-related careers; hold mock interviews for a position in the arts and culture industry; create a personal skills inventory and compare it to the skills required in their field of interest; interview [online or in person] an artist in their community about that person’s career choice)",
+              "text_html": "<p>&nbsp;identify and explore arts-related careers and secondary and postsecondary pathways that reflect their interests and skills <em>(e.g.,&nbsp;create a list of college and university programs and apprenticeships related to their field of interest in the arts; conduct on-line research on arts-related careers; hold mock interviews for a position in the arts and culture industry; create a personal skills inventory and compare it to the skills required in their field of interest; interview [online or in person] an artist in their community about that person’s career choice)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What arts-related career opportunities exist in our community?\n  Are there any local artists working in your area of interest? What types of skills would you need to develop to do this kind of work?",
+                  "text_html": "<ul>\n  <li>What arts-related career opportunities exist in our community?</li>\n  <li>Are there any local artists working in your area of interest? What types of skills would you need to develop to do this kind of work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B4.3",
+              "text": "identify opportunities for continuing engagement in artistic and cultural endeavours beyond the classroom, and communicate their findings (e.g., brainstorm in small groups to create a list of various community arts programs, organizations, and activities, such as ballroom dancing, community bands, choirs, arts centres, theatre groups; research ways to become involved in arts advocacy; compile a list of arts-related hobbies or arts-appreciation opportunities)",
+              "text_html": "<p>identify opportunities for continuing engagement in artistic and cultural endeavours beyond the classroom, and communicate their findings <em>(e.g., brainstorm in small groups to create a list of various community arts programs, organizations, and activities, such as ballroom dancing, community bands, choirs, arts centres, theatre groups; research ways to become involved in arts advocacy; compile a list of arts-related hobbies or arts-appreciation opportunities)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What types of arts activities are you most interested in? What opportunities exist in our school or community for you to engage in these activities?",
+                  "text_html": "<ul>\n  <li>What types of arts activities are you most interested in? What opportunities exist in our school or community for you to engage in these activities?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Foundations",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of, and use proper terminology when referring to, elements, principles, and other key concepts related to various arts disciplines",
+          "text_html": "<p>demonstrate an understanding of, and use proper terminology when referring to, elements, principles, and other key concepts related to various arts disciplines</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "use appropriate terminology related to elements, principles, and other key concepts when creating, analysing, or presenting various types of art works (e.g., use appropriate terminology when writing a simple melody with a partner, when creating a framing project in media arts, when designing a school uniform that reflects the values and culture of their school, when using flash animation or music to enhance a website, when describing their initial reaction to a painting; design a “terminology bingo” game using key terms related to the various arts disciplines)",
+              "text_html": "<p>use appropriate terminology related to elements, principles, and other key concepts when creating, analysing, or presenting various types of art works <em>(e.g., use appropriate terminology when writing a simple melody with a partner, when creating a framing project in media arts, when designing a school uniform that reflects the values and culture of their school, when using flash animation or music to enhance a website, when describing their initial reaction to a painting; design a “terminology bingo” game using key terms related to the various arts disciplines)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "demonstrate an understanding of elements, principles, and other key concepts associated with the various arts disciplines (e.g., describe examples of energy, tension, point of view, hybridization, duration, colour, balance; create  a word wall of important terms, organized by discipline), and identify those terms that are common to more than one discipline",
+              "text_html": "<p>demonstrate an understanding of elements, principles, and other key concepts associated with the various arts disciplines <em>(e.g., describe examples of energy, tension, point of view, hybridization, duration, colour, </em><a data-item-id=\"35b10ecc-226f-43a8-bfa8-04cc0bd9c8a1\" href=\"\"><em>balance</em></a><em>; create&nbsp; a word wall of important terms, organized by discipline)</em>, and identify those terms that are common to more than one discipline</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "describe similarities and differences in approaches to the creative process within various arts disciplines (e.g., with reference to inspiration in drama and visual arts, experimentation in dance and music, presentation in media arts and music)",
+              "text_html": "<p>describe similarities and differences in approaches to the creative process within various arts disciplines&nbsp;<em>(e.g.,&nbsp;with reference to inspiration in drama and visual arts, experimentation in dance and music, presentation in media&nbsp;arts and music)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Contexts and Influences",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of symbols and themes associated with art works produced by various cultures, and describe past and present influences on various arts disciplines",
+          "text_html": "<p>demonstrate an understanding of symbols and themes associated with art works produced by various cultures, and describe past and present influences on various arts disciplines</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding of common symbols and themes in past and present art works from a variety of cultures, including First Nation cultures (e.g., explore world views and values inherent in Aboriginal cultural symbols; compile a list of and describe symbols that are used in art works associated with a particular cultural identity; describe the symbols or themes used in applied art works such as logos for companies or branding of products)",
+              "text_html": "<p>demonstrate an understanding of common symbols and themes in past and present art works from a variety of cultures, including First Nation cultures <em>(e.g., explore world views and values inherent in Aboriginal cultural symbols; compile a list of and describe symbols that are used in art works associated with a particular cultural identity; describe the symbols or themes used in applied art works such as logos for companies or branding of products)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What sorts of symbols are evident in common corporate logos? Why do you think the companies have adopted these symbols?\n  What are some of the most common symbols in First Nation art? What is the meaning of these symbols for First Nation artists?",
+                  "text_html": "<ul>\n  <li>What sorts of symbols are evident in common corporate logos? Why do you think the companies have adopted these symbols?</li>\n  <li>What are some of the most common symbols in First Nation art? What is the meaning of these symbols for First Nation artists?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "describe, on the basis of research, themes in the work of some past and/or present artists, including Canadian artists, whose body of work incorporates more than one art form (e.g., prepare a short presentation on themes explored by artists such as Vera Frenkel, Robert Lepage, Tomson Highway, Michael Snow, Janet Cardiff)",
+              "text_html": "<p>describe, on the basis of research, themes in the work of some past and/or present artists, including Canadian artists, whose body of work incorporates more than one art form <em>(e.g., prepare a&nbsp;short presentation on themes explored by artists such as Vera Frenkel, Robert Lepage, Tomson Highway, Michael&nbsp;Snow, Janet Cardiff)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How many different art forms has this artist used? How has the artist’s use of different media changed over the course of his or her career? What connections can you make between the artist’s choice of media and the theme of the work?",
+                  "text_html": "<ul>\n  <li>How many different art forms has this artist used? How has the artist’s use of different media changed over the course of his or her career? What connections can you make between the artist’s choice of media and the theme of the work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.3",
+              "text": "describe, on the basis of research, past and present influences from around the globe on different arts disciplines (e.g., colonization and decolonization, technological developments, historical immigration and settlement patterns, religion, philosophical or social movements)",
+              "text_html": "<p>describe, on the basis of research, past and present influences from around the globe on different arts disciplines <em>(e.g., colonization and decolonization, technological developments, historical immigration and settlement </em><a data-item-id=\"25142ef0-0b02-4377-b007-bb219b4ecc61\" href=\"\"><em>patterns</em></a><em>, religion, philosophical&nbsp;or&nbsp;social movements)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What information can you gather about the history of colonial Canada from the folk music of the time?\n  In what ways has globalization influenced contemporary artists?",
+                  "text_html": "<ul>\n  <li>What information can you gather about the history of colonial Canada from the folk music of the time?</li>\n  <li>In what ways has globalization influenced contemporary artists?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Conventions and Responsible Practices",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of conventions and responsible practices associated with various arts disciplines, and apply these practices when creating, presenting, and experiencing art works",
+          "text_html": "<p>demonstrate an understanding of conventions and responsible practices associated with various arts disciplines, and apply these practices when creating, presenting, and experiencing art works</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify and appropriately apply conventions associated with the experiencing of various types of art works (e.g., develop a protocol for etiquette in a gallery/museum, concert hall, or theatre, and create a poster illustrating this protocol)",
+              "text_html": "<p>identify and appropriately apply conventions associated with the experiencing of various types of art works <em>(e.g., develop a protocol for etiquette in a gallery/museum, concert hall, or theatre, and create a poster illustrating this protocol)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What types of behaviours can enhance the audience’s experience of a dance or drama performance? What behaviours can detract from the audience’s experience?\n  Should we continue the tradition of not clapping between movements at an art music concert? Why or why not?",
+                  "text_html": "<ul>\n  <li>What types of behaviours can enhance the audience’s experience of a dance or drama performance? What behaviours can detract from the audience’s experience?</li>\n  <li>Should we continue the tradition of not clapping between movements at an <a data-item-id=\"5cb39d66-4c8a-423a-b151-c21c24deb486\" href=\"\">art music</a> concert? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.2",
+              "text": "demonstrate an understanding of safe and conscientious work practices associated with the various arts disciplines, and apply these practices when engaged in the creative process (e.g., create a quiz based on Workplace Hazardous Materials Information System [WHMIS] guidelines; follow instructional manuals or the teacher’s instructions when using new tools and technologies; demonstrate respect for the work of other students; create classroom rules and expectations through small-group discussions)",
+              "text_html": "<p>demonstrate an understanding of safe and conscientious work practices associated with the various arts disciplines, and apply these practices when engaged in the creative process <em>(e.g., create a quiz based on Workplace Hazardous Materials Information System [WHMIS] guidelines; follow instructional manuals or the teacher’s instructions when using new tools and technologies; demonstrate respect for the work of other students; create classroom rules and expectations through small-group&nbsp;discussions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why should you not use spray paint in a classroom?\n  What organizations or unions are concerned with the safety of artists in your chosen media? Do they have specific safety guidelines? How do these apply to your work?",
+                  "text_html": "<ul>\n  <li>Why should you not use spray paint in a classroom?</li>\n  <li>What organizations or unions are concerned with the safety of artists in your chosen media? Do they have specific safety guidelines? How do these apply to your work?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.3",
+              "text": "identify, on the basis of research, ethical and legal practices related to the various arts disciplines, and apply these practices when creating, presenting, or promoting art works, including integrated art works/productions (e.g., use media from Creative Commons; use accepted sources for stock photography; seek permission and provide appropriate credit when borrowing from the work of visual artists, composers, and/or choreographers; respect cultural protocols when exploring First Nation, Métis, and/or Inuit art forms)",
+              "text_html": "<p>identify, on the basis of research, ethical and legal practices related to the various arts disciplines, and apply these practices when creating, presenting, or promoting art works, including integrated art works/productions <em>(e.g., use media from Creative Commons; use accepted sources for stock photography; seek permission and provide appropriate credit&nbsp;when borrowing from the work of visual artists, composers, and/or </em><a data-item-id=\"28dd3743-a164-4be4-958d-5f3baa94f9a3\" href=\"\"><em>choreographers</em></a><em>; respect cultural protocols when exploring First Nation, Métis, and/or Inuit art forms)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Is it ethical for artists to borrow from the work of others?\n  What copyright considerations did you need to address in your work? How did you deal with them?\n  What can you do to protect ownership of your art works if you submit them to contests or publications or present them at festivals or exhibitions?",
+                  "text_html": "<ul>\n  <li>Is it ethical for artists to borrow from the work of others?</li>\n  <li>What copyright considerations did you need to address in your work? How did you deal with them?</li>\n  <li>What can you do to protect ownership of&nbsp;your art works if you submit them to contests or publications or present them at festivals or exhibitions?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C3.4",
+              "text": "identify environmental issues associated with the arts, and apply environmentally responsible practices when creating and presenting art works, including integrated art works/productions (e.g., dispose of paint containers in an environmentally responsible way; recycle batteries and toner cartridges; source environmentally friendly materials)",
+              "text_html": "<p>identify environmental issues associated with the arts, and apply environmentally responsible practices when creating and presenting art works, including integrated art&nbsp;works/productions <em>(e.g., dispose&nbsp;of paint containers in an environmentally responsible way; recycle batteries and toner cartridges; source environmentally friendly materials)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How can art affect the environment? How can the environment affect art?\n  What are some ways in which an individual artist can contribute to the environment?",
+                  "text_html": "<ul>\n  <li>How can art affect the environment? How can the environment affect art?</li>\n  <li>What are some ways in which an individual artist can contribute to the environment?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

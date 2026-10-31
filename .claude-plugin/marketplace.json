@@ -1,0 +1,16 @@
+{
+  "name": "gla-teaching",
+  "owner": {
+    "name": "Zaid Mian"
+  },
+  "metadata": {
+    "description": "Gibraltar Leadership Academy teaching skills"
+  },
+  "plugins": [
+    {
+      "name": "gla",
+      "source": "./plugin",
+      "description": "Gibraltar Leadership Academy course work: start a course from its Ontario curriculum, author weeks and assessments, run a semester calendar, and format plans and rubrics in the house style."
+    }
+  ]
+}

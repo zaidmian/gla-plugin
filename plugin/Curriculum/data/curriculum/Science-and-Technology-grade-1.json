@@ -1,0 +1,485 @@
+{
+  "code": "",
+  "name": "Science and Technology",
+  "grades": [
+    "1"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Science and Technology",
+  "subject_group": "Science and Technology",
+  "description": "Here you will find the expectations and learning for the five areas of study for Grade 1.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/science-technology/courses/grade-1",
+  "source_codename": "sci___tech___grade_1",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "STEM Skills and Connections",
+      "describer": "Throughout Grade 1, in connection with the learning in the Life Systems, Matter and Energy, Structures and Mechanisms, and Earth and Space Systems strands, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "STEM Investigation and Communication Skills",
+          "describer": "Throughout Grade 1, in connection with the learning in the other strands, students will:",
+          "text": "use a scientific research process, a scientific experimentation process, and an engineering design process to conduct investigations, following appropriate health and safety procedures",
+          "text_html": "<p>use a <a href=\"/en/link/0NLy3z1OEwun7LpxJrkXI63RADr0LxigLyLOGMB7IWnp85lyyRsGyrRBKyKBIN59K54vXzS4LP3BGD4GfYNJ48oWMrU6REVyK4xpFwrmEnMnw9IpjRyYEN7kUDxX4869q1FWZlPBk9o9CgBorNm55LTpykPg90z4u20gKDpD2NUGYy5VZ1kEHBJwJr8PvzsoP1DNqpZVS8QQ1y9O9Gfng5RRG5P\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">scientific research process, a scientific experimentation process,</a> and an <a href=\"/en/curriculum/science-technology/context/processes#engineering-design-process\" data-new-window=\"true\" target=\"_blank\" rel=\"noopener noreferrer\">engineering design process</a> to conduct investigations, following appropriate health and safety procedures</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "use a scientific research process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific research process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "use a scientific experimentation process and associated skills to conduct investigations",
+              "text_html": "<p>use a scientific experimentation process and associated skills to conduct investigations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems",
+              "text_html": "<p>use an engineering design process and associated skills to design, build, and test devices, models, structures, and/or systems&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials",
+              "text_html": "<p>follow established health and safety procedures during science and technology investigations, including wearing appropriate protective equipment and clothing and safely using tools, instruments, and materials</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.5",
+              "text": "communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes",
+              "text_html": "<p>communicate their findings, using science and technology vocabulary and formats that are appropriate for specific audiences and purposes</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Coding and Emerging Technologies",
+          "describer": "Throughout Grade 1, in connection with the learning in the other strands, students will:",
+          "text": "use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life",
+          "text_html": "<p>use coding in investigations and to model concepts, and assess the impact of coding and of emerging technologies on everyday life&nbsp;</p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "write and execute code in investigations and when modelling concepts, with a focus on creating clear and precise instructions for simple algorithms",
+              "text_html": "<p>write and execute code in investigations and when modelling concepts, with a focus on creating clear and precise instructions for simple algorithms</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "identify and describe impacts of coding and of emerging technologies on everyday life",
+              "text_html": "<p>identify and describe impacts of coding and of emerging technologies on everyday life</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Applications, Connections, and Contributions",
+          "describer": "Throughout Grade 1, in connection with the learning in the other strands, students will:",
+          "text": "demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences",
+          "text_html": "<p>demonstrate an understanding of the practical applications of science and technology, and of contributions to science and technology from people with diverse lived experiences &nbsp;</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "describe practical applications of science and technology concepts in their home and community, and how these applications address real-world problems",
+              "text_html": "<p>describe practical applications of science and technology concepts in their home and community, and how these applications address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "investigate how science and technology can be used with other subject areas to address real-world problems",
+              "text_html": "<p>investigate how science and technology can be used with other subject areas to address real-world problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyse contributions to science and technology from various communities",
+              "text_html": "<p>analyse contributions to science and technology from various communities</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Life Systems",
+      "describer": "By the end of Grade 1, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "assess the importance of a healthy environment for living and non-living things, and the responsibilities of humans in contributing to a healthy environment",
+          "text_html": "<p>assess the importance of a healthy environment for living and non-living things, and the responsibilities of humans in contributing to a healthy environment</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "describe changes or problems that could result from the loss of living and non-living things that are part of everyday life, while taking different perspectives into consideration",
+              "text_html": "<p>describe changes or problems that could result from the loss of living and non-living things that are part of everyday life, while taking different perspectives into consideration</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "identify actions that can be taken to contribute to a healthy environment",
+              "text_html": "<p>identify actions that can be taken to contribute to a healthy environment</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "demonstrate an understanding of the basic needs and characteristics of living things, including humans",
+          "text_html": "<p>demonstrate an understanding of the basic needs and characteristics of living things, including humans</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "demonstrate an understanding of the natural environment as a place where living and non-living things are interconnected",
+              "text_html": "<p>demonstrate an understanding of the natural environment as a place where living and non-living things are interconnected</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "identify the basic needs of living things, including the need for air, water, food, heat, shelter, and space",
+              "text_html": "<p>identify the basic needs of living things, including the need for air, water, food, heat, shelter, and space</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "identify the physical characteristics of various plants and animals, including humans, and explain how these characteristics help the plants and animals meet their basic needs",
+              "text_html": "<p>identify the physical characteristics of various plants and animals, including humans, and explain how these characteristics help the plants and animals meet their basic needs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "identify the location and the function of various parts of the human body, including sensory organs",
+              "text_html": "<p>identify the location and the function of various parts of the human body, including sensory organs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.5",
+              "text": "describe the characteristics of a healthy environment, including clean air and water and nutritious food, and how a healthy environment enables living things to meet their needs",
+              "text_html": "<p>describe the characteristics of a healthy environment, including clean air and water and nutritious food, and how a healthy environment enables living things to meet their needs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.6",
+              "text": "describe ways in which living things provide for the needs of other living things",
+              "text_html": "<p>describe ways in which living things provide for the needs of other living things</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Matter and Energy",
+      "describer": "By the end of Grade 1, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "assess uses of energy at home, at school, and in the community, and suggest ways to use energy responsibly",
+          "text_html": "<p>assess uses of energy at home, at school, and in the community, and suggest ways to use energy responsibly</p>",
+          "transferable_skills": [
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "describe everyday uses of energy at school and at home, and suggest ways to use energy responsibly",
+              "text_html": "<p>describe everyday uses of energy at school and at home, and suggest ways to use energy responsibly</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "describe how the lives of people and other living things would be affected if electrical energy were no longer available",
+              "text_html": "<p>describe how the lives of people and other living things would be affected if electrical energy were no longer available</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "demonstrate an understanding of how energy affects their lives, and that the Sun is the principal source of energy for Earth",
+          "text_html": "<p>demonstrate an understanding of how energy affects their lives, and that the Sun is the principal source of energy for Earth</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "demonstrate an understanding that energy is the ability to move or change something",
+              "text_html": "<p>demonstrate an understanding that energy is the ability to move or change something</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "demonstrate an understanding that the Sun is Earth’s principal source of energy, including how it warms the air, land, and water; is a source of light for Earth; and makes it possible for plants to grow",
+              "text_html": "<p>demonstrate an understanding that the Sun is Earth’s principal source of energy, including how it warms the air, land, and water; is a source of light for Earth; and makes it possible for plants to grow</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "identify food as a source of energy for living things",
+              "text_html": "<p>identify food as a source of energy for living things</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "identify everyday uses of various sources of energy",
+              "text_html": "<p>identify everyday uses of various sources of energy</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "demonstrate an understanding that humans get the energy resources they need from the world around them, and that the supply of many of these resources is limited",
+              "text_html": "<p>demonstrate an understanding that humans get the energy resources they need from the world around them, and that the supply of many of these resources is limited</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.6",
+              "text": "describe seasonal differences in how we use energy and in the forms of energy we use",
+              "text_html": "<p>describe seasonal differences in how we use energy and in the forms of energy we use</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Structures and Mechanisms",
+      "describer": "By the end of Grade 1, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "assess the impact on people and the environment of everyday objects, including structures, and the materials they are made of",
+          "text_html": "<p>assess the impact on people and the environment of everyday objects, including structures, and the materials they are made of</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "identify the kinds of waste materials produced by humans, and plan and carry out a course of action for minimizing waste in the classroom or at home, explaining why each action is important",
+              "text_html": "<p>identify the kinds of waste materials produced by humans, and plan and carry out a course of action for minimizing waste in the classroom or at home, explaining why each action is important&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "assess everyday objects, including structures, that have similar purposes, in terms of the materials they are made from, the source of these materials, and what happens to these objects when they are worn out or no longer needed",
+              "text_html": "<p>assess everyday objects, including structures, that have similar purposes, in terms of the materials they are made from, the source of these materials, and what happens to these objects when they are worn out or no longer needed</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "demonstrate an understanding that objects, including structures, have observable characteristics and are made from materials with specific properties that determine how they are used",
+          "text_html": "<p>demonstrate an understanding that objects, including structures, have observable characteristics and are made from materials with specific properties that determine how they are used</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "describe objects as things that are made of one or more materials",
+              "text_html": "<p>describe objects as things that are made of one or more materials</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "identify structures that are objects designed to support a load, including those acting as supporting frameworks for objects",
+              "text_html": "<p>identify structures that are objects designed to support a load, including those acting as supporting frameworks for objects</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "identify materials that are used to make various everyday objects, including structures",
+              "text_html": "<p>identify materials that are used to make various everyday objects, including structures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "describe observable characteristics of various everyday objects, including structures, using qualitative information gathered through their senses",
+              "text_html": "<p>describe observable characteristics of various everyday objects, including structures, using qualitative information gathered through their senses</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.5",
+              "text": "describe purposes of everyday objects, including structures",
+              "text_html": "<p>describe purposes of everyday objects, including structures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.6",
+              "text": "identify properties of materials that enable the objects made from them to perform their intended function",
+              "text_html": "<p>identify properties of materials that enable the objects made from them to perform their intended function</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.7",
+              "text": "identify different kinds of fasteners and describe uses for each",
+              "text_html": "<p>identify different kinds of fasteners and describe uses for each</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.8",
+              "text": "identify sources in nature of some common materials that are used to make various objects, including structures",
+              "text_html": "<p>identify sources in nature of some common materials that are used to make various objects, including structures</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Earth and Space Systems",
+      "describer": "By the end of Grade 1, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Relating Science and Technology to Our Changing World",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "assess the impact of daily and seasonal changes on living things, including humans",
+          "text_html": "<p>assess the impact of daily and seasonal changes on living things, including humans</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Critical Thinking & Problem Solving",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "assess the impact of daily and seasonal changes on human outdoor activities, and identify innovations that enable people to engage in various activities year-round",
+              "text_html": "<p>assess the impact of daily and seasonal changes on human outdoor activities, and identify innovations that enable people to engage in various activities year-round</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E1.2",
+              "text": "assess ways in which daily and seasonal changes have an impact on society, the environment, and living things in the natural environment",
+              "text_html": "<p>assess ways in which daily and seasonal changes have an impact on society, the environment, and living things in the natural environment</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Exploring and Understanding Concepts",
+          "describer": "By the end of Grade 1, students will:",
+          "text": "demonstrate an understanding of daily and seasonal changes and of how living things respond to those changes",
+          "text_html": "<p>demonstrate an understanding of daily and seasonal changes and of how living things respond to those changes &nbsp;</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "demonstrate an understanding of Earth’s relationship to the Sun and that this relationship results in daily and seasonal changes on Earth",
+              "text_html": "<p>demonstrate an understanding of Earth’s relationship to the Sun and that this relationship results in daily and seasonal changes on Earth</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.2",
+              "text": "demonstrate an understanding that a cycle is a series of repeating events, and that cycles can be observed in daily and seasonal changes",
+              "text_html": "<p>demonstrate an understanding that a cycle is a series of repeating events, and that cycles can be observed in daily and seasonal changes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.3",
+              "text": "describe the changes in the amount of light and heat from the Sun that occur throughout the day and in the four seasons",
+              "text_html": "<p>describe the changes in the amount of light and heat from the Sun that occur throughout the day and in the four seasons&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.4",
+              "text": "describe and compare the four seasons in terms of the weather, including precipitation and temperature, in their local area",
+              "text_html": "<p>describe and compare the four seasons in terms of the weather, including precipitation and temperature, in their local area</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.5",
+              "text": "describe changes in the appearance or behaviour of living things that are adaptations to seasonal changes",
+              "text_html": "<p>describe changes in the appearance or behaviour of living things that are adaptations to seasonal changes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "E2.6",
+              "text": "describe how humans prepare for, and respond to, daily and seasonal changes",
+              "text_html": "<p>describe how humans prepare for, and respond to, daily and seasonal changes</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

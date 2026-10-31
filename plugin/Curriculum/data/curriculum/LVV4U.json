@@ -1,0 +1,887 @@
+{
+  "code": "LVV4U",
+  "name": "Classical Civilization",
+  "grades": [
+    "12"
+  ],
+  "levels": [],
+  "course_type": "University Preparation",
+  "category": "Classical Studies",
+  "panel": "Secondary",
+  "subject": "Classical Studies and International Languages",
+  "subject_group": "Classical Studies and International Languages",
+  "description": "This course introduces students to the rich cultural legacy of the classical world. Students will investigate aspects of classical culture, including mythology, literature, art, architecture, philosophy, science, and technology, as well as elements of the ancient Greek and Latin languages. Students will develop creative and critical thinking skills through exploring and responding to works by classical authors in English translation and examining material culture brought to light through archaeology. They will also increase their communication and research skills by working both collaboratively and independently, and will acquire an understanding and appreciation of the interconnectedness of ancient and modern societies.",
+  "prerequisites": "English, Grade 10, Academic, or Classical Languages, Level 2, University Preparation",
+  "prerequisite_codes": [
+    "ENG2D",
+    "LVGCU/LVLCU"
+  ],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/classical-studies-intl-languages/courses/lvv4u",
+  "source_codename": "lvgdu___lvldu__copy_",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Critical Thinking and Literacy Skills",
+      "describer": "Throughout this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Research",
+          "describer": "Throughout this course, students will:",
+          "text": "select and organize information about the classical world from a variety of oral, written, and visual primary and secondary sources",
+          "text_html": "<p>select and organize information about the classical world from a variety of oral, written, and visual primary and secondary sources</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "formulate different types of questions to guide research and facilitate making predictions and inferences about aspects of classical civilizations (e.g., factual question: “What types of Minoan artefacts have been identified in the grave goods found in Mycenaean tombs, and what might this information indicate about trading and other relationships between Crete and mainland Greece in the Bronze Age?”; comparative question: “What are some key similarities and differences in mood and expression between Catullus’s early and later poems to Lesbia?”; causal questions: “How might the results of the First Punic War have created conditions leading to the Second Punic War?” “How did Roman demand for timber and other resources affect the local environment and create a need to expand territory?",
+              "text_html": "<p>formulate different types of questions to guide research and facilitate making predictions and inferences about aspects of classical civilizations <em>(e.g., </em>factual question: <em>“What types of Minoan artefacts have been identified in the grave goods found in Mycenaean tombs, and what might this information indicate about trading and other relationships between Crete and mainland Greece in the Bronze Age?”; </em>comparative question: <em>“What are some key similarities and differences in mood and expression between Catullus’s early and later poems to Lesbia?”; </em>causal questions: <em>“How might the results of the First Punic War have created conditions leading to the Second Punic War?” “How did Roman demand for timber and other resources affect the local environment and create a need to expand territory?</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What questions would you ask to guide an inquiry into the contributions of classical societies to scientific knowledge? \n  What questions would you ask to guide an inquiry into the similarities and differences between the military achievements of Alexander the Great and Julius Caesar? \n  What questions would you ask to guide an inquiry into the underlying causes of the transition from the Roman Republic to the Principate? \n  What questions would you ask to guide an inquiry into the environmental effects of the expansion of the Roman Empire?",
+                  "text_html": "<ul>\n  <li>What questions would you ask to guide an inquiry into the contributions of classical societies to scientific knowledge?&nbsp;</li>\n  <li>What questions would you ask to guide an inquiry into the similarities and differences between the military achievements of Alexander the Great and Julius Caesar?&nbsp;</li>\n  <li>What questions would you ask to guide an inquiry into the underlying causes of the transition from the Roman Republic to the Principate?&nbsp;</li>\n  <li>What questions would you ask to guide an inquiry into the environmental effects of the expansion of the Roman Empire?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.2",
+              "text": "use decoding strategies (e.g., referring to glossaries and specialized dictionaries and encyclopedias) and information technology (e.g., Internet search features) to understand unfamiliar vocabulary, writing and numerical systems, and textual and visual representations in a broad range of classical sources (e.g., historical commentaries, tomb inscriptions, statuary, coins, public notices and advertisements)",
+              "text_html": "<p>use decoding strategies <em>(e.g., referring to glossaries and specialized dictionaries and encyclopedias) </em>and information technology <em>(e.g., Internet search features) </em>to understand unfamiliar vocabulary, writing and numerical systems, and textual and visual representations in a broad range of classical sources <em>(e.g., historical commentaries, tomb inscriptions, statuary, coins, public notices and advertisements)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What corroboration of Josephus’s account of the Roman conquest of Jerusalem do the relief sculptures on the Arch of Titus provide?",
+                  "text_html": "<ul>\n  <li>What corroboration of Josephus’s account of the Roman conquest of Jerusalem do the relief sculptures on the Arch of Titus provide?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.3",
+              "text": "distinguish between and make appropriate use of different types of primary and secondary sources (e.g., identify similarities and differences in the information acquired from primary and secondary sources; use information in classical literary texts to supplement historical and geographical information; use historical maps and diagrams to clarify and enhance their understanding of historical events; locate ancient sites on modern maps)",
+              "text_html": "<p>distinguish between and make appropriate use of different types of primary and secondary sources <em>(e.g., identify similarities and differences in the information acquired from primary and secondary sources; use information in classical literary texts to supplement historical and geographical information; use historical maps and diagrams to clarify and enhance their understanding of historical events; locate ancient sites on modern maps)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Where on a map of the Mediterranean world in the third and second centuries BCE are places associated with the life of Hannibal, and what was their significance in his life? For example, what stages in his career are associated with Saguntum, Carthage, Bithynia, and the Seleucid Empire? In what contemporary countries are those locations found? \n  Locate on a map some or all of the Bronze Age Mycenaean poleis mentioned in Homer’s Iliad and Odyssey. Why is their location important to their being included in the Trojan War? What does this tell you about the mobility of ancient peoples?",
+                  "text_html": "<ul>\n  <li>Where on a map of the Mediterranean world in the third and second centuries BCE are places associated with the life of Hannibal, and what was their significance in his life? For example, what stages in his career are associated with Saguntum, Carthage, Bithynia, and the Seleucid Empire? In what contemporary countries are those locations found?&nbsp;</li>\n  <li>Locate on a map some or all of the Bronze Age Mycenaean <em>poleis </em>mentioned in Homer’s <em>Iliad </em>and <em>Odyssey</em>. Why is their location important to their being included in the Trojan War? What does this tell you about the mobility of ancient peoples?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.4",
+              "text": "select information derived from oral and written forms of ancient Greek and Latin primary sources in translation (e.g., information about rural life in the first century BCE from a translation of Vergil’s Georgics presented orally, information about the life of Agrippina from the Annals of Tacitus), from ancient Greek and Roman visual sources (e.g., statues, pottery, friezes), and from secondary sources about the classical world (e.g., information about the Trojan War from a television documentary), and organize the material using criteria appropriate to the focus of the inquiry",
+              "text_html": "<p>select information derived from oral and written forms of ancient Greek and Latin primary sources in translation <em>(e.g., information about rural life in the first century BCE from a translation of Vergil’s </em>Georgics <em>presented orally, information about the life of Agrippina from the </em>Annals <em>of Tacitus)</em>, from ancient Greek and Roman visual sources <em>(e.g., statues, pottery, friezes)</em>, and from secondary sources about the classical world <em>(e.g., information about the Trojan War from a television documentary)</em>, and organize the material using criteria appropriate to the focus of the inquiry</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do the descriptions of Agrippina the Younger in Tacitus’s Annals differ from those given by other ancient authors? And how do these literary descriptions compare to sculptural representations identified as Agrippina?",
+                  "text_html": "<ul>\n  <li>How do the descriptions of Agrippina the Younger in Tacitus’s <em>Annals </em>differ from those given by other ancient authors? And how do these literary descriptions compare to sculptural representations identified as Agrippina?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A1.5",
+              "text": "demonstrate academic integrity by acknowledging all contributions from collaborative inquiry and all extracts and other information from written, graphic, and electronic sources that they have used to support and enhance their oral, written, and multimedia presentations in classical studies, using accepted forms of accreditation and/or documentation (e.g., use quotation marks to identify all material taken word for word from a source and acknowledge the source; produce accurate and comprehensive notes and bibliographies)",
+              "text_html": "<p>demonstrate academic integrity by acknowledging all contributions from collaborative inquiry and all extracts and other information from written, graphic, and electronic sources that they have used to support and enhance their oral, written, and multimedia presentations in classical studies, using accepted forms of accreditation and/or documentation <em>(e.g., use quotation marks to identify all material taken word for word from a source and acknowledge the source; produce accurate and comprehensive notes and bibliographies)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Under what circumstances does paraphrasing become plagiarism? What are some ethical issues connected with using someone else’s work without acknowledgement? If you engage in plagiarism, what effect could it have on your academic career and your future life?",
+                  "text_html": "<ul>\n  <li>Under what circumstances does paraphrasing become plagiarism? What are some ethical issues connected with using someone else’s work without acknowledgement? If you engage in plagiarism, what effect could it have on your academic career and your future life?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Interpretation and Evaluation",
+          "describer": "Throughout this course, students will:",
+          "text": "interpret and evaluate information to make inferences about the cultural customs and values of the classical world",
+          "text_html": "<p>interpret and evaluate information to make inferences about the cultural customs and values of the classical world</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "make inferences about the cultural characteristics, customs, and values of the classical world based on an analysis of information gathered in research (e.g., make inferences about attitudes towards women in classical societies based on research findings about the various roles and depictions of women of those times; make inferences about Plato’s attitude to Athenian democracy based on his prescription for government in The Republic; make inferences about the historian’s purpose based on the presentation of the life of Livia, wife of Augustus, in the Annals of Tacitus; make inferences about the development and socio-cultural impact of slavery in the ancient world and the Roman practice of manumission, using research findings)",
+              "text_html": "<p>make inferences about the cultural characteristics, customs, and values of the classical world based on an analysis of information gathered in research <em>(e.g., make inferences about attitudes towards women in classical societies based on research findings about the various roles and depictions of women of those times; make inferences about Plato’s attitude to Athenian democracy based on his prescription for government in </em>The Republic<em>; make inferences about the historian’s purpose based on the presentation of the life of Livia, wife of Augustus, in the </em>Annals <em>of Tacitus; make inferences about the development and socio-cultural impact of slavery in the ancient world and the Roman practice of manumission, using research findings)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What was the purpose of the ancient Roman practice of augury? What do you think this practice indicates about the role of religion in the political affairs of the Roman state? In the case of the Second Punic War, what were some risks attached to this method of decision making? \n  What characteristics of Bronze Age Greek cultural codes in Homer’s Iliad might explain Achilles’ reaction to the loss of his war prize, Briseis? \n  In Vergil’s Eclogues, in what ways did the Roman elite idealize the bucolic life of ancient Rome?",
+                  "text_html": "<ul>\n  <li>What was the purpose of the ancient Roman practice of <a data-item-id=\"1dad8f6a-7ba2-4d0b-8f05-a959f944f41a\" href=\"\">augur</a>y? What do you think this practice indicates about the role of religion in the political affairs of the Roman state? In the case of the Second Punic War, what were some risks attached to this method of decision making?&nbsp;</li>\n  <li>What characteristics of Bronze Age Greek cultural codes in Homer’s <em>Iliad </em>might explain Achilles’ reaction to the loss of his war prize, Briseis?&nbsp;</li>\n  <li>In Vergil’s <em>Eclogues</em>, in what ways did the Roman elite idealize the bucolic life of ancient Rome?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A2.2",
+              "text": "assess the reliability and/or significance of physical, artistic, and literary evidence pertaining to the nature of the classical world based on an analysis of the context, purpose, values or biases, expertise, and reputed authenticity of the available historical and contemporary sources (e.g., the historical significance of Thucydides’ account of the Peloponnesian War; the purpose of Martial’s flattery of the emperor; the reliability of Pliny the Younger’s depictions of the early Christian community in his letters to the Emperor Trajan; the significance of Petronius’s depiction of Trimalchio in the Satyricon; the accuracy of Plato’s characterization of Socrates in The Apology; the socio-political significance of monuments such as the Ara Pacis Augustae and visual artefacts such as frescoes, relief sculptures, and inscriptions)",
+              "text_html": "<p>assess the reliability and/or significance of physical, artistic, and literary evidence pertaining to the nature of the classical world based on an analysis of the context, purpose, values or biases, expertise, and reputed authenticity of the available historical and contemporary sources <em>(e.g., the historical significance of Thucydides’ account of the Peloponnesian War; the purpose of Martial’s flattery of the emperor; the reliability of Pliny the Younger’s depictions of the early Christian community in his letters to the Emperor Trajan; the significance of Petronius’s depiction of Trimalchio in the </em>Satyricon<em>; the accuracy of Plato’s characterization of Socrates in </em>The Apology<em>; the socio-political significance of monuments such as the Ara Pacis Augustae and visual artefacts such as </em><a data-item-id=\"e4bfd6d1-965b-46e8-9167-e605cba45b48\" href=\"\"><em>frescoes</em></a><em>, relief sculptures, and inscriptions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What do you know about the Roman military and its interaction with indigenous peoples of Dacia from Trajan’s Column?",
+                  "text_html": "<ul>\n  <li>What do you know about the Roman military and its interaction with indigenous peoples of Dacia from Trajan’s Column?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Communication",
+          "describer": "Throughout this course, students will:",
+          "text": "communicate knowledge and understanding of the classical world using a variety of media",
+          "text_html": "<p>communicate knowledge and understanding of the classical world using a variety of media</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "communicate orally about the classical world for a wide range of purposes and audiences, using a variety of communication strategies and demonstrating effective word choice, clear expression, convincing delivery, and accurate use of Latin and ancient Greek when required (e.g., pronounce Latin and ancient Greek words and phrases correctly; respond to questions by using appropriate examples; participate in class discussions and collaborative learning opportunities; initiate conferences with the teacher; differentiate among presentation styles suitable for teachers, peers, and younger students; display cross-cultural and historical sensitivity in presenting potentially uncomfortable material on warfare, indigenous peoples, race, gender roles, slavery, disability, and religion)",
+              "text_html": "<p>communicate orally about the classical world for a wide range of purposes and audiences, using a variety of communication strategies and demonstrating effective word choice, clear expression, convincing delivery, and accurate use of Latin and ancient Greek when required <em>(e.g., pronounce Latin and ancient Greek words and phrases correctly; respond to questions by using appropriate examples; participate in class discussions and collaborative learning opportunities; initiate conferences with the teacher; differentiate among presentation styles suitable for teachers, peers, and younger students; display cross-cultural and historical sensitivity in presenting potentially uncomfortable material on warfare, indigenous peoples, race, </em><a data-item-id=\"9299c73c-0302-4dc9-a43a-192182d4060d\" href=\"\"><em>gender roles</em></a><em>, slavery, disability, and religion)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How would you change your presentation about family dysfunction in the House of Atreus if your audience were adults rather than your peers? \n  How could you introduce the stories about the Trojan War for students who are in Grade 9 and have limited knowledge about mythology? What language would you use? \n  How would you explain aspects of the myth of Hephaestus to audience members of varying abilities and needs?",
+                  "text_html": "<ul>\n  <li>How would you change your presentation about family dysfunction in the House of Atreus if your audience were adults rather than your peers?&nbsp;</li>\n  <li>How could you introduce the stories about the Trojan War for students who are in Grade 9 and have limited knowledge about mythology? What language would you use?&nbsp;</li>\n  <li>How would you explain aspects of the myth of Hephaestus to audience members of varying abilities and needs?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.2",
+              "text": "demonstrate responsible, constructive behaviour in interactions with others in a collaborative setting (e.g., work cooperatively in teacher-assigned and/or self-selected groups to solve problems and resolve conflicts; apply interpersonal skills to collaborate effectively; show respect for others in open-forum discussions about presentations by class members; give and receive constructive criticism)",
+              "text_html": "<p>demonstrate responsible, constructive behaviour in interactions with others in a collaborative setting <em>(e.g., work cooperatively in teacher-assigned and/or self-selected groups to solve problems and resolve conflicts; apply interpersonal skills to collaborate effectively; show respect for others in open-forum discussions about presentations by class members; give and receive constructive criticism)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In this jigsaw activity about mystery religions in the Roman Empire during the first and second centuries CE, what strategies will you use to ensure that all group members have the opportunity to participate? \n  What strategies would you use to resolve a conflict between members of your group in order to ensure that your presentation about the importance of the Roman practice of salutatio is completed well and on time?",
+                  "text_html": "<ul>\n  <li>In this jigsaw activity about <a data-item-id=\"7f050100-90a3-4db6-a463-9c9e6a5b32fb\" href=\"\">mystery religions</a> in the Roman Empire during the first and second centuries CE, what strategies will you use to ensure that all group members have the opportunity to participate?&nbsp;</li>\n  <li>What strategies would you use to resolve a conflict between members of your group in order to ensure that your presentation about the importance of the Roman practice of <em>salutatio </em>is completed well and on time?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.3",
+              "text": "plan and produce a variety of literary, informational, and graphic texts about the classical world for a wide range of purposes and audiences, using effective words, images, and language structures, correct grammar, and a range of editing and revising strategies (e.g., keep a reading-response journal about Cicero’s Letters; rewrite the myth of the contest for Athens between Athena and Poseidon based on the archaeology of the Athenian Acropolis; write an essay comparing King Cogidubnus and Joseph Brant as indigenous leaders faced with occupation by a dominant power; write a news report of the apotheosis of Julius Caesar and the development of emperor worship; create a T-chart or Venn diagram of Roman deities adopted from other religions to demonstrate syncretism; produce a graphic text, such as a series of labelled diagrams, comparing the waste management systems in Rome and Athens)",
+              "text_html": "<p>plan and produce a variety of literary, <a data-item-id=\"1c6c57f1-d719-4922-8516-68f4c23612fa\" href=\"\">informational</a>, and <a data-item-id=\"4df21715-29ad-4d75-8a8c-482ce7b20fd6\" href=\"\">graphic texts</a> about the classical world for a wide range of purposes and audiences, using effective words, images, and <a data-item-id=\"614e126e-8a65-42e5-a01d-fcb1bfaf82d1\" href=\"\">language structures</a>, correct grammar, and a range of editing and <a data-item-id=\"76f08bd7-0d6b-4394-a933-4733f4d2f6a3\" href=\"\">revising</a> strategies <em>(e.g., keep a reading-response journal about Cicero’s </em>Letters<em>; rewrite the myth of the contest for Athens between Athena and Poseidon based on the archaeology of the Athenian Acropolis; write an essay comparing King Cogidubnus and Joseph Brant as indigenous leaders faced with occupation by a dominant power; write a news report of the apotheosis of Julius Caesar and the development of emperor worship; create a </em><a data-item-id=\"2fd56ed3-d143-4ead-a3e2-5dee802522d3\" href=\"\"><em>T-chart </em></a><em>or </em><a data-item-id=\"9cf39848-6e96-4347-891c-b5da22d81b59\" href=\"\"><em>Venn diagram</em></a><em> of Roman deities adopted from other religions to demonstrate </em><a data-item-id=\"db7b9bf1-b02b-48d8-9d13-5378312f7c29\" href=\"\"><em>syncretism</em></a><em>; produce a graphic text, such as a series of labelled diagrams, comparing the waste management systems in Rome and Athens)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What questions would you ask Caesar’s wife, Calpurnia, Cleopatra, Mark Antony, Caesar’s veterans, the senators who supported him, the senators who supported Cassius and Brutus, and average Roman citizens in order to write a report about the Senate’s decree declaring Julius Caesar a god?",
+                  "text_html": "<ul>\n  <li>What questions would you ask Caesar’s wife, Calpurnia, Cleopatra, Mark Antony, Caesar’s veterans, the senators who supported him, the senators who supported Cassius and Brutus, and average Roman citizens in order to write a report about the Senate’s decree declaring Julius Caesar a god?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.4",
+              "text": "summarize and paraphrase information in original texts in translation, orally and in writing, to communicate and consolidate their understanding of the classical world (e.g., summarize Pericles’ funeral oration from Thucydides’ History of the Peloponnesian War; paraphrase Antigone’s final speech in Sophocles’ Antigone; summarize the information about the eruption of Mount Vesuvius contained in Pliny the Younger’s Letter 6.16)",
+              "text_html": "<p>summarize and <a data-item-id=\"818a5b8d-9ec6-4308-b089-1d979a4ca0c3\" href=\"\">paraphrase</a> information in original texts in translation, orally and in writing, to communicate and consolidate their understanding of the classical world <em>(e.g., summarize Pericles’ funeral oration from Thucydides’ </em>History of the Peloponnesian War<em>; paraphrase Antigone’s final speech in Sophocles’ </em>Antigone<em>; summarize the information about the eruption of Mount Vesuvius contained in Pliny the Younger’s Letter 6.16)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What salient information does Pliny the Younger provide about the eruption of Vesuvius? \n  In Ode 1.37, what key information does Horace provide about the Battle of Actium?",
+                  "text_html": "<ul>\n  <li>What salient information does Pliny the Younger provide about the eruption of Vesuvius?&nbsp;</li>\n  <li>In Ode 1.37, what key information does Horace provide about the Battle of Actium?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.5",
+              "text": "accurately transcribe words in ancient Greek, transliterate words from ancient Greek into the Latin alphabet and ancient Greek and Roman numerals into Arabic numerals, and identify English words derived from Latin and ancient Greek (e.g., identify an English derivative from ancient Greek or Latin, using an etymological dictionary; create an artefact using the Greek alphabet; accurately transliterate into the Latin alphabet ancient Greek words for which there are no clear English equivalents, and give an approximate English meaning)",
+              "text_html": "<p>accurately transcribe words in ancient Greek, transliterate words from ancient Greek into the Latin <a data-item-id=\"55860af7-fd00-4241-a63e-4ad57c44f31e\" href=\"\">alphabet</a> and ancient Greek and Roman numerals into Arabic numerals, and identify English words derived from Latin and ancient Greek <em>(e.g., identify an English </em><a data-item-id=\"c7c62365-8a46-4a36-b5b5-20c9edc442a9\" href=\"\"><em>derivative</em></a><em> from ancient Greek or Latin, using an etymological dictionary; create an artefact using the Greek alphabet; accurately transliterate into the Latin alphabet ancient Greek words for which there are no clear English equivalents, and give an approximate English meaning)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Using your etymological dictionary, find the origins and meanings of the words idea, ethics, ontology, cosmology, ecology, and politics. \n  What problems might you encounter in transliterating a panel of an ancient Greek inscription from a portion of the Athenian tribute lists?",
+                  "text_html": "<ul>\n  <li>Using your etymological dictionary, find the origins and meanings of the words <em>idea</em>, <a data-item-id=\"be2c9f3d-44b5-40fb-aca6-4fb6f959b532\" href=\"\"><em>ethics</em></a>, <a data-item-id=\"e156648b-f275-4a34-beb3-44e30191601f\" href=\"\"><em>ontology</em></a>, <em>cosmology</em>, <em>ecology</em>, and <em>politics</em>.&nbsp;</li>\n  <li>What problems might you encounter in transliterating a panel of an ancient Greek inscription from a portion of the Athenian tribute lists?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A3.6",
+              "text": "select appropriate media and delivery styles to produce, share, and disseminate products related to their learning (e.g., use presentation software to develop a seminar on the significance of the Trojan gold found in the Pushkin State Museum of Fine Arts; dramatize an excerpt from The Verrine Orations of Cicero; create a model of the Temple of Jupiter Capitolinus in Rome; make a three-dimensional topographical map of Greece)",
+              "text_html": "<p>select appropriate media and delivery <a data-item-id=\"eb3f83e3-9f02-4497-ae16-464911912433\" href=\"\">styles</a> to produce, share, and disseminate products related to their learning <em>(e.g., use presentation software to develop a seminar on the significance of the Trojan gold found in the Pushkin State Museum of Fine Arts; dramatize an excerpt from </em>The Verrine Orations <em>of Cicero; create a model of the Temple of Jupiter Capitolinus in Rome; make a three-dimensional topographical map of Greece)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What materials or found materials could you use to build a miniature three-dimensional model of the Arch of Titus? How will you recreate the details on the interior of the triumphal arch, such as the central coffers and the panel reliefs? \n  What images would you incorporate in a video about the Parthenon to hold your viewers’ attention and effectively illustrate your subject?",
+                  "text_html": "<ul>\n  <li>What materials or found materials could you use to build a miniature three-dimensional model of the Arch of Titus? How will you recreate the details on the interior of the triumphal arch, such as the central coffers and the panel reliefs?&nbsp;</li>\n  <li>What images would you incorporate in a video about the Parthenon to hold your viewers’ attention and effectively illustrate your subject?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "A4",
+          "title": "Intercultural and Other Connections",
+          "describer": "Throughout this course, students will:",
+          "text": "describe how learning about the classical world relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience",
+          "text_html": "<p>describe how learning about the classical world relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A4.1",
+              "text": "develop and outline learning plans to initiate and guide inquiries into the influence of the classical world on the history and culture of later societies, including contemporary societies (e.g., create a learning plan for a group presentation comparing the rights and responsibilities of Roman citizens to the rights and responsibilities of citizens in a modern Western democracy and describing the criteria for citizenship in both systems; formulate questions to guide a project exploring the legacy of Greek and Roman military strategists in later eras)",
+              "text_html": "<p>develop and outline learning plans to initiate and guide inquiries into the influence of the classical world on the history and culture of later societies, including contemporary societies <em>(e.g., create a learning plan for a group presentation comparing the rights and responsibilities of Roman citizens to the rights and responsibilities of citizens in a modern Western democracy and describing the criteria for citizenship in both systems; formulate questions to guide a project exploring the legacy of Greek and Roman military strategists in later eras)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What questions will you ask and what research materials will you use to show the impact of ancient art on the art of Michelangelo or Rodin?",
+                  "text_html": "<ul>\n  <li>What questions will you ask and what research materials will you use to show the impact of ancient art on the art of Michelangelo or Rodin?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "A4.2",
+              "text": "determine whether and how their learning about the classical world enhances their understanding of other academic and non-academic areas of life (e.g., explain in what ways their learning about Roman satire is, or is not, helpful for understanding Jonathan Swift’s approach in A Modest Proposal; give examples of ways in which knowledge of Greek and/or Latin vocabulary is helpful or could be helpful in other areas of study, such as medicine, science, language studies, philosophy, and law)",
+              "text_html": "<p>determine whether and how their learning about the classical world enhances their understanding of other academic and non-academic areas of life <em>(e.g., explain in what ways their learning about Roman </em><a data-item-id=\"9ed4a743-b364-40e1-a3a8-eba1e2beaefd\" href=\"\"><em>satire</em></a><em> is, or is not, helpful for understanding Jonathan Swift’s approach in </em>A Modest Proposal<em>; give examples of ways in which knowledge of Greek and/or Latin vocabulary is helpful or could be helpful in other areas of study, such as medicine, science, language studies, philosophy, and law)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways does Shakespeare demonstrate his knowledge about ancient mythology in A Midsummer Night’s Dream or The Tempest? How does your own study of classical mythology enhance your understanding of the play? \n  How does your knowledge of classical mythology help you understand the psychological theories of Sigmund Freud? \n  How does an understanding of Roman government help explain the structure of American government?",
+                  "text_html": "<ul>\n  <li>In what ways does Shakespeare demonstrate his knowledge about ancient mythology in <em>A Midsummer Night’s Dream </em>or <em>The Tempest</em>? How does your own study of classical mythology enhance your understanding of the play?&nbsp;</li>\n  <li>How does your knowledge of classical mythology help you understand the psychological theories of Sigmund Freud?&nbsp;</li>\n  <li>How does an understanding of Roman government help explain the structure of American government?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Mythology and Literature",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Mythology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge and understanding of different types of myths and their socio-cultural contexts",
+          "text_html": "<p>demonstrate knowledge and understanding of different types of myths and their socio-cultural contexts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "identify and describe different types of classical myths and their characteristics (e.g., types: aetiological [origin] myths; liturgical [religious origin] myths; direct [history-based] legends, as in stories based on the Trojan War and the founding of Rome; indirect [metaphorical] legends, as in stories based on possible historical activities in the remote past such as the Titanomachy]; psyche [psychological] myths, often disclosing the darker side of human nature, as in the story of Daphne and Apollo; characteristics: occurrence in a timeless past, inclusion of the supernatural)",
+              "text_html": "<p>identify and describe different types of classical myths and their characteristics <em>(e.g., </em>types: <em>aetiological [origin] myths; liturgical [religious origin] myths; direct [history-based] legends, as in stories based on the Trojan War and the founding of Rome; indirect [</em><a data-item-id=\"b2f812ba-1b0d-4e47-bc28-4b0ddf9fb8a8\" href=\"\"><em>metaphorical</em></a><em>] legends, as in stories based on possible historical activities in the remote past such as the Titanomachy]; </em><a data-item-id=\"7784867d-c20b-411d-bdd1-1b8f4d97cfec\" href=\"\"><em>psyche</em></a><em> [psychological] myths, often disclosing the darker side of human nature, as in the story of Daphne and Apollo; </em>characteristics: <em>occurrence in a timeless past, inclusion of the supernatural)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "describe the context and meaning of some ancient Greek and Roman myths in classical times (e.g., the [liturgical] myth of Persephone explains the development of the Eleusinian Mysteries; the [aetiological] myth of Narcissus explains the creation of the daffodil; the [direct] legend about the Roman abduction of the Sabine women explains the amalgamation of Roman and Sabine territories)",
+              "text_html": "<p>describe the context and meaning of some ancient Greek and Roman myths in classical times <em>(e.g., the [liturgical] myth of Persephone explains the development of the Eleusinian Mysteries; the [aetiological] myth of Narcissus explains the creation of the daffodil; the [direct] legend about the Roman abduction of the Sabine women explains the amalgamation of Roman and Sabine territories)</em></p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Literature",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge of classical literary genres and understanding of the literary aspects of classical texts",
+          "text_html": "<p>demonstrate knowledge of classical literary <a data-item-id=\"4c175545-8166-453e-85a4-434d93766371\" href=\"\">genres</a> and understanding of the literary aspects of classical texts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "identify various genres found in classical literature and describe their characteristics (e.g., describe how Homer’s Odyssey exemplifies an epic poem; describe what makes Catullus a lyric poet; explain why Aristophanes’ play Lysistrata is a comedy)",
+              "text_html": "<p>identify various <a data-item-id=\"4c175545-8166-453e-85a4-434d93766371\" href=\"\">genres</a> found in classical literature and describe their characteristics <em>(e.g., describe how Homer’s </em>Odyssey <em>exemplifies an epic poem; describe what makes Catullus a </em><a data-item-id=\"175c7d00-323d-4cbd-98be-c2300533843e\" href=\"\"><em>lyric poet</em></a><em>; explain why Aristophanes’ play </em>Lysistrata <em>is a comedy)</em></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "identify, in works of classical literature in English translation, some common themes (e.g., rebirth, the hero’s confrontation with mortality on a quest) and stylistic devices (e.g., the chorus in drama), and describe various ways in which they have been used by classical writers",
+              "text_html": "<p>identify, in works of classical literature in English translation, some common themes <em>(e.g., rebirth, the hero’s confrontation with mortality on a quest) </em>and stylistic devices <em>(e.g., the </em><a data-item-id=\"4e8c06cd-8671-458c-96bf-58f5261526f3\" href=\"\"><em>chorus</em></a><em> in drama)</em>, and describe various ways in which they have been used by classical writers</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Terminology and Writing Systems",
+          "describer": "By the end of this course, students will:",
+          "text": "identify terminology in English derived from classical mythology and literature and use it correctly, and demonstrate knowledge of classical writing systems",
+          "text_html": "<p>identify terminology in English derived from classical mythology and literature and use it correctly, and demonstrate knowledge of classical writing systems</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "identify mythological and literary words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly (e.g., myth and aetiology from ancient Greek; theatrical terms such as deus ex machina, dramatis personae, exit/exeunt from Latin)",
+              "text_html": "<p>identify mythological and literary words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly <em>(e.g., </em>myth <em>and </em><a data-item-id=\"a2aee259-2d28-4148-8eaa-e861b0dea9a2\" href=\"\">aetiology</a> <em>from ancient Greek; theatrical terms such as </em><a data-item-id=\"d56e971f-44c1-47d1-a15c-d43c3ea13a79\" href=\"\">deus ex machina</a>, <a data-item-id=\"6217e11f-5a64-44bd-8a9d-597f8bd5ffcd\" href=\"\">dramatis personae</a>, exit/<a data-item-id=\"90d0e1fd-5787-4159-aab0-101397c5191e\" href=\"\">exeunt</a> <em>from Latin)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Identify some ancient Greek and/or Latin influences on the development of literary terms. \n  What are the original Greek meanings of the poetic terms hyperbole, metaphor, and simile? Why is it more effective to use these terms in their original language?",
+                  "text_html": "<ul>\n  <li>Identify some ancient Greek and/or Latin influences on the development of literary terms.&nbsp;</li>\n  <li>What are the original Greek meanings of the poetic terms <a data-item-id=\"9ac0c0a3-f732-4964-8d1d-67c2af287bed\" href=\"\"><em>hyperbole</em></a>, <a data-item-id=\"b2f812ba-1b0d-4e47-bc28-4b0ddf9fb8a8\" href=\"\"><em>metaphor</em></a>, and <a data-item-id=\"fc5abd28-b6f8-4d71-bb9c-8f9be284c0b8\" href=\"\"><em>simile</em></a>? Why is it more effective to use these terms in their original language?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B3.2",
+              "text": "describe the characteristics of various writing systems used in the classical world, including some key similarities and differences among them (e.g., Linear A; Linear B; ancient Greek, Etruscan, and Latin alphabets; Egyptian hieroglyphics)",
+              "text_html": "<p>describe the characteristics of various writing systems used in the classical world, including some key similarities and differences among them <em>(e.g., Linear A; Linear B; ancient Greek, Etruscan, and Latin alphabets; Egyptian hieroglyphics)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What are some connections between Linear A and Egyptian hieroglyphs? \n  How is the work of Jean-François Champollion on deciphering hieroglyphics in the 1820s similar to the decipherment of Linear B by Michael Ventris, John Chadwick, and Alice Kober in the 1950s?",
+                  "text_html": "<ul>\n  <li>What are some connections between Linear A and Egyptian hieroglyphs?&nbsp;</li>\n  <li>How is the work of Jean-François Champollion on deciphering hieroglyphics in the 1820s similar to the decipherment of Linear B by Michael Ventris, John Chadwick, and Alice Kober in the 1950s?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "B4",
+          "title": "Intercultural and Other Connections",
+          "describer": "By the end of this course, students will:",
+          "text": "describe how their learning about classical mythology and literature relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience",
+          "text_html": "<p>describe how their learning about classical mythology and literature relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Global Citizenship and Sustainability"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B4.1",
+              "text": "identify and describe parallels and/or relationships between classical myths or literary works and those of other cultures, including examples of classical influences on the cultural products of later societies (e.g., describe parallels between Enkidu’s journey to the underworld in the Mesopotamian Epic of Gilgamesh and that of Odysseus in Homer’s Odyssey; describe similarities and differences between Hesiod’s cosmogony and the Inuit story of Sedna and the creation of the universe; locate mythological allusions in the paintings, mosaics, sculptures, and pottery of later periods and cultures; describe Shakespeare’s use of classical mythology in A Midsummer Night’s Dream or Racine’s use of classical mythology in Andromache; describe the influence of classical narratives on operatic libretti; describe the use made of classical myths and/or classical literary themes and devices in the theories of later scholars, such as Sigmund Freud’s use of the Oedipus myth in psychology or Northrop Frye’s use of the myth of the dying god in archetypal literary criticism; describe parallels to classical mythology that can be found in other oral traditions, such as First Nation, Métis, and Inuit traditions)",
+              "text_html": "<p>identify and describe parallels and/or relationships between classical myths or literary works and those of other cultures, including examples of classical influences on the cultural products of later societies <em>(e.g., describe parallels between Enkidu’s journey to the underworld in the Mesopotamian </em>Epic of Gilgamesh <em>and that of Odysseus in Homer’s </em>Odyssey<em>; describe similarities and differences between Hesiod’s </em><a data-item-id=\"b51c62a6-36f4-4148-b300-3798312e1745\" href=\"\"><em>cosmogony</em></a><em> and the Inuit story of Sedna and the creation of the universe; locate mythological </em><a data-item-id=\"28895786-663b-4b14-8383-fef28582e540\" href=\"\"><em>allusions</em></a><em> in the paintings, mosaics, sculptures, and pottery of later periods and cultures; describe Shakespeare’s use of classical mythology in </em>A Midsummer Night’s Dream <em>or Racine’s use of classical mythology in </em>Andromache<em>; describe the influence of classical narratives on operatic libretti; describe the use made of classical myths and/or classical literary themes and devices in the theories of later scholars, such as Sigmund Freud’s use of the Oedipus myth in psychology or Northrop Frye’s use of the myth of the dying god in archetypal literary criticism; describe parallels to classical mythology that can be found in other oral traditions, such as First Nation, Métis, and Inuit traditions)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways are the journeys to the underworld of Enkidu and Odysseus similar? \n  What significant events in the Trojan War are communicated by the images on the Euphronios vase, and how are the images similar to photographs sent electronically from conflicts in the Middle East?",
+                  "text_html": "<ul>\n  <li>In what ways are the journeys to the underworld of Enkidu and Odysseus similar?&nbsp;</li>\n  <li>What significant events in the Trojan War are communicated by the images on the Euphronios vase, and how are the images similar to photographs sent electronically from conflicts in the Middle East?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "B4.2",
+              "text": "explain how various themes from classical mythology and literature relate to and/or enhance their understanding of contemporary socio-political issues (e.g., describe similarities between the factors leading to the Trojan War as outlined in The Iliad and the contributing causes of modern conflicts; explain how the theme of the social impact of technology in the myth of Daedalus and Icarus contributes to their understanding of contemporary social and personal issues related to the use of technology; describe the connection between the Greek myth of Gaia and the Gaia hypothesis proposed by James Lovelock and co-developed by Lynn Margulis)",
+              "text_html": "<p>explain how various themes from classical mythology and literature relate to and/or enhance their understanding of contemporary socio-political issues <em>(e.g., describe similarities between the factors leading to the Trojan War as outlined in </em>The Iliad <em>and the contributing causes of modern conflicts; explain how the theme of the social impact of technology in the myth of Daedalus and Icarus contributes to their understanding of contemporary social and personal issues related to the use of technology; describe the connection between the Greek myth of Gaia and the Gaia hypothesis proposed by James Lovelock and co-developed by Lynn Margulis)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Do the arguments of Aristophanes’ Lysistrata still apply to modern global conflict? In what ways? \n  What lessons in the myth of Daedalus and Icarus are relevant to our contemporary reliance on technology?",
+                  "text_html": "<ul>\n  <li>Do the arguments of Aristophanes’ <em>Lysistrata </em>still apply to modern global conflict? In what ways?&nbsp;</li>\n  <li>What lessons in the myth of Daedalus and Icarus are relevant to our contemporary reliance on technology?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "History and Geography",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "History",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge and understanding of the political and social history of societies in the classical world",
+          "text_html": "<p>demonstrate knowledge and understanding of the political and social history of societies in the classical world</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify key events and periods in classical history and locate them within a chronological framework (e.g., create parallel timelines for the history of Greece and Rome)",
+              "text_html": "<p>identify key events and periods in classical history and locate them within a chronological framework <em>(e.g., create parallel timelines for the history of Greece and Rome)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What common topics and events, such as political structures or important battles, emerge as you read about the founding of Rome? Are some topics more important than others to include on a timeline? Which ones? Why?",
+                  "text_html": "<ul>\n  <li>What common topics and events, such as political structures or important battles, emerge as you read about the founding of Rome? Are some topics more important than others to include on a timeline? Which ones? Why?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C1.2",
+              "text": "analyse and describe the political and socio-economic structures associated with different periods and societies in the classical world, including the degree to which they exemplified concepts of social justice, equity, and diversity (e.g., define the concept of the “barbarian” in ancient Greece and Rome; summarize the role, rights, and responsibilities of a citizen of a Greek polis; compare class divisions or gender roles in different periods and societies in the classical world, using a chart)",
+              "text_html": "<p>analyse and describe the political and socio-economic structures associated with different periods and societies in the classical world, including the degree to which they exemplified concepts of social justice, equity, and <a data-item-id=\"fae637ad-95b5-4596-9d9b-c30b13425f0b\" href=\"\">diversity</a> <em>(e.g., define the concept of the “barbarian” in ancient Greece and Rome; summarize the role, rights, and responsibilities of a citizen of a Greek </em>polis<em>; compare class divisions or </em><a data-item-id=\"9299c73c-0302-4dc9-a43a-192182d4060d\" href=\"\"><em>gender roles</em></a><em> in different periods and societies in the classical world, using a chart)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways were Roman women more emancipated than the women of ancient Greece? \n  What does the Roman tradition of manumission, in which slave owners rewarded favoured slaves with their freedom and citizenship, suggest about the role of slaves in Roman society? \n  Why did Athens institute democracy? How did it differ from modern democracy?",
+                  "text_html": "<ul>\n  <li>In what ways were Roman women more emancipated than the women of ancient Greece?&nbsp;</li>\n  <li>What does the Roman tradition of manumission, in which slave owners rewarded favoured slaves with their freedom and citizenship, suggest about the role of slaves in Roman society?&nbsp;</li>\n  <li>Why did Athens institute democracy? How did it differ from modern democracy?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Geography",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge and understanding of the geography of the classical world and its influence on the development of classical culture",
+          "text_html": "<p>demonstrate knowledge and understanding of the geography of the classical world and its influence on the development of classical <a data-item-id=\"67ca9104-d429-46b5-9de4-9b1fdc41194a\" href=\"\">culture</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify key topographical features in the ancient Mediterranean world (e.g., accurately trace Odysseus’s route home through the Mediterranean, and describe how his journey was affected by the landscape of the islands and other territories he visited; map the route travelled by Aeneas from Troy to Italy as described in Vergil’s Aeneid, identifying significant topographical features he encountered in such places as Carthage, Sicily, and the Bay of Naples), and explain the relationship of topography to human settlement patterns in the region (e.g., analyse how proximity to the sea affected the development of cities in ancient Greece; explain why the inhabitants of Campania chose to live on the slopes of Vesuvius; explain how the location of Rome was chosen)",
+              "text_html": "<p>identify key topographical features in the ancient Mediterranean world <em>(e.g., accurately trace Odysseus’s route home through the Mediterranean, and describe how his journey was affected by the landscape of the islands and other territories he visited; map the route travelled by Aeneas from Troy to Italy as described in Vergil’s </em>Aeneid<em>, identifying significant topographical features he encountered in such places as Carthage, Sicily, and the Bay of Naples)</em>, and explain the relationship of topography to human settlement patterns in the region <em>(e.g., analyse how proximity to the sea affected the development of cities in ancient Greece; explain why the inhabitants of Campania chose to live on the slopes of Vesuvius; explain how the location of Rome was chosen)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How do the barriers to travel revealed on this topographical map of ancient Greece help explain xenophobia?\n  How did the geographical position of the island of Sicily (between Carthage and Rome) affect the people of Sicily in the third century BCE, especially during the height of the Carthaginian conflicts?",
+                  "text_html": "<ul>\n  <li>How do the barriers to travel revealed on this topographical map of ancient Greece help explain xenophobia?</li>\n  <li>How did the geographical position of the island of Sicily (between Carthage and Rome) affect the people of Sicily in the third century BCE, especially during the height of the Carthaginian conflicts?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C2.2",
+              "text": "describe ways in which humans interacted with physical geography to shape the environment to their needs and aspirations in classical times (e.g., explain the importance of aqueducts for the development of the city of Rome; analyse and describe the influence of frontier zones such as Hadrian’s Wall on settlement patterns in ancient Britannia; describe the role of Roman roads in the expansion and governance of the Roman Empire; summarize the effect of Roman mining practices on the environment; describe the long-term impact of the canals built by Roman emperors or the creation of a harbour at Ostia Antica)",
+              "text_html": "<p>describe ways in which humans interacted with physical geography to shape the environment to their needs and aspirations in classical times <em>(e.g., explain the importance of aqueducts for the development of the city of Rome; analyse and describe the influence of frontier zones such as Hadrian’s Wall on settlement patterns in ancient Britannia; describe the role of Roman roads in the expansion and governance of the Roman Empire; summarize the effect of Roman mining practices on the environment; describe the long-term impact of the canals built by Roman emperors or the creation of a harbour at Ostia Antica)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What geographical challenges did the early inhabitants of Rome face? To what extent and in what ways did they adapt the original terrain to suit human needs? \n  In what ways did the Romans ensure a constant and safe supply of water to urban residents across their empire?",
+                  "text_html": "<ul>\n  <li>What geographical challenges did the early inhabitants of Rome face? To what extent and in what ways did they adapt the original terrain to suit human needs?&nbsp;</li>\n  <li>In what ways did the Romans ensure a constant and safe supply of water to urban residents across their empire?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "identify historical and geographical terminology in English derived from ancient Greek and Latin, including political and legal terminology, and use it correctly",
+          "text_html": "<p>identify historical and geographical terminology in English derived from ancient Greek and Latin, including political and legal terminology, and use it correctly</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "identify historical, political, legal, and geographical words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly (e.g., keep a glossary of terms such as chronology from χρόνος + λόγος, politics from πόλις, legal from lex, history from ἱστορία, and geography from γεωγραφία [γῆ + γραφή])",
+              "text_html": "<p>identify historical, political, legal, and geographical words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly <em>(e.g., keep a glossary of terms such as </em>chronology <em>from </em>χρόνος + λόγος, politics <em>from </em>πόλις, legal <em>from </em>lex, history <em>from </em>ἱστορία<em>, and </em>geography <em>from </em>γεωγραφία [γῆ + γραφή]<em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What common historical terms are derived from ancient Greek and Latin? \n  What common geographical terms are derived from ancient Greek and Latin?",
+                  "text_html": "<ul>\n  <li>What common historical terms are derived from ancient Greek and Latin?&nbsp;</li>\n  <li>What common geographical terms are derived from ancient Greek and Latin?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "C4",
+          "title": "Intercultural and Other Connections",
+          "describer": "Throughout this course, students will:",
+          "text": "describe how their learning about the history and geography of the classical world relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience",
+          "text_html": "<p>describe how their learning about the history and geography of the classical world relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C4.1",
+              "text": "describe ways in which ancient Greek and Roman actions, events, institutions, and processes influenced other ancient societies and later cultures (e.g., the influence of the Persian Wars on the Athenian Acropolis; the spread of Hellenistic culture after Alexander the Great; the impact of the latifundia on the development of the Gracchan reforms and on the policies of later governments; the influence of the Roman Republic’s system of government on the development of the American system; the influence of the development of trade routes and systems and the imposition of a standard currency on various cultures within the Roman Empire; the ways in which the demands and needs of the city of Rome influenced patterns of agriculture and trade within the empire)",
+              "text_html": "<p>describe ways in which ancient Greek and Roman actions, events, institutions, and processes influenced other ancient societies and later cultures <em>(e.g., the influence of the Persian Wars on the Athenian Acropolis; the spread of Hellenistic culture after Alexander the Great; the impact of the </em>latifundia <em>on the development of the Gracchan reforms and on the policies of later governments; the influence of the Roman Republic’s system of government on the development of the American system; the influence of the development of trade routes and systems and the imposition of a standard currency on various cultures within the Roman Empire; the ways in which the demands and needs of the city of Rome influenced patterns of agriculture and trade within the empire)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways did the reforms of the Gracchi brothers establish the concept of the modern welfare system? \n  How is the monetary system of the Romans similar to the use of the euro today? \n  In what ways did the leaders of the American Revolution use the structures of Roman Republican government as the basis for their form of government?",
+                  "text_html": "<ul>\n  <li>In what ways did the reforms of the Gracchi brothers establish the concept of the modern welfare system?&nbsp;</li>\n  <li>How is the monetary system of the Romans similar to the use of the euro today?&nbsp;</li>\n  <li>In what ways did the leaders of the American Revolution use the structures of Roman Republican government as the basis for their form of government?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "C4.2",
+              "text": "describe ways in which knowledge of Greek and Roman history and geography relates to and enhances their understanding of political, social, and economic events and issues in other cultures, including in modern times (e.g., explain how an understanding of the economic factors driving the expansion of the Roman Empire provides insight into the history of other empires, including those of Spain, Great Britain, and Austria-Hungary; explain how knowledge about the development and nature of Athenian democracy, Roman republicanism, and the Roman legal system is relevant to the study of political and judicial systems in some contemporary Western democracies)",
+              "text_html": "<p>describe ways in which knowledge of Greek and Roman history and geography relates to and enhances their understanding of political, social, and economic events and issues in other cultures, including in modern times <em>(e.g., explain how an understanding of the economic factors driving the expansion of the Roman Empire provides insight into the history of other empires, including those of Spain, Great Britain, and Austria-Hungary; explain how knowledge about the development and nature of Athenian democracy, Roman republicanism, and the Roman legal system is relevant to the study of political and judicial systems in some contemporary Western democracies)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What lesson about imperial expansion could Britain have learned from Alexander the Great or the Romans with regard to long-term sustainability? \n  How does your knowledge of Roman republicanism influence your understanding of contemporary republics such as the United States?",
+                  "text_html": "<ul>\n  <li>What lesson about imperial expansion could Britain have learned from Alexander the Great or the Romans with regard to long-term sustainability?&nbsp;</li>\n  <li>How does your knowledge of Roman republicanism influence your understanding of contemporary republics such as the United States?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Philosophy and Religion",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Philosophy",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge and understanding of the schools of classical philosophy and of classical contributions to the development of scientific inquiry",
+          "text_html": "<p>demonstrate knowledge and understanding of the schools of classical philosophy and of classical contributions to the development of scientific inquiry</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "identify key philosophical figures and theories in the classical world, and describe various ways in which they influenced their societies (e.g., the influence and development of the Socratic method of inquiry as seen in the work of Plato and Aristotle; the influence of Stoicism on the way in which Marcus Aurelius governed as emperor)",
+              "text_html": "<p>identify key philosophical figures and theories in the classical world, and describe various ways in which they influenced their societies <em>(e.g., the influence and development of the Socratic method of inquiry as seen in the work of Plato and Aristotle; the influence of Stoicism on the way in which Marcus Aurelius governed as emperor)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why did the Athenians condemn Socrates? What impact did the trial have on the development of philosophy in Athens? \n  What impact has Socrates’ philosophy had on the development of later philosophical thought?",
+                  "text_html": "<ul>\n  <li>Why did the Athenians condemn Socrates? What impact did the trial have on the development of philosophy in Athens?&nbsp;</li>\n  <li>What impact has Socrates’ philosophy had on the development of later philosophical thought?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D1.2",
+              "text": "demonstrate an understanding of the nature and importance of scientific inquiry in the classical world (e.g., describe the contributions to scientific inquiry of some or all of the following: Aristotle [the organization of the natural world], Eratosthenes [geography], Pythagoras [geometry], Euclid [mathematics and geometry], Ptolemy of Alexandria [astronomy and geography], Hippocrates [medicine], Archimedes and Democritus [physics]; describe Galen’s theories about human anatomy and the working of the human body, and compare them to the work of Hippocrates and its influence on the development of modern medicine; compare Lucretius’s views about the nature and functioning of the physical world in“De rerum natura”/“On the Nature of Things” with other physical theories of his period)",
+              "text_html": "<p>demonstrate an understanding of the nature and importance of scientific inquiry in the classical world <em>(e.g., describe the contributions to scientific inquiry of some or all of the following: Aristotle [the organization of the natural world], Eratosthenes [geography], Pythagoras [geometry], Euclid [mathematics and geometry], Ptolemy of Alexandria [astronomy and geography], Hippocrates [medicine], Archimedes and Democritus [physics]; describe Galen’s theories about human anatomy and the working of the human body, and compare them to the work of Hippocrates and its influence on the development of modern medicine; compare Lucretius’s views about the nature and functioning of the physical world in“De rerum natura”/“On the Nature of Things” with other physical theories of his period)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What contributions to scientific knowledge did Archimedes make in addition to Archimedes’ Principle? \n  What lasting contributions to our understanding of the solar system did Ptolemy make even though his scientific theory of the universe was superseded? \n  How were female philosophers in the ancient world, such as Arete of Cyrene, influential in the development of classical scientific theory?",
+                  "text_html": "<ul>\n  <li>What contributions to scientific knowledge did Archimedes make in addition to Archimedes’ Principle?&nbsp;</li>\n  <li>What lasting contributions to our understanding of the solar system did Ptolemy make even though his scientific theory of the universe was superseded?&nbsp;</li>\n  <li>How were female philosophers in the ancient world, such as Arete of Cyrene, influential in the development of classical scientific theory?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Religion",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge and understanding of the diverse religions and religious rituals of the Graeco-Roman world",
+          "text_html": "<p>demonstrate knowledge and understanding of the diverse religions and religious rituals of the Graeco-Roman world</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "identify classical religions, religious practices, and religious institutions, and demonstrate an understanding of their significance for their adherents (e.g., assess the importance of the oracle of Delphi for Pan-Hellenic identity; explain the role of sacrifice at temples and altars in building community ties; explain the influence of Etruscan religious beliefs and practices on formal Roman religious procedures; describe the different types of priesthoods within Roman religion, such as the Virgines Vestales, the Fratres Arvales, the Flamines, and the Salii; trace the expansion of the Roman calendar as new gods and festivals were added to the early calendar based on the agricultural year)",
+              "text_html": "<p>identify classical religions, religious practices, and religious institutions, and demonstrate an understanding of their significance for their adherents <em>(e.g., assess the importance of the oracle of Delphi for Pan-Hellenic identity; explain the role of sacrifice at temples and altars in building community ties; explain the influence of Etruscan religious beliefs and practices on formal Roman religious procedures; describe the different types of priesthoods within Roman religion, such as the </em>Virgines Vestales<em>, the </em>Fratres Arvales<em>, the </em>Flamines<em>, and the </em>Salii<em>; trace the expansion of the Roman calendar as new gods and festivals were added to the early calendar based on the agricultural year)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways has the Roman calendar influenced the development of the modern Western calendar? \n  How did the Pontifical College affect the development of the early Roman Catholic Church?",
+                  "text_html": "<ul>\n  <li>In what ways has the Roman calendar influenced the development of the modern Western calendar?&nbsp;</li>\n  <li>How did the Pontifical College affect the development of the early Roman Catholic Church?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D2.2",
+              "text": "analyse ways in which classical religions and other religions of the ancient world influenced one another (e.g., compare the Eleusinian Mysteries and the worship of Dionysus, and describe their connection to the Romans’ understanding of Christianity as a mystery religion; trace the historical activities that led the Romans to adopt the Magna Mater as a deity; explain the apotheosis of Julius Caesar in terms of the development of imperial and hero cults in various societies of the ancient world; create a T-chart or Venn diagram of Roman deities adopted from other religions to demonstrate syncretism; design a timeline to illustrate how Christianity emerged in the Roman province of Judaea; describe the socio-political factors in the third and fourth centuries CE that led to the adoption of Christianity as the official religion of the Roman Empire)",
+              "text_html": "<p>analyse ways in which classical religions and other religions of the ancient world influenced one another <em>(e.g., compare the Eleusinian Mysteries and the worship of Dionysus, and describe their connection to the Romans’ understanding of Christianity as a </em><a data-item-id=\"7f050100-90a3-4db6-a463-9c9e6a5b32fb\" href=\"\"><em>mystery religion</em></a><em>; trace the historical activities that led the Romans to adopt the Magna Mater as a deity; explain the apotheosis of Julius Caesar in terms of the development of imperial and hero cults in various societies of the ancient world; create a </em><a data-item-id=\"2fd56ed3-d143-4ead-a3e2-5dee802522d3\" href=\"\"><em>T-chart</em></a><em> or </em><a data-item-id=\"9cf39848-6e96-4347-891c-b5da22d81b59\" href=\"\"><em>Venn diagram</em></a><em> of Roman deities adopted from other religions to demonstrate </em><a data-item-id=\"db7b9bf1-b02b-48d8-9d13-5378312f7c29\" href=\"\"><em>syncretism</em></a><em>; design a timeline to illustrate how Christianity emerged in the Roman province of Judaea; describe the socio-political factors in the third and fourth centuries CE that led to the adoption of Christianity as the official religion of the Roman Empire)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways did the Romans use religion to unite the various peoples of their empire? \n  In what ways was the Roman army responsible for the spread of religious beliefs through the empire?",
+                  "text_html": "<ul>\n  <li>In what ways did the Romans use religion to unite the various peoples of their empire?&nbsp;</li>\n  <li>In what ways was the Roman army responsible for the spread of religious beliefs through the empire?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "identify philosophical, scientific, and religious terminology in English derived from ancient Greek and Latin and use it correctly",
+          "text_html": "<p>identify philosophical, scientific, and religious terminology in English derived from ancient Greek and Latin and use it correctly</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "identify philosophical, scientific, and religious words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly (e.g., keep a glossary of terms such as philosophy from φιλοσοφία [from φίλος + σοφία], metaphysics from μετά + φυσικός, ethics from ἠθικός, science from scientia, medicine from medicina, theology from θεός + λόγος, Pontifex Maximus for the Catholic pope, religion from religio, cult from cultus, superstition from superstitio, pagan from paganus)",
+              "text_html": "<p>identify philosophical, scientific, and religious words, phrases, and terms in English derived from ancient Greek and Latin and use them correctly <em>(e.g., keep a glossary of terms such as </em>philosophy <em>from </em>φιλοσοφία <em>[from </em>φίλος + σοφία<em>], </em><a data-item-id=\"cab9fd0f-3b1a-41df-8098-6b45dc7df5e4\" href=\"\">metaphysics</a> <em>from </em>μετά + φυσικός, <a data-item-id=\"be2c9f3d-44b5-40fb-aca6-4fb6f959b532\" href=\"\">ethics</a> <em>from </em>ἠθικός, science <em>from </em>scientia, medicine <em>from </em>medicina, theology <em>from </em>θεός + λόγος, <a data-item-id=\"bd076254-a302-4fe0-9a82-99a33807dcb9\" href=\"\">Pontifex Maximus</a> <em>for the Catholic pope</em>, religion <em>from </em>religio, <a data-item-id=\"be91df43-a2e8-4ee7-9d6f-649936118504\" href=\"\">cult</a> <em>from </em>cultus, superstition <em>from </em>superstitio, <a data-item-id=\"817474f2-4518-4245-863a-d912ea107afe\" href=\"\">pagan</a> <em>from </em>paganus)</p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What resources might help you trace the influence of ancient Greek or Latin on contemporary philosophical, scientific, or religious terminology?\n  What ancient Greek and/or Latin terms might you use in a philosophical debate or a discussion about religion?\n  In what ways has ancient Greek philosophy itself influenced the adoption of philosophical terms used today? How are these terms more illustrative than English terms? \n  How have Latin and ancient Greek influenced scientific terminology?",
+                  "text_html": "<ul>\n  <li>What resources might help you trace the influence of ancient Greek or Latin on contemporary philosophical, scientific, or religious terminology?</li>\n  <li>What ancient Greek and/or Latin terms might you use in a philosophical debate or a discussion about religion?</li>\n  <li>In what ways has ancient Greek philosophy itself influenced the adoption of philosophical terms used today? How are these terms more illustrative than English terms?&nbsp;</li>\n  <li>How have Latin and ancient Greek influenced scientific terminology?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "D4",
+          "title": "Intercultural and Other Connections",
+          "describer": "By the end of this course, students will:",
+          "text": "describe how their learning about classical philosophy, science, and religion relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience",
+          "text_html": "<p>describe how their learning about classical philosophy, science, and religion relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and their own experience</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D4.1",
+              "text": "identify and describe ways in which classical philosophies and religions influenced other ancient societies and later cultures (e.g., describe the impact of classical philosophies on the work of later thinkers such as Nicholas of Cusa, René Descartes, and David Hume; explain how ancient practices such as the worship of Asklepios and Hygeia at Epidauros relate to the development of modern medicine; describe the impact of Aristotle’s examination of the causes of change on the development of modern scientific inquiry; explain how later leaders such as Charlemagne and Napoleon adopted the Roman concept of the omnipotent ruler to justify their power; describe the use of the religious symbolism of the classical world in later Christian and political iconography; describe ways in which the architecture of classical buildings influenced the design of religious buildings of later cultures; trace the development of the institutions of the modern Roman Catholic Church from the Roman Collegium Pontificum)",
+              "text_html": "<p>identify and describe ways in which classical philosophies and religions influenced other ancient societies and later cultures <em>(e.g., describe the impact of classical philosophies on the work of later thinkers such as Nicholas of Cusa, René Descartes, and David Hume; explain how ancient practices such as the worship of Asklepios and Hygeia at Epidauros relate to the development of modern medicine; describe the impact of Aristotle’s examination of the causes of change on the development of modern scientific inquiry; explain how later leaders such as Charlemagne and Napoleon adopted the Roman concept of the omnipotent ruler to justify their power; describe the use of the religious symbolism of the classical world in later Christian and political iconography; describe ways in which the architecture of classical buildings influenced the design of religious buildings of later cultures; trace the development of the institutions of the modern Roman Catholic Church from the Roman Collegium Pontificum)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways did the worship of Asklepios at Epidauros influence the development of contemporary Western medical practices? \n  Why did Napoleon depict himself as the Emperor Augustus in art and on coinage? \n  What ancient festivals correlate to Christmas and Valentine’s Day in the Christian calendar? \n  In what ways does the work of Vitruvius still influence architects in various cultures?",
+                  "text_html": "<ul>\n  <li>In what ways did the worship of Asklepios at Epidauros influence the development of contemporary Western medical practices?&nbsp;</li>\n  <li>Why did Napoleon depict himself as the Emperor Augustus in art and on coinage?&nbsp;</li>\n  <li>What ancient festivals correlate to Christmas and Valentine’s Day in the Christian calendar?&nbsp;</li>\n  <li>In what ways does the work of Vitruvius still influence architects in various cultures?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "D4.2",
+              "text": "describe ways in which their knowledge of classical philosophy, scientific inquiry, and religion relates to and enhances their understanding of developments in these and other fields, from classical times to the present (e.g., identify aspects of their learning about classical philosophies and religions that contribute to their understanding of social sciences and humanities disciplines such as philosophy, anthropology, and world religions; identify ways in which their knowledge of classical inquiry methods, classification systems, and philosophical and scientific terminology, such as botanical names, supports or contributes to their learning in various areas of science and mathematics)",
+              "text_html": "<p>describe ways in which their knowledge of classical philosophy, scientific inquiry, and religion relates to and enhances their understanding of developments in these and other fields, from classical times to the present <em>(e.g., identify aspects of their learning about classical philosophies and religions that contribute to their understanding of social sciences and humanities disciplines such as philosophy, anthropology, and world religions; identify ways in which their knowledge of classical inquiry methods, classification systems, and philosophical and scientific terminology, such as botanical names, supports or contributes to their learning in various areas of science and mathematics)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why do you think Sigmund Freud referred to ancient Greek mythology in his classifications of mental illnesses? \n  How does your knowledge of ancient Greek and Latin deepen your understanding of the names of animal and plant species?",
+                  "text_html": "<ul>\n  <li>Why do you think Sigmund Freud referred to ancient Greek mythology in his classifications of mental illnesses?&nbsp;</li>\n  <li>How does your knowledge of ancient Greek and Latin deepen your understanding of the names of animal and plant species?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "E",
+      "title": "Material Culture",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "E1",
+          "title": "Archaeology",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate knowledge and understanding of archaeological history, practices, and issues, and the physical remains or artefacts related to classical sites",
+          "text_html": "<p>demonstrate knowledge and understanding of archaeological history, practices, and issues, and the physical remains or artefacts related to classical sites</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E1.1",
+              "text": "describe important discoveries in the history of archaeological investigations of classical sites and their significance for our understanding of classical cultures (e.g., Heinrich Schliemann and the excavations of Troy and Mycenae; Sir Arthur Evans and the excavations at Knossos; Giuseppe Fiorelli and the excavation of Pompeii; Andrea Carandini and the excavation of the Palatine Hill in Rome)",
+              "text_html": "<p>describe important discoveries in the history of archaeological investigations of classical sites and their significance for our understanding of classical cultures <em>(e.g., Heinrich Schliemann and the excavations of Troy and Mycenae; Sir Arthur Evans and the excavations at Knossos; Giuseppe Fiorelli and the excavation of Pompeii; Andrea Carandini and the excavation of the Palatine Hill in Rome)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What lessons are to be learned from the work of Heinrich Schliemann? \n  What are some ways in which contemporary archaeology continues to add nuances to our understanding of classical history?",
+                  "text_html": "<ul>\n  <li>What lessons are to be learned from the work of Heinrich Schliemann?&nbsp;</li>\n  <li>What are some ways in which contemporary archaeology continues to add nuances to our understanding of classical history?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E1.2",
+              "text": "describe past and contemporary practices used in archaeological investigations of classical sites (e.g., surface, geophysical, aerial, and satellite surveying of sites; excavation techniques; techniques used in analysis of finds, including radiocarbon dating and, for biological finds, magnetic resonance imaging, CT scans, DNA testing, and x-rays)",
+              "text_html": "<p>describe past and contemporary practices used in archaeological investigations of classical sites <em>(e.g., surface, geophysical, aerial, and satellite surveying of sites; excavation techniques; techniques used in analysis of finds, including radiocarbon dating and, for biological finds, magnetic resonance imaging, CT scans, DNA testing, and x-rays)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What is the Fiorelli process? How did the work of Giuseppe Fiorelli advance the science of archaeology? \n  How is the use of radar to locate buried artefacts more effective than sinking trenches? \n  Why are specialists such as physical anthropologists, botanists, zoologists, ancient language experts, and art historians needed to help analyse the information excavated from archaeological sites? \n  Experimental archaeology involves recreating ancient pottery using the technology of the period or recreating meals from the period based on literary descriptions and chemical analysis of material evidence. In what ways is this process important in confirming the analysis of artefacts?",
+                  "text_html": "<ul>\n  <li>What is the Fiorelli process? How did the work of Giuseppe Fiorelli advance the science of archaeology?&nbsp;</li>\n  <li>How is the use of radar to locate buried artefacts more effective than sinking trenches?&nbsp;</li>\n  <li>Why are specialists such as physical anthropologists, botanists, zoologists, ancient language experts, and art historians needed to help analyse the information excavated from archaeological sites?&nbsp;</li>\n  <li>Experimental archaeology involves recreating ancient pottery using the technology of the period or recreating meals from the period based on literary descriptions and chemical analysis of material evidence. In what ways is this process important in confirming the analysis of artefacts?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E1.3",
+              "text": "identify and explain practical and ethical issues arising from archaeological investigations of classical sites (e.g., the need for measures to protect exposed sites from acid rain and other erosive forces; the need to prevent or reduce human-caused damage at sites, including the effects of treasure hunting, urbanization [as at Heraklion, Knossos, Herculaneum, and Pompeii], and infrastructure projects [as at Abu Simbel]; questions of archaeological patrimony and ownership, such as the debate over the repatriation of the Elgin Marbles; curatorial concerns and responsibilities regarding forgery and provenance; ethical concerns about excavating burial sites and human remains)",
+              "text_html": "<p>identify and explain practical and ethical issues arising from archaeological investigations of classical sites <em>(e.g., the need for measures to protect exposed sites from acid rain and other erosive forces; the need to prevent or reduce human-caused damage at sites, including the effects of treasure hunting, urbanization [as at Heraklion, Knossos, Herculaneum, and Pompeii], and infrastructure projects [as at Abu Simbel]; questions of archaeological patrimony and ownership, such as the debate over the repatriation of the Elgin Marbles; curatorial concerns and responsibilities regarding forgery and provenance; ethical concerns about excavating burial sites and human remains)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Was it ethical for Heinrich Schliemann to remove the Trojan gold from Turkey and send it to Berlin? Why or why not?\n  Should we limit tourism at physically compromised and delicate sites such as Pompeii? Is it possible to protect such sites without closing them off completely? How? \n  What are the pros and cons of reburying archaeological sites if there is no funding to preserve them?\n  Is it ethical to modify ancient sites if that modification benefits contemporary society? Why or why not?",
+                  "text_html": "<ul>\n  <li>Was it ethical for Heinrich Schliemann to remove the Trojan gold from Turkey and send it to Berlin? Why or why not?</li>\n  <li>Should we limit tourism at physically compromised and delicate sites such as Pompeii? Is it possible to protect such sites without closing them off completely? How?&nbsp;</li>\n  <li>What are the pros and cons of reburying archaeological sites if there is no funding to preserve them?</li>\n  <li>Is it ethical to modify ancient sites if that modification benefits contemporary society? Why or why not?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E1.4",
+              "text": "demonstrate knowledge and understanding of the periods, styles, and media of classical art and architecture (e.g., Minoan and Mycenaean palaces; archaic and classical statuary and pottery styles; column styles; Roman “copies” of Greek bronzes; wall paintings from Pompeii and Herculaneum; mosaics, jewellery, and other portable art; coins)",
+              "text_html": "<p>demonstrate knowledge and understanding of the periods, styles, and media of classical art and architecture <em>(e.g., Minoan and Mycenaean palaces; archaic and classical statuary and pottery styles; column styles; Roman “copies” of Greek bronzes; wall paintings from Pompeii and Herculaneum; </em><a data-item-id=\"836ea1a3-067d-42f6-a74c-83c9e717ad5a\" href=\"\"><em>mosaics</em></a><em>, jewellery, and other portable art; coins)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "What elements of architectural style do the Minoans and Egyptians share? \n  Why is the column a pivotal architectural feature? \n  Why are Roman marble “copies” of Greek bronze statues important for art history? \n  What do Minoan frescoes and the frescoes of Pompeii have in common?\n  In what ways can coinage be used as propaganda?",
+                  "text_html": "<ul>\n  <li>What elements of architectural style do the Minoans and Egyptians share?&nbsp;</li>\n  <li>Why is the column a pivotal architectural feature?&nbsp;</li>\n  <li>Why are Roman marble “copies” of Greek bronze statues important for art history?&nbsp;</li>\n  <li>What do Minoan <a data-item-id=\"e4bfd6d1-965b-46e8-9167-e605cba45b48\" href=\"\">frescoes</a> and the frescoes of Pompeii have in common?</li>\n  <li>In what ways can coinage be used as propaganda?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "E2",
+          "title": "Classical Culture",
+          "describer": "By the end of this course, students will:",
+          "text": "make inferences about the social structures, customs, and technological achievements of classical societies based on information derived from their material culture",
+          "text_html": "<p>make inferences about the social structures, customs, and technological achievements of classical societies based on information derived from their <a data-item-id=\"fbe58429-c53f-4f14-9f9c-e00e8503254c\" href=\"\">material culture</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E2.1",
+              "text": "use information about ancient Greek and Roman material culture to make inferences about the social organization and customs of classical cultures (e.g., describe burial customs based on funerary remains; explain how analysis of skeletal remains and grave goods provides information about social class; explain how social organization is reflected in amphitheatre and theatre seating; use evidence from the layout and locations of domestic buildings in ancient Rome, such as the villa, the domus, and the insula, to make inferences about the domestic life of different socio-economic groups of the period)",
+              "text_html": "<p>use information about ancient Greek and Roman <a data-item-id=\"fbe58429-c53f-4f14-9f9c-e00e8503254c\" href=\"\">material culture</a> to make inferences about the social organization and customs of classical cultures <em>(e.g., describe burial customs based on funerary remains; explain how analysis of skeletal remains and grave goods provides information about social class; explain how social organization is reflected in amphitheatre and theatre seating; use evidence from the layout and locations of domestic buildings in ancient Rome, such as the </em>villa<em>, the </em>domus<em>, and the </em>insula<em>, to make inferences about the domestic life of different socio-economic groups of the period)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "Why were prominent individuals assigned the most important seats, those closest to the stage, in an ancient Greek theatre? Why were women and slaves not permitted to sit close to the theatrical action?\n  Why did people in the ancient world bury their dead with jewellery, weapons, money, and pottery? How do these grave goods help us analyse the wealth and status of both the buried individual and the community?",
+                  "text_html": "<ul>\n  <li>Why were prominent individuals assigned the most important seats, those closest to the stage, in an ancient Greek theatre? Why were women and slaves not permitted to sit close to the theatrical action?</li>\n  <li>Why did people in the ancient world bury their dead with jewellery, weapons, money, and pottery? How do these grave goods help us analyse the wealth and status of both the buried individual and the community?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E2.2",
+              "text": "use evidence from architectural structures and archaeological finds to make inferences about the technological capabilities of classical societies, including in fields such as engineering, transportation, war, and agriculture (e.g., describe the architectural and engineering advances featured in Mycenaean tholos tombs, the Athenian Acropolis, and monumental architecture such as the Parthenon; describe the development of Roman road construction and the impact of the road system on expansion of the empire and trade; summarize the connection between the construction of the Cloaca Maxima and the development of the Forum Romanum; explain the relevance of inventions such as the groma, the crane, and waterproof cement to the construction of public buildings and infrastructure, including temples, aqueducts, roads, and bridges; explain the importance of the development and use of the arch in innovative structures such as the Pantheon and the Colosseum)",
+              "text_html": "<p>use evidence from architectural structures and archaeological finds to make inferences about the technological capabilities of classical societies, including in fields such as engineering, transportation, war, and agriculture <em>(e.g., describe the architectural and engineering advances featured in Mycenaean tholos tombs, the Athenian Acropolis, and monumental architecture such as the Parthenon; describe the development of Roman road construction and the impact of the road system on expansion of the empire and trade; summarize the connection between the construction of the Cloaca Maxima and the development of the Forum Romanum; explain the relevance of inventions such as the groma, the crane, and waterproof cement to the construction of public buildings and infrastructure, including temples, aqueducts, roads, and bridges; explain the importance of the development and use of the arch in innovative structures such as the Pantheon and the Colosseum)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How is the construction of the Cloaca Maxima in Rome related to the architectural stability of the buildings constructed in the Forum Romanum? How is it connected to disease control?\n  What lessons can be learned from the construction process of Roman roads?\n  How did the construction of the dome of the Pantheon ensure its survival to modern times?\n  In what ways did the Romans’ use of cement and brick allow for more durable and long-lasting buildings than the ancient Greeks’ use of marble in their monumental architecture?",
+                  "text_html": "<ul>\n  <li>How is the construction of the Cloaca Maxima in Rome related to the architectural stability of the buildings constructed in the Forum Romanum? How is it connected to disease control?</li>\n  <li>What lessons can be learned from the construction process of Roman roads?</li>\n  <li>How did the construction of the dome of the Pantheon ensure its survival to modern times?</li>\n  <li>In what ways did the Romans’ use of cement and brick allow for more durable and long-lasting buildings than the ancient Greeks’ use of marble in their monumental architecture?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "E3",
+          "title": "Terminology",
+          "describer": "By the end of this course, students will:",
+          "text": "identify archaeological, aesthetic, and architectural terms in English derived from ancient Greek and Latin and use them correctly",
+          "text_html": "<p>identify archaeological, aesthetic, and architectural terms in English derived from ancient Greek and Latin and use them correctly</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E3.1",
+              "text": "identify English words, phrases, and terms related to material culture that are derived from ancient Greek and Latin and use them correctly (e.g., keep a glossary of terms such as archaeology from ἀρχαῖος + λόγος, technique from τέχνη, acropolis from ἀκρόπολις [from ἄκρος + πόλις], urbanization from urbs, excavation from ex + cavatum [cavo, cavare], inscription from inscriptio)",
+              "text_html": "<p>identify English words, phrases, and terms related to <a data-item-id=\"fbe58429-c53f-4f14-9f9c-e00e8503254c\" href=\"\">material culture</a> that are derived from ancient Greek and Latin and use them correctly <em>(e.g., keep a glossary of terms such as </em>archaeology <em>from </em>ἀρχαῖος + λόγος, technique <em>from </em>τέχνη, acropolis <em>from </em>ἀκρόπολις <em>[from </em>ἄκρος + πόλις<em>], </em>urbanization <em>from </em>urbs, excavation <em>from </em>ex + cavatum [cavo, cavare], inscription <em>from </em>inscriptio<em>)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "In what ways do archaeologists use ancient Greek and Latin to identify their findings? \n  What is an example of an ancient Greek or Latin word that refers to an architectural structure?",
+                  "text_html": "<ul>\n  <li>In what ways do archaeologists use ancient Greek and Latin to identify their findings?&nbsp;</li>\n  <li>What is an example of an ancient Greek or Latin word that refers to an architectural structure?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "index": "E4",
+          "title": "Intercultural and Other Connections",
+          "describer": "Throughout this course, students will:",
+          "text": "describe how their learning about classical material culture relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and personal experience",
+          "text_html": "<p>describe how their learning about classical material culture relates to and enhances their understanding of other cultures and fields of study, the contemporary world, and personal experience</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "E4.1",
+              "text": "identify and describe aspects of classical material culture that influenced or that are reflected in other ancient societies and later cultures (e.g., explain the connection between the relieving triangle of Mycenaean tholos tombs and the development of the Roman arch; outline the development and use of mosaics throughout the Roman Empire; evaluate the impact of ancient Egyptian and Greek medical instruments on medical practices in Roman and later cultures; create an outline for a seminar about some ways in which ancient Egyptian art influenced Minoan art; summarize the influence of classical jewellery design and production techniques on the decorative arts of other cultures; trace the role of inscriptions in the spread of writing tools and technologies, such as styli or chisels, through various cultures)",
+              "text_html": "<p>identify and describe aspects of classical <a data-item-id=\"fbe58429-c53f-4f14-9f9c-e00e8503254c\" href=\"\">material culture</a> that influenced or that are reflected in other ancient societies and later cultures <em>(e.g., explain the connection between the relieving triangle of Mycenaean tholos tombs and the development of the Roman arch; outline the development and use of </em><a data-item-id=\"836ea1a3-067d-42f6-a74c-83c9e717ad5a\" href=\"\"><em>mosaics</em></a><em> throughout the Roman Empire; evaluate the impact of ancient Egyptian and Greek medical instruments on medical practices in Roman and later cultures; create an outline for a seminar about some ways in which ancient Egyptian art influenced Minoan art; summarize the influence of classical jewellery design and production techniques on the decorative arts of other cultures; trace the role of inscriptions in the spread of writing tools and technologies, such as styli or chisels, through various cultures)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How is the relieving triangle of the Mycenaean tholos tomb connected to the development of the Roman arch? \n  What are some examples of public buildings around the world that reflect the design of the Parthenon? \n  Why was the development of waterproof cement important?",
+                  "text_html": "<ul>\n  <li>How is the relieving triangle of the Mycenaean tholos tomb connected to the development of the Roman arch?&nbsp;</li>\n  <li>What are some examples of public buildings around the world that reflect the design of the Parthenon?&nbsp;</li>\n  <li>Why was the development of waterproof cement important?</li>\n</ul>"
+                }
+              ]
+            },
+            {
+              "index": "E4.2",
+              "text": "describe ways in which their knowledge of classical material culture relates to and enhances their understanding of other cultures and fields of human activity from classical times to the present (e.g., explain how information about infrastructure for water supply, water use, and waste management provides insight into attitudes towards architectural stability, health, and hygiene in classical societies as compared to later societies; explain how knowledge of the use of classical architectural styles in public buildings in post-classical societies contributes to an understanding of the political, social, and aesthetic attitudes and engineering capabilities of those societies)",
+              "text_html": "<p>describe ways in which their knowledge of classical <a data-item-id=\"fbe58429-c53f-4f14-9f9c-e00e8503254c\" href=\"\">material culture</a> relates to and enhances their understanding of other cultures and fields of human activity from classical times to the present <em>(e.g., explain how information about infrastructure for water supply, water use, and waste management provides insight into attitudes towards architectural stability, health, and hygiene in classical societies as compared to later societies; explain how knowledge of the use of classical architectural styles in public buildings in post-classical societies contributes to an understanding of the political, social, and aesthetic attitudes and engineering capabilities of those societies)</em></p>",
+              "elaborations": [
+                {
+                  "type": "Teacher Prompts",
+                  "text": "How was Roman mastery of water systems important for disease control? What lessons do you think the Roman water systems have for contemporary communities around the world undergoing rapid urbanization? \n  Why do you think ancient Greek and Roman temple design is still used in civic and domestic architecture in many countries today? What might the presence of columns be intended to signal to a modern viewer?",
+                  "text_html": "<ul>\n  <li>How was Roman mastery of water systems important for disease control? What lessons do you think the Roman water systems have for contemporary communities around the world undergoing rapid urbanization?&nbsp;</li>\n  <li>Why do you think ancient Greek and Roman temple design is still used in civic and domestic architecture in many countries today? What might the presence of columns be intended to signal to a modern viewer?</li>\n</ul>"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

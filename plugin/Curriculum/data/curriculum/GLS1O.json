@@ -1,0 +1,487 @@
+{
+  "code": "GLS1O",
+  "name": "Learning Strategies 1: Skills for Success in Secondary School",
+  "grades": [
+    "9"
+  ],
+  "levels": [],
+  "course_type": "Open",
+  "category": "",
+  "panel": "Secondary",
+  "subject": "Guidance and Career Education",
+  "subject_group": "Guidance and Career Education",
+  "description": "This course focuses on learning strategies to help students become better, more independent learners. Students will learn how to develop and apply literacy and numeracy skills, personal management skills, and interpersonal and teamwork skills to improve their learning and achievement in school, the workplace, and the community. The course helps students build confidence and motivation to pursue opportunities for success in secondary school and beyond.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/secondary-guidance-and-career-education/courses/gls1o",
+  "source_codename": "gls1o_ae07e35",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Learning Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Developing Literacy Skills and Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and use a variety of literacy skills and strategies to improve reading, writing, and oral communication in everyday contexts",
+          "text_html": "<p>identify and use a variety of literacy skills and strategies to improve reading, writing, and oral communication in everyday contexts</p>",
+          "transferable_skills": [
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "identify and use a variety of reading skills and strategies to improve understanding of texts (e.g., identifying purpose, applying prior knowledge, skimming and scanning, highlighting key words, using text features to find information)",
+              "text_html": "<p>identify and use a variety of reading skills and strategies to improve understanding of texts (<em>e.g., identifying purpose, applying prior knowledge, skimming and scanning, highlighting key words, using text features to find information</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "identify and use oral communication skills to support reading, writing, and positive interaction with others (e.g., asking questions to clarify meaning, using a think/pair/share strategy in problem solving, brainstorming to generate ideas, making oral presentations of group work)",
+              "text_html": "<p>identify and use oral communication skills to support reading, writing, and positive interaction with others (<em>e.g., asking questions to clarify meaning, using a think/pair/share strategy in problem solving, brainstorming to generate ideas, making oral presentations of group work</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.3",
+              "text": "use appropriate forms of writing (e.g., report, summary, narrative) to suit audience and purpose",
+              "text_html": "<p>use appropriate forms of writing (<em>e.g., report, summary, narrative</em>) to suit audience and purpose</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.4",
+              "text": "identify and use a variety of strategies to improve writing (e.g., identifying purpose and audience, organizing ideas, mapping, editing)",
+              "text_html": "<p>identify and use a variety of strategies to improve writing (<em>e.g., identifying purpose and audience, organizing ideas, mapping, editing</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Developing Numeracy Skills and Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and use a variety of numeracy skills and strategies to improve their practical application of mathematics in everyday contexts",
+          "text_html": "<p>identify and use a variety of numeracy skills and strategies to improve their practical application of mathematics in everyday contexts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "apply their knowledge of mathematical facts and procedures (e.g., interpreting graphs, computing, using formulas) in various subject areas",
+              "text_html": "<p>apply their knowledge of mathematical facts and procedures (<em>e.g., interpreting graphs, computing, using formulas</em>) in various subject areas</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "connect and apply mathematical concepts and ideas in a variety of problem-solving situations",
+              "text_html": "<p>connect and apply mathematical concepts and ideas in a variety of problem-solving situations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "develop and demonstrate the key mathematical processes (problem solving, reasoning and proving, reflecting, selecting tools and strategies, connecting, representing, communicating) throughout their learning",
+              "text_html": "<p>develop and demonstrate the key mathematical processes (problem solving, reasoning and proving, reflecting, selecting tools and strategies, connecting, representing, communicating) throughout their learning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.4",
+              "text": "describe how mathematics is applied in everyday situations (e.g., making financial transactions, budgeting, constructing, scheduling)",
+              "text_html": "<p>describe how mathematics is applied in everyday situations (<em>e.g., making financial transactions, budgeting, constructing, scheduling</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Developing Learning Skills and Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of learning skills and strategies required for success in school",
+          "text_html": "<p>demonstrate an understanding of learning skills and strategies required for success in school</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "demonstrate effective use of study skills and test-preparation strategies in a variety of subjects and evaluate their impact on academic success",
+              "text_html": "<p>demonstrate effective use of study skills and test-preparation strategies in a variety of subjects and evaluate their impact on academic success</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "select and use strategies to improve their performance in school (e.g., taking notes, using an agenda daily, regularly completing homework, using memory strategies)",
+              "text_html": "<p>select and use strategies to improve their performance in school (<em>e.g., taking notes, using an agenda daily, regularly completing homework, using memory strategies</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "identify school and community resources (e.g., library, the Internet, tutors, guidance office, school personnel, community agencies) and explain how they can be used to support their learning needs",
+              "text_html": "<p>identify school and community resources (<em>e.g., library, the Internet, tutors, guidance office, school personnel, community agencies</em>) and explain how they can be used to support their learning needs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.4",
+              "text": "demonstrate effective use of technology (e.g., CD-ROMs, the Internet, word processors) to enhance research, learning, and presentation skills",
+              "text_html": "<p>demonstrate effective use of technology (<em>e.g., CD-ROMs, the Internet, word processors</em>) to enhance research, learning, and presentation skills</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Personal Knowledge and Management Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Personal Knowledge and Learning",
+          "describer": "By the end of this course, students will:",
+          "text": "apply knowledge of their personal skills and learning strengths to develop strategies for success in secondary school",
+          "text_html": "<p>apply knowledge of their personal skills and learning strengths to develop strategies for success in secondary school</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "create a personal profile of their competencies and interests, and explain how these affect their attitude towards learning",
+              "text_html": "<p>create a personal profile of their competencies and interests, and explain how these affect their attitude towards learning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "identify their learning styles, personal qualities, and learning challenges by analysing their past experiences, both successful and unsuccessful",
+              "text_html": "<p>identify their learning styles, personal qualities, and learning challenges by analysing their past experiences, both successful and unsuccessful</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "describe their most effective ways of demonstrating learning (e.g., writing, oral presentation, performance, graphic presentation) and identify areas that need improvement",
+              "text_html": "<p>describe their most effective ways of demonstrating learning (<em>e.g., writing, oral presentation, performance, graphic presentation</em>) and identify areas that need improvement</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.4",
+              "text": "use personal knowledge and an understanding of self-advocacy to develop effective strategies for enhancing success in school (e.g., scheduling homework, seeking academic assistance)",
+              "text_html": "<p>use personal knowledge and an understanding of self-advocacy to develop effective strategies for enhancing success in school (<em>e.g., scheduling homework, seeking academic assistance</em>)</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Personal Management and Learning",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and describe personal-management skills required for success, and explain their use to help maximize learning",
+          "text_html": "<p>identify and describe personal-management skills required for success, and explain their use to help maximize learning</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "identify their personal-management skills (e.g., time management, organizational skills, punctuality, reliability) and describe how they affect learning performance",
+              "text_html": "<p>identify their personal-management skills (<em>e.g., time management, organizational skills, punctuality, reliability</em>) and describe how they affect learning performance</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "analyse the importance of personal-management skills in school, work, and daily life (e.g., dealing with stress related to test taking, managing time to accomplish multiple tasks, persisting with work-related tasks until completion) and their impact on success",
+              "text_html": "<p>analyse the importance of personal-management skills in school, work, and daily life (<em>e.g., dealing with stress related to test taking, managing time to accomplish multiple tasks, persisting with work-related tasks until completion</em>) and their impact on success</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "identify and describe personal lifestyle strategies that enhance health and wellness and improve one’s readiness to learn (e.g., exercising regularly, getting enough rest, following a nutritious diet, maintaining a balance among priorities; adopting holistic approaches to well-being, such as those found in Aboriginal cultures)",
+              "text_html": "<p>identify and describe personal lifestyle strategies that enhance health and wellness and improve one’s readiness to learn (<em>e.g., exercising regularly, getting enough rest, following a nutritious diet, maintaining a balance among priorities; adopting holistic approaches to well-being, such as those found in </em><a data-item-id=\"916140f7-d731-4ca6-ad27-250194db8b92\" href=\"\"><em>Aboriginal</em></a><em> cultures</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.4",
+              "text": "produce an action plan for improving personal-management skills that identifies personal strengths, challenges, and steps for improvement",
+              "text_html": "<p>produce an action plan for improving personal-management skills that identifies personal strengths, challenges, and steps for improvement</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Applying Personal-Management Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the use of personal-management skills and strategies to enhance learning",
+          "text_html": "<p>demonstrate the use of personal-management skills and strategies to enhance learning</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "use personal-management skills (e.g., prioritizing tasks, being punctual, completing assignments) to improve learning in different environments (e.g., classroom, school, workplace, community)",
+              "text_html": "<p>use personal-management skills (<em>e.g., prioritizing tasks, being punctual, completing assignments</em>) to improve learning in different environments (<em>e.g., classroom, school, workplace, community</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "identify internal and external factors that affect behaviour and school performance (e.g., emotional stress, motivation, racism, peer attitudes, exclusion, physical distractions), and identify strategies for improving behaviour to enhance learning",
+              "text_html": "<p>identify internal and external factors that affect behaviour and school performance (<em>e.g., emotional stress, motivation, racism, peer attitudes, exclusion, physical distractions</em>), and identify strategies for improving behaviour to enhance learning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "demonstrate behaviours that reflect self-motivation and self-reliance (e.g., taking initiative, being persistent in pursuing a goal, completing tasks independently)",
+              "text_html": "<p>demonstrate behaviours that reflect self-motivation and self-reliance (<em>e.g., taking initiative, being persistent in pursuing a goal, completing tasks independently</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.4",
+              "text": "explain how stress can positively and negatively affect learning performance (e.g., with regard to test taking and work completion), and demonstrate effective use of stress-management techniques to maximize performance",
+              "text_html": "<p>explain how stress can positively and negatively affect learning performance (<em>e.g., with regard to test taking and work completion</em>), and demonstrate effective use of stress-management techniques to maximize performance</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Interpersonal Knowledge and Skills",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Understanding Interpersonal Knowledge and Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "identify and describe the knowledge and skills necessary for successful interpersonal relations and teamwork",
+          "text_html": "<p>identify and describe the knowledge and skills necessary for successful interpersonal relations and teamwork</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "identify and describe a variety of verbal and non-verbal communication skills (e.g., active listening, making appropriate eye contact, exhibiting appropriate body language) necessary for successful interpersonal relations in a variety of settings (e.g., school, workplace, community)",
+              "text_html": "<p>identify and describe a variety of verbal and non-verbal communication skills (<em>e.g., active listening, making appropriate eye contact, exhibiting appropriate body language</em>) necessary for successful interpersonal relations in a variety of settings (<em>e.g., school, workplace, community</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "identify and describe positive teamwork skills (e.g., sharing ideas, managing tasks, offering constructive criticism, using conflict-resolution strategies) used in different learning environments",
+              "text_html": "<p>identify and describe positive teamwork skills (<em>e.g., sharing ideas, managing tasks, offering constructive criticism, using conflict-resolution strategies</em>) used in different learning environments</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "describe how interpersonal and teamwork skills can promote achievement of individual learning goals.",
+              "text_html": "<p>describe how interpersonal and teamwork skills can promote achievement of individual learning goals.</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Assessing Interpersonal Knowledge, Skills, and Strategies",
+          "describer": "By the end of this course, students will:",
+          "text": "assess their interpersonal and teamwork skills and strategies, and explain how those skills requiring further development affect their learning",
+          "text_html": "<p>assess their interpersonal and teamwork skills and strategies, and explain how those skills requiring further development affect their learning</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "assess their interpersonal and teamwork skills and identify those needing improvement by analysing past experiences, both successful and unsuccessful",
+              "text_html": "<p>assess their interpersonal and teamwork skills and identify those needing improvement by analysing past experiences, both successful and unsuccessful</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "describe how interpersonal and teamwork challenges (e.g., inability to listen actively, interpersonal conflicts, negative peer influences) affect their learning",
+              "text_html": "<p>describe how interpersonal and teamwork challenges (<em>e.g., inability to listen actively, interpersonal conflicts, negative peer influences</em>) affect their learning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "identify interpersonal and teamwork strategies that will help them overcome the challenges they experience when working with others",
+              "text_html": "<p>identify interpersonal and teamwork strategies that will help them overcome the challenges they experience when working with others</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "describe how interpersonal and teamwork skills are enhanced by respect for individuals with different backgrounds and experiences, and explain the significance of respect in Aboriginal cultures",
+              "text_html": "<p>describe how interpersonal and teamwork skills are enhanced by respect for individuals with different backgrounds and experiences, and explain the significance of respect in Aboriginal cultures</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Applying Interpersonal Skills",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate the ability to apply appropriate interpersonal and teamwork skills in a variety of learning environments",
+          "text_html": "<p>demonstrate the ability to apply appropriate interpersonal and teamwork skills in a variety of learning environments</p>",
+          "transferable_skills": [
+            "Collaboration",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "use appropriate interpersonal skills to maximize learning (e.g., following instructions from a teacher, working with a peer tutor, clarifying directions from a workplace supervisor)",
+              "text_html": "<p>use appropriate interpersonal skills to maximize learning (<em>e.g., following instructions from a teacher, working with a peer tutor, clarifying directions from a workplace supervisor</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "use appropriate teamwork skills (e.g., encouraging participation of group members, planning and delegating tasks, sharing decision making, showing respect for diverse points of view) in a variety of learning situations",
+              "text_html": "<p>use appropriate teamwork skills (<em>e.g., encouraging participation of group members, planning and delegating tasks, sharing decision making, showing respect for diverse points of view</em>) in a variety of learning situations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "evaluate the importance of various interpersonal and teamwork skills in a variety of learning situations",
+              "text_html": "<p>evaluate the importance of various interpersonal and teamwork skills in a variety of learning situations</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Exploration of Opportunities",
+      "describer": "By the end of this course, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Making Connections",
+          "describer": "By the end of this course, students will:",
+          "text": "apply their knowledge of school, work, and community involvement opportunities to develop a personal learning plan",
+          "text_html": "<p>apply their knowledge of school, work, and community involvement opportunities to develop a personal learning plan</p>",
+          "transferable_skills": [
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "describe how academic studies, volunteer activities, part-time employment, and participation in school activities can contribute to the development and enhancement of employability skills",
+              "text_html": "<p>describe how academic studies, volunteer activities, part-time employment, and participation in school activities can contribute to the development and enhancement of employability skills</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "identify the employability skills being developed through their school studies",
+              "text_html": "<p>identify the employability skills being developed through their school studies</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.3",
+              "text": "create a learning plan that is based on identified learning strengths, challenges, needs, goals, and strategies for success in secondary school",
+              "text_html": "<p>create a learning plan that is based on identified learning strengths, challenges, needs, goals, and strategies for success in secondary school</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Learning Through the Community",
+          "describer": "By the end of this course, students will:",
+          "text": "demonstrate an understanding of school and community resources and how these can be utilized to support their learning needs",
+          "text_html": "<p>demonstrate an understanding of school and community resources and how these can be utilized to support their learning needs</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "identify school and community resources available to support learning, and explain how they can be accessed",
+              "text_html": "<p>identify school and community resources available to support learning, and explain how they can be accessed</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "identify and describe individuals or programs that can assist with their specific learning needs (e.g., peer tutors, mentors, community youth programs)",
+              "text_html": "<p>identify and describe individuals or programs that can assist with their specific learning needs (<em>e.g., peer tutors, mentors, community youth programs</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "use appropriate communication skills to gather information and request assistance from peers, teachers, and/or school and community programs",
+              "text_html": "<p>use appropriate communication skills to gather information and request assistance from peers, teachers, and/or school and community programs</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "explain how individual learning can be enhanced through community-based learning experiences",
+              "text_html": "<p>explain how individual learning can be enhanced through community-based learning experiences</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Exploring Careers",
+          "describer": "By the end of this course, students will:",
+          "text": "develop a portfolio of documents pertaining to self-assessment, research, and career exploration that are necessary for planning a pathway for secondary school success",
+          "text_html": "<p>develop a portfolio of documents pertaining to self-assessment, research, and career exploration that are necessary for planning a pathway for secondary school success</p>",
+          "transferable_skills": [
+            "Self-Directed Learning",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "explain the organization and graduation requirements of the secondary school program, including types of courses and program pathways and the possible destinations for which they are appropriate",
+              "text_html": "<p>explain the organization and graduation requirements of the secondary school program, including types of courses and program pathways and the possible destinations for which they are appropriate</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.2",
+              "text": "describe opportunities for learning in all stages of life and in various contexts (e.g., evening courses, on-the-job training, workshops, presentations by guest speakers)",
+              "text_html": "<p>describe opportunities for learning in all stages of life and in various contexts (<em>e.g., evening courses, on-the-job training, workshops, presentations by guest speakers</em>)</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "identify, on the basis of research, selected occupations or fields of work most suited to them based on their personal profile",
+              "text_html": "<p>identify, on the basis of research, selected occupations or fields of work most suited to them based on their personal profile</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.4",
+              "text": "organize relevant documents (e.g., learning plan, personal profile, career research, action plan) into a portfolio and use them to select an appropriate pathway for secondary school studies",
+              "text_html": "<p>organize relevant documents (<em>e.g., learning plan, personal profile, career research, action plan</em>) into a portfolio and use them to select an appropriate pathway for secondary school studies</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

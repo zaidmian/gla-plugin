@@ -1,0 +1,583 @@
+{
+  "code": "",
+  "name": "Language",
+  "grades": [
+    "8"
+  ],
+  "levels": [],
+  "course_type": "",
+  "category": "",
+  "panel": "Elementary",
+  "subject": "Language",
+  "subject_group": "Language",
+  "description": "Here you will find the expectations and learning for the four areas of study for Grade 8 Language.",
+  "prerequisites": "",
+  "prerequisite_codes": [],
+  "url": "https://www.dcp.edu.gov.on.ca/en/curriculum/elementary-language/courses/grade-8",
+  "source_codename": "lang___fra___grade_8",
+  "language": "en-CA",
+  "strands": [
+    {
+      "index": "A",
+      "title": "Literacy Connections and Applications",
+      "describer": "Throughout Grade 8, in connection with the learning in strands B to D, students will:",
+      "overall_expectations": [
+        {
+          "index": "A1",
+          "title": "Transferable Skills",
+          "describer": "Throughout Grade 8, in connection with the learning in strands B to D, students will:",
+          "text": "demonstrate an understanding of how the seven transferable skills (critical thinking and problem solving; innovation, creativity, and entrepreneurship; self-directed learning; collaboration; communication; global citizenship and sustainability; and digital literacy) are used in various language and literacy contexts",
+          "text_html": "<p>demonstrate an understanding of how the <a href=\"https://www.dcp.edu.gov.on.ca/en/program-planning/transferable-skills\">seven transferable skills</a> (critical thinking and problem solving; innovation, creativity, and entrepreneurship; self-directed learning; collaboration; communication; global citizenship and sustainability; and digital literacy) are used in various language and literacy contexts</p>",
+          "transferable_skills": [
+            "Communication",
+            "Critical Thinking & Problem Solving",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A1.1",
+              "text": "analyze and explain how transferable skills can be used to support communication in various cultural, social, linguistic, and domain-specific contexts, and apply them when reading, listening to, viewing, and creating texts of various forms",
+              "text_html": "<p>analyze and explain how transferable skills can be used to support communication in various cultural, social, linguistic, and <a data-item-id=\"c876319e-d3b7-42e7-9e55-0de5c9e27724\" href=\"\">domain-specific contexts</a>, and apply them when reading, listening to, <a data-item-id=\"f074c6f0-7049-44ef-8158-88332559677b\" href=\"\">viewing</a>, and creating texts of various <a data-item-id=\"95fda846-b5e0-4cc8-8cbf-8e63fae6f27d\" href=\"\">forms</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A1.2",
+              "text": "evaluate and explain how transferable skills help them to express their voice, be engaged in their learning, and implement a plan to develop their capabilities and potential",
+              "text_html": "<p>evaluate and explain how transferable skills help them to express their voice, be engaged in their learning, and implement a plan to develop their capabilities and potential</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A2",
+          "title": "Digital Media Literacy",
+          "describer": "Throughout Grade 8, in connection with the learning in strands B to D, students will:",
+          "text": "demonstrate and apply the knowledge and skills needed to interact safely and responsibly in online environments, use digital and media tools to construct knowledge, and demonstrate learning as critical consumers and creators of media",
+          "text_html": "<p>demonstrate and apply the knowledge and skills needed to interact safely and responsibly in online environments, use digital and media tools to construct knowledge, and demonstrate learning as critical consumers and creators of <a data-item-id=\"5598d57f-d959-4f07-8538-7591e5f37b0a\" href=\"\">media</a></p>",
+          "transferable_skills": [
+            "Digital Literacy",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A2.1",
+              "text": "evaluate and explain their rights and responsibilities when interacting online with appropriate permission, and make decisions that contribute positively to the development of their digital identity and those of their communities",
+              "text_html": "<p>evaluate and explain their rights and responsibilities when interacting online with appropriate permission, and make decisions that contribute positively to the development of their digital identity and those of their communities</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.2",
+              "text": "demonstrate an understanding of how to navigate online environments safely, manage their privacy, personal data, and security, and interact in a way that supports their well-being and that of others, including seeking appropriate permission",
+              "text_html": "<p>demonstrate an understanding of how to navigate online environments safely, manage their privacy, personal data, and security, and interact in a way that supports their well-being and that of others, including seeking appropriate permission</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.3",
+              "text": "conduct research, considering accuracy, credibility, and perspectives, with a focus on misinformation, disinformation, and curated information, to construct knowledge, create texts, and demonstrate learning, while respecting legal and ethical considerations",
+              "text_html": "<p>conduct research, considering accuracy, credibility, and perspectives, with a focus on misinformation, disinformation, and curated information, to construct knowledge, create texts, and demonstrate learning, while respecting legal and ethical considerations</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.4",
+              "text": "evaluate the use of the various forms, conventions, and techniques of digital and media texts, consider the impact on the audience, and apply this understanding when analyzing and creating texts",
+              "text_html": "<p>evaluate the use of the various forms, <a data-item-id=\"ebe415a2-78e7-4617-8d2d-7f6591eb8256\" href=\"\">conventions</a>, and techniques of <a data-item-id=\"9bf2f717-9dd0-4c39-94e1-d69e21c10118\" href=\"\">digital</a> and <a data-item-id=\"00483f7d-03d4-40f8-9783-b763dcb7e107\" href=\"\">media texts</a>, consider the impact on the audience, and apply this understanding when analyzing and creating texts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.5",
+              "text": "demonstrate an understanding of the interrelationships between the form, message, and context of texts, the intended and unintended audience, and the purpose for production",
+              "text_html": "<p>demonstrate an understanding of the interrelationships between the form, message, and context of texts, the intended and unintended audience, and the purpose for production</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.6",
+              "text": "select and use appropriate digital and media tools to support the design process and address authentic, relevant, real-world problems by developing and proposing innovative solutions",
+              "text_html": "<p>select and use appropriate digital and media tools to support the design process and address authentic, relevant, real-world problems by developing and proposing innovative solutions</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A2.7",
+              "text": "communicate and collaborate with various communities in a safe, respectful, responsible, and inclusive manner when using online platforms and environments, including digital and media tools, and demonstrate and model cultural awareness with members of the community",
+              "text_html": "<p>communicate and collaborate with various communities in a safe, respectful, responsible, and inclusive manner when using online platforms and environments, including digital and media tools, and demonstrate and model cultural awareness with members of the community</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "A3",
+          "title": "Applications, Connections, and Contributions",
+          "describer": "Throughout Grade 8, in connection with the learning in strands B to D, students will:",
+          "text": "apply language and literacy skills in cross-curricular and integrated learning, and demonstrate an understanding of, and make connections to, diverse voices, experiences, perspectives, histories, and contributions, including those of First Nations, Métis, and Inuit individuals, communities, groups, and nations",
+          "text_html": "<p>apply language and literacy skills in cross-curricular and integrated learning, and demonstrate an understanding of, and make connections to, diverse voices, experiences, perspectives, histories, and contributions, including those of First Nations, Métis, and Inuit individuals, communities, groups, and nations</p>",
+          "transferable_skills": [
+            "Global Citizenship and Sustainability",
+            "Communication",
+            "Collaboration"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "A3.1",
+              "text": "analyze and explain how the knowledge and skills developed in this grade support learning in various subject areas and in everyday life, and describe how they enhance understanding and communication",
+              "text_html": "<p>analyze and explain how the knowledge and skills developed in this grade support learning in various subject areas and in everyday life, and describe how they enhance understanding and communication</p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.2",
+              "text": "demonstrate an understanding of the historical contexts, contributions, lived experiences, and perspectives of a diversity of individuals and communities, including those in Canada, by exploring and analyzing the concepts of identity, self, and sense of belonging in a variety of culturally responsive and relevant texts",
+              "text_html": "<p>demonstrate an understanding of the historical contexts, contributions, lived experiences, and perspectives of a diversity of individuals and communities, including those in Canada, by exploring and analyzing the concepts of identity, self, and sense of belonging in a variety of <a data-item-id=\"57a9dda8-e113-4472-80d6-eeead76e825f\" href=\"\">culturally responsive and relevant texts</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "A3.3",
+              "text": "analyze themes explored in First Nations, Métis, and Inuit cultures to demonstrate an understanding of the varied identities, perspectives, relationships, legacies, truths, and ways of knowing, being, and doing",
+              "text_html": "<p>analyze themes explored in First Nations, Métis, and Inuit cultures to demonstrate an understanding of the varied identities, perspectives, relationships, legacies, truths, and ways of knowing, being, and doing&nbsp;</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "B",
+      "title": "Foundations of Language",
+      "describer": "By the end of Grade 8, students will:",
+      "overall_expectations": [
+        {
+          "index": "B1",
+          "title": "Oral and Non-Verbal Communication",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "apply listening, speaking, and non-verbal communication skills and strategies to understand and communicate meaning in formal and informal contexts and for various purposes and audiences",
+          "text_html": "<p>apply listening, speaking, and <a data-item-id=\"f89ebef6-2556-4a22-af8c-eaf82a9657e7\" href=\"\">non-verbal communication</a> skills and strategies to understand and communicate meaning in formal and informal contexts and for various purposes and audiences</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B1.1",
+              "text": "evaluate and use various effective listening skills to enhance comprehension, including paraphrasing, asking open-ended questions, making relevant responses in group discussions, and reflecting on what has been said, and use these skills in formal and informal contexts and for various purposes",
+              "text_html": "<p>evaluate and use various effective listening skills to enhance comprehension, including paraphrasing, asking open-ended questions, making relevant responses in group discussions, and reflecting on what has been said, and use these skills in formal and informal contexts and for various purposes</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.2",
+              "text": "select and use a variety of listening strategies before, during, and after listening to analyze and comprehend information communicated orally and non-verbally, seek clarification, and identify relevant evidence to support a response appropriate to the context",
+              "text_html": "<p>select and use a variety of listening strategies before, during, and after listening to analyze and comprehend information communicated <a data-item-id=\"e5b746fe-dce0-41b1-bf2e-ef222883e8f7\" href=\"\">orally</a> and non-verbally, seek clarification, and identify relevant evidence to support a response appropriate to the context</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.3",
+              "text": "analyze the purpose and audience for speaking in formal and informal contexts, and select and adapt speaking strategies to communicate clearly and coherently",
+              "text_html": "<p>analyze the purpose and audience for speaking in formal and informal contexts, and select and adapt speaking strategies to communicate clearly and coherently</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.4",
+              "text": "identify and use oral and non-verbal communication strategies, including expression, gestures, and body language, and evaluate and compare the effectiveness of these strategies in supporting understanding or communication, including how their use may vary across cultures",
+              "text_html": "<p>identify and use oral and non-verbal communication strategies, including expression, gestures, and body language, and evaluate and compare the effectiveness of these strategies in supporting understanding or communication, including how their use may vary across cultures</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B1.5",
+              "text": "use precise and descriptive word choice, including domain-specific vocabulary from various subjects, and cohesive and coherent sentences during formal and informal communication, to support audience comprehension",
+              "text_html": "<p>use precise and descriptive <a data-item-id=\"dde12893-7ecc-46cb-80f3-c783ec3108a0\" href=\"\">word choice</a>, including <a data-item-id=\"7ee3287a-dc42-4e0c-9040-1ab3ce6aa79a\" href=\"\">domain-specific vocabulary</a> from various subjects, and cohesive and coherent sentences during formal and informal communication, to support audience comprehension</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B2",
+          "title": "Language Foundations for Reading and Writing",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "demonstrate an understanding of foundational language knowledge and skills, and apply this understanding when reading and writing",
+          "text_html": "<p>demonstrate an understanding of foundational language knowledge and skills, and apply this understanding when reading and writing</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Critical Thinking & Problem Solving"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B2.1",
+              "text": "use consolidated knowledge of the meanings of words and morphemes (i.e., bases, prefixes, and suffixes) to read and spell complex words with accuracy and automaticity",
+              "text_html": "<p>use consolidated knowledge of the meanings of words and <a data-item-id=\"fba742d5-89c6-4bda-875e-daeb4222dd78\" href=\"\">morphemes</a> (i.e., <a data-item-id=\"bb26c353-9028-483d-aeec-1e92721804ae\" href=\"\">bases</a>, <a data-item-id=\"89866197-9295-4ba8-9976-87f0322d7d26\" href=\"\">prefixes</a>, and <a data-item-id=\"45dbe8f6-f30e-414f-adcf-4ef4b12ca58d\" href=\"\">suffixes</a>) to read and spell complex words with accuracy and <a data-item-id=\"cfba6109-5fa2-439f-80c4-b17444e49307\" href=\"\">automaticity</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.2",
+              "text": "demonstrate an understanding of a wide variety of words, acquire and use explicitly taught vocabulary flexibly in various contexts, including other subject areas, and use consolidated morphological knowledge to analyze and understand new words in context",
+              "text_html": "<p>demonstrate an understanding of a wide variety of words, acquire and use explicitly taught vocabulary flexibly in various contexts, including other subject areas, and use consolidated <a data-item-id=\"287851b4-b97e-41ce-8442-61947efcfcd6\" href=\"\">morphological knowledge</a> to analyze and understand new words in context</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B2.3",
+              "text": "read a variety of complex texts fluently, with accuracy and appropriate pacing, to support comprehension, and when reading aloud, adjust expression and intonation according to the purpose of reading",
+              "text_html": "<p>read a variety of complex texts <a data-item-id=\"dabd509d-b034-4e74-b517-6bbe475d943d\" href=\"\">fluently</a>, with accuracy and appropriate pacing, to support comprehension, and when reading aloud, adjust expression and <a data-item-id=\"9d368a3a-cf0f-4268-99a4-0e7391b255d1\" href=\"\">intonation</a> according to the purpose of reading</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "B3",
+          "title": "Language Conventions for Reading and Writing",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "demonstrate an understanding of sentence structure, grammar, cohesive ties, and capitalization and punctuation, and apply this knowledge when reading and writing sentences, paragraphs, and a variety of texts",
+          "text_html": "<p>demonstrate an understanding of sentence structure, grammar, <a data-item-id=\"7a6863dd-643a-49e6-aec5-eb58299de8d9\" href=\"\">cohesive ties</a>, and <a data-item-id=\"b88f69d7-3b63-4a84-b273-3d6225c294f2\" href=\"\">capitalization</a> and <a data-item-id=\"a8c08985-ae9e-477e-9863-5ebc58d60088\" href=\"\">punctuation</a>, and apply this knowledge when reading and writing sentences, paragraphs, and a variety of <a data-item-id=\"92201bba-0388-44e1-bd2c-5f1bce6bf141\" href=\"\">texts</a></p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "B3.1",
+              "text": "use their knowledge of sentence types and forms to construct increasingly complex sentences that connect and communicate ideas accurately and effectively",
+              "text_html": "<p>use their knowledge of <a data-item-id=\"6df257a0-1673-4774-bfe3-11dcecad35ae\" href=\"\">sentence types</a> and <a data-item-id=\"dd1c82b5-9597-4770-9ee1-a9e766b8d109\" href=\"\">forms</a> to construct increasingly complex sentences that connect and communicate ideas accurately and effectively</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.2",
+              "text": "demonstrate an understanding of the functions of parts of speech in sentences, refine their understanding of grammar, and use this knowledge to support comprehension and communicate meaning clearly and precisely",
+              "text_html": "<p>demonstrate an understanding of the functions of <a data-item-id=\"de2f7c3a-8c63-40af-9ad4-f2cd8c47529a\" href=\"\">parts of speech</a> in sentences, refine their understanding of grammar, and use this knowledge to support comprehension and communicate meaning clearly and precisely</p>",
+              "elaborations": []
+            },
+            {
+              "index": "B3.3",
+              "text": "use and refine their understanding of the meaning and function of capitalization and punctuation to communicate meaning clearly and coherently, when reading and writing",
+              "text_html": "<p>use and refine their understanding of the meaning and function of capitalization and punctuation to communicate meaning clearly and coherently, when reading and writing</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "C",
+      "title": "Comprehension: Understanding and Responding to Texts",
+      "describer": "By the end of Grade 8, students will:",
+      "overall_expectations": [
+        {
+          "index": "C1",
+          "title": "Knowledge about Texts",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "apply foundational knowledge and skills to understand a variety of texts, including digital and media texts, by creators with diverse identities, perspectives, and experience, and demonstrate an understanding of the patterns, features, and elements of style associated with various texts forms and genres",
+          "text_html": "<p>apply foundational knowledge and skills to understand a variety of texts, including digital and media texts, by creators with diverse identities, perspectives, and experience, and demonstrate an understanding of the <a data-item-id=\"b901d4e3-2894-4b76-9504-1c4ed619dcec\" href=\"\">patterns</a>, <a data-item-id=\"5b29a860-e10e-4508-8caf-94f55deb4665\" href=\"\">features</a>, and <a data-item-id=\"12bbb532-cd0f-4ae1-b1e4-6910c3decdbf\" href=\"\">elements of style</a> associated with various texts forms and <a data-item-id=\"fc3437b9-b7ec-4664-b58a-008d21b2d747\" href=\"\">genres</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C1.1",
+              "text": "read and comprehend various complex texts, using knowledge of words, grammar, cohesive ties, sentence structures, and background knowledge",
+              "text_html": "<p>read and comprehend various complex texts, using knowledge of words, grammar, cohesive ties, sentence structures, and background knowledge</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.2",
+              "text": "analyze and compare the characteristics of various text forms and genres, including cultural text forms, and provide evidence to explain how they help communicate meaning",
+              "text_html": "<p>analyze and compare the characteristics of various text forms and genres, including cultural text forms, and provide evidence to explain how they help communicate meaning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.3",
+              "text": "compare the text patterns, such as problem-solution in a letter to the editor, and text features, such as a glossary and infographics, associated with different text forms, including cultural texts, and evaluate their importance in helping readers, listeners, and viewers understand the meaning",
+              "text_html": "<p>compare the text patterns, such as problem-solution in a letter to the editor, and text features, such as a glossary and infographics, associated with different text forms, including cultural texts, and evaluate their importance in helping readers, listeners, and viewers understand the meaning</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.4",
+              "text": "evaluate how images, graphics, and visual design create, communicate, and contribute to meaning in a variety of texts",
+              "text_html": "<p>evaluate how <a data-item-id=\"869d9ccc-d38d-458b-bc6e-e8ea89ffa014\" href=\"\">images, graphics, and visual design</a> create, communicate, and contribute to meaning in a variety of texts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.5",
+              "text": "identify various elements of style in texts, including voice, word choice, word patterns, and sentence structure, and analyze how each element helps create meaning and is appropriate for the text form and genre",
+              "text_html": "<p>identify various elements of style in texts, including <a data-item-id=\"e3551d5b-4636-4c5e-9fa6-99564c121a26\" href=\"\">voice</a>, word choice, word patterns, and sentence structure, and analyze how each element helps create meaning and is appropriate for the text form and genre</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.6",
+              "text": "analyze the narrator’s point of view, including limited, omniscient, or unreliable, in a variety of texts, explain how it is communicated, and suggest alternative points of view, giving reasons",
+              "text_html": "<p>analyze the <a data-item-id=\"16100ad0-c4f8-44e9-b1ba-c962fd9f59fd\" href=\"\">narrator’s</a> <a data-item-id=\"01a7d169-6625-42c7-9230-98d67d6cf1ac\" href=\"\">point of view</a>, including limited, omniscient, or unreliable, in a variety of texts, explain how it is communicated, and suggest alternative points of view, giving reasons</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C1.7",
+              "text": "read, listen to, and view a wide variety of text forms by diverse First Nations, Métis, and Inuit creators to make meaning through Indigenous Storywork about First Nations, Métis, and Inuit histories, cultures, relationships, communities, groups, nations, and lived experiences",
+              "text_html": "<p>read, listen to, and view a wide variety of text forms by diverse First Nations, Métis, and Inuit creators to make meaning through <a data-item-id=\"9d369ab1-5d13-4bd1-86d9-8e8bbbd18651\" href=\"\">Indigenous Storywork</a> about First Nations, Métis, and Inuit histories, cultures, relationships, communities, groups, nations, and lived experiences</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C2",
+          "title": "Comprehension Strategies",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "apply comprehension strategies before, during, and after reading, listening to, and viewing a variety of texts, including digital and media texts, by creators with diverse identities, perspectives, and experience, in order to understand and clarify the meaning of texts",
+          "text_html": "<p>apply <a data-item-id=\"5c77709c-3b7e-4eef-ba7d-1abbf442af61\" href=\"\">comprehension strategies</a> before, during, and after reading, listening to, and viewing a variety of texts, including digital and media texts, by creators with diverse identities, perspectives, and experience, in order to understand and clarify the meaning of texts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Self-Directed Learning"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C2.1",
+              "text": "identify and explain prior knowledge from various sources, including personal experiences and learning in other subject areas, that they can use to make connections and understand new texts",
+              "text_html": "<p>identify and explain prior knowledge from various sources, including personal experiences and learning in other subject areas, that they can use to make connections and understand new texts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.2",
+              "text": "identify a variety of purposes for engaging with texts, select texts from diverse creators that are suitable for the purposes, and explain why the selections are appropriate",
+              "text_html": "<p>identify a variety of purposes for engaging with texts, select texts from diverse creators that are suitable for the purposes, and explain why the selections are appropriate</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.3",
+              "text": "make predictions using background knowledge and textual information, pose questions to confirm or refute their predictions, and revise or refine their understanding as indicated",
+              "text_html": "<p>make predictions using background knowledge and textual information, pose questions to confirm or refute their predictions, and revise or refine their understanding as indicated</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.4",
+              "text": "select suitable strategies, such as rereading, using the glossary, asking questions, and consulting references and other resources, to monitor and confirm their understanding of complex texts and solve comprehension problems",
+              "text_html": "<p>select suitable strategies, such as rereading, using the glossary, asking questions, and consulting references and other resources, to monitor and confirm their understanding of complex texts and solve comprehension problems</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.5",
+              "text": "connect, compare, and contrast the ideas expressed in texts and their knowledges and lived experiences, the ideas in other texts, and the world around them",
+              "text_html": "<p>connect, compare, and contrast the ideas expressed in texts and their knowledges and lived experiences, the ideas in other texts, and the world around them</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.6",
+              "text": "summarize and synthesize the important ideas and supporting details in complex texts, and draw effective conclusions",
+              "text_html": "<p><a data-item-id=\"619d0fe6-b529-4693-8fb3-30311d7592be\" href=\"\">summarize</a> and synthesize the important ideas and supporting details in complex texts, and draw effective conclusions</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C2.7",
+              "text": "explain and compare how various strategies, such as visualizing, making predictions, summarizing, and connecting to their experiences, have helped them comprehend various texts, and set goals for future improvement",
+              "text_html": "<p>explain and<strong> </strong>compare how various strategies, such as visualizing, making predictions, summarizing, and connecting to their experiences, have helped them comprehend various texts, and set goals for future improvement</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "C3",
+          "title": "Critical Thinking in Literacy",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "apply critical thinking skills to deepen understanding of texts, and analyze how various perspectives and topics are communicated and addressed in a variety of texts, including digital, media, and cultural texts",
+          "text_html": "<p>apply <a data-item-id=\"ac233600-388a-4487-aeb2-b5482b03bd92\" href=\"\">critical thinking</a> skills to deepen understanding of texts, and analyze how various <a data-item-id=\"4a865b0f-bf9c-4355-ba62-8cc18ea01e3f\" href=\"\">perspectives</a> and <a data-item-id=\"65e9917b-f394-4272-89d7-f78c88caeaf5\" href=\"\">topics</a> are communicated and addressed in a variety of texts, including digital, media, and <a data-item-id=\"5a8d54e4-b758-422d-a88d-fe184dc95f3d\" href=\"\">cultural texts</a></p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Global Citizenship and Sustainability",
+            "Communication"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "C3.1",
+              "text": "analyze literary devices, including irony, satire, and allusion, in a variety of texts, and explain how they help create meaning and are appropriate for the intended purpose and audience",
+              "text_html": "<p>analyze <a data-item-id=\"5f1e4ea4-8266-449e-acee-1ce6b77f1652\" href=\"\">literary devices</a>, including <a data-item-id=\"301660a2-9afb-4736-b015-4212a196d198\" href=\"\">irony</a>, <a data-item-id=\"befbc6f3-297d-4b20-8f36-d191306132ba\" href=\"\">satire</a>, and <a data-item-id=\"6f370998-1ae3-48f2-aad9-89b85f1b7610\" href=\"\">allusion</a>, in a variety of texts, and explain how they help create meaning and are appropriate for the intended purpose and audience</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.2",
+              "text": "make local and global inferences, using explicit and implicit evidence, to explain and support their interpretations about various complex texts",
+              "text_html": "<p>make <a data-item-id=\"f9eea0f3-e1d3-45f8-87fb-01c6e69f9665\" href=\"\">local and global inferences</a>, using explicit and implicit evidence, to explain and support their interpretations about various complex texts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.3",
+              "text": "analyze complex texts, including literary and informational texts, by evaluating, synthesizing, and sequencing relevant information and formulating conclusions",
+              "text_html": "<p>analyze complex texts, including literary and informational texts, by evaluating, <a data-item-id=\"d5b33591-1cfb-4437-ba2c-8b9b8c3662bd\" href=\"\">synthesizing</a>, and sequencing relevant information and formulating conclusions&nbsp;</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.4",
+              "text": "analyze cultural elements that are represented in various texts, including norms, values, social hierarchy, pastimes, language, and taboos, by investigating the meanings of these elements, making connections to their lived experience and culture, and considering how the inclusion of these elements contributes to the meaning of the text",
+              "text_html": "<p>analyze <a data-item-id=\"22ddb7b5-ebcd-48b8-9f56-089e356edc58\" href=\"\">cultural elements</a> that are represented in various texts, including norms, values, social hierarchy, pastimes, language, and taboos, by investigating the meanings of these elements, making connections to their lived experience and culture, and considering how the inclusion of these elements contributes to the meaning of the text</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.5",
+              "text": "analyze explicit and implicit perspectives communicated in various texts, evaluate any evidence that could suggest bias in these perspectives, and suggest ways to avoid any such bias",
+              "text_html": "<p>analyze explicit and implicit perspectives communicated in various texts, evaluate any evidence that could suggest bias in these perspectives, and suggest ways to avoid any such <a data-item-id=\"420f50ab-5607-4eba-ac40-ae2dbdbc5705\" href=\"\">bias</a></p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.6",
+              "text": "analyze how various topics, such as diversity, inclusion, and accessibility, are addressed in texts, respond to the insights and messages conveyed, and identify different positions presented",
+              "text_html": "<p>analyze how various topics, such as diversity, inclusion, and accessibility, are addressed in texts, respond to the insights and messages conveyed, and identify different positions presented</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.7",
+              "text": "compare the ways in which historical periods, cultural experiences, and/or socio-political conditions and events have influenced two or more texts created by First Nations, Métis, and Inuit individuals, communities, groups, or nations, and how they relate to current lived experiences",
+              "text_html": "<p>compare the ways in which historical periods, cultural experiences, and/or socio-political conditions and events have influenced two or more texts created by First Nations, Métis, and Inuit individuals, communities, groups, or nations, and how they relate to current lived experiences</p>",
+              "elaborations": []
+            },
+            {
+              "index": "C3.8",
+              "text": "assess the effectiveness of the critical thinking skills they used when analyzing and evaluating various texts, and set goals to improve their use",
+              "text_html": "<p>assess the effectiveness of the critical thinking skills they used when analyzing and evaluating various texts, and set goals to improve their use</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "index": "D",
+      "title": "Composition: Expressing Ideas and Creating Texts",
+      "describer": "By the end of Grade 8, students will:",
+      "overall_expectations": [
+        {
+          "index": "D1",
+          "title": "Developing Ideas and Organizing Content",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "plan, develop ideas, gather information, and organize content for creating texts of various forms, including digital and media texts, on a variety of topics",
+          "text_html": "<p>plan, develop ideas, gather information, and organize content for creating texts of various forms, including digital and media texts, on a variety of topics</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Collaboration",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D1.1",
+              "text": "identify the topic, purpose, and audience for various texts they plan to create; choose a text form, genre, and medium to suit the purpose and audience, and justify their choices",
+              "text_html": "<p>identify the topic, purpose, and audience for various texts they plan to create; choose a text form, genre, and medium to suit the purpose and audience, and justify their choices</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.2",
+              "text": "generate and develop ideas and details about challenging topics, such as topics related to diversity, equity, and inclusion and to other subject areas, using a variety of strategies, and drawing on various resources, including their own lived experiences",
+              "text_html": "<p>generate and develop ideas and details about challenging topics, such as topics related to diversity, equity, and inclusion and to other subject areas, using a variety of strategies, and drawing on various resources, including their own lived experiences</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.3",
+              "text": "gather and synthesize information and content relevant to a topic, using a variety of textual sources and appropriate strategies; evaluate the currency, quality, bias, and accuracy of information; verify the reliability of sources; and cite the sources of all content created by others",
+              "text_html": "<p>gather and synthesize information and content relevant to a topic, using a variety of textual sources and appropriate strategies; evaluate the currency, quality, bias, and accuracy of information; verify the reliability of sources; and cite the sources of all content created by others</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.4",
+              "text": "classify and sequence ideas and collected information, selecting effective strategies and tools, and identify and organize relevant content, evaluating the choices of text form, genre, and medium, and considering alternatives",
+              "text_html": "<p>classify and sequence ideas and collected information, selecting effective strategies and tools, and identify and organize relevant content, evaluating the choices of text form, genre, and medium, and considering alternatives</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D1.5",
+              "text": "evaluate the strategies and tools used to develop ideas and organize content for texts of the chosen forms, genres, and media, explain which were most helpful, and suggest steps for future improvement as a text creator",
+              "text_html": "<p>evaluate the strategies and tools used to develop ideas and organize content for texts of the chosen forms, genres, and media, explain which were most helpful, and suggest steps for future improvement as a text creator</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D2",
+          "title": "Creating Texts",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "apply knowledge and understanding of various text forms and genres to create, revise, edit, and proofread their own texts, using a variety of media, tools, and strategies, and reflect critically on created texts",
+          "text_html": "<p>apply knowledge and understanding of various text forms and genres to create, <a data-item-id=\"637248d2-5eb0-4ae5-976c-d001f816758b\" href=\"\">revise</a>, <a data-item-id=\"ec94323a-c0af-433c-8fe0-93ca3e48493f\" href=\"\">edit</a>, and <a data-item-id=\"c6d37cc7-9e66-4e51-95c6-b90e9e5824e7\" href=\"\">proofread</a> their own texts, using a variety of media, tools, and strategies, and reflect critically on created texts</p>",
+          "transferable_skills": [
+            "Critical Thinking & Problem Solving",
+            "Digital Literacy",
+            "Innovation, Creativity & Entrepreneurship"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D2.1",
+              "text": "draft complex texts of various forms and genres, including narrative, persuasive, expository, and informational texts, citing sources, and use a variety of appropriate media, tools, and strategies to transform information and communicate ideas",
+              "text_html": "<p>draft complex texts of various forms and genres, including narrative, persuasive, expository, and informational texts, citing sources, and use a variety of appropriate media, tools, and strategies to transform information and communicate ideas</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.2",
+              "text": "write in cursive fluently, with a personal style, and apply advanced word-processing skills to improve the accuracy and effect of texts",
+              "text_html": "<p>write in <a data-item-id=\"3b755664-49ca-4e66-b1f4-6d69c8b5c9e2\" href=\"\">cursive</a> fluently, with a personal style, and apply advanced word-processing skills to improve the accuracy and effect of texts</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.3",
+              "text": "establish an identifiable voice in their texts, modifying language and style to suit the text’s form, genre, audience, and purpose, and express their thoughts, feelings, and opinions about the topic clearly",
+              "text_html": "<p>establish an identifiable <a data-item-id=\"e3551d5b-4636-4c5e-9fa6-99564c121a26\" href=\"\">voice</a> in their texts, modifying language and <a data-item-id=\"3e73096d-42a4-40e8-9fb5-44ec3c37aeb7\" href=\"\">style</a> to suit the text’s form, genre, audience, and purpose, and express their thoughts, feelings, and opinions about the topic clearly</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.4",
+              "text": "explain the explicit and implicit points of view, perspectives, and bias conveyed in their texts, evaluate how various audiences might respond, and suggest ways to acknowledge other perspectives",
+              "text_html": "<p>explain the explicit and implicit points of view, perspectives, and bias conveyed in their texts, evaluate how various audiences might respond, and suggest ways to acknowledge other perspectives</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.5",
+              "text": "make revisions to the content, elements of style, patterns, and features of draft texts, and add, delete, revise, and reorganize sentences to improve clarity, focus, and coherence, using various strategies and seeking and selectively using feedback",
+              "text_html": "<p>make revisions to the content, elements of style, patterns, and features of draft texts, and add, delete, revise, and reorganize sentences to improve clarity, focus, and <a data-item-id=\"9ff195f7-7432-4e32-8422-05924223ae26\" href=\"\">coherence</a>, using various strategies and seeking and selectively using feedback</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D2.6",
+              "text": "edit draft texts to improve accuracy and style, checking for errors in spelling, punctuation, grammar, and format; edit digital texts using word-processing software, including spell- and grammar-checkers",
+              "text_html": "<p>edit draft texts to improve accuracy and style, checking for errors in spelling, punctuation, grammar, and format; edit digital texts using word-processing software, including spell- and grammar-checkers</p>",
+              "elaborations": []
+            }
+          ]
+        },
+        {
+          "index": "D3",
+          "title": "Publishing, Presenting, and Reflecting",
+          "describer": "By the end of Grade 8, students will:",
+          "text": "select suitable and effective media, techniques, and tools to publish and present final texts, and critically analyze how well the texts address various topics",
+          "text_html": "<p>select suitable and effective media, techniques, and tools to publish and present final texts, and critically analyze how well the texts address various topics</p>",
+          "transferable_skills": [
+            "Communication",
+            "Collaboration",
+            "Digital Literacy"
+          ],
+          "supports": [],
+          "specific_expectations": [
+            {
+              "index": "D3.1",
+              "text": "produce final texts using appropriate techniques and tools, including digital design and production tools, to achieve the intended effect",
+              "text_html": "<p>produce final texts using appropriate techniques and tools, including digital design and production tools, to achieve the intended effect</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.2",
+              "text": "publish and present texts they have created, using various media and tools, and evaluate how their choices helped them communicate their intended message",
+              "text_html": "<p>publish and present texts they have created, using various media and tools, and evaluate how their choices helped them communicate their intended message</p>",
+              "elaborations": []
+            },
+            {
+              "index": "D3.3",
+              "text": "evaluate the strategies and tools they found helpful when publishing and presenting texts, reflect on what they learned at each stage of the creative process, analyze how their texts address various topics, and suggest steps for future improvement as a text creator",
+              "text_html": "<p>evaluate the strategies and tools they found helpful when publishing and presenting texts, reflect on what they learned at each stage of the creative process, analyze how their texts address various topics, and suggest steps for future improvement as a text creator</p>",
+              "elaborations": []
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
