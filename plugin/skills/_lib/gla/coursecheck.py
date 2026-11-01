@@ -200,7 +200,7 @@ class CourseCheck:
             return   # an assessment week lists the unit's tested codes, which live in Assessment/
         have = set()
         for n in os.listdir(folder):
-            if re.match(r"^(D\d+_(Lesson|Lab)_|EX_|BRIEF_|REF_).*\.md$", n):
+            if re.match(r"^(D\d+_(Lesson|Lab|Workshop|Activity)_|EX_|BRIEF_|REF_).*\.md$", n):   # Core §5's day files
                 have |= header_codes(_read(os.path.join(folder, n))) or set()
         if have:
             missing = sorted(want - have, key=_code_key)
