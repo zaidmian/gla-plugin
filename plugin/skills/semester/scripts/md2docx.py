@@ -919,6 +919,22 @@ def rebuild_meta(lines, slot_dates, is_handout):
 
 # --------------------------------------------------------------------- main
 
+ZIP_TIME = (1980, 1, 1, 0, 0, 0)   # every entry gets this, so the same source builds byte-identical files
+
+
+class FixedTimeZip:
+    """writestr with a fixed timestamp: rebuilding an unchanged handout leaves the file unchanged."""
+
+    def __init__(self, zf):
+        self.zf = zf
+
+    def writestr(self, name, data):
+        info = zipfile.ZipInfo(name, date_time=ZIP_TIME)
+        info.compress_type = zipfile.ZIP_DEFLATED
+        info.external_attr = 0o644 << 16
+        self.zf.writestr(info, data)
+
+
 def convert(md_path, out_path, strip_teacher_note=False, slot_dates=None,
             doc_kind=None):
     text = Path(md_path).read_text(encoding="utf-8")
@@ -964,7 +980,8 @@ def convert(md_path, out_path, strip_teacher_note=False, slot_dates=None,
 
     out = Path(out_path)
     out.parent.mkdir(parents=True, exist_ok=True)
-    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as z:
+    with zipfile.ZipFile(out, "w", zipfile.ZIP_DEFLATED) as zf:
+        z = FixedTimeZip(zf)
         z.writestr("[Content_Types].xml", CONTENT_TYPES)
         z.writestr("_rels/.rels", ROOT_RELS)
         z.writestr("docProps/core.xml", core_xml(title))
