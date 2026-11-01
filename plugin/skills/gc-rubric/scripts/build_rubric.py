@@ -58,6 +58,10 @@ HERE = os.path.dirname(os.path.realpath(__file__))
 CATS = ("ku", "thinking", "communication", "application")
 NAMES = {"ku": "Knowledge and Understanding", "thinking": "Thinking",
          "communication": "Communication", "application": "Application"}
+# The default when a spec names neither weights nor a type: the summative
+# weighting in Standards/assessment/Grading_Conventions.md. A course may set its
+# own in course.yaml (assessment.category_weights), which --from-assignment reads.
+DEFAULT_WEIGHTS = {"ku": 25, "thinking": 30, "communication": 20, "application": 25}
 SPLITS = {
     "programming": {"ku": 25, "thinking": 30, "communication": 20, "application": 25},
     "research":    {"ku": 27, "thinking": 27, "communication": 26, "application": 20},
@@ -93,8 +97,8 @@ def thinking_name(course=None, subject=None):
     """Science names the second category Thinking and Investigation; every other subject says Thinking."""
     if subject and re.sub(r"[^a-z]", "", subject.lower()) in ("science", "scienceandtechnology"):
         return "Thinking and Investigation"
-    if course and course.upper().startswith(SCIENCE_PREFIXES):
-        return "Thinking and Investigation"
+    if course and (course.upper().startswith(SCIENCE_PREFIXES) or course.lower().startswith("science-and-technology")):
+        return "Thinking and Investigation"   # Grades 1 to 8 Science and Technology documents are named by slug
     return "Thinking"
 
 
@@ -154,11 +158,13 @@ def load_spec(spec):
         weights = {cat_key(k): v for k, v in weights.items()}
         if set(weights) != set(CATS) or sum(weights.values()) != 100:
             raise SpecError("weights must name all four categories and total 100")
-    else:
-        t = spec.get("type", "balanced")
+    elif spec.get("type"):
+        t = spec["type"]
         if t not in SPLITS:
             raise SpecError("type %r is not one of %s" % (t, ", ".join(SPLITS)))
         weights = SPLITS[t]
+    else:
+        weights = DEFAULT_WEIGHTS
     crits = []
     for i, c in enumerate(spec["criteria"]):
         cats = c.get("category")
@@ -373,9 +379,11 @@ def _course_info(start):
             with open(p, encoding="utf-8") as f:
                 text = f.read()
             get = lambda k: (re.search(r"^%s:\s*\"?([^\"#\n]+?)\"?\s*(#.*)?$" % k, text, re.M) or [None, ""])[1]  # noqa: E731
-            return get("code"), get("department")
+            cw = re.search(r"^\s+category_weights:\s*\{([^}]*)\}", text, re.M)
+            weights = {cat_key(k.strip()): float(v) for k, v in re.findall(r"([\w/ ]+?)\s*:\s*(\d+(?:\.\d+)?)", cw.group(1))} if cw else None
+            return get("code"), get("department"), weights
         if os.path.dirname(d) == d:
-            return "", ""
+            return "", "", None
         d = os.path.dirname(d)
 
 
@@ -393,7 +401,7 @@ def from_assignment(folder):
     m = re.search(r"(\d+(?:\.\d+)?)\s*(?:points?)?", marks_line)
     slot_line = (re.search(r"^\*\*Slot:\*\*\s*(.+?)\s*(?:·\s*\*\*|$)", text, re.M) or [None, ""])[1]
     slot = re.sub(r"\s*\([^)]*\)", "", slot_line).strip()   # ICD2O writes "handed out X · due Y" inside the slot
-    code, dept = _course_info(folder)
+    code, dept, course_weights = _course_info(folder)
     spec = {"assignment": title.group(1).strip() if title else os.path.basename(folder.rstrip("/")),
             "total": float(m.group(1)) if m else None,
             "course": code, "subject": dept, "assessment_type": "Assignment",
@@ -403,7 +411,8 @@ def from_assignment(folder):
         spec["criteria"] = import_csv(existing)
         spec["_note"] = "criteria imported from rubric.csv; edit the words, keep or change the points, then build"
     else:
-        spec["type"] = "programming" if dept.lower() == "computer studies" else "balanced"
+        if course_weights:   # the course's own weighting (course.yaml assessment.category_weights)
+            spec["weights"] = {k: (int(v) if v == int(v) else v) for k, v in course_weights.items()}
         spec["criteria"] = [{"category": c, "focus": "", "description": "", "levels": ["", "", "", "", ""]} for c in CATS]
         spec["_note"] = "fill focus, description and the five level descriptors for each category, then build"
     return spec

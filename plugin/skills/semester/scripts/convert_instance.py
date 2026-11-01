@@ -4,12 +4,15 @@ Google-Docs-ready .docx files inside an instance's gdocs/ tree, driven by a
 per-course gdocs_manifest.yaml. Needs PyYAML, like the calendar builder.
 
 Usage:
-    python3 convert_instance.py SEMESTER [--root REPO_ROOT] [--only SUBSTR]
+    python3 convert_instance.py SEMESTER [--root REPO_ROOT] [--match SUBSTR]
                                 [--manifest PATH]
 
     SEMESTER    instance folder name (must exist under <root>/instances/)
     --root      course repo root (default: current working directory)
-    --only      only convert sources whose path contains SUBSTR
+    --match     only convert sources whose path contains SUBSTR (--only is the old name)
+
+Exit codes: 0 every document converted and verified; 1 a document failed;
+2 cannot run (no instance, no manifest, nothing matched).
     --no-verify skip the check that every written .docx parses and opens
     --manifest  manifest path (default: the gdocs_manifest key in
                 <root>/course.yaml, else <root>/gdocs_manifest.yaml)
@@ -159,6 +162,21 @@ def write_index(path, index):
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
+HASHES_NAME = "hashes.yaml"   # docx -> content hash, to tell which handouts changed since the last build
+
+
+def content_hash(path):
+    """A .docx's content, ignoring the zip timestamps that change on every build."""
+    import hashlib
+    import zipfile
+    h = hashlib.sha256()
+    with zipfile.ZipFile(path) as z:
+        for n in sorted(z.namelist()):
+            h.update(n.encode("utf-8"))
+            h.update(z.read(n))
+    return h.hexdigest()[:16]
+
+
 def course_manifest_name(root):
     """The manifest path course.yaml names (relative to the repo root), or the default."""
     cfg = root / "course.yaml"
@@ -206,7 +224,7 @@ def main(argv):
     for i, a in enumerate(argv):
         if a == "--root" and i + 1 < len(argv):
             root = Path(argv[i + 1])
-        if a == "--only" and i + 1 < len(argv):
+        if a in ("--match", "--only") and i + 1 < len(argv):
             only = argv[i + 1]
         if a == "--manifest" and i + 1 < len(argv):
             manifest_path = Path(argv[i + 1])
@@ -215,14 +233,14 @@ def main(argv):
     if not instance.is_dir():
         existing = ", ".join(p.name for p in (root / "instances").glob("*") if p.is_dir())
         print("ERROR: no instance at %s (existing: %s)" % (instance, existing or "none"))
-        return 1
+        return 2
 
     if manifest_path is None:
         manifest_path = root / course_manifest_name(root)
     if not manifest_path.exists():
         print("ERROR: manifest not found at %s (set gdocs_manifest in "
               "course.yaml, or keep gdocs_manifest.yaml at the repo root)." % manifest_path)
-        return 1
+        return 2
 
     cfg = instance / "semester_config.yaml"
     cfg_text = cfg.read_text(encoding="utf-8") if cfg.exists() else ""
@@ -232,7 +250,7 @@ def main(argv):
         jobs = [j for j in jobs if only in str(j[0])]
     if not jobs:
         print("ERROR: nothing matched.")
-        return 1
+        return 2
 
     out_root = instance / "gdocs"
     failures = 0
@@ -248,6 +266,36 @@ def main(argv):
             failures += 1
             print("  FAILED %s: %s" % (src.relative_to(root), e))
 
+    # What changed since the last build (the files to re-upload to Drive), and on a
+    # full run, the handouts master no longer produces (removed, with their index rows).
+    hp = out_root / HASHES_NAME
+    old = (yaml.safe_load(hp.read_text(encoding="utf-8")) or {}) if hp.exists() else {}
+    hashes = dict(old)
+    changed = []
+    for _, rel, _, _ in jobs:
+        f, rel = out_root / rel, Path(rel).as_posix()
+        if f.exists():
+            hashes[rel] = content_hash(f)
+            if old.get(rel) != hashes[rel]:
+                changed.append(rel)
+    stale = []
+    if not only:
+        made = {Path(rel).as_posix() for _, rel, _, _ in jobs}
+        for f in sorted(out_root.rglob("*.docx")):
+            rel = f.relative_to(out_root).as_posix()
+            if rel not in made and not rel.startswith("Admin/"):   # Admin/ holds the plan formatter's documents
+                f.unlink()
+                stale.append(rel)
+                hashes.pop(rel, None)
+        index = {k: v for k, v in index.items() if Path(v).as_posix() not in stale}
+    hp.write_text("# docx under gdocs/ -> content hash (convert_instance.py)\n"
+                  + "".join("%s: %s\n" % (json.dumps(k), v) for k, v in sorted(hashes.items())), encoding="utf-8")
+    if changed:
+        print("\nChanged since the last build (re-upload these to Drive):")
+        for rel in changed:
+            print("  gdocs/" + rel)
+    for rel in stale:
+        print("  removed gdocs/%s (master no longer produces it)" % rel)
     write_index(out_root / INDEX_NAME, index)
     if "--no-verify" not in argv:
         bad = verify([out_root / rel for _, rel, _, _ in jobs])

@@ -4,7 +4,7 @@ A detailed distillation of the Ontario Ministry of Education policy *Growing Suc
 
 **Sources:**
 - Original policy PDF: *Growing Success: Assessment, Evaluation, and Reporting in Ontario Schools, First Edition, Covering Grades 1 to 12* (2010). Part 1 below is distilled directly from this document.
-- Ministry page: [ontario.ca — Growing Success](http://www.ontario.ca/page/growing-success-assessment-evaluation-and-reporting-ontario-schools-kindergarten-grade-12). Part 2 below captures the updates listed there, which are not in the PDF.
+- Ministry page: [ontario.ca: Growing Success](http://www.ontario.ca/page/growing-success-assessment-evaluation-and-reporting-ontario-schools-kindergarten-grade-12). Part 2 below captures the updates listed there, which are not in the PDF.
 
 **How to read this file:** Part 1 follows the PDF chapter by chapter, using its own page numbers and its own wording (quoted where useful). Part 2 lists the post-2010 updates. Where an update conflicts with the PDF, the update governs. The two clearest cases are the September 2026 replacement of Chapter 5's final-mark rule for Grades 9–12, and the September 2026 change to the EQAO Grade 9 mathematics weighting, which replaces the discretionary provision in Appendix 1 (p. 93).
 
@@ -21,27 +21,27 @@ Each policy chapter has a **Policy** section (mandatory requirements) and a **Co
 | Part | Page |
 |------|------|
 | Introduction | 1 |
-| Ch. 1 — Fundamental Principles | 5 |
-| Ch. 2 — Learning Skills and Work Habits (Grades 1–12) | 9 |
-| Ch. 3 — Performance Standards: The Achievement Chart | 15 |
-| Ch. 4 — Assessment *for* Learning and *as* Learning | 27 |
-| Ch. 5 — Evaluation | 37 |
-| Ch. 6 — Reporting Student Achievement | 47 |
-| Ch. 7 — Students With Special Education Needs | 69 |
-| Ch. 8 — English Language Learners | 75 |
-| Ch. 9 — E-Learning | 79 |
-| Ch. 10 — Credit Recovery | 83 |
-| Appendix 1 — Large-Scale Assessments | 91 |
-| Appendix 2 — Progress Report Card and Provincial Report Card Templates | 97 |
-| Appendix 3 — Resources for Particular Policy and Program Areas | 139 |
+| Ch. 1: Fundamental Principles | 5 |
+| Ch. 2: Learning Skills and Work Habits (Grades 1–12) | 9 |
+| Ch. 3: Performance Standards: The Achievement Chart | 15 |
+| Ch. 4: Assessment *for* Learning and *as* Learning | 27 |
+| Ch. 5: Evaluation | 37 |
+| Ch. 6: Reporting Student Achievement | 47 |
+| Ch. 7: Students With Special Education Needs | 69 |
+| Ch. 8: English Language Learners | 75 |
+| Ch. 9: E-Learning | 79 |
+| Ch. 10: Credit Recovery | 83 |
+| Appendix 1: Large-Scale Assessments | 91 |
+| Appendix 2: Progress Report Card and Provincial Report Card Templates | 97 |
+| Appendix 3: Resources for Particular Policy and Program Areas | 139 |
 | Glossary | 143 |
 | References | 157 |
 
 ---
 
-# Part 1 — The 2010 Growing Success Framework
+# Part 1: The 2010 Growing Success Framework
 
-## Chapter 1 — Fundamental Principles (p. 5)
+## Chapter 1: Fundamental Principles (p. 5)
 
 The primary purpose of assessment and evaluation is to improve student learning. To be valid and reliable and to lead to improved learning for all students, assessment, evaluation, and reporting practices and procedures must be fair, transparent, and equitable. Teachers use practices and procedures that:
 
@@ -53,27 +53,27 @@ The primary purpose of assessment and evaluation is to improve student learning.
 6. provide ongoing descriptive feedback that is clear, specific, meaningful, and timely to support improved learning and achievement;
 7. develop students' self-assessment skills to enable them to assess their own learning, set specific goals, and plan next steps.
 
-## Chapter 2 — Learning Skills and Work Habits (p. 9)
+## Chapter 2: Learning Skills and Work Habits (p. 9)
 
 Six learning skills and work habits are assessed and reported **separately** from achievement of curriculum expectations, because they can be demonstrated across all subjects and grades and promote achievement:
 
-- **Responsibility** — fulfils commitments, completes and submits work on time, takes responsibility for and manages own behaviour.
-- **Organization** — devises and follows plans for completing tasks, establishes priorities and manages time, gathers and evaluates information and resources.
-- **Independent Work** — independently monitors and assesses own work, uses class time appropriately, follows instructions with minimal supervision.
-- **Collaboration** — accepts roles in a group, responds positively to others' ideas, builds healthy peer relationships, works to resolve conflicts, shares information and expertise.
-- **Initiative** — looks for and acts on new learning opportunities, demonstrates innovation and willingness to take risks, shows curiosity and interest, approaches new tasks positively.
-- **Self-Regulation** — sets own goals and monitors progress, seeks assistance when needed, reflects critically on own strengths and needs, perseveres and makes an effort with challenges.
+- **Responsibility**: fulfils commitments, completes and submits work on time, takes responsibility for and manages own behaviour.
+- **Organization**: devises and follows plans for completing tasks, establishes priorities and manages time, gathers and evaluates information and resources.
+- **Independent Work**: independently monitors and assesses own work, uses class time appropriately, follows instructions with minimal supervision.
+- **Collaboration**: accepts roles in a group, responds positively to others' ideas, builds healthy peer relationships, works to resolve conflicts, shares information and expertise.
+- **Initiative**: looks for and acts on new learning opportunities, demonstrates innovation and willingness to take risks, shows curiosity and interest, approaches new tasks positively.
+- **Self-Regulation**: sets own goals and monitors progress, seeks assistance when needed, reflects critically on own strengths and needs, perseveres and makes an effort with challenges.
 
 They are reported on the four-point scale **E** (Excellent), **G** (Good), **S** (Satisfactory), **N** (Needs Improvement). Apart from any learning skill that is part of a curriculum expectation, learning skills and work habits are **not** included in the determination of a student's grades. Reporting the two areas separately lets teachers give parents and students information specific to each.
 
-## Chapter 3 — Performance Standards: The Achievement Chart (p. 15)
+## Chapter 3: Performance Standards: The Achievement Chart (p. 15)
 
 Every Ontario curriculum document contains an achievement chart, a province-wide performance standard organized into four **categories of knowledge and skills** (to be treated as interrelated):
 
-- **Knowledge and Understanding** — subject-specific content acquired (knowledge) and the comprehension of its meaning and significance (understanding).
-- **Thinking** — the use of critical and creative thinking skills and/or processes. Some subjects name this category differently; see *Category names by subject* below.
-- **Communication** — the conveying of meaning through various forms.
-- **Application** — the use of knowledge and skills to make connections within and between various contexts.
+- **Knowledge and Understanding**: subject-specific content acquired (knowledge) and the comprehension of its meaning and significance (understanding).
+- **Thinking**: the use of critical and creative thinking skills and/or processes. Some subjects name this category differently; see *Category names by subject* below.
+- **Communication**: the conveying of meaning through various forms.
+- **Application**: the use of knowledge and skills to make connections within and between various contexts.
 
 Achievement is judged against **criteria** within each category, using **descriptors** expressed through qualifiers that map to the four levels: **limited** (Level 1), **some** (Level 2), **considerable** (Level 3), **a high degree of / thorough** (Level 4).
 
@@ -105,17 +105,17 @@ One caveat worth knowing, because it is the usual source of the mistake. The ICD
 
 **Level 3 is the provincial standard.** Parents of students achieving at Level 3 can be confident their children will be prepared for work in the next grade or course. Percentage/letter equivalents are set out in Chapter 5.
 
-## Chapter 4 — Assessment *for* Learning and *as* Learning (p. 27)
+## Chapter 4: Assessment *for* Learning and *as* Learning (p. 27)
 
 Three purposes of classroom assessment (glossary definitions):
 
-- **Assessment *for* learning** — "the ongoing process of gathering and interpreting evidence about student learning for the purpose of determining where students are in their learning, where they need to go, and how best to get there." A high-yield strategy used while the student is still learning; teachers use it to give feedback and adjust instruction. (diagnostic and formative)
-- **Assessment *as* learning** — "the process of developing and supporting student metacognition." Students monitor their own learning, use feedback from teacher, self, and peers to determine next steps, and set individual learning goals; the student is the critical connector between assessment and learning.
-- **Assessment *of* learning** — "the process of collecting and interpreting evidence … to summarize learning at a given point in time, to make judgements about the quality of student learning on the basis of established criteria, and to assign a value." It occurs at or near the end of a cycle of learning and is the basis for grades (Chapter 5).
+- **Assessment *for* learning**: "the ongoing process of gathering and interpreting evidence about student learning for the purpose of determining where students are in their learning, where they need to go, and how best to get there." A high-yield strategy used while the student is still learning; teachers use it to give feedback and adjust instruction. (diagnostic and formative)
+- **Assessment *as* learning**: "the process of developing and supporting student metacognition." Students monitor their own learning, use feedback from teacher, self, and peers to determine next steps, and set individual learning goals; the student is the critical connector between assessment and learning.
+- **Assessment *of* learning**: "the process of collecting and interpreting evidence … to summarize learning at a given point in time, to make judgements about the quality of student learning on the basis of established criteria, and to assign a value." It occurs at or near the end of a cycle of learning and is the basis for grades (Chapter 5).
 
 **Key practices:** share **learning goals** (drawn from curriculum expectations) at/near the start of a learning cycle; co-construct **success criteria** and build tools (checklist, rubric, exit card); give **descriptive feedback** telling the learner what was done well, what needs improvement, and specific steps; and build **self- and peer-assessment** by modelling the application of success criteria. Descriptive feedback (not marks) is the emphasis during learning.
 
-## Chapter 5 — Evaluation (p. 37)
+## Chapter 5: Evaluation (p. 37)
 
 Evaluation is "the process of judging the quality of student learning on the basis of established criteria and assigning a value to represent that quality."
 
@@ -123,7 +123,7 @@ Evaluation is "the process of judging the quality of student learning on the bas
 
 **Determining the grade:** the report card grade reflects the student's achievement of the **overall curriculum expectations** to that point, based on the **most consistent** level of achievement with **special consideration given to more recent evidence.** It involves teachers' professional judgement and interpretation of evidence, not a simple average.
 
-### Grades 1 to 6 — letter grades
+### Grades 1 to 6: letter grades
 
 Achievement is reported using letter grades, aligned to the achievement levels:
 
@@ -138,7 +138,7 @@ Achievement is reported using letter grades, aligned to the achievement levels:
 
 The codes **R** and **I** may also be used in Grades 1–6.
 
-### Grades 7 to 12 — percentage marks
+### Grades 7 to 12: percentage marks
 
 Both mathematical calculation and professional judgement inform the percentage mark:
 
@@ -151,12 +151,12 @@ Both mathematical calculation and professional judgement inform the percentage m
 | 3 | 73–76 | 1 | 53–56 |
 | 3− | 70–72 | 1− | 50–52 |
 
-### Final course mark, Grades 9 to 12 (original 2010 rule — replaced for 2026-27; see Part 2)
+### Final course mark, Grades 9 to 12 (original 2010 rule: replaced for 2026-27; see Part 2)
 
 A final percentage mark is recorded for every Grade 9–12 course, determined as:
 
 - **70%** based on evaluation conducted **throughout the course** (most consistent achievement, with special consideration for more recent evidence);
-- **30%** based on a **final evaluation** at or toward the end of the course — an examination, a performance, an essay, and/or another suitable method — giving the student a chance to demonstrate comprehensive achievement of the overall expectations.
+- **30%** based on a **final evaluation** at or toward the end of the course (an examination, a performance, an essay, and/or another suitable method), giving the student a chance to demonstrate comprehensive achievement of the overall expectations.
 
 **A credit is granted for every course in which the student's final mark is 50% or higher.**
 
@@ -172,86 +172,86 @@ For **Grades 1 to 10**, "I" may be used in the mark book or on the report card (
 
 Teachers use a range of strategies before penalizing (clarifying reasons, teaching time-management, assignment calendars, staging major assignments, communicating with students/parents). Marks may be deducted for lateness up to and including the full value of the assignment, provided a mark deduction will not, in the teacher's professional judgement, misrepresent the student's actual achievement. A **zero** may be assigned in Grades 7–12 for work not submitted only where the teacher has judged the student had adequate opportunity and was clearly informed of the consequences. In **Grades 1–6**, late/missed work is reflected through the **learning skills and work habits**, not the grade.
 
-## Chapter 6 — Reporting Student Achievement (p. 47)
+## Chapter 6: Reporting Student Achievement (p. 47)
 
 Three provincial report cards (templates in Appendix 2):
 
-- **Elementary Progress Report Card** (Grades 1–8, autumn) — reports development of learning skills/work habits and general progress ("Progressing With Difficulty / Well / Very Well"); it does **not** include letter grades or percentage marks.
-- **Elementary Provincial Report Card** (Grades 1–8) — issued twice (winter and toward year-end); grades/marks by subject (and, in 2010, by strand), learning skills, and comments.
-- **Secondary Provincial Report Card** — issued each reporting period/semester; percentage marks, credit status, learning skills, comments.
+- **Elementary Progress Report Card** (Grades 1–8, autumn): reports development of learning skills/work habits and general progress ("Progressing With Difficulty / Well / Very Well"); it does **not** include letter grades or percentage marks.
+- **Elementary Provincial Report Card** (Grades 1–8): issued twice (winter and toward year-end); grades/marks by subject (and, in 2010, by strand), learning skills, and comments.
+- **Secondary Provincial Report Card**: issued each reporting period/semester; percentage marks, credit status, learning skills, comments.
 
 The learning-skills scale is **E / G / S / N.** Teacher **comments** identify significant strengths and **next steps for learning.** Achievement is reported by letter grade (Grades 1–6) or percentage mark (Grades 7–12); credit is granted in secondary at **50% or higher.**
 
-## Chapter 7 — Students With Special Education Needs (p. 69)
+## Chapter 7: Students With Special Education Needs (p. 69)
 
 Assessment, evaluation, and reporting align with the student's **Individual Education Plan (IEP).** The chapter distinguishes:
 
-- **Accommodations** — special teaching/assessment strategies, supports, or equipment that let a student learn and demonstrate learning; the grade-level curriculum expectations are **not** altered.
-- **Modifications** — changes to the grade-level expectations themselves (different grade level; increased/decreased number or complexity of expectations). At the secondary level, a credit may or may not be granted depending on the extent of modification.
-- **Alternative expectations** — individualized expectations not derived from the curriculum (e.g. Transit Training, Personal Banking), generally focused on employment and/or community living; non-credit.
+- **Accommodations**: special teaching/assessment strategies, supports, or equipment that let a student learn and demonstrate learning; the grade-level curriculum expectations are **not** altered.
+- **Modifications**: changes to the grade-level expectations themselves (different grade level; increased/decreased number or complexity of expectations). At the secondary level, a credit may or may not be granted depending on the extent of modification.
+- **Alternative expectations**: individualized expectations not derived from the curriculum (e.g. Transit Training, Personal Banking), generally focused on employment and/or community living; non-credit.
 
 The report card includes an **IEP box** to indicate achievement based on expectations modified from the grade level. Evaluation is based on the modified/alternative expectations rather than the regular grade/course expectations.
 
-## Chapter 8 — English Language Learners (p. 75)
+## Chapter 8: English Language Learners (p. 75)
 
 Many English language learners (ELLs) require **accommodations** and, where needed, **modifications** while acquiring English; support is delivered through **ESL** (English as a Second Language) or **ELD** (English Literacy Development) programs. The report card carries a notation when expectations have been modified for language-learning needs. At the secondary level, when modifications are made for language needs, the principal works with the teacher to determine the integrity of the credit. Teachers adjust methods and timelines to the student's stage of English acquisition while holding grade-level expectations where appropriate.
 
-## Chapter 9 — E-Learning (p. 79)
+## Chapter 9: E-Learning (p. 79)
 
-The same fundamental principles and practices apply to online courses delivered through the provincial **Learning Management System (LMS).** Teachers ensure regular communication about progress, multiple assessment opportunities, descriptive feedback, and rigour equivalent to in-person instruction. There is no separate grading scheme — standard letter-grade/percentage conventions apply.
+The same fundamental principles and practices apply to online courses delivered through the provincial **Learning Management System (LMS).** Teachers ensure regular communication about progress, multiple assessment opportunities, descriptive feedback, and rigour equivalent to in-person instruction. There is no separate grading scheme; standard letter-grade/percentage conventions apply.
 
-## Chapter 10 — Credit Recovery (p. 83)
+## Chapter 10: Credit Recovery (p. 83)
 
 Credit recovery lets a student who has **failed** a secondary course (final mark below 50%, within the last two years, and did not withdraw) earn the credit by demonstrating achievement of the **overall expectations not yet met**, rather than repeating the whole course. A **credit recovery learning plan** (developed by the credit recovery teacher with the student) addresses attendance, workload, the specific expectations and units to be covered, the **30% final evaluation,** and final-mark determination. A **credit recovery team** (a subset of the school's Student Success team) oversees it. Credit may be recovered only for the specific course taken and failed.
 
-## Appendix 1 — Large-Scale Assessments (p. 91)
+## Appendix 1: Large-Scale Assessments (p. 91)
 
 Large-scale assessments differ from classroom assessment: they are one-time, standardized measures developed by provincial, national, or international agencies to provide snapshots of the strengths and weaknesses of education *systems.* Classroom assessment and large-scale assessment together paint a comprehensive picture of student learning; large-scale results should **not** be used to rank schools or boards.
 
 **Provincial (EQAO):** under Bill 30, the Education Quality and Accountability Office annually develops, administers, and reports:
 
-- reading, writing, and mathematics — Primary Division (Grades 1–3);
-- reading, writing, and mathematics — Junior Division (Grades 4–6);
+- reading, writing, and mathematics, Primary Division (Grades 1–3);
+- reading, writing, and mathematics, Junior Division (Grades 4–6);
 - Grade 9 assessment of mathematics (Applied and Academic, as of 2010);
 - the Ontario Secondary School Literacy Test (OSSLT, first written in Grade 10).
 
 How results relate to marks:
 - **Primary and Junior (Grades 1–6):** results are **not** incorporated into grades on the elementary provincial report card.
-- **Grade 9 mathematics (original 2010 rule):** "teachers are given the option of marking all or a portion of their students' work on the assessment and incorporating the marks in their determination of the students' final grades for the mathematics courses." *(This discretionary provision — Appendix 1, p. 93 — is what the September 2026 update replaces with a fixed 20% weighting; see Part 2.)*
+- **Grade 9 mathematics (original 2010 rule):** "teachers are given the option of marking all or a portion of their students' work on the assessment and incorporating the marks in their determination of the students' final grades for the mathematics courses." *(This discretionary provision in Appendix 1, p. 93, is what the September 2026 update replaces with a fixed 20% weighting; see Part 2.)*
 - **OSSLT:** passing meets the literacy graduation requirement, one of the requirements for the Ontario Secondary School Diploma.
 
 **National:** the **Pan-Canadian Assessment Program (PCAP)**, developed by CMEC, assessed every three years (reading, mathematics, science) at Grade 8.
 
 **International:** **PISA** (OECD; reading/math/science literacy every three years, age 15); **PIRLS** (IEA; reading every five years, Grade 4); **TIMSS** (IEA; mathematics and science every four years, Grades 4 and 8). Ontario participates through sample groups.
 
-## Appendix 2 — Report Card Templates (p. 97)
+## Appendix 2: Report Card Templates (p. 97)
 
 Contains the templates for the elementary Progress Report Card, the elementary Provincial Report Card, and the secondary Provincial Report Card.
 
-## Appendix 3 — Resources for Particular Policy and Program Areas (p. 139)
+## Appendix 3: Resources for Particular Policy and Program Areas (p. 139)
 
-Pointers to ministry resources for: **Cooperative Education** (the 2000 policy document); **Dual Credit Programs**; **Prior Learning Assessment and Recognition (PLAR)** — PPM 129 and PPM 132; the **Secondary School Literacy Graduation Requirement** — PPM 127, the OSSLC, and the adjudication process; and the **Specialist High Skills Major (SHSM)** program.
+Pointers to ministry resources for: **Cooperative Education** (the 2000 policy document); **Dual Credit Programs**; **Prior Learning Assessment and Recognition (PLAR)**: PPM 129 and PPM 132; the **Secondary School Literacy Graduation Requirement**: PPM 127, the OSSLC, and the adjudication process; and the **Specialist High Skills Major (SHSM)** program.
 
-## Glossary (p. 143) — selected key definitions
+## Glossary (p. 143): selected key definitions
 
-- **Assessment** — "the process of gathering, from a variety of sources, information that accurately reflects how well a student is achieving the curriculum expectations in a subject or course."
-- **Evaluation** — "the process of judging the quality of student learning on the basis of established criteria and assigning a value to represent that quality."
-- **Achievement chart** — "a standard, province-wide guide to be used by teachers to make judgements about student work based on clear performance standards."
-- **Performance standards / provincial standard** — the achievement chart describes four levels of achievement for four categories; the **provincial standard is Level 3.**
-- **Categories of knowledge and skills** — Knowledge and Understanding; Thinking; Communication; Application (interrelated). Science and Science and Technology call the second category *Thinking and Investigation*; Computer Studies calls it *Thinking*. See *Category names by subject* in Chapter 3.
-- **Criterion-referenced assessment** — assessment against a predetermined standard or set of criteria, not against other students' performance.
-- **Curriculum expectations** — the knowledge and skills students must demonstrate; **overall** (general, by end of grade/course) and **specific** (in greater detail).
-- **Learning goals** — brief statements of what a student should know and be able to do by the end of a period of instruction; subsets of the overall expectations.
-- **Success criteria** — descriptions of successful attainment of learning goals, based on achievement-chart criteria and agreed with students; describe what success "looks like."
-- **Descriptive feedback / assignment for evaluation / homework** — feedback that moves learning forward; assignments used to evaluate learning (rich tasks, projects, essays), distinct from homework done to practise.
-- **Rubric** — "a scale that uses brief statements based on the criteria provided in the achievement chart … to describe the levels of achievement of a process, product, or performance."
-- **Rich performance task** — an authentic task requiring students to apply knowledge/skills, usually addressing all four categories and multiple overall expectations.
-- **Professional judgement** — judgement informed by knowledge of curriculum, context, evidence, instruction/assessment methods, and the criteria and standards of success; purposeful, systematic, self-correcting.
-- **Diagnostic / formative / summative assessment** — before learning to identify readiness; during learning to guide improvement; at the end to summarize achievement.
-- **Teacher moderation** — teachers examining student work together to make assessment comparable across classes/schools.
-- **Modifications** vs **accommodations** — changes to the expectations vs changes to how a student accesses learning without altering expectations.
-- **Individual Education Plan (IEP)** — a written plan of the special-education program/services and accommodations for a student, identifying modified or alternative expectations to be assessed.
-- **Reliability / validity** — consistency of measurement; the degree to which an assessment measures what it claims to.
+- **Assessment**: "the process of gathering, from a variety of sources, information that accurately reflects how well a student is achieving the curriculum expectations in a subject or course."
+- **Evaluation**: "the process of judging the quality of student learning on the basis of established criteria and assigning a value to represent that quality."
+- **Achievement chart**: "a standard, province-wide guide to be used by teachers to make judgements about student work based on clear performance standards."
+- **Performance standards / provincial standard**: the achievement chart describes four levels of achievement for four categories; the **provincial standard is Level 3.**
+- **Categories of knowledge and skills**: Knowledge and Understanding; Thinking; Communication; Application (interrelated). Science and Science and Technology call the second category *Thinking and Investigation*; Computer Studies calls it *Thinking*. See *Category names by subject* in Chapter 3.
+- **Criterion-referenced assessment**: assessment against a predetermined standard or set of criteria, not against other students' performance.
+- **Curriculum expectations**: the knowledge and skills students must demonstrate; **overall** (general, by end of grade/course) and **specific** (in greater detail).
+- **Learning goals**: brief statements of what a student should know and be able to do by the end of a period of instruction; subsets of the overall expectations.
+- **Success criteria**: descriptions of successful attainment of learning goals, based on achievement-chart criteria and agreed with students; describe what success "looks like."
+- **Descriptive feedback / assignment for evaluation / homework**: feedback that moves learning forward; assignments used to evaluate learning (rich tasks, projects, essays), distinct from homework done to practise.
+- **Rubric**: "a scale that uses brief statements based on the criteria provided in the achievement chart … to describe the levels of achievement of a process, product, or performance."
+- **Rich performance task**: an authentic task requiring students to apply knowledge/skills, usually addressing all four categories and multiple overall expectations.
+- **Professional judgement**: judgement informed by knowledge of curriculum, context, evidence, instruction/assessment methods, and the criteria and standards of success; purposeful, systematic, self-correcting.
+- **Diagnostic / formative / summative assessment**: before learning to identify readiness; during learning to guide improvement; at the end to summarize achievement.
+- **Teacher moderation**: teachers examining student work together to make assessment comparable across classes/schools.
+- **Modifications** vs **accommodations**: changes to the expectations vs changes to how a student accesses learning without altering expectations.
+- **Individual Education Plan (IEP)**: a written plan of the special-education program/services and accommodations for a student, identifying modified or alternative expectations to be assessed.
+- **Reliability / validity**: consistency of measurement; the degree to which an assessment measures what it claims to.
 - Secondary structure terms: **credit** (min. 110 scheduled hours), **compulsory** (18) and **optional** (12) credits, the **OSSD** (30 credits plus literacy and 40 hours community involvement), **OSSC**, **OST**, **OSR**, **OSSLT/OSSLC**, **PLAR**, **SHSM**.
 
 ## References (p. 157)
@@ -260,11 +260,11 @@ Research and policy sources cited throughout (e.g. Assessment Reform Group; West
 
 ---
 
-# Part 2 — Updates and Addendums (through 2026)
+# Part 2: Updates and Addendums (through 2026)
 
 These appear on the ministry page and are **not** in the 2010 PDF. Newest first.
 
-## September 2026 — Mandatory Assessment and Evaluation Requirements, Grades 9 to 12 (replaces Chapter 5's final-mark rule)
+## September 2026: Mandatory Assessment and Evaluation Requirements, Grades 9 to 12 (replaces Chapter 5's final-mark rule)
 
 **Effective:** the 2026-27 school year. Replaces the 70% term / 30% final-evaluation model with a mandated structure.
 
@@ -276,25 +276,25 @@ These appear on the ministry page and are **not** in the 2010 PDF. Newest first.
 | Mandatory final evaluations | 20% | 25% |
 | Attendance and participation | 15% | 10% |
 
-### Final evaluation by subject — Grades 9–10 (final evaluations total 20%)
+### Final evaluation by subject: Grades 9–10 (final evaluations total 20%)
 
 | Subject area | Written exam | Culminating task |
 |--------------|:-----------:|:----------------:|
-| English, Mathematics, Science | 20% | — |
-| Canadian and World Studies (Geography) | 20% | — |
-| Canadian and World Studies (History) | 20% | — |
-| Canadian and World Studies (Civics) | 20% | — |
+| English, Mathematics, Science | 20% | - |
+| Canadian and World Studies (Geography) | 20% | - |
+| Canadian and World Studies (History) | 20% | - |
+| Canadian and World Studies (Civics) | 20% | - |
 | The Arts; Computer Studies; Health and Physical Education; Technological Education | 10% | 10% |
 | Business Studies; Social Sciences and Humanities | 10% | 10% |
 | Classical Studies and International Languages; French / Native Languages | 10% | 10% |
 | First Nations, Métis, and Inuit Studies | 10% | 10% |
-| Grade 10 Career Studies (GLC2O) | — | 15% culminating task, plus the 5% financial literacy graduation requirement (below) |
+| Grade 10 Career Studies (GLC2O) | - | 15% culminating task, plus the 5% financial literacy graduation requirement (below) |
 
-### Final evaluation by subject — Grades 11–12 (final evaluations total 25%)
+### Final evaluation by subject: Grades 11–12 (final evaluations total 25%)
 
 | Subject area | Written exam | Culminating task |
 |--------------|:-----------:|:----------------:|
-| English, Mathematics, Science | 25% | — |
+| English, Mathematics, Science | 25% | - |
 | The Arts; Computer Studies; Health and Physical Education; Technological Education | 10% | 15% |
 | Canadian and World Studies | 15% | 10% |
 | Business Studies; Social Sciences and Humanities | 15% | 10% |
@@ -323,11 +323,11 @@ All written final exams in Grades 9–12 take place during the designated exam p
 | Level 3 | 70–79% | 2.5%–5% | ~2.5–4.5 |
 | Level 2 | 60–69% | 5%–7.5% | ~5–7 |
 | Level 1 | 50–59% | 7.5%–10% | ~7.5–9 |
-| Below Level 1 | Below 50% | More than 10% | — |
+| Below Level 1 | Below 50% | More than 10% | - |
 
 **Excused absences do not negatively affect a student's mark.**
 
-## September 2026 — Financial Literacy Graduation Requirement
+## September 2026: Financial Literacy Graduation Requirement
 
 - **Applies to:** students who entered Grade 9 in 2025-26 and onward.
 - **Where:** completed in **Grade 10 Career Studies (GLC2O)**, making up **5% of the final course mark.**
@@ -335,24 +335,24 @@ All written final exams in Grades 9–12 take place during the designated exam p
 - **Assessment:** learning modules and questions developed by **TVO.**
 - **Attempts:** **2** during the Grade 10 course, with further re-attempt opportunities outside the course.
 
-## September 2026 — Updated EQAO Grade 9 Mathematics Assessment
+## September 2026: Updated EQAO Grade 9 Mathematics Assessment
 
 - **From 2026-27,** the EQAO Grade 9 math assessment is weighted at a fixed **20% of the final math mark.**
-- **Previously:** discretionary — teachers could mark all or a portion and incorporate it (2025-26 guidance framed this as at least 10% up to 30%).
+- **Previously:** discretionary; teachers could mark all or a portion and incorporate it (2025-26 guidance framed this as at least 10% up to 30%).
 - Replaces the discretionary provision on **page 93 of Appendix 1** of Growing Success.
 
-## June 2026 — Paper Report Card Distribution Requirement
+## June 2026: Paper Report Card Distribution Requirement
 
 - **Elementary (K–8):** end-of-term report cards sent home with students through homeroom teachers; boards may also provide paper copies during the October/November progress-report period.
 - **Secondary:** boards may continue current approaches and provide paper copies on request.
 
-## September 2023 — Language Report Card Completion, Grades 1 to 8
+## September 2023: Language Report Card Completion, Grades 1 to 8
 
-Achievement in Language is reported as **one overall grade/mark with supporting comments,** not by separate strand — aligning with the 2023 elementary Language curriculum.
+Achievement in Language is reported as **one overall grade/mark with supporting comments,** not by separate strand, aligning with the 2023 elementary Language curriculum.
 
-## September 2020 — Mathematics Report Card Completion, Grades 1 to 8
+## September 2020: Mathematics Report Card Completion, Grades 1 to 8
 
-Achievement in Mathematics is reported as **one overall grade/mark with supporting comments,** integrated across strands — aligning with the 2020 elementary Mathematics curriculum.
+Achievement in Mathematics is reported as **one overall grade/mark with supporting comments,** integrated across strands, aligning with the 2020 elementary Mathematics curriculum.
 
 ## Kindergarten Addendum
 
@@ -360,7 +360,7 @@ A companion document (first issued 2016) covering assessment, evaluation, and re
 
 ---
 
-# Quick Reference — What Changed and When
+# Quick Reference: What Changed and When
 
 | Effective | Change | Affects |
 |-----------|--------|---------|

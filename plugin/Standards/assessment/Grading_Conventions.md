@@ -2,7 +2,7 @@
 
 Shared assessment rules for all GLA course repos. Per-course weighting tables (what each unit/test/assignment is worth) live in the course's `Assessment_Plan.md`; this file governs the *form* of every graded item. The governing Ontario policy, with the September 2026 amendments folded in, is `growing-success-summary.md` in this same folder; where a weighting rule below cites a percentage, that policy is its source.
 
-## Exercises — the /10 completion scale
+## Exercises: the /10 completion scale
 
 - Exercises have **no rubric**. They are graded on the /10 completion scale, and the anchors are **printed on every exercise sheet**:
 
@@ -21,11 +21,11 @@ Shared assessment rules for all GLA course repos. Per-course weighting tables (w
 ## Assignments
 
 - Every assignment opens with a **`## Learning goals`** section, placed between the header block and the scenario: 3 to 5 student-facing bullets under "By the end of this assignment you will be able to ...", derived from the assignment's expectation codes and the learning goals of the week lessons it follows. Expectation codes stay in the header block, the goals are written in student language. See `templates/Assignment_Template.md`.
-- **Default: one per unit** — a course's `Assessment_Plan.md` may set a different per-unit count with justification (courses with one dominant strand should first consider slicing it into sub-units instead). Google Classroom rubric (CSV + Markdown pair) using the Ontario Growing Success achievement chart: **5 levels** (Below Level 1 → Level 4, Level 3 = provincial standard) × **4 categories** (Knowledge/Understanding, Thinking, Communication, Application).
+- **Default: one per unit**; a course's `Assessment_Plan.md` may set a different per-unit count with justification (courses with one dominant strand should first consider slicing it into sub-units instead). Google Classroom rubric (CSV + Markdown pair) using the Ontario Growing Success achievement chart: **5 levels** (Below Level 1 → Level 4, Level 3 = provincial standard) × **4 categories** (Knowledge/Understanding, Thinking, Communication, Application).
 - Rubric CSVs must pass Google Classroom import checks: 7 columns, all 5 levels per criterion, and criterion point totals that sum exactly to the assignment's stated points. The CSV level-title strings are exactly: `High Degree of Effectiveness (Level 4)` · `Considerable Effectiveness (Level 3)` · `Some Effectiveness (Level 2)` · `Limited Effectiveness (Level 1)` · `Not Yet Demonstrated` (the house rendering of "Below Level 1").
 - Students get **1.5–2 weeks** (7–10 class days) from hand-out to due slot. Extensions must be requested before the due date.
 - Every assignment includes **stretch goals** worth bonus marks (harder challenges or deeper self-directed exploration of the current topic, with citation of what was used to learn it). Combined stretch bonus is capped at ~10% of the assignment's points, and a unit's assignment component is capped at 100%.
-- Every assignment includes an **academic-integrity note**: discussing ideas is fine; submitting code/work you did not produce — from a classmate, a website, or an AI tool — is not; you must be able to explain every line of your submission.
+- Every assignment includes an **academic-integrity note**: discussing ideas is fine; submitting code/work you did not produce (from a classmate, a website, or an AI tool) is not; you must be able to explain every line of your submission.
 - Teacher-side `marking_notes.md` accompanies every assignment (common shortcuts, integrity red flags, level anchors).
 
 ### Rubric level points
@@ -60,7 +60,7 @@ Mixed results land between bands. Two criteria at Level 3 and two at Level 2, eq
   - Part A: multiple choice, 1 mark each, 4 options, exactly one correct; ~40–50% of marks in a two-part test.
   - Part B: short answer / applied, ~50–60% of marks in a two-part test. For coding courses: trace-this-code, find-the-error, write-a-fragment, explain-in-your-own-words. For science: label-the-diagram, calculations, explain. For history: source analysis, short response.
   - Parts C and later, when listed: written items numbered with their letter, for example an extended response.
-- Ship with: `test_KEY.md` (full answers incl. accepted variations), `coverage_table.md` (Question | Expectation codes | Category K/T/C/A | Marks — every taught expectation of the unit appears at least once), `review_sheet.md` (student-facing, used on the preceding review day; sample questions differ from the test), and `test_reference.md` (student-facing aid sheet handed out **with** the test paper: the syntax, tables, formulas and conversions students may consult while writing, drawn from the unit's reference sheets, with no worked examples and no practice questions).
+- Ship with: `test_KEY.md` (full answers incl. accepted variations), `coverage_table.md` (Question | Expectation codes | Category K/T/C/A | Marks; every taught expectation of the unit appears at least once), `review_sheet.md` (student-facing, used on the preceding review day; sample questions differ from the test), and `test_reference.md` (student-facing aid sheet handed out **with** the test paper: the syntax, tables, formulas and conversions students may consult while writing, drawn from the unit's reference sheets, with no worked examples and no practice questions).
 - Written for a 50-minute period. The teacher copy carries answers inline or via KEY; the student copy is generated by stripping answers, so questions must stay self-contained.
 - **No ministry document names in student-facing test text.** A question may assess a work habit, a safety practice, or an achievement category, but it names the skill rather than the document it comes from. "Which work habit is she demonstrating?" is fine; "Which Ontario Skills Passport work habit ..." is not. The same applies to Growing Success and to the curriculum document. Expectation codes belong in `coverage_table.md`, never on the paper.
 - The `## Structure` section and the `### Companion files` section are teacher-only. The student handout generated by the `semester` skill's Google Docs step drops both, letters the multiple-choice options (the letter is the marker, there is no bullet), lays short option sets out in columns, and spaces the questions apart. Author one option per source line so that layout can do its work.
@@ -110,7 +110,7 @@ A graded component worth 15% (Grades 9-10) or 10% (Grades 11-12), scored on **un
 
 ## Category weighting
 
-- Default Growing Success category weighting for summative work: **K/U 25 · Thinking 30 · Communication 20 · Application 25**. A course layer may adjust with justification in its `Assessment_Plan.md`. The 2026 amendment changed only the final-mark structure above; the four-category achievement chart itself is unchanged, so this default and the gc-rubric levels stand.
+- Default Growing Success category weighting for summative work: **K/U 25 · Thinking 30 · Communication 20 · Application 25**. A course may set its own in course.yaml (`assessment.category_weights`), with the reason in its `Assessment_Plan.md`; gc-rubric uses it, and this default otherwise. The 2026 amendment changed only the final-mark structure above; the four-category achievement chart itself is unchanged, so this default and the gc-rubric levels stand.
 
 ## Naming the second category
 

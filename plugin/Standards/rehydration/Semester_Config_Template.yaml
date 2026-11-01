@@ -67,6 +67,15 @@ overrides: []
 decisions: []
 flags: []
 
+# Teacher decisions the generator asks for (it stops with exit 3 until they are here).
+# extra_cuts: slots to drop this semester when the plan cannot fit, the teacher's
+#   answer to "which unit to thin". Never an assess or hand-out day; master is untouched.
+# accept_rule_breaks: evaluations whose broken rule the teacher accepts on a date still
+#   ahead: an assignment's name (its window is outside 7 to 10 class days) or
+#   `culminating` (the last submission is too close to the exams).
+extra_cuts: []
+accept_rule_breaks: []
+
 # Mid-semester re-run only: keep every day before this date as the existing
 # calendar.yaml has it and re-plan the rest. Leave empty for a new semester.
 resume_from: ""

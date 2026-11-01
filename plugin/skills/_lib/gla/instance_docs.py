@@ -157,12 +157,36 @@ class Docs:
             if it.due and not target:
                 self.flags.append("%s: due slot %s is not in this semester's plan." % (it.name, it.due))
             it.out_of = self._out_of(it)
-            it.summary = self.summaries.get(it.name, "")
+            it.summary = self.summaries.get(it.name, "") or self._summary_from_master(it)
         missing = [it.name for it in items if not it.summary]
         if missing:
-            self.flags.append("No `summary` in the week plans for: %s. Fill the register's \"What it is\" cell by hand "
-                              "or add the summaries to master." % ", ".join(missing))
+            self.flags.append("No summary for: %s (no week-plan `summary`, and nothing to take one from). "
+                              "Fill the register's \"What it is\" cell by hand." % ", ".join(missing))
         return items
+
+    def _summary_from_master(self, it):
+        """A register line when the week plan gives none: a test names its unit, an
+        assignment uses its first learning goal, an exercise or brief its first
+        sentence under '## What you're doing' (or the first paragraph after its header)."""
+        master = os.path.join(self.root, "master")
+        if it.kind == "test":
+            return "Unit test: %s." % self.unit_title(it.block).rstrip(".") if self.unit_dir(it.block) else ""
+        if it.kind == "assignment":
+            for p in glob.glob(os.path.join(master, "**", "Assessment", it.name, "*instructions.md"), recursive=True):
+                m = re.search(r"^## Learning goals\s*\n(?:[^\n]*\n)*?\s*[-*]\s+(.+)$", _read(p), re.M)
+                if m:
+                    goal = m.group(1).strip().rstrip(".")
+                    return goal[0].upper() + goal[1:] + "."
+            return ""
+        for p in glob.glob(os.path.join(master, "**", it.name + ".md"), recursive=True):
+            body = re.sub(r"\A.*?\n(?=## )", "", _read(p), count=1, flags=re.S)
+            m = re.search(r"^## What you're doing\s*\n+(.+?)(?:\n\n|$)", body, re.M | re.S) or \
+                re.search(r"^## [^\n]*\n+([^#<>|*\-`\n][^\n]*)", body, re.M)
+            if m:
+                text = " ".join(m.group(1).split())
+                first = re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0]
+                return first if len(first) <= 200 else first[:197].rsplit(" ", 1)[0] + "..."
+        return ""
 
     def _out_of(self, it):
         if it.weight is None:
@@ -271,7 +295,8 @@ class Docs:
             lo, hi = self.block_dates[b]
             its = [i for i in self.items if i.block == b]
             if mparams and b == mparams["name"]:
-                num, title = "AI" if b == "ai_module" else b, form.get("plan_title", b)
+                slot = next((str(i.due) for i in its if i.due), "")   # the module's slot prefix, AI in AI.S.D3
+                num, title = mparams.get("block") or str(slot).split(".")[0] or b, form.get("plan_title", b)
             else:
                 n = re.sub(r"\D", "", b)
                 num, title = (n or b), self.unit_title(b).upper()
@@ -353,7 +378,7 @@ class Docs:
         text = text.replace("{{EXAM_START}}", fmt_day(p.exam_start)).replace("{{EXAM_END}}", fmt_day(p.exam_end))
         text = re.sub(r"^\| \{\{HOLIDAY_ROWS\}\} \|[^\n]*\n", (hol + "\n") if hol else "", text, flags=re.M)
         row = form.get("outline_row") if form else None
-        text = re.sub(r"^\| \{\{AI_ROW\}\} \|[^\n]*\n", (row + "\n") if row else "", text, flags=re.M)
+        text = re.sub(r"^\| \{\{(?:MODULE|AI)_ROW\}\} \|[^\n]*\n", (row + "\n") if row else "", text, flags=re.M)   # AI_ROW: the old name
         left = sorted(set(re.findall(r"\{\{[A-Z0-9_]+\}\}", text)))
         if left:
             self.flags.append("Course_Outline.md placeholders the generator does not know: %s." % ", ".join(left))

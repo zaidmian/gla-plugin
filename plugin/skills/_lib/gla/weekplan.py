@@ -11,6 +11,9 @@ from . import paths, placeholders, slots
 
 DAY_TYPES = ("teach", "lab", "wet_lab", "exercise", "studio", "seminar", "debate", "field_trip", "flex", "assess")
 SUB_READY_TYPES = ("exercise", "lab", "studio", "flex")
+# A unit's weekly rhythm, from its overview's **Rhythm:** line (Style Guide Core §2):
+# standard weeks ship EX_/_KEY, studio weeks ship BRIEF_/_MARKING.
+RHYTHMS = ("standard", "studio")
 # Days a substitute cannot run (Style Guide Core §8). A wet lab's fallback is in
 # its D<n>_Lab_ file; the others name theirs in the plan's sub_fallback.
 NEVER_SUB_READY = ("teach", "wet_lab", "seminar", "debate", "field_trip")
@@ -107,7 +110,7 @@ def check(plan, path, report, master=True):
 
     if master:
         for where, problem in unfilled(plan):
-            report.error("placeholder", path, "%s %s" % (where, problem))
+            report.error("style-placeholder", path, "%s %s" % (where, problem))
 
     for e in plan.get("evaluations") or []:
         if not isinstance(e, dict) or not e.get("name"):

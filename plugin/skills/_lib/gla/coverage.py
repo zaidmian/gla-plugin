@@ -12,7 +12,7 @@ import re
 
 from . import mdtable
 
-CODE = re.compile(r"[A-Z]\d+\.\d+")
+from .codes import CODE
 UNIT_ITEM = re.compile(r"(?<![\w./])((?:U\d+\s*/\s*)*U\d+)\s+(assignments?|tests?)\b", re.I)
 UNIT_TEST = re.compile(r"\bUnit (\d+) Test\b")
 NAMED_ASSIGNMENT = re.compile(r"\bAssignment_(\w+)")
@@ -23,14 +23,13 @@ def map_path(root):
     return os.path.join(root, "master", "01_Standards", "Curriculum_Coverage_Map.md")
 
 
-def assessed_cells(root):
-    """{code: Assessed in cell} for every code row of the map."""
-    path = map_path(root)
+def assessed_rows(path):
+    """[(code, Assessed in cell, line)] from every Code table of the map at path."""
     if not os.path.exists(path):
-        return {}
+        return []
     with open(path, encoding="utf-8") as f:
         text = f.read()
-    out = {}
+    out = []
     for hdr, rows, _ in mdtable.tables(text):
         if not hdr or hdr[0].strip().lower() != "code":
             continue
@@ -38,11 +37,45 @@ def assessed_cells(root):
             ai = mdtable.column(hdr, "assessed")
         except KeyError:
             continue
-        for _, r in rows:
+        for line, r in rows:
             code = r[0].strip()
             if CODE.fullmatch(code) and ai < len(r):
-                out[code] = r[ai]
+                out.append((code, r[ai], line))
     return out
+
+
+def taught_rows(path):
+    """[(code, Taught in or Anchor cell)] from every Code table of the map at path."""
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    rows = []
+    for hdr, body, _ in mdtable.tables(text):
+        if not hdr or hdr[0].strip().lower() != "code":
+            continue
+        ti = next((k for k, h in enumerate(hdr) if h.lower().startswith(("taught", "anchor"))), None)
+        if ti is None:
+            continue
+        for _, c in body:
+            code = c[0].strip()
+            if CODE.fullmatch(code) and ti < len(c):
+                rows.append((code, c[ti]))
+    return rows
+
+
+def mentions_week(cell, unit, week):
+    """True when a coverage-map cell names this week (U2.W3, U2.W3.D1, U2.W2–W3)."""
+    for m in re.finditer(r"(?<![\w.])%s\.W(\d+)(?:\s*[–-]\s*W(\d+))?(?!\d)" % re.escape(unit), cell or ""):
+        lo, hi = int(m.group(1)), int(m.group(2) or m.group(1))
+        if lo <= week <= hi:
+            return True
+    return False
+
+
+def assessed_cells(root):
+    """{code: Assessed in cell} for every code row of the map."""
+    return {code: cell for code, cell, _ in assessed_rows(map_path(root))}
 
 
 def units(root):

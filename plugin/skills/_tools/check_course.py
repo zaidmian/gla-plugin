@@ -53,7 +53,7 @@ def main(argv=None):
     report = findings.Report(root)
     c = coursecheck.check(root, report, style=not args.no_style)
     if prefixes:
-        report.items = [i for i in report.items if i[1].startswith(prefixes)]
+        report.items = [i for i in report.items if i[1].startswith(tuple(findings.canonical(p) for p in prefixes))]
     if keep is not None:
         report.keep_paths(keep)
     report.apply_allows()

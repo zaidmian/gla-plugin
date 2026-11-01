@@ -98,6 +98,7 @@ class Plan:
         self.slot_pins = {}   # slot -> date it was moved to on or after resume_from (teaching log)
         self.dropped = []     # slots skipped for the semester (teaching log): never re-planned
         self.log_changes = [] # (slot, what happened), from the teaching log, for the report
+        self.breaks = []      # rule breaks on dates still ahead: the teacher must decide (exit 3)
 
     # -------------------------------------------------------------- sequence
     def assemble(self):
@@ -321,15 +322,26 @@ class Plan:
         by_slot = {s.slot: s for s in self.seq}
         need = len(self.seq) - self.usable
         mode = _get(self.cfg, "options.compression", "auto")
+        teacher_tier = {"priority": "teacher", "what": "cut at the teacher's direction (extra_cuts)",
+                        "consequence": "the slots' content is not taught this semester"}
+        for s in self.cfg.get("extra_cuts") or []:
+            s = str(s)
+            if s not in by_slot:
+                raise ConfigError("extra_cuts names %s, which is not a slot still to be planned" % s)
+            if by_slot[s].day_type == "assess" or s in protected:
+                raise ConfigError("extra_cuts names %s, an assess or hand-out day; drop the evaluation in master instead" % s)
+            self.cuts.append((s, teacher_tier))
+            need -= 1
         if need > 0 and mode == "manual":
-            raise NeedsTeacher("compression is manual and the plan is %d slot(s) over the usable days" % need)
+            raise NeedsTeacher("compression is manual and the plan is %d slot(s) over the usable days; "
+                               "ask the teacher which slots to drop and list them in the config's extra_cuts" % need)
         for tier in (self.params.get("compression") or {}).get("tiers") or []:
             if tier.get("manual"):
                 continue
             for s in tier.get("slots") or []:
                 if need <= 0:
                     break
-                if s not in by_slot or s in self.slot_pins:
+                if s not in by_slot or s in self.slot_pins or s in {c for c, _ in self.cuts}:
                     continue   # a slot the teaching log moved to a date is never cut
                 if by_slot[s].day_type in ("teach", "assess") or s in protected:
                     raise ConfigError("tier %s lists %s, a %s or hand-out day; those are never cut"
@@ -342,7 +354,8 @@ class Plan:
         if floor:
             kept = sum(1 for s in self.seq + self.done if s.block in floor.get("blocks", []))
             if kept < floor["slots"]:
-                raise NeedsTeacher("compression went below the floor (%d < %d)" % (kept, floor["slots"]))
+                raise NeedsTeacher("compression went below the floor (%d < %d); ask the teacher which slots to drop "
+                                   "and list them in the config's extra_cuts" % (kept, floor["slots"]))
         if need > 0:
             module_slots = sum(1 for s in self.seq + self.done if s.block in self.module_blocks)
             min_reserve = min((m.get("reserve_spill") or {}).get("min_reserve", self.reserve + 1)
@@ -350,7 +363,8 @@ class Plan:
             allowed = max(0, min(module_slots, self.reserve - min_reserve))
             if need > allowed:
                 raise NeedsTeacher("after every sanctioned cut the plan is still %d slot(s) over; the reserve spill "
-                                   "allows %d. Ask the teacher which unit to thin." % (need, allowed))
+                                   "allows %d. Ask the teacher which slots to drop (a unit to thin) and list them in "
+                                   "the config's extra_cuts." % (need, allowed))
             self.spill = need
         self.math.update({"slots": len(self.seq), "buffers": len(self.scheduled) - len(self.seq), "spill": self.spill})
         margin = self.params.get("expand_margin", 4)
@@ -474,9 +488,19 @@ class Plan:
         moves one class day later), or gives up the buffer in front of it (one class
         day earlier), or takes a later test's buffer, or trades places with the flex
         day after it in the same block. What cannot be moved is flagged."""
-        avoid = {self.WEEKDAYS.index(x[:3].title()) for x in ((self.params.get("constraints") or {}).get("avoid_test_days") or [])
-                 if x[:3].title() in self.WEEKDAYS}
-        if not avoid or not tests:
+        cons = self.params.get("constraints") or {}
+        avoid = {self.WEEKDAYS.index(x[:3].title()) for x in (cons.get("avoid_test_days") or []) if x[:3].title() in self.WEEKDAYS}
+        after_break = cons.get("no_test_after_break", True)
+
+        def bad_day(d):
+            """Why a test cannot sit on d, or None."""
+            if d.weekday() in avoid:
+                return "a %s, a day this course avoids for tests" % self.WEEKDAYS[d.weekday()]
+            if after_break and self.after_closure(d):
+                return "the first class day after %s" % self.closures[self.after_closure(d)]
+            return None
+
+        if not (avoid or after_break) or not tests:
             return items
         free = [d for d in self.weekdays if d not in self.kept and not (self.resume_from and d < self.resume_from)
                 and d not in self.closures and d not in pinned]
@@ -490,7 +514,7 @@ class Plan:
         for _ in range(4 * len(tests) + 4):
             bad = None
             for k, (kind, v) in enumerate(items):
-                if kind == "slot" and v.slot in names and k < len(free) and free[k].weekday() in avoid and v.slot not in unfixable:
+                if kind == "slot" and v.slot in names and k < len(free) and bad_day(free[k]) and v.slot not in unfixable:
                     bad = (k, v.slot)
                     break
             if not bad:
@@ -500,30 +524,38 @@ class Plan:
             ends = [j for j, (kind, v) in enumerate(items) if kind == "buffer" and v == "end-of-semester buffer"]
             mine = k > 0 and items[k - 1][0] == "buffer" and items[k - 1][1].startswith("buffer before")
             later = [j for j, (kind, v) in enumerate(items) if j > k and kind == "buffer" and v.startswith("buffer before")]
-            if ends and k + 1 < len(free) and free[k + 1].weekday() not in avoid:
+            if ends and k + 1 < len(free) and not bad_day(free[k + 1]):
                 items.pop(ends[-1])
-                items.insert(k, ("buffer", "buffer before %s (keeps the test off a %s)" % (names[slot], self.WEEKDAYS[was.weekday()])))
+                items.insert(k, ("buffer", "buffer before %s (keeps the test off %s)" % (names[slot], bad_day(was).split(",")[0])))
                 how = "a spare buffer day goes in front of it"
-            elif mine and free[k - 1].weekday() not in avoid:
+            elif mine and not bad_day(free[k - 1]):
                 items.pop(k - 1)
                 items.append(("buffer", "end-of-semester buffer"))
                 how = "its review buffer day moves to the end of the semester"
-            elif later and k + 1 < len(free) and free[k + 1].weekday() not in avoid:
+            elif later and k + 1 < len(free) and not bad_day(free[k + 1]):
                 j = later[-1]
                 taken = items.pop(j)[1]
-                items.insert(k, ("buffer", "buffer before %s (keeps the test off a %s)" % (names[slot], self.WEEKDAYS[was.weekday()])))
+                items.insert(k, ("buffer", "buffer before %s (keeps the test off %s)" % (names[slot], bad_day(was).split(",")[0])))
                 how = "it takes the buffer day from %s" % taken.replace("buffer before ", "")
             elif (k + 1 < len(items) and k + 1 < len(free) and items[k + 1][0] == "slot" and items[k + 1][1].day_type == "flex"
-                  and items[k + 1][1].block == items[k][1].block and free[k + 1].weekday() not in avoid):
+                  and items[k + 1][1].block == items[k][1].block and not bad_day(free[k + 1])):
                 items[k], items[k + 1] = items[k + 1], items[k]
                 how = "it trades places with %s, the flex day after it" % items[k][1].slot
             else:
                 unfixable.add(slot)
-                self.flags.append("%s lands on a %s (%s), a day this course avoids for tests, and no buffer or flex day could move it."
-                                  % (names[slot], self.WEEKDAYS[was.weekday()], fmt_long(was)))
+                self.flags.append("%s lands on %s (%s), and no buffer or flex day could move it."
+                                  % (names[slot], bad_day(was), fmt_long(was)))
                 continue
             self.test_moves.append((names[slot], was, free[where(slot)], how))
         return items
+
+    def after_closure(self, d):
+        """The closure on the class weekday just before d (a holiday, PA day or
+        closed event day), or None. Weekends do not count as a break."""
+        prev = d - dt.timedelta(days=1)
+        while prev.weekday() > 4:
+            prev -= dt.timedelta(days=1)
+        return prev if prev in self.closures else None
 
     # ----------------------------------------------------------- annotations
     def land(self, slot):
@@ -593,14 +625,27 @@ class Plan:
             return sum(1 for x in dated if a < x["date"] <= b)
 
         self.windows = []
+        accepted = {str(x) for x in self.cfg.get("accept_rule_breaks") or []}
+
+        def rule_break(name, msg, when):
+            """A broken rule on a date still ahead needs the teacher (exit 3) unless the
+            config accepts it; one already in the past is history and goes unreported."""
+            if self.resume_from and when < self.resume_from:
+                return
+            if name in accepted:
+                self.flags.append(msg + " Accepted in the config (accept_rule_breaks).")
+            else:
+                self.flags.append(msg)
+                self.breaks.append((name, msg))
+
         for e in self.evaluations():
             if e.get("kind") == "assignment" and e.get("handed_out") in by_slot and e.get("due") in by_slot:
                 a, b = by_slot[e["handed_out"]], by_slot[e["due"]]
                 w = between(a.date, b.date)
                 self.windows.append((e["name"], a, b, w))
-                if not lo <= w <= hi and not (self.resume_from and b.date < self.resume_from):
-                    self.flags.append("%s runs %d class days (%s to %s); the rule is %d to %d."
-                                      % (e["name"], w, fmt_short(a.date), fmt_short(b.date), lo, hi))
+                if not lo <= w <= hi:
+                    rule_break(e["name"], "%s runs %d class days (%s to %s); the rule is %d to %d."
+                               % (e["name"], w, fmt_short(a.date), fmt_short(b.date), lo, hi), b.date)
             if e.get("kind") == "test" and e.get("due") in by_slot and by_slot[e["due"]].day_type != "assess":
                 self.flags.append("%s is due on %s, a %s day." % (e["name"], e["due"], by_slot[e["due"]].day_type))
         lead = (self.params.get("constraints") or {}).get("demo_lead_days")
@@ -609,8 +654,8 @@ class Plan:
             last = max(s.date for s in cdue)
             gap = sum(1 for x in dated if last < x["date"] < self.exam_start)
             if gap < lead:
-                self.flags.append("The last culminating submission (%s) is %d class day(s) before the exams; the rule is %d."
-                                  % (fmt_short(last), gap, lead))
+                rule_break("culminating", "The last culminating submission (%s) is %d class day(s) before the exams; the rule is %d."
+                           % (fmt_short(last), gap, lead), last)
 
 
 def build(root, cfg, params, course_cfg, previous=None):
@@ -779,7 +824,7 @@ def report_md(plan, generated_on, commit):
                 tiers.append((t, []))
             tiers[-1][1].append(s)
         for t, ss in tiers:
-            L.append("| P%s | %s: %s | %d | %s |" % (t.get("priority"), t.get("what", ""), ", ".join(ss), len(ss), t.get("consequence", "")))
+            L.append("| %s | %s: %s | %d | %s |" % ("Teacher" if t.get("priority") == "teacher" else "P%s" % t.get("priority"), t.get("what", ""), ", ".join(ss), len(ss), t.get("consequence", "")))
     else:
         L.append("None: the plan fits the usable days without cuts.")
     if plan.spill:

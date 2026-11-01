@@ -1,5 +1,5 @@
 # ============================================================
-# GLA Semester Calendar — machine-readable instance calendar (schema 1)
+# GLA Semester Calendar: machine-readable instance calendar (schema 1)
 # ============================================================
 # Written by every course's semester run as
 #   instances/<name>/calendar.yaml
@@ -42,7 +42,7 @@ days:
     handouts: []             # instance-truth annotations, e.g. "Assignment 1 (Computer Buying Guide)".
                              # Placed on the evaluation's handed_out slot from the week plan, never relocated (see Rehydration_Framework.md §5).
     dues: []                 # e.g. "Assignment 1 (Computer Buying Guide)", "MILESTONE 1: design locked". Placed on the evaluation's due slot.
-    note: ""                 # optional, e.g. "Interschool Cross Country — expect disruption"
+    note: ""                 # optional, e.g. "Interschool Cross Country, expect disruption"
     # --- kind: buffer ---   label: "Terry Fox Run"          (the reason the buffer sits here)
     # --- kind: closure ---  label: "Labour Day"             (holiday or PA-day name)
     # --- kind: exam ---     label: "written examination"    (one entry per exam-window weekday)

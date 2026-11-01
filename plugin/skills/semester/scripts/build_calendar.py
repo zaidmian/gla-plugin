@@ -64,6 +64,12 @@ def kind_of(basename):
     return "doc"
 
 
+def die(msg):
+    """Stop with exit 2: the instance cannot be built from what is on disk."""
+    print("ERROR: " + msg)
+    sys.exit(2)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("instance_dir")
@@ -75,13 +81,13 @@ def main():
     inst = os.path.abspath(a.instance_dir.rstrip("/"))
     root = os.path.dirname(os.path.dirname(inst))
     if not os.path.isdir(os.path.join(root, "master")):
-        sys.exit(f"{inst} does not look like <course>/instances/<semester> (no master/ two levels up)")
+        die(f"{inst} does not look like <course>/instances/<semester> (no master/ two levels up)")
     cal_path = os.path.join(inst, "calendar.yaml")
     if not os.path.exists(cal_path):
-        sys.exit(f"{cal_path} not found — this instance predates calendar.yaml; regenerate it with the semester skill (gla semester new)")
+        die(f"{cal_path} not found; this instance predates calendar.yaml, so regenerate it with the semester skill (gla semester new)")
     cal = yaml.safe_load(open(cal_path))
     if cal.get("schema") != 1:
-        sys.exit(f"calendar.yaml schema {cal.get('schema')!r} is not supported (expected 1)")
+        die(f"calendar.yaml schema {cal.get('schema')!r} is not supported (expected 1)")
     cfg = schoolcal.resolve(yaml.safe_load(open(os.path.join(inst, "semester_config.yaml"))) or {})
 
     # ---- master file index (basename -> repo-relative paths) ----

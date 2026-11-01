@@ -104,6 +104,12 @@ def check(root, report):
     if not (isinstance(tp, list) and tp and all(isinstance(x, str) and re.fullmatch(r"[A-Z]", x) for x in tp)
             and len(set(tp)) == len(tp)):
         report.error("course-switch", path, "test_parts must be distinct capital letters, for example [A, B]")
+    cw = (cfg.get("assessment") or {}).get("category_weights")
+    if cw is not None:
+        keys = {"ku", "thinking", "communication", "application"}
+        if not (isinstance(cw, dict) and set(cw) == keys and all(isinstance(v, (int, float)) for v in cw.values())
+                and abs(sum(cw.values()) - 100) < 0.01):
+            report.error("course-weights", path, "assessment.category_weights needs ku, thinking, communication and application, totalling 100")
     lang, conv = cfg.get("language"), cfg.get("conventions_file")
     if bool(lang) != bool(conv):
         report.error("course-language", path, "language and conventions_file must both be set or both be null")

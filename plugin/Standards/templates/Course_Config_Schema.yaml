@@ -60,6 +60,10 @@ assessment:                                   # [required]
   attendance: 10
   exam: 10
   culminating: 15
+  # category_weights: {ku: 25, thinking: 30, communication: 20, application: 25}
+  #   optional: the course's default rubric weighting; without it gc-rubric uses
+  #   Grading_Conventions.md's 25/30/20/25. An assignment type or a spec's own
+  #   weights still win.
 
 teacher: Br. Zaid                             # how the teacher is named in student-facing material
 teacher_formal: Zaid Mian                     # the formal name on official documents (unit plans,

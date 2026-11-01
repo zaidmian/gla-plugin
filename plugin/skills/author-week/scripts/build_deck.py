@@ -21,7 +21,9 @@ Fragment source format:
     <section class="slide"> ... </section>                    every other slide, as written
     <script> ... </script>                                    optional deck-specific script
 
-Exit 0 written or clean; 1 --check found errors; 2 bad input.
+Exit 0 written or clean; 1 errors (the deck is not written, or --check found
+them); 2 bad input. The assembler checks the deck before it writes it, so a
+deck with errors never replaces the file on disk.
 """
 import argparse
 import html
@@ -267,8 +269,10 @@ def build(deck_path, parts):
     if not ctx["code"]:
         raise DeckError("no course.yaml above %s" % deck_path)
     out = render(parts, ctx)
-    with open(deck_path, "w", encoding="utf-8") as f:
-        f.write(out)
+    errors, _ = check(out, ctx)
+    if not errors:
+        with open(deck_path, "w", encoding="utf-8") as f:
+            f.write(out)
     return out, ctx
 
 
@@ -291,7 +295,7 @@ def main(argv=None):
             parts = extract(read(a.deck)) if a.rebuild else parse_source(read(a.src))
             out, ctx = build(a.deck, parts)
             errors, warns = check(out, ctx)
-            print("wrote %s (%d slides)" % (a.deck, len(extract(out)["slides"])))
+            print(("NOT written (errors below): %s" if errors else "wrote %s (%d slides)" % ("%s", len(extract(out)["slides"]))) % a.deck)
     except (DeckError, OSError) as e:
         print("ERROR: %s" % e)
         return 2

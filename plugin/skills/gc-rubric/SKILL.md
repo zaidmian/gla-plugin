@@ -14,7 +14,7 @@ description: >
   creating grading materials. Even if the user just says "make a rubric for this assignment",
   use this skill.
 metadata:
-  version: "1.5.7"
+  version: "1.5.8"
   built: "2026-10-31"
 ---
 
@@ -71,7 +71,7 @@ Choose `programming`, `research`, `creative`, `balanced`, `lab_report`, or `essa
 
 For a lab report, Thinking (Thinking and Investigation in Science) holds the planning, the analysis of the data and the sources of error; Communication holds the report's conventions, units, tables and graphs; Application holds the connections the conclusion draws. For an essay, Thinking holds the thesis and the analysis of evidence; Communication holds organization, style, conventions and citations.
 
-When the assignment emphasizes something else, pass your own `weights` (all four, totalling 100). The builder rounds each category to the nearest 0.5 while keeping the total exact (largest remainder; ties go to the higher weight, then K/U, T, C, A), and gives every category at least 0.5.
+With no type and no weights, the builder uses the school's default summative weighting, K/U 25, Thinking 30, Communication 20, Application 25. In a GLA course repo, `--from-assignment` puts the course's own weighting in the spec when `course.yaml` sets `assessment.category_weights`. When the assignment emphasizes something else, pass your own `weights` (all four, totalling 100). The builder rounds each category to the nearest 0.5 while keeping the total exact (largest remainder; ties go to the higher weight, then K/U, T, C, A), and gives every category at least 0.5.
 
 ### 3. Name the Criteria
 
@@ -180,11 +180,11 @@ python3 scripts/build_rubric.py /tmp/rubric.json --out <output folder>
 With very few points, not every category needs a separate criterion. Combine categories by
 giving a criterion a list (`"category": ["ku", "thinking"]`) and set `points` on every
 criterion (they must total the assignment). All four categories must still be covered; the
-builder refuses a spec that drops one. For a 1-point exercise, one criterion listing all four
+builder refuses a spec that drops one. For a 1-point task, one criterion listing all four
 is acceptable.
 
 ### Exercises vs Assignments vs Assessments
-- **Exercises (1-2 points)**: Simpler criteria, shorter descriptors, may combine categories
+- **Short tasks (1-2 points)**: Simpler criteria, shorter descriptors, may combine categories. A GLA course's exercises are not one of these: they have no rubric and use the /10 completion scale (Grading_Conventions.md).
 - **Assignments (3-10 points)**: Full four-criterion structure, detailed descriptors
 - **Assessments/Projects (10+ points)**: May have sub-criteria within categories, most
   detailed descriptors, may warrant additional context in descriptions

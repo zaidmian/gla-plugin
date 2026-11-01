@@ -66,7 +66,7 @@ The most important document; written before anything else. Structure:
   the map is grep-checkable; (3) the map is updated in the same change as any
   coverage change; (4) the cross-cutting model, **only if** a cross-cutting strand
   exists. A tightened form of rule 1: an artifact's *kind* must match the
-  expectation's verb — a write/use/apply expectation needs a submitted doing-artifact,
+  expectation's verb: a write/use/apply expectation needs a submitted doing-artifact,
   not only a test question.
 - **Status legend:** `planned → built → verified`.
 - **Body:** one `##` section per strand, `###` per overall expectation, each with
@@ -76,9 +76,9 @@ The most important document; written before anything else. Structure:
     `| Code | Expectation (abridged) | Anchor slot | Woven thread (named artifacts) | Assessed in | Status |`
     Every row names a concrete anchor slot and either a named woven artifact or `-`.
 - **Reverse index:** `| Unit | Primary codes |`, one row per unit + CP.
-- **Cross-cutting notes** (if applicable): the load-bearing invariants — a
+- **Cross-cutting notes** (if applicable): the load-bearing invariants (a
   cross-cutting strand has no unit; anchors may never dissolve into "covered
-  throughout"; woven threads are named rubric rows.
+  throughout"; woven threads are named rubric rows).
 
 At bootstrap this is populated with every expectation from the curriculum data at
 `Status: planned`, mapped to units per Batch B. Anchor-slot assignment for a
@@ -94,24 +94,24 @@ and the closing "This layer adds only what is true of `<CODE>` specifically. It
 may tighten shared rules; it never contradicts them." Then the sections (from the
 interview):
 
-1. **Course identity** — code, full name, grade, pathway, prerequisite/assumed
+1. **Course identity**: code, full name, grade, pathway, prerequisite/assumed
    knowledge, curriculum + source-of-truth path, language/environment, feeder role.
-2. **Slot blocks** (frozen; never renumber) — the `| Block | Slots | What it is |`
+2. **Slot blocks** (frozen; never renumber): the `| Block | Slots | What it is |`
    table (INTRO, each unit, standby if any, CP), nominal slot count.
-3. **Weekly rhythms** — only if the course declares variants (Batch B): the
+3. **Weekly rhythms**: only if the course declares variants (Batch B): the
    standard rhythm and each variant as a day-by-day table, with the preserved
    invariants stated.
-4. **Feature availability by slot** — for a skills-building course, the
+4. **Feature availability by slot**: for a skills-building course, the
    `| From | Newly available |` table, rendered from
    `01_Standards/feature_availability.yaml` (the scaffold writes one row per unit week; fill
    the cells there and run `gla features render`), plus course-wide ceilings; governs the
    only-taught-features rule. (Omit or adapt for non-programming courses.)
-5. **Environment and provenance** — only if Batch D warrants it: in-class and
+5. **Environment and provenance**: only if Batch D warrants it: in-class and
    at-home environment, the authorship-evidence protocol.
-6. **Course-specific content rules** — anything true of this course only, plus the
+6. **Course-specific content rules**: anything true of this course only, plus the
    teacher typography rules from Batch D (e.g. no em-dashes, no emojis).
-7. **Culminating project constraints** — pointer to `PROJECT_DECISIONS.md`.
-8. **Pointers** — to the coverage map, Assessment_Plan, BOOTSTRAP_DELTAS, and any
+7. **Culminating project constraints**: pointer to `PROJECT_DECISIONS.md`.
+8. **Pointers**: to the coverage map, Assessment_Plan, BOOTSTRAP_DELTAS, and any
    conditional docs.
 
 ## Parameter-layer documents
@@ -144,9 +144,9 @@ interview):
   cut teach/assess/hand-out days, pointer to the shared Compression_Framework);
   nominal size; the tier table `| Priority | Cut | Slots freed | Consequence |`
   (starred priorities = manual, below-floor); a rhythm caveat paragraph (derive
-  tiers from each block's rhythm — studio blocks free days only via flex cuts,
+  tiers from each block's rhythm: studio blocks free days only via flex cuts,
   merge-exercise tiers apply only to standard-rhythm blocks); the floor; the
-  after-cutting logging requirement. **Do not copy a sibling's tier list** — derive
+  after-cutting logging requirement. **Do not copy a sibling's tier list**; derive
   it from this course's rhythms.
 - **`00_Admin/Course_Outline.md`:** student/parent-facing, with `{{...}}`
   placeholders rehydration fills. Metadata table, `## Course description`,
@@ -177,7 +177,7 @@ interview):
   `author-week` fills them. Do not author their content.
 - **`Assessment/`** per unit: `Assignment_<Name>/` (instructions.md,
   rubric.csv, rubric.md, marking_notes.md) and `Test/` (test.md, test_KEY.md,
-  coverage_table.md, review_sheet.md, test_reference.md) as skeleton folders —
+  coverage_table.md, review_sheet.md, test_reference.md) as skeleton folders;
   content is a later job. When that content is authored it follows
   `Standards/templates/Assignment_Template.md` (which requires a `## Learning
   goals` section opening every assignment) and `Test_Template.md` /
@@ -230,6 +230,6 @@ under the week folders; `Assessment/Assignment_*/instructions.md` and
 and the CP student docs. The `test.md` rule carries `strip_teacher_note: true` and
 `doc_kind: test` (the test-paper layout, see `semester/SKILL.md`).
 The converter hard-excludes `*_KEY.md`, `*_MARKING.md`, `marking_notes.md`, and
-`rubric.*` regardless of the manifest — do not add rules for those. Scripts are
+`rubric.*` regardless of the manifest; do not add rules for those. Scripts are
 never copied; the skill invokes the shared `convert_instance.py`/`md2docx.py` by
 absolute path.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.8
+
+- With no type and no weights, the builder uses the school default, K/U 25, Thinking 30, Communication 20, Application 25 (it used 25/25/25/25). `--from-assignment` puts a course's `assessment.category_weights` in the spec and no longer picks `programming` for Computer Studies.
+- The Thinking-category name covers the Grades 1 to 8 Science and Technology documents.
+- Short-task guidance no longer calls GLA exercises rubric items: they use the /10 scale.
+
 ## 1.5.7
 
 - `references/rubric_format_guide.md` says why the level shares are 100/75/60/50/12.5% (each keeps a uniform result inside its Growing Success band) and that a criterion needs at least 1.5 points for the bands to hold. The shares are unchanged.

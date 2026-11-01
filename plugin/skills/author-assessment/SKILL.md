@@ -4,7 +4,7 @@ argument-hint: "U<n> [assignment | test]"
 description: Author a GLA course unit's summative assessments in its master. The unit assignment (instructions.md, marking_notes.md, and its rubric through gc-rubric) and the unit test (test.md, test_KEY.md, coverage_table.md, review_sheet.md, test_reference.md). Use when the user wants to write, draft, build, revise, or check a unit assignment or a unit test, its answer key, coverage table, review sheet, or test aid sheet (e.g. "write the Unit 3 test", "draft the U2 assignment", "make the test key for Unit 4", "build the review sheet", "check the U1 test adds up"). Do NOT use for weekly exercises, studio briefs, lessons, or decks (author-week), for a rubric on its own (gc-rubric), for the culminating project or the final exam, or for Google Docs handouts (semester).
 ---
 
-# author-assessment — a unit's assignment and test
+# author-assessment: a unit's assignment and test
 
 ## Locations
 
@@ -14,13 +14,15 @@ Every script runs through one command, written `gla` below: run it as `python3 "
 
 You are authoring the summative work for one unit of the master course: its assignment folder `master/02_Units/U<n>_*/Assessment/Assignment_<Name>/` and its test folder `master/02_Units/U<n>_*/Assessment/Test/`. Both are date-agnostic: slots, never dates.
 
-## Authority documents (read these first, in order)
+## Authority documents
+
+Read item 4 and the course layer (5 to 8) first. Read items 1 to 3 at the step that uses them, and only the part named: they are long, and most of each is not about this job.
 
 Shared package (the rules; never copy them into the course):
 
-1. `GLA_ROOT/Standards/templates/Assignment_Template.md`: every assignment opens with `## Learning goals`, then the scenario, requirements, a sample run, stretch goals, submission, integrity, and how it is assessed.
-2. `GLA_ROOT/Standards/templates/Test_Template.md` and `Test_Reference_Template.md`: the test's parts (course.yaml `test_parts`, A and B by default: A multiple choice, every later part written), the companion files, and the one-page aid sheet.
-3. `GLA_ROOT/Standards/assessment/Grading_Conventions.md` and `growing-success-summary.md`: categories (the second named per subject), levels, and what never goes into a mark (learning skills, lateness).
+1. `GLA_ROOT/Standards/templates/Assignment_Template.md` (writing the assignment): every assignment opens with `## Learning goals`, then the scenario, requirements, a sample run, stretch goals, submission, integrity, and how it is assessed.
+2. `GLA_ROOT/Standards/templates/Test_Template.md` and `Test_Reference_Template.md` (writing the test): the test's parts (course.yaml `test_parts`, A and B by default: A multiple choice, every later part written), the companion files, and the one-page aid sheet.
+3. `GLA_ROOT/Standards/assessment/Grading_Conventions.md`, its Assignments and Tests sections and "Naming the second category" (the category name, levels, and what never goes into a mark: learning skills, lateness). The Growing Success summary is the source behind it; open it only for a policy question those sections do not answer.
 4. `GLA_ROOT/Standards/style/Style_Guide_Core.md` §3 voice, §4 content rules, §5 naming, §11 header blocks, and the course's `<conventions_file>` for code.
 
 Course layer (read from the repo):
@@ -36,7 +38,7 @@ Invoked as `/author-assessment U3 test`, the arguments are `$ARGUMENTS`: take th
 
 ### Assignment
 
-1. **Scaffold.** `gla assessment U<n> assignment [--name <Name>]` from the course root. It reads the overview's Evaluations table, the Assessment Plan, and the coverage map, and writes `instructions.md` and `marking_notes.md` with their headers filled. It never overwrites; `--dry-run` shows what it would write. Read its report for where each code and number came from.
+1. **Scaffold.** `gla assessment U<n> assignment [--name <Name>]` from the course root. It reads the overview's Evaluations table, the Assessment Plan, and the coverage map, and writes `instructions.md` and `marking_notes.md` with their headers filled. It never overwrites; `--dry-run` shows what it would write. It exits 1 when its report lists something it could not resolve, and 2 when the unit or its Evaluations row cannot be worked from. Read its report for where each code and number came from.
 2. **Write `instructions.md`** from the template: 3 to 5 learning goals in student language, a self-contained scenario (Islamic names, no course-wide storyline), requirements as observable behaviour with checkboxes, a sample run produced by actually running a model solution (a programming assignment; a lab report or essay states what the finished piece contains instead), two stretch goals, submission, integrity, assessment.
 3. **Write `marking_notes.md`** (teacher only): a marking workflow (run it first, with the inputs to feed), the requirements checklist, what each level looks like per category, common errors, and how bonus is applied. It ends with `## Expectations assessed`: one row per rubric criterion (`| Rubric criterion | Category | Expectation codes |`), naming the codes that criterion evaluates. This table, not the student-facing header, is the assignment's coverage record.
 4. **Build the rubric** with gc-rubric: `gla rubric --from-assignment <folder> --spec-out /tmp/rubric.json`, write the criteria and descriptors into the spec, then `... /tmp/rubric.json --out <folder> --name rubric`. Follow gc-rubric's SKILL.md for the descriptors and the type (`lab_report` for a science lab report, `essay` for an argued written piece).
@@ -46,7 +48,7 @@ Invoked as `/author-assessment U3 test`, the arguments are `$ARGUMENTS`: take th
 1. **Scaffold.** `gla assessment U<n> test` writes `test.md`, `test_KEY.md`, `coverage_table.md`, `review_sheet.md`, and `test_reference.md` with their headers.
 2. **Write `test.md`** with exactly the parts in `course.yaml`'s `test_parts`. Part A: one-mark questions, four options lettered A to D, one option per source line, exactly one correct. Part B and any later part: written items, each headed with its letter and marks (`**B1. Tracing (5 marks)**`, `**C1. Extended response (10 marks)**`). The item kinds follow the subject: trace, find-the-error, write-a-fragment and explain in a programming course; label-the-diagram, calculations and explain in science; source analysis, short and extended response in history. In a two-part test Part A is about 40 to 50% of the marks. An image follows Style Guide Core §4 (a local file with its credit). Questions are self-contained, use only what the unit taught by its test slot, and carry no answers (the student copy is made mechanically).
 3. **Write `test_KEY.md`**: every Part A letter, every written answer with accepted variations and how marks are split. Any code with its output: run it. Every calculation sits in a `calc` block, which `gla samples` evaluates.
-4. **Write `coverage_table.md`**: one row per question, `| Question | Expectation codes | Category | Marks |`; split a question into rows (B5a, B5b) when its parts assess different codes. Every code the unit teaches appears at least once, on the test or (say so) on the assignment.
+4. **Write `coverage_table.md`**: `gla test <Test folder> --skeleton` prints one row per question with its marks to start from; fill one row per question, `| Question | Expectation codes | Category | Marks |`; split a question into rows (B5a, B5b) when its parts assess different codes. Every code the unit teaches appears at least once, on the test or (say so) on the assignment.
 5. **Write `review_sheet.md`** (student-facing, used on the review day): topics, sample questions that are not the test's questions, and pointers to the unit's reference sheets.
 6. **Write `test_reference.md`** from its template: one page of syntax and tables the unit taught, condensed from the `REF_*` sheets; nothing the test asks students to recall.
 
@@ -70,10 +72,10 @@ From the course root:
 ```bash
 gla test master/02_Units/U<n>_*/Assessment/Test
 gla samples master/02_Units/U<n>_*/Assessment
-gla check --changed --only rubric,test,key,coverage,review,map,assignment-coverage,header-student,placeholder,style
+gla check --changed --only rubric,test,coverage,code,map,assignment,header-student,style
 ```
 
-`check_test.py` checks the marks arithmetic, Part A's options and key letters, runs of three or more identical key letters, answers shown in `test.md`, that the test has exactly the course's parts, a key entry for every written question, the coverage table against the questions and the curriculum, header agreement across the files, review-sheet copies, and the unit's primary codes. `gla check --changed` keeps the findings in the files git shows as changed or new (in a course folder without git, pass the files you wrote with `--paths FILE...`). Fix every error. A warning you keep needs a reason in the file: `<!-- gla-allow: key-run the three answers are B by design -->`. Errors cannot be allowed. The scripts cannot judge whether a question is fair, clear, or at the right level; that stays yours.
+`check_test.py` checks the marks arithmetic, Part A's options and key letters, runs of three or more identical key letters, answers shown in `test.md`, that the test has exactly the course's parts, a key entry for every written question, the coverage table against the questions and the curriculum, header agreement across the files, review-sheet copies, and the unit's primary codes. `gla check --changed` keeps the findings in the files git shows as changed or new (in a course folder without git, pass the files you wrote with `--paths FILE...`). Fix every error. A warning you keep needs a reason in the file: `<!-- gla-allow: test-key-run the three answers are B by design -->`. Errors cannot be allowed. The scripts cannot judge whether a question is fair, clear, or at the right level; that stays yours.
 
 ## Review sheet (end every run with it)
 

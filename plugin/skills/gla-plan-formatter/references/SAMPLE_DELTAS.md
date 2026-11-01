@@ -22,7 +22,7 @@ The `weekly_plan` type therefore becomes the v1 lesson furniture carrying the of
 | Islamic Expectations and Character Education | template | one two-column table: Islamic Expectations \| Character Education |
 | Content Standards | template | Learning Skills checkbox row (Responsibility, Organization, Independent Work, Collaboration, Initiative, Self-Regulation); Achievement Categories checkbox row; Overall Expectations; Specific Expectations; Resources / Worksheets |
 | Learning Goals and Success Criteria | v1 lesson | unchanged two-column table |
-| Daily lessons | v1 lesson sequence | one blush bar per day ("1. DAY 1 — topic"), teacher actions left, right column per day (assessment note or character focus) |
+| Daily lessons | v1 lesson sequence | one blush bar per day ("1. DAY 1: topic"), teacher actions left, right column per day (assessment note or character focus) |
 | Assessment | template | three-column AFL \| AAL \| AOL; each column lists the strategies used (the template's checklist items become the vocabulary the interview offers), AOL grouped Observation / Conversation / Product |
 | Teacher Notes and Differentiation | v1 lesson | unchanged three-column table (optional) |
 

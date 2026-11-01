@@ -1,5 +1,5 @@
 # ============================================================
-# GLA Weekly Lesson Plan: Shared Master Schema (v4)
+# GLA Weekly Lesson Plan: Shared Master Schema
 # ============================================================
 # One week_plan.yaml per week folder. This file is the blank template;
 # copy it and fill every field. Keep it terse: wording for expectations
@@ -13,7 +13,7 @@
 #     rehydration ({{...}} placeholders stay literal in the master).
 #   - Slot IDs (U2.W3.D1) are permanent; days are numbered within the week.
 #
-# v4 (shared-package): metadata is course-parameterized; exercise marks
+# History: v4 (shared-package): metadata is course-parameterized; exercise marks
 # use the /10 scale (see assessment/Grading_Conventions.md).
 # v5: adds the `studio` day_type (self-directed divergent work from a
 # BRIEF_ sheet: see Style_Guide_Core.md §2/§5). Studio days are sub-ready.

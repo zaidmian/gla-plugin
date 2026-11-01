@@ -2,6 +2,7 @@
 """Check a unit test folder (Assessment/Test/) against the house rules.
 
     python3 check_test.py TEST_FOLDER [--strict]
+    python3 check_test.py TEST_FOLDER --skeleton   print coverage_table.md's question rows
 
 The parts are course.yaml's test_parts (A and B when it is absent). Part A,
 when listed, is multiple choice; every other part is written items numbered
@@ -34,12 +35,10 @@ import sys
 
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "_lib"))
 from gla import course as coursemod  # noqa: E402
-from gla import coverage, curriculum, findings, mdtable  # noqa: E402
+from gla import coverage, curriculum, findings, mdtable, slots  # noqa: E402
 
-CODE = re.compile(r"\b[A-Z]\d+\.\d+\b")
-RANGE = re.compile(r"\b([A-Z]\d+)\.(\d+)\s*[–-]\s*(?:\1\.)?(\d+)\b")
 MARKS_HDR = re.compile(r"^\*\*(?:Marks|Points):\*\*\s*(\d+(?:\.\d+)?)", re.M)
-SLOT_HDR = re.compile(r"^\*\*Slot:\*\*\s*([A-Z][\w.]*\.D\d+)", re.M)
+SLOT_HDR = re.compile(r"^\*\*Slot:\*\*[^\n]*?(%s)" % slots.SLOT_RE.pattern, re.M)
 PART_HEAD = re.compile(r"^## Part ([A-Z])\b[^\n]*?(?:\((\d+(?:\.\d+)?) marks?)?", re.M)
 A_QUESTION = re.compile(r"^(\d+)\.\s+\S", re.M)
 OPTION = re.compile(r"^\s+[-*]\s+([A-D])\.\s", re.M)
@@ -53,6 +52,8 @@ SHOWN_ANSWER = re.compile(r"^\s*(?:[-*]\s+)?\**(?:Answer|Correct answer|Solution
 # Part A, when the course's test_parts has it, is the multiple-choice part.
 ITEM = r"^(?:\*\*|### )%s(\d+)\.\**[^\n(]*?\((\d+(?:\.\d+)?)\s*(?:marks?)?\s*[,:;)]|^(\d+)\.\s*\((\d+(?:\.\d+)?)\s*(?:marks?)?\)"
 B_ITEM = re.compile(ITEM % "B", re.M)
+# The one form the template asks for: **B1. Tracing (5 marks)** alone on its line.
+ITEM_FORM = r"^\*\*%s(\d+)\. [^*\n]*?\(\d+(?:\.\d+)? marks?\)\*\*\s*$"
 
 
 def read(p):
@@ -60,12 +61,7 @@ def read(p):
         return f.read()
 
 
-def expand(text):
-    """Codes in text, with ranges like A4.1–A4.5 expanded."""
-    out = set(CODE.findall(text))
-    for m in RANGE.finditer(text):
-        out.update("%s.%d" % (m.group(1), k) for k in range(int(m.group(2)), int(m.group(3)) + 1))
-    return out
+from gla.codes import expand  # noqa: E402
 
 
 def sections(text):
@@ -98,6 +94,28 @@ def part_b(sec, letter="B"):
         marks = m.group(2) or m.group(4)
         out.append(("%s%s" % (letter, num), float(marks)))
     return out
+
+
+def skeleton(folder):
+    """Print coverage_table.md's question rows for test.md: one per Part A question
+    and written item, with its marks; codes and category are left for the author."""
+    p = os.path.join(folder, "test.md")
+    if not os.path.exists(p):
+        print("ERROR: no test.md in %s" % folder)
+        return 2
+    parts = course_parts(folder)
+    secs, _ = sections(read(p))
+    print("| Question | Expectation codes | Category | Marks |\n|----------|-------------------|----------|-------|")
+    total = 0.0
+    for x in parts:
+        if x not in secs:
+            continue
+        rows = [("A%d" % n, 1.0) for n, _, _ in part_a(secs[x])] if x == "A" else part_b(secs[x], x)
+        for qid, mk in rows:
+            total += mk
+            print("| %s | | | %g |" % (qid, mk))
+    print("| **Total** | | | **%g** |" % total)
+    return 0
 
 
 def course_parts(folder):
@@ -160,6 +178,11 @@ def check(folder, report, known=None, primary=None, parts=None):
     if "A" in parts and not qa:
         report.error("test-structure", tp, "Part A has no numbered questions")
     for x in written:
+        strict = {"%s%s" % (x, m.group(1)) for m in re.finditer(ITEM_FORM % x, secs[x], re.M)}
+        loose = [q for q, _ in qparts[x] if q not in strict]
+        if loose:
+            report.warn("test-item-form", tp, "%s: head each item on its own line as **%s1. <Title> (<n> marks)** (Test_Template.md)"
+                        % (", ".join(loose), x))
         if not qparts[x]:
             report.error("test-structure", tp, "Part %s has no questions with marks (\"**%s1.** (3 marks)\" or \"21. (5 marks)\")" % (x, x))
     nums = [n for n, _, _ in qa]
@@ -191,7 +214,7 @@ def check(folder, report, known=None, primary=None, parts=None):
         for n, _, _ in qa:
             got = ans.get(n, [])
             if len(set(got)) != 1:
-                report.error("key-answer", kp, "Part A question %d: key gives %s" % (n, ", ".join(sorted(set(got))) or "no answer"))
+                report.error("test-key-answer", kp, "Part A question %d: key gives %s" % (n, ", ".join(sorted(set(got))) or "no answer"))
         letters = [(n, ans.get(n, [None])[0]) for n, _, _ in qa]
         k = 0
         while k < len(letters):
@@ -199,13 +222,13 @@ def check(folder, report, known=None, primary=None, parts=None):
             while j + 1 < len(letters) and letters[j + 1][1] and letters[j + 1][1] == letters[k][1]:
                 j += 1
             if letters[k][1] and j - k + 1 >= 3:
-                report.warn("key-run", kp, "Part A questions %d to %d all have key %s" % (letters[k][0], letters[j][0], letters[k][1]))
+                report.warn("test-key-run", kp, "Part A questions %d to %d all have key %s" % (letters[k][0], letters[j][0], letters[k][1]))
             k = j + 1
         heads_text = "\n".join(l for l in key.splitlines() if l.startswith(("#", "**")))
         for qid, _ in qb:
             n = qid[1:]
             if not re.search(r"\b[%sQ]%s\b|^(?:#+|\*\*)\s*%s[.:)]" % (qid[0], re.escape(n), re.escape(n)), heads_text, re.M):
-                report.error("key-missing", kp, "no key entry for %s" % qid)
+                report.error("test-key-missing", kp, "no key entry for %s" % qid)
         km = MARKS_HDR.search(key)
         if km and total is not None and float(km.group(1)) != total:
             report.error("test-header", kp, "key says %s marks, test says %g" % (km.group(1), total))
@@ -240,7 +263,7 @@ def check(folder, report, known=None, primary=None, parts=None):
                     covered.update(codes)
                     for code in sorted(codes):
                         if known and code not in known:
-                            report.error("coverage-code", cp, "%s: %s is not a curriculum code" % (qid, code), line)
+                            report.error("code-unknown", cp, "%s: %s is not a curriculum code" % (qid, code), line)
                 if gi is not None and gi < len(c):
                     letters = [x.strip() for x in re.split(r"[,/]", re.sub(r"\([^)]*\)", "", c[gi])) if x.strip()]
                     bad = [x for x in letters if x not in ("K", "T", "C", "A")]
@@ -278,7 +301,7 @@ def check(folder, report, known=None, primary=None, parts=None):
         for n, _, body in qa:
             stem = norm(re.sub(r"^\d+\.\s*", "", body.strip().splitlines()[0]))
             if len(stem) >= 30 and stem in review:
-                report.warn("review-copy", paths["review_sheet.md"], "Part A question %d appears word for word" % n)
+                report.warn("test-review-copy", paths["review_sheet.md"], "Part A question %d appears word for word" % n)
     return {"a_marks": a_marks, "b_marks": b_marks, "marks": marks, "total": total}
 
 
@@ -340,7 +363,10 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("folder")
     ap.add_argument("--strict", action="store_true")
+    ap.add_argument("--skeleton", action="store_true", help="print a coverage-table skeleton (one row per question, its marks) and exit")
     a = ap.parse_args(argv)
+    if a.skeleton:
+        return skeleton(a.folder)
     known, primary = unit_context(a.folder)
     root = coursemod.find_root(a.folder)
     report = findings.Report(root)

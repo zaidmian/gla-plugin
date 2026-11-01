@@ -267,6 +267,8 @@ standby: null
 
 # Batch C.10: final evaluation. The split is DETECT from the Growing Success matrix ({note or "subject row"}).
 exam_split: {split}
+category_weights: null       # Batch C.9: null keeps the school default (K/U 25, T 30, C 20, A 25) for rubrics;
+                             #   or {{ku: .., thinking: .., communication: .., application: ..}} totalling 100
 {cp_block}
 
 # Batch D.11-14.
@@ -375,6 +377,7 @@ class Answers:
             self.err("no units")
         known = set(self.cur.specific_codes())
         rhythms = d.get("rhythms") or ["standard"]
+        from gla.weekplan import RHYTHMS as weekplan_rhythms
         total = 0.0
         for i, u in enumerate(units):
             where = "units[%d] (%s)" % (i, u.get("name"))
@@ -388,6 +391,8 @@ class Answers:
                 total += weight_total(u.get("weight"))
             except (TypeError, ValueError):
                 self.err("%s: weight parts must be numbers" % where)
+            if u.get("rhythm", "standard") not in weekplan_rhythms:
+                self.err("%s: rhythm %r is not one of %s" % (where, u.get("rhythm"), ", ".join(weekplan_rhythms)))
             if u.get("rhythm", "standard") not in rhythms:
                 self.err("%s: rhythm %r is not in rhythms %s" % (where, u.get("rhythm"), rhythms))
             if not u.get("assignment"):
@@ -443,6 +448,10 @@ class Answers:
             self.err("language and conventions_file must both be set or both be null")
         if conv and not has_todo(conv) and not os.path.exists(os.path.join(paths.STANDARDS, "style", conv)):
             self.warn("Standards/style/%s does not exist yet; adding it is a Standards change with its own CHANGELOG entry" % conv)
+        cw = d.get("category_weights")
+        if cw is not None and not (isinstance(cw, dict) and set(cw) == {"ku", "thinking", "communication", "application"}
+                                   and all(isinstance(v, (int, float)) for v in cw.values()) and abs(sum(cw.values()) - 100) < 0.01):
+            self.err("category_weights needs ku, thinking, communication and application, totalling 100 (or null)")
         if "decks" in d and not isinstance(d["decks"], bool):
             self.err("decks must be true or false")
         tp = d.get("test_parts", ["A", "B"])
@@ -520,6 +529,12 @@ class Builder:
             rows.append(("CP", "CP.W1.D1 – CP.W%d.D5" % self.cp_weeks(), str(self.cp_weeks()), "Culminating project"))
         return rows
 
+    def flex_slots(self):
+        """(unit D5 slots, latest unit first; culminating D5 slots): the cuts every rhythm allows."""
+        flex = ["%s.W%d.D5" % (u["id"], k) for u in reversed(self.units) for k in range(len(u["weeks"]), 0, -1)]
+        cp = ["CP.W%d.D5" % k for k in range(1, self.cp_weeks() + 1)] if self.a.has_cp else []
+        return flex, cp
+
     def nominal_slots(self):
         return len(self.d.get("intro_days") or []) + 5 * (sum(len(u["weeks"]) for u in self.units) + self.cp_weeks())
 
@@ -538,7 +553,7 @@ class Builder:
     def weight_line(self, u):
         w = u["u"]["weight"]
         parts = ", ".join("%s %s" % (k, fmt(float(v))) for k, v in w.items())
-        rhythm = " · **Rhythm:** %s" % u["u"].get("rhythm", "standard") if len(self.d.get("rhythms") or []) > 1 else ""
+        rhythm = " · **Rhythm:** %s" % u["u"].get("rhythm", "standard")
         return "**Weeks:** %d (slots %s.W1.D1 – %s.W%d.D5) · **Weight:** %s%% (%s)%s" % (
             len(u["weeks"]), u["id"], u["id"], len(u["weeks"]), fmt(weight_total(w)), parts, rhythm)
 
@@ -589,6 +604,9 @@ class Builder:
             "  exam: %s" % ex["exam"],
             "  culminating: %s" % ex["culminating"],
         ]
+        cw = d.get("category_weights")
+        if cw:
+            lines.append("  category_weights: {%s}" % ", ".join("%s: %s" % (k, fmt(float(cw[k]))) for k in ("ku", "thinking", "communication", "application")))
         if d.get("deck_theme", "glass") != "glass":
             lines.append("deck_theme: %s" % d["deck_theme"])
         if d.get("decks") is False:
@@ -911,7 +929,7 @@ class Builder:
             Y += ["      - %s/week_plan_W%d.yaml" % (cp, k) for k in range(2, self.cp_weeks() + 1)]
         sb = self.a.standby
         if sb:
-            Y += ["", "modules:", "  - name: %s" % sb["config_key"], "    mode_key: modules.%s" % sb["config_key"], "    forms:", "      none:", "        week_plans: []"]
+            Y += ["", "modules:", "  - name: %s" % sb["config_key"], "    block: %s" % sb["block"], "    mode_key: modules.%s" % sb["config_key"], "    forms:", "      none:", "        week_plans: []"]
             for v in sb["variants"]:
                 Y += ["      %s:" % v["value"], "        week_plans:"]
                 weeks = v.get("weeks") or []
@@ -922,8 +940,17 @@ class Builder:
             Y.append("    # TODO(bootstrap): placement_key, weights per form, outline rows, reserve_spill.")
         else:
             Y += ["", "modules: []"]
-        Y += ["", "# TODO(bootstrap): derive the tiers from this course's rhythms (Compression_Table.md); never copy a sibling's.",
-              "compression:", "  floor: { slots: 0, blocks: [%s] }" % ", ".join([u["id"] for u in self.units] + (["CP"] if self.a.has_cp else [])), "  tiers: []"]
+        flex, cp_flex = self.flex_slots()
+        floor = self.nominal_slots() - len(self.d.get("intro_days") or []) - len(flex) - len(cp_flex)
+        Y += ["", "# Tier 1 (and tier 2 for the culminating project) are the D5 flex days, which every",
+              "# rhythm can lose (Standards' Compression_Framework.md). TODO(bootstrap): add any further",
+              "# tiers this course's rhythms allow (Compression_Table.md); never copy a sibling's.",
+              "compression:", "  floor: { slots: %d, blocks: [%s] }" % (floor, ", ".join([u["id"] for u in self.units] + (["CP"] if self.a.has_cp else []))),
+              "  tiers:", "    - priority: 1", '      what: "D5 flex days, latest units first"',
+              '      consequence: "Review and Q&A fold into D4\'s wrap segment"', "      slots: [%s]" % ", ".join(flex)]
+        if cp_flex:
+            Y += ["    - priority: 2", '      what: "Culminating project flex days"', '      consequence: "Build weeks tighten; milestones move a day earlier"',
+                  "      slots: [%s]" % ", ".join(cp_flex)]
         self.write(base + "/rehydration.yaml", "\n".join(Y))
         rows = ["| %d | %s | %s | %s |" % (k, b, s, w) for k, (b, s, _, w) in enumerate(self.block_rows(), 1)]
         self.write(base + "/Rehydration_Guide.md", "\n".join([
@@ -946,9 +973,11 @@ class Builder:
             "# %s Compression Table" % self.code, "",
             "Cut in priority order, stopping as soon as the plan fits. Never cut a teach, assess, or hand-out day. The method is `%s/rehydration/Compression_Framework.md`." % STD, "",
             "Nominal size: %d slots." % self.nominal_slots(), "",
-            "| Priority | Cut | Slots freed | Consequence |", "|----------|-----|-------------|-------------|", "",
-            MARK % "derive the tiers from each block's rhythm (studio blocks free days only through flex cuts); star the manual, below-floor tiers.", "",
-            "## Floor", "", MARK % "the sanctioned floor.", "",
+            "| Priority | Cut | Slots freed | Consequence |", "|----------|-----|-------------|-------------|",
+            "| 1 | D5 flex days, latest units first | %d | Review and Q&A fold into D4's wrap segment |" % len(flex),
+            *(["| 2 | Culminating project flex days | %d | Build weeks tighten; milestones move a day earlier |" % len(cp_flex)] if cp_flex else []), "",
+            MARK % "any further tiers each block's rhythm allows (studio blocks free days only through flex cuts); star the manual, below-floor tiers.", "",
+            "## Floor", "", "%d unit and project slots after the tiers above; rehydration.yaml holds the same number." % floor, "",
             "## After cutting", "", "Every cut is logged in the instance's GENERATION_REPORT.md."]))
         if d["semester_config"] == "course":
             src = os.path.join(paths.STANDARDS, "rehydration", "Semester_Config_Template.yaml")

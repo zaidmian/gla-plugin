@@ -96,6 +96,9 @@ import sys
 import tempfile
 from dataclasses import dataclass, field, asdict
 
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "_lib"))
+from gla import slots as slotmod  # noqa: E402
+
 COMPILE_TIMEOUT = 60
 RUN_TIMEOUT = 10
 JAVA_LANGS = {"java"}
@@ -104,7 +107,7 @@ OUTPUT_LANGS = {"", "text", "output", "console", "plaintext", "txt", "shell-sess
 INPUT_LANGS = {"input", "stdin"}
 
 FENCE_RE = re.compile(r"^(\s*)(`{3,}|~{3,})\s*([\w+.-]*)[^\n]*$")
-SLOT_RE = re.compile(r"\b(INTRO|CP|AI|R|U\d+)(?:\.(W\d+|S|L))?(?:\.D\d+)?\b")
+SLOT_RE = slotmod.MENTION_RE   # slots and weeks in prose; module blocks come from the course
 OUTPUT_LABEL_RE = re.compile(
     r"^\s*(?:[-*]\s+)?(?:\*\*|__)?\s*(?:verified\s+(?:same\s+)?output|expected\s+output|sample\s+output|"
     r"actual\s+output|output|console\s+output|prints|it\s+prints|result)"

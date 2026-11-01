@@ -17,9 +17,9 @@ into master/02_Units/U<n>_*/Assessment/:
   Test/review_sheet.md                 student review for the review day
   Test/test_reference.md               from Test_Reference_Template.md
 
-Header forms follow the course's other units (ICD2O writes **Points:** and a
-**Window:**; ICS3U and ICS4U write **Marks:** ... points (Google Classroom
-rubric)). Bodies stay as placeholders for the model to write. Existing files
+The assignment header is the template's form, **Marks:** ... points (Google
+Classroom rubric), for every course; the marking-notes form follows the
+course's other units. Bodies stay as placeholders for the model to write. Existing files
 are never overwritten. The rubric is not created; the gc-rubric commands are
 printed instead.
 """
@@ -34,13 +34,12 @@ from collections import Counter
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "_lib"))
 import yaml  # noqa: E402,F401  (PyYAML is the library's dependency; course.load needs it)
 
-from gla import course, curriculum, mdtable, paths, slots  # noqa: E402
+from gla.codes import CODE, codes_in  # noqa: E402
+from gla import course, coverage, curriculum, mdtable, paths, slots  # noqa: E402
 
 TEMPLATES = os.path.join(paths.STANDARDS, "templates")
 BUILD_RUBRIC = os.path.join(paths.SKILLS, "gc-rubric", "scripts", "build_rubric.py")
 
-CODE_RE = re.compile(r"\b[A-Z]\d+\.\d+\b")
-CODE_RANGE = re.compile(r"\b([A-Z])(\d+)\.(\d+)\s*[–-]\s*(?:([A-Z])(\d+)\.)?(\d+)\b")
 FIELD_RE = re.compile(r"\*\*([^*]+?):\*\*\s*(.*?)(?=\s*·\s*\*\*|$)")
 UNIT_ITEM = re.compile(r"(?<![\w./])((?:U\d+\s*/\s*)*U\d+)\s+(assignments?|tests?)\b", re.I)
 EVERY_ITEM = re.compile(r"\bevery\s+(?:later\s+)?(assignment|test)", re.I)
@@ -51,17 +50,6 @@ PLACE_TOTAL, PLACE_BONUS, PLACE_MARKS = "<total>", "<n>", "<marks>"
 def read(path):
     with open(path, encoding="utf-8") as f:
         return f.read()
-
-
-def codes_in(text):
-    """Expectation codes mentioned in text, ranges expanded (A4.1–A4.5), in order, unique."""
-    found = []
-    for m in CODE_RANGE.finditer(text or ""):
-        l1, o1, a, l2, o2, b = m.groups()
-        if (l2 or l1) == l1 and (o2 or o1) == o1 and int(a) < int(b) <= int(a) + 20:
-            found += ["%s%s.%d" % (l1, o1, k) for k in range(int(a), int(b) + 1)]
-    found += CODE_RE.findall(text or "")
-    return list(dict.fromkeys(found))
 
 
 def header_fields(text, lines=8):
@@ -129,25 +117,6 @@ def parse_points(value):
     return pts, bonus
 
 
-def coverage_rows(path):
-    """[(code, assessed_cell, line)] from every Code table of the coverage map."""
-    if not os.path.exists(path):
-        return []
-    rows = []
-    for hdr, body, _ in mdtable.tables(read(path)):
-        if not hdr or hdr[0].strip().lower() != "code":
-            continue
-        try:
-            ai = mdtable.column(hdr, "assessed")
-        except KeyError:
-            continue
-        for line, c in body:
-            code = c[0].strip()
-            if CODE_RE.fullmatch(code) and ai < len(c):
-                rows.append((code, c[ai], line))
-    return rows
-
-
 def names_item(cell, unit, kind, item_name=None):
     """True when an 'Assessed in' cell names this unit's assignment or test:
     'U2 assignment', 'U2 Test (Part A)', 'U2/U3/U5 assignment rubric rows', 'Assignment_Creature_Clinic', 'Unit 2 Test'."""
@@ -210,7 +179,7 @@ class Scaffolder:
             self.cur, self.order = None, {}
             self.unresolved.append("no curriculum data for %s; codes are not checked" % self.cfg.get("code"))
         self.cov_path = os.path.join(self.root, "master", "01_Standards", "Curriculum_Coverage_Map.md")
-        self.cov = coverage_rows(self.cov_path)
+        self.cov = coverage.assessed_rows(self.cov_path)
         if not self.cov:
             self.unresolved.append("no Code tables with an Assessed in column in master/01_Standards/Curriculum_Coverage_Map.md")
         plan = os.path.join(self.root, "master", "00_Admin", "Assessment_Plan.md")
@@ -496,15 +465,12 @@ class Scaffolder:
 
         # header forms, read off the course's other assignments
         inst = self.sibling_fields("Assignment_*/instructions.md")
-        self.points_form = majority(["points" if "Points" in f else "marks" for _, _, f in inst], "marks")
         mn = [(u, p, read(p)) for u, p in self.siblings("Assignment_*/marking_notes.md")]
         self.notes_form = majority(["anchors" if "**Batch strategy:**" in t[:600] else "header" for _, _, t in mn], "header")
         slot_vals = [header_fields(t).get("Slot", "") for _, _, t in mn]
         self.notes_handed = majority(["handed" if s.startswith("handed out") else "due" for s in slot_vals if s], "due") == "handed"
-        self.sources.append(("form", "%s header, %s marking notes" % ("**Points:** + **Window:**" if self.points_form == "points"
-                                                                        else "**Marks:** ... points (Google Classroom rubric)",
-                                                                        "batch strategy + level anchors" if self.notes_form == "anchors"
-                                                                        else "slot/expectations/marks header"),
+        self.sources.append(("form", "**Marks:** ... points header (the template), %s marking notes" % (
+                                 "batch strategy + level anchors" if self.notes_form == "anchors" else "slot/expectations/marks header"),
                              "the course's other assignments (%d)" % len(inst) if inst else "Assignment_Template.md (no other assignments)"))
 
     def plan_test(self):
@@ -595,13 +561,9 @@ class Scaffolder:
         h, d = self.handed or "U_.W_.D_", self.due or "U_.W_.D_"
         pts = num(self.points) if self.points is not None else PLACE_TOTAL
         bonus = num(self.bonus) if self.bonus is not None else PLACE_BONUS
-        if self.points_form == "points":
-            slot = "handed out %s · due %s" % (h, d)
-            marks = "**Points:** %s (+ up to %s bonus) · **Window:** %s class days" % (pts, bonus, self.days if self.days is not None else "<n>")
-        else:
-            win = "%d school days %s" % (self.days, weeks_phrase(self.days, self.per_week)) if self.days is not None else "<n> school days ≈ 1.5–2 weeks"
-            slot = "handed out %s, due %s (%s)" % (h, d, win.strip())
-            marks = "**Marks:** %s points (Google Classroom rubric) + up to %s bonus" % (pts, bonus)
+        win = "%d school days %s" % (self.days, weeks_phrase(self.days, self.per_week)) if self.days is not None else "<n> school days ≈ 1.5–2 weeks"
+        slot = "handed out %s, due %s (%s)" % (h, d, win.strip())
+        marks = "**Marks:** %s points (Google Classroom rubric) + up to %s bonus" % (pts, bonus)
         head = "# Assignment: %s\n\n**Slot:** %s · **Type:** assignment\n%s\n\n" % (self.title, slot, marks)   # student-facing: no codes
         self.emit("instructions.md", head + after_header(self.template("Assignment_Template.md")))
 
@@ -732,8 +694,15 @@ def main(argv=None):
     if not root or not os.path.exists(os.path.join(root, "course.yaml")):
         print("ERROR: no course.yaml here or above; pass --root")
         return 2
-    Scaffolder(root, args.unit, args.kind, name=args.name, dry_run=args.dry_run).run()
-    return 0
+    s = Scaffolder(root, args.unit, args.kind, name=args.name, dry_run=args.dry_run)
+    try:
+        s.run()
+    except SystemExit as e:   # a unit, kind or Evaluations row the scaffolder cannot work from
+        if isinstance(e.code, str):
+            print(e.code)
+            return 2
+        raise
+    return 1 if s.unresolved else 0   # unresolved items are listed in the report
 
 
 if __name__ == "__main__":

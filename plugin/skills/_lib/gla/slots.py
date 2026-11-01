@@ -8,6 +8,9 @@ import re
 SLOT_RE = re.compile(r"\b(?P<block>INTRO|U\d+|CP|R|[A-Z]{2,})(?:\.(?P<week>W\d+|S))?\.D(?P<day>\d+)\b")
 _FULL = re.compile(r"^%s$" % SLOT_RE.pattern.replace(r"\b", ""))
 WEEK_KEY_RE = re.compile(r"^(INTRO|U\d+|CP|R|[A-Z]{2,})(\.(W\d+|S))?$")
+# A slot or week mentioned in prose ("U2.W3", "AI.S.D2", "INTRO.D1"): a module
+# block (two or more capitals) counts only when a week or day follows it.
+MENTION_RE = re.compile(r"\b(INTRO|CP|R|U\d+|[A-Z]{2,}(?=\.(?:W\d+|S|L|D\d+)))(?:\.(W\d+|S|L))?(?:\.D\d+)?\b")
 
 
 def is_slot(s):

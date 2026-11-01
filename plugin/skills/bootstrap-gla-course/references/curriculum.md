@@ -8,15 +8,15 @@ findings with the teacher (workflow steps 1 and 2).
 
 For a course code `<CODE>`:
 
-- `GLA_ROOT/Curriculum/docs/knowledge-graph/courses/<CODE>.md`
-  — the knowledge-graph file. **Always present.** Carries the era metadata in its
+- `GLA_ROOT/Curriculum/docs/knowledge-graph/courses/<CODE>.md`:
+  the knowledge-graph file. **Always present.** Carries the era metadata in its
   YAML frontmatter and a human-readable rendering of the strands.
-- `GLA_ROOT/Curriculum/data/curriculum/<CODE>.json`
-  — the structured expectations. **Present only for modern (post-2008) courses**
+- `GLA_ROOT/Curriculum/data/curriculum/<CODE>.json`:
+  the structured expectations. **Present only for modern (post-2008) courses**
   (the web-native `cms` tier). A 2008 Computer Studies course such as ICS3U or
   ICS4U has **no JSON at all**.
 
-The era is **not** encoded inside the JSON — every JSON in the dataset is the
+The era is **not** encoded inside the JSON. Every JSON in the dataset is the
 modern schema. Era lives in the `.md` frontmatter. So the presence or absence of
 the JSON is itself the primary era signal.
 
@@ -26,11 +26,11 @@ the JSON is itself the primary era signal.
    web-native/modern, `pdf` = scanned/2008-era) and `year_issued` (the precise
    year, e.g. `"2008"` or `"2023"`).
 2. Cross-check with file availability:
-   - **Modern branch** — JSON exists and `tier: cms`. Specific expectations carry
+   - **Modern branch**: JSON exists and `tier: cms`. Specific expectations carry
      their own dotted codes (`A1.1`, `A1.2`, ...). Use the Ministry's numbering
      directly; there is **no local numbering layer** and no risk of local/Ministry
      drift.
-   - **2008 branch** — no JSON, `tier: pdf`. Overall expectations are numbered
+   - **2008 branch**: no JSON, `tier: pdf`. Overall expectations are numbered
      (`A1`, `A2`, ...) but **specific expectations are unnumbered bullets** and
      overall expectations have no titles. The course must **declare a local
      canonical numbering convention** in the coverage-map preamble (state it
@@ -61,7 +61,7 @@ rather than "by the end of this course." Detect it, do not assume it from the er
 - **2008:** the same distinction appears as the strand's italic describer line.
 
 A cross-cutting strand exists per specific curriculum, independent of era. ICD2O
-(2023) has one (Strand A). TAS1O (2024, also modern) has **none** — its Strand A
+(2023) has one (Strand A). TAS1O (2024, also modern) has **none**; its Strand A
 uses "By the end of this course." ICS3U/ICS4U (2008) have none. When a
 cross-cutting strand is present, the coverage map uses the anchored + woven model
 (see `scaffold.md`); when absent, every strand maps to contiguous units the

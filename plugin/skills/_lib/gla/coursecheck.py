@@ -8,15 +8,15 @@ the overviews, the Assessment Plan and the Course Outline, the gdocs
 manifest, and the master's date-agnostic and naming rules. Teaching quality
 (teacher-note depth, analogies, misconceptions) stays a human and model job.
 """
+import csv
 import glob
 import os
 import re
 
 import yaml
 
-from . import course, curriculum, mdtable, placeholders, slots, weekplan
+from . import codes, course, curriculum, mdtable, placeholders, slots, weekplan
 
-CODE_RE = re.compile(r"\b[A-Z]\d+\.\d+\b")
 HEADER_FIELD = re.compile(r"\*\*(\w[\w ()-]*):\*\*\s*([^·\n]*)")
 SUB_BOX = re.compile(r"^> (?:### |\*\*)Running this class with a substitute(?:\*\*)?\s*$", re.M)
 TEN_TABLE = re.compile(r"^\|\s*10\s*\|\s*Complete and correct\b", re.M)
@@ -57,15 +57,21 @@ STATUSES = ("planned", "built", "verified")
 EM_ENTITY = re.compile(r"&(?:mdash|#8212|#x2014);", re.I)
 
 
-RANGE_RE = re.compile(r"\b([A-Z]\d+)\.(\d+)\s*[–-]\s*(?:\1\.)?(\d+)\b")
 
 
-def expand_codes(text):
-    """Codes in text, with ranges like A4.1–A4.5 expanded."""
-    out = set(CODE_RE.findall(text))
-    for m in RANGE_RE.finditer(text):
-        out.update("%s.%d" % (m.group(1), k) for k in range(int(m.group(2)), int(m.group(3)) + 1))
-    return out
+expand_codes = codes.expand   # kept under this name for the scaffolders that import it
+
+
+def _code_key(c):
+    m = re.match(r"([A-Z])(\d+)\.(\d+)", c)
+    return (m.group(1), int(m.group(2)), int(m.group(3))) if m else (c, 0, 0)
+
+
+def rubric_body(path):
+    """A Google Classroom rubric CSV's rows below its two header rows: five rows
+    per criterion (title, description, points, level titles, descriptors)."""
+    with open(path, encoding="utf-8-sig", newline="") as f:
+        return list(csv.reader(f))[2:]
 
 
 def _read(path):
@@ -86,7 +92,7 @@ def header(text, lines=14):
 def header_codes(text):
     for line in text.splitlines()[:14]:
         if line.startswith("**Expectations"):
-            return set(CODE_RE.findall(line))
+            return set(codes.CODE.findall(line))
     return None
 
 
@@ -133,6 +139,10 @@ class CourseCheck:
                 continue
             weekplan.check(plan, path, self.r, master=True)
             self.check_week_folder(path, plan)
+            self.check_week_codes(path, plan)
+            t = str((plan.get("metadata") or {}).get("teacher") or "").strip()
+            if t and self.cfg.get("teacher") and t not in (self.cfg.get("teacher"), self.cfg.get("teacher_formal")):
+                self.r.warn("weekplan-teacher", path, "metadata teacher %r is not course.yaml's %r" % (t, self.cfg.get("teacher")))
             for code in (plan.get("curriculum_expectations") or {}).get("specific") or []:
                 if self.known and str(code) not in self.known:
                     self.r.error("code-unknown", path, "specific expectation %s is not in the %s curriculum" % (code, self.cfg.get("code")))
@@ -150,33 +160,62 @@ class CourseCheck:
             extras = [x for x in names if re.match(r"^D%s_Slides_(.+)%s$" % (n, re.escape(DECK3D)), x)]
             if dt == "teach" and own_folder:
                 if len(lessons) != 1 or len(decks) > 1 or (need_deck and not decks):
-                    self.r.error("teach-pair", path, "D%s is a teach day but the folder has %d lesson(s) and %d deck(s)" % (n, len(lessons), len(decks)))
+                    self.r.error("day-teach-pair", path, "D%s is a teach day but the folder has %d lesson(s) and %d deck(s)" % (n, len(lessons), len(decks)))
                     continue
                 lt = lessons[0][len("D%s_Lesson_" % n):-3]
+                self.check_lesson(os.path.join(folder, lessons[0]), d)
                 if not decks:   # a course without decks (course.yaml decks: false)
                     continue
                 st = decks[0][len("D%s_Slides_" % n):-5]
                 if lt != st:
-                    self.r.error("teach-pair", path, "D%s lesson topic %r and deck topic %r differ" % (n, lt, st))
+                    self.r.error("day-teach-pair", path, "D%s lesson topic %r and deck topic %r differ" % (n, lt, st))
                 self.check_lesson_and_deck(os.path.join(folder, lessons[0]), os.path.join(folder, decks[0]), str(d.get("slot")), theme)
                 for x in extras:
                     xt = x[len("D%s_Slides_" % n):-len(DECK3D)]
                     if xt != lt:
-                        self.r.error("teach-pair", path, "D%s lesson topic %r and 3D deck topic %r differ" % (n, lt, xt))
+                        self.r.error("day-teach-pair", path, "D%s lesson topic %r and 3D deck topic %r differ" % (n, lt, xt))
                     self.check_deck3d(os.path.join(folder, x), str(d.get("slot")), header_codes(_read(os.path.join(folder, lessons[0]))) or set())
             elif dt == "teach":
-                self.r.warn("teach-pair", path, "D%s is a teach day in a plan without its own folder; no lesson or deck to check" % n)
+                self.r.warn("day-teach-pair", path, "D%s is a teach day in a plan without its own folder; no lesson or deck to check" % n)
             elif dt == "wet_lab" and own_folder:
                 labs = [x for x in names if re.match(r"^D%s_Lab_(.+)\.md$" % n, x) and not x.endswith("_Sheet.md")]
                 if len(labs) != 1:
-                    self.r.error("wet-lab", path, "D%s is a wet_lab day but the folder has %d D%s_Lab_ file(s)" % (n, len(labs), n))
+                    self.r.error("day-wet-lab", path, "D%s is a wet_lab day but the folder has %d D%s_Lab_ file(s)" % (n, len(labs), n))
                 else:
                     text = _read(os.path.join(folder, labs[0]))
                     for head in ("## Safety", "## If a substitute is covering this day"):
                         if not re.search(r"^%s\b" % re.escape(head), text, re.M):
-                            self.r.error("wet-lab", os.path.join(folder, labs[0]), "no %r section (Standards/templates/Lab_Template.md)" % head)
+                            self.r.error("day-wet-lab", os.path.join(folder, labs[0]), "no %r section (Standards/templates/Lab_Template.md)" % head)
             elif own_folder and (lessons or decks or extras):
-                self.r.error("teach-pair", path, "D%s is a %s day but has %s" % (n, dt, ", ".join(lessons + decks + extras)))
+                self.r.error("day-teach-pair", path, "D%s is a %s day but has %s" % (n, dt, ", ".join(lessons + decks + extras)))
+
+    def check_week_codes(self, path, plan):
+        """The week plan's specific codes appear in an artifact header in its folder,
+        and the coverage map gives each of them to this week."""
+        if os.path.basename(path) != "week_plan.yaml":
+            return
+        folder = os.path.dirname(path)
+        want = {str(c) for c in (plan.get("curriculum_expectations") or {}).get("specific") or []}
+        if not want or any(d.get("day_type") == "assess" for d in plan.get("daily_lessons") or []):
+            return   # an assessment week lists the unit's tested codes, which live in Assessment/
+        have = set()
+        for n in os.listdir(folder):
+            if re.match(r"^(D\d+_(Lesson|Lab)_|EX_|BRIEF_|REF_).*\.md$", n):
+                have |= header_codes(_read(os.path.join(folder, n))) or set()
+        if have:
+            missing = sorted(want - have, key=_code_key)
+            if missing:
+                self.r.warn("week-codes-header", path, "in the week plan but in no artifact header: %s" % ", ".join(missing))
+        m = re.match(r"^(U\d+)\.W(\d+)$", str((plan.get("metadata") or {}).get("slot_prefix") or ""))
+        if m:
+            if not hasattr(self, "_taught"):
+                from . import coverage
+                self._taught = coverage.taught_rows(os.path.join(self.master, "01_Standards", "Curriculum_Coverage_Map.md"))
+            from .coverage import mentions_week
+            given = {c for c, cell in self._taught if mentions_week(cell, m.group(1), int(m.group(2)))}
+            extra = sorted(want - given, key=_code_key)
+            if self._taught and extra:
+                self.r.warn("week-codes-map", path, "the coverage map does not give %s to this week: %s" % (m.group(0), ", ".join(extra)))
 
     def check_deck3d(self, deck, slot, lcodes):
         """An optional 3D deck beside the main one: its YAML source names the
@@ -191,6 +230,29 @@ class CourseCheck:
         exps = {str(c).strip() for c in meta.get("expectations") or []}
         if lcodes and exps and exps != lcodes:
             self.r.warn("deck-codes", deck, "3D deck expectations %s differ from the lesson's %s" % (", ".join(sorted(exps)), ", ".join(sorted(lcodes))))
+
+    NOTE_LABELS = (("whiteboard diagram", r"^\*\*Whiteboard diagram"), ("analogy", r"^\*\*(Core )?[Aa]nalogy"),
+                   ("demo script", r"^\*\*[^*\n]*(?:[Ss]cript|[Dd]emo|[Tt]race)[^*\n]*\*\*"), ("misconceptions", r"^\*\*Common misconceptions"),
+                   ("checkpoint questions", r"^## Checkpoint questions"), ("refresher", r"^## Refresher"))
+
+    def check_lesson(self, lesson, day):
+        """A teach-day lesson: its flow table's minutes cover the week plan's activities,
+        and its teacher notes carry the six elements (their depth stays a reader's job)."""
+        text = _read(lesson)
+        t = mdtable.find_table(text, "min", "segment")
+        planned = sum(int(a.get("minutes") or 0) for a in day.get("activities") or [])
+        if t and planned:
+            lo = hi = 0
+            for _, c in t[1]:
+                r = re.findall(r"\d+", c[0])
+                if r:
+                    lo, hi = lo + int(r[0]), hi + int(r[-1])
+            if lo and not lo <= planned <= hi:
+                self.r.warn("lesson-minutes", lesson, "the lesson flow is %s min; the week plan's D%s activities total %d"
+                            % (lo if lo == hi else "%d to %d" % (lo, hi), day.get("day"), planned))
+        missing = [name for name, rx in self.NOTE_LABELS if not re.search(rx, text, re.M)]
+        if missing:
+            self.r.warn("lesson-notes", lesson, "teacher notes lack: %s (Day_Lesson_Template.md)" % ", ".join(missing))
 
     def check_lesson_and_deck(self, lesson, deck, slot, theme):
         lt = _read(lesson)
@@ -257,7 +319,8 @@ class CourseCheck:
     def check_artifacts(self):
         kinds = [("**/D*_Lesson_*.md", "lesson"), ("**/EX_*.md", "exercise"), ("**/BRIEF_*.md", "brief"),
                  ("**/REF_*.md", "reference"), ("**/Assessment/**/instructions.md", "assignment"),
-                 ("**/Assessment/**/test.md", "test")]
+                 ("**/Assessment/**/test.md", "test"), ("**/Assessment/Test/review_sheet.md", "test"),
+                 ("**/Assessment/Test/test_reference.md", "test")]
         for pattern, kind in kinds:
             for path in self.files(pattern):
                 name = os.path.basename(path)
@@ -267,6 +330,9 @@ class CourseCheck:
                 h = header(text)
                 is_intro = "INTRO" in h.get("Slot", "") or "Course_Introduction" in path
                 student_assessment = kind in ("assignment", "test")
+                if kind == "assignment" and "Marks" not in h:
+                    self.r.warn("assignment-header", path, "header needs **Marks:** <n> points ... (Assignment_Template.md)%s"
+                                % ("; it says **Points:**" if "Points" in h else ""))
                 if student_assessment:
                     if codes is not None:
                         self.r.warn("header-student-codes", path, "student-facing assessment header lists expectations; "
@@ -283,15 +349,15 @@ class CourseCheck:
         stem = path[:-3]
         if kind == "brief":
             if os.path.exists(stem + "_KEY.md"):
-                self.r.error("brief-key", path, "a studio brief never has a _KEY (divergent output); use _MARKING")
+                self.r.error("deliverable-brief-key", path, "a studio brief never has a _KEY (divergent output); use _MARKING")
             if not os.path.exists(stem + "_MARKING.md"):
-                self.r.error("companion", path, "no %s_MARKING.md" % os.path.basename(stem))
+                self.r.error("deliverable-companion", path, "no %s_MARKING.md" % os.path.basename(stem))
         elif not (os.path.exists(stem + "_KEY.md") or os.path.exists(stem + "_MARKING.md")):
-            self.r.error("companion", path, "no _KEY or _MARKING companion")
+            self.r.error("deliverable-companion", path, "no _KEY or _MARKING companion")
         if not SUB_BOX.search(text):
-            self.r.error("sub-box", path, "no 'Running this class with a substitute' box (Style Guide Core §8)")
+            self.r.error("deliverable-sub-box", path, "no 'Running this class with a substitute' box (Style Guide Core §8)")
         if h.get("Marks", "").startswith("/10") and not TEN_TABLE.search(text):
-            self.r.error("ten-table", path, "marked /10 but the printed /10 table is missing")
+            self.r.error("deliverable-ten-table", path, "marked /10 but the printed /10 table is missing")
 
     # ------------------------------------------------------- placeholders
     def check_placeholders(self):
@@ -306,7 +372,7 @@ class CourseCheck:
                 seen.add(path)
                 found = placeholders.find(_read(path))
                 if found:
-                    self.r.error("placeholder", path, "unfilled template placeholder(s): %s" % ", ".join(found[:6])
+                    self.r.error("style-placeholder", path, "unfilled template placeholder(s): %s" % ", ".join(found[:6])
                                  + (" and %d more" % (len(found) - 6) if len(found) > 6 else ""))
 
     # ------------------------------------------------------- coverage map
@@ -330,7 +396,7 @@ class CourseCheck:
                 continue
             for line, c in rows:
                 code = c[0].strip()
-                if not CODE_RE.fullmatch(code):
+                if not codes.CODE.fullmatch(code):
                     continue
                 mapped[code] = line
                 if ti >= len(c) or c[ti].strip() in ("", "-", "—"):
@@ -346,7 +412,7 @@ class CourseCheck:
             for code in sorted(self.known - set(mapped)):
                 self.r.error("coverage-missing-code", path, "%s is in the curriculum but not in the map" % code)
             for code in sorted(set(mapped) - self.known):
-                self.r.error("coverage-extra-code", path, "%s is not a %s curriculum code" % (code, self.cfg.get("code")), mapped[code])
+                self.r.error("code-unknown", path, "%s is not a %s curriculum code" % (code, self.cfg.get("code")), mapped[code])
 
     # ------------------------------------------------------------ weights
     def check_weights(self):
@@ -355,8 +421,14 @@ class CourseCheck:
         for path in self.files("02_Units/*/unit_overview.md") + self.files("0*_*Module*/module_overview.md"):
             m = WEIGHT_LINE.search(_read(path))
             block = os.path.basename(os.path.dirname(path)).split("_")[0]
-            if "Module" in path:
-                block = "AI" if "AI" in path else block
+            if path.endswith("unit_overview.md"):
+                rh = re.search(r"\*\*Rhythm:\*\*\s*([A-Za-z]+)", _read(path))
+                if not rh or rh.group(1).lower() not in weekplan.RHYTHMS:
+                    self.r.error("unit-rhythm", path, "needs a **Rhythm:** line saying %s%s" % (
+                        " or ".join(weekplan.RHYTHMS), " (it says %r)" % rh.group(1) if rh else ""))
+            if "Module" in path:   # the module's block is the prefix its **Slots:** line names (AI.W1.D1)
+                sm = re.search(r"^\*\*Slots:\*\*\s*([A-Z]{2,})\.", _read(path), re.M)
+                block = sm.group(1) if sm else block
             if m:
                 overviews[block] = (float(m.group(1)), path)
             elif "unit_overview" in path:
@@ -368,9 +440,9 @@ class CourseCheck:
                              "unit overview weights total %g%% (%s); course.yaml classroom is %g%%"
                              % (total, ", ".join("%s %g" % (k, v[0]) for k, v in sorted(overviews.items())), classroom))
         plan = os.path.join(self.master, "00_Admin", "Assessment_Plan.md")
-        plan_w = self.unit_weights(plan, ("unit", "weight"), r"^(U\d+|AI|R)\b")
+        plan_w = self.unit_weights(plan, ("unit", "weight"), r"^(U\d+|R|[A-Z]{2,})\b")
         outline = os.path.join(self.master, "00_Admin", "Course_Outline.md")
-        out_w = self.unit_weights(outline, ("unit", "title", "weight"), r"^(\d+|CP|R|AI)\b", prefix_digits="U")
+        out_w = self.unit_weights(outline, ("unit", "title", "weight"), r"^(\d+|CP|R|[A-Z]{2,})\b", prefix_digits="U")
         if plan_w is not None and classroom is not None:
             total = sum(v for k, v in plan_w.items() if k != "CP")
             if abs(total - classroom) > 0.01:
@@ -444,9 +516,7 @@ class CourseCheck:
                 mdt = _read(md)
                 missing = [d for c in crits for d in c["levels"] if " ".join(d.split()) not in " ".join(mdt.split())]
                 md_pts = [Decimal(x) for x in re.findall(r"^\| (?:Level [1-4]|Below Level 1|Not Yet Demonstrated) \| ([\d.]+) \|", mdt, re.M)]
-                with open(path, encoding="utf-8-sig") as f:
-                    import csv as _csv
-                    rows = list(_csv.reader(f))[2:]
+                rows = rubric_body(path)
                 csv_pts = [Decimal(x) for k in range(0, len(rows) - len(rows) % 5, 5) for x in rows[k + 2][1:6]]
                 if missing:
                     self.r.warn("rubric-md", md, "%d descriptor(s) in the CSV are not in the Markdown copy" % len(missing))
@@ -500,9 +570,7 @@ class CourseCheck:
                         self.r.error("code-unknown", mn, "%s is not a %s curriculum code" % (code, self.cfg.get("code")), line)
             rub = os.path.join(folder, "rubric.csv")
             if os.path.exists(rub):
-                with open(rub, encoding="utf-8-sig") as f:
-                    import csv as _csv
-                    body = list(_csv.reader(f))[2:]
+                body = rubric_body(rub)
                 titles = [body[k][0] for k in range(0, len(body) - len(body) % 5, 5)]
                 focuses = [re.sub(r"^.*? - ", "", tt).strip().lower() for tt in titles]
                 for fcs in focuses:

@@ -1,13 +1,13 @@
 # Compression Framework
 
-The shared pattern for a course's `Compression_Table.md` — the only sanctioned way rehydration cuts days when the calendar offers fewer usable days than the master's nominal slots.
+The shared pattern for a course's `Compression_Table.md`, the only sanctioned way rehydration cuts days when the calendar offers fewer usable days than the master's nominal slots.
 
 ## Rules of the pattern
 
 1. **Priority-ordered cut tiers.** Cuts are listed in a fixed order; apply top-down and **stop as soon as the plan fits**.
 2. **Protected day types.** Never cut a `teach` day, an `assess` day, or an assignment hand-out day. Only `flex` days, designated `exercise` merges, and course-designated soft days are cuttable.
 3. **A floor.** The table states the minimum slot count the sanctioned tiers can reach. If the calendar can't fit the floor, the skill stops and asks the teacher which unit to thin manually.
-4. **Starred manual-only tiers.** Tiers below the floor exist only for teacher-authorized manual thinning — a skill must never apply them automatically. Mark them `*`.
+4. **Starred manual-only tiers.** Tiers below the floor exist only for teacher-authorized manual thinning. A skill must never apply them automatically. Mark them `*`.
 5. **Merged exercises keep their weight.** Cutting a graded exercise day folds its weight into the unit's remaining exercises; the unit subtotal never changes. Week-plan `evaluations` blocks are adjusted in the instance.
 6. **Everything is logged.** Every removed slot appears in the instance's `GENERATION_REPORT.md`: what was cut, at which priority, and what the teacher should watch for.
 

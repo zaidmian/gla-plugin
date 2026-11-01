@@ -4,7 +4,7 @@ argument-hint: "<COURSE CODE>"
 description: Scaffold a brand-new GLA course repository from its Ontario curriculum, at the moment the course is first created, before any folder for it exists. Use when the user wants to start, set up, stand up, scaffold, bootstrap, or kick off a NEW course from scratch, or rebuild a course from the ground up: for example "start a new course", "bootstrap ICS4C", "stand up the TAS1O repo", "scaffold TAS2O from the curriculum", "create the ICS4C repo", or "set it up the way ICD2O is set up". It interviews for course parameters, detects the curriculum era, writes the coverage map, and scaffolds the master/instances structure, the standards layer, and the course.yaml the shared skills read. Decisive test: if no repository for this course code exists yet, this is the skill; if the course repo already exists, it is not. Do NOT use for work inside a course that already exists, even when the request says "set up", "build out", "create a new", or "start": setting up a semester instance or rehydrating dates is the semester skill; building out or authoring a unit, week, lesson, deck, exercise, brief, or culminating project is author-week; editing an existing coverage map is ordinary work; and generating Google Docs or docx handouts is the semester skill. This runs once, at course creation.
 ---
 
-# bootstrap-gla-course — stand up a new GLA course from an Ontario curriculum
+# bootstrap-gla-course: stand up a new GLA course from an Ontario curriculum
 
 You are creating the initial repository for a new GLA course: the detached-master
 structure, the standards layer that wires it to the shared package, the course's
@@ -31,7 +31,7 @@ teacher first; it installs Python packages).
 When `GLA_ROOT/Courses/` exists (the maintainer's own setup), `ICS3U`, `ICS4U`,
 and `ICD2O` in it show what a finished repo looks like. A teacher's install
 carries no courses; then `references/scaffold.md` is the shape to follow. Read them to see shape and voice. **Never copy their
-files** — every course-specific choice in them (language, unit names, project
+files**: every course-specific choice in them (language, unit names, project
 topics, weights, rhythms) is a parameter you gather in the interview, not a
 default you inherit. ICD2O is the post-2008 exemplar; ICS3U/ICS4U are the 2008
 exemplars. When they disagree, that difference is usually a curriculum-era branch
@@ -39,24 +39,26 @@ or a course parameter, and the interview below asks for it.
 
 ## Authority documents
 
+Read item 1, §13 and §1 of item 2, and the course's curriculum file (7) first. Read the rest when the interview or the build reaches it: Grading_Conventions' final-mark and assignment sections at Batch C, the rehydration documents at the build's rehydration step, and a template only when you fill it.
+
 Shared package (the rules; reference by absolute path, **never copy into the new repo**):
 
-1. `GLA_ROOT/Standards/README.md` — the detached-master architecture and the package's change discipline.
-2. `GLA_ROOT/Standards/style/Style_Guide_Core.md` — §13 defines the course-layer contract you are instantiating; §1 the master/instance model; §5 file naming.
-3. `GLA_ROOT/Standards/assessment/Grading_Conventions.md` — the assessment defaults (one assignment/unit, /10 scale, category weighting) the interview may override per course.
-4. `GLA_ROOT/Standards/rehydration/Rehydration_Framework.md` and `Compression_Framework.md` — the algorithm the course's parameter layer feeds; `rehydration/Semester_Config_Template.yaml` — the shared config.
-5. `GLA_ROOT/Standards/templates/` and `decks/` — the artifact templates and deck machinery the course will use.
+1. `GLA_ROOT/Standards/README.md`: the detached-master architecture and the package's change discipline.
+2. `GLA_ROOT/Standards/style/Style_Guide_Core.md`: §13 defines the course-layer contract you are instantiating; §1 the master/instance model; §5 file naming.
+3. `GLA_ROOT/Standards/assessment/Grading_Conventions.md`: the assessment defaults (one assignment/unit, /10 scale, category weighting) the interview may override per course.
+4. `GLA_ROOT/Standards/rehydration/Rehydration_Framework.md` and `Compression_Framework.md`: the algorithm the course's parameter layer feeds; `rehydration/Semester_Config_Template.yaml`, the shared config.
+5. `GLA_ROOT/Standards/templates/` and `decks/`: the artifact templates and deck machinery the course will use.
 6. The shared skills (`author-week`, `author-assessment`, `semester`), installed beside this one. They are course-agnostic and are never copied into a repo; they read the repo's `course.yaml`, whose schema is `GLA_ROOT/Standards/templates/Course_Config_Schema.yaml`.
 
 Curriculum data (the source of truth for expectations and era):
 
-7. `GLA_ROOT/Curriculum/docs/knowledge-graph/courses/<CODE>.md` — always present; carries the era metadata.
-8. `GLA_ROOT/Curriculum/data/curriculum/<CODE>.json` — present only for modern (post-2008) courses.
+7. `GLA_ROOT/Curriculum/docs/knowledge-graph/courses/<CODE>.md`: always present; carries the era metadata.
+8. `GLA_ROOT/Curriculum/data/curriculum/<CODE>.json`: present only for modern (post-2008) courses.
 
 This skill's own references (read when you reach that step):
 
-9. `references/curriculum.md` — era detection, and how to read strands/expectations from the JSON vs the `.md`.
-10. `references/scaffold.md` — the exact folder tree, per-document skeletons, and the `MASTER_INDEX.md` registry shape.
+9. `references/curriculum.md`: era detection, and how to read strands/expectations from the JSON vs the `.md`.
+10. `references/scaffold.md`: the exact folder tree, per-document skeletons, and the `MASTER_INDEX.md` registry shape.
 
 ## Workflow
 
@@ -97,18 +99,18 @@ Grouped for batch answers. `[ASK]` = the teacher answers; `[DETECT]` = read from
 the curriculum data, then confirm; `[BUILD]` = resolved while constructing the
 coverage map, not asked up front. Hard rule: no answer, no build. The answers file's keys follow these batches.
 
-### Batch A — Course identity and curriculum
+### Batch A: Course identity and curriculum
 
 1. Course code, full title, grade, stream/pathway, prerequisite or assumed prior
    knowledge, and feeder role (what the next course assumes its alumni know). [ASK]
    Also the teacher's name as students see it (`teacher`, for example "Br. Zaid")
    and the formal name for official documents (`teacher_formal`, for example
    "Zaid Mian"). [ASK]
-2. Curriculum era and specific-expectation numbering. [DETECT — step 1; confirm]
+2. Curriculum era and specific-expectation numbering. [DETECT: step 1; confirm]
 3. Is there a cross-cutting "throughout this course" strand? If so, which strand
    and expectations? [DETECT via the strand `describer` prefix; confirm]
 
-### Batch B — Structure and pedagogy
+### Batch B: Structure and pedagogy
 
 4. The unit breakdown: names, length in weeks, and which curriculum strand(s)
    each unit carries. Which units are shorter than 3 weeks? (Short units pin
@@ -126,7 +128,7 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
    part of the sequence? If standby: is its curriculum coverage enrichment (fine)
    or baseline (baseline coverage must live in unconditional slots)? [ASK]
 
-### Batch C — Assessment
+### Batch C: Assessment
 
 8. How many summative assignments per unit? The shared default is one per unit;
    if a single strand dominates the course, prefer slicing it into sub-units
@@ -134,7 +136,11 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
 9. Per-unit classroom-work weights. Under the 2026 Growing Success model the final
    mark is three fixed buckets (Grades 9-10: 65% classroom / 20% final evaluation /
    15% attendance and participation; Grades 11-12: 65% / 25% / 10%), so classroom
-   work always totals 65%. Ask only for the per-unit split of that 65%. [ASK]
+   work always totals 65%. Ask only for the per-unit split of that 65%, and
+   whether the course's rubrics keep the school default category weighting
+   (K/U 25, Thinking 30, Communication 20, Application 25) or set their own
+   (`assessment.category_weights` in course.yaml, with the reason in the
+   Assessment Plan). [ASK]
 10. The final evaluation is a written exam and, for most subjects, a culminating
     task; the exam-versus-culminating split is fixed by subject area and grade (see
     the matrix in the shared `assessment/Grading_Conventions.md`), not chosen.
@@ -142,7 +148,7 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
     whether it falls in an exam-exempt category. Then ask the culminating task's
     shape (form/topic) where the subject has one. The three buckets total 100. [ASK]
 
-### Batch D — Environment and conventions
+### Batch D: Environment and conventions
 
 11. The working environment in class and at home (are they the same?), and how
     authentic authorship of student work will be evidenced (git cadence,
@@ -156,7 +162,7 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
     course with language null has no code samples and no feature table. [DETECT the file's existence + ASK]
 13. Any typography or voice rules the teacher enforces beyond the shared style
     guide (for example: no em-dashes, no emojis anywhere). These are teacher-level
-    preferences, recorded in the course-layer `Style_Guide.md`. [ASK — do not assume; confirm each]
+    preferences, recorded in the course-layer `Style_Guide.md`. [ASK: do not assume; confirm each]
 14. Which slide-deck palette the course uses: `glass` (marine and coral, the
     default) or `gla` (the GLA print palette: maroon, gold, and charcoal grays).
     Both token sets live in `Standards/decks/Slide_Deck_Template.html`. [ASK;
@@ -166,19 +172,19 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
     `[A, B]` by default, A multiple choice and B written; a history course might
     add a C part for an extended response. [ASK; defaults shown]
 
-### Batch E — Legacy and deployment
+### Batch E: Legacy and deployment
 
 15. Is there legacy material to reuse? If so, it gets an Adapt / Mine / Discard
     audit recorded in a `Legacy_Reuse_Map.md`, and its expectation codes are
-    **never trusted** — every reused code is re-derived from the authoritative
+    **never trusted**. Every reused code is re-derived from the authoritative
     curriculum data (legacy schemes are often from a superseded curriculum). [ASK
     → conditionally scaffold the Legacy_Reuse_Map stub]
 16. Does the course need one-time lab/deployment setup (tool licensing, software
     vendoring, student accounts, provenance tooling, printed stock)? If so,
-    scaffold a `Deployment_Checklist.md` stub — the physical-world counterpart of
+    scaffold a `Deployment_Checklist.md` stub, the physical-world counterpart of
     rehydration. [ASK → conditionally scaffold the stub]
 
-### Batch F — Semester config
+### Batch F: Semester config
 
 17. Does the course ship its own semester-config template (for example with a
     `modules:` block) or use the shared one as-is? Typography rules from Batch D
@@ -188,7 +194,7 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
 Anchor-slot assignment for a cross-cutting strand, compression-tier derivation
 from each block's rhythm, and matching each write/use/apply expectation to a
 doing-artifact are `[BUILD]` decisions made while writing the coverage map and
-rehydration guide, not interview questions — but flag them to the user as work
+rehydration guide, not interview questions, but flag them to the user as work
 the scaffold sets up rather than completes.
 
 ---
@@ -203,7 +209,7 @@ the scaffold sets up rather than completes.
 - **Detect the era and branch** at every era-specific point (numbering layer, coverage-map shape). Confirm the detection with the user.
 - **Freeze slot/block numbering** at the first commit. If content later moves, update the week plan, not the IDs.
 - **Do not author teaching content.** Lessons, exercises, briefs, decks, and tests are `author-week`'s job. This skill produces structure, the standards layer, and skeletons.
-- **Shared-package changes get a CHANGELOG entry.** If the course needs something the package lacks (a new language-conventions file, a new day type), that change is made in the package with its own `CHANGELOG.md` entry and adopted here — course-specific rules stay in the course layer and never migrate up.
+- **Shared-package changes get a CHANGELOG entry.** If the course needs something the package lacks (a new language-conventions file, a new day type), that change is made in the package with its own `CHANGELOG.md` entry and adopted here. Course-specific rules stay in the course layer and never migrate up.
 
 ## Self-check (run before handing back)
 

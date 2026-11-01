@@ -12,8 +12,11 @@ config into --out (default instances/<output.instance_folder>). Refuses to
 write into an existing instance without --force; it never touches
 teaching_log.jsonl, material_links.yaml, gdocs/ or html/.
 
-Exit codes: 0 written, 2 bad config or parameters, 3 the plan needs a
-teacher decision (floor reached or manual compression), 1 the written
+Exit codes: 0 written; 2 bad config or parameters (cannot run); 3 the plan
+needs a teacher decision: the plan does not fit (nothing written; the answer
+goes in the config's extra_cuts), or it breaks an assignment-window or
+culminating-demo rule on a date still ahead (written, with RULE BREAK lines;
+fix the config or list the item in accept_rule_breaks); 1 the written
 instance failed check_instance.
 """
 import argparse
@@ -70,6 +73,8 @@ def main(argv=None):
              len(plan.cuts), plan.spill, m["buffers"], out))
     for flag in plan.flags:
         print("  flag: " + flag)
+    for name, msg in plan.breaks:
+        print("RULE BREAK: " + msg)
     report = findings.Report(root)
     if os.path.dirname(out) == os.path.join(root, "instances"):
         instance.check(root, os.path.basename(out), report, classroom=(ccfg.get("assessment") or {}).get("classroom"),
@@ -78,6 +83,11 @@ def main(argv=None):
         if errors:
             report.print(title="check_instance (calendar files)")
             return 1
+    if plan.breaks:
+        print("STOP: %d rule break(s) on dates still ahead need the teacher. Change the config (extra_cuts, "
+              "usable_fraction, events) and rerun, or name each accepted item in accept_rule_breaks: [%s]."
+              % (len(plan.breaks), ", ".join(n for n, _ in plan.breaks)))
+        return 3
     return 0
 
 

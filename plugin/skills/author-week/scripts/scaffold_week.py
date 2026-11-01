@@ -28,12 +28,11 @@ import unicodedata
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath(__file__)), "..", "..", "_lib"))
 import yaml  # noqa: E402
 
-from gla import course, curriculum, mdtable, paths, slots, weekplan  # noqa: E402
+from gla.codes import CODE, codes_in  # noqa: E402
+from gla import course, coverage, curriculum, mdtable, paths, slots, weekplan  # noqa: E402
 
 TEMPLATES = os.path.join(paths.STANDARDS, "templates")
 
-CODE_RE = re.compile(r"\b[A-Z]\d+\.\d+\b")
-CODE_RANGE = re.compile(r"\b([A-Z])(\d+)\.(\d+)\s*[–-]\s*(?:([A-Z])(\d+)\.)?(\d+)\b")
 DELIV_RE = re.compile(r"\b(EX|BRIEF)_([A-Za-z0-9]+(?:_[A-Za-z0-9]+)*)")
 WEEK_HEAD = re.compile(r"^### (W\d+):\s*(.+?)\s*(?:\(`(W\d+_[^`/]+)/?`\))?\s*$", re.M)
 SMALL = {"a", "an", "and", "as", "at", "by", "for", "from", "in", "into", "of", "on", "or", "the", "to", "vs", "with"}
@@ -80,51 +79,6 @@ def spaced(token):
 
 
 # ------------------------------------------------------------------ codes
-def codes_in(text, known=None):
-    """Expectation codes mentioned in text, ranges expanded (A4.1–A4.5), in order, unique."""
-    found = []
-    for m in CODE_RANGE.finditer(text or ""):
-        l1, o1, a, l2, o2, b = m.groups()
-        if (l2 or l1) == l1 and (o2 or o1) == o1 and int(a) < int(b) <= int(a) + 20:
-            found += ["%s%s.%d" % (l1, o1, k) for k in range(int(a), int(b) + 1)]
-    found += CODE_RE.findall(text or "")
-    seen, out = set(), []
-    for c in found:
-        if c not in seen:
-            seen.add(c)
-            out.append(c)
-    return out
-
-
-def mentions_week(cell, unit, week):
-    """True when a coverage-map cell names this week (U2.W3, U2.W3.D1, U2.W2–W3)."""
-    for m in re.finditer(r"(?<![\w.])%s\.W(\d+)(?:\s*[–-]\s*W(\d+))?(?!\d)" % re.escape(unit), cell or ""):
-        lo, hi = int(m.group(1)), int(m.group(2) or m.group(1))
-        if lo <= week <= hi:
-            return True
-    return False
-
-
-def coverage_rows(path):
-    """[(code, taught_cell)] from every Code table of the coverage map."""
-    if not os.path.exists(path):
-        return []
-    with open(path, encoding="utf-8") as f:
-        text = f.read()
-    rows = []
-    for hdr, body, _ in mdtable.tables(text):
-        if not hdr or hdr[0].strip().lower() != "code":
-            continue
-        ti = next((k for k, h in enumerate(hdr) if h.lower().startswith(("taught", "anchor"))), None)
-        if ti is None:
-            continue
-        for _, c in body:
-            code = c[0].strip()
-            if CODE_RE.fullmatch(code) and ti < len(c):
-                rows.append((code, c[ti]))
-    return rows
-
-
 # ------------------------------------------------------------------ overview
 class Week:
     pass
@@ -274,8 +228,12 @@ class Scaffolder:
         h1 = re.search(r"^# (.+)$", self.overview, re.M)
         self.unit_name = h1.group(1).split(":", 1)[1].strip() if h1 and ":" in h1.group(1) else (h1.group(1).strip() if h1 else "")
         rh = re.search(r"\*\*Rhythm:\*\*\s*([A-Za-z]+)", self.overview)
-        self.rhythm = rh.group(1).lower() if rh else "standard"
-        self.rhythm_src = "unit_overview **Rhythm:**" if rh else "default (no **Rhythm:** line)"
+        if not rh or rh.group(1).lower() not in weekplan.RHYTHMS:
+            raise SystemExit("ERROR: %s needs a **Rhythm:** line saying %s (it %s)" % (
+                os.path.relpath(ov, self.root), " or ".join(weekplan.RHYTHMS),
+                "says %r" % rh.group(1) if rh else "has none"))
+        self.rhythm = rh.group(1).lower()
+        self.rhythm_src = "unit_overview **Rhythm:**"
 
         folder = self.w.folder
         if not folder:
@@ -289,7 +247,7 @@ class Scaffolder:
         except (KeyError, FileNotFoundError):
             self.cur, self.order = None, {}
             self.unresolved.append("no curriculum data for %s; codes are not checked" % self.cfg.get("code"))
-        self.cov = coverage_rows(os.path.join(self.root, "master", "01_Standards", "Curriculum_Coverage_Map.md"))
+        self.cov = coverage.taught_rows(os.path.join(self.root, "master", "01_Standards", "Curriculum_Coverage_Map.md"))
         if not self.cov:
             self.unresolved.append("no Code tables in master/01_Standards/Curriculum_Coverage_Map.md")
         self.evals = evaluations(self.overview)
@@ -310,7 +268,7 @@ class Scaffolder:
     # -- decisions
     def plan_week(self):
         self.assess_week = any(day_type(d["type"]) == "assess" for d in self.w.days)
-        self.week_codes = self.sort(self.real([c for c, cell in self.cov if mentions_week(cell, self.unit, self.week)], "coverage map"))
+        self.week_codes = self.sort(self.real([c for c, cell in self.cov if coverage.mentions_week(cell, self.unit, self.week)], "coverage map"))
         self.codes_report.append(("week_plan specific", self.week_codes, "coverage map rows whose Taught in / Anchor cell names %s" % self.key))
 
         self.teach, self.labs = [], []
@@ -444,7 +402,7 @@ class Scaffolder:
             codes = [c for c, cell in self.cov if slot_re.search(cell)]
             csrc = "coverage map rows naming %s" % d["slot"]
             if not codes:
-                codes = [c for c, cell in self.cov if mentions_week(cell, self.unit, self.week)
+                codes = [c for c, cell in self.cov if coverage.mentions_week(cell, self.unit, self.week)
                          and not re.search(r"(?<![\w.])%s\.W%d\.D\d" % (re.escape(self.unit), self.week), cell)]
                 csrc = "coverage map rows naming %s without a day" % self.key
             codes = self.sort(self.real(codes, d["slot"] + " coverage"))
@@ -633,17 +591,24 @@ def main(argv=None):
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("week", help="slot block such as U2.W3")
     ap.add_argument("--root", help="course repo root (default: found from the cwd)")
-    ap.add_argument("--only", help="D<n> | deliverable | ref | plan")
+    ap.add_argument("--part", "--only", dest="only", help="D<n> | deliverable | ref | plan (--only is the old name)")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args(argv)
     if args.only and not re.fullmatch(r"D\d+|deliverable|ref|plan", args.only):
-        ap.error("--only takes D<n>, deliverable, ref or plan")
+        ap.error("--part takes D<n>, deliverable, ref or plan")
     root = os.path.abspath(args.root) if args.root else course.find_root()
     if not root or not os.path.exists(os.path.join(root, "course.yaml")):
         print("ERROR: no course.yaml here or above; pass --root")
         return 2
-    Scaffolder(root, args.week, only=args.only, dry_run=args.dry_run).run()
-    return 0
+    s = Scaffolder(root, args.week, only=args.only, dry_run=args.dry_run)
+    try:
+        s.run()
+    except SystemExit as e:   # an overview the scaffolder cannot work from
+        if isinstance(e.code, str):
+            print(e.code)
+            return 2
+        raise
+    return 1 if s.unresolved else 0   # unresolved items are listed in the report
 
 
 if __name__ == "__main__":

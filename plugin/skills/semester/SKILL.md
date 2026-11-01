@@ -4,7 +4,7 @@ argument-hint: "[init | new | recalendar | refresh | audit] <semester, e.g. 2027
 description: Run a GLA course's semester instance end to end. Generate (rehydrate) a dated instance from master and a semester config, recalendar it mid-semester after disruptions, refresh its outputs (Google-Docs-ready .docx handouts in instances/<semester>/gdocs/, the teacher calendar page Course_Calendar.html, optional GLA-branded plan documents), and audit the teaching log. Use when the user sets up a new semester or gives semester dates, asks to rehydrate, recalendar, or resume after lost days or a module switch, wants the Google Docs or docx handouts, wants the HTML calendar built or rebuilt, or asks what was taught, skipped, or moved this semester. Do NOT use to author lessons, decks, exercises (author-week), assignments or tests (author-assessment), rubrics (gc-rubric), or to start a new course (bootstrap-gla-course).
 ---
 
-# semester — a course's dated instance, from config to calendar
+# semester: a course's dated instance, from config to calendar
 
 ## Locations
 
@@ -28,10 +28,10 @@ Invoked with arguments (`/semester new 2027-28 S1`, `/semester recalendar 2026-2
 
 1. **Get the config.** `gla semester init "<name>" [--from <previous instance>]` writes `<folder>_semester_config.yaml` at the course root from the course's template (or the shared one). When `GLA_ROOT/Calendars/<year>.yaml` exists for the name's school year, the config says `school_calendar: "<year> <term>"` and takes the semester dates, holidays, PA days and school events from that file; only the course's own events keep `TODO` dates. Without one, every date is `TODO` and the holiday and event names and PA-day labels are carried from the latest instance. Either way it carries the module choices, the events whose buffer day was lost, and a `usable_fraction` from the teaching log. A school calendar with `TODO` dates for the term is the office's data: ask the teacher for them and write them into `Calendars/<year>.yaml` (its own git repo), never into the course config. Then settle the course's choices with the teacher: the module options and how many buffer days each event takes are AskUserQuestion questions; the course's own extra closures and events are free values. Show the config for confirmation. `new` refuses a config with a `TODO` left, in it or in the school calendar it names.
 2. **Build.** `gla semester new <config> [--plans]`, then delete the root copy (the instance keeps its own `semester_config.yaml`). It generates the instance (`rehydrate.py`), checks it (`check_instance.py`), converts the Google Docs handouts (`convert_instance.py`, which verifies every .docx it writes), renders the GLA plan documents into `gdocs/Admin/` when `--plans` is given (with the formatter's review file at `instances/<name>/Admin_Plans_Review.md`; give it to the teacher with the plans), and builds the teacher calendar last (it reads `gdocs/index.yaml`). It stops at the first failing step.
-   - Exit 3: the plan cannot fit within the sanctioned rules. Show the message and ask the teacher which unit to thin (an AskUserQuestion with the units as options).
-   - A course without `rehydration.yaml`: write it first from its `Rehydration_Guide.md` and `Compression_Table.md` (ICS3U's is the model) and confirm it with the teacher.
-   - An existing instance: pass `--force`. Never hand-edit generated files; change the config, the week plans, or `rehydration.yaml`, and rerun.
-3. **Finish what the generator cannot.** Fill any register description it flags as missing (and add the `summary` to the master week plan), and record the decisions made with the teacher and any flags of your own in the config's `decisions:` and `flags:` lists, then rerun with `--force`. The report renders them on every run, so never edit `GENERATION_REPORT.md` by hand. Show the user the report summary and the first two weeks of the calendar.
+   - Exit 3: the teacher must decide. When the plan cannot fit (nothing is written), show the message and ask which slots to drop (an AskUserQuestion with the units' flex and exercise days as options), list them in the config's `extra_cuts`, and rerun. When it prints `RULE BREAK` lines (the instance is written), an assignment window or the culminating demo rule breaks on a date still ahead: show each one and ask whether to change the config (`usable_fraction`, events, `extra_cuts`) or accept it; an accepted one goes in `accept_rule_breaks` by its evaluation name (`culminating` for the demo rule), then rerun.
+   - A course without `rehydration.yaml`: write it first from its `Rehydration_Guide.md` and `Compression_Table.md` (ICS3U's is the model) and confirm it with the teacher. It is the one master file this skill writes.
+   - An existing instance: pass `--force`. Never hand-edit generated files; change the config and rerun. A week plan that needs changing is author-week's job: tell the teacher which one and why.
+3. **Finish what the generator cannot.** A register description the week plans lack is taken from master (an assignment's first learning goal, an exercise's opening sentence); one it still flags gets filled in the register by hand, and the teacher can have author-week add a `summary` to that week plan. Record the decisions made with the teacher and any flags of your own in the config's `decisions:` and `flags:` lists, then rerun with `--force`. The report renders them on every run, so never edit `GENERATION_REPORT.md` by hand. Show the user the report summary and the first two weeks of the calendar.
 4. **Hand over** the calendar: open `instances/<name>/Course_Calendar.html` in Chrome as a `file://` page; the first visit needs **Connect folder** (the instance folder), later visits one **Reconnect** click.
 
 ### Mid-semester recalendar
@@ -40,7 +40,7 @@ Run `gla semester recalendar <name>`. It takes `resume_from` and the `resume_*` 
 
 ### Refresh outputs
 
-After master materials change: `gla semester refresh <name> --weekplans [--plans]` re-copies the master week plans into the instance with their existing dates, reconverts the handouts and rebuilds the calendar. For one handout: `gla gdocs <name> --only <file or folder fragment>`, then rebuild the calendar with `gla calendar instances/<name>`. For an arbitrary file: `gla md2docx SOURCE.md OUT.docx [--strip-teacher-note] [--kind=test]`.
+After master materials change: `gla semester refresh <name> --weekplans [--plans]` re-copies the master week plans into the instance with their existing dates, reconverts the handouts and rebuilds the calendar. For one handout: `gla gdocs <name> --match <file or folder fragment>`, then rebuild the calendar with `gla calendar instances/<name>`. For an arbitrary file: `gla md2docx SOURCE.md OUT.docx [--strip-teacher-note] [--kind=test]`.
 
 Uploading `gdocs/` to Google Drive is an external action: if a Drive connector is available, offer it and confirm first; otherwise tell the teacher to drag the folder into Drive (structure is kept) and open files with Google Docs. The calendar's **+URL** button records each handout's Google Doc link in `material_links.yaml`.
 
@@ -50,14 +50,17 @@ Uploading `gdocs/` to Google Drive is an external action: if a Drive connector i
 
 ## Hard rules
 
-- Never edit `master/` here. If master content looks wrong, flag it.
+- Never edit `master/` here, apart from writing a course's missing `rehydration.yaml` with the teacher. If master content looks wrong, flag it; author-week and author-assessment make master changes.
 - Never hardcode or guess holiday or event dates; they come from the config every time.
 - Never cut a teach, assess, or hand-out day; only the course's compression tiers cut.
 - Never edit `teaching_log.jsonl` or `material_links.yaml`; the page writes them, and a rebuild preserves them.
 - Teacher-only files (`_KEY`, `_MARKING`, marking notes, rubrics, lessons, plans, decks) never go into `gdocs/` as student handouts.
-- A handout's images (a line holding only `![alt](images/file.png)`) are embedded in its .docx; a missing image or a web address stops that handout's conversion, and the run reports it. Fix it in master, not in `gdocs/`.
+- A handout's images (a line holding only `![alt](images/file.png)`) are embedded in its .docx; a missing image or a web address stops that handout's conversion, and the run reports it. Flag it: the fix is in master (author-week), never in `gdocs/`.
+- Each conversion lists the handouts that changed since the last build: those are the ones to re-upload to Drive. A full run removes the .docx files master no longer produces.
 - `teach`, `wet_lab`, `seminar`, `debate` and `field_trip` days are never sub-ready. When the teacher will be absent on one, swap it with the week's next sub-ready day; if no swap fits, the substitute runs the day's fallback (a wet lab's non-lab activity, or the week plan's `sub_fallback`).
-- Percentages total exactly 100 under the 2026 model (classroom 65; final evaluation 20 or 25; attendance 15 or 10). Assignment windows 7 to 10 class days; culminating demos at least 2 class days before `exam_start`. The generator and `check_instance.py` check these; their warnings go into the report's flags.
+- Percentages total exactly 100 under the 2026 model (classroom 65; final evaluation 20 or 25; attendance 15 or 10).
+- Assignment windows run 7 to 10 class days, and culminating demos end at least 2 class days before `exam_start`. A break on a date still ahead stops the generator (exit 3) until the config fixes it or the teacher accepts it in `accept_rule_breaks`; a break already in the past is history and is not reported.
+- No unit test sits on the first class day after a closure; the generator moves it (rehydration.yaml `constraints.no_test_after_break: false` turns this off for a course).
 
 ## Reference
 

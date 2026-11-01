@@ -11,14 +11,14 @@ The course's `gdocs_manifest.yaml` (or the path in `course.yaml` `gdocs_manifest
 - Body Roboto 11pt; code (inline + blocks) Roboto Mono; page Letter, 1"
   margins.
 - md `#` → Title, `##` → Heading 1 (GLA maroon), `###` → Heading 2, `####` →
-  Heading 3 — so the Google Docs outline sidebar works.
+  Heading 3, so the Google Docs outline sidebar works.
 - The header block renders as a shaded box with a maroon left bar. For the
   student copy it is rewritten (see below), not shown verbatim.
 - Tables: bold shaded header row, light grey borders, full width.
 - Fenced code: shaded grey box, spaces preserved (ASCII diagrams survive).
 - Blockquotes render as a gold-tinted box.
 - Lists keep their **literal source numbering**. `- [ ]` renders as ☐.
-- Colors/fonts are constants at the top of the shared `md2docx.py` — retheme
+- Colors/fonts are constants at the top of the shared `md2docx.py`; retheme
   there (a shared change; CHANGELOG it), never per-document.
 
 ## Student-copy transforms
@@ -89,6 +89,6 @@ A single-file run gets the same layout with `--kind=test`.
   document, as Style Guide Core §4 requires; a missing file or a web address
   stops that document's conversion with a message. An image inside a paragraph
   or table is not converted.
-- Slide decks (`D*_Slides_*.html`) are out of scope — they are already HTML.
+- Slide decks (`D*_Slides_*.html`) are out of scope, since they are already HTML.
 - The converter reads markdown as written per the shared Style Guide Core §11;
   wildly different markdown may need a spot-check of the output.

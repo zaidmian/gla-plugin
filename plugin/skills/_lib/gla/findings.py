@@ -17,6 +17,27 @@ import sys
 
 ERROR, WARN = "error", "warning"
 
+# Finding codes are <area>-<thing>, so --only can select an area:
+#   admin, assignment, code, course, coverage, curriculum, day (per-day files:
+#   teach-pair, wet-lab), deck, deliverable (exercise and brief sheets and their
+#   companions), eval (instance evaluations), features, guide, header, image,
+#   index, map, master, md (instance documents), name, rubric, style, test,
+#   unit, week/weekplan, weight; and calendar, instance and plan for instances.
+# Codes renamed for that scheme; an allow comment or --only prefix that names
+# the old code still works.
+ALIASES = {"companion": "deliverable-companion", "sub-box": "deliverable-sub-box", "ten-table": "deliverable-ten-table",
+           "brief-key": "deliverable-brief-key", "placeholder": "style-placeholder", "teach-pair": "day-teach-pair",
+           "wet-lab": "day-wet-lab", "plan-total": "md-plan-total", "review-copy": "test-review-copy",
+           "key-missing": "test-key-missing", "key-answer": "test-key-answer", "key-run": "test-key-run",
+           "key": "test-key", "coverage-extra-code": "code-unknown", "coverage-code": "code-unknown",
+           "config-missing": "instance-config-missing"}
+
+
+def canonical(code):
+    """A finding code or --only prefix under its current name."""
+    return ALIASES.get(code, code)
+
+
 _EMIT = re.compile(r"\.(?:error|warn|_compare)\(")
 _CODE = re.compile(r'"([a-z]+(?:-[a-z0-9]+)+)"')
 ALLOW = re.compile(r"gla-allow:[ \t]*([a-z][a-z0-9-]*)[ \t]*(.*?)[ \t]*(?:-->|$)", re.M)
@@ -41,7 +62,7 @@ def known_codes():
 def unknown_prefixes(prefixes):
     """The prefixes in an --only list that no finding code starts with."""
     codes = known_codes()
-    return [p for p in prefixes if not any(c.startswith(p) for c in codes)]
+    return [p for p in prefixes if not any(c.startswith(canonical(p)) for c in codes)]
 
 
 def allows(path):
@@ -104,7 +125,7 @@ class Report:
             level, code, path = item[0], item[1], item[2]
             if level == WARN and path:
                 rules = cache.setdefault(path, allows(str(path)))
-                reason = next((r for c, r in rules.items() if code.startswith(c)), None)
+                reason = next((r for c, r in rules.items() if code.startswith(canonical(c))), None)
                 if reason is not None:
                     self.allowed.append(item + (reason,))
                     continue

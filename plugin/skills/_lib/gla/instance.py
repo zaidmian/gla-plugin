@@ -226,7 +226,11 @@ class Instance:
 
     def check_evaluations(self, report):
         windows = {}
-        avoid = self.avoid_test_days()
+        cons = self.constraints()
+        avoid = {DAYS.index(x[:3].title()) for x in cons.get("avoid_test_days") or [] if x[:3].title() in DAYS}
+        after_break = cons.get("no_test_after_break", True)
+        lo, hi = cons.get("assignment_window") or (WINDOW_MIN, WINDOW_MAX)
+        closed = {_date(d.get("date")) for d in self.cal.get("days") or [] if d.get("kind") == "closure"}
         for rel, e in self.evaluations():
             path, name, kind = self.path(rel), e["name"], e.get("kind")
             ho, due = str(e.get("handed_out") or ""), str(e.get("due") or "")
@@ -243,28 +247,34 @@ class Instance:
                 if ho in self.by_slot and due in self.by_slot:
                     w = self.class_days_between(ho, due)
                     windows[name] = (ho, due, w)
-                    if not WINDOW_MIN <= w <= WINDOW_MAX:
-                        report.warn("eval-window", path, "%s: %s to %s is %d class days (rule: %d to %d)" % (name, ho, due, w, WINDOW_MIN, WINDOW_MAX))
+                    if not lo <= w <= hi:
+                        report.warn("eval-window", path, "%s: %s to %s is %d class days (rule: %d to %d)" % (name, ho, due, w, lo, hi))
             if kind == "test" and due in self.by_slot and self.by_slot[due].get("day_type") != "assess":
                 report.error("eval-test", path, "%s: due on %s, a %s day, not an assess day" % (name, due, self.by_slot[due].get("day_type")))
-            if kind == "test" and due in self.by_slot and avoid:
+            if kind == "test" and due in self.by_slot:
                 d = _date(self.by_slot[due].get("date"))
-                if d and d.weekday() in avoid and d >= dt.date.today():   # a test already given stays history
-                    report.error("eval-test-day", self.cal_path, "%s falls on %s, a %s; rehydration.yaml avoids tests on %s"
-                                 % (name, d.isoformat(), DAYS[d.weekday()], ", ".join(DAYS[k] for k in sorted(avoid))))
+                if d and d >= dt.date.today():   # a test already given stays history
+                    prev = d - dt.timedelta(days=1)
+                    while prev.weekday() > 4:
+                        prev -= dt.timedelta(days=1)
+                    if d.weekday() in avoid:
+                        report.error("eval-test-day", self.cal_path, "%s falls on %s, a %s; rehydration.yaml avoids tests on %s"
+                                     % (name, d.isoformat(), DAYS[d.weekday()], ", ".join(DAYS[k] for k in sorted(avoid))))
+                    elif after_break and prev in closed:
+                        report.error("eval-test-day", self.cal_path, "%s falls on %s, the first class day after a closure "
+                                     "(rehydration.yaml constraints.no_test_after_break)" % (name, d.isoformat()))
         self.windows = windows
 
-    def avoid_test_days(self):
-        """Weekday numbers rehydration.yaml's constraints.avoid_test_days names."""
+    def constraints(self):
+        """rehydration.yaml's constraints block, or {}."""
         try:
             with open(os.path.join(self.root, "course.yaml"), encoding="utf-8") as f:
                 rd = (yaml.safe_load(f) or {}).get("rehydration_dir")
             with open(os.path.join(self.root, "master", rd, "rehydration.yaml"), encoding="utf-8") as f:
                 params = yaml.safe_load(f) or {}
         except (OSError, TypeError):
-            return set()
-        names = (params.get("constraints") or {}).get("avoid_test_days") or []
-        return {DAYS.index(x[:3].title()) for x in names if x[:3].title() in DAYS}
+            return {}
+        return params.get("constraints") or {}
 
     # --------------------------------------------------------- markdown files
     def check_course_calendar_md(self, report):
@@ -339,7 +349,7 @@ class Instance:
             gi = mdtable.column(header, "% of grade")
             total = sum(mdtable.percent(c[gi]) or 0 for _, c in rows if gi < len(c) and not mdtable.is_total(c))
             if abs(total - 100) > 0.01:
-                report.error("plan-total", p, "the evaluations table totals %g%%, not 100" % total)
+                report.error("md-plan-total", p, "the evaluations table totals %g%%, not 100" % total)
         t = mdtable.find_table(text, "unit", "evaluation percentage")
         if t:
             header, rows, _ = t
@@ -350,7 +360,7 @@ class Instance:
                     continue
                 total += sum(float(x) for x in re.findall(r"(\d+(?:\.\d+)?)\s*%", c[ei] if ei < len(c) else ""))
             if abs(total - 100) > 0.01:
-                report.error("plan-total", p, "the long-range table's percentages total %g%%, not 100" % total)
+                report.error("md-plan-total", p, "the long-range table's percentages total %g%%, not 100" % total)
 
     def check_report_windows(self, report):
         p = self.path("GENERATION_REPORT.md")
@@ -390,7 +400,7 @@ def check(course_root, name, report, config=None, classroom=None, only_calendar=
             with open(cp, encoding="utf-8") as f:
                 config = yaml.safe_load(f) or {}
         else:
-            report.error("config-missing", cp, "semester_config.yaml is missing")
+            report.error("instance-config-missing", cp, "semester_config.yaml is missing")
     if config:
         try:
             config = schoolcal.resolve(config)

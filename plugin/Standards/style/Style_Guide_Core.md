@@ -16,7 +16,7 @@
 
 ## 2. Weekly rhythm
 
-Each unit week follows this **default** pattern (60-minute periods; **plan all lesson flows for ~50 usable minutes**, attendance and settling eat the rest). A course layer may declare per-block rhythm variants (e.g., a studio rhythm for practice-heavy units), provided every variant preserves the invariants: D4 is the submission day, D5 is flex (designed slack, first to cut), and the sub-readiness duties of §8.
+Each unit week follows this **standard** rhythm (60-minute periods; **plan all lesson flows for ~50 usable minutes**, attendance and settling eat the rest). The other rhythm is **studio**, for practice-heavy units (see `studio` below). Every unit overview names its rhythm on a `**Rhythm:** standard` or `**Rhythm:** studio` line, and the checks refuse any other value. Both rhythms keep the invariants: D4 is the submission day, D5 is flex (designed slack, first to cut), and the sub-readiness duties of §8.
 
 | Day | Type | What happens | Sub-ready? |
 |-----|------|--------------|------------|
@@ -71,13 +71,13 @@ Each unit week follows this **default** pattern (60-minute periods; **plan all l
 - Reference sheets: `REF_<Topic>.md`.
 - Week plans: `week_plan.yaml` (one per week folder). Weeks without their own folder (e.g., project build weeks) use `week_plan_W<n>.yaml` at the module root.
 - Other sanctioned day-file types: `D<n>_Lab_<Topic>.md` (guided labs), `D<n>_Activity_<Topic>.md` and `D<n>_Workshop_<Topic>.md` (structured non-exercise days), `D<n>_Exercise_Work_Time.md` / `D<n>_Submission_and_Debrief.md` (brief plan-style sheets). Open-response exercises may ship `EX_<Topic>_MARKING.md` (marking notes) instead of a `_KEY.md`.
-- Unit assessment: `Assessment/Assignment_<Name>/` (instructions.md, rubric.csv, rubric.md, marking_notes.md) and `Assessment/Test/` (test.md, test_KEY.md, coverage_table.md, review_sheet.md).
+- Unit assessment: `Assessment/Assignment_<Name>/` (instructions.md, rubric.csv, rubric.md, marking_notes.md) and `Assessment/Test/` (test.md, test_KEY.md, coverage_table.md, review_sheet.md, test_reference.md).
 - No version suffixes (`_v2`, `_final`, `_enhanced`), ever. Git is the version history.
 
 ## 6. Curriculum expectation codes
 
 - Each course keeps a `Curriculum_Coverage_Map.md` with its local canonical numbering of Ministry expectations (the Ministry leaves specific expectations unnumbered; the course's numbering is the local convention).
-- **Every lesson, exercise, assignment, and test carries its expectation codes in its header block.** This makes compliance mechanically greppable (`grep -r "A1.2" master/`).
+- **Every lesson, exercise, brief and reference sheet carries its expectation codes in its header block.** An assignment or test keeps them in its teacher-side record instead (§11), since its student copy carries none. Either way compliance stays greppable (`grep -r "A1.2" master/`).
 - If you touch what a document covers, update the course's coverage map in the same change.
 
 ## 7. Grading conventions

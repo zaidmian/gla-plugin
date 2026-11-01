@@ -37,7 +37,8 @@ recalendar  re-plan an existing instance from a date onward, after lost days.
 
 Order matters: the calendar reads gdocs/index.yaml, so it is built last.
 Run from the course root. Stops at the first failing step and says which.
-Exit codes: 0 done; 3 the plan needs a teacher decision; 1 a step failed.
+Exit codes: 0 done; 1 a step failed; 2 cannot run (no course.yaml, no instance,
+TODO left in the config); 3 the plan needs a teacher decision.
 """
 import argparse
 import datetime as dt
@@ -280,7 +281,7 @@ def recalendar(a):
     cpath = os.path.join(inst, "semester_config.yaml")
     if not os.path.exists(cpath) or not os.path.exists(os.path.join(inst, "calendar.yaml")):
         print("ERROR: %s needs semester_config.yaml and calendar.yaml" % inst)
-        return 1
+        return 2
     with open(cpath, encoding="utf-8") as f:
         text = f.read()
     cal, state = audit_log.read_state(inst)
@@ -288,7 +289,7 @@ def recalendar(a):
     resume = a.resume_from or patch["resume_from"]
     if not resume:
         print("ERROR: the teaching log has nothing logged yet; pass --resume-from YYYY-MM-DD")
-        return 1
+        return 2
     keys = {"resume_postponed": a.postpone, "resume_skipped": a.skip, "resume_noclass": a.no_class,
             "resume_moved": dict(x.split("=", 1) for x in a.move) if a.move is not None else None,
             "resume_partial": None}
@@ -311,7 +312,8 @@ def recalendar(a):
             f.write(text)
         r = subprocess.run([sys.executable, os.path.join(HERE, "rehydrate.py"), tcfg, "--out", scratch, "--force"],
                            capture_output=True, text=True)
-        if r.returncode in (2, 3):
+        breaks = [ln for ln in r.stdout.splitlines() if ln.startswith("RULE BREAK: ")]
+        if r.returncode == 2 or (r.returncode == 3 and not breaks):
             print(r.stdout.strip())
             return r.returncode
         with open(os.path.join(scratch, "calendar.yaml"), encoding="utf-8") as f:
@@ -325,6 +327,13 @@ def recalendar(a):
         print("Generator flags:")
         for fl in flags:
             print("  - " + fl)
+    if breaks:
+        print("Rule breaks on dates still ahead (the teacher decides; see the semester skill):")
+        for ln in breaks:
+            print("  - " + ln[len("RULE BREAK: "):])
+        if a.apply:
+            print("\nNot applied. Change the config or list the items in accept_rule_breaks, then rerun.")
+            return 3
     if not a.apply:
         print("\nDry run: nothing written. To apply: build_semester.py recalendar %s%s%s --apply"
               % (a.semester, " --resume-from %s" % a.resume_from if a.resume_from else "",
@@ -366,7 +375,7 @@ def main(argv=None):
     a = ap.parse_args(argv)
     if not os.path.exists("course.yaml"):
         print("ERROR: run from a course repo root (no course.yaml here)")
-        return 1
+        return 2
     py = sys.executable
     if a.mode == "recalendar":
         return recalendar(a)
@@ -374,11 +383,11 @@ def main(argv=None):
         prev = None if a.no_from else (a.prev or latest_instance())
         if prev and not os.path.exists(os.path.join("instances", prev, "semester_config.yaml")):
             print("ERROR: no instances/%s/semester_config.yaml" % prev)
-            return 1
+            return 2
         out = a.out or "%s_semester_config.yaml" % a.name.replace(" ", "_")
         if os.path.exists(out):
             print("ERROR: %s exists" % out)
-            return 1
+            return 2
         text, notes = init_config(a.name, prev)
         with open(out, "w", encoding="utf-8") as f:
             f.write(text)
@@ -393,14 +402,14 @@ def main(argv=None):
             left = todos(yaml.safe_load(f) or {})
         if left:
             print("ERROR: %s still has TODO in: %s" % (a.config, ", ".join(left)))
-            return 1
+            return 2
         from gla import schoolcal
         with open(a.config, encoding="utf-8") as f:
             try:
                 schoolcal.resolve(yaml.safe_load(f) or {})
             except schoolcal.SchoolCalendarError as e:
                 print("ERROR: %s" % e)
-                return 1
+                return 2
         cmd = [py, os.path.join(HERE, "rehydrate.py"), a.config] + (["--force"] if a.force else []) + (["--date", a.date] if a.date else [])
         rc = step("Generate the instance", cmd)
         if rc == 3:
@@ -414,7 +423,7 @@ def main(argv=None):
         sem = a.semester
         if not os.path.isdir(os.path.join("instances", sem)):
             print("ERROR: no instances/%s" % sem)
-            return 1
+            return 2
         if a.weekplans:
             from gla import course, rehydrate
             root = os.getcwd()
