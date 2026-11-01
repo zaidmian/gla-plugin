@@ -52,7 +52,8 @@ Each unit week follows this **standard** rhythm (60-minute periods; **plan all l
 ## 4. Content rules
 
 - **Islamic names for every invented person** in examples and scenarios (e.g., Omar, Khalid, Maryam, Yusuf, Aisha, Bilal, Zaynab, Hamza). Real people (historical figures, authors, scientists, public figures) keep their real names. Refer to the teacher by the course's `teacher` value in course.yaml (for example "Br. Zaid").
-- **Avoid:** music references, dating/romance themes, food-themed scenarios and activities, LEGO activities. Food may be a lab material when a curriculum expectation needs it (enzymes, digestion, food chemistry). It is never eaten.
+- **Avoid:** music references, dating/romance themes, LEGO activities.
+- **No food or drink in an activity.** Computer courses run in a lab, where food and drink near the machines is a hazard, so no activity has students bring, handle or eat food. Food is fine everywhere else: in examples, scenarios and analogies, and as a science-lab material when an expectation needs it (enzymes, digestion), never eaten.
 - Content stays within Islamic norms (this also governs any game/story scenarios).
 - **No course narrative.** Scenarios are standalone per document, no recurring storyline, company, or career arc, and no references to "your journey" across documents.
 - **Self-contained documents.** A document may refer back to content taught earlier by name (a period, an event, a concept: "the Treaty of Versailles", "osmosis"). It never points at a specific week, lesson, assignment or test ("as you saw last week", "coming up next unit", "on the Unit 2 test"); the week plan carries the schedule, not the content.

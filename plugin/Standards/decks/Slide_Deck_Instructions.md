@@ -27,7 +27,7 @@ You will create a complete HTML slideshow presentation based on the day's lesson
 7. **Interactive exercises**: include 2–3 short, simple interactive checkpoints (predict-the-output, click-to-reveal, quick poll, trace-this-code, label-the-diagram, which-source-says-this) where they aid engagement.
 8. **Time and slide limits**: the deck carries **~25–35 minutes** of the ~50-minute lesson (the live demo and discussion happen outside the deck). The slide range is course.yaml's `deck_slides`, 15–25 by default.
 9. **Audience attention**: assume a limited attention span. Keep it engaging and concise.
-10. All Style Guide Core content rules apply (Islamic names, no emojis, no music/dating/food-themed/LEGO content, standalone scenarios), plus the course layer's rules.
+10. All Style Guide Core content rules apply (Islamic names, no emojis, no music/dating/LEGO content, no food or drink in an activity, standalone scenarios), plus the course layer's rules.
 
 ## Visual design requirements
 
