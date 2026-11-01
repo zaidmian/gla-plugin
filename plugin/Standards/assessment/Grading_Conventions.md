@@ -28,6 +28,32 @@ Shared assessment rules for all GLA course repos. Per-course weighting tables (w
 - Every assignment includes an **academic-integrity note**: discussing ideas is fine; submitting code/work you did not produce — from a classmate, a website, or an AI tool — is not; you must be able to explain every line of your submission.
 - Teacher-side `marking_notes.md` accompanies every assignment (common shortcuts, integrity red flags, level anchors).
 
+### Rubric level points
+
+Each rubric level is worth a fixed share of its criterion's points. gc-rubric's builder applies the shares and rounds half-up to one decimal. The shares come from the Grades 7 to 12 percentage bands in `growing-success-summary.md` (Chapter 5):
+
+| Level | Growing Success band | Share | Where the share sits |
+|-------|----------------------|-------|----------------------|
+| Level 4 | 80–100% | 100% | the top of the band (4+) |
+| Level 3 | 70–79% | 75% | the middle (3) |
+| Level 2 | 60–69% | 60% | the floor (2−) |
+| Level 1 | 50–59% | 50% | the floor (1−) |
+| Below Level 1 | below 50% | 12.5% | well below the pass line |
+
+Every share passes one test. A student who earns the same level on every criterion gets an assignment total inside that level's band. Google Classroom records the total, so a share outside its band would report a level the student never showed.
+
+Level 4 is worth the whole criterion so that full marks can be earned. At 90%, no student could reach 100% on an assignment without the stretch-goal bonus.
+
+Level 3 is the provincial standard. Its share sits in the middle of the band, so work at the standard on every criterion totals 75%, a plain 3.
+
+Levels 2 and 1 sit at the floor of their bands. A rubric gives a criterion one level, and "some effectiveness" runs from work just past Level 1 to work just short of Level 3; the floor keeps a Level 2 judgement from claiming more than the weakest work at that level shows. Level 1 at 50% keeps limited but real achievement at a pass, which is what Level 1 means.
+
+Below Level 1 is worth 12.5% of the criterion, never zero. Work that was handed in but shows less than Level 1 still counts for something. Work not handed in is a separate matter, handled by the Growing Success rules on late and missing work. The share is one eighth, so a 4-point criterion's lowest level is exactly 0.5.
+
+Mixed results land between bands. Two criteria at Level 3 and two at Level 2, equally weighted, total 67.5%, a 2+. The total is evidence; the report-card grade still follows the student's most consistent achievement and the teacher's judgement.
+
+**Small criteria.** One decimal place cannot hold the bands on a criterion under 1.5 points. On a 1-point criterion, Level 3 rounds to 0.8, which is a Level 4 share. Under the house category splits, an assignment of 7 points or more keeps every criterion at 1.5 points or above.
+
 ## Tests
 
 - **One per unit**, in the parts course.yaml's `test_parts` lists (A and B when it is absent):

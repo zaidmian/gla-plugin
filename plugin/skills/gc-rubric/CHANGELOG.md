@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.7
+
+- `references/rubric_format_guide.md` says why the level shares are 100/75/60/50/12.5% (each keeps a uniform result inside its Growing Success band) and that a criterion needs at least 1.5 points for the bands to hold. The shares are unchanged.
+
 ## 1.5.6
 
 - Two assignment types: `lab_report` (20/30/25/25) for a science lab report and `essay` (20/30/30/20) for an argued written piece, with what each category holds.

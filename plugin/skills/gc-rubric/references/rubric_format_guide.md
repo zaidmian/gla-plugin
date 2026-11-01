@@ -151,6 +151,10 @@ K/U 25%, T 25%, C 25%, A 25%
 | Level 1       | 50%    |
 | Below Level 1 | 12.5%  |
 
+Why these shares: each one keeps a student who earns the same level on every criterion inside that level's Growing Success percentage band (Level 4 80–100%, Level 3 70–79%, Level 2 60–69%, Level 1 50–59%). Level 4 sits at the top so full marks can be earned; Level 3, the provincial standard, sits mid-band at 75%; Levels 2 and 1 sit at their band floors, so a level judgement never claims more than the weakest work at that level, and Level 1 stays a pass. Below Level 1 is 12.5%, not zero, because the work was handed in; missing work follows the late and missing work rules instead.
+
+On a criterion under 1.5 points, one decimal place cannot hold the bands (Level 3 on a 1-point criterion rounds to 0.8, a Level 4 share). Keep assignments at 7 points or more so every criterion is at least 1.5.
+
 ### Worked Examples
 
 **6-point programming assignment:**

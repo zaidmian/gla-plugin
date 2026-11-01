@@ -14,7 +14,7 @@ description: >
   creating grading materials. Even if the user just says "make a rubric for this assignment",
   use this skill.
 metadata:
-  version: "1.5.6"
+  version: "1.5.7"
   built: "2026-10-31"
 ---
 
