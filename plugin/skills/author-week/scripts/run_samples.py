@@ -51,6 +51,13 @@ Java
     questions, "Expected output once fixed", deck err-line boxes) have their
     failures reported as expected, never as failures.
 
+Calculations (any course)
+  * ```calc fences hold one `expression = answer` per line (a ` # note` may
+    follow). The expression is arithmetic: numbers, + - * / // % ** (or ^, ×,
+    ÷), brackets, pi, e, sqrt, log, log10, exp, the trig functions, round. The
+    answer may be rounded to the decimal places it shows and may end in %. A
+    line that does not hold is a mismatch.
+
 p5.js
   * ```javascript / ```js fences and deck <pre class="code"> blocks get
     `node --check` (syntax only; nothing is ever run).
@@ -74,10 +81,13 @@ JS syntax error (outside intentional-error blocks); 0 otherwise.
 from __future__ import annotations
 
 import argparse
+import ast
 import concurrent.futures as cf
 import difflib
 import html
 import json
+import math
+import operator
 import os
 import re
 import shutil
@@ -595,6 +605,9 @@ def extract_md(path: str, text: str, default_lang: str) -> list[Block]:
             blang = "java"
         elif lang in JS_LANGS:
             blang = "js"
+        elif lang == "calc":
+            blocks.append(Block(path, len(blocks) + 1, s + 1, "calc", "md", "\n".join(lines[s + 1:e])))
+            continue
         else:
             continue
         b = Block(path, len(blocks) + 1, s + 1, blang, "md", _dedent(lines[s + 1:e]))
@@ -1420,6 +1433,72 @@ def check_js(block: Block) -> Result:
     return r
 
 
+# ---------------------------------------------------------------- calc blocks
+
+CALC_FUNCS = {n: getattr(math, n) for n in ("sqrt", "log", "log10", "log2", "exp", "sin", "cos", "tan",
+                                             "asin", "acos", "atan", "radians", "degrees", "floor", "ceil")}
+CALC_FUNCS.update({"abs": abs, "round": round})
+CALC_NAMES = {"pi": math.pi, "e": math.e}
+
+
+def calc_eval(text: str) -> float:
+    """The value of an arithmetic expression: numbers, + - * / // % **, brackets,
+    pi, e and the math functions above. Anything else raises ValueError."""
+    def ev(n):
+        if isinstance(n, ast.Expression):
+            return ev(n.body)
+        if isinstance(n, ast.Constant) and isinstance(n.value, (int, float)) and not isinstance(n.value, bool):
+            return n.value
+        if isinstance(n, ast.BinOp):
+            ops = {ast.Add: operator.add, ast.Sub: operator.sub, ast.Mult: operator.mul, ast.Div: operator.truediv,
+                   ast.FloorDiv: operator.floordiv, ast.Mod: operator.mod, ast.Pow: operator.pow}
+            if type(n.op) in ops:
+                return ops[type(n.op)](ev(n.left), ev(n.right))
+        if isinstance(n, ast.UnaryOp) and isinstance(n.op, (ast.USub, ast.UAdd)):
+            return -ev(n.operand) if isinstance(n.op, ast.USub) else ev(n.operand)
+        if isinstance(n, ast.Name) and n.id in CALC_NAMES:
+            return CALC_NAMES[n.id]
+        if isinstance(n, ast.Call) and isinstance(n.func, ast.Name) and n.func.id in CALC_FUNCS and not n.keywords:
+            return CALC_FUNCS[n.func.id](*[ev(a) for a in n.args])
+        raise ValueError("not arithmetic: %s" % ast.dump(n)[:60])
+    t = text.replace("×", "*").replace("÷", "/").replace("^", "**").replace("−", "-")
+    try:
+        return float(ev(ast.parse(t.strip(), mode="eval")))
+    except (SyntaxError, ZeroDivisionError, OverflowError, TypeError) as exc:
+        raise ValueError(str(exc)) from exc
+
+
+def check_calc(block: Block) -> Result:
+    """Each line `expression = answer` (a `# note` may follow) must hold: the answer
+    may be rounded to the decimal places it shows, and may end in %."""
+    r = Result(block.index, block.line, "calc", "passed")
+    bad, n = [], 0
+    for k, raw in enumerate(block.code.splitlines(), 1):
+        ln = raw.split(" #", 1)[0].strip()
+        if not ln or ln.startswith("#"):
+            continue
+        m = re.match(r"^(.*?[^=<>!])=([^=].*)$", ln)
+        if not m:
+            bad.append("line %d has no `= answer`: %s" % (k, ln))
+            continue
+        n += 1
+        expr, ans = m.group(1).strip(), m.group(2).strip().rstrip("%").strip()
+        try:
+            got, want = calc_eval(expr), calc_eval(ans)
+        except ValueError as exc:
+            bad.append("line %d: %s (%s)" % (k, ln, exc))
+            continue
+        dm = re.search(r"\.(\d+)\s*$", ans)
+        tol = 0.5 * 10 ** -(len(dm.group(1)) if dm else 0) if re.fullmatch(r"[-+]?\d+(\.\d+)?", ans) else 1e-9
+        if abs(got - want) > tol + 1e-9 * max(1.0, abs(want)):
+            bad.append("line %d: %s, but the expression is %.6g" % (k, ln, got))
+    if bad:
+        r.status, r.detail = "mismatch", "; ".join(bad)
+    else:
+        r.detail = "%d calculation(s) checked" % n
+    return r
+
+
 # ---------------------------------------------------------------- driver
 
 FAIL_STATUSES = {"mismatch", "compile_error", "syntax_error"}
@@ -1475,6 +1554,8 @@ def process_file(path: str, root_override: str | None, feat_cache: dict, tindex:
         feat_cache[key] = {l: load_features(root, l) for l in ("java", "js")}
 
     def one(b: Block) -> Result:
+        if b.lang == "calc":
+            return check_calc(b)
         res = run_java(b, blocks, tindex, text) if b.lang == "java" else check_js(b)
         res.shown_output = bool(b.expected or b.sheet_runs or b.unpaired)
         feats, order, note = feat_cache[key][b.lang]
@@ -1489,8 +1570,11 @@ def process_file(path: str, root_override: str | None, feat_cache: dict, tindex:
             results = list(ex.map(one, blocks))
     else:
         results = [one(b) for b in blocks]
-    feats, order, note = feat_cache[key][blocks[0].lang]
-    if not slot or (order and slot[0] not in order):
+    code_blocks = [b for b in blocks if b.lang != "calc"]
+    feats, order, note = feat_cache[key][code_blocks[0].lang] if code_blocks else ({}, [], "")
+    if not code_blocks:
+        pass
+    elif not slot or (order and slot[0] not in order):
         rep["feature_note"] = "feature check skipped: slot " + (f"'{slot_text}'" if slot_text else "unknown") + \
             " is not ordered by the course table"
     elif note:

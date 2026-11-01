@@ -14,8 +14,8 @@ description: >
   creating grading materials. Even if the user just says "make a rubric for this assignment",
   use this skill.
 metadata:
-  version: "1.5.5"
-  built: "2026-10-30"
+  version: "1.5.6"
+  built: "2026-10-31"
 ---
 
 # Google Classroom Rubric Generator
@@ -58,7 +58,7 @@ conversation, uploaded files, or the assignment name itself, proceed without ask
 
 ### 2. Pick the Assignment Type
 
-Choose `programming`, `research`, `creative`, or `balanced` from what the assignment asks students to do. When it could fairly be two of them, ask the teacher; offer the two types (with their category splits) as clickable choices where the interface provides them (the AskUserQuestion tool in Claude Code, or clickable choices on claude.ai), and in one line of text otherwise. The builder applies the split:
+Choose `programming`, `research`, `creative`, `balanced`, `lab_report`, or `essay` from what the assignment asks students to do. When it could fairly be two of them, ask the teacher; offer the two types (with their category splits) as clickable choices where the interface provides them (the AskUserQuestion tool in Claude Code, or clickable choices on claude.ai), and in one line of text otherwise. The builder applies the split:
 
 | Type | K/U | Thinking | Communication | Application |
 |------|-----|----------|---------------|-------------|
@@ -66,6 +66,10 @@ Choose `programming`, `research`, `creative`, or `balanced` from what the assign
 | research (investigation, written) | 27% | 27% | 26% | 20% |
 | creative (design, project-based) | 20% | 25% | 30% | 25% |
 | balanced | 25% | 25% | 25% | 25% |
+| lab_report (a science lab report: question, method, data, analysis, conclusion) | 20% | 30% | 25% | 25% |
+| essay (an argued written piece: thesis, evidence, analysis, citations) | 20% | 30% | 30% | 20% |
+
+For a lab report, Thinking (Thinking and Investigation in Science) holds the planning, the analysis of the data and the sources of error; Communication holds the report's conventions, units, tables and graphs; Application holds the connections the conclusion draws. For an essay, Thinking holds the thesis and the analysis of evidence; Communication holds organization, style, conventions and citations.
 
 When the assignment emphasizes something else, pass your own `weights` (all four, totalling 100). The builder rounds each category to the nearest 0.5 while keeping the total exact (largest remainder; ties go to the higher weight, then K/U, T, C, A), and gives every category at least 0.5.
 

@@ -41,6 +41,7 @@ Design targets (see the semester SKILL.md):
 """
 
 import re
+import struct
 import sys
 import zipfile
 from pathlib import Path
@@ -98,6 +99,32 @@ INLINE_RE = re.compile(
     r"|(\*[^*\s][^*]*\*)"        # italic
     r"|(\[[^\]]+\]\([^)\s]+\))"  # link
 )
+
+
+IMAGE_RE = re.compile(r"^!\[([^\]]*)\]\(([^)\s]+)\)$")
+IMAGE_TYPES = {".png": "image/png", ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".gif": "image/gif"}
+EMU_PER_PX = 9525                      # at 96 dpi
+MAX_W, MAX_H = 5486400, 7315200        # 6 by 8 inches inside the 1-inch margins
+
+
+def image_size(data):
+    """(width, height) in pixels of a PNG, JPEG or GIF, or None."""
+    if data[:8] == b"\x89PNG\r\n\x1a\n":
+        return struct.unpack(">II", data[16:24])
+    if data[:6] in (b"GIF87a", b"GIF89a"):
+        return struct.unpack("<HH", data[6:10])
+    if data[:2] == b"\xff\xd8":
+        i = 2
+        while i + 9 < len(data):
+            if data[i] != 0xFF:
+                i += 1
+                continue
+            marker = data[i + 1]
+            if 0xC0 <= marker <= 0xCF and marker not in (0xC4, 0xC8, 0xCC):
+                h, w = struct.unpack(">HH", data[i + 5:i + 9])
+                return w, h
+            i += 2 + struct.unpack(">H", data[i + 2:i + 4])[0]
+    return None
 
 
 def parse_inline(text, base=None):
@@ -209,6 +236,13 @@ def parse_blocks(lines):
             i += 1
             continue
 
+        # an image on its own line: ![alt](images/file.png)
+        im = IMAGE_RE.match(stripped)
+        if im:
+            blocks.append({"type": "image", "alt": im.group(1), "src": im.group(2)})
+            i += 1
+            continue
+
         # plain paragraph: consume consecutive plain lines
         para = [stripped]
         i += 1
@@ -253,9 +287,11 @@ def parse_aligns(sep, ncols):
 # --------------------------------------------------------------- XML output
 
 class DocBuilder:
-    def __init__(self):
+    def __init__(self, base_dir=None):
         self.body = []
         self.rels = []       # (rid, url) hyperlinks
+        self.images = []     # (rid, media name, bytes)
+        self.base_dir = Path(base_dir) if base_dir else Path(".")
         self._rid = 10       # rIds 1..9 reserved for static parts
 
     def next_rid(self, url):
@@ -371,12 +407,50 @@ class DocBuilder:
                 out.append(self.render_quote(b))
             elif t == "mcopts":
                 out.append(self.render_mcopts(b))
+            elif t == "image":
+                out.append(self.render_image(b))
             elif t == "hr":
                 out.append(
                     '<w:p><w:pPr><w:pBdr><w:bottom w:val="single" w:sz="6" '
                     'w:space="1" w:color="%s"/></w:pBdr>'
                     '<w:spacing w:after="160"/></w:pPr></w:p>' % BORDER_GREY)
         return "".join(out)
+
+    def render_image(self, b):
+        """A centred picture, scaled to fit the page. A missing file or a web
+        address stops the conversion: images are local files (Style Guide Core §4)."""
+        src = b["src"]
+        if re.match(r"^[a-z]+://", src, re.I):
+            raise ValueError("image %s is a web address; save it in images/ beside the document" % src)
+        path = (self.base_dir / src).resolve()
+        ext = path.suffix.lower()
+        if ext not in IMAGE_TYPES:
+            raise ValueError("image %s: use PNG, JPEG or GIF" % src)
+        if not path.is_file():
+            raise ValueError("image %s not found beside the document" % src)
+        data = path.read_bytes()
+        size = image_size(data)
+        if not size:
+            raise ValueError("image %s: cannot read its size" % src)
+        w, h = size[0] * EMU_PER_PX, size[1] * EMU_PER_PX
+        scale = min(1.0, MAX_W / w, MAX_H / h)
+        w, h = int(w * scale), int(h * scale)
+        self._rid += 1
+        rid = "rId%d" % self._rid
+        n = len(self.images) + 1
+        self.images.append((rid, "image%d%s" % (n, ".jpeg" if ext == ".jpg" else ext), data))
+        alt = escape(b["alt"], {'"': "&quot;"})
+        return ('<w:p><w:pPr><w:jc w:val="center"/><w:spacing w:before="120" w:after="60"/></w:pPr><w:r><w:drawing>'
+                '<wp:inline distT="0" distB="0" distL="0" distR="0"><wp:extent cx="%d" cy="%d"/>'
+                '<wp:docPr id="%d" name="Picture %d" descr="%s"/>'
+                '<wp:cNvGraphicFramePr><a:graphicFrameLocks noChangeAspect="1"/></wp:cNvGraphicFramePr>'
+                '<a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture">'
+                '<pic:pic><pic:nvPicPr><pic:cNvPr id="%d" name="image%d"/><pic:cNvPicPr/></pic:nvPicPr>'
+                '<pic:blipFill><a:blip r:embed="%s"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill>'
+                '<pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="%d" cy="%d"/></a:xfrm>'
+                '<a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic>'
+                '</a:graphicData></a:graphic></wp:inline></w:drawing></w:r></w:p>'
+                % (w, h, n, n, alt, n, n, rid, w, h))
 
     def render_heading(self, b):
         style = {1: "Title", 2: "Heading1", 3: "Heading2"}.get(b["level"], "Heading3")
@@ -519,6 +593,9 @@ CONTENT_TYPES = """<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
 <Default Extension="rels" ContentType="application/vnd.openxmlformats-package.relationships+xml"/>
 <Default Extension="xml" ContentType="application/xml"/>
+<Default Extension="png" ContentType="image/png"/>
+<Default Extension="jpeg" ContentType="image/jpeg"/>
+<Default Extension="gif" ContentType="image/gif"/>
 <Override PartName="/word/document.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.document.main+xml"/>
 <Override PartName="/word/styles.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.styles+xml"/>
 <Override PartName="/word/footer1.xml" ContentType="application/vnd.openxmlformats-officedocument.wordprocessingml.footer+xml"/>
@@ -566,7 +643,7 @@ FOOTER_XML = ("""<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 '</w:p></w:ftr>') % {"g": TEXT_GREY}
 
 
-def document_rels(hyperlinks):
+def document_rels(hyperlinks, images=()):
     rels = ['<Relationship Id="rId1" Type="http://schemas.openxmlformats.org/'
             'officeDocument/2006/relationships/styles" Target="styles.xml"/>',
             '<Relationship Id="%s" Type="http://schemas.openxmlformats.org/'
@@ -576,6 +653,9 @@ def document_rels(hyperlinks):
         rels.append('<Relationship Id="%s" Type="http://schemas.openxmlformats.org/'
                     'officeDocument/2006/relationships/hyperlink" Target="%s" '
                     'TargetMode="External"/>' % (rid, escape(url, {'"': "&quot;"})))
+    for rid, name, _ in images:
+        rels.append('<Relationship Id="%s" Type="http://schemas.openxmlformats.org/'
+                    'officeDocument/2006/relationships/image" Target="media/%s"/>' % (rid, name))
     return ('<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
             '<Relationships xmlns="http://schemas.openxmlformats.org/package/'
             '2006/relationships">%s</Relationships>' % "".join(rels))
@@ -585,7 +665,10 @@ def document_xml(body):
     return (
         '<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n'
         '<w:document xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" '
-        'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">'
+        'xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" '
+        'xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" '
+        'xmlns:a="http://schemas.openxmlformats.org/drawingml/2006/main" '
+        'xmlns:pic="http://schemas.openxmlformats.org/drawingml/2006/picture">'
         '<w:body>%s'
         '<w:sectPr>'
         '<w:footerReference w:type="default" r:id="%s"/>'
@@ -876,7 +959,7 @@ def convert(md_path, out_path, strip_teacher_note=False, slot_dates=None,
     if doc_kind == "test":
         blocks = apply_test_layout(blocks)
 
-    builder = DocBuilder()
+    builder = DocBuilder(Path(md_path).parent)
     body = builder.render_blocks(blocks)
 
     out = Path(out_path)
@@ -889,7 +972,9 @@ def convert(md_path, out_path, strip_teacher_note=False, slot_dates=None,
         z.writestr("word/styles.xml", STYLES_XML.format(
             body=BODY_FONT, dark=TEXT_DARK, accent=ACCENT, grey=TEXT_GREY))
         z.writestr("word/footer1.xml", FOOTER_XML)
-        z.writestr("word/_rels/document.xml.rels", document_rels(builder.rels))
+        z.writestr("word/_rels/document.xml.rels", document_rels(builder.rels, builder.images))
+        for _, name, data in builder.images:
+            z.writestr("word/media/" + name, data)
         z.writestr("word/document.xml", document_xml(body))
     return out
 

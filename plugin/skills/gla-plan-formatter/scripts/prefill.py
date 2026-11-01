@@ -164,7 +164,7 @@ def course_facts(code):
         return {}
     fname, title = rows[code]
     facts = {"file": fname,
-             "title": re.sub(r"\s*\(" + re.escape(code) + r"\)\s*$", "", title, flags=re.I).strip(),
+             "title": strip_title(code, title),
              "subject": SUBJECT_LABEL.get(fname, os.path.splitext(fname)[0].replace("_", " "))}
     try:
         text = curriculum.course_text(code)
@@ -236,6 +236,12 @@ def parse_matrix(text):
     return out
 
 
+def strip_title(code, title):
+    """The course title without its code or an "(effective ... school year)" note."""
+    t = re.sub(r"\s*\(" + re.escape(code) + r"\)\s*$", "", title, flags=re.I)
+    return re.sub(r"\s*\(effective [^)]*\)", "", t, flags=re.I).strip()
+
+
 def exam_split(code, grade, facts, gs_path):
     """(exam, culminating, note) from the Growing Success matrix, or
     (None, None, reason) when it cannot be read off."""
@@ -248,7 +254,8 @@ def exam_split(code, grade, facts, gs_path):
         if "special case" in line.lower() and code in line:
             m = re.search(r"(\d+)\s*%\s*written exam", line.replace("*", ""))
             if m:
-                return int(m.group(1)), 0, "special case in the matrix"
+                return int(m.group(1)), 0, ("the EQAO Grade 9 assessment is the written exam" if "EQAO" in line
+                                            else "special case in the matrix")
     subject = facts.get("subject", "")
     suffix = code[4]
     if (subject in EXAM_EXEMPT_SUBJECTS and code not in EXAM_EXEMPT_EXCEPT) \

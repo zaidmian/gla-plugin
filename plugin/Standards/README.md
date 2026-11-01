@@ -14,7 +14,7 @@ There are no submodules and no synced copies. A course repo's local Style Guide 
 | `style/Java_Conventions.md` | Shared Java conventions for GLA's Java-based courses. |
 | `assessment/growing-success-summary.md` | The Ontario Growing Success policy with the September 2026 amendments; the governing source for every assessment rule. |
 | `assessment/Grading_Conventions.md` | The /10 exercise scale, assignment + Google Classroom rubric conventions, test format, stretch-goal and academic-integrity rules. |
-| `templates/` | Document templates: day lesson, exercise, assignment, test, reference sheet, `Weekly_Plan_Schema.yaml`, `Course_Outline_Template.md` (the 19-section outline structure), and `Course_Config_Schema.yaml` (the `course.yaml` contract). |
+| `templates/` | Document templates: day lesson, wet lab (`Lab_Template.md`), exercise, assignment, test, reference sheet, `Weekly_Plan_Schema.yaml`, `Course_Outline_Template.md` (the 19-section outline structure), and `Course_Config_Schema.yaml` (the `course.yaml` contract). |
 | `decks/` | `Slide_Deck_Instructions.md` (authoritative deck prompt) + `Slide_Deck_Template.html` (GLASS design tokens + slide machinery — the token and machinery blocks are byte-protected). |
 | `rehydration/` | The semester-generation framework: `Rehydration_Framework.md` (algorithm), `Compression_Framework.md` (cut-tier pattern), `Semester_Config_Template.yaml`, `Calendar_Schema.yaml` (the machine-readable `calendar.yaml` every instance carries). Courses supply the concrete numbers. |
 | `brand/` | `GLA_Brand_Pack.pdf` (official palette and logo rules) and `GLA_Logo.jpg` (the crest used in document headers). |

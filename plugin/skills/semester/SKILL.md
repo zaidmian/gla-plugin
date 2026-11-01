@@ -55,6 +55,8 @@ Uploading `gdocs/` to Google Drive is an external action: if a Drive connector i
 - Never cut a teach, assess, or hand-out day; only the course's compression tiers cut.
 - Never edit `teaching_log.jsonl` or `material_links.yaml`; the page writes them, and a rebuild preserves them.
 - Teacher-only files (`_KEY`, `_MARKING`, marking notes, rubrics, lessons, plans, decks) never go into `gdocs/` as student handouts.
+- A handout's images (a line holding only `![alt](images/file.png)`) are embedded in its .docx; a missing image or a web address stops that handout's conversion, and the run reports it. Fix it in master, not in `gdocs/`.
+- `teach`, `wet_lab`, `seminar`, `debate` and `field_trip` days are never sub-ready. When the teacher will be absent on one, swap it with the week's next sub-ready day; if no swap fits, the substitute runs the day's fallback (a wet lab's non-lab activity, or the week plan's `sub_fallback`).
 - Percentages total exactly 100 under the 2026 model (classroom 65; final evaluation 20 or 25; attendance 15 or 10). Assignment windows 7 to 10 class days; culminating demos at least 2 class days before `exam_start`. The generator and `check_instance.py` check these; their warnings go into the report's flags.
 
 ## Reference

@@ -6,6 +6,9 @@ Curriculum/docs/knowledge-graph/courses/<CODE>.md, where specific expectations
 are unnumbered bullets; they get codes by position under their overall
 expectation (A1.1, A1.2, ...), which is the local convention ICS3U and ICS4U
 use. Pages where position is not trustworthy set `positional_reliable` False.
+Strands the page leaves unlettered (all 2007 English, all Business, a few
+others) get letters by position too (A, B, C in document order), so their
+codes stay unique; `letters_assigned` is True then.
 """
 import json
 import os
@@ -27,6 +30,7 @@ class Course:
         self.source = None
         self.positional = False
         self.positional_reliable = True
+        self.letters_assigned = False
         self.notes = []
 
     @property
@@ -112,16 +116,19 @@ def _from_page(course, path):
             break
         m = _STRAND.match(line)
         if m:
-            strand = {"letter": m.group(1), "title": m.group(2).strip(), "overalls": [], "describer": ""}
+            letter = m.group(1)
+            if not letter:
+                letter = chr(ord("A") + len(course.strands))
+                course.letters_assigned = True
+            strand = {"letter": letter, "title": m.group(2).strip(), "overalls": [], "describer": ""}
             course.strands.append(strand)
             overall = None
-            if not m.group(1):
-                course.positional_reliable = False
-                course.notes.append("strand %r has no letter" % m.group(2).strip())
             continue
         if line.strip().lower().rstrip(":") == "students will":
             course.positional_reliable = False
-            course.notes.append("bullets grouped under 'Students will:', not under their overall")
+            note = "bullets grouped under 'Students will:', not under their overall"
+            if note not in course.notes:
+                course.notes.append(note)
             continue
         if strand is not None and not strand["overalls"] and not strand["describer"] and re.match(r"^\*[^*].*\*$", line.strip()):
             strand["describer"] = line.strip().strip("*").strip()

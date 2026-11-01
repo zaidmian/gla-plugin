@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.5.6
+
+- Two assignment types: `lab_report` (20/30/25/25) for a science lab report and `essay` (20/30/30/20) for an argued written piece, with what each category holds.
+
 ## 1.5.5
 
 - Runs from a Claude Code plugin: SKILL.md says where `scripts/` is (`${CLAUDE_SKILL_DIR}/scripts/` in Claude Code).

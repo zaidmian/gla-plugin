@@ -1,5 +1,10 @@
 # Changelog
 
+## 2.5.4
+
+- `scripts/curriculum.py` letters the strands a ministry document leaves unlettered (all 2007 English, all Business) by position, A, B, C, and prefixes their overall expectations, so codes stay unique; the output says the letters are assigned.
+- `scripts/prefill.py`: a course title loses its "(effective ... school year)" note; Grade 10 History and Civics get the 20% written exam; MTH1W's note names the EQAO assessment.
+
 ## 2.5.3
 
 - `build_plan.py --logo <path>` uses a full-size crest in place of the bundled one (the same as `GLA_LOGO`). The Claude Code plugin is published in a public repo, so it carries a 200 px crest; the claude.ai bundle keeps the full one.

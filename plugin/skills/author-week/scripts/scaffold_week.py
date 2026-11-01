@@ -31,7 +31,6 @@ import yaml  # noqa: E402
 from gla import course, curriculum, mdtable, paths, slots, weekplan  # noqa: E402
 
 TEMPLATES = os.path.join(paths.STANDARDS, "templates")
-BUILD_DECK = os.path.join(paths.SKILLS, "author-week", "scripts", "build_deck.py")
 
 CODE_RE = re.compile(r"\b[A-Z]\d+\.\d+\b")
 CODE_RANGE = re.compile(r"\b([A-Z])(\d+)\.(\d+)\s*[–-]\s*(?:([A-Z])(\d+)\.)?(\d+)\b")
@@ -314,28 +313,20 @@ class Scaffolder:
         self.week_codes = self.sort(self.real([c for c, cell in self.cov if mentions_week(cell, self.unit, self.week)], "coverage map"))
         self.codes_report.append(("week_plan specific", self.week_codes, "coverage map rows whose Taught in / Anchor cell names %s" % self.key))
 
-        self.teach = []
+        self.teach, self.labs = [], []
         for d in self.w.days:
             dt = day_type(d["type"])
             if dt is None:
                 self.unresolved.append("%s: type %r is not a day_type; written as is" % (d["slot"], d["type"]))
+            if dt == "wet_lab":
+                self.labs.append({"day": d, "n": d["day"], "token": topic_token(d["topic"]), "codes": self.day_codes(d)})
             if dt != "teach":
                 continue
             n = d["day"]
             token, src = self.existing_token(n)
             if not token:
                 token, src = topic_token(d["topic"]), "derived from the overview topic"
-            codes = self.sort(self.real(codes_in(d["notes"]), d["slot"] + " notes"))
-            csrc = "overview Notes cell"
-            if not codes:
-                slot_re = re.compile(r"(?<![\w.])%s(?!\d)" % re.escape(d["slot"]))
-                codes = [c for c, cell in self.cov if slot_re.search(cell)]
-                csrc = "coverage map rows naming %s" % d["slot"]
-                if not codes:
-                    codes = [c for c, cell in self.cov if mentions_week(cell, self.unit, self.week)
-                             and not re.search(r"(?<![\w.])%s\.W%d\.D\d" % (re.escape(self.unit), self.week), cell)]
-                    csrc = "coverage map rows naming %s without a day" % self.key
-                codes = self.sort(self.real(codes, d["slot"] + " coverage"))
+            codes, csrc = self.day_codes(d, with_source=True)
             if not codes:
                 self.unresolved.append("%s: no expectation codes found; header left as <codes>" % d["slot"])
             self.codes_report.append(("D%d lesson" % n, codes, csrc))
@@ -344,6 +335,7 @@ class Scaffolder:
 
         self.deliverables = self.find_deliverables()
         self.ref = self.find_ref()
+
 
     def existing_token(self, n):
         for x in sorted(self.existing):
@@ -442,6 +434,28 @@ class Scaffolder:
     def template(self, name):
         return read(os.path.join(TEMPLATES, name))
 
+    def day_codes(self, d, with_source=False):
+        """A day's codes: its overview Notes cell, else the coverage map rows naming its
+        slot, else the rows naming its week without a day."""
+        codes = self.sort(self.real(codes_in(d["notes"]), d["slot"] + " notes"))
+        csrc = "overview Notes cell"
+        if not codes:
+            slot_re = re.compile(r"(?<![\w.])%s(?!\d)" % re.escape(d["slot"]))
+            codes = [c for c, cell in self.cov if slot_re.search(cell)]
+            csrc = "coverage map rows naming %s" % d["slot"]
+            if not codes:
+                codes = [c for c, cell in self.cov if mentions_week(cell, self.unit, self.week)
+                         and not re.search(r"(?<![\w.])%s\.W%d\.D\d" % (re.escape(self.unit), self.week), cell)]
+                csrc = "coverage map rows naming %s without a day" % self.key
+            codes = self.sort(self.real(codes, d["slot"] + " coverage"))
+        return (codes, csrc) if with_source else codes
+
+    def write_lab(self, lab):
+        d = lab["day"]
+        head = "# Lab: %s\n\n**Slot:** %s · **Type:** wet_lab\n**Expectations:** %s\n**Time:** ~50 min\n\n" % (
+            re.sub(r"\*\*", "", d["topic"]).strip(), d["slot"], ", ".join(lab["codes"]) or "<codes>")
+        self.emit("D%d_Lab_%s.md" % (lab["n"], lab["token"]), head + self.body_after_header(self.template("Lab_Template.md")))
+
     def body_after_header(self, tpl):
         """Template text from its first '## ' heading on."""
         m = re.search(r"^## ", tpl, re.M)
@@ -456,7 +470,8 @@ class Scaffolder:
         head = "# %s\n\n**Slot:** %s · **Type:** %s\n**Expectations:** %s\n**Time:** ~50 min\n\n" % (
             re.sub(r"\*\*", "", d["topic"]).strip(), d["slot"], typ, ", ".join(t["codes"]) or "<codes>")
         body = self.body_after_header(self.template("Day_Lesson_Template.md"))
-        body = body.replace("`D__Slides_<Topic>.html` (teach days)", "`D%d_Slides_%s.html`" % (n, t["token"]))
+        body = body.replace("`D__Slides_<Topic>.html` (teach days, in a course with decks)", "`D%d_Slides_%s.html`" % (n, t["token"]) if course.switch(self.cfg, "decks")
+                            else "(no slide deck in this course)")
         if self.ref:
             body = body.replace("`REF_<Topic>.md` (if a reference sheet accompanies this topic)", "`%s`" % self.ref_name())
         self.emit("D%d_Lesson_%s.md" % (n, t["token"]), head + body)
@@ -562,19 +577,21 @@ class Scaffolder:
             if only is None:
                 for t in self.teach:
                     self.write_lesson(t)
+                for lab in self.labs:
+                    self.write_lab(lab)
             if only in (None, "deliverable"):
                 for dv in self.deliverables:
                     self.write_deliverable(dv)
             if only in (None, "ref") and self.ref:
                 self.write_ref()
-        for t in self.teach:
+        for t in self.teach if course.switch(self.cfg, "decks") else []:
             if only and only != "D%d" % t["n"]:
                 continue
             deck = "D%d_Slides_%s.html" % (t["n"], t["token"])
             if deck in self.existing:
                 self.decks.append("%s exists" % deck)
             else:
-                self.decks.append("python3 %s %s --from <slides fragment> (write the fragment with <!-- auto: title --> and <!-- auto: goals --> first)" % (BUILD_DECK, os.path.join(self.dir, deck)))
+                self.decks.append("gla deck %s --from <slides fragment> (write the fragment with <!-- auto: title --> and <!-- auto: goals --> first)" % os.path.join(self.dir, deck))
         self.report()
 
     def report(self):

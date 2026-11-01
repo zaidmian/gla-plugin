@@ -84,8 +84,11 @@ A single-file run gets the same layout with `--kind=test`.
 
 ## Limitations
 
-- No image support (course docs contain none). If a doc gains images, flag it
-  rather than converting silently.
+- Images: a line holding only `![alt](images/file.png)` becomes a centred
+  picture scaled to the page (PNG, JPEG or GIF). The file must sit beside the
+  document, as Style Guide Core §4 requires; a missing file or a web address
+  stops that document's conversion with a message. An image inside a paragraph
+  or table is not converted.
 - Slide decks (`D*_Slides_*.html`) are out of scope — they are already HTML.
 - The converter reads markdown as written per the shared Style Guide Core §11;
   wildly different markdown may need a spot-check of the output.

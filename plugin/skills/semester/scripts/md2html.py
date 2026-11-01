@@ -20,13 +20,14 @@ Library use (what build_calendar.py does):
 href the page should use (e.g. another .md file's rendered twin); return None
 to keep the original.
 """
+import base64
 import html
 import os
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))   # md2docx.py sits beside this file
-from md2docx import parse_blocks, parse_inline  # noqa: E402
+from md2docx import IMAGE_TYPES, parse_blocks, parse_inline  # noqa: E402
 
 CSS = """
 :root {
@@ -104,7 +105,17 @@ def inline(text, link_rewriter=None):
     return runs_html(parse_inline(text), link_rewriter)
 
 
-def render_blocks(blocks, link_rewriter=None):
+def image_html(b, base):
+    """An image from the document's images/ folder, inlined so the page stays one file."""
+    path = Path(base or ".") / b["src"]
+    mime = IMAGE_TYPES.get(path.suffix.lower())
+    if not mime or not path.is_file():
+        return '<p class="missing-image">[image not found: %s]</p>' % esc(b["src"])
+    data = base64.b64encode(path.read_bytes()).decode("ascii")
+    return '<p class="image"><img src="data:%s;base64,%s" alt="%s" style="max-width:100%%"></p>' % (mime, data, esc(b["alt"]))
+
+
+def render_blocks(blocks, link_rewriter=None, base=None):
     out = []
     i = 0
     n = len(blocks)
@@ -123,7 +134,9 @@ def render_blocks(blocks, link_rewriter=None):
         elif t == "code":
             out.append("<pre><code>" + esc("\n".join(b["lines"])) + "</code></pre>")
         elif t == "quote":
-            out.append("<blockquote>" + render_blocks(b["blocks"], link_rewriter) + "</blockquote>")
+            out.append("<blockquote>" + render_blocks(b["blocks"], link_rewriter, base) + "</blockquote>")
+        elif t == "image":
+            out.append(image_html(b, base))
         elif t == "table":
             rows = b["rows"]
             aligns = b["aligns"]
@@ -197,7 +210,7 @@ def render(md_path, out_path, title=None, source_href=None, link_rewriter=None, 
     blocks = parse_blocks(text.split("\n"))
     if title is None:
         title = next((b["text"] for b in blocks if b["type"] == "heading" and b["level"] == 1), Path(md_path).stem)
-    body = render_blocks(blocks, link_rewriter)
+    body = render_blocks(blocks, link_rewriter, Path(md_path).parent)
     top = []
     if crumbs:
         top.append(" / ".join(esc(c) for c in crumbs))

@@ -401,7 +401,7 @@ section.week.current .week-head { border-color: var(--accent); }
 .week-head .plans { font-size: 12px; }
 .pill { display: inline-block; font-size: 11px; font-weight: 600; letter-spacing: .02em; text-transform: uppercase; padding: 2px 8px; border-radius: 999px; background: var(--surface-alt); color: var(--muted); border: 1px solid var(--edge); }
 .pill.now { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
-.pill.teach { background: var(--tile-primary-bg); color: var(--tile-primary-fg); border-color: transparent; }
+.pill.teach, .pill.wet_lab, .pill.seminar, .pill.debate, .pill.field_trip { background: var(--tile-primary-bg); color: var(--tile-primary-fg); border-color: transparent; }
 .pill.exercise, .pill.studio, .pill.lab { background: var(--info-bg); color: var(--info-fg); border-color: transparent; }
 .pill.assess { background: var(--tile-warm-bg); color: var(--tile-warm-fg); border-color: transparent; }
 .pill.flex, .pill.buffer { background: var(--warning-bg); color: var(--warning-fg); border-color: transparent; }
@@ -666,7 +666,7 @@ function dayHtml(d, st, isToday) {
     body = `<div class="date"><b>${esc(fmt(d.date))}</b><span class="pill buffer">buffer</span></div>
       <div class="title">Buffer day</div><div class="focus">${esc(d.label || '')}. If class runs: review / catch-up.</div>`;
   } else {
-    const pills = [`<span class="pill ${esc(d.day_type)}">${esc(d.day_type)}</span>`];
+    const pills = [`<span class="pill ${esc(d.day_type)}">${esc(String(d.day_type || '').replace('_', ' '))}</span>`];
     if (d.sub_ready) pills.push('<span class="pill sub">sub-ready</span>');
     if ((d.handouts || []).length) pills.push(`<span class="pill assign-out" title="Handed out: ${esc((d.handouts || []).join('; '))}">assigned</span>`);
     if ((d.dues || []).length) pills.push(`<span class="pill assign-due" title="Due: ${esc((d.dues || []).join('; '))}">due</span>`);

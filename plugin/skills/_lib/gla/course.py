@@ -14,6 +14,16 @@ from . import assessment, curriculum, paths
 TYPES = ("Academic", "Applied", "De-streamed", "Open", "University Preparation", "College Preparation",
          "University/College Preparation", "Workplace Preparation", "Locally Developed")
 DECK_THEMES = ("glass", "gla")
+# What a course's content has. An absent key takes the Computer Studies shape
+# below. Code samples and the feature table follow `language` instead: a course
+# with language null has neither.
+SWITCHES = {"decks": True, "deck_slides": [15, 25], "test_parts": ["A", "B"]}
+
+
+def switch(cfg, key):
+    """A content switch from course.yaml, or its default."""
+    v = (cfg or {}).get(key)
+    return SWITCHES[key] if v is None else v
 
 
 @functools.lru_cache(maxsize=None)
@@ -85,6 +95,15 @@ def check(root, report):
         report.error("course-path", path, "curriculum_file %s does not exist under %s" % (cfg["curriculum_file"], paths.TEACHING_ROOT))
     if cfg.get("rehydration_dir") and not os.path.isdir(os.path.join(root, "master", cfg["rehydration_dir"])):
         report.error("course-path", path, "master/%s does not exist" % cfg["rehydration_dir"])
+    if not isinstance(switch(cfg, "decks"), bool):
+        report.error("course-switch", path, "decks must be true or false")
+    ds = switch(cfg, "deck_slides")
+    if not (isinstance(ds, list) and len(ds) == 2 and all(isinstance(x, int) for x in ds) and 1 <= ds[0] <= ds[1]):
+        report.error("course-switch", path, "deck_slides must be [min, max], for example [15, 25]")
+    tp = switch(cfg, "test_parts")
+    if not (isinstance(tp, list) and tp and all(isinstance(x, str) and re.fullmatch(r"[A-Z]", x) for x in tp)
+            and len(set(tp)) == len(tp)):
+        report.error("course-switch", path, "test_parts must be distinct capital letters, for example [A, B]")
     lang, conv = cfg.get("language"), cfg.get("conventions_file")
     if bool(lang) != bool(conv):
         report.error("course-language", path, "language and conventions_file must both be set or both be null")

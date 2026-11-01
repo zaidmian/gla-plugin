@@ -148,7 +148,7 @@ def context(deck_path):
     root = coursemod.find_root(os.path.dirname(os.path.abspath(deck_path)))
     cfg = coursemod.load(root) if root else {}
     ctx = {"code": cfg.get("code", ""), "theme": cfg.get("deck_theme", "glass"), "lesson": None, "slot": "",
-           "topic": "", "codes": [], "goals": []}
+           "topic": "", "codes": [], "goals": [], "slides": coursemod.switch(cfg, "deck_slides")}
     lp = lesson_for(deck_path)
     if lp:
         t = read(lp)
@@ -220,8 +220,9 @@ def check(deck, ctx):
         errors.append("the template's machinery script is missing or edited")
     parts = extract(deck)
     n = len(parts["slides"])
-    if not SLIDES_MIN <= n <= SLIDES_MAX:
-        warns.append("%d slides (house range %d to %d)" % (n, SLIDES_MIN, SLIDES_MAX))
+    lo, hi = (ctx or {}).get("slides") or (SLIDES_MIN, SLIDES_MAX)
+    if not lo <= n <= hi:
+        warns.append("%d slides (the course's range is %d to %d, course.yaml deck_slides)" % (n, lo, hi))
     if not parts["chapters"] or parts["chapters"][0][0] != 0:
         errors.append("the first chapter must start at slide 0")
     if any(k >= n for k, _ in parts["chapters"]) or [k for k, _ in parts["chapters"]] != sorted(k for k, _ in parts["chapters"]):

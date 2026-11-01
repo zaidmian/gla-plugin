@@ -9,11 +9,15 @@ import yaml
 
 from . import paths, placeholders, slots
 
-DAY_TYPES = ("teach", "lab", "exercise", "studio", "flex", "assess")
+DAY_TYPES = ("teach", "lab", "wet_lab", "exercise", "studio", "seminar", "debate", "field_trip", "flex", "assess")
 SUB_READY_TYPES = ("exercise", "lab", "studio", "flex")
+# Days a substitute cannot run (Style Guide Core §8). A wet lab's fallback is in
+# its D<n>_Lab_ file; the others name theirs in the plan's sub_fallback.
+NEVER_SUB_READY = ("teach", "wet_lab", "seminar", "debate", "field_trip")
+NEEDS_FALLBACK = ("seminar", "debate", "field_trip")
 EVAL_KINDS = ("exercise", "assignment", "test", "culminating", "milestone")
 # Keys of the template that may be absent from a real plan.
-OPTIONAL = {"notes", "resources", "dates", "school", "teacher"}
+OPTIONAL = {"notes", "resources", "dates", "school", "teacher", "sub_fallback"}
 # Keys that may hold an empty string in a master plan; any other empty value,
 # or a zero below, is a template value nobody filled in.
 MAY_BE_EMPTY = OPTIONAL | {"student", "date"}
@@ -85,6 +89,10 @@ def check(plan, path, report, master=True):
             report.error("weekplan-daytype", path, "%s: day_type %r is not one of %s" % (where, dt, ", ".join(DAY_TYPES)))
         if dt in SUB_READY_TYPES and d.get("sub_ready") is not True:
             report.warn("weekplan-subready", path, "%s: %s day should be sub_ready: true (Style Guide Core §8)" % (where, dt))
+        if dt in NEVER_SUB_READY and dt != "teach" and d.get("sub_ready") is True:
+            report.error("weekplan-subready", path, "%s: a %s day is never sub-ready (Style Guide Core §8)" % (where, dt))
+        if dt in NEEDS_FALLBACK and master and not str(d.get("sub_fallback") or "").strip():
+            report.warn("weekplan-fallback", path, "%s: a %s day needs a sub_fallback (what a substitute runs instead)" % (where, dt))
         acts = d.get("activities") or []
         if acts:
             total = sum(int(a.get("minutes") or 0) for a in acts if isinstance(a, dict))

@@ -17,6 +17,8 @@
 # use the /10 scale (see assessment/Grading_Conventions.md).
 # v5: adds the `studio` day_type (self-directed divergent work from a
 # BRIEF_ sheet: see Style_Guide_Core.md §2/§5). Studio days are sub-ready.
+# v6: adds wet_lab, seminar, debate and field_trip (never sub-ready, see
+# Style_Guide_Core.md §2/§8) and a day's optional sub_fallback.
 # ============================================================
 
 metadata:
@@ -25,7 +27,7 @@ metadata:
   grade: 0                  # e.g. 12
   pathway: ""               # e.g. "University Preparation"
   school: "Gibraltar Leadership Academy"
-  teacher: "Br. Zaid"
+  teacher: ""               # course.yaml teacher, e.g. "Br. Zaid"
   unit: ""                  # e.g. "U2"
   unit_name: ""             # e.g. "Objects, Arrays, and Files"
   week: 0                   # week number within the unit
@@ -77,8 +79,9 @@ daily_lessons:
   - day: 1                  # D1..D5 within this week
     slot: ""                # e.g. "U2.W2.D1"
     date: "{{D1_DATE}}"     # REHYDRATION ONLY
-    day_type: teach         # teach | lab | exercise | studio | flex | assess
+    day_type: teach         # teach | lab | wet_lab | exercise | studio | seminar | debate | field_trip | flex | assess
     sub_ready: false        # true for exercise/lab/studio/flex days (Style Guide Core §8)
+    sub_fallback: ""        # seminar, debate, field_trip: what a substitute runs instead (a wet_lab's lives in its D<n>_Lab_ file)
     title: ""
     focus: ""
     activities:             # 3-4 bullets, minutes should total ~50

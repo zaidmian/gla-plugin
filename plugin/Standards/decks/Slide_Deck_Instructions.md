@@ -14,20 +14,20 @@ You will create a complete HTML slideshow presentation based on the day's lesson
 - Estimate the total number of slides (target: 15–25)
 - Verify that the first non-title slide includes learning goals and curriculum expectations
 
-**Phase 2: Generation.** Write the slides as a fragment file and assemble the deck with `Teaching/Skills/author-week/scripts/build_deck.py DECK.html --from SLIDES.html`. The fragment holds only slide content: `<!-- chapter: Name -->` markers, `<!-- auto: title -->` and `<!-- auto: goals -->` (built from the lesson's title, slot, learning goals and expectation codes), the `<section class="slide">` elements, and optional deck-specific `<style>` and `<script>`. The assembler supplies the token blocks, the machinery, the sidebar and its slide indices, the counter, and the theme attribute, then checks the deck. To change an existing deck, edit its slides and run `build_deck.py DECK.html --rebuild`; `--extract` prints a deck's fragment source and `--check` reports problems without writing.
+**Phase 2: Generation.** Write the slides as a fragment file and assemble the deck with `gla deck DECK.html --from SLIDES.html`. The fragment holds only slide content: `<!-- chapter: Name -->` markers, `<!-- auto: title -->` and `<!-- auto: goals -->` (built from the lesson's title, slot, learning goals and expectation codes), the `<section class="slide">` elements, and optional deck-specific `<style>` and `<script>`. The assembler supplies the token blocks, the machinery, the sidebar and its slide indices, the counter, and the theme attribute, then checks the deck. To change an existing deck, edit its slides and run `gla deck DECK.html --rebuild`; `--extract` prints a deck's fragment source and `--check` reports problems without writing.
 
 ## Content requirements
 
 1. **First non-title slide** MUST contain the learning goals (primary focus) and curriculum expectation codes (secondary focus). Text limits don't apply to this slide.
 2. **Extract all key content**: every key lesson, concept, and important point from the lesson document appears in the deck.
-3. **Minimal text per slide**: key numbers, single impactful phrases, short labels. No paragraphs, no long sentences. Code samples: **6 lines maximum** per slide — split longer examples across slides.
-4. **Visual-first**: each slide emphasizes diagrams, charts, icons, illustrations, or large impactful numbers — built in CSS/SVG, consistent with the template's tokens.
+3. **Minimal text per slide**: key numbers, single impactful phrases, short labels. No paragraphs, no long sentences. Code samples (programming courses): **6 lines maximum** per slide; split longer examples across slides.
+4. **Visual-first**: each slide emphasizes diagrams, charts, icons, illustrations, images, or large impactful numbers. Build diagrams and charts in CSS/SVG with the template's tokens. A photograph, micrograph, map or primary-source image is a file in an `images/` folder beside the deck, shown as `<img src="images/<file>" alt="<what it shows>">` with a line under it that starts `Credit:` and gives the creator, source and licence (Style Guide Core §4). Never link an image from another site.
 5. **One major point per slide.** Split rather than combine.
 6. **Self-contained presentation**: no "up next" or "coming next week" slides; no references to other presentations, tests, units, or assignments.
-7. **Interactive exercises**: include 2–3 short, simple interactive checkpoints (predict-the-output, click-to-reveal, quick poll, trace-this-code) where they aid engagement.
-8. **Time and slide limits**: the deck carries **~25–35 minutes** of the ~50-minute lesson (live coding and discussion happen outside the deck). 15–25 slides maximum.
+7. **Interactive exercises**: include 2–3 short, simple interactive checkpoints (predict-the-output, click-to-reveal, quick poll, trace-this-code, label-the-diagram, which-source-says-this) where they aid engagement.
+8. **Time and slide limits**: the deck carries **~25–35 minutes** of the ~50-minute lesson (the live demo and discussion happen outside the deck). The slide range is course.yaml's `deck_slides`, 15–25 by default.
 9. **Audience attention**: assume a limited attention span. Keep it engaging and concise.
-10. All Style Guide Core content rules apply (Islamic names, no emojis, no music/dating/food/LEGO themes, standalone scenarios), plus the course layer's rules.
+10. All Style Guide Core content rules apply (Islamic names, no emojis, no music/dating/food-themed/LEGO content, standalone scenarios), plus the course layer's rules.
 
 ## Visual design requirements
 
@@ -42,7 +42,7 @@ You will create a complete HTML slideshow presentation based on the day's lesson
 
 ## Technical requirements
 
-1. **Self-contained file**: one HTML file with all CSS and JavaScript embedded. External dependencies (e.g., three.js) only when they genuinely serve a purpose.
+1. **Self-contained file**: one HTML file with all CSS and JavaScript embedded; its images are the only files beside it (`images/`). External dependencies (e.g., three.js) only when they genuinely serve a purpose.
 2. **Keyboard navigation**: left/right arrow keys move between slides.
 3. **Slide counter**: current/total in the top-right corner, exact format: `3/12`.
 4. **Chapter navigation**: left sidebar listing all major sections; chapter names clickable to jump; current chapter highlighted, updating automatically as slides advance.

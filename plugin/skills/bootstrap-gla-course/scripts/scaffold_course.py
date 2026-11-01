@@ -2,12 +2,15 @@
 """Scaffold a new GLA course repo from an answers file.
 
     python3 scaffold_course.py init CODE [--out answers.yaml]
+    python3 scaffold_course.py codes CODE
     python3 scaffold_course.py check answers.yaml
     python3 scaffold_course.py build answers.yaml --dest Courses/CODE [--force]
 
 init   writes the interview as a YAML file the teacher edits: everything the
        curriculum data settles is filled in and marked DETECT (confirm it),
        everything the teacher decides is TODO.
+codes  prints every specific expectation with its code, by strand and
+       overall expectation (the codes a teacher cannot look up for a 2008 course).
 check  validates the answers against the curriculum, the 2026 Growing Success
        buckets and the subject matrix: no TODO left, weights total the
        classroom bucket, every specific expectation has a home.
@@ -101,6 +104,11 @@ def resolve_codes(spec, cur):
     return out
 
 
+def gla_rel(path):
+    """A shared file as GLA_ROOT/..., the form that holds on every install."""
+    return "GLA_ROOT/" + os.path.relpath(path, paths.TEACHING_ROOT).replace(os.sep, "/")
+
+
 def weight_total(w):
     return sum(float(v) for v in (w or {}).values())
 
@@ -111,12 +119,70 @@ def fmt(n):
 
 # --------------------------------------------------------------------- init
 
+PROGRAMMING_SUBJECTS = ("Computer Studies", "Technological Education")
+UNIT_WEEKS = 17     # unit and culminating weeks in a semester, after the intro days and the exam
+
+
+def even_parts(total, n):
+    """n whole numbers that sum to total, as even as they can be, larger first."""
+    base, extra = divmod(int(total), n)
+    return [base + (1 if i < extra else 0) for i in range(n)]
+
+
+def prefill_units(cur, cc, classroom, cp_weeks):
+    """One unit per strand that is not cross-cutting, as YAML lines: the strand's
+    codes, weeks from its share of the specific expectations (two at least),
+    and the classroom bucket split evenly, all for the teacher to confirm. Each
+    strand's overall expectations print above its unit as comments."""
+    strands = [s for s in cur.strands if s["letter"] not in cc] or cur.strands
+    if not strands:
+        return ["  - name: TODO", "    weeks: [TODO]", "    codes: TODO",
+                "    weight: {test: TODO, assignment: TODO, exercises: TODO}", "    assignment: TODO", "    rhythm: standard"]
+    sizes = [max(1, sum(len(o["specifics"]) for o in s["overalls"])) for s in strands]
+    avail = max(2 * len(strands), UNIT_WEEKS - cp_weeks)
+    weeks = [max(2, round(avail * z / sum(sizes))) for z in sizes]
+    while sum(weeks) > avail and max(weeks) > 2:
+        weeks[weeks.index(max(weeks))] -= 1
+    while sum(weeks) < avail:
+        weeks[weeks.index(min(weeks))] += 1
+    out = []
+    for s, w, total in zip(strands, weeks, even_parts(classroom, len(strands))):
+        ex = min(w - 1, max(1, total // 4))
+        test = (total - ex + 1) // 2
+        out += ["  # Strand %s: %s" % (s["letter"], s["title"])]
+        out += ["  #   %s %s" % (o["code"], abridge(o["text"], 100)) for o in s["overalls"]]
+        out += ["  - name: \"%s\"   # CONFIRM: one unit per strand is a starting point" % s["title"].title().replace('"', "'"),
+                "    weeks: [%s]   # CONFIRM: %d weeks from the strand's share of the expectations; title each" % (", ".join([TODO] * w), w),
+                "    codes: %s     # CONFIRM: the whole strand" % s["letter"],
+                "    weight: {test: %d, assignment: %d, exercises: %d}   # CONFIRM: an even share of the classroom %d%%" % (test, total - ex - test, ex, classroom),
+                "    assignment: TODO", "    rhythm: standard"]
+    return out
+
+
+def codes_text(code):
+    """Every specific expectation of a course with its code, by strand and overall."""
+    cur = curriculum.load(code)
+    L = ["%s: %s" % (code, re.sub(r"\s*\(%s\)\s*$" % code, "", cur.meta.get("title") or cur.meta.get("name") or ""))]
+    if cur.positional:
+        L.append("Specific expectations are numbered by position under their overall expectation (a local convention).")
+    if cur.letters_assigned:
+        L.append("Strand letters are assigned by position; the Ministry document does not letter its strands.")
+    if not cur.positional_reliable:
+        L.append("Positions are unreliable here: " + "; ".join(cur.notes))
+    for s in cur.strands:
+        L += ["", "Strand %s: %s" % (s["letter"], s["title"])]
+        for o in s["overalls"]:
+            L.append("  %s  %s" % (o["code"], abridge(o["text"], 110)))
+            L += ["    %s  %s" % (c, abridge(re.split(r"\s+Teacher prompts?:", t)[0], 104)) for c, t in o["specifics"]]
+    return "\n".join(L) + "\n"
+
 def init_text(code):
     cur = curriculum.load(code)
     era = curriculum.era(code)
     cc = curriculum.cross_cutting(cur)
     grade = cur.grade or 0
     title = re.sub(r"\s*\(%s\)\s*$" % code, "", cur.meta.get("title") or cur.meta.get("name") or "")
+    title = re.sub(r"\s*\(effective [^)]*\)", "", title, flags=re.I).strip()
     ctype = cur.meta.get("course_type", "")
     subject = cur.subject
     year = cur.meta.get("year_issued", "")
@@ -125,10 +191,28 @@ def init_text(code):
     conv_dir = os.path.join(paths.STANDARDS, "style")
     convs = sorted(f for f in os.listdir(conv_dir) if f.endswith("_Conventions.md")) if os.path.isdir(conv_dir) else []
     strands = "; ".join("%s %s" % (s["letter"], s["title"]) for s in cur.strands)
+    classroom = BUCKETS.get(grade, (65, 25, 10))[0]
+    units = "\n".join(prefill_units(cur, cc, classroom, 0 if c == 0 else 3))
+    cp_block = ("culminating: null           # DETECT: the matrix gives no culminating task, so there is no CP block" if c == 0 else
+                """culminating:
+  shape: TODO                # form and topic of the culminating task
+  weeks: 3
+  codes: TODO                # codes the project is the home for
+  student_docs: [assignment_instructions, getting_started]   # CP student-facing files (stems)
+  makeup: true               # an Individual_Makeup variant""")
+    if subject in PROGRAMMING_SUBJECTS:
+        lang_block = ('language: TODO               # null for a non-programming course\n'
+                      'conventions_file: TODO       # null when language is null; otherwise in Standards/style/: %s; a new one is a Standards change'
+                      % (", ".join(convs) or "none yet"))
+    else:
+        lang_block = ('language: null               # DETECT: %s is not a programming subject (no code samples, no feature table)\n'
+                      'conventions_file: null' % subject)
+    letters = " Strand letters are assigned by position (the Ministry document has none)." if cur.letters_assigned else ""
     q = lambda v: '"%s"' % str(v).replace('"', "'")  # noqa: E731
     return f"""# bootstrap-gla-course answers for {code}. Edit every TODO, confirm every DETECT.
-#   python3 {HERE}/scaffold_course.py check <this file>
-#   python3 {HERE}/scaffold_course.py build <this file> --dest {paths.COURSES}/{code}
+#   gla course check <this file>
+#   gla course build <this file> --dest <the course folder, outside the GLA install>
+#   gla course codes {code}      every expectation with its code
 # Batch letters follow the interview in bootstrap-gla-course/SKILL.md.
 schema: 1
 
@@ -148,7 +232,7 @@ teacher: TODO                # as students see it, e.g. "Br. Zaid"
 teacher_formal: TODO         # for official documents
 
 # Batch A.2-3. DETECT: era {era} ({"Ministry-numbered specific expectations" if era == "modern" else "specific expectations numbered locally by position, A1.1, A1.2, ..."}).
-# Strands: {strands}
+# Strands: {strands}.{letters}
 curriculum:
   era: "{era}"
   cross_cutting: [{", ".join(cc)}]   # DETECT: strands described "Throughout this course"
@@ -167,13 +251,9 @@ intro_days:
 #   assignment: the assignment folder name (Assignment_<Name>)
 #   rhythm: one of rhythms below
 #   folder: optional; the U<n>_ folder name when it should differ from the name's words
+# The units below are prefilled one per strand: confirm or reshape every CONFIRM line.
 units:
-  - name: TODO
-    weeks: [TODO]
-    codes: TODO
-    weight: {{test: TODO, assignment: TODO, exercises: TODO}}
-    assignment: TODO
-    rhythm: standard
+{units}
 
 rhythms: [standard]          # Batch B.5: add a variant (e.g. studio) only if some units use it
 studio: false                # Batch B.6: divergent-output work (BRIEF_ and _MARKING pairs)?
@@ -187,21 +267,17 @@ standby: null
 
 # Batch C.10: final evaluation. The split is DETECT from the Growing Success matrix ({note or "subject row"}).
 exam_split: {split}
-culminating:
-  shape: TODO                # form and topic of the culminating task
-  weeks: 3
-  codes: TODO                # codes the project is the home for
-  student_docs: [assignment_instructions, getting_started]   # CP student-facing files (stems)
-  makeup: true               # an Individual_Makeup variant
+{cp_block}
 
 # Batch D.11-14.
 environment:
   in_class: TODO
   at_home: TODO
   provenance: TODO           # how authorship is evidenced (git cadence, check-ins, ...)
-language: TODO               # null for a non-programming course
-conventions_file: TODO       # null when language is null; otherwise in Standards/style/: {", ".join(convs) or "none yet"}; a new one is a Standards change
+{lang_block}
 typography: [no em dashes, no emojis]   # confirm each
+decks: true                  # a slide deck (and its teacher guide) on every teach day; false: lessons only
+test_parts: [A, B]           # the unit test's parts: A is multiple choice, every later part written (history might use [A, B, C])
 deck_theme: glass            # glass (marine and coral) or gla (maroon, gold, grays)
 
 # Batch E.15-16.
@@ -245,11 +321,21 @@ class Answers:
     def buckets(self):
         return BUCKETS.get(self.grade, (65, 25, 10))
 
+    @property
+    def has_cp(self):
+        """False when the final evaluation has no culminating task (English, Math, Science)."""
+        try:
+            return int((self.d.get("exam_split") or {}).get("culminating")) > 0
+        except (TypeError, ValueError):
+            return True
+
     def numbering(self):
-        """Positional folder numbers: (standby, culminating, rehydration) prefixes."""
-        if self.standby:
-            return "03", "04", "05"
-        return None, "03", "04"
+        """Positional folder numbers: (standby, culminating, rehydration) prefixes, None when absent."""
+        n, out = 3, []
+        for present in (bool(self.standby), self.has_cp):
+            out.append("%02d" % n if present else None)
+            n += present
+        return out[0], out[1], "%02d" % n
 
     def check(self):
         d = self.d
@@ -328,7 +414,11 @@ class Answers:
         classroom, final, _ = self.buckets()
         if abs(total - classroom) > 0.01:
             self.err("unit weights%s total %s%%; the classroom bucket is %d%%" % (" and the standby module" if sb else "", fmt(total), classroom))
-        cp = d.get("culminating") or {}
+        cp = (d.get("culminating") or {}) if self.has_cp else {}
+        if self.has_cp and not d.get("culminating"):
+            self.err("culminating is missing; the final evaluation has a %s%% culminating task" % (d.get("exam_split") or {}).get("culminating"))
+        if not self.has_cp and d.get("culminating"):
+            self.warn("culminating is ignored: exam_split gives the culminating task 0%")
         self.cp_codes = resolve_codes(cp.get("codes") or "", self.cur) & known
         cross = {x for s in self.cur.strands if s["letter"] in cc for o in s["overalls"] for x, _ in o["specifics"]}
         homed = set().union(*self.unit_codes) | self.cp_codes if self.unit_codes else self.cp_codes
@@ -336,7 +426,7 @@ class Answers:
             if x in self.standby_codes and sb and sb.get("coverage") == "enrichment":
                 self.err("%s lives only in the standby module, whose coverage is enrichment; give it an unconditional home" % x)
             elif x not in self.standby_codes:
-                self.err("%s has no unit or culminating home" % x)
+                self.err("%s has no unit%s home" % (x, " or culminating" if self.has_cp else ""))
         ex = d.get("exam_split") or {}
         e, cu_, note = exam_split(code, self.grade)
         try:
@@ -353,6 +443,11 @@ class Answers:
             self.err("language and conventions_file must both be set or both be null")
         if conv and not has_todo(conv) and not os.path.exists(os.path.join(paths.STANDARDS, "style", conv)):
             self.warn("Standards/style/%s does not exist yet; adding it is a Standards change with its own CHANGELOG entry" % conv)
+        if "decks" in d and not isinstance(d["decks"], bool):
+            self.err("decks must be true or false")
+        tp = d.get("test_parts", ["A", "B"])
+        if not (isinstance(tp, list) and tp and all(isinstance(x, str) and re.fullmatch(r"[A-Z]", x) for x in tp) and len(set(tp)) == len(tp)):
+            self.err("test_parts must be distinct capital letters, for example [A, B]")
         if d.get("deck_theme") not in gcourse.DECK_THEMES:
             self.err("deck_theme %r is not one of %s" % (d.get("deck_theme"), ", ".join(gcourse.DECK_THEMES)))
         if d.get("semester_config") not in ("shared", "course"):
@@ -374,7 +469,7 @@ class Builder:
         self.code = a.code
         sb_n, cp_n, rh_n = a.numbering()
         self.standby_dir = "%s_%s" % (sb_n, slug(a.standby["name"])) if a.standby else None
-        self.cp_dir = "%s_Culminating_Project" % cp_n
+        self.cp_dir = "%s_Culminating_Project" % cp_n if cp_n else None
         self.rh_dir = "%s_Rehydration" % rh_n
         self.units = []
         for i, u in enumerate(self.d["units"], 1):
@@ -409,6 +504,8 @@ class Builder:
         return "master/" + rel
 
     def cp_weeks(self):
+        if not self.a.has_cp:
+            return 0
         return int((self.d.get("culminating") or {}).get("weeks") or 3)
 
     def block_rows(self):
@@ -419,7 +516,8 @@ class Builder:
         sb = self.a.standby
         if sb:
             rows.append((sb["block"], "see %s/module_overview.md" % self.standby_dir, "optional", sb["name"] + " (standby)"))
-        rows.append(("CP", "CP.W1.D1 – CP.W%d.D5" % self.cp_weeks(), str(self.cp_weeks()), "Culminating project"))
+        if self.a.has_cp:
+            rows.append(("CP", "CP.W1.D1 – CP.W%d.D5" % self.cp_weeks(), str(self.cp_weeks()), "Culminating project"))
         return rows
 
     def nominal_slots(self):
@@ -469,7 +567,7 @@ class Builder:
         cur = self.a.cur
         cf = os.path.relpath(curriculum.page_path(self.code), paths.TEACHING_ROOT)
         lines = [
-            "# %s course configuration. Schema: Teaching/Standards/templates/Course_Config_Schema.yaml" % self.code,
+            "# %s course configuration. Schema: GLA_ROOT/Standards/templates/Course_Config_Schema.yaml" % self.code,
             "code: %s" % self.code,
             "title: %s" % c["title"],
             "grade: %d" % int(c["grade"]),
@@ -493,12 +591,16 @@ class Builder:
         ]
         if d.get("deck_theme", "glass") != "glass":
             lines.append("deck_theme: %s" % d["deck_theme"])
+        if d.get("decks") is False:
+            lines.append("decks: false")
+        if d.get("test_parts", ["A", "B"]) != ["A", "B"]:
+            lines.append("test_parts: [%s]" % ", ".join(d["test_parts"]))
         lines += ["teacher: %s" % d["teacher"], "teacher_formal: %s" % d["teacher_formal"]]
         del cur
         self.write("course.yaml", "\n".join(lines))
 
     def manifest(self):
-        cp = "master/" + self.cp_dir
+        cp = "master/%s" % self.cp_dir
         rules = [
             ("master/02_Units/U*_*/W*_*/EX_*.md", "master/02_Units", "{relparent}/{stem}.docx", {}),
         ]
@@ -518,9 +620,10 @@ class Builder:
                 base = "master/%s/%s" % (self.standby_dir, v["folder"])
                 rules.append((base + "/**/EX_*.md", base, "%s/{relparent}/{stem}.docx" % sb.get("manifest_dest", slug(sb["block"] + " Module")),
                               {"when_config_regex": '"%s:\\\\s*%s"' % (sb["config_key"], v["value"])}))
-        for stem in (self.d.get("culminating") or {}).get("student_docs") or []:
+        cpd = (self.d.get("culminating") or {}) if self.a.has_cp else {}
+        for stem in cpd.get("student_docs") or []:
             rules.append(("%s/%s.md" % (cp, stem), cp, "Culminating_Project/CP_{Stem}.docx", {}))
-        if (self.d.get("culminating") or {}).get("makeup", True):
+        if self.a.has_cp and cpd.get("makeup", True):
             rules.append(("%s/Individual_Makeup/assignment_instructions.md" % cp, cp,
                           "Culminating_Project/CP_Individual_Makeup_Instructions.docx", {}))
         out = ["# %s gdocs manifest" % self.code,
@@ -536,7 +639,7 @@ class Builder:
         a, cur = self.a, self.a.cur
         cc = set((self.d.get("curriculum") or {}).get("cross_cutting") or [])
         modern = self.d["curriculum"]["era"] == "modern"
-        src = curriculum.json_path(self.code) if modern else curriculum.page_path(self.code)
+        src = gla_rel(curriculum.json_path(self.code) if modern else curriculum.page_path(self.code))
         year = cur.meta.get("year_issued", "")
         blocks = self.code_blocks()
         L = ["# %s Curriculum Coverage Map" % self.code, "",
@@ -583,7 +686,8 @@ class Builder:
             L.append("| %s (%d wks) | %s |" % (u["id"], len(u["weeks"]), u["u"]["codes"]))
         if a.standby:
             L.append("| %s (standby) | %s (%s) |" % (a.standby["block"], a.standby["codes"], a.standby["coverage"]))
-        L.append("| CP (%d wks) | %s |" % (self.cp_weeks(), self.d["culminating"]["codes"]))
+        if a.has_cp:
+            L.append("| CP (%d wks) | %s |" % (self.cp_weeks(), self.d["culminating"]["codes"]))
         if cc:
             L += ["", "## Cross-cutting notes", "",
                   "- **Strand %s has no unit.** Every expectation gets a concrete anchor slot; an anchor may never dissolve into \"covered throughout.\"" % ", ".join(sorted(cc)),
@@ -639,13 +743,15 @@ class Builder:
                 self.keep("%s/%s/W%d_%s" % (base, v["folder"], k, slug(w)))
 
     def cp_tree(self):
+        if not self.a.has_cp:
+            return
         base = self.m(self.cp_dir)
         cp = self.d["culminating"]
         _, final, _ = self.a.buckets()
         self.write(base + "/PROJECT_DECISIONS.md", "\n".join([
             "# Culminating Project: decisions", "", "Authoritative constraints for the %s culminating project (%s%% of the final mark)." % (self.code, self.d["exam_split"]["culminating"]), "",
             "## What it is", "", str(cp["shape"]), "",
-            "## Technical constraints", "", MARK % "language features allowed, starter code, tools.", "",
+            "## Technical constraints", "", MARK % ("language features allowed, starter code, tools." if self.d.get("language") else "materials, tools, and safety constraints."), "",
             "## Prompt directions", "", MARK % "the project prompts students choose from.", "",
             "## Components and evaluation", "", MARK % "components, weights, rubric rows.", "",
             "## Expectations assessed here", "", str(cp["codes"]), "",
@@ -678,12 +784,13 @@ class Builder:
             "| Bucket | Weight |", "|--------|--------|",
             "| Classroom work | %d%% |" % classroom, "| Final evaluation | %d%% |" % final, "| Attendance and participation | %d%% |" % att, "| **Total** | **100%** |", "",
             "## Classroom work breakdown", "",
-            "| Unit | Weight | Test | Assignment | Exercises/Ships |", "|------|--------|------|------------|-----------------|",
+            "| Unit | Weight | Test | Assignment | %s |" % ("Exercises/Ships" if self.d.get("studio") else "Exercises"), "|------|--------|------|------------|-----------|",
             *rows, "| **Total** | **%d%%** | | | |" % classroom, "",
             MARK % "notes on exercises or ships, the assignment count, and the compression-fold rule.", "",
             "## Final evaluation", "",
-            "Written exam %s%%, culminating task %s%% (the Growing Success subject matrix for %s, %s). Exam spec: `00_Admin/Final_Exam/exam_spec.md`." % (ex["exam"], ex["culminating"], c["department"], grades), "",
-            "## Culminating project", "", str(d["culminating"]["shape"]), "",
+            ("Written exam %s%%, culminating task %s%%" % (ex["exam"], ex["culminating"]) if self.a.has_cp else "Written exam %s%%, no culminating task" % ex["exam"])
+            + " (the Growing Success subject matrix for %s, %s). Exam spec: `00_Admin/Final_Exam/exam_spec.md`." % (c["department"], grades), "",
+            *(["## Culminating project", "", str(d["culminating"]["shape"]), ""] if self.a.has_cp else []),
             "## Attendance and participation", "", "Marked on the unexcused-absence scale in `%s/assessment/growing-success-summary.md`." % STD, "",
             "## Marking schemes", "", MARK % "exercises or ships, assignments, stretch goals, tests.", "",
             "## Assessment-week pattern", "", MARK % "how a unit's last week runs.", "",
@@ -694,7 +801,8 @@ class Builder:
         urows = ["| %d | %s | %d weeks | %s%% |" % (u["n"], u["name"], len(u["weeks"]), fmt(weight_total(u["u"]["weight"]))) for u in self.units]
         if sb:
             urows.append("| %s | %s (optional) | {{%s_LENGTH}} | %s%% |" % (sb["block"], sb["name"], sb["block"], fmt(float(sb.get("weight") or 0))))
-        urows.append("| CP | Culminating project | %d weeks | %s%% |" % (self.cp_weeks(), ex["culminating"]))
+        if self.a.has_cp:
+            urows.append("| CP | Culminating project | %d weeks | %s%% |" % (self.cp_weeks(), ex["culminating"]))
         self.write(self.m("00_Admin/Course_Outline.md"), "\n".join([
             "# %s: %s" % (self.code, c["title"]), "",
             "| | |", "|---|---|", "| Course code | %s |" % self.code, "| Grade | %s |" % c["grade"], "| Type | %s |" % c["type"],
@@ -703,7 +811,8 @@ class Builder:
             "## Course description", "", MARK % "the course description, from the curriculum, in student language.", "",
             "## Units of study", "", "| Unit | Title | Length | Weight |", "|------|-------|--------|--------|", *urows, "",
             "## How your grade is calculated", "",
-            "Classroom work %d%%, final evaluation %d%% (written exam %s%%, culminating project %s%%), attendance and participation %d%%." % (classroom, final, ex["exam"], ex["culminating"], att), "",
+            "Classroom work %d%%, final evaluation %d%% (%s), attendance and participation %d%%." % (
+                classroom, final, "written exam %s%%, culminating project %s%%" % (ex["exam"], ex["culminating"]) if self.a.has_cp else "the written exam", att), "",
             "## How class works", "", MARK % "the weekly rhythm in student language.", "",
             "## Course policies", "", MARK % "late work, academic integrity, devices.", "",
             "## Materials", "", MARK % "what students need.", "",
@@ -715,7 +824,7 @@ class Builder:
             "<!-- Rehydration: fill every {{...}}, recompute the percentages, the totals must be 100. -->", "",
             "# %s Short and Long Term Plan" % self.code, "",
             "## Short-term plan", "", "| Unit | Unit Title | Start Time | End Time | Evaluation Percentage |", "|------|-----------|-----------|---------|----------------------|",
-            *st, "| CP | Culminating project | {{CP_START}} | {{CP_END}} | %s%% |" % ex["culminating"], "| **TOTAL** | | | | **100%** |", "",
+            *st, *(["| CP | Culminating project | {{CP_START}} | {{CP_END}} | %s%% |" % ex["culminating"]] if self.a.has_cp else []), "| **TOTAL** | | | | **100%** |", "",
             "## Long-term plan", "", "| EVALUATIONS | DUE DATES | TITLES OF EVALUATION | % OF GRADE |", "|---|---|---|---|",
             "| {{EVALUATION}} | {{DUE}} | {{TITLE}} | {{PCT}} |", "| **TOTAL** | | | **100%** |"]))
         self.keep(self.m("00_Admin/Course_Introduction"))
@@ -748,7 +857,7 @@ class Builder:
              "- **Code and name:** %s, %s" % (self.code, c["title"]),
              "- **Grade and type:** %s, %s" % (c["grade"], c["type"]),
              "- **Prerequisite:** %s" % c["prerequisite"],
-             "- **Curriculum:** %s. Source of truth: `%s`" % (c["curriculum_document"], curriculum.page_path(self.code)),
+             "- **Curriculum:** %s. Source of truth: `%s`" % (c["curriculum_document"], gla_rel(curriculum.page_path(self.code))),
              "- **Language and environment:** %s" % (d.get("language") or "no programming language"),
              "- **Feeder role:** %s" % c.get("feeder_role", ""), "",
              "## 2. Slot blocks (frozen; never renumber)", "",
@@ -758,18 +867,20 @@ class Builder:
         if len(rh) > 1:
             L += ["", "## 3. Weekly rhythms", "", "Rhythms: %s. %s" % (", ".join(rh), MARK % "each rhythm as a day-by-day table; D4 submits, D5 flex is cuttable, every day is sub-ready (Style Guide Core §8)."),
                   "", "| Unit | Rhythm |", "|------|--------|", *["| %s | %s |" % (u["id"], u["u"].get("rhythm", "standard")) for u in self.units]]
-        fdata = {"baseline": [], "rows": [{"from": "U%d.W%d" % (u["n"], k), "available": ""}
-                                          for u in self.units for k in range(1, len(u["weeks"]) + 1)]}
-        self.write(self.m("01_Standards/feature_availability.yaml"),
-                   features.dump(fdata, self.code).replace("# baseline:", "# TODO(bootstrap): fill each row's available cell, then `gla features render`.\n# baseline:", 1))
-        L += ["", "## 4. Feature availability by slot", "", features.render_table(fdata), "",
+        if d.get("language"):   # a feature table only where there is code
+            fdata = {"baseline": [], "rows": [{"from": "U%d.W%d" % (u["n"], k), "available": ""}
+                                              for u in self.units for k in range(1, len(u["weeks"]) + 1)]}
+            self.write(self.m("01_Standards/feature_availability.yaml"),
+                       features.dump(fdata, self.code).replace("# baseline:", "# TODO(bootstrap): fill each row's available cell, then `gla features render`.\n# baseline:", 1))
+            L += ["", "## 4. Feature availability by slot", "", features.render_table(fdata), "",
               MARK % "fill feature_availability.yaml (what each slot makes available) and render; add the course-wide ceilings here."]
         L += ["", "## 5. Environment and provenance", "",
               "- **In class:** %s" % env.get("in_class", ""), "- **At home:** %s" % env.get("at_home", ""), "- **Authorship evidence:** %s" % env.get("provenance", "")]
         L += ["", "## 6. Course-specific content rules", ""] + ["- %s" % t[0].upper() + t[1:] + "." for t in (d.get("typography") or [])]
-        L += ["", MARK % "anything else true of this course only.", "",
-              "## 7. Culminating project constraints", "", "See `%s/PROJECT_DECISIONS.md`." % self.cp_dir, "",
-              "## 8. Pointers", "",
+        L += ["", MARK % "anything else true of this course only.", ""]
+        if self.a.has_cp:
+            L += ["## 7. Culminating project constraints", "", "See `%s/PROJECT_DECISIONS.md`." % self.cp_dir, ""]
+        L += ["## 8. Pointers", "",
               "- Coverage map: `01_Standards/Curriculum_Coverage_Map.md`",
               "- Assessment plan: `00_Admin/Assessment_Plan.md`",
               "- Bootstrap decisions: `00_Admin/BOOTSTRAP_DELTAS.md`"]
@@ -783,7 +894,7 @@ class Builder:
         base = self.m(self.rh_dir)
         d = self.d
         Y = ["# %s rehydration parameters, read by the shared generator" % self.code,
-             "# (Teaching/Skills/semester/scripts/rehydrate.py).",
+             "# (the semester skill's rehydrate.py, run as `gla rehydrate`).",
              "# Rehydration_Guide.md and Compression_Table.md explain the reasoning; this",
              "# file holds the numbers and slot lists. Change both together.",
              "# Written by scaffold_course.py: week_plans name files author-week will write.",
@@ -794,9 +905,10 @@ class Builder:
         for u in self.units:
             Y += ["  - block: %s" % u["id"], "    week_plans:"]
             Y += ["      - master/02_Units/%s/%s/week_plan.yaml" % (u["dir"], w) for w in u["weeks"]]
-        cp = "master/%s" % self.cp_dir
-        Y += ["  - block: CP", "    week_plans:", "      - %s/Launch_Week/week_plan.yaml" % cp]
-        Y += ["      - %s/week_plan_W%d.yaml" % (cp, k) for k in range(2, self.cp_weeks() + 1)]
+        if self.a.has_cp:
+            cp = "master/%s" % self.cp_dir
+            Y += ["  - block: CP", "    week_plans:", "      - %s/Launch_Week/week_plan.yaml" % cp]
+            Y += ["      - %s/week_plan_W%d.yaml" % (cp, k) for k in range(2, self.cp_weeks() + 1)]
         sb = self.a.standby
         if sb:
             Y += ["", "modules:", "  - name: %s" % sb["config_key"], "    mode_key: modules.%s" % sb["config_key"], "    forms:", "      none:", "        week_plans: []"]
@@ -811,7 +923,7 @@ class Builder:
         else:
             Y += ["", "modules: []"]
         Y += ["", "# TODO(bootstrap): derive the tiers from this course's rhythms (Compression_Table.md); never copy a sibling's.",
-              "compression:", "  floor: { slots: 0, blocks: [%s] }" % ", ".join([u["id"] for u in self.units] + ["CP"]), "  tiers: []"]
+              "compression:", "  floor: { slots: 0, blocks: [%s] }" % ", ".join([u["id"] for u in self.units] + (["CP"] if self.a.has_cp else [])), "  tiers: []"]
         self.write(base + "/rehydration.yaml", "\n".join(Y))
         rows = ["| %d | %s | %s | %s |" % (k, b, s, w) for k, (b, s, _, w) in enumerate(self.block_rows(), 1)]
         self.write(base + "/Rehydration_Guide.md", "\n".join([
@@ -819,10 +931,11 @@ class Builder:
             "The algorithm is `%s/rehydration/Rehydration_Framework.md`; the numbers the generator reads are in `rehydration.yaml` beside this file." % STD, "",
             "## Slot sequence", "", "| Order | Block | Slots | Notes |", "|-------|-------|-------|-------|", *rows, "",
             "Nominal size: %d slots.%s" % (self.nominal_slots(), " The %s block is a standby module (`%s`)." % (sb["block"], self.standby_dir) if sb else ""), "",
-            "## Fit parameters", "", MARK % "compression pointer and sanctioned floor, units and CP separately.", "",
+            "## Fit parameters", "", MARK % ("compression pointer and sanctioned floor, units and CP separately." if self.a.has_cp else "compression pointer and sanctioned floor."), "",
             "## Reserve-spill designation", "", MARK % "which block may spill into reserve days, if any.", "",
             "## Hard constraints", "", "- Each unit test sits in its unit's last week.", "- Assignment windows are 7 to 10 class days.",
-            "- Culminating demos end at least 2 class days before the exam period.", "", MARK % "short-unit D1 pins and CP placement.", "",
+            *(["- Culminating demos end at least 2 class days before the exam period."] if self.a.has_cp else []), "",
+            MARK % ("short-unit D1 pins and CP placement." if self.a.has_cp else "short-unit D1 pins."), "",
             "## Course invariants", "", "- Weights total 100.", "- Cross-cutting anchors survive compression." if (d["curriculum"].get("cross_cutting")) else "- Load-bearing artifacts survive compression.", "",
             "## Weighting recomputation", "", MARK % "how weights fold when an artifact is cut.", "",
             "## Mid-semester adjustments", "", "Use the semester skill's mid-semester mode (`build_semester.py recalendar`).", "",
@@ -848,7 +961,9 @@ class Builder:
         tree += ["│   ├── %s/" % u["dir"] for u in self.units]
         if self.standby_dir:
             tree.append("├── %s/" % self.standby_dir)
-        tree += ["├── %s/" % self.cp_dir, "└── %s/" % self.rh_dir]
+        if self.cp_dir:
+            tree.append("├── %s/" % self.cp_dir)
+        tree.append("└── %s/" % self.rh_dir)
         reg = ["", "### Root", "", "- `course.yaml`: the parameters every shared skill reads.", "- `gdocs_manifest.yaml`: Google Docs conversion rules.", ""]
         sections = {}
         for rel in self.written:
@@ -865,7 +980,8 @@ class Builder:
             "## Slot blocks", "", "| Block | Slots | Weeks | What it is |", "|-------|-------|-------|------------|", *rows, "",
             "## Weekly rhythms", "", ", ".join(self.d.get("rhythms") or ["standard"]) + ". See `01_Standards/Style_Guide.md`.", "",
             "## Layout", "", "```", *tree, "```", "",
-            "## Inside a week folder", "", "`week_plan.yaml`, `lesson_D<n>_<Topic>.md`, `deck_D<n>_<Topic>.html`, `EX_<Name>.md` with `EX_<Name>_KEY.md`%s, `REF_<Topic>.md`." % (", `BRIEF_<Name>.md` with `BRIEF_<Name>_MARKING.md`" if self.d.get("studio") else ""), "",
+            "## Inside a week folder", "", "`week_plan.yaml`, `D<n>_Lesson_<Topic>.md`%s, `EX_<Name>.md` with `EX_<Name>_KEY.md`%s, `REF_<Topic>.md`." % (
+                ", `D<n>_Slides_<Topic>.html` with its `_GUIDE.md`" if self.d.get("decks", True) else "",", `BRIEF_<Name>.md` with `BRIEF_<Name>_MARKING.md`" if self.d.get("studio") else ""), "",
             "## Shared standards package", "", "`%s/` in the GLA install (`gla where` prints its folder); referenced, never copied." % STD, "",
             "## Rules that live here", "", "- Register every new file below.", "- No version suffixes; git is the history.", "- No dates outside `instances/`.",
             "- Record every bootstrap decision in `00_Admin/BOOTSTRAP_DELTAS.md`.", "",
@@ -878,7 +994,7 @@ class Builder:
              "- `master/`: the date-agnostic course (start at `master/MASTER_INDEX.md`).",
              "- `instances/`: dated semester rehydrations, made by the semester skill.",
              "- Shared standards: `%s/` in the GLA install (`gla where` prints its folder)." % STD,
-             "- Curriculum source: `%s`." % os.path.relpath(curriculum.page_path(self.code), paths.TEACHING_ROOT), "",
+             "- Curriculum source: `%s`." % gla_rel(curriculum.page_path(self.code)), "",
              "Feeder role: %s" % c.get("feeder_role", ""), "",
              "Bootstrap decisions: `master/00_Admin/BOOTSTRAP_DELTAS.md`."]
         self.write("README.md", "\n".join(L))
@@ -936,6 +1052,8 @@ def main(argv=None):
     i = sub.add_parser("init")
     i.add_argument("code")
     i.add_argument("--out")
+    k = sub.add_parser("codes")
+    k.add_argument("code")
     c = sub.add_parser("check")
     c.add_argument("answers")
     b = sub.add_parser("build")
@@ -943,6 +1061,14 @@ def main(argv=None):
     b.add_argument("--dest", required=True)
     b.add_argument("--force", action="store_true")
     args = ap.parse_args(argv)
+
+    if args.cmd == "codes":
+        try:
+            print(codes_text(args.code.upper()), end="")
+        except FileNotFoundError as e:
+            print("ERROR: %s" % e)
+            return 1
+        return 0
 
     if args.cmd == "init":
         code = args.code.upper()

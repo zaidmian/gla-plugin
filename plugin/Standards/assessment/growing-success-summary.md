@@ -282,6 +282,8 @@ These appear on the ministry page and are **not** in the 2010 PDF. Newest first.
 |--------------|:-----------:|:----------------:|
 | English, Mathematics, Science | 20% | — |
 | Canadian and World Studies (Geography) | 20% | — |
+| Canadian and World Studies (History) | 20% | — |
+| Canadian and World Studies (Civics) | 20% | — |
 | The Arts; Computer Studies; Health and Physical Education; Technological Education | 10% | 10% |
 | Business Studies; Social Sciences and Humanities | 10% | 10% |
 | Classical Studies and International Languages; French / Native Languages | 10% | 10% |
@@ -300,6 +302,10 @@ These appear on the ministry page and are **not** in the 2010 PDF. Newest first.
 | First Nations, Métis, and Inuit Studies | 10% | 15% |
 
 **Special case:** English courses **NBE3U and NBE3C** require a **25% written exam.**
+
+**Special case:** for **MTH1W** the EQAO Grade 9 Assessment of Mathematics counts as the **20% written exam**.
+
+The Ministry's Grades 9-10 table names Geography for Grade 9 and "History, Civics and Citizenship" for Grade 10 in its Canadian and World Studies row; the three rows above split it so a course title matches one.
 
 ### Exemptions from the written-exam requirement
 

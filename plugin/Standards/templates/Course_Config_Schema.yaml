@@ -25,6 +25,16 @@ hours: 110
 language: Java                                # null for a non-programming course
 conventions_file: Java_Conventions.md         # null for a non-programming course
 
+# What the course's content has. Leave a key out for the default shown (the
+# Computer Studies shape). Code samples and the feature-availability table
+# follow `language`: a course with language null has neither.
+decks: true                                   # a slide deck and its teacher guide on every teach day;
+                                              #   false: teach days need the lesson only
+deck_slides: [15, 25]                         # the slide-count range the deck check warns outside
+test_parts: [A, B]                            # the unit test's parts, in order. A is multiple choice;
+                                              #   every later part is written items numbered with its
+                                              #   letter (B1, C1). History might use [A, B, C].
+
 # Folder under master/ that holds Rehydration_Guide.md, Compression_Table.md,
 # and (optionally) the course's own Semester_Config_Template.yaml.
 rehydration_dir: 05_Rehydration               # [required]

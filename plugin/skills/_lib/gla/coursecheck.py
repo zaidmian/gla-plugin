@@ -49,6 +49,8 @@ MONTH_PHRASE = re.compile(r"\b(?:by|in|until|before|after|since|from|through|dur
 DOING_VERB = re.compile(r"^\s*(?:apply|build|code|create|design|develop|implement|modify|produce|program|use|write)\b", re.I)
 PAPER = re.compile(r"\b(?:tests?|exam)\b", re.I)
 SUBMITTED = re.compile(r"assignment|brief|ship|exercise|\bEX_|\bCP\b|project|portfolio|submission|design doc", re.I)
+MD_IMAGE = re.compile(r"!\[[^\]]*\]\(([^)\s]+)\)")
+HTML_IMAGE = re.compile(r"<img\b[^>]*\bsrc=[\"']([^\"']+)[\"']", re.I)
 EMOJI = re.compile("[\U0001F000-\U0001FAFF]|\uFE0F")  # pictographic emoji; check marks and arrows are fine
 BAD_NAME = re.compile(r"(_v\d+|_final|_enhanced|[ _-]copy)(\.|_|$)", re.I)
 STATUSES = ("planned", "built", "verified")
@@ -140,16 +142,19 @@ class CourseCheck:
         own_folder = os.path.basename(path) == "week_plan.yaml"
         names = os.listdir(folder)
         theme = self.cfg.get("deck_theme", "glass")
+        need_deck = course.switch(self.cfg, "decks")
         for d in plan.get("daily_lessons") or []:
             n, dt = d.get("day"), d.get("day_type")
             lessons = [x for x in names if re.match(r"^D%s_Lesson_(.+)\.md$" % n, x)]
             decks = [x for x in names if re.match(r"^D%s_Slides_(.+)\.html$" % n, x) and not x.endswith(DECK3D)]
             extras = [x for x in names if re.match(r"^D%s_Slides_(.+)%s$" % (n, re.escape(DECK3D)), x)]
             if dt == "teach" and own_folder:
-                if len(lessons) != 1 or len(decks) != 1:
+                if len(lessons) != 1 or len(decks) > 1 or (need_deck and not decks):
                     self.r.error("teach-pair", path, "D%s is a teach day but the folder has %d lesson(s) and %d deck(s)" % (n, len(lessons), len(decks)))
                     continue
                 lt = lessons[0][len("D%s_Lesson_" % n):-3]
+                if not decks:   # a course without decks (course.yaml decks: false)
+                    continue
                 st = decks[0][len("D%s_Slides_" % n):-5]
                 if lt != st:
                     self.r.error("teach-pair", path, "D%s lesson topic %r and deck topic %r differ" % (n, lt, st))
@@ -161,6 +166,15 @@ class CourseCheck:
                     self.check_deck3d(os.path.join(folder, x), str(d.get("slot")), header_codes(_read(os.path.join(folder, lessons[0]))) or set())
             elif dt == "teach":
                 self.r.warn("teach-pair", path, "D%s is a teach day in a plan without its own folder; no lesson or deck to check" % n)
+            elif dt == "wet_lab" and own_folder:
+                labs = [x for x in names if re.match(r"^D%s_Lab_(.+)\.md$" % n, x) and not x.endswith("_Sheet.md")]
+                if len(labs) != 1:
+                    self.r.error("wet-lab", path, "D%s is a wet_lab day but the folder has %d D%s_Lab_ file(s)" % (n, len(labs), n))
+                else:
+                    text = _read(os.path.join(folder, labs[0]))
+                    for head in ("## Safety", "## If a substitute is covering this day"):
+                        if not re.search(r"^%s\b" % re.escape(head), text, re.M):
+                            self.r.error("wet-lab", os.path.join(folder, labs[0]), "no %r section (Standards/templates/Lab_Template.md)" % head)
             elif own_folder and (lessons or decks or extras):
                 self.r.error("teach-pair", path, "D%s is a %s day but has %s" % (n, dt, ", ".join(lessons + decks + extras)))
 
@@ -205,6 +219,8 @@ class CourseCheck:
     def check_features(self):
         """The Style Guide's feature table is rendered from feature_availability.yaml."""
         from . import features
+        if not self.cfg.get("language"):   # no code, so no feature table
+            return
         if features.load(self.root) is None:
             if features.table_rows(_read(self.rel(features.STYLE)) if os.path.exists(self.rel(features.STYLE)) else ""):
                 self.r.warn("features-yaml", self.rel(features.STYLE), "the feature table has no feature_availability.yaml; run `gla features extract`")
@@ -457,7 +473,7 @@ class CourseCheck:
             ci = next((k for k, h in enumerate(hdr) if "code" in h.lower() or "expectation" in h.lower()), None)
             have = set()
             for _, c in rows:
-                if ci is not None and ci < len(c) and re.match(r"\**[AB]\d", c[0].strip()):
+                if ci is not None and ci < len(c) and re.match(r"\**[%s]\d" % "".join(course.switch(self.cfg, "test_parts")), c[0].strip()):
                     have |= expand_codes(c[ci])
             self._compare(mp, ct_path, "%s test" % u, claims.get(("test", u), set()), have, "map-test")
         for folder in self.files("02_Units/*/Assessment/Assignment_*/"):
@@ -525,6 +541,31 @@ class CourseCheck:
             if not glob.glob(os.path.join(self.root, g), recursive=True):
                 self.r.warn("manifest-glob", path, "glob %r matches no file" % g)
 
+    # ------------------------------------------------------------- images
+    def check_images(self):
+        """Images are local files in images/ with a credit line (Style Guide Core §4)."""
+        for dirpath, dirs, files in os.walk(self.master):
+            dirs[:] = [d for d in dirs if not d.startswith(".")]
+            for n in files:
+                if not n.endswith((".md", ".html")):
+                    continue
+                full = os.path.join(dirpath, n)
+                text = _read(full)
+                rx = HTML_IMAGE if n.endswith(".html") else MD_IMAGE
+                for m in rx.finditer(text):
+                    src, line = m.group(1), text.count("\n", 0, m.start()) + 1
+                    if src.startswith("data:"):
+                        continue
+                    if re.match(r"^[a-z]+://|^//", src, re.I):
+                        self.r.error("image-remote", full, "image %s is a web address; save it in images/ beside the file" % src, line)
+                        continue
+                    if not os.path.isfile(os.path.join(dirpath, src)):
+                        self.r.error("image-missing", full, "image %s not found" % src, line)
+                    after = text[m.end():m.end() + 600] if n.endswith(".html") else "\n".join(
+                        l for l in text[m.end():].splitlines()[:4])
+                    if "Credit:" not in after:
+                        self.r.warn("image-credit", full, "image %s has no 'Credit:' line under it" % src, line)
+
     # ---------------------------------------------- master hygiene and style
     def check_master_files(self, style=True):
         index = os.path.join(self.master, "MASTER_INDEX.md")
@@ -581,5 +622,6 @@ def check(root, report, style=True):
     c.check_manifest()
     c.check_guides()
     c.check_features()
+    c.check_images()
     c.check_master_files(style=style)
     return c

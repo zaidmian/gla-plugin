@@ -71,7 +71,7 @@ Invoked as `/bootstrap-gla-course TAS1O`, the course code is `$ARGUMENTS`.
 
 ### 1. Write the answers file
 
-`gla course init <CODE> --out <CODE>_answers.yaml` (in the scratchpad, never inside a course). It detects the era (JSON present: modern, Ministry codes; page only: 2008, positional local codes, see `references/curriculum.md`), the cross-cutting strand, title, grade, type, prerequisite, and the exam/culminating split from the Growing Success matrix, marking each `DETECT`. Everything the teacher decides is `TODO`, grouped by the batches below.
+`gla course init <CODE> --out <CODE>_answers.yaml` (in the scratchpad, never inside a course). It detects the era (JSON present: modern, Ministry codes; page only: 2008, positional local codes, see `references/curriculum.md`), the cross-cutting strand, title, grade, type, prerequisite, and the exam/culminating split from the Growing Success matrix, marking each `DETECT`. A subject with no culminating task (English, Mathematics, Science) gets `culminating: null`, and the build makes no CP block. Outside Computer Studies and Technological Education it detects `language: null`. It prefills one unit per strand that is not cross-cutting (the strand's codes, weeks from its share of the expectations, an even share of the classroom 65%), each line marked `CONFIRM` and each strand's overall expectations printed above its unit; reshape them with the teacher. Strands the Ministry left unlettered (2007 English, Business) get letters by position, and the file says so. Everything else the teacher decides is `TODO`, grouped by the batches below. `gla course codes <CODE>` prints every expectation with its code, for a teacher choosing which codes a unit carries.
 
 ### 2. Interview through the file
 
@@ -152,7 +152,8 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
     that adding one is a shared-package change requiring its own CHANGELOG entry;
     for a non-programming course, name the analogous craft-conventions document
     (citation style, lab-safety, notation). When no such file exists in
-    `Standards/style/`, set both `language` and `conventions_file` to null. [DETECT the file's existence + ASK]
+    `Standards/style/`, set both `language` and `conventions_file` to null. A
+    course with language null has no code samples and no feature table. [DETECT the file's existence + ASK]
 13. Any typography or voice rules the teacher enforces beyond the shared style
     guide (for example: no em-dashes, no emojis anywhere). These are teacher-level
     preferences, recorded in the course-layer `Style_Guide.md`. [ASK — do not assume; confirm each]
@@ -160,6 +161,10 @@ coverage map, not asked up front. Hard rule: no answer, no build. The answers fi
     default) or `gla` (the GLA print palette: maroon, gold, and charcoal grays).
     Both token sets live in `Standards/decks/Slide_Deck_Template.html`. [ASK;
     default glass]
+14a. Does every teach day get a slide deck (`decks: true`, the default), or
+    lessons only (`decks: false`)? And the unit test's parts (`test_parts`):
+    `[A, B]` by default, A multiple choice and B written; a history course might
+    add a C part for an extended response. [ASK; defaults shown]
 
 ### Batch E — Legacy and deployment
 

@@ -22,7 +22,7 @@ Spec (JSON):
     {
       "assignment": "Computer Buying Guide",        required
       "total": 20,                                  required, a multiple of 0.5
-      "type": "programming",                        programming | research | creative | balanced
+      "type": "programming",                        programming | research | creative | balanced | lab_report | essay
       "weights": {"ku": 25, "thinking": 30, ...},   optional, replaces the type's split (must total 100)
       "course": "ICS3U",                            optional; or "subject": "Science"
       "assessment_type": "Assignment",              optional, shown in the Markdown
@@ -63,6 +63,8 @@ SPLITS = {
     "research":    {"ku": 27, "thinking": 27, "communication": 26, "application": 20},
     "creative":    {"ku": 20, "thinking": 25, "communication": 30, "application": 25},
     "balanced":    {"ku": 25, "thinking": 25, "communication": 25, "application": 25},
+    "lab_report":  {"ku": 20, "thinking": 30, "communication": 25, "application": 25},
+    "essay":       {"ku": 20, "thinking": 30, "communication": 30, "application": 20},
 }
 RATIOS = (Decimal("1"), Decimal("0.75"), Decimal("0.6"), Decimal("0.5"), Decimal("0.125"))
 LEVEL_TITLES = ("High Degree of Effectiveness (Level 4)", "Considerable Effectiveness (Level 3)",

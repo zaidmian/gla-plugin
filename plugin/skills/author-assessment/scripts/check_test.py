@@ -3,12 +3,16 @@
 
     python3 check_test.py TEST_FOLDER [--strict]
 
+The parts are course.yaml's test_parts (A and B when it is absent). Part A,
+when listed, is multiple choice; every other part is written items numbered
+with its letter (B1, C1, ...).
+
 Errors (exit 1):
-  - test.md's Part A and Part B marks add up to its **Marks:** header, and each
-    part matches the marks its own heading states
+  - test.md has exactly the course's parts, their marks add up to its
+    **Marks:** header, and each part matches the marks its own heading states
   - every Part A question has four options A to D, and the key gives exactly one
     letter for it
-  - the key has an entry for every Part B question
+  - the key has an entry for every written question (Part B and after)
   - coverage_table.md has one row per question with the question's marks, the
     rows total the test, categories are K/T/C/A, and every code is a real
     curriculum code
@@ -18,7 +22,7 @@ Errors (exit 1):
 Warnings:
   - a code the unit overview lists as primary is not on the test
   - a Part A question appears word for word in the review sheet
-  - Part A falls outside about 40 to 50% of the marks
+  - Part A falls outside about 40 to 50% of the marks (A and B tests only)
   - three or more Part A questions in a row share the same key letter
 Also prints the marks per category.
 """
@@ -36,7 +40,7 @@ CODE = re.compile(r"\b[A-Z]\d+\.\d+\b")
 RANGE = re.compile(r"\b([A-Z]\d+)\.(\d+)\s*[–-]\s*(?:\1\.)?(\d+)\b")
 MARKS_HDR = re.compile(r"^\*\*(?:Marks|Points):\*\*\s*(\d+(?:\.\d+)?)", re.M)
 SLOT_HDR = re.compile(r"^\*\*Slot:\*\*\s*([A-Z][\w.]*\.D\d+)", re.M)
-PART_HEAD = re.compile(r"^## Part ([AB])\b[^\n]*?(?:\((\d+(?:\.\d+)?) marks?)?", re.M)
+PART_HEAD = re.compile(r"^## Part ([A-Z])\b[^\n]*?(?:\((\d+(?:\.\d+)?) marks?)?", re.M)
 A_QUESTION = re.compile(r"^(\d+)\.\s+\S", re.M)
 OPTION = re.compile(r"^\s+[-*]\s+([A-D])\.\s", re.M)
 # Part B items: "**B1.** (3 marks)", "**B1. Tracing (5 marks)**", "### B1. Output tracing (3 marks: ...)",
@@ -45,8 +49,10 @@ OPTION = re.compile(r"^\s+[-*]\s+([A-D])\.\s", re.M)
 SHOWN_ANSWER = re.compile(r"^\s*(?:[-*]\s+)?\**(?:Answer|Correct answer|Solution)s?\**\s*:"
                           r"|^\s+[-*]\s+(?:\*\*[A-D]\.|[A-D]\.\s+\*\*[^*\n]+\*\*\s*$)"
                           r"|^\s+[-*]\s+[A-D]\..*(?:\u2713|\u2714|\(correct\))", re.M | re.I)
-B_ITEM = re.compile(r"^(?:\*\*|### )B(\d+)\.\**[^\n(]*?\((\d+(?:\.\d+)?)\s*(?:marks?)?\s*[,:;)]"
-                    r"|^(\d+)\.\s*\((\d+(?:\.\d+)?)\s*(?:marks?)?\)", re.M)
+# Every part after A is written like Part B, with its own letter (C1, D1, ...).
+# Part A, when the course's test_parts has it, is the multiple-choice part.
+ITEM = r"^(?:\*\*|### )%s(\d+)\.\**[^\n(]*?\((\d+(?:\.\d+)?)\s*(?:marks?)?\s*[,:;)]|^(\d+)\.\s*\((\d+(?:\.\d+)?)\s*(?:marks?)?\)"
+B_ITEM = re.compile(ITEM % "B", re.M)
 
 
 def read(p):
@@ -83,14 +89,25 @@ def part_a(sec):
     return out
 
 
-def part_b(sec):
-    """[(id, marks)]: id 'B1' for **B1.** items, 'B21' for '21. (5 marks)' items."""
+def part_b(sec, letter="B"):
+    """[(id, marks)]: id 'B1' for **B1.** items, 'B21' for '21. (5 marks)' items
+    (another written part uses its own letter: C1, C21)."""
     out = []
-    for m in B_ITEM.finditer(sec):
+    for m in re.finditer(ITEM % letter, sec, re.M):
         num = m.group(1) or m.group(3)
         marks = m.group(2) or m.group(4)
-        out.append(("B%s" % num, float(marks)))
+        out.append(("%s%s" % (letter, num), float(marks)))
     return out
+
+
+def course_parts(folder):
+    """The test's part letters from the course's course.yaml (test_parts), default A and B."""
+    root = coursemod.find_root(folder)
+    try:
+        cfg = coursemod.load(root) if root else {}
+    except Exception:  # noqa: BLE001  a broken course.yaml is check_course's finding
+        cfg = {}
+    return list(coursemod.switch(cfg, "test_parts"))
 
 
 def key_answers(key):
@@ -111,9 +128,12 @@ def norm(t):
     return re.sub(r"\s+", " ", re.sub(r"[`*_]", "", t)).strip().lower()
 
 
-def check(folder, report, known=None, primary=None):
+def check(folder, report, known=None, primary=None, parts=None):
     """Add findings for one Test folder. known: the course's curriculum codes;
-    primary: the unit's primary codes from unit_overview."""
+    primary: the unit's primary codes from unit_overview; parts: the test's part
+    letters (course.yaml test_parts when None)."""
+    parts = parts or course_parts(folder)
+    written = [x for x in parts if x != "A"]
     paths = {n: os.path.join(folder, n) for n in ("test.md", "test_KEY.md", "coverage_table.md", "review_sheet.md", "test_reference.md")}
     for n, p in paths.items():
         if not os.path.exists(p):
@@ -127,14 +147,21 @@ def check(folder, report, known=None, primary=None):
     if total is None:
         report.error("test-header", tp, "no **Marks:** line")
     secs, heads = sections(test)
-    if "A" not in secs or "B" not in secs:
-        report.error("test-structure", tp, "needs both '## Part A' and '## Part B' sections")
+    missing = [x for x in parts if x not in secs]
+    if missing:
+        report.error("test-structure", tp, "needs %s (course.yaml test_parts: %s); missing %s" % (
+            ", ".join("'## Part %s'" % x for x in parts), ", ".join(parts), ", ".join(missing)))
         return None
-    qa, qb = part_a(secs["A"]), part_b(secs["B"])
-    if not qa:
+    for x in sorted(set(secs) - set(parts)):
+        report.error("test-structure", tp, "Part %s is not in course.yaml test_parts (%s)" % (x, ", ".join(parts)))
+    qa = part_a(secs["A"]) if "A" in parts else []
+    qparts = {x: part_b(secs[x], x) for x in written}
+    qb = [q for x in written for q in qparts[x]]
+    if "A" in parts and not qa:
         report.error("test-structure", tp, "Part A has no numbered questions")
-    if not qb:
-        report.error("test-structure", tp, "Part B has no questions with marks (\"**B1.** (3 marks)\" or \"21. (5 marks)\")")
+    for x in written:
+        if not qparts[x]:
+            report.error("test-structure", tp, "Part %s has no questions with marks (\"**%s1.** (3 marks)\" or \"21. (5 marks)\")" % (x, x))
     nums = [n for n, _, _ in qa]
     if nums != list(range(nums[0], nums[0] + len(nums))) if nums else False:
         report.error("test-structure", tp, "Part A questions are not numbered consecutively: %s" % nums)
@@ -145,13 +172,17 @@ def check(folder, report, known=None, primary=None):
         line = test.count("\n", 0, m.start()) + 1
         report.error("test-answer", tp, "the student paper shows an answer: %s" % m.group(0).strip()[:60], line)
     a_marks, b_marks = float(len(qa)), sum(mk for _, mk in qb)
-    if heads.get("A") is not None and heads["A"] != a_marks:
+    marks = dict([("A", a_marks)] if "A" in parts else [])
+    marks.update({x: sum(mk for _, mk in qparts[x]) for x in written})
+    if "A" in parts and heads.get("A") is not None and heads["A"] != a_marks:
         report.error("test-marks", tp, "Part A heading says %g marks; it has %d one-mark questions" % (heads["A"], len(qa)))
-    if heads.get("B") is not None and abs(heads["B"] - b_marks) > 0.01:
-        report.error("test-marks", tp, "Part B heading says %g marks; its questions total %g" % (heads["B"], b_marks))
-    if total is not None and abs(a_marks + b_marks - total) > 0.01:
-        report.error("test-marks", tp, "Part A (%g) + Part B (%g) = %g, but the header says %g" % (a_marks, b_marks, a_marks + b_marks, total))
-    if total and not 0.35 <= a_marks / total <= 0.55:
+    for x in written:
+        if heads.get(x) is not None and abs(heads[x] - marks[x]) > 0.01:
+            report.error("test-marks", tp, "Part %s heading says %g marks; its questions total %g" % (x, heads[x], marks[x]))
+    if total is not None and abs(sum(marks.values()) - total) > 0.01:
+        report.error("test-marks", tp, "%s = %g, but the header says %g" % (
+            " + ".join("Part %s (%g)" % (x, marks[x]) for x in parts), sum(marks.values()), total))
+    if total and parts == ["A", "B"] and not 0.35 <= a_marks / total <= 0.55:
         report.warn("test-balance", tp, "Part A is %d%% of the marks (the template says about 40 to 50%%)" % round(100 * a_marks / total))
 
     if os.path.exists(paths["test_KEY.md"]):
@@ -173,7 +204,7 @@ def check(folder, report, known=None, primary=None):
         heads_text = "\n".join(l for l in key.splitlines() if l.startswith(("#", "**")))
         for qid, _ in qb:
             n = qid[1:]
-            if not re.search(r"\b[BQ]%s\b|^(?:#+|\*\*)\s*%s[.:)]" % (re.escape(n), re.escape(n)), heads_text, re.M):
+            if not re.search(r"\b[%sQ]%s\b|^(?:#+|\*\*)\s*%s[.:)]" % (qid[0], re.escape(n), re.escape(n)), heads_text, re.M):
                 report.error("key-missing", kp, "no key entry for %s" % qid)
         km = MARKS_HDR.search(key)
         if km and total is not None and float(km.group(1)) != total:
@@ -196,7 +227,7 @@ def check(folder, report, known=None, primary=None):
             for line, c in rows:
                 if mdtable.is_total(c) or qi >= len(c):
                     continue
-                qid = re.match(r"\**([AB]\d+)", c[qi].strip())   # B5a and B5b are parts of B5
+                qid = re.match(r"\**([%s]\d+)" % "".join(parts), c[qi].strip())   # B5a and B5b are parts of B5
                 if not qid:
                     continue
                 qid = qid.group(1)
@@ -248,7 +279,7 @@ def check(folder, report, known=None, primary=None):
             stem = norm(re.sub(r"^\d+\.\s*", "", body.strip().splitlines()[0]))
             if len(stem) >= 30 and stem in review:
                 report.warn("review-copy", paths["review_sheet.md"], "Part A question %d appears word for word" % n)
-    return {"a_marks": a_marks, "b_marks": b_marks, "total": total}
+    return {"a_marks": a_marks, "b_marks": b_marks, "marks": marks, "total": total}
 
 
 def unit_context(folder):
@@ -318,7 +349,7 @@ def main(argv=None):
     report.apply_allows()
     report.print(title="Test check: %s" % os.path.relpath(os.path.abspath(a.folder), root or "."))
     if info and report.categories:
-        print("marks: Part A %g, Part B %g; by category: %s" % (info["a_marks"], info["b_marks"],
+        print("marks: %s; by category: %s" % (", ".join("Part %s %g" % kv for kv in info["marks"].items()),
               ", ".join("%s %g" % (k, round(v, 1)) for k, v in sorted(report.categories.items()))))
     return report.exit_code(a.strict)
 

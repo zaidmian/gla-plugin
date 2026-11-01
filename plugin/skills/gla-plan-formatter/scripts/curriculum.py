@@ -59,8 +59,38 @@ def course_text(code):
     parts = re.split(r"^(?=# )", text, flags=re.M)
     for part in parts:
         if part.startswith(f"# {title}\n"):
-            return part.rstrip() + "\n"
+            return letter_strands(part.rstrip() + "\n")
     sys.exit(f"course '{code}' is indexed but its section was not found in {fname}")
+
+
+_BARE_STRAND_RX = re.compile(r"^### (?![A-Z]\. )(.+)$")
+_BARE_OVERALL_RX = re.compile(r"^\*\*(\d+)((?:\s[^*]*)?\*\*\s)")
+LETTER_NOTE = "Strand letters are assigned by position (the ministry document does not letter its strands)."
+
+
+def letter_strands(text):
+    """Give unlettered strands (all 2007 English, all Business) a letter by
+    position, A, B, C in document order, and prefix their overall expectations
+    with it, so codes stay unique across strands."""
+    lines, out, n, letter, assigned = text.splitlines(), [], 0, None, False
+    for line in lines:
+        if line.startswith("### "):
+            n += 1
+            m = _STRAND_RX.match(line)
+            if m:
+                letter = m.group(1)
+            else:
+                letter = chr(ord("A") + n - 1)
+                line = f"### {letter}. {_BARE_STRAND_RX.match(line).group(1)}"
+                assigned = True
+        elif letter:
+            m = _BARE_OVERALL_RX.match(line)
+            if m:
+                line = f"**{letter}{m.group(1)}{m.group(2)}{line[m.end():]}"
+        out.append(line)
+    if assigned:
+        out += ["", LETTER_NOTE]
+    return "\n".join(out) + "\n"
 
 
 def number_specifics(lines):

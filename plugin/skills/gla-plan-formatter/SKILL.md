@@ -17,7 +17,7 @@ description: >-
   formatting unrelated to planning, or for rubrics (use gc-rubric).
 license: Proprietary
 metadata:
-  version: "2.5.3"
+  version: "2.5.4"
   built: "2026-10-31"
 ---
 
