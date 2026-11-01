@@ -370,7 +370,7 @@ class Scaffolder:
             tok = topic_token(self.w.title)
             self.notes.append("no REF listed for W%d; --only ref derived REF_%s from the week title" % (self.week, tok))
             return {"token": tok, "src": "derived from the week title (--only ref)"}
-        self.notes.append("no REF listed for W%d under ## Reference sheets; none created (an earlier week's sheet covers it, or pass --only ref)" % self.week)
+        self.notes.append("no REF listed for W%d under ## Reference sheets; none created (an earlier week's sheet covers it, or pass --part ref)" % self.week)
         return None
 
     # -- writers

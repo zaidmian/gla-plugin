@@ -58,8 +58,26 @@ sys.path.insert(0, os.path.join(SKILLS, "_lib"))
 PLAN_FORMATTER = os.path.join(SKILLS, "gla-plan-formatter", "scripts", "build_plan.py")
 
 
+GLA_NAMES = {"rehydrate.py": "rehydrate", "check_instance.py": "instance", "convert_instance.py": "gdocs",
+             "build_calendar.py": "calendar", "build_plan.py": "plan"}
+
+
+def shown(cmd):
+    """A step's command as the teacher would type it: the gla command, paths relative to the course."""
+    out = []
+    for a in cmd[1:]:
+        name = os.path.basename(a)
+        if a.endswith(".py") and name in GLA_NAMES:
+            out.append("gla " + GLA_NAMES[name])
+        elif os.path.isabs(a) and a.startswith(os.getcwd() + os.sep):
+            out.append(os.path.relpath(a))
+        else:
+            out.append(a)
+    return " ".join(out)
+
+
 def step(title, cmd, ok=(0,)):
-    print("\n== %s\n$ %s" % (title, " ".join(cmd)), flush=True)
+    print("\n== %s\n$ %s" % (title, shown(cmd)), flush=True)
     rc = subprocess.run(cmd).returncode
     if rc not in ok:
         print("\nSTOPPED at '%s' (exit %d)." % (title, rc))
@@ -115,7 +133,10 @@ def init_config(name, prev=None, today=None):
     with open(template_path(), encoding="utf-8") as f:
         text = f.read()
     folder = name.replace(" ", "_")
-    notes = ["template: %s" % os.path.relpath(template_path())]
+    tp = os.path.realpath(template_path())
+    shared = os.path.realpath(os.path.join(SKILLS, ".."))
+    notes = ["template: %s" % ("GLA_ROOT/" + os.path.relpath(tp, shared).replace(os.sep, "/") if tp.startswith(shared + os.sep)
+                               else os.path.relpath(tp))]
     pcfg, patch = {}, None
     if prev:
         pdir = os.path.join("instances", prev)
@@ -335,7 +356,7 @@ def recalendar(a):
             print("\nNot applied. Change the config or list the items in accept_rule_breaks, then rerun.")
             return 3
     if not a.apply:
-        print("\nDry run: nothing written. To apply: build_semester.py recalendar %s%s%s --apply"
+        print("\nDry run: nothing written. To apply: gla semester recalendar %s%s%s --apply"
               % (a.semester, " --resume-from %s" % a.resume_from if a.resume_from else "",
                  "".join(" --%s %s" % (opt, " ".join(v)) for opt, v in (("postpone", a.postpone), ("skip", a.skip),
                          ("no-class", a.no_class), ("move", a.move)) if v)))
@@ -395,7 +416,7 @@ def main(argv=None):
         print("wrote %s (%d TODO field(s))" % (out, len(left)))
         for n_ in notes:
             print("  " + n_)
-        print("Fill every TODO, then: python3 %s new %s" % (os.path.join(HERE, "build_semester.py"), out))
+        print("Fill every TODO, then: gla semester new %s" % out)
         return 0
     if a.mode == "new":
         with open(a.config, encoding="utf-8") as f:

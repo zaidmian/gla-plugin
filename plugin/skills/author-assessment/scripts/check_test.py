@@ -48,6 +48,8 @@ OPTION = re.compile(r"^\s+[-*]\s+([A-D])\.\s", re.M)
 SHOWN_ANSWER = re.compile(r"^\s*(?:[-*]\s+)?\**(?:Answer|Correct answer|Solution)s?\**\s*:"
                           r"|^\s+[-*]\s+(?:\*\*[A-D]\.|[A-D]\.\s+\*\*[^*\n]+\*\*\s*$)"
                           r"|^\s+[-*]\s+[A-D]\..*(?:\u2713|\u2714|\(correct\))", re.M | re.I)
+# A line holding only an italic parenthetical note, "*(74 >= 80 false; ...)*".
+WORKING_NOTE = re.compile(r"^[ \t]*\*\(([^\n]*)\)\*[ \t]*$", re.M)
 # Every part after A is written like Part B, with its own letter (C1, D1, ...).
 # Part A, when the course's test_parts has it, is the multiple-choice part.
 ITEM = r"^(?:\*\*|### )%s(\d+)\.\**[^\n(]*?\((\d+(?:\.\d+)?)\s*(?:marks?)?\s*[,:;)]|^(\d+)\.\s*\((\d+(?:\.\d+)?)\s*(?:marks?)?\)"
@@ -191,6 +193,11 @@ def check(folder, report, known=None, primary=None, parts=None):
     for n, opts, _ in qa:
         if opts != ["A", "B", "C", "D"]:
             report.error("test-options", tp, "Part A question %d has options %s, not A to D" % (n, "".join(opts) or "none"))
+    for x, sec in secs.items():   # a standalone italic note is working shown to students, unless it is about marks
+        for m in WORKING_NOTE.finditer(sec):
+            if x == "A" or not re.search(r"\bmarks?\b|\bpoints?\b", m.group(1), re.I):
+                line = test.count("\n", 0, test.find(m.group(0))) + 1
+                report.error("test-answer", tp, "Part %s shows working to students: %s" % (x, m.group(0).strip()[:60]), line)
     for m in SHOWN_ANSWER.finditer(test):
         line = test.count("\n", 0, m.start()) + 1
         report.error("test-answer", tp, "the student paper shows an answer: %s" % m.group(0).strip()[:60], line)

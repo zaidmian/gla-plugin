@@ -668,8 +668,8 @@ class Scaffolder:
                 s("rubric:  rubric.csv and rubric.md exist")
             else:
                 s("rubric (not created; gc-rubric builds it once instructions.md is written):")
-                s("  python3 %s --from-assignment %s --spec-out /tmp/rubric.json" % (BUILD_RUBRIC, self.dir))
-                s("  python3 %s /tmp/rubric.json --out %s --name rubric" % (BUILD_RUBRIC, self.dir))
+                s("  gla rubric --from-assignment %s --spec-out /tmp/rubric.json" % os.path.relpath(self.dir, self.root))
+                s("  gla rubric /tmp/rubric.json --out %s --name rubric" % os.path.relpath(self.dir, self.root))
         if self.notes:
             s("notes:")
             for x in self.notes:

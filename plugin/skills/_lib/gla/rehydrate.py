@@ -353,6 +353,7 @@ class Plan:
         floor = (self.params.get("compression") or {}).get("floor")
         if floor:
             kept = sum(1 for s in self.seq + self.done if s.block in floor.get("blocks", []))
+            kept += sum(1 for _, t in self.cuts if t is teacher_tier)   # the floor limits the sanctioned tiers, not the teacher
             if kept < floor["slots"]:
                 raise NeedsTeacher("compression went below the floor (%d < %d); ask the teacher which slots to drop "
                                    "and list them in the config's extra_cuts" % (kept, floor["slots"]))

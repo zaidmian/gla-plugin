@@ -60,7 +60,7 @@ def main(argv=None):
         for i in by_dir[d]:
             what = "partly taught" if i["kind"] == "partial" else "fix in master"
             print("  %s  %s, %s (%s): %s" % (i["key"], i["semester"], i["date"], what, i["note"] or "(no note)"))
-    print("%d open item(s). Resolve one: python3 %s --resolve SEMESTER KEY --change \"...\"" % (len(found), os.path.realpath(__file__)))
+    print("%d open item(s). Resolve one: gla backlog --resolve SEMESTER KEY --change \"...\"" % len(found))
     return 0
 
 

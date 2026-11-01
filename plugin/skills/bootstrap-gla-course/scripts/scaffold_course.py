@@ -1131,8 +1131,8 @@ def main(argv=None):
         print("\nTODO(bootstrap) prose to write (%d files):" % len(bld.marked))
         for rel in bld.marked:
             print("  " + rel)
-    print("\nNext: git init and commit the scaffold (slot numbering freezes at this commit), then run"
-          "\n  python3 %s --root %s --only %s" % (os.path.join(paths.SKILLS, "_tools", "check_course.py"), dest, SELF_CHECK))
+    print("\nNext: git init and commit the scaffold (slot numbering freezes at this commit), then from the course folder run"
+          "\n  gla check --only %s" % SELF_CHECK)
     return 0
 
 
